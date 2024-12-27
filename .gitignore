@@ -1,0 +1,7 @@
+# Ignore vitepress data
+.vitepress/cache
+.vitepress/dist
+# Ignore node modules
+node_modules/
+# Ignore JetBrains configs
+.idea/
