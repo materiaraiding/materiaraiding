@@ -509,40 +509,15 @@ This mechanic is quite dense. I recommend looking through toolboxes in addition 
 
 After a heavy hitting raidwide, several "Spell in waiting" debuffs will be assigned to each player:
 
-<table>
-  <tr>
-    <th>Debuff</th>
-    <th>Explanation</th>
-  </tr>
-  <tr>
-    <td>Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" /></td>
-    <td>Large circle AOE</td>
-  </tr>
-    <tr>
-    <td>Dark Blizzard<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" /></td>
-    <td>Large donut AOE</td>
-  </tr>
-  <tr>
-    <td>Dark Eruption<StatusIcon name="Spell-in-Waiting: Dark Eruption" /></td>
-    <td>Medium circle AOE</td>
-  </tr>
-    <tr>
-    <td>Shadoweye<StatusIcon name="Spell-in-Waiting: Shadoweye" /></td>
-    <td>Gaze centered on the player</td>
-  </tr>
-    <tr>
-    <td>Unholy Darkness<StatusIcon name="Spell-in-Waiting: Unholy Darkness" /></td>
-    <td>Party Stack that must be resolved with 5 players</td>
-  </tr>
-    <tr>
-    <td>Dark Water<StatusIcon name="Spell-in-Waiting: Dark Water III" /></td>
-    <td>A stack that must be resolved with 4 players</td>
-  </tr>
-    <tr>
-    <td>Return<StatusIcon name="Spell-in-Waiting: Return" /></td>
-    <td>A players position will be recorded for later</td>
-  </tr>
-</table>
+| Debuff                                                                      | Explanation                                      |
+|-----------------------------------------------------------------------------|--------------------------------------------------|
+| Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />             | Large circle AOE                                 |
+| Dark Blizzard<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />      | Large donut AOE                                  |
+| Dark Eruption<StatusIcon name="Spell-in-Waiting: Dark Eruption" />          | Medium circle AOE                                |
+| Shadoweye<StatusIcon name="Spell-in-Waiting: Shadoweye" />                  | Gaze centered on the player                      |
+| Unholy Darkness<StatusIcon name="Spell-in-Waiting: Unholy Darkness" />       | Party Stack that must be resolved with 5 players |
+| Dark Water<StatusIcon name="Spell-in-Waiting: Dark Water III" />            | A stack that must be resolved with 4 players     |
+| Return<StatusIcon name="Spell-in-Waiting: Return" />                        | A player's position will be recorded for later   |
 
 These buffs will be distributed amongst each role group to look like the following:
 
