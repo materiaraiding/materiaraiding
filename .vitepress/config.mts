@@ -4,11 +4,10 @@ import {imagePlugin, customBlockPlugin, youtubeEmbedPlugin, timingWindowPlugin} 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	srcDir: "./docs",
-	base: "/materiaraiding/",
 	title: "Materia Raiding",
 	description:
 		"Materia Raiding is a community driven project to collate the various guide and tools created for raiding in the FF14 Materia Datacenter.",
-	head: [["link", {rel: "icon", href: "/materiaraiding/images/favicon.ico"}]],
+	head: [["link", {rel: "icon", href: "/images/favicon.ico"}]],
 	cleanUrls: true,
 	ignoreDeadLinks: true,
 	lastUpdated: true,
