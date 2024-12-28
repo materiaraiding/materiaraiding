@@ -2,3 +2,17 @@
     display: table;
     margin: 20px auto;
 }
+
+/* .vitepress/theme/custom.css */
+:root {
+    --vp-c-brand-1: #c77676;
+    --vp-c-brand-2: #fa226a;
+}
+
+::selection {
+    background: var(--vp-c-brand-1);
+}
+
+strong {
+    color: var(--vp-c-brand-1);
+}

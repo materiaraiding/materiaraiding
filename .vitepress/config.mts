@@ -17,7 +17,15 @@ export default defineConfig({
 		outline: "deep",
 		nav: [
 			{text: "Home", link: "/"},
-			{text: "Guides", link: "/guides"},
+			{
+				text: "Guides",
+				items: [
+					{text: "Extreme", link: "/guides/extreme"},
+					{text: "Savage", link: "/guides/savage"},
+					{text: "Ultimate", link: "/guides/ultimate"},
+					{text: "Criterion", link: "/guides/criterion"},
+				],
+			},
 			{
 				text: "Archive",
 				items: [
@@ -169,97 +177,97 @@ export default defineConfig({
 				"/ex1": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/ex1", "/materiaraiding/guides/ultimate/ex1"),
+					rewrite: (path) => path.replace("/ex1", "/guides/ultimate/ex1"),
 				},
 				"/ex2": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/ex2", "/materiaraiding/guides/ultimate/ex2"),
+					rewrite: (path) => path.replace("/ex2", "/guides/ultimate/ex2"),
 				},
 				"/ex3": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/ex3", "/materiaraiding/guides/ultimate/ex3"),
+					rewrite: (path) => path.replace("/ex3", "/guides/ultimate/ex3"),
 				},
 				"/m1s": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/m1s", "/materiaraiding/guides/savage/m1s"),
+					rewrite: (path) => path.replace("/m1s", "/guides/savage/m1s"),
 				},
 				"/m2s": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/m2s", "/materiaraiding/guides/savage/m2s"),
+					rewrite: (path) => path.replace("/m2s", "/guides/savage/m2s"),
 				},
 				"/m3s": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/m3s", "/materiaraiding/guides/savage/m3s"),
+					rewrite: (path) => path.replace("/m3s", "/guides/savage/m3s"),
 				},
 				"/m4s": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/m4s", "/materiaraiding/guides/savage/m4s"),
+					rewrite: (path) => path.replace("/m4s", "/guides/savage/m4s"),
 				},
 				"/ucob": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/ucob", "/materiaraiding/guides/ultimate/ucob"),
+					rewrite: (path) => path.replace("/ucob", "/guides/ultimate/ucob"),
 				},
 				"/uwu": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/uwu", "/materiaraiding/guides/ultimate/uwu"),
+					rewrite: (path) => path.replace("/uwu", "/guides/ultimate/uwu"),
 				},
 				"/tea": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/tea", "/materiaraiding/guides/ultimate/tea"),
+					rewrite: (path) => path.replace("/tea", "/guides/ultimate/tea"),
 				},
 				"/dsr": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/dsr", "/materiaraiding/guides/ultimate/dsr"),
+					rewrite: (path) => path.replace("/dsr", "/guides/ultimate/dsr"),
 				},
 				"/top": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/top", "/materiaraiding/guides/ultimate/top"),
+					rewrite: (path) => path.replace("/top", "/guides/ultimate/top"),
 				},
 				"/fru": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/fru", "/materiaraiding/guides/ultimate/fru"),
+					rewrite: (path) => path.replace("/fru", "/guides/ultimate/fru"),
 				},
 				"/ass": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/ass", "/materiaraiding/guides/criterion/ass"),
+					rewrite: (path) => path.replace("/ass", "/guides/criterion/ass"),
 				},
 				"/amr": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/amr", "/materiaraiding/guides/criterion/amr"),
+					rewrite: (path) => path.replace("/amr", "/guides/criterion/amr"),
 				},
 				"/aai": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/aai", "/materiaraiding/guides/criterion/aai"),
+					rewrite: (path) => path.replace("/aai", "/guides/criterion/aai"),
 				},
 				"/glossary": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/glossary", "/materiaraiding/resources/glossary"),
+					rewrite: (path) => path.replace("/glossary", "/resources/glossary"),
 				},
 				"/visitorsguide": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/visitorsguide", "/materiaraiding/resources/visitorsguide"),
+					rewrite: (path) => path.replace("/visitorsguide", "/resources/visitorsguide"),
 				},
 				"/macros": {
 					target: "http://localhost:5173",
 					changeOrigin: true,
-					rewrite: (path) => path.replace("/macros", "/materiaraiding/resources/macromate"),
+					rewrite: (path) => path.replace("/macros", "/resources/macromate"),
 				},
 			},
 		},

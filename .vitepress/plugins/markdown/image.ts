@@ -6,7 +6,7 @@ interface Options {
 }
 
 export const imagePlugin = (md: MarkdownIt, options: Options = {}) => {
-	const {basePath = "/materiaraiding", lazyLoading = false} = options;
+	const {basePath = "", lazyLoading = false} = options;
 
 	md.renderer.rules.image = (tokens, idx, options, env, self) => {
 		const token = tokens[idx];
