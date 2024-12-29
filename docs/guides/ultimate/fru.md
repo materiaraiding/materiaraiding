@@ -329,6 +329,8 @@ After dropping their puddles, everyone will quickly rush back to the centre of t
 Moving slightly closer to the wall after your KB can help alleviate some poor AOE placement.
 :::
 
+:::
+
 #### Stillness/Silence
 
 Just after the AOEs are dropped, players should identify **where** the clone of Shiva is (she'll be wearing a white outfit instead of Shiva's blueish armour), as this is where **real** Shiva will be later. 
