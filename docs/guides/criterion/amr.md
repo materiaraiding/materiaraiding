@@ -5,17 +5,17 @@ longTitle: Another Mount Rokkon
 expansion: Endwalker
 difficulty: Criterion
 ---
-## Boss 1: Shishioji
+## Boss 1
 ### Video Guide
 By Kobe
 @[Shishioji](https://youtu.be/2jlH89oLsrs)
 
-## Boss 2: Gorai The Uncaged
+## Boss 2
 ### Video Guide
 By Kobe
 @[Gorai](https://youtu.be/TzoNEWbMpQ0)
 
-## Boss 3: Moko The Restless
+## Boss 3
 ### Video Guide
 By Kobe
 @[Moko](https://youtu.be/KghjI7xn6X0)

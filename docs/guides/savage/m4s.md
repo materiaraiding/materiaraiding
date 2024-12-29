@@ -6,7 +6,7 @@ expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1267677404135034930
 ---
-### Credits
+## Credits
 - Materia Raiding (macros/waymarks)
 - Evansith (toolbox)
 - Liminal Space (toolbox)
