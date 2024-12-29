@@ -12,9 +12,7 @@ discussionLink: https://discord.com/channels/895516967543390249/1267677404135034
 - Liminal Space (toolbox)
 - Kobe (video guide)
 
-## General Resources
-
-### Macro
+## Macro
 
 ```markdown
 ■ Electrifying　■ Witch Hunt (Fixed Baits)
@@ -63,21 +61,21 @@ discussionLink: https://discord.com/channels/895516967543390249/1267677404135034
  　H1D3　　  H2D4
 ```
 
-### Video Guide
+## Video Guide
 By Kobe
 @[](https://youtu.be/v0hNlTEUZk4)
 
-### PoV Videos
+## PoV Videos
 @[](https://youtu.be/nvIiQMKuO30)
 
-### Toolbox
+## Toolbox
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
 <Action title='Twilight/Midnight Sabbath Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=539690421352271&preview=1' />
 
 <Action title='Sunrise Sabbath Toolbox' color='red' href='https://raidplan.io/plan/4Y4GauMc_iRFnJXV' />
 
-### Cheatsheets
+## Cheatsheets
 *Updated as of 13/08/24*
 ![](/images/m4s1.webp)
 
@@ -101,7 +99,7 @@ ETC:
 Not looking to make any more updates unless true braindead strats start popping up.
 :::
 
-### Waymarks
+## Waymarks
 Waymarks can be imported to the game using the Waymark Import addon, or you can ask a friend to import them for you and save a copy for yourself.
 
 A B C D are exactly on the middle of in/out dodges for witch hunt

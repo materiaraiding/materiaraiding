@@ -25,7 +25,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
     ]"
 />
 
-### PoVs
+### PoV Videos
 
 @[DPS](https://www.youtube.com/watch?v=nYFW4YKTk-8)
 

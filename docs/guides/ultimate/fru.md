@@ -5,6 +5,7 @@ longTitle: Futures Rewritten
 difficulty: Ultimate
 expansion: Dawntrail
 image: eden.webp
+permalink: /fru
 discussionLink: https://discord.com/channels/944115415385247784/1303228301015384106
 ---
 
@@ -25,9 +26,9 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 #### Phase 1
 <ActionGroup
 :actions="[
-{ title: 'P1 Proteans & Utopian Sky', color: 'red', href: 'https://raidplan.io/plan/WlRr-qtrUTEPiaJZ' },
-{ title: 'P1 Tethers 2 East/West', color: 'red', href: 'https://raidplan.io/plan/TOsL-pQk0vGJXBS7' },
-{ title: 'P1 Towers Static', color: 'red', href: 'https://raidplan.io/plan/Gfbp6n3NgBHgNqI1' },
+{ title: 'P1 - Proteans & Utopian Sky', color: 'red', href: 'https://raidplan.io/plan/WlRr-qtrUTEPiaJZ' },
+{ title: 'P1 - Tethers 2 East/West', color: 'red', href: 'https://raidplan.io/plan/TOsL-pQk0vGJXBS7' },
+{ title: 'P1 - Towers Static', color: 'red', href: 'https://raidplan.io/plan/Gfbp6n3NgBHgNqI1' },
 ]"
 />
 

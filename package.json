@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
     "@types/markdown-it-container": "^2.0.10",

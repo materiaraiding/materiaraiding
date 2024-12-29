@@ -24,6 +24,7 @@ export default defineConfig({
 					{text: "Savage", link: "/guides/savage"},
 					{text: "Ultimate", link: "/guides/ultimate"},
 					{text: "Criterion", link: "/guides/criterion"},
+					{text: "Chaotic", link: "/guides/chaotic"},
 				],
 			},
 			{
@@ -82,6 +83,13 @@ export default defineConfig({
 						{text: "ASS", link: "/guides/criterion/ass"},
 						{text: "AMR", link: "/guides/criterion/amr"},
 						{text: "AAI", link: "/guides/criterion/aai"},
+					],
+				},
+				{
+					text: "Chaotic",
+					collapsed: false,
+					items: [
+						{text: "COD", link: "/guides/chaotic/cod"},
 					],
 				},
 			],

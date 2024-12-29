@@ -6,12 +6,12 @@ expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1267677717495681064
 ---
-### Credits
+## Credits
 - Materia Raiding (macros/waymarks)
 - Kobe (video guide)
 - DiscoKnees (PoV)
 
-### Macro
+## Macro
 
 Current M2S Macro 09/08/24
 ```markdown
@@ -42,16 +42,16 @@ Current M2S Macro 09/08/24
 　 ※ Basic Spread
 ```
 
-### Video Guide
+## Video Guide
 By Kobe
 @[](https://youtu.be/dTlOIu3_NzY)
 
-### PoV Videos
+## PoV Videos
 @[](https://youtu.be/QKAZHQhkn5M)
 
 @[](https://youtu.be/jw9_zyYpQTY)
 
-### Waymarks
+## Waymarks
 Waymarks can be imported to the game using the Waymark Import addon, or you can ask a friend to import them for you and save a copy for yourself.
 
 ```json

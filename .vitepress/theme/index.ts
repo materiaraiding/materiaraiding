@@ -18,6 +18,8 @@ import Action from "./components/Action.vue";
 import ActionGroup from "./components/ActionGroup.vue";
 // @ts-ignore
 import CustomBlock from "./components/CustomBlock.vue";
+// @ts-ignore
+import PageList from "./components/PageList.vue";
 
 // @ts-ignore
 import guide from "./layouts/guide.vue";
@@ -34,6 +36,7 @@ export default {
 		ctx.app.component("Action", Action);
 		ctx.app.component("ActionGroup", ActionGroup);
 		ctx.app.component("CustomBlock", CustomBlock);
+		ctx.app.component("PageList", PageList);
 	},
 	setup() {
 		// Get route

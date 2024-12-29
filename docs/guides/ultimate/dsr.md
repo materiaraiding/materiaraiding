@@ -7,11 +7,11 @@ expansion: Endwalker
 image: dkt.webp
 discussionLink: https://discord.com/channels/944115415385247784/954964560606015508
 ---
-### Credits
+## Credits
 - Written guide by Juno
 - Diagrams by Juno, MUR, [Tessan Twintails](https://www.youtube.com/watch?v=A-P1eXE18ko)
 
-### Toolbox/Raidplan
+## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 <ActionGroup
     :actions=" [
@@ -26,19 +26,19 @@ Toolboxes are an interactive guide that allows you to click through each phase i
     ]"
 />
 
-### PoVs Videos
+## PoV Videos
 Videos covering clears by different roles.
 **DPS**
 @[DPS](https://youtu.be/FMr8XWq-mXs)
 **TANK**
 @[TANK](https://youtu.be/Yex5-s3ITPg)
 
-### Mitigation Plan
+## Mitigation Plan
 Mitigation Plan Spreadsheet
 
 <Action title='Mit Plan' color='green' href='https://docs.google.com/spreadsheets/d/1FGF76e57PCD4358zFK7_v3IRze7C_bn6xd3hiM9yfiE/edit#gid=0' />
 
-### Macros
+## Macros
 
 ::: details View All Macros
 **Playstation Chains**
@@ -60,7 +60,7 @@ Mitigation Plan Spreadsheet
 ```
 :::
 
-### Mitigations
+## Mitigations
 
 ::: details View Mitigations
 ```markdown
@@ -114,11 +114,11 @@ SGE/WHM:
 ```
 :::
 
-### Cheatsheet
+## Cheatsheet
 
 ![](/images/dsrcheatsheet.webp)
 
-### Buff Timings
+## Buff Timings
 :::: timing-window 
 ::: burst
 - Thordan opener.
@@ -138,7 +138,7 @@ SGE/WHM:
 ::: 
 ::::
 
-### Waymarks
+## Waymarks
 These can be imported using an XIV Launcher Plugin.
 
 Phase 1
@@ -156,7 +156,7 @@ Guide written by Juno
 
 As a starter, a lot of the mechanics in this fight will cause **Damage Down** if solved incorrectly. This debuff reduces your damage by about 50% and it is common practice to wall **IF IT IS SAFE TO DO SO**, as the damage loss from resurrection weakness is less than damage down.
 
-## Phase 1: Knights
+### Phase 1: Knights
 
 This phase begins with two targetable bosses: Adelphel and Grinnaux.
 Once pulled, tanks will stack the bosses and the party will stay south.
@@ -169,7 +169,7 @@ After a **Holiest of Holy** raid wide Grinnaux will cast **Empty Dimension**, fo
 
 After this stack and tankbuster combo, Adelphel will become untargetable and Grinnaux will cast:
 
-### Hyperdimensional Slash
+#### Hyperdimensional Slash
 
 Grinnaux will then target 4 random players with a line AOE. This AOE will drop a purple portal on the edge of the arena wherever it was aimed, and if two portals are too close to one another they will tether to eachother and wipe the raid. Similarly, if a player stands too close to a portal they will become tethered and die.
 
@@ -192,7 +192,7 @@ After completing his dashes, Adelphel will drop onto the player who had the high
 
 Adelphel will then immediately begin casting 1 of 3 instances of **Holiest Hallowing**, an interruptible heal targeted on Grinnaux. The OT will interrupt this and both tanks will position their bosses in the center of the arena for:
 
-### Playstation Chains
+#### Playstation Chains
 
 Each player will be marked with either a cross, square, circle, or triangle, so that there is two of each symbol. 
 
@@ -216,7 +216,7 @@ After dropping their health to 0%, they will immediately become untargetable. Gr
 
 A new boss **Charibert** will then appear at the southern side of the circle and begin to cast **Pure of Heart**, the enrage of phase 1.
 
-### Pure of Heart
+#### Pure of Heart
 
 **Haurchefant** will run to the side of the circle and block an arrow. This arrow pulses intermittently, dealing damage to the party. 
 
@@ -224,7 +224,7 @@ Charibert will then cleave the two players closest to him, applying a 5s debuff 
 
 Once Charibert is reduced to approximately ~25-30% health, the DPS check is reached and as long as one player survives the transition the party will receive a checkpoint.
 
-## Phase 2: Thordan
+### Phase 2: Thordan
 
 Phase 2 will begin with the MT facing Thordan north for 2 auto-attacks before he will begin casting **Ascalon's Mercy**, a baited protean on every member of the party.
 The party will stack up behind Thordan before dodging to the side to avoid the cleave. 
@@ -241,7 +241,7 @@ Due to the mit plan that MUR PF uses, if the MT is a **WAR** they can use their 
 
 After moving to the center, Thordan will cast the first trio of the fight:
 
-### Strength of the Ward
+#### Strength of the Ward
 
 Thordan will become untargetable and jump from the arena, and both Light parties will split East/West. 
 
@@ -289,7 +289,7 @@ Thordan will then drop into the center of the arena and cast **Ancient Quaga** a
 
 He will then begin to the cast the next trio of the fight:
 
-### Sanctity of the Ward
+#### Sanctity of the Ward
 
 Thordan will then leave the arena and 2 knights will drop down near the center, on opposite sides to each other. These knights can either be facing clockwise or counter-clockwise, which will determine the way they are about to dash across the arena. A third knight will also spawn on one of the waymarks near the outside of the arena.
 
@@ -303,7 +303,7 @@ Just before these stacks and cleaves go off, Thordan and a large red eye that ap
 
 After the last AoEs resolve, various knights will appear around the arena alongside thordan, preparing to cast various new mechanics in tandem. This set of mechanics is referred to as:
 
-### Meteors
+#### Meteors
 
 Players should split off into pairs on each of the cardinals as per the cheatsheet (MT/D3 N, OTD4 S, H1D1 E, H2D2 W), standing between the AOEs that have spawned on the intercardinals. 2 players will be marked by "Meteors", a small red arrow above the players head. These 2 players will **ALWAYS** be part of the same role. The role that gets the meteors is deemed as the "priority" role.
 
@@ -325,7 +325,7 @@ After these towers are resolved, Thordan will drop down at true north and begin 
 
 Thordan will then cast his enrage: **Atheric Burst**.
 
-## Phase 3: Nidhogg
+### Phase 3: Nidhogg
 
 ::: everyone
 This phase begins with a HEAVY raidwide attack and should be mitigated appropriately
@@ -333,7 +333,7 @@ This phase begins with a HEAVY raidwide attack and should be mitigated appropria
 
 Nidhogg will drop down and begin auto-attacking the main tank, before casting:
 
-### Dive from Grace
+#### Dive from Grace
 
 ::: info NOTE
 This mechanic is one of the first "walls" of this fight, and can be difficult to wrap your head around/remember all the roles. I recommend to watch videos of solves and also to review the toolbox above.
@@ -385,7 +385,7 @@ The snapshot timing for the first attack is on the cast finish, so you're safe t
 
 While it is possible to live getting hit by Lash/Gnash, it will knock the player back away from Nidhogg and apply a **damage down** debuff. At the time of writing the P3 damage check isn't incredibly tight, but with only a few damage downs it may be impossible to beat the damage check.
 
-### Enumeration Towers
+#### Enumeration Towers
 
 Immediately after this mechanic, the tank will take a few more auto-attacks before casting Drachenlance on a random player, which is a short conal AOE that will deal lethal damage to anyone hit.
 
@@ -395,7 +395,7 @@ These towers will drop clones similar to the ones in dive from grace, however on
 
 The Main tank will then face Nidhogg south and continue to take auto-attacks. After one more **south-facing** drachenlance, Nidhogg will cast his enrage: **Revenge of the Horde**
 
-## Phase 4: Eyes
+### Phase 4: Eyes
 
 ::: tank
 Tanks should communicate which eye they are taking before this phase, as each eye deals auto-attacks. Generally in OCE, MT takes the **Red** eye, and OT takes the **Blue** eye.
@@ -411,7 +411,7 @@ Ranged should begin to focus on the **Red** eye, and melee should focus on the *
 
 Estinien will cast a heavy raidwide and bleed: **Resentment**
 
-### Hatebound
+#### Hatebound
 
 Tethers will randomly get applied to the party in such a way that there is **4 blue** and **4 red** tethers, attached to their respective eye. Taking damage while having a blue tether will **heal the blue eye**, and taking damage with a red tether will **damage the red eye**. 
 
@@ -425,7 +425,7 @@ Supports will move to the **Red** eye and DPS to the **Blue** eye as seen below:
 
 Once the yellow orb grows **twice**, all melee will walk into it together to take a pair stack. Afterwards, they will split and stand on top of their ranged partner, swapping tethers before moving to the middle. The ranged players will wait for their orb to grow twice, before walking into it. Everyone will then move to the **Blue** eye. All red tethers (now ranged players) will stand in a square-like formation around the eye, and all the melee will stack under the eye.
 
-### Mirage Dives
+#### Mirage Dives
 
 Nidhogg will dive 2 random red tether players 4 times in a row. Each hit player must be swapped with to ensure they won't be struck twice and instantly killed as the dive applies a vuln up.
 
@@ -435,7 +435,7 @@ Around 38-40% HP on the **Red** eye, ranged should swap to the **Blue** eye.
 
 Finishing all these dives and having good damage will result in both eyes dying before they cast a final **Steep in Rage** cast. If both eyes are alive during this, the party will wipe. If the **Red** eye is alive during this, it will resurrect the **Blue** eye so it's important to keep an eye on it to mitigate possible wipes.
 
-## Intermission
+### Intermission
 
 Intermission is a run back of the **Pure of Heart** mechanic from Phase 1 with some key differences.
 
@@ -451,11 +451,11 @@ Healers should keep an eye on Haurchefant throughout the entire mechanic. You wa
 
 Following the same H -> M -> R -> T order as phase 1, players will resolve the mechanic and then face an additional DPS check on the **Spear of the Fury** that Haurchefant is currently blocking. Successfully defeating the spear before it casts **Pierce** allows players to continue on to phase 5. If unsuccessful, the party will be sent back to phase 2.
 
-## Phase 5 - Dark King Thordan
+### Phase 5 - Dark King Thordan
 
 After 2 AOE autoattacks, Thordan will begin to cast:
 
-### Wrath of the Heavens (WOTH/Wrath)
+#### Wrath of the Heavens (WOTH/Wrath)
 
 Thordan will become untargetable, and 2 knights and a dragon will drop down on a random cardinal/intercardinal. **This will become our new north.**
 
@@ -498,7 +498,7 @@ Due to the mit plan that MUR PF uses, if the MT is a **WAR** they can use their 
 
 Thordan will then cast:
 
-### Death of the Heavens (DOTH/Death)
+#### Death of the Heavens (DOTH/Death)
 
 This mechanic has a lot of moving parts, I highly recommend looking at POVs and toolboxes.
 
@@ -539,7 +539,7 @@ At this point (if not before), players should be identifying where Thordan and t
 
 Players will then all look away from the gazes and ride a **Faith Unmoving** knockback from grinnaux. Doom players should immediately move into the cleanse puddles if they aren't knocked back perfectly (I find wiggling in the puddle sometimes helps the game to register you standing in it).
 
-### Meteors
+#### Meteors
 Without a break, 8 meteors will spawn on each cardinal and intercardinal. The 3 meteors at N/NW/NE will be killed using a targeted magic LB2 on the meteor at north, whilst the rest of the party bursts down the reamining meteors.
 
 Killing the meteors results in Thordan jumping back to the arena and performing another **Ancient Quaga**, followed by yet another 2 AOE auto-attacks into **Heavenly Heel** and an **Ascalon's Might** tank buster.
@@ -551,7 +551,7 @@ Once this threshold is reached, Thordan will say "I yield..." and drop to one kn
 
 Players will then immediately position south for the next phase:
 
-## Phase 6: Double Dragons - Nidhogg & Hraesvelgr
+### Phase 6: Double Dragons - Nidhogg & Hraesvelgr
 
 An important mechanic to note in this phase is the two possible failure conditions:
 
@@ -572,7 +572,7 @@ Throughout this phase there are 2 **hand of pain** style HP checks. Fortunately 
 
 MT will grab Nidhogg, and OT will grab Hraesvelgr. After X auto attacks, both dragons will begin to cast:
 
-### Wyrmsbreath 1 (WB1)
+#### Wyrmsbreath 1 (WB1)
 
 The arena will be transformed into a donut via an AOE.
 

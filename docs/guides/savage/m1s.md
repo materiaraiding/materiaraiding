@@ -1,18 +1,18 @@
 ---
 order: 1
-description: M1S
+title: M1S
 longTitle: AAC Light-heavyweight M1
 expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1267677779735089244
 ---
-### Credits
+## Credits
 - Materia Raiding (macros/waymarks)
 - Shaba (raidplan)
 - Kobe (video guide)
 - Valyntine (PoV)
 
-### Macro
+## Macro
 
 Current M1S Macro 09/08/24
 ```markdown
@@ -36,19 +36,19 @@ Current M1S Macro 09/08/24
 　　  H1H2D3 [Far]
 ```
 
-### Video Guide
+## Video Guide
 By Kobe
 @[](https://youtu.be/3NkfJduH750)
 
-### PoV Videos
+## PoV Videos
 @[](https://youtu.be/4nN8KSS2EGs)
 
-### Toolbox/Raidplan
+## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
 <Action title='Mouser Toolbox' color='red' href='https://raidplan.io/plan/bZmdPoU2lde6UbSu' />
 
-### Waymarks
+## Waymarks
 Waymarks can be imported to the game using the Waymark Import addon, or you can ask a friend to import them for you and save a copy for yourself.
 
 ```json
