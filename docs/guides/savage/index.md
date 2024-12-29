@@ -1,1 +1,3 @@
-# Savage
+# Savage Raids
+
+<PageList limitedList="savage"/>

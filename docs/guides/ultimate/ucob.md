@@ -7,11 +7,11 @@ expansion: Stormblood
 image: goldenbaha.webp
 discussionLink: https://discord.com/channels/944115415385247784/954964367462514710
 ---
-### Credits
+## Credits
 - Written Guide by Em Gram (Phases 1, 2 and 3) and Noz Leafhill (Phases 4 and 5)
 - PoVs by Kur Rumi
 
-### Toolbox/Raidplan
+## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
 <ActionGroup
@@ -25,7 +25,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
     ]"
 />
 
-### PoV Videos
+## PoV Videos
 
 @[DPS](https://www.youtube.com/watch?v=nYFW4YKTk-8)
 
@@ -33,7 +33,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 
 @[Tank](https://www.youtube.com/watch?v=4R_b3AauWGk)
 
-### Macros
+## Macros
 ::: details View All Macros
 **Macro 1**
 Neurolinks and Nael Spreads
@@ -138,7 +138,7 @@ Golden Bahamut Mits
 ```
 :::
 
-### Buff Timings
+## Buff Timings
 :::: timing-window
 ::: burst
 - Twin opener
@@ -158,20 +158,22 @@ Golden Bahamut Mits
 :::
 ::::
 
-### Waymarks
+## Waymarks
 These can be imported using an XIV Launcher Plugin.
 
 ```json
 {"Name":"UCoB","MapID":280,"A":{"X":-11.472,"Y":0.0,"Z":-16.383,"ID":0,"Active":true},"B":{"X":11.47153,"Y":0.0,"Z":-16.383,"ID":1,"Active":true},"C":{"X":19.31852,"Y":0.0,"Z":5.176381,"ID":2,"Active":true},"D":{"X":-19.319,"Y":0.0,"Z":5.176,"ID":3,"Active":true},"One":{"X":-7.57,"Y":0.0,"Z":-4.38,"ID":4,"Active":true},"Two":{"X":7.57,"Y":0.0,"Z":-4.38,"ID":5,"Active":true},"Three":{"X":0.0,"Y":0.0,"Z":8.75,"ID":6,"Active":true},"Four":{"X":0.0,"Y":0.0,"Z":0.0,"ID":7,"Active":true}}
 ```
 
-## Phase 1: Twintania
+## Fight Writeup
+
+### Phase 1: Twintania
 
 This guide is based off the original and very detailed guide by Clees, which can be found below:
 
 <Action title='Clees Guide' color='purple' href='https://clees.me/guides/ucob/' />
 
-### Key Mechanics
+#### Key Mechanics
 ::: everyone
 Look out for Twister cast, you will need to be moving when it finishes otherwise you will die and kill anyone near you. Start moving at 90% of the castbar and spread out to make sure you have somewhere safe to run.
 
@@ -198,7 +200,7 @@ If you are **Primary Baiter** and you get Hatch, the **Backup Baiter** must reso
 Just stay outta the way lol.
 :::
 
-### Phase Timeline
+#### Phase Timeline
 :::: details Expanded Phase Timeline
 **100% -> 74% Mini-Phase**
 
@@ -242,7 +244,7 @@ If you don't phase any of these checkpoints in time, Twintania will continue to 
 :::
 ::::
 
-## Phase 2: Nael
+### Phase 2: Nael
 ::: details View Nael Timeline
 
 1. TB + 2 min opener
@@ -299,7 +301,7 @@ Bahamuts Claw Physical tankbuster consisting of 5 successive hits to her target.
 As mentioned, Nael enters with Dalamud Dive on the **tank with last aggro on Twintania** (generally OT), followed by Bahamuts Claw. Use an invulnerability here and keep this away from party.
 :::
 
-### First Quotes
+#### First Quotes
 Two players will now get Thunderstruck followed by the first set of quotes.
 
 ::: details Nael Quotes Explained
@@ -377,7 +379,7 @@ Second Fire Tether appears and this should be taken **OUT**** of the party stack
 
 Thunderstruck will apply to two players after fireball resolves, these need to leave the party stack.
 
-### Second Quotes
+#### Second Quotes
 Party should be stacked in preparation for second quotes.
 
 **Quotes 2**
@@ -396,7 +398,7 @@ The player who had to take Second Fire Tether MUST NOT be in the Third Fire Teth
 
 Nael will follow this up with another Bahamuts Claw for Tanks.
 
-### Third Quotes
+#### Third Quotes
 Prepare for Third Quotes by pre-spreading as this will always start with a Raven's Dive spread.
 
 This is the default spread with H1 on waymark 4.
@@ -414,7 +416,7 @@ During the quotes, another Fire Tether will target a player and two more players
 
 Following the fireball will be another set of Doom and Wings of Salvation on **three** players.
 
-### Divebombs and Fourth Quotes
+#### Divebombs and Fourth Quotes
 Nael will call out the fourth quote:
 
 **Fourth Quote**
@@ -470,7 +472,7 @@ As the Dives are going off, the Party will need to prepare for Quotes, these wil
 
 Nael should now be dead, if not prepared for the other quotes to be recycled and used again until Nael dies.
 
-## Phase 3: Bahamut Prime
+### Phase 3: Bahamut Prime
 
 :::: details Mechanics Summary
 ::: tank
@@ -489,7 +491,7 @@ Nael should now be dead, if not prepared for the other quotes to be recycled and
 :::
 ::::
 
-### Transition
+#### Transition
 After Nael dies, party to stack on south Neurolink ready for the **Seventh Umbral Era**, a heavy raidwide and knockback. This will be followed by three **Calamitous Flame** raidwides and **Calamitous Blaze** another heavy raidwide. **Calamitous Blaze** is fatal without Tank LB2, but LB3 is preferred. 
 
 ::: tank
@@ -502,7 +504,7 @@ Use heavy heals during the **Calamitous Flames**, you want to make sure the part
 
 Bahamut will follow this up with Tank mechanics, First a Flare Breath followed by Flatten.
 
-### Quickmarch Trio (QMT)
+#### Quickmarch Trio (QMT)
 <Action title='QMT Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=877146678916361&preview=1' />
 
 Party Stacks middle and looks for the Three dragons to spawn on a wall and prepare to dive across the room, this becomes **Relative North**. 
@@ -533,7 +535,7 @@ Earth Shaker DPS wait until Tempest Wing resolves before moving back to party st
 
 Once more, Bahamut will use Flare Breath followed by Flatten.
 
-### Blackfire Trio (BFT)
+#### Blackfire Trio (BFT)
 <Action title='BFT Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=838145884536361&preview=1' />
 
 Players stack center and look for Nael on the wall, this becomes relative north.
@@ -566,7 +568,7 @@ Before towers resolve, Nael will send out two Hypernova, wait for these to go ou
 
 After towers resolve, party stack and heal for a Gigaflare, followed by Flare Breath followed by Flatten on Tanks.
 
-### Fellruin Trio (FRT)
+#### Fellruin Trio (FRT)
 <Action title='FRT Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=810783368854861&preview=1' />
 
 Nael, Bahamut and Twin will spawn on a Neurolink each. Party should move to Nael, this becomes **South** with the center of the room being **North**.
@@ -585,7 +587,7 @@ Tanks need to grab the two Tempest Wing Tethers coming from Bahamut. MT runs to 
 
 Party must stack in south Neurolink for Aetheric Profusion, this is a heavy raidwide. After this immediately spread for Meteor Stream. Bahamut will use Gigaflare followed by another set of tank busters with Flare Breath followed by Flatten.
 
-### Heavensfall Trio (HFT)
+#### Heavensfall Trio (HFT)
 <Action title='HFT Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=740246169786361&preview=1' />
 
 Party to stack mid, similar to QMT the party will split left and right from where the Trio spawns on the wall.
@@ -622,7 +624,7 @@ Avoiding the **Megaflare Puddles** that drop, preposition yourself to be knocked
 
 Once the towers resolve, rotating AoEs will begin spinning around the room, avoid the AoEs by rotating around the room and stay near the wall while Nael sends out two Hypernova, after the Hypernova make your way into the center of the room for another **Party Stack** (Fireball). Finally, Bahamut will use another Gigaflare followed by three Flare Breath.
 
-### Tenstrike Trio (TST)
+#### Tenstrike Trio (TST)
 <Action title='TST Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=141245760517361&preview=1' />
 
 Preposition in QMT spreads around the middle of the room. The three players will get two Hatch's one after another. Targetted players should move to a Neurolink, other players spread out away from the Neurolinks.
@@ -660,7 +662,7 @@ Image from Tessian's UCOB Guide Video
 
 After the final Earth Shaker resolve, the phase will end with Gigaflare followed by Flatten and Flare Breath.
 
-### Grand Octet (GO)
+#### Grand Octet (GO)
 <Action title='GO Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=620787600564861&preview=1' />
 
 Party should stack middle, Bahamut, Nael, Twin and the 5 Dragons will spawn on all Cardinals and Intercardinals. Look at Bahamuts position, this will tell you which direction you rotate around the room in GO.
@@ -694,7 +696,7 @@ If you are soaking a tower, walk **across** the tower as the dive goes off to en
 
 Once Twister resolve, you will finish the phase and go into Adds.
 
-## Phase 4: Adds
+### Phase 4: Adds
 Bahamut will spend this phase in the background charging up **Aethertrail Attunement**, indicated by the **Duty Gauge**. In this phase you will simultaneously take on **Twintania** and **Nael**, who are defending Bahamut as he charges up. If **Aethertrail Attunement** reaches 100 before the 2 bosses are killed, the party will wipe.
 
 **Twintania** and **Nael** will spawn together **north**, in which initially the MT takes aggro of Twintania and OT takes Nael.
@@ -709,7 +711,7 @@ There are no brand new mechanics this phase. However, as you have the mechanics 
 Keep the HP's of both bosses as similar as possible, as they need to be killed approximately at the same time, otherwise the other will begin casting an enrage.
 :::
 
-### Phase Timeline
+#### Phase Timeline
 ::: details Expand Phase Timeline
 1. Twintania Plummet and Nael Bahamuts Claw on their respective aggro'd player.
 2. Twintania Liquid Hell.
@@ -752,7 +754,7 @@ Watch and look after your tanks and remember to use your single target cooldowns
 As you resolve Twister and move around in general throughout this phase, be sure to stand in an area where you will not be clipped by the explosion of DPS resolving Generate (Hatch). One suggestion is to stick around the wall north east or north west so you are not accidentally baiting Liquid Hell while also still being in range to support your tanks. Then, you can just move along the wall as Twister is cast.
 :::
 
-### Quotes
+#### Quotes
 As you can see from the timeline, Nael will do 2 sets of quotes. Each set will come with 3 attacks each.
 
 Nael will do 4 possible quotes:
@@ -787,7 +789,7 @@ On the 2nd round of quotes, it will be the same list of possible quotes. However
 
 **All of these attacks happen in fairly quick succession so after Hatches and Twisters, watch Nael carefully and quickly interpret and resolve her following attacks.**
 
-### Transitioning to the Final Phase
+#### Transitioning to the Final Phase
 To help finish off the bosses, a caster should use **Limit Break** on the 2 bosses. The Limit Break gauge will fully recharge for the final phase anyway, so you might as well use it. **Remember to kill the bosses at the same time!**
 
 If you successfully take down the 2 bosses before **Aethertrail Attunement** fully charges, **Teraflare** will cast and wipe the party. Everyone will then be fully resurrected by the Phoenix, who will grant the party with **full 3 bars of Limit Break** and the **Phoenix's Blessing** buff, which is a sweet damage buff that lasts until the end of the pull / fight, or on death. This buff will help you overcome the final phase of this fight.
@@ -798,7 +800,7 @@ If anyone has died in the wall at the end of this phase, they will die again onc
 
 Bahamut will then return, paint himself yellow and begin his final standoff.
 
-## Phase 5: Golden Bahamut
+### Phase 5: Golden Bahamut
 
 ::: info NOTE
 If in **Phase 3: Bahamut Prime**, Bahamut was not reduced to below 60% HP, he will gain a significant damage buff which will make it extremely unlikely that you will survive this phase. Although, it is [not impossible](https://youtu.be/0ivLvPhZ7DQ?si=8YDoowUjYrrryz3p&t=878)...
@@ -832,7 +834,7 @@ To keep this guide consistent in the quality of the diagrams, below is an Emgram
 
 ![image](https://github.com/nozzyxx/materiaraiding/assets/160133948/c9c5cda6-f387-4344-84f4-1f7d98866ff2)
 
-### Phase Timeline
+#### Phase Timeline
 
 :::: details Expand Phase Timeline
 ::: tank

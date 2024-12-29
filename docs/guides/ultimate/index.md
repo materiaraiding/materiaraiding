@@ -1,2 +1,3 @@
 # Ulitmates
 
+<PageList limitedList="ultimate"/>

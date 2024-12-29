@@ -7,13 +7,13 @@ expansion: Stormblood
 image: ultima.webp
 discussionLink: https://discord.com/channels/944115415385247784/954964398206758952
 ---
-### Credits
+## Credits
 - Written Guide by Em Gram and Noz Leafhill
 - Editing by Noz Leafhill
 - Toolboxes by MUR
 - PoVs by Kur Rumi
-- 
-### Toolbox/Raidplan
+
+## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 UWU has multiple Toolboxes and each are listed here in order of phases in the fight.
 
@@ -29,7 +29,7 @@ UWU has multiple Toolboxes and each are listed here in order of phases in the fi
     ]"
 />
 
-### PoV Videos
+## PoV Videos
 by Kur Rumi
 
 @[DPS (D4)](https://www.youtube.com/watch?v=tD4w2xntOaI)
@@ -38,7 +38,7 @@ by Kur Rumi
 
 @[Tank (OT)](https://www.youtube.com/watch?v=vcBajEouNNI&t)
 
-### Macros
+## Macros
 
 ::: details View All Macros
 **Macro 1**
@@ -100,7 +100,7 @@ D3                                D4
 ```
 :::
 
-### Buff Timings
+## Buff Timings
 :::: timing-window
 ::: burst
 - Garuda opener
@@ -118,7 +118,7 @@ D3                                D4
 :::
 ::::
 
-### Waymarks
+## Waymarks
 These can be imported using an XIV Launcher Plugin.
 
 ```json
@@ -139,7 +139,7 @@ This guide is based off the original and very detailed guide by Clees, which can
 
 <Action title='Clees Guide' color='purple' href='https://ultimates.guide/uwu/' />
 
-#### Awakening
+### Awakening
 
 Throughout the first 3 phases, you will be aiming to complete special requirements to **Awaken** all three Primals. Handling mechanics in a certain way gives the boss an **Aetherically Charged** buff - 4 stacks of this awakens the boss. Once awoken, their mechanics may change and they will drop a puddle (candy) when they die. This must be picked up as they provide extra LB3's later, which are required to clear the fight.
 

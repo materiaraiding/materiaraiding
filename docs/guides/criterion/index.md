@@ -1,1 +1,3 @@
-# Criterion
+# Criterion Dungeons
+
+<PageList limitedList="criterion"/>
