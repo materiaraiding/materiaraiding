@@ -768,4 +768,12 @@ After the **Yellow Tether** traffic lights go off, players (including the erupti
 
 Work in Progress
 
-### Phase 5
+### Phase 5: Pandora
+
+<ActionGroup
+:actions="[
+{ title: 'P5 - Fulgent Blade (Exas)', color: 'orange', href: 'https://raidplan.io/plan/xE5dM62WDf6sYUYf' },
+{ title: 'P5 - Wings & Towers', color: 'orange', href: 'https://raidplan.io/plan/Bf91HcD3ckk_S-Lw' },
+{ title: 'P5 - Polarizing Strikes', color: 'orange', href: 'https://raidplan.io/plan/ca2GGs51v5uKGpz1' },
+]"
+/>
