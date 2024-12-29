@@ -14,16 +14,16 @@ This guide will be written using prog strats and is mainly an explanation of how
 This guide will be updated as strats are standardised in the OCE community, everything is subject to change.
 :::
 
-### Credits
+## Credits
 - Written guide by Juno
 - Diagrams by Juno, Em, Pipiro, Kobe, MUR, Ellie
 - Mit Plan by Ikuya Kirishima
 - Video Guides by Kobe, Pham
 
-### Toolbox/Raidplan
+## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
-#### Phase 1
+### Phase 1
 <ActionGroup
 :actions="[
 { title: 'P1 - Proteans & Utopian Sky', color: 'red', href: 'https://raidplan.io/plan/WlRr-qtrUTEPiaJZ' },
@@ -32,7 +32,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-#### Phase 2
+### Phase 2
 <ActionGroup
 :actions="[
 { title: 'P2 - Diamond Dust - Color Partners', color: 'blue', href: 'https://raidplan.io/plan/PPYgcTqAr4DXZE50' },
@@ -44,7 +44,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-#### Phase 3
+### Phase 3
 <ActionGroup
 :actions="[
 { title: 'P3 - Ultimate Relativity', color: 'purple', href: 'https://raidplan.io/plan/oYnDQe4ZbVaoxA5r' },
@@ -52,7 +52,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-#### Phase 4
+### Phase 4
 <ActionGroup
 :actions="[
 { title: 'P4 - Darklit Dragonsong', color: 'green', href: 'https://raidplan.io/plan/pcrbL0iqrAYMKFV3' },
@@ -60,7 +60,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-#### Phase 5
+### Phase 5
 <ActionGroup
 :actions="[
 { title: 'P5 - Fulgent Blade (Exas)', color: 'orange', href: 'https://raidplan.io/plan/xE5dM62WDf6sYUYf' },
@@ -69,7 +69,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-### Strat Summary
+## Strat Summary
 
 Quick summary of strats for MUR:
 
@@ -105,22 +105,22 @@ ICE - 4
 P5: Polarizing Swap Order: TMRH
 ```
 
-### Video Guides
+## Video Guides
 
-#### Phase 1
+### Phase 1
 @[](https://youtu.be/4p2K2u8aloU)
 
-#### Phase 2
+### Phase 2
 @[](https://youtu.be/YYs2D0-n_oM)
 @[](https://youtu.be/B_-7MUa4ULY)
 
-#### Phase 3
+### Phase 3
 @[](https://youtu.be/QZzuMStV26U)
 
-#### Phase 4
+### Phase 4
 @[](https://youtu.be/Si7y2rEz6os)
 
-### Mitigation Plan
+## Mitigation Plan
 
 By Ikuya Kirishima
 
@@ -130,9 +130,9 @@ The mit sheets is **NOT** intended to be taken as gospel, but rather a general g
 [**I understand, take me to the mit sheet**](https://docs.google.com/spreadsheets/d/10ZSxFpqJxcbaswpU_JR9L6nU3PjouNz_GONghM6lw2A/edit?gid=1960553822)
 :::
 
-### Cheatsheet
+## Cheatsheet
 
-### Waymarks
+## Waymarks
 
 These can be imported using an XIV Launcher Plugin.
 
@@ -144,9 +144,9 @@ These can be imported using an XIV Launcher Plugin.
 
 
 
-### Buff Timings
+## Buff Timings
 
-## Phase 1: Fatebreaker
+### Phase 1: Fatebreaker
 
 Throughout this phase Fatebreaker will aspect his abilities with either Fire or Lightning.
 
@@ -181,7 +181,7 @@ Once this debuff falls off, the marked player and the closest ally to them will 
 
 After the initial hit of **Powder Mark Trail**, Fatebreaker will cast the trio of this phase:
 
-### Utopian Sky
+#### Utopian Sky
 
 This mechanic can be Fire or Lightning aspected. Fire will result in 2 light party stacks targeted on each healer, and Lightning will result in large AOEs on each player.
 
@@ -209,7 +209,7 @@ The DPS can move 3.5 notches from the star on the arena edge to determine a safe
 ![](/images/Slide17.webp)
 ![](/images/Slide18.webp)
 
-### Tethers 1
+#### Tethers 1
 
 After the spreads or stacks resolve, Fatebreaker will drop into the middle of the room **untargetable** and begin to cast another aspected Cyclonic Break. Another Lightning Aspected Fatebreaker clone will spawn on the West of the arena casting Burnt Strike. As the proteans resolve, another clone will spawn in the middle of the arena that is either Fire or Lightning Aspected. What is **NOT** aspected here will be the safespot in the upcoming mechanic.
 
@@ -233,7 +233,7 @@ Fatebreaker will then appear in the center of the arena and cast "Burnished Glor
 
 Following this, Fatebreaker casts:
 
-### Fall of Faith / Tethers 2
+#### Fall of Faith / Tethers 2
 
 Fatebreaker will begin the mechanic by targeting a random player with either a **Fire Aspected** or **Lightning Aspected** Fall of Faith.
 
@@ -264,8 +264,7 @@ Once a tether goes off on each side, the tethered players should swap positions.
 
 After another **Burnished Glory**, Fatebreaker will do another **Powder Mark** <StatusIcon name="Powder Mark" /> tankbuster before casting the final mechanic:
 
-### Burnt Strike / Enum Towers
-
+#### Burnt Strike / Enum Towers
 
 Fatebreaker will begin to channel Burnt Strike, and 3 towers will appear on the West or East wall. These towers will require 6 members from the team to soak them, with a maximum of 4 players in one tower.
 
@@ -283,13 +282,13 @@ Whilst this is happening, the tanks will be utilising the opposite half of the a
 
 Finally, Fatebreaker will cast his enrage:
 
-### Burnished Glory
+#### Burnished Glory
 
-## Phase 2: Usurper of Frost (Shiva)
+### Phase 2: Usurper of Frost (Shiva)
 
 Phase 2 begins with a tankbuster **Quadruple Slap**, before starting the first major mechanic:
 
-### Diamond Dust
+#### Diamond Dust
 
 ::: details Diamond Dust
 
@@ -312,13 +311,13 @@ Shiva will then cast 1 of 2 abilities:
 
 Because the AOEs are role based we split into ranged/melee partners for the following resolutions:
 
-### Axe Kick
+#### Axe Kick
 
 For Axe Kick, Shiva will begin by shouting **"Cleave"**. Players will find relative North and immediately move out to their positions as shown in the image below. 
 
 The non-AOE players will stand just outside the outer ring on the arena floor to bait out proximity based protean AOEs. Leaning slightly towards the relative cardinal marker may help with clipping the AOE player. Meanwhile, AOE players should move as far out as they can and place their AOEs on intercardinals.
 
-### Scythe Kick
+#### Scythe Kick
 
 For Scythe Kick, Shiva will begin by shouting **"Reap"**. Players will find relative North and immediately move out to their positions as shown in the image below. 
 
@@ -330,7 +329,7 @@ After dropping their puddles, everyone will quickly rush back to the centre of t
 Moving slightly closer to the wall after your KB can help alleviate some poor AOE placement.
 :::
 
-### Stillness/Silence
+#### Stillness/Silence
 
 Just after the AOEs are dropped, players should identify **where** the clone of Shiva is (she'll be wearing a white outfit instead of Shiva's blueish armour), as this is where **real** Shiva will be later. 
 
@@ -374,7 +373,7 @@ Immediately following this Shiva will become targetable, appearing back in the a
 
 She will then cast a heavy hitting line stack, **Hallowed Ray**, before casting:
 
-### Mirror Mirror
+#### Mirror Mirror
 
 Shiva will spawn 3 mirrors along the edges of the arena. There will be **2 RED mirrors** and **1 BLUE mirror**.
 
@@ -408,7 +407,7 @@ If this halo has **4 orbs**, the party must spread as seen in the image below:
 
 Shiva will then cast:
 
-### Light Rampant
+#### Light Rampant
 
 ::: details 4/4 LR
   
@@ -470,11 +469,9 @@ This is immediately followed by another **Banish 3**, and **House of Light**, wh
 
 Shiva must be brought below 20% health before she finishes casting her enrage:
 
-### Absolute Zero
+#### Absolute Zero
 
-
-
-## Intermission
+### Intermission
 
 All players will spread as seen in the image below and close to the centre of the arena, as there will be a short ranged knock back.
 
@@ -496,15 +493,13 @@ As the party begins attacking these Crystals, **Light Crystals** will target the
 
 Once all the Light Crystals are destroyed, Players must DPS ice veil below 50% to transition to the next phase. Gaia will deal exactly **50% damage** to the crystal to break it (if all **Light Crystals** were destroyed).
 
- 
-
-## Phase 3: Oracle of Darkness (Gaia)
+### Phase 3: Oracle of Darkness (Gaia)
 
 Gaia will start out the phase with **Hell's Judgement**, a raidwide that will set every players HP to 1.
 
 This is immediately followed by: 
 
-### Ultimate Relativity
+#### Ultimate Relativity
 
 This mechanic is quite dense. I recommend looking through toolboxes in addition to the written guide, to get a clearer understanding of positions.
 
@@ -617,7 +612,7 @@ Images flipped upside down if you prefer looking at it this way. The strat is ex
 
 Gaia will follow Ultimate Relativity with a **Party Stack**, a **Shockwave Pulsar** raidwide, and a **Black Halo** **Dual Tank Buster Cleave**
 
-### Apocalypse
+#### Apocalypse
 
 <Action title='Apocalypse - LP Prio' color='purple' href='https://raidplan.io/plan/LZwXKA645GGmjEO2' />
 <Action title='Bonus: How to read safespots' color='purple' href='https://raidplan.io/plan/SYfwDA0JzSE68tFH/edit' />
@@ -675,10 +670,10 @@ Shortly after this knockback the **3rd and final stack** resolves.
 
 After another **Shockwave Pulsar**, Gaia must be damaged below 20% HP before she casts her enrage:
 
-### Memory's End
+#### Memory's End
 
 
-## Phase 4: Enter the Dragon (AKA Ryne & Gaia)
+### Phase 4: Enter the Dragon (AKA Ryne & Gaia)
 
 ::: danger EVERYONE
 All players should keep a close eye on both bosses health here. Immediately after the first mechanic is a **hand of pain** style health check. If the health differential is greater than 5% the party will wipe.
@@ -693,7 +688,7 @@ The memory crystal will pulse and Oracle of Darkness (Gaia) will appear and tele
 
 Both bosses will then cast:
 
-### Darklit Dragonsong
+#### Darklit Dragonsong
 
 <Action title='Darklit Dragonsong' color='green' href='https://raidplan.io/plan/pcrbL0iqrAYMKFV3' />
 
@@ -731,7 +726,7 @@ This will then be followed by a **Morn Afah**, a party stack that acts like a **
 
 Both bosses will move and then cast:
 
-### Crystallize Time
+#### Crystallize Time
 
 <Action title='Crystallize Time' color='green' href='https://raidplan.io/plan/GIXItxnLI2MJma73' />
 @[](https://youtu.be/PD6m6SzlxSI)
@@ -773,4 +768,4 @@ After the **Yellow Tether** traffic lights go off, players (including the erupti
 
 Work in Progress
 
-## Phase 5
+### Phase 5

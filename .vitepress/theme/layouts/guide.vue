@@ -13,6 +13,8 @@ const dutyType = computed(() => {
 			return "raid";
 		case "extreme":
 			return "trial";
+		case "chaotic":
+			return "chaotic";
 		default:
 			return "highendduty";
 	}

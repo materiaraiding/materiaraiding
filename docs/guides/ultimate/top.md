@@ -7,11 +7,11 @@ expansion: Endwalker
 image: alphaomega.webp
 discussionLink: https://discord.com/channels/944115415385247784/1055803481820246056
 ---
-### Credits
+## Credits
 - Written guide by Juno
 - Diagrams by Juno, Bird, MUR
 
-### Toolbox/Raidplan
+## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
 <ActionGroup
@@ -28,7 +28,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
     ]"
 />
 
-### PoV Videos
+## PoV Videos
 Videos covering clears by different roles.
 
 ::: details DPS
@@ -41,15 +41,15 @@ ADD LINK HERE
 @[Tank](https://youtu.be/XHEpxUdz_6Q)
 :::
 
-### Mitigation Plan
+## Mitigation Plan
 Mitigation plan spreadsheet
 
 <Action title='TOP Mitty' color='green' href='http://tinyurl.com/topmitty' />
 
-### Cheatsheet
+## Cheatsheet
 ![](/images/topcheatsheet.webp)
 
-### Waymarks
+## Waymarks
 Waymarks are incredibly important in TOP as they are used for many mechanics in the fight for easy solves. 
 
 Code for Waymark Plugin
@@ -57,7 +57,7 @@ Code for Waymark Plugin
 {"Name":"TOP","MapID":908,"A":{"X":100.0,"Y":0.0,"Z":87.0,"ID":0,"Active":true},"B":{"X":113.0,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":113.0,"ID":2,"Active":true},"D":{"X":87.0,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":109.192,"Y":0.0,"Z":90.807,"ID":4,"Active":true},"Two":{"X":109.192,"Y":0.0,"Z":109.192,"ID":5,"Active":true},"Three":{"X":90.807,"Y":0.0,"Z":109.192,"ID":6,"Active":true},"Four":{"X":90.807,"Y":0.0,"Z":90.807,"ID":7,"Active":true}}
 ```
 
-### Buff Timings
+## Buff Timings
 :::: timing-window
 ::: burst
 - P1 Opener
@@ -88,7 +88,7 @@ Pot timings changes depending on buff timings, go check a log with the same buff
 ## Fight Summary
 Guide written by Juno
 
-## Phase 1: Omega
+### Phase 1: Omega
 <Action title='P1 Beetle Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=758088204654761&preview=1' />
 
 ::: tank
@@ -97,7 +97,7 @@ It is very important in this phase to keep Omega in the center of the arena.
 
 The phase begins with heavy hitting auto-attacks before starting the first mechanic:
 
-### Program Loop
+#### Program Loop
 Program loop begins with each player being assigned a number from 1 to 4, with two of each across the party. This mechanic requires 4 sets of 2 towers to be soaked in a sequential order <StatusIcon name="First in Line" /> → <StatusIcon name="Second in Line" /> → <StatusIcon name="Third in Line" /> → <StatusIcon name="Fourth in Line" /> that will deal significant damage to the player inside. 
 
 For each set of towers that needs to be soaked, two tethers must be taken by two players and taken away from the towers in the order <StatusIcon name="Third in Line" /> → <StatusIcon name="Fourth in Line" /> → <StatusIcon name="First in Line" /> → <StatusIcon name="Second in Line" />.
@@ -114,7 +114,7 @@ Personal mitigations can be used to help heal up the 3 and 4 players.
 
 As this mechanic can become messy with players grabbing tethers from others and taking different towers, a priority system is used to facilitate the movement of players. The priority used by MUR PF is seen in the cheatsheet.
 
-### Pantokrator
+#### Pantokrator
 ::: healer 
 Pantokrator has a lot of damage going out from the stacks and spreads, and requires heavy mitigation before spreading into your light parties.
 :::
@@ -141,7 +141,7 @@ Omega will then cast two tank buster cleaves on the two furthest players, and 6 
 
 After this Omega will cast it's enrage: **Atomic Ray**.
 
-## Phase 2: Omega-M & F
+### Phase 2: Omega-M & F
 <Action title='P2 M&F Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=043186470764761&preview=1' />
 
 ::: tank
@@ -164,7 +164,7 @@ Both bosses will then tank buster the player with highest emnity to them, follow
 
 Omega-M and Omega-F will then cast:
 
-### Party Synergy
+#### Party Synergy
 Both bosses will become untargetable and disappear as the mechanic begins. 
 
 The party is inflicted with either **Mid Glitch** <StatusIcon name="Mid Glitch" /> or **Remote Glitch** <StatusIcon name="Remote Glitch" />. Each player is also assigned 1 of 4 coloured symbols above their head, with two of each. 
@@ -216,7 +216,7 @@ Between the start of the phase and after party synergy Omega-M has changed to Om
 
 After ~5 auto-attacks from each boss, both Omega-M and Omega-F will cast:
 
-### Limitless Synergy
+#### Limitless Synergy
 ::: everyone
 The party should pre-position at South-South-West for this mechanic.
 :::
@@ -249,7 +249,7 @@ Throughout this whole mechanic Omega F has been casting her enrage **Laser Showe
 
 Upon defeating Omega-F, the transition begins:
 
-### Phase 2 -> Phase 3 Transition
+#### Phase 2 -> Phase 3 Transition
 ::: everyone
 The party should line-up from East to West as seen in the cheatsheet before debuffs are assigned.
 ![](/images/258101715-3552b589-9eaf-45be-8de0-c2b79cacf2f4.webp)
@@ -270,7 +270,7 @@ Two sets of **Arms** will appear that will cause large circular AOEs, as well as
 Using **sprint** <StatusIcon name="Sprint" /> can help make the 2->1 dodge easier, but isn't required.
 :::
 
-## Phase 3: Reconfigured Omega
+### Phase 3: Reconfigured Omega
 <Action title='P3 Final Omega Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=949384711756761&preview=1' />
 
 ::: tank
@@ -283,7 +283,7 @@ This phase requires high mitigation for each **Latent Defect** <StatusIcon name=
 
 The phase begins with a hard-hitting raid wide cast:
 
-### Hello World
+#### Hello World
 This mechanic assigns **a lot** of debuffs to players. Thankfully, a few of them can be ignored as they will resolve themselves simply by doing the mechanic and are only present as fail conditions for doing it *incorrectly*.
 
 For those interested I've attached the ignorable debuffs in the dropdown below:
@@ -343,7 +343,7 @@ This mechanic repeats **Latent Defect** a total of 4 times, where for the final 
 
 After rots expire Omega will cast another hard hitting raid wide **Critical Error**, before starting the next mechanic:
 
-### Monitors
+#### Monitors
 ::: everyone
 The party should pre-position in the cheatsheet lineup for monitors to quickly find their spots.
 :::
@@ -361,7 +361,7 @@ The monitor positions "lock-in" as the **Oversampled Wave Cannon** cast **finish
 
 If solved correctly, Omega will cast it's enrage: **Ion Efflux**.
 
-## Phase 4: Blue Screen
+### Phase 4: Blue Screen
 <Action title='P4 Blue Screen Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=595188367474761&preview=1' />
 
 ::: damage
@@ -374,7 +374,7 @@ If two stacks appear on one side of the boss, the southmost stack adjusts to the
 
 Omega must be below 20% health before it's enrage is cast: **Blue Screen**.
 
-## Phase 5: Dynamis M & F - (Run: Dynamis)
+### Phase 5: Dynamis M & F - (Run: Dynamis)
 ::: everyone
 Each Run: Dynamis cast comes with a **HEAVY** raid-wide hit that should be appropriately mitigated by every class.
 :::
@@ -407,7 +407,7 @@ Party member's 15 second mitigations can be used at the 2nd tank buster hit, all
 
 After 2 auto-attacks, Omega-M will then cast: 
 
-### Run: Dynamis (Delta Version)
+#### Run: Dynamis (Delta Version)
 <Action title='P5 Dynamis Delta Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=732288275415761&preview=1' />
 
 I highly recommend looking at the toolbox for this trio as well as reading this guide. This is a very intensive mechanic that becomes hard to digest through entirely text alone.
@@ -465,7 +465,7 @@ If solved correctly, 6 players will have 1 stack of **Quickening Dynamis** <Stat
 
 **Omega-M** will then do another **Solar Ray** tank buster before casting:
 
-### Run: Dynamis (Sigma Version)
+#### Run: Dynamis (Sigma Version)
 <Action title='P5 Dynamis Sigma Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=107380954136761&preview=1' />
 
 At the beginning of Sigma, each player will be assigned 1 of 4 symbols and be inflicted with **Mid Glitch** or **Remote Glitch**, identical to **Party Synergy**. Two players will also be assigned a **Hello, Distant World** and **Hello, Near World** debuff. Two **Arms** will then spawn eitherside of a random cardinal/intercardinal and attach tethers to the two **furthest players** away from them. Directly opposite this is where **Omega-M** will spawn, where the party will move to line up as seen in the MUR cheatsheet. 
@@ -512,7 +512,7 @@ If solved correctly, 4 players will have 1 stack of **Quickening Dynamis** <Stat
 
 After another **Solar Ray** tank buster, **Omega-F** casts:
 
-### Run: Dynamis (Omega Version)
+#### Run: Dynamis (Omega Version)
 <Action title='P5 Dynamis Omega Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=078384491946761&preview=1' />
 
 After the initial raid-wide, 4 players are assigned **Hello World** debuffs. Two players are assigned with **First in Line** <StatusIcon name="First in Line" />, and two others will be assigned with **Second in Line** <StatusIcon name="Second in Line" />. One player from each pair will be assigned **Hello, Distant World** <StatusIcon name="Hello, Distant World" /> and the other **Hello, Near World** <StatusIcon name="Hello, Near World" />.
@@ -575,7 +575,7 @@ If solved correctly all 8 players will have 3 stacks of **Quickening Dynamis** <
 Where you are knocked back to is where you will begin the next phase. Everyone should be knocked to **true South** as mitigation is applied early in phase 6.
 :::
 
-## Phase 6: Alpha Omega
+### Phase 6: Alpha Omega
 <Action title='P6 Alpha Omega Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=829484027197761&preview=1' />
 
 ::: everyone
@@ -625,7 +625,7 @@ After taking their line AOEs, players will stack on C as the **Wave Cannon** cas
 
 Both melee DPS will use their LB3's after **Unlimited Wave Cannon**, and after two auto-attacks, everyone will group up under **Alpha Omega** as it casts:
 
-### Cosmo Meteor
+#### Cosmo Meteor
 ::: everyone
 The physical ranged player of the group will take the North waymark for this mechanic, with the MT moving to the North West waymark to replace them.
 :::
@@ -652,7 +652,7 @@ Healers will top up everyone to full for the very last time after cosmo meteor, 
 
 **Alpha Omega** will then begin to cast:
 
-### Magic Number
+#### Magic Number
 **Alpha Omega** will then cast the first **Magic Number**. Tanks must LB3 this to survive. Shortly after the hit a 6s **Magic Number** <StatusIcon name="Magic Number" /> debuff will be applied to the party, killing the player once the debuff falls off. This debuff is cleansed by a healer LB3.
 
 ::: info NOTE
@@ -665,4 +665,4 @@ Healers should wait for the debuff to actually appear before casting their LB3, 
 
 This set of mechanics repeats twice, until **Alpha Omega** casts the final enrage:
 
-## **Run: Dynamis**
+### **Run: Dynamis**

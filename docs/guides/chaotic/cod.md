@@ -1,10 +1,10 @@
 ---
 title: COD
 order: 1
-longtitle: The Cloud of Darkness (Chaotic)
+longTitle: The Cloud of Darkness (Chaotic)
 expansion: Dawntrail
 difficulty: Chaotic
-discussionlink: https://discord.com/channels/895516967543390249/1321109667644182653
+discussionLink: https://discord.com/channels/895516967543390249/1321109667644182653
 ---
 
 ## Credits
