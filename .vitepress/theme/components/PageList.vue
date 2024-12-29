@@ -15,37 +15,37 @@ function openPage (url) {
 <template>
 	<div class="navblock">
 		<div class="navcolumn">
-			<div class="navtitle"><img class="guide_titleimg" src='images/icons/trial.webp'/>Extreme</div>
+			<div class="navtitle"><img class="guide_titleimg" src='/images/icons/trial.webp'/>Extreme</div>
 			<div v-for="page in extremePages">
 				<div class="navlink" @click="openPage(page.url)" v-bind:style="{ 'background-image': 'linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)),url(' + '/images/banners/' + page.frontmatter.title + '.webp' + ')' }">{{ page.frontmatter.title }}</div>
 			</div>
 		</div>
 		<div class="navcolumn">
-			<div class="navtitle"><img class="guide_titleimg" src='images/icons/chaotic.webp'/>Chaotic</div>
+			<div class="navtitle"><img class="guide_titleimg" src='/images/icons/chaotic.webp'/>Chaotic</div>
 			<div v-for="page in chaoticPages">
 				<div class="navlink" @click="openPage(page.url)" v-bind:style="{ 'background-image': 'linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)),url(' + '/images/banners/' + page.frontmatter.title + '.webp' + ')' }">{{ page.frontmatter.title }}</div>
 			</div>
 		</div>
 		<div class="navcolumn">
-			<div class="navtitle"><img class="guide_titleimg" src='images/icons/raid.webp'/>Savage</div>
+			<div class="navtitle"><img class="guide_titleimg" src='/images/icons/raid.webp'/>Savage</div>
 			<div v-for="page in savagePages">
 				<div class="navlink" @click="openPage(page.url)" v-bind:style="{ 'background-image': 'linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)),url(' + '/images/banners/' + page.frontmatter.title + '.webp' + ')' }">{{ page.frontmatter.title }}</div>
 			</div>
 		</div>
 		<div class="navcolumn">
-			<div class="navtitle"><img class="guide_titleimg" src='images/icons/highendduty.webp'/>Ultimate</div>
+			<div class="navtitle"><img class="guide_titleimg" src='/images/icons/highendduty.webp'/>Ultimate</div>
 			<div v-for="page in ultimatePages">
 				<div class="navlink" @click="openPage(page.url)" v-bind:style="{ 'background-image': 'linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)),url(' + '/images/banners/' + page.frontmatter.title + '.webp' + ')' }">{{ page.frontmatter.title }}</div>
 			</div>
 		</div>
 		<div class="navcolumn">
-			<div class="navtitle"><img class="guide_titleimg" src='images/icons/variant.webp'/>Criterion</div>
+			<div class="navtitle"><img class="guide_titleimg" src='/images/icons/variant.webp'/>Criterion</div>
 			<div v-for="page in criterionPages">
 				<div class="navlink" @click="openPage(page.url)" v-bind:style="{ 'background-image': 'linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)),url(' + '/images/banners/' + page.frontmatter.title + '.webp' + ')' }">{{ page.frontmatter.title }}</div>
 			</div>
 		</div>
 		<div class="navcolumn">
-			<div class="navtitle"><img class="guide_titleimg" src='images/icons/trial.webp'/>Other Content</div>
+			<div class="navtitle"><img class="guide_titleimg" src='/images/icons/trial.webp'/>Other Content</div>
 			<div v-for="page in otherPages">
 				<div class="navlink" @click="openPage(page.url)" v-bind:style="{ 'background-image': 'linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)),url(' + '/images/banners/' + page.frontmatter.title + '.webp' + ')' }">{{ page.frontmatter.title }}</div>
 			</div>
