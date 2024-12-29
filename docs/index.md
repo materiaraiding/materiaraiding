@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Welcome to Materia Raiding"
-  tagline: Materia Raiding is your one-stop shop for your Savage and Ultimate Raiding needs for the Materia FF14 Datacenter. Here you will find guide and resources for Materia Raiding and Materia Ultimate Raiding strats.
+  tagline: Materia Raiding is your one-stop shop for your FF14 Raiding needs for the Materia Datacenter. Here you will find guide and resources for Materia Raiding and Materia Ultimate Raiding strats.
   actions:
     - theme: brand
       text: Materia Raiding Discord

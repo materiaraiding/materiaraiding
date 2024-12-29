@@ -30,7 +30,6 @@ export default defineConfig({
 			{
 				text: "Archive",
 				items: [
-					{text: "Stormblood", link: "/guides/archive/stormblood"},
 					{text: "Endwalker", link: "/guides/archive/endwalker"},
 				],
 			},
@@ -124,18 +123,6 @@ export default defineConfig({
 					],
 				},
 			],
-			"/guides/archive/stormblood": [
-				{
-					text: "Stormblood",
-					items: [
-						{
-							text: "Extreme",
-							collapsed: false,
-							items: [{text: "EX4", link: "/guides/archive/stormblood/extreme/ex4"}],
-						},
-					],
-				},
-			],
 			"/resources": [
 				{
 					text: "Resources",
@@ -175,6 +162,9 @@ export default defineConfig({
 			md.use(youtubeEmbedPlugin);
 			md.use(timingWindowPlugin);
 		},
+	},
+	rewrites: {
+		'cod.md': 'guides/chaotic/cod.md'
 	},
 	vite: {
 		optimizeDeps: {

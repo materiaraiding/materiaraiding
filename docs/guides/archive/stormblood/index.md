@@ -1,5 +1,0 @@
----
-title: Stormblood
----
-
-# Stormblood Archive
