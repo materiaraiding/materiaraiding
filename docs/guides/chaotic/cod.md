@@ -13,7 +13,11 @@ discussionLink: https://discord.com/channels/895516967543390249/1321109667644182
 
 ## Raidplan
 
-<Action title='Cloud of Darkness (Chaotic)' color='purple' href='https://raidplan.io/plan/fs0XZrkKO_SHQ-z3' />
+<Action title='Cloud of Darkness (Chaotic)' color='purple' href='https://raidplan.io/plan/2f37jWj7XwPBjfix' />
+
+## Raidplan
+
+@[](https://youtu.be/GoZuj9g8N-Q)
 
 ## Summary
 
