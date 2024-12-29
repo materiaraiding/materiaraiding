@@ -1,7 +1,8 @@
 ---
 order: 6
 title: FRU
-longTitle: Futures Rewritten
+longTitle: Future's Rewritten (Ultimate)
+description: Materia Resources and Guide for Future's Rewritten (Ultimate).
 difficulty: Ultimate
 expansion: Dawntrail
 image: eden.webp
@@ -148,6 +149,8 @@ These can be imported using an XIV Launcher Plugin.
 
 ### Phase 1: Fatebreaker
 
+<Action title='P1 - Proteans & Utopian Sky' color='red' href='https://raidplan.io/plan/WlRr-qtrUTEPiaJZ' />
+
 Throughout this phase Fatebreaker will aspect his abilities with either Fire or Lightning.
 
 Fire **Cyclonic Break**
@@ -235,6 +238,8 @@ Following this, Fatebreaker casts:
 
 #### Fall of Faith / Tethers 2
 
+<Action title='P1 - Tethers 2 East/West' color='red' href='https://raidplan.io/plan/TOsL-pQk0vGJXBS7' />
+
 Fatebreaker will begin the mechanic by targeting a random player with either a **Fire Aspected** or **Lightning Aspected** Fall of Faith.
 
 3 clones will spawn from NW to NE, each one tethering a new player with Fire/Lightning.
@@ -266,6 +271,8 @@ After another **Burnished Glory**, Fatebreaker will do another **Powder Mark** <
 
 #### Burnt Strike / Enum Towers
 
+<Action title='P1 - Towers - Static' color='red' href='https://raidplan.io/plan/Gfbp6n3NgBHgNqI1' />
+
 Fatebreaker will begin to channel Burnt Strike, and 3 towers will appear on the West or East wall. These towers will require 6 members from the team to soak them, with a maximum of 4 players in one tower.
 
 From North to South, players will pair up in the towers in the order: H1/D1 - D4/D2 - H2/D3.
@@ -290,7 +297,11 @@ Phase 2 begins with a tankbuster **Quadruple Slap**, before starting the first m
 
 #### Diamond Dust
 
-::: details Diamond Dust
+<Action title='P2 - Diamond Dust - Color Partners' color='blue' href='https://raidplan.io/plan/PPYgcTqAr4DXZE50' />
+
+::: details Diamond Dust - Rel North - Old Strat
+
+<Action title='P2 - Diamond Dust Rel North' color='blue' href='https://raidplan.io/plan/h521rrvlPhF-ajjp' />
 
 After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena. 
 (clarification on clone here)
@@ -329,9 +340,9 @@ After dropping their puddles, everyone will quickly rush back to the centre of t
 Moving slightly closer to the wall after your KB can help alleviate some poor AOE placement.
 :::
 
-:::
-
 #### Stillness/Silence
+
+<Action title='P2 - Silence/Stillness' color='blue' href='https://raidplan.io/plan/sbGvvKgbVlTjJLqe' />
 
 Just after the AOEs are dropped, players should identify **where** the clone of Shiva is (she'll be wearing a white outfit instead of Shiva's blueish armour), as this is where **real** Shiva will be later. 
 
@@ -377,6 +388,8 @@ She will then cast a heavy hitting line stack, **Hallowed Ray**, before casting:
 
 #### Mirror Mirror
 
+<Action title='P2 - Mirror Mirror' color='blue' href='https://raidplan.io/plan/gFwpXMjpVgxgcnpi' />
+
 Shiva will spawn 3 mirrors along the edges of the arena. There will be **2 RED mirrors** and **1 BLUE mirror**.
 
 During this mechanic, every mirror will repeat the mechanics that Shiva is doing, however **red** mirrors will do it after a significant delay.
@@ -412,6 +425,8 @@ Shiva will then cast:
 #### Light Rampant
 
 ::: details 4/4 LR
+
+<Action title='P2 - Light Rampant - 4/4 Strat' color='blue' href='https://raidplan.io/plan/pgz322Znkd_Srn8n' />
   
 Shiva will go untargetable, and the party should line up as seen in the image below, with DPS south and Supports north. Shortly after the cast finishes, 6 players will be tethered together with 2 of them having large white orbs above their heads, signifying they are being targeted for a light party stack later.
   
@@ -435,7 +450,10 @@ After resolving the towers, Northern and Southern tether players should group up
 
 :::
 
-::: details AB1234 LR
+::: details AB1234 LR - Old Strat
+
+<Action title='P2 - Light Rampant - AB1234 - Old Strat' color='blue' href='https://raidplan.io/plan/zUEBkOqVo0p5FZW-' />
+<Action title='AB1234 Bonus Examples' color='blue' href='https://raidplan.io/plan/_lzxCSo-2uza1IJa' />
 
 Shiva will go untargetable. Shortly after the cast finishes, 6 players will be tethered together with 2 of them having large white orbs above their heads, signifying they are being targeted for a light party stack later.
 
@@ -502,6 +520,8 @@ Gaia will start out the phase with **Hell's Judgement**, a raidwide that will se
 This is immediately followed by: 
 
 #### Ultimate Relativity
+
+<Action title='P3 - Ultimate Relativity' color='green' href='https://raidplan.io/plan/oYnDQe4ZbVaoxA5r' />
 
 This mechanic is quite dense. I recommend looking through toolboxes in addition to the written guide, to get a clearer understanding of positions.
 
@@ -662,11 +682,11 @@ As soon as the **2nd stack** resolves a tank must immediately run to the **next 
 The tank can simply watch the AOEs rotate as the safespots will always be 180 degrees from eachother. After the stack goes off they can sprint to the next upcoming safespot.
 :::
 
-Both parties will follow Gaia to this **new north**, and **keeping the same flexed parties**, Light Party 1 will go slightly West of Gaia, and Light Party 2 will go slightly East of Gaia. 
+Both parties will follow Gaia to this **new north**, and **keeping the same flexed parties**, Light Party 1 will go slightly West of Gaia, and Light Party 2 will go slightly East of Gaia.
 
-Gaia will then knock back the party towards the wall. 
+Gaia will then knock back the party towards the wall.
 
-**Each Light Party should make their way toward Gaia to ensure that everyone can reach the stack**. 
+**Each Light Party should make their way toward Gaia to ensure that everyone can reach the stack**.
 
 Shortly after this knockback the **3rd and final stack** resolves.
 
