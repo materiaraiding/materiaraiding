@@ -784,8 +784,6 @@ The assigned **Red Aero** player, and all the **non-Eruption Blue** debuff playe
 
 After the **Yellow Tether** traffic lights go off, players (including the eruption player) will shift slightly into where the AOE was. Immediately, the **Water, Ice, and Aero** will all go off at once, launching the **Blue** players to the opposite side of the arena, and they will immediately stack with the **Eruption** & **Ice** player of that side to resolve **Unholy Darkness**.
 
-Work in Progress
-
 ### Phase 5: Pandora
 
 <ActionGroup
