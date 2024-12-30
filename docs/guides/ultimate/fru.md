@@ -64,9 +64,9 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ### Phase 5
 <ActionGroup
 :actions="[
-{ title: 'P5 - Fulgent Blade (Exas)', color: 'orange', href: 'https://raidplan.io/plan/xE5dM62WDf6sYUYf' },
-{ title: 'P5 - Wings & Towers', color: 'orange', href: 'https://raidplan.io/plan/Bf91HcD3ckk_S-Lw' },
-{ title: 'P5 - Polarizing Strikes', color: 'orange', href: 'https://raidplan.io/plan/ca2GGs51v5uKGpz1' },
+{ title: 'P5 - Fulgent Blade (Exas)', color: 'yellow', href: 'https://raidplan.io/plan/xE5dM62WDf6sYUYf' },
+{ title: 'P5 - Wings & Towers', color: 'yellow', href: 'https://raidplan.io/plan/Bf91HcD3ckk_S-Lw' },
+{ title: 'P5 - Polarizing Strikes', color: 'yellow', href: 'https://raidplan.io/plan/ca2GGs51v5uKGpz1' },
 ]"
 />
 
@@ -142,6 +142,8 @@ These can be imported using an XIV Launcher Plugin.
 ![](/images/fruwaymarks.webp)
 
 ## Written Guide
+
+---
 
 ### Phase 1: Fatebreaker
 
@@ -286,6 +288,8 @@ Whilst this is happening, the tanks will be utilising the opposite half of the a
 Finally, Fatebreaker will cast his enrage:
 
 #### Burnished Glory
+
+---
 
 ### Phase 2: Usurper of Frost (Shiva)
 
@@ -509,6 +513,8 @@ As the party begins attacking these Crystals, **Light Crystals** will target the
 
 Once all the Light Crystals are destroyed, Players must DPS ice veil below 50% to transition to the next phase. Gaia will deal exactly **50% damage** to the crystal to break it (if all **Light Crystals** were destroyed).
 
+---
+
 ### Phase 3: Oracle of Darkness (Gaia)
 
 Gaia will start out the phase with **Hell's Judgement**, a raidwide that will set every players HP to 1.
@@ -517,7 +523,7 @@ This is immediately followed by:
 
 #### Ultimate Relativity
 
-<Action title='P3 - Ultimate Relativity' color='green' href='https://raidplan.io/plan/oYnDQe4ZbVaoxA5r' />
+<Action title='P3 - Ultimate Relativity' color='purple' href='https://raidplan.io/plan/oYnDQe4ZbVaoxA5r' />
 
 This mechanic is quite dense. I recommend looking through toolboxes in addition to the written guide, to get a clearer understanding of positions.
 
@@ -690,6 +696,7 @@ After another **Shockwave Pulsar**, Gaia must be damaged below 20% HP before she
 
 #### Memory's End
 
+---
 
 ### Phase 4: Enter the Dragon (AKA Ryne & Gaia)
 
@@ -784,12 +791,14 @@ The assigned **Red Aero** player, and all the **non-Eruption Blue** debuff playe
 
 After the **Yellow Tether** traffic lights go off, players (including the eruption player) will shift slightly into where the AOE was. Immediately, the **Water, Ice, and Aero** will all go off at once, launching the **Blue** players to the opposite side of the arena, and they will immediately stack with the **Eruption** & **Ice** player of that side to resolve **Unholy Darkness**.
 
+---
+
 ### Phase 5: Pandora
 
 <ActionGroup
 :actions="[
-{ title: 'P5 - Fulgent Blade (Exas)', color: 'orange', href: 'https://raidplan.io/plan/xE5dM62WDf6sYUYf' },
-{ title: 'P5 - Wings & Towers', color: 'orange', href: 'https://raidplan.io/plan/Bf91HcD3ckk_S-Lw' },
-{ title: 'P5 - Polarizing Strikes', color: 'orange', href: 'https://raidplan.io/plan/ca2GGs51v5uKGpz1' },
+{ title: 'P5 - Fulgent Blade (Exas)', color: 'yellow', href: 'https://raidplan.io/plan/xE5dM62WDf6sYUYf' },
+{ title: 'P5 - Wings & Towers', color: 'yellow', href: 'https://raidplan.io/plan/Bf91HcD3ckk_S-Lw' },
+{ title: 'P5 - Polarizing Strikes', color: 'yellow', href: 'https://raidplan.io/plan/ca2GGs51v5uKGpz1' },
 ]"
 />

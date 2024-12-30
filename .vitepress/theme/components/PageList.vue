@@ -84,7 +84,7 @@ function openPage (url) {
 .navlink {
 	height: 60px;
 	border-radius: 8px;
-	border: 2px solid;
+	border: 3px solid;
 	background-color: #302d36;
 	padding: 0.5em 0.5em 0.4em 0.5em;
 	font-size: 1.3em;
@@ -100,7 +100,7 @@ function openPage (url) {
 	max-width: 400px;
 	&:hover {
 		color: #ffffff;
-		border: 2px solid #ffffff;
+		border: 3px solid #ffffff;
 		padding: 0.5em 0.5em 0.4em 0.6em;
 		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 	}
@@ -116,33 +116,33 @@ function openPage (url) {
 }
 
 .chaotic-color {
-	color: #d6f6dd;
-	border-color: #d6f6dd;
+	color: var(--color-chaotic);
+	border-color: var(--color-chaotic);
 }
 
 .ultimate-color {
-	color: #ffb8fe;
-	border-color: #ffb8fe;
+	color: var(--color-ultimate);
+	border-color: var(--color-ultimate);
 }
 
 .savage-color {
-	color: #ebd2b4;
-	border-color: #ebd2b4;
+	color: var(--color-savage);
+	border-color: var(--color-savage);
 }
 
 .extreme-color {
-	color: #f4989c;
-	border-color: #f4989c;
+	color: var(--color-extreme);
+	border-color: var(--color-extreme);
 }
 
 .criterion-color {
-	color: #dac4f7;
-	border-color: #dac4f7;
+	color: var(--color-criterion);
+	border-color: var(--color-criterion);
 }
 
 .other-color {
-	color: #acecf7;
-	border-color: #acecf7;
+	color: var(--color-other);
+	border-color: var(--color-other);
 }
 
 </style>

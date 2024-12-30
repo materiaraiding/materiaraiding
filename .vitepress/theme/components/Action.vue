@@ -32,10 +32,12 @@ export default {
 .button-link {
 	display: block;
 	width: fit-content;
-	margin: 6px;
+	margin-top: 5px;
+	margin-right: 8px;
+	margin-bottom: 3px;
 	padding: 0 20px;
 	border: 1px solid transparent;
-	border-radius: 20px;
+	border-radius: 8px;
 	text-align: center;
 	font-weight: 600;
 	white-space: nowrap;
