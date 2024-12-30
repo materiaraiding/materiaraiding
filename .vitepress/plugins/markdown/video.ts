@@ -38,6 +38,6 @@ export const youtubeEmbedPlugin = (md: MarkdownIt) => {
 		const url = tokens[idx].attrGet("url");
 		const title = tokens[idx].attrGet("title");
 
-		return `<YoutubeEmbed :url="'${url}'" :title="'${title}'" />`;
+		return `<ClientOnly><YoutubeEmbed :url="'${url}'" :title="'${title}'" /></ClientOnly>`;
 	};
 };

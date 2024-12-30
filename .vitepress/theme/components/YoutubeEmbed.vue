@@ -22,23 +22,22 @@ export default {
 			default: "",
 		},
 	},
-	computed: {
-		src() {
-			const url = new URL(this.url);
-			const isPlaylist = url.searchParams.has("list");
-			const videoId = url.searchParams.has("v")
-				? url.searchParams.get("v")
-				: url.pathname.split("/").pop().split("?")[0];
-			const timestamp = url.searchParams.has("t") ? url.searchParams.get("t") : null;
+	data() {
+		return {
+			src: "",
+		};
+	},
+	mounted() {
+		const url = new URL(this.url);
+		const params = url.searchParams;
 
-			if (isPlaylist) {
-				const playlistId = url.searchParams.get("list");
-				return `https://www.youtube.com/embed/videoseries?list=${playlistId}`;
-			}
+		const isPlaylist = params.has("list");
+		const videoId = params.get("v") || url.pathname.split("/").pop().split("?")[0];
+		const timestamp = params.get("t");
 
-			const baseEmbedUrl = `https://www.youtube.com/embed/${videoId}`;
-			return timestamp ? `${baseEmbedUrl}?start=${timestamp}` : baseEmbedUrl;
-		},
+		this.src = isPlaylist
+			? `https://www.youtube.com/embed/videoseries?list=${params.get("list")}`
+			: `https://www.youtube.com/embed/${videoId}${timestamp ? `?start=${timestamp}` : ""}`;
 	},
 };
 </script>

@@ -22,6 +22,6 @@ export const imagePlugin = (md: MarkdownIt, options: Options = {}) => {
 			token.attrSet("loading", "lazy");
 		}
 
-		return `<ImageEmbed src="${adjustedSrc}" alt="${alt}" width="${width}" caption="${caption}" />`;
+		return `<ClientOnly><ImageEmbed src="${adjustedSrc}" alt="${alt}" width="${width}" caption="${caption}" /></ClientOnly>`;
 	};
 };
