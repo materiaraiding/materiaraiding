@@ -802,3 +802,15 @@ After the **Yellow Tether** traffic lights go off, players (including the erupti
 { title: 'P5 - Polarizing Strikes', color: 'yellow', href: 'https://raidplan.io/plan/ca2GGs51v5uKGpz1' },
 ]"
 />
+
+Phase 5 is a simple phase that repeats multiple mechanics over until enrage with Paradise Lost. This is a tight DPS check, and it is important to avoid any Damage Downs or Deaths at all in this phase.
+
+1. Fulgent Blade (Exas)
+2. Paradise Regained (Wings & Towers)
+3. Polarizing Strikes
+4. Pandora's Box (Tank LB)
+5. Fulgent Blade (Exas)
+6. Paradise Regained (Wings & Towers)
+7. Polarizing Strikes
+8. Fulgent Blade (Exas)
+9. Paradise Lost (Enrage)
