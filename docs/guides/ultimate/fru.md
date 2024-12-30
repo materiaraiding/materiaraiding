@@ -131,8 +131,6 @@ The mit sheets is **NOT** intended to be taken as gospel, but rather a general g
 [**I understand, take me to the mit sheet**](https://docs.google.com/spreadsheets/d/10ZSxFpqJxcbaswpU_JR9L6nU3PjouNz_GONghM6lw2A/edit?gid=1960553822)
 :::
 
-## Cheatsheet
-
 ## Waymarks
 
 These can be imported using an XIV Launcher Plugin.
@@ -143,9 +141,7 @@ These can be imported using an XIV Launcher Plugin.
 
 ![](/images/fruwaymarks.webp)
 
-
-
-## Buff Timings
+## Written Guide
 
 ### Phase 1: Fatebreaker
 
