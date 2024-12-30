@@ -25,7 +25,7 @@ import PageList from "./components/PageList.vue";
 import guide from "./layouts/guide.vue";
 
 export default {
-	...DefaultTheme,
+	extends: DefaultTheme,
 	Layout: guide,
 	enhanceApp(ctx: EnhanceAppContext) {
 		DefaultTheme.enhanceApp(ctx);
