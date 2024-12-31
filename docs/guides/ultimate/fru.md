@@ -37,11 +37,11 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 <ActionGroup
 :actions="[
 { title: 'P2 - Diamond Dust - Color Partners', color: 'blue', href: 'https://raidplan.io/plan/PPYgcTqAr4DXZE50' },
-{ title: 'P2 - Diamond Dust - Relative North - Old Strat', color: 'blue', href: 'https://raidplan.io/plan/h521rrvlPhF-ajjp' },
+{ title: 'P2 - Diamond Dust - Relative North - Old Strat', href: 'https://raidplan.io/plan/h521rrvlPhF-ajjp' },
 { title: 'P2 - Silence/Stillness', color: 'blue', href: 'https://raidplan.io/plan/sbGvvKgbVlTjJLqe' },
 { title: 'P2 - Mirror Mirror', color: 'blue', href: 'https://raidplan.io/plan/gFwpXMjpVgxgcnpi' },
 { title: 'P2 - Light Rampant - 4/4 Strat', color: 'blue', href: 'https://raidplan.io/plan/pgz322Znkd_Srn8n' },
-{ title: 'P2 - Light Rampant - AB1234 - Old Strat', color: 'blue', href: 'https://raidplan.io/plan/zUEBkOqVo0p5FZW-' },
+{ title: 'P2 - Light Rampant - AB1234 - Old Strat', href: 'https://raidplan.io/plan/zUEBkOqVo0p5FZW-' },
 ]"
 />
 
