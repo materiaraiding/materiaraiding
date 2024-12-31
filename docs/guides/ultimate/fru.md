@@ -664,6 +664,8 @@ Each Light Party will then spread for a **Spirit Taker** AOE on a random player,
 
 Once the safespot is identified, each party will move into it and spread out using the aforementioned "square" spread.
 
+The safespot for all 4 will be the initial safe cardinal/intercardinal, and the cardinal/intercardinal **opposite** the spin of the AOEs.
+
 ![](/images/apocspread.webp)
 
 ::: tip
@@ -683,6 +685,8 @@ As soon as the **2nd stack** resolves a tank must immediately run to the **next 
 ::: tip
 The tank can simply watch the AOEs rotate as the safespots will always be 180 degrees from eachother. After the stack goes off they can sprint to the next upcoming safespot.
 :::
+
+(theres a better way to tell, 45 degrees from safespot will write up later)
 
 Both parties will follow Gaia to this **new north**, and **keeping the same flexed parties**, Light Party 1 will go slightly West of Gaia, and Light Party 2 will go slightly East of Gaia.
 
@@ -705,11 +709,23 @@ All players should keep a close eye on both bosses health here. Immediately afte
 The boss that is too high HP will be tethered during the **Ahk Morn** cast.
 :::
 
+::: tank
+Ryne will be doing two auto attacks on the two players with the highest emnity, requiring the OT to have 2nd aggro on Ryne.
+:::
+
 Gaia will become untargetable and disappear. Usurper of Frost (Ryne) will then appear **true North/South**, and a memory crystal will appear **true North**. Ryne will always spawn opposite of where Gaia phased previously.
 
-Hraesvelgr will coil around Ryne. Baited AOEs will appear under each player once his wings sprout. The party will stack relative west of Ryne (waymark 1 or 3), and quickly move after his wings come out.
+::: warning
+Be extremely careful with placement of any AOEs (Water Stacks, Eruption, Spirit Taker etc), as if the crystal at North takes any optional damage it will be destroyed and the party will be unable to reach phase 5.
+:::
+
+Hraesvelgr will coil around Ryne. Baited AOEs will appear under each player once his wings sprout. The party will stack true west of Ryne (waymark 1 or 4), and quickly move to the center of the arena after the wings sprout from Ryne's body.
 
 The memory crystal will pulse and Oracle of Darkness (Gaia) will appear and teleport to South.
+
+::: danger EVERYONE
+Everyone should swap to DPSing Gaia here until they are both even in health.
+:::
 
 Both bosses will then cast:
 
@@ -738,10 +754,6 @@ Once the bowtie is formed, the tether players will stand in their towers, and th
 ![](https://github.com/user-attachments/assets/dfeae866-9934-4def-a4ed-2eb951b55c0f)
 
 After the towers and AOEs resolve, Gaia will cast **Sprit Taker**, targeting a random player again. All players will roughly spread to resolve this. Immediately after Ryne will cast **Hallowed Wings**, cleaving one half of the arena. The party will shift over into the safespot and take the **Water Stack**.
-
-::: warning
-Be extremely careful with placement of Spirit Taker, as if the crystal at North takes any optional damage it will be destroyed and the party will be unable to reach phase 5.
-:::
 
 A tank will **immediately** run to **true East** or **true West** (whichever is furthest) to bait out a **Somber Dance** tankbuster, followed by another **Somber Dance** baited on the closest person.
 
