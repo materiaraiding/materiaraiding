@@ -737,15 +737,15 @@ Ryne will also cast 4 proximity based Protean AOEs from her that will be baited 
 
 To begin, each player will stack mid as Ryne transformed before quickly moving to the following lineup with **supports true North** and **DPS true South**
 
-![](https://github.com/user-attachments/assets/1efa326f-0514-4f6a-9f28-34ccc126b966)
+![396285559-1efa326f-0514-4f6a-9f28-34ccc126b966.webp](/images/396285559-1efa326f-0514-4f6a-9f28-34ccc126b966.webp)
 
 The tether players will quickly determine what shape the tether is currently in and make a bowtie shape. This is to ensure 2 players from each side can soak towers while still satisfying the length requirement for the tethers.
 
-![](https://github.com/user-attachments/assets/661063e9-26ec-4725-bbdc-8281f6b5e73b)
+![396285380-661063e9-26ec-4725-bbdc-8281f6b5e73b.webp](/images/396285380-661063e9-26ec-4725-bbdc-8281f6b5e73b.webp)
 
 Once the bowtie is formed, the tether players will stand in their towers, and the 4 remaining players will split left/right and shuffle close to Ryne to bait out the Proteans. If both water stacks are on the same North/South side of the room, the untethered AOE player will swap with the untethered player on their side of the room to ensure the water stacks are split north/south.
 
-![](https://github.com/user-attachments/assets/dfeae866-9934-4def-a4ed-2eb951b55c0f)
+![396285330-dfeae866-9934-4def-a4ed-2eb951b55c0f.webp](/images/396285330-dfeae866-9934-4def-a4ed-2eb951b55c0f.webp)
 
 After the towers and AOEs resolve, Gaia will cast **Sprit Taker**, targeting a random player again. All players will roughly spread to resolve this. Immediately after Ryne will cast **Hallowed Wings**, cleaving one half of the arena. The party will shift over into the safespot and take the **Water Stack**.
 
@@ -772,7 +772,7 @@ From left to right:
 
 Ice Debuffs will step up, Aero debuffs will step down, look at the two players standing north/south of the lineup to determine who goes East/West.
 
-![](https://github.com/user-attachments/assets/a625f6c7-a1f0-4eaf-abb4-5bd787ccfb4a)
+![395830834-a625f6c7-a1f0-4eaf-abb4-5bd787ccfb4a.webp](/images/395830834-a625f6c7-a1f0-4eaf-abb4-5bd787ccfb4a.webp)
 
 **Red** players must intercept dragonheads that will begin to travel around the arena from North to South. Intercepting these dragons will cleanse the debuff, and cause a large AOE explosion aswell as leaving behind a small puddle on the floor. This puddle must be picked up by a **Blue** player to successfully cleanse their own debuff. Allowing either of these debuffs to remain unresolved will immediately kill the player.
 
