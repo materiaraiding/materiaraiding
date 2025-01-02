@@ -108,18 +108,14 @@ P5: Polarizing Swap Order: TMRH
 
 ## Video Guides
 
-### Phase 1
-@[](https://youtu.be/4p2K2u8aloU)
+::: details Expand for Video Guides by Kobe
 
-### Phase 2
+@[](https://youtu.be/4p2K2u8aloU)
 @[](https://youtu.be/YYs2D0-n_oM)
 @[](https://youtu.be/B_-7MUa4ULY)
-
-### Phase 3
 @[](https://youtu.be/QZzuMStV26U)
-
-### Phase 4
 @[](https://youtu.be/Si7y2rEz6os)
+:::
 
 ## Mitigation Plan
 
@@ -143,8 +139,6 @@ These can be imported using an XIV Launcher Plugin.
 
 ## Written Guide
 
----
-
 ### Phase 1: Fatebreaker
 
 <Action title='P1 - Proteans & Utopian Sky' color='red' href='https://raidplan.io/plan/WlRr-qtrUTEPiaJZ' />
@@ -166,15 +160,15 @@ Lightning **Burnt Strike**
 After a few heavy hitting auto attacks, Fatebreaker will cast **Cyclonic Break** which will target each player with proteans.
 These proteans will repeat in the position they are baited, and then alternate to the previous safe spot twice.
 
-![](https://github.com/user-attachments/assets/cfc624e3-a416-4927-9e3d-5c3b5c22e9c1)
+![](/images/390189825-cfc624e3-a416-4927-9e3d-5c3b5c22e9c1.webp)
 
 For **Fire Aspected** Cyclonic Break, each player will rotate into a pair stack, then alternating between proteans.
 
-![](https://github.com/user-attachments/assets/7b066a72-4327-49b0-ab88-39129b02f892)
+![](/images/390189848-7b066a72-4327-49b0-ab88-39129b02f892.webp)
 
 For **Lightning Aspected** Cyclonic Break each player will move into the same proteans but with ranged behind the melee for spreads, then alternate between proteans.
 
-![](https://github.com/user-attachments/assets/24ec7b38-c181-4c25-bdba-dded10d78b65)
+![](/images/390189871-24ec7b38-c181-4c25-bdba-dded10d78b65.webp)
 
 After this resolves, Fatebreaker will cast **Powder Mark Trail**, hitting the MT with a heavy tankbuster and marking them with a 15s debuff of the same name.
 
@@ -188,7 +182,7 @@ This mechanic can be Fire or Lightning aspected. Fire will result in 2 light par
 
 Fatebreaker will go untargetable and jump away as fog fills the arena. Party members will spread to the wall in protean positions with ST and D4 swapped. ST and MT will resolve their Powder Mark by moving slightly closer together at the wall.
 
-![](https://github.com/user-attachments/assets/9bfeb30f-c39a-4031-affe-178f028a58c1)
+![](/images/390190034-9bfeb30f-c39a-4031-affe-178f028a58c1.webp)
 
 While at the wall, 3 random clones will raise their arms, indicating they will cleave through the arena.
 

@@ -11,8 +11,8 @@ This guide is aimed to help raiders with **previous experience** in current Ulti
 
 You can also find parties and other like-minded raiders in our OCE raiding community servers: 
 
-[Materia Raiding Discord](https://discord.gg/EySn5dRj65)
-[Materia Ultimate Raiding Discord](https://discord.gg/ArZz3b8PZV)
+- [Materia Raiding Discord](https://discord.gg/EySn5dRj65)
+- [Materia Ultimate Raiding Discord](https://discord.gg/ArZz3b8PZV)
 
 
 ## Raid Roles
@@ -54,15 +54,15 @@ Macros use the same Role notation above to explain positions and mechs in a visu
 ...
 ```
 
-You will often see macros shared in party chat when you get into your Party Finder group, if your not sure what strat is being used for a fight, don't be afraid to ask the party leader for a Macro.
+You will often see macros shared in party chat when you get into your Party Finder group, if you're not sure what strat is being used for a fight, don't be afraid to ask the party leader for a Macro.
 
 ## Savage
 Current Savage Tier raid resources are compiled on our Savage page, which you can find at the button below. This includes our Macros, Images and Toolboxes made for OCE specific strategies. 
 
-[M1S](/m1s)
-[M2S](/m2s)
-[M3S](/m3s)
-[M4S](/m4s)
+- [M1S](/m1s)
+- [M2S](/m2s)
+- [M3S](/m3s)
+- [M4S](/m4s)
 
 ## UCOB
 
@@ -74,12 +74,12 @@ One key difference is due to being in the southern hemisphere, we flip the arena
 
 For all of Bahamut, we use the following toolboxes: 
 
-[QMT](https://ff14.toolboxgaming.space/?id=877146678916361&preview=1)
-[BFT](https://ff14.toolboxgaming.space/?id=838145884536361&preview=1)
-[FRT](https://ff14.toolboxgaming.space/?id=810783368854861&preview=1)
-[HFT](https://ff14.toolboxgaming.space/?id=740246169786361&preview=1)
-[TST](https://ff14.toolboxgaming.space/?id=141245760517361&preview=1)
-[GO](https://ff14.toolboxgaming.space/?id=803246524767361&preview=1)
+- [QMT](https://ff14.toolboxgaming.space/?id=877146678916361&preview=1)
+- [BFT](https://ff14.toolboxgaming.space/?id=838145884536361&preview=1)
+- [FRT](https://ff14.toolboxgaming.space/?id=810783368854861&preview=1)
+- [HFT](https://ff14.toolboxgaming.space/?id=740246169786361&preview=1)
+- [TST](https://ff14.toolboxgaming.space/?id=141245760517361&preview=1)
+- [GO](https://ff14.toolboxgaming.space/?id=803246524767361&preview=1)
 
 [Full UCOB OCE Guide](/ucob)
 

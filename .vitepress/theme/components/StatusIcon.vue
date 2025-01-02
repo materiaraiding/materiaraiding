@@ -26,6 +26,7 @@ export default {
 img {
 	display: inline;
 	height: 1.5em;
-	vertical-align: text-top;
+	vertical-align: top;
+	margin: 0 3px;
 }
 </style>

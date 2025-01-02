@@ -58,5 +58,5 @@ Coloured WM to match up with fire/ice pairs and KB pairs
 ## Other Resources
 
 ### Arena Image
-![](https://github.com/materiaraiding/materiaraiding/assets/85346345/a17a9ad5-2183-4496-a0a6-fcbc8c1de23a)
+![](https://github.com/materiaraiding/materiaraiding-old/assets/85346345/a17a9ad5-2183-4496-a0a6-fcbc8c1de23a)
 
