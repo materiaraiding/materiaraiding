@@ -1,7 +1,8 @@
 <template>
 	<figure>
 		<img :src="src" :width="width" :alt="alt" />
-		<figcaption>{{ caption }}</figcaption>
+		<div class="copyimagelink" :href="src" v-on:click="copyURL(src)">{{ msg }}</div>
+		<figcaption v-if="caption">{{ caption }}</figcaption>
 	</figure>
 </template>
 
@@ -24,26 +25,58 @@ export default {
 		caption: {
 			type: String,
 			default: "",
-		},
+		}
 	},
+	data() {
+		return {
+			msg: 'Copy Image Link'
+		};
+	},
+	methods: {
+		async copyURL(mytext) {
+			let clicked
+			try {
+				await navigator.clipboard.writeText(window.location.origin + mytext);
+				this.msg = 'Copied to clipboard';
+				clicked = true
+				setTimeout(function () {
+					this.msg = "Copy Image Link";
+					clicked = false;
+				}.bind(this), 4000);
+			} catch($e) {
+				this.msg = 'Sorry, unable to copy image link';
+			}
+		}
+	}
 };
 </script>
 
 <style scoped>
 figure {
 	text-align: center;
-	margin: 0 auto;
+	margin: auto;
+	width: max-content;
+	max-width: 100%;
 }
 img {
 	border-radius: 8px;
-	margin: auto;
 }
 img:hover {
 	cursor: pointer;
 }
 figcaption {
-	margin-top: 0.5em;
 	font-size: small;
 	color: var(--vp-c-text-3);
 }
+
+.copyimagelink {
+	color: var(--vp-c-text-3);
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: left;
+	font-weight: 500;
+	line-height: 20px;
+}
+
 </style>
