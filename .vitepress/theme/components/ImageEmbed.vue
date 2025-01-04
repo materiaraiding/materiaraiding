@@ -37,7 +37,7 @@ export default {
 			let clicked
 			try {
 				await navigator.clipboard.writeText(window.location.origin + mytext);
-				this.msg = 'Copied to clipboard';
+				this.msg = 'Link copied to clipboard';
 				clicked = true
 				setTimeout(function () {
 					this.msg = "Copy Image Link";
@@ -77,6 +77,10 @@ figcaption {
 	text-align: left;
 	font-weight: 500;
 	line-height: 20px;
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
 }
 
 </style>
