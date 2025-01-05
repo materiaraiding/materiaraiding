@@ -25,4 +25,4 @@ General Prios for Inner tiles:
 
 HEALER > TANK > DPS
 
-![](/images/codtrafficrules.webp)
+![](/images/COD-trafficrules.webp)

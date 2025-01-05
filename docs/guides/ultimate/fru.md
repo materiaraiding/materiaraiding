@@ -130,7 +130,7 @@ These can be imported using an XIV Launcher Plugin.
 {"Name":"cardinal exalines, intercard dragon & rewinds 1A","MapID":1006,"A":{"X":100.0,"Y":0.0,"Z":93.0,"ID":0,"Active":true},"B":{"X":107.0,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":107.0,"ID":2,"Active":true},"D":{"X":93.0,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":91.575,"Y":0.0,"Z":91.575,"ID":4,"Active":true},"Two":{"X":108.425,"Y":0.0,"Z":91.575,"ID":5,"Active":true},"Three":{"X":108.425,"Y":0.0,"Z":108.425,"ID":6,"Active":true},"Four":{"X":91.575,"Y":0.0,"Z":108.425,"ID":7,"Active":true}}
 ```
 
-![](/images/fruwaymarks.webp)
+![](/images/FRU-waymarks.webp)
 
 ## Written Guide
 
@@ -155,15 +155,15 @@ Lightning **Burnt Strike**
 After a few heavy hitting auto attacks, Fatebreaker will cast **Cyclonic Break** which will target each player with proteans.
 These proteans will repeat in the position they are baited, and then alternate to the previous safe spot twice.
 
-![](/images/390189825-cfc624e3-a416-4927-9e3d-5c3b5c22e9c1.webp)
+![](/images/FRU-basicspread.webp)
 
 For **Fire Aspected** Cyclonic Break, each player will rotate into a pair stack, then alternating between proteans.
 
-![](/images/390189848-7b066a72-4327-49b0-ab88-39129b02f892.webp)
+![](/images/FRU-firebreak.webp)
 
 For **Lightning Aspected** Cyclonic Break each player will move into the same proteans but with ranged behind the melee for spreads, then alternate between proteans.
 
-![](/images/390189871-24ec7b38-c181-4c25-bdba-dded10d78b65.webp)
+![](/images/FRU-lightningbreak.webp)
 
 After this resolves, Fatebreaker will cast **Powder Mark Trail**, hitting the MT with a heavy tankbuster and marking them with a 15s debuff of the same name.
 
@@ -177,7 +177,7 @@ This mechanic can be Fire or Lightning aspected. Fire will result in 2 light par
 
 Fatebreaker will go untargetable and jump away as fog fills the arena. Party members will spread to the wall in protean positions with ST and D4 swapped. ST and MT will resolve their Powder Mark by moving slightly closer together at the wall.
 
-![](/images/390190034-9bfeb30f-c39a-4031-affe-178f028a58c1.webp)
+![](/images/FRU-utopiansky1.webp)
 
 While at the wall, 3 random clones will raise their arms, indicating they will cleave through the arena.
 
@@ -185,7 +185,7 @@ Because only the players who are next to these clones can see them, if a player 
 
 If the person opposite you walks in, **you must walk in as well, even if your clone has a lowered arm**.
 
-![](/images/Slide14.webp)
+![](/images/FRU-utopiansky2.webp)
 
 This will result in 2 people remaining on the wall and subsequently form a small triangular safe spot. 
 
@@ -196,8 +196,8 @@ Light party 2 will take any safe spot from NE - S
 After arriving at the safespot, the party will either stack or spread. The spread can be seen in the image below. 
 The DPS can move 3.5 notches from the star on the arena edge to determine a safe distance from the healer.
 
-![](/images/Slide17.webp)
-![](/images/Slide18.webp)
+![](/images/FRU-utopiansky3.webp)
+![](/images/FRU-utopiansky4.webp)
 
 #### Tethers 1
 
@@ -215,7 +215,7 @@ Light party 1 will move slightly to the north, and Light party 2 will move sligh
 
 Using the knock back from Burnt Strike, each party will be knocked North-East/West and South-East/West depending on where the safespot is.
 
-![](/images/Slide27.webp)
+![](/images/FRU-tether1.webp)
 
 If these light parties are not an even 4/4 split, players will be hit with a heavy damage down.
 
@@ -251,8 +251,8 @@ Because the tether colour disappears quickly on the first tether, it can be usef
 
 Once a tether goes off on each side, the tethered players should swap positions.
 
-![](images/tether2.webp)
-![](images/Slide43.webp)
+![](images/FRU-tether2-1.webp)
+![](images/FRU-tether2-2.webp)
 
 After another **Burnished Glory**, Fatebreaker will do another **Powder Mark** <StatusIcon name="Powder Mark" /> tankbuster before casting the final mechanic:
 
@@ -270,7 +270,7 @@ If Burnt Strike is Fire Aspected, players will ride the knockback into their res
 
 If Burnt Strike is Lightning Aspected, players can simply step out into their tower immediately.
 
-![](/images/Slide61.webp)
+![](/images/FRU-towers.webp)
 
 Whilst this is happening, the tanks will be utilising the opposite half of the arena to resolve their **Powder Mark** debuff in the same manner as the previous tankbusters.
 
@@ -391,7 +391,7 @@ As this cast goes off, 4 proximity based AOEs will launch at the players closest
 
 The lineup for these AOEs can be seen below:
 
-![](/images/MM1.webp)
+![](/images/FRU-mirrormirror.webp)
 
 Immediately after, the MT will pull the boss to the closest red mirror to the boss, and the ranged will move to the closest red mirror to the blue mirror, and everyone will spread for another Scythe Kick + Protean combo.
 
@@ -403,11 +403,11 @@ After this mechanic resolves the mirrors will despawn and Shiva will cast **Bani
 
 If this halo has **1 orb**, the party must group up in pairs as seen in the image below:
 
-![](/images/BANISHPARTNERS.webp)
+![](/images/FRU-banishpartners.webp)
 
 If this halo has **4 orbs**, the party must spread as seen in the image below:
 
-![](/images/BANISHSPREAD.webp)
+![](/images/FRU-banishspread.webp)
 
 Shiva will then cast:
 
@@ -419,7 +419,7 @@ Shiva will then cast:
   
 Shiva will go untargetable, and the party should line up as seen in the image below, with DPS south and Supports north. Shortly after the cast finishes, 6 players will be tethered together with 2 of them having large white orbs above their heads, signifying they are being targeted for a light party stack later.
   
-![](/images/LR1.webp)
+![](/images/FRU-LRold-1.webp)
   
 These tethers will explode if the distance between two players is too short, so they must be stretched to an adequate distance (close to 80-90% of the arena length) to satisfy the mechanic.
 The 2 remaining players will be targeted with AOEs marks similar to the puddles in Stillness/Silence.
@@ -427,12 +427,12 @@ At the same time, 6 towers will appear around the arena.
   
 Players must quickly form a hexagon shape, using the 3 North waymarks and the 3 South waymarks. Some players (D1/H2) may have to walk to the opposite cardinal to form the hexagon.
   
-![](/images/LR2.webp)
+![](/images/FRU-LRold-2.webp)
   
 The N/S players will then swap positions, and the NE/NW players will also swap positions. All the tether players will then quickly spread out to the tower on their cardinal/intercardinal.
   
-![](/images/LR3.webp)
-![](/images/LR4.webp)
+![](/images/FRU-LRold-3.webp)
+![](/images/FRU-LRold-4.webp)
   
 The 2 AOE players will start in the inner ring on the Arena at N/S and rotate CW to drop 5 puddle AOES each.
 After resolving the towers, Northern and Southern tether players should group up at North and South respectively. Each AOE player should also join a separate light party after they drop their puddles.
@@ -456,7 +456,7 @@ The 2 orbs in the circle will be labelled A and B, and every non-orb tether play
 
 Using these labels, we can assign a tower for each player:
 
-![](/images/AB1234.webp)
+![](/images/FRU-AB1234.webp)
 
 To determine which orb is A, look at the tether players clockwise from yourself until you hit an orb. 
 
@@ -484,7 +484,7 @@ Shiva must be brought below 20% health before she finishes casting her enrage:
 
 All players will spread as seen in the image below and close to the centre of the arena, as there will be a short ranged knock back.
 
-![](/images/fruintermission.webp)
+![](/images/FRU-intermission.webp)
 
 Ryne will become frozen in an **Ice Veil** in the centre of the arena, and 8 Crystals will spawn around the arena. 
 
@@ -564,13 +564,13 @@ Once the cast bar goes off players will find Relative North. For this example I 
 
 DPS will look at their party list to determine which spread they are taking, in the priority D3-D1-D2-D4 looking at relative North. Supports will do the same with the priority H1 MT ST H2. 
 
-![](/images/392383199-65792737-0d86-4540-8169-1385a5a92d4f.webp)
+![](/images/FRU-URlayout.webp)
 
 Any DPS with a **10s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** will use their priority take the SW and SE traffic lights. 
 
 Any Support with a **30s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** will use their priority and take the NW and NE traffic lights.
 
-![](/images/391797261-35406216-91d9-490e-96f2-5335d159e6aa.webp)
+![](/images/FRU-URadjust.webp)
 
 An example of this would be if I'm D1 and both D4 and I get a 10s Fire, the D4 would take SE and I would take SW.
 
@@ -610,18 +610,18 @@ Rewind will pull everyone back to their recorded position and the **Water Stack<
 
 The following cheatsheets can help summarize the process of events through this mech, these can be useful to help with learning positions: 
 
-![](/images/URDPS.webp)
-![](/images/URSUPP.webp)
+![](/images/FRU-UR-DPS.webp)
+![](/images/FRU-UR-SUPP.webp)
 
 ::: details Flipped Version
 Images flipped upside down if you prefer looking at it this way. The strat is exactly the same and compatible with the images above. 
 
-![](/images/URflippedDPS.webp)
-![](/images/URflippedSUPP.webp)
-
-![](/images/URcheatsheet.webp)
+![](/images/FRU-UR-DPS-flipped.webp)
+![](/images/FRU-UR-SUPP-flipped.webp)
 
 :::
+
+![](/images/FRU-URcheatsheet.webp)
 
 Gaia will follow Ultimate Relativity with a **Party Stack**, a **Shockwave Pulsar** raidwide, and a **Black Halo** **Dual Tank Buster Cleave**
 
@@ -655,7 +655,7 @@ Once the safespot is identified, each party will move into it and spread out usi
 
 The safespot for all 4 will be the initial safe cardinal/intercardinal, and the cardinal/intercardinal **opposite** the spin of the AOEs.
 
-![](/images/apocspread.webp)
+![](/images/FRU-APOCspread.webp)
 
 ::: tip
 The players at the front can keep full melee uptime but must be careful, as the inner exploding AOE is quite large. I recommend breaking max melee and tapping forward until you're just able to hit Gaia.
@@ -732,15 +732,15 @@ Ryne will also cast 4 proximity based Protean AOEs from her that will be baited 
 
 To begin, each player will stack mid as Ryne transformed before quickly moving to the following lineup with **supports true North** and **DPS true South**
 
-![396285559-1efa326f-0514-4f6a-9f28-34ccc126b966.webp](/images/396285559-1efa326f-0514-4f6a-9f28-34ccc126b966.webp)
+![396285559-1efa326f-0514-4f6a-9f28-34ccc126b966.webp](/images/FRU-DL1.webp)
 
 The tether players will quickly determine what shape the tether is currently in and make a bowtie shape. This is to ensure 2 players from each side can soak towers while still satisfying the length requirement for the tethers.
 
-![396285380-661063e9-26ec-4725-bbdc-8281f6b5e73b.webp](/images/396285380-661063e9-26ec-4725-bbdc-8281f6b5e73b.webp)
+![396285380-661063e9-26ec-4725-bbdc-8281f6b5e73b.webp](/images/FRU-DLadjust.webp)
 
 Once the bowtie is formed, the tether players will stand in their towers, and the 4 remaining players will split left/right and shuffle close to Ryne to bait out the Proteans. If both water stacks are on the same North/South side of the room, the untethered AOE player will swap with the untethered player on their side of the room to ensure the water stacks are split north/south.
 
-![396285330-dfeae866-9934-4def-a4ed-2eb951b55c0f.webp](/images/396285330-dfeae866-9934-4def-a4ed-2eb951b55c0f.webp)
+![396285330-dfeae866-9934-4def-a4ed-2eb951b55c0f.webp](/images/FRU-DLswap.webp)
 
 After the towers and AOEs resolve, Gaia will cast **Sprit Taker**, targeting a random player again. All players will roughly spread to resolve this. Immediately after Ryne will cast **Hallowed Wings**, cleaving one half of the arena. The party will shift over into the safespot and take the **Water Stack**.
 
@@ -767,7 +767,7 @@ From left to right:
 
 Ice Debuffs will step up, Aero debuffs will step down, look at the two players standing north/south of the lineup to determine who goes East/West.
 
-![395830834-a625f6c7-a1f0-4eaf-abb4-5bd787ccfb4a.webp](/images/395830834-a625f6c7-a1f0-4eaf-abb4-5bd787ccfb4a.webp)
+![395830834-a625f6c7-a1f0-4eaf-abb4-5bd787ccfb4a.webp](/images/FRU-CTadjust.webp)
 
 **Red** players must intercept dragonheads that will begin to travel around the arena from North to South. Intercepting these dragons will cleanse the debuff, and cause a large AOE explosion aswell as leaving behind a small puddle on the floor. This puddle must be picked up by a **Blue** player to successfully cleanse their own debuff. Allowing either of these debuffs to remain unresolved will immediately kill the player.
 
