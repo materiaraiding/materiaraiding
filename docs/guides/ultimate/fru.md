@@ -698,10 +698,10 @@ As well as these Red and Blue buffs everyone will also gain an additional debuff
 As **Blue** players will need to soak a debuff, we use these debuffs to indicate who takes which puddle. As each puddle is left in the proximity of a waymark, **Blue** players will take puddles following the list below:
 
 ```
-STACK - B
-WATER - 3
-DARK - D
-ICE - 4
+/e STACK - B (Yellow)
+/e WATER - 3 (Blue)
+/e DARK - D  (Purple Side)
+/e ICE - 4   (Purple Corner)
 ```
 
 In addition to debuffs going out, 6 Traffic Lights will spawn. The Traffic Lights have two possible spawn iterations, where the mechanic solve is simply flipped horizontally.
