@@ -56,7 +56,6 @@ export default {
 
 <style scoped>
 figure {
-	position: relative;
 	text-align: center;
 	margin: auto;
 	width: max-content;
@@ -77,21 +76,17 @@ figcaption {
 .imagelink {
 	color: var(--vp-c-text-3);
 	transition: color 0.2s;
-	position: absolute;
 	text-decoration: none;
 	cursor: pointer;
 	font-size: 13px;
-	font-weight: 600;
+	font-weight: 500;
 	line-height: 22px;
 	text-align: right;
-	top: 5px;
-	left: 8px;
-	right: 8px;
+	margin-right: 0.2em;
 	-webkit-user-select: none; /* Safari */
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
-
 }
 
 .imagelink:hover {
