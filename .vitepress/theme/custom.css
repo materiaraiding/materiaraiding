@@ -37,3 +37,13 @@ strong {
     font-weight: bold;
     color: var(--vp-c-brand-1);
 }
+
+.v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__inner {
+    background: var(--vp-c-bg-elv);
+}
+.v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__arrow-outer {
+    border-color: var(--vp-c-bg-elv);
+}
+.v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__inner {
+    color: var(--vp-c-text-1);
+}

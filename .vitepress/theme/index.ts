@@ -1,8 +1,10 @@
 import DefaultTheme from "vitepress/theme";
 import "viewerjs/dist/viewer.min.css";
 import imageViewer from "vitepress-plugin-image-viewer";
-import {EnhanceAppContext, useRoute} from "vitepress";
+import { EnhanceAppContext, useRoute } from "vitepress";
 import "./custom.css";
+import FloatingVue, { createTooltip } from 'floating-vue'
+import 'floating-vue/dist/style.css'
 
 // @ts-ignore
 import YoutubeEmbed from "./components/YoutubeEmbed.vue";
@@ -24,6 +26,12 @@ import PageList from "./components/PageList.vue";
 // @ts-ignore
 import guide from "./layouts/guide.vue";
 
+declare global {
+	interface Window {
+		createTooltip: typeof createTooltip;
+	}
+}
+
 export default {
 	extends: DefaultTheme,
 	Layout: guide,
@@ -37,6 +45,22 @@ export default {
 		ctx.app.component("ActionGroup", ActionGroup);
 		ctx.app.component("CustomBlock", CustomBlock);
 		ctx.app.component("PageList", PageList);
+		ctx.app.use(FloatingVue, {
+			boundary: 'body',
+			themes: {
+				'glossary-tooltip': {
+					$extend: 'tooltip',
+					hideTriggers: (events: string[]) => events,
+					instantMove: true,
+					delay: { show: 100, hide: 200 },
+					html: true,
+				}
+			},
+		});
+
+		if (typeof window !== 'undefined') {
+			window.createTooltip = createTooltip;
+		}
 	},
 	setup() {
 		// Get route

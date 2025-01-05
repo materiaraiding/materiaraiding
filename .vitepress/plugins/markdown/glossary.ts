@@ -56,7 +56,7 @@ export function glossary(md: MarkdownIt): void {
 
 		if (wordList.length > 0 && !isHeading) {
 			const wordMap: Record<string, string> = {};
-			wordList.forEach(({word, definition}) => {
+			wordList.forEach(({ word, definition }) => {
 				wordMap[word.toLowerCase()] = definition;
 			});
 
@@ -68,12 +68,12 @@ export function glossary(md: MarkdownIt): void {
 				const wordRegex = new RegExp(`\\b(${pattern})\\b`, "gi");
 				const content = tokens[idx].content;
 
-				if (wordRegex.test(content)) {
-					rendered = content.replace(wordRegex, (matchedWord) => {
-						const definition = wordMap[matchedWord.toLowerCase()] || "";
-						return `<span class="glossaryTerm" title="${escape(definition)}">${matchedWord}</span>`;
-					});
-				}
+			if (wordRegex.test(content)) {
+				rendered = content.replace(wordRegex, (matchedWord) => {
+					const definition = wordMap[matchedWord.toLowerCase()] || "";
+					return `<span class="glossaryTerm" v-tooltip="{ content: '${escape(definition)}', theme: 'glossary-tooltip' }">${matchedWord}</span>`;
+				});
+			}
 			}
 		}
 
