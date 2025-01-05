@@ -715,6 +715,8 @@ The assigned **Red Aero** player, and all the **non-Eruption Blue** debuff playe
 The **Red Aero** and **Eruption** player will stand 2 pips down from the star on the arena's edge so that they are leaning South/North respectively
 After the **Yellow Tether** traffic lights go off, the south **Blue** players will immediately move just in front of the **Red Aero** player. Immediately, the **Water, Ice, and Aero** will all go off at once, launching the **Blue** players to the opposite side of the arena, and they will immediately stack with the **Eruption** & **Red Ice** player of that side to resolve **Unholy Darkness**.
 
+![fru-ct-dragonpops.png](/images/fru-ct-dragonpops.png)
+
 After the stack resolves, all North players (**Blue** & **Red Ice**) will shift over to the North Cardinal.
 
 Line Exas will then begin to propogate from either East or West, as well as the final **Purple Tether** AOE going off.
@@ -726,6 +728,8 @@ The starting position of both of these Exas must be remembered, as they are the 
 For example if the Exas started West and North, the North West intercardinal will be "safe"
 
 After cleansing their debuff, everyone should run to the safe intercardinal and stack on the waymark as seen below:
+
+![fru-ct-rewinds.png](/images/fru-ct-rewinds.png)
 
 ::: info
 If a blue player is unable to cleanse their buff in time, they can run to the safe spot, drop their rewind and then run to go cleanse immediately after as there is a short window before the puddle despawns.
