@@ -32,11 +32,9 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 <ActionGroup
 :actions="[
 { title: 'P2 - Diamond Dust - Color Partners', color: 'blue', href: 'https://raidplan.io/plan/PPYgcTqAr4DXZE50' },
-{ title: 'P2 - Diamond Dust - Relative North - Old Strat', href: 'https://raidplan.io/plan/h521rrvlPhF-ajjp' },
 { title: 'P2 - Silence/Stillness', color: 'blue', href: 'https://raidplan.io/plan/sbGvvKgbVlTjJLqe' },
 { title: 'P2 - Mirror Mirror', color: 'blue', href: 'https://raidplan.io/plan/gFwpXMjpVgxgcnpi' },
 { title: 'P2 - Light Rampant - 4/4 Strat', color: 'blue', href: 'https://raidplan.io/plan/pgz322Znkd_Srn8n' },
-{ title: 'P2 - Light Rampant - AB1234 - Old Strat', href: 'https://raidplan.io/plan/zUEBkOqVo0p5FZW-' },
 ]"
 />
 
@@ -288,47 +286,6 @@ Phase 2 begins with a tankbuster **Quadruple Slap**, before starting the first m
 
 <Action title='P2 - Diamond Dust - Color Partners' color='blue' href='https://raidplan.io/plan/PPYgcTqAr4DXZE50' />
 
-::: details Diamond Dust - Rel North - Old Strat
-
-<Action title='P2 - Diamond Dust Rel North' color='blue' href='https://raidplan.io/plan/h521rrvlPhF-ajjp' />
-
-After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena. 
-(clarification on clone here)
-
-These will be followed by another 6 AOEs that fill the edge of the arena but only the first 2 are important and the rest can be ignored.
-
-Looking from NW to E, the AOE that is in this quadrant will become **relative North**.
-
-Either DPS or Supports will then be marked by 4 orange Frigid Stone AOEs that will spawn a star shaped AOE after a delay. Theses AOEs should always be placed on intercardinals when facing relative North.
-
-Our goal in this mechanic is to place these AOE markers in specific positions such that we form safe spots within relative North and relative South.
-
-Shiva will then cast 1 of 2 abilities:
-
-**Axe Kick/Cleave**: Shiva will do a large AOE, reaching to the outside ring of the arena.
-
-**Scythe Kick/Reap**: Shiva will do a small donut AOE, the safespot being halfway between the centre and the innermost ring.
-
-Because the AOEs are role based we split into ranged/melee partners for the following resolutions:
-
-#### Axe Kick
-
-For Axe Kick, Shiva will begin by shouting **"Cleave"**. Players will find relative North and immediately move out to their positions as shown in the image below. 
-
-The non-AOE players will stand just outside the outer ring on the arena floor to bait out proximity based protean AOEs. Leaning slightly towards the relative cardinal marker may help with clipping the AOE player. Meanwhile, AOE players should move as far out as they can and place their AOEs on intercardinals.
-
-#### Scythe Kick
-
-For Scythe Kick, Shiva will begin by shouting **"Reap"**. Players will find relative North and immediately move out to their positions as shown in the image below. 
-
-The non-AOE players will stand as close as possible to Shiva. It is possible to use the small diamond shapes on the floor to align yourself. The AOE players **must also** start extremely close to Shiva as the donut AOE is tiny (**The inner ring is NOT the safe spot; it is actually about half the diameter of that ring**). After the initial cleave goes off, all the AOE players will quickly move out and place their AOE on the middle ring on the Arena's floor.
-
-After dropping their puddles, everyone will quickly rush back to the centre of the arena. Shiva will shortly do a knockback and Light Party 1 will ride this to the relative North as this will be the safespot formed from the AOEs. Light Party 2 will ride this KB to the relative South. 
-
-::: tip
-Moving slightly closer to the wall after your KB can help alleviate some poor AOE placement.
-:::
-
 #### Stillness/Silence
 
 <Action title='P2 - Silence/Stillness' color='blue' href='https://raidplan.io/plan/sbGvvKgbVlTjJLqe' />
@@ -413,8 +370,6 @@ Shiva will then cast:
 
 #### Light Rampant
 
-::: details 4/4 LR
-
 <Action title='P2 - Light Rampant - 4/4 Strat' color='blue' href='https://raidplan.io/plan/pgz322Znkd_Srn8n' />
   
 Shiva will go untargetable, and the party should line up as seen in the image below, with DPS south and Supports north. Shortly after the cast finishes, 6 players will be tethered together with 2 of them having large white orbs above their heads, signifying they are being targeted for a light party stack later.
@@ -436,39 +391,6 @@ The N/S players will then swap positions, and the NE/NW players will also swap p
   
 The 2 AOE players will start in the inner ring on the Arena at N/S and rotate CW to drop 5 puddle AOES each.
 After resolving the towers, Northern and Southern tether players should group up at North and South respectively. Each AOE player should also join a separate light party after they drop their puddles.
-
-:::
-
-::: details AB1234 LR - Old Strat
-
-<Action title='P2 - Light Rampant - AB1234 - Old Strat' color='blue' href='https://raidplan.io/plan/zUEBkOqVo0p5FZW-' />
-<Action title='AB1234 Bonus Examples' color='blue' href='https://raidplan.io/plan/_lzxCSo-2uza1IJa' />
-
-Shiva will go untargetable. Shortly after the cast finishes, 6 players will be tethered together with 2 of them having large white orbs above their heads, signifying they are being targeted for a light party stack later.
-
-These tethers will explode if the distance between two players is too short, so they must be stretched to an adequate distance (close to 80-90% of the arena length) to satisfy the mechanic.
-
-The 2 remaining players will be targeted with AOEs marks similar to the puddles in Stillness/Silence.
-
-At the same time, 6 towers will appear around the arena.
-
-The 2 orbs in the circle will be labelled A and B, and every non-orb tether player after that will be labelled 1, 2, 3 and 4.
-
-Using these labels, we can assign a tower for each player:
-
-![](/images/fru-ab1234.webp)
-
-To determine which orb is A, look at the tether players clockwise from yourself until you hit an orb. 
-
-You can also determine which orb is A by counting AFTER both orbs, resulting in the order 1234AB
-
-The 2 AOE players will start in the inner ring on the Arena at West/East and rotate clockwise to drop 5 puddle AOEs each.
-
-After resolving the towers, players A13 will group up at North West, and players B24 will group up at South East. Each AOE player should also join a separate light party after they drop their puddles (Starting East ends up North West, starting West ends up South East).
-
-AOEs will then spawn around the arena in a Y shape, going off in 2 sets of 3. Players will WAIT for their light party stack to go off, before shifting to the closest safespot CW, and then moving BACK into the next safespot.
-
-:::
 
 As this mechanic has been going on, players have been accruing stacks of **Lightsteeped**. Up until now the stacks have been self-contained as there is no way to change them without resolving the mechanic in the process (towers/light party stack). If a player gains more than 4 stacks, the raid will wipe.
 
