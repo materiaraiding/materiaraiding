@@ -1,7 +1,7 @@
 <template>
 	<figure>
 		<img :src="src" :width="width" :alt="alt" />
-		<div class="copyimagelink" :class="{ active: clicked }" :href="src" v-on:click="copyURL(src)">{{ msg }}</div>
+		<div class="imagelinkdiv" style="text-align: left;"><span v-on:click="openPage(src)" class="imagelink" >Open in new tab</span><div style="float: right" class="imagelink" :class="{ active: clicked }" :href="src" v-on:click="copyURL(src)">{{ msg }}</div></div>
 		<figcaption v-if="caption">{{ caption }}</figcaption>
 	</figure>
 </template>
@@ -29,7 +29,7 @@ export default {
 	},
 	data() {
 		return {
-			msg: 'Copy Image Link',
+			msg: 'Copy image link',
 			clicked: false
 		};
 	},
@@ -40,12 +40,15 @@ export default {
 				this.msg = 'Copied to clipboard!';
 				this.clicked = true
 				setTimeout(function () {
-					this.msg = "Copy Image Link";
+					this.msg = "Copy image link";
 					this.clicked = false;
 				}.bind(this), 2000);
 			} catch($e) {
 				this.msg = 'Sorry, unable to copy image link';
 			}
+		},
+		openPage (url) {
+			window.open(url, '_blank').focus()
 		}
 	}
 };
@@ -53,6 +56,7 @@ export default {
 
 <style scoped>
 figure {
+	position: relative;
 	text-align: center;
 	margin: auto;
 	width: max-content;
@@ -70,22 +74,28 @@ figcaption {
 	color: var(--vp-c-text-3);
 }
 
-.copyimagelink {
-	color: var(--vp-c-text-3);
+.imagelinkdiv {
+	position: absolute;
 	text-decoration: none;
 	cursor: pointer;
 	font-size: 13px;
-	text-align: left;
 	font-weight: 500;
 	line-height: 22px;
+	bottom: 5px;
+	left: 8px;
+	right: 8px;
 	-webkit-user-select: none; /* Safari */
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
+}
+
+.imagelink {
+	color: var(--vp-c-text-3);
 	transition: color 0.2s;
 }
 
-.copyimagelink:hover {
+.imagelink:hover {
 	color: var(--vp-c-text-2);
 }
 
