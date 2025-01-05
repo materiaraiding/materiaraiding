@@ -41,11 +41,13 @@ strong {
 .v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__inner {
     background: var(--vp-c-bg-elv);
     border: 1px solid var(--vp-c-divider);
-    max-width: 350px;
+    max-width: 250px;
 }
 .v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__arrow-outer {
     border-color: var(--vp-c-bg-elv);
 }
 .v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__inner {
+    text-align: center;
+    text-wrap: balance;
     color: var(--vp-c-text-1);
 }
