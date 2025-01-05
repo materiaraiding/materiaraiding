@@ -1,6 +1,6 @@
 <template>
 	<figure>
-		<img v-on:click="openPage(src)" :src="src" :width="width" :alt="alt" />
+		<img :src="src" :width="width" :alt="alt" />
 		<div class="imagelinkdiv"><div style="text-align: right" class="imagelink" :class="{ active: clicked }" :href="src" v-on:click="copyURL(src)">{{ msg }}</div></div>
 		<figcaption v-if="caption">{{ caption }}</figcaption>
 	</figure>
