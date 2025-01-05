@@ -1,7 +1,7 @@
 <template>
 	<figure>
 		<img :src="src" :width="width" :alt="alt" />
-		<div class="copyimagelink" :href="src" v-on:click="copyURL(src)">{{ msg }}</div>
+		<div class="copyimagelink" :class="{ active: clicked }" :href="src" v-on:click="copyURL(src)">{{ msg }}</div>
 		<figcaption v-if="caption">{{ caption }}</figcaption>
 	</figure>
 </template>
@@ -29,20 +29,20 @@ export default {
 	},
 	data() {
 		return {
-			msg: 'Copy Image Link'
+			msg: 'Copy Image Link',
+			clicked: false
 		};
 	},
 	methods: {
 		async copyURL(mytext) {
-			let clicked
 			try {
 				await navigator.clipboard.writeText(window.location.origin + mytext);
-				this.msg = 'Link copied to clipboard';
-				clicked = true
+				this.msg = 'Copied to clipboard!';
+				this.clicked = true
 				setTimeout(function () {
 					this.msg = "Copy Image Link";
-					clicked = false;
-				}.bind(this), 4000);
+					this.clicked = false;
+				}.bind(this), 2000);
 			} catch($e) {
 				this.msg = 'Sorry, unable to copy image link';
 			}
@@ -82,6 +82,19 @@ figcaption {
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
+	transition: color 0.2s;
+}
+
+.copyimagelink:hover {
+	color: var(--vp-c-text-2);
+}
+
+.active {
+	color: var(--vp-c-text-1);
+}
+
+.active:hover {
+	color: var(--vp-c-text-1);
 }
 
 </style>
