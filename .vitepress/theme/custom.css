@@ -30,3 +30,8 @@ strong {
     --vp-c-bg-elv: #202127;
     --vp-c-bg-soft: #202127;
 }
+
+.filtered {
+    color: red;
+    font-size: 40px;
+}
