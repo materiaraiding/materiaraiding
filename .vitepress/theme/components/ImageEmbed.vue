@@ -74,10 +74,10 @@ figcaption {
 	color: var(--vp-c-text-3);
 	text-decoration: none;
 	cursor: pointer;
-	font-size: 12px;
+	font-size: 13px;
 	text-align: left;
 	font-weight: 500;
-	line-height: 20px;
+	line-height: 22px;
 	-webkit-user-select: none; /* Safari */
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
