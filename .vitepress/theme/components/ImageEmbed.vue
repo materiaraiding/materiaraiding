@@ -1,7 +1,7 @@
 <template>
 	<figure>
 		<img :src="src" :width="width" :alt="alt" />
-		<div class="imagelinkdiv"><div style="text-align: right" class="imagelink" :class="{ active: clicked }" :href="src" v-on:click="copyURL(src)">{{ msg }}</div></div>
+		<div class="imagelink" :class="{ active: clicked }" :href="src" v-on:click="copyURL(src)">{{ msg }}</div>
 		<figcaption v-if="caption">{{ caption }}</figcaption>
 	</figure>
 </template>
@@ -74,13 +74,16 @@ figcaption {
 	color: var(--vp-c-text-3);
 }
 
-.imagelinkdiv {
+.imagelink {
+	color: var(--vp-c-text-3);
+	transition: color 0.2s;
 	position: absolute;
 	text-decoration: none;
 	cursor: pointer;
 	font-size: 13px;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 22px;
+	text-align: right;
 	top: 5px;
 	left: 8px;
 	right: 8px;
@@ -88,11 +91,7 @@ figcaption {
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
-}
 
-.imagelink {
-	color: var(--vp-c-text-3);
-	transition: color 0.2s;
 }
 
 .imagelink:hover {
