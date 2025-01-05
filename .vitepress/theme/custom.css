@@ -40,6 +40,8 @@ strong {
 
 .v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__inner {
     background: var(--vp-c-bg-elv);
+    border: 1px solid var(--vp-c-divider);
+    max-width: 350px;
 }
 .v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__arrow-outer {
     border-color: var(--vp-c-bg-elv);
