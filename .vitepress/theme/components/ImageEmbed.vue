@@ -1,7 +1,7 @@
 <template>
 	<figure>
-		<img :src="src" :width="width" :alt="alt" />
-		<div class="imagelinkdiv" style="text-align: left;"><span v-on:click="openPage(src)" class="imagelink" >Open in new tab</span><div style="float: right" class="imagelink" :class="{ active: clicked }" :href="src" v-on:click="copyURL(src)">{{ msg }}</div></div>
+		<img v-on:click="openPage(src)" :src="src" :width="width" :alt="alt" />
+		<div class="imagelinkdiv"><div style="text-align: right" class="imagelink" :class="{ active: clicked }" :href="src" v-on:click="copyURL(src)">{{ msg }}</div></div>
 		<figcaption v-if="caption">{{ caption }}</figcaption>
 	</figure>
 </template>
@@ -81,7 +81,7 @@ figcaption {
 	font-size: 13px;
 	font-weight: 500;
 	line-height: 22px;
-	bottom: 5px;
+	top: 5px;
 	left: 8px;
 	right: 8px;
 	-webkit-user-select: none; /* Safari */
