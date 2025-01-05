@@ -251,8 +251,8 @@ Because the tether colour disappears quickly on the first tether, it can be usef
 
 Once a tether goes off on each side, the tethered players should swap positions.
 
-![](images/fru-tether2-1.webp)
-![](images/fru-tether2-2.webp)
+![](/images/fru-tether2-1.webp)
+![](/images/fru-tether2-2.webp)
 
 After another **Burnished Glory**, Fatebreaker will do another **Powder Mark** <StatusIcon name="Powder Mark" /> tankbuster before casting the final mechanic:
 
