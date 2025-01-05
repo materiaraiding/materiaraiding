@@ -4,7 +4,7 @@ title: TOP
 longTitle: The Omega Protocol
 difficulty: Ultimate
 expansion: Endwalker
-image: alphaomega.webp
+image: top-alphaomega.webp
 discussionLink: https://discord.com/channels/944115415385247784/1055803481820246056
 ---
 ## Credits
@@ -127,7 +127,7 @@ This is done by the priority system used in program loop, with the lower priorit
 
 If Omega cleaves the NE and SW waymarkers first then each party rotates to the safespot clockwise of their original position.
 
-![](/images/304051465-50502fe5-a598-4713-a7cb-2b901fc31c12.webp)
+![](/images/top-pantosides.webp)
 
 The cleaves will then either rotate clockwise or counter-clockwise. As the cleaves rotate each player will also leave behind puddles. The party stacks together at the rear cleave to take a **3 player line-stack**, whilst the numbers leave to take their AOE away from the group before joining back to the party. This process repeats until each number has taken their AOE and the cleaves cease.
 
@@ -175,7 +175,7 @@ The party should line-up from East to West as seen in the cheatsheet.
 The furthest West symbol of a pair will be designated as Light Party 1, whilst the furthest East will be designated Light Party 2.
 :::
 
-![](/images/257986944-0069116b-8199-4dcc-8d26-8fa56403ccad.webp)
+![](/images/top-synergylineup.webp)
 
 > As seen above, because I am the western most cross player I move to Light Party 1. 
 
@@ -192,7 +192,7 @@ The possible combinations are:
 | Skates | Shield |
 | Skates | Sword  |
 
-![](/images/357671492-7b6a6296-1ab6-4b0c-a795-6f2907919b15.webp)
+![](/images/top-synergycleaves.webp)
 
 ::: info NOTE
 The "cursed" pattern (F-Staff & M-Shield) can be easily resolved by using the far edges of the waymarks eitherside of the male.
@@ -252,7 +252,7 @@ Upon defeating Omega-F, the transition begins:
 #### Phase 2 -> Phase 3 Transition
 ::: everyone
 The party should line-up from East to West as seen in the cheatsheet before debuffs are assigned.
-![](/images/258101715-3552b589-9eaf-45be-8de0-c2b79cacf2f4.webp)
+![](/images/top-transitionlineup.webp)
 :::
 
 ::: healer
@@ -480,7 +480,7 @@ The **North-most** pair of **1 marker** will move to the North-West and South-Ea
 
 Players will move to their designated positions, stepping in front of their waymarker for **Mid Glitch**, and moving to the wall for **Remote Glitch**. The 2 players with **no marker**, must be in the **relative North-East** and **relative North-West** position to bait two line AOEs from the Arms. This is to ensure that none of the players already being targeted get hit and killed.
 
-![](/images/256717611-8e00e58c-2c31-4407-9ae1-50f012b05275.webp)
+![](/images/top-sigma-lineup.webp)
 
 After the AOEs resolve, **Omega-M will change to Omega-F** and towers will spawn. If the party is inflicted with **Mid Glitch**, 6 towers in a "smiley face" pattern will spawn. If inflicted with **Remote Glitch**, 5 towers in a "star" pattern will spawn. This pattern will spawn relative to the **Relative North Omega-F**, and can also be flipped vertically. Because these towers must be soaked whilst also **resolving Mid/Remote Glitch** everyone must take a particular tower. 
 

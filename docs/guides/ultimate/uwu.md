@@ -609,15 +609,15 @@ This mechanic can be very overwhelming but it is simplest to break it down into 
 1. First, look for Garuda who will be off-centre and avoid either cardinal on her side of the room - these are out-of-bounds. 
 2. Run to either of the one or two remaining cardinals that do NOT have Titan on them. Take note of where the Ultima Weapon is, as you will need to avoid them later.
 
-![](/images/313371348-2696d8f8-efe3-4b69-afe4-96114650aee6.webp)
+![](/images/uwu-pred1.webp)
 
 3. Wait at the wall. Titan will begin Landslides, you may need to dodge these near the cardinal.
 4. After the first Landslide, immediately dodge into a clear intercardinal, making sure not to dodge towards the Ultima Weapon.
 5. When dodging into an intercardinal you MUST stop at the wall using the pattern on the outside of the room to stop at the 4th visible rune. See the image below: 
 
-![](/images/313372251-7da1c4c4-1447-4921-ae9a-37f7f22d7827.webp)
+![](/images/uwu-pred2.webp)
 
-![](/images/313372088-64c362b6-208e-4da5-aa0e-a071e6267540.webp)
+![](/images/uwu-pred3.webp)
 
 Your final goal is to reach one of several possible safespots. Some of the options are VERY tight so make sure you stay close to the wall and use the runes on the wall to find the safe spot accurately. 
 
@@ -681,7 +681,7 @@ If you are not D3, i.e. every other DPS, move north from the third **Weight of t
 Once we are all north, wait for Ifrit to dash across through the intercardinal - once he does, immediately run to the 2 Waymark (it is worthwhile to use sprint) to not only avoid **Crimson Cyclone**, but also dodge Titan's double Landslides. After the **Crimson Cyclone**, run inwards to avoid Garuda's **Eye of the Storm** (donut AoE). Just be on the safe edge and do not run too inwards - tanks will be soaking orbs, and there will be a Searing Wind healer exploding south. The Ultima Weapon will then cast Tank Purge. As this goes off, Garuda will also Feather Rain. Dodge.
 :::
 
-![](/images/anni.webp)
+![](/images/uwu-anni.webp)
 
 #### Active Phase
 
@@ -707,7 +707,7 @@ Non-tank players should make their way to their positions that they predetermine
 
 Meanwhile, tanks should stand slightly apart in the middle of the southwest quadrant. Note the Garuda sisters standing behind the D and C Waymarks - your job is to intercept the Minstral Song they will cast on other players. Below is a screenshot taken from Kur Rumi's OT POV:
 
-![](/images/382996515-a7b89d4e-cd72-45fa-9d8d-96efd90b2f20.webp)
+![](/images/uwu-supp-example.webp)
 
 See how when Minstral Song affected players stand on the yellow spot, both tanks will successfully intercept the attack - this best describes how and why tanks should stand slightly apart within the southwest quadrant.
 

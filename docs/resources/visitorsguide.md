@@ -125,7 +125,7 @@ OT sometimes referenced as ST
 
 During Temporal Stasis mech after Phase 2, instead of FFA, supports prio left, and DPS right for long tethers, rest is the same (short tether is on the add to the right and no tether is to the add on the left).
 
-![](/images/305645723-31845dfb-fc41-4ad0-8f3c-5f6972c61b5a.webp)
+![](/images/tea-statis.webp)
 
 ### Inception Formation
 
@@ -163,7 +163,7 @@ OT sometimes referenced as ST
 
 During Temporal Stasis mech after Phase 2, blue tether prio is flipped, supports prio left, and DPS right, rest is the same (short tether is on the add to the right and no tether is to the add on the left).
 
-![](/images/305645723-31845dfb-fc41-4ad0-8f3c-5f6972c61b5a.webp)
+![](/images/tea-statis.webp)
 
 ### Inception Formation
 
@@ -271,7 +271,7 @@ There are a number of differences between OCE and JP for DSR. Please review this
 
 :::
 
-![](/images/DSR-dsrcheatsheet.webp)
+![](/images/dsr-dsrcheatsheet.webp)
 
 ## TOP
 TOP strats are similar (but not identical!) to NA, which are *substantially* different to JP. For an extended explanation you can see the complete TOP OCE Guide below by Juno Dax,

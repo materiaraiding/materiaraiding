@@ -26,13 +26,13 @@ Projection of Turmoil - Bagel (braindead) Strat
 
 Use pairs from left-right looking at the new platform. Note: For better melee updatime, move you and your partner closer too the boss before the knockback, this should result in the partner landing closer to the boss on the other side.
 
-![](/images/346246631-a6337c36-2b94-41a9-90d8-d7d63ec5ef37.webp)
+![](/images/ex2-1.webp)
 
 ### Vollok + Aero III
 
 Spread out on the side without a sword in the front two rows. Using only 4 tiles. 
 
-![](/images/346246898-1dfb6427-8e62-4002-b5be-699632edf7be.webp)
+![](/images/ex2-2.webp)
 
 ### Projection of Turmoil - Bagel (braindead) Strat
 AKA: D1CBA4

@@ -631,7 +631,7 @@ Preposition in QMT spreads around the middle of the room. The three players will
 
 The players with Hatch will take the first Hatch in the Neurolink.
 
-![239719934-e61c4564-690f-4ca3-a9d9-45573ad6adb8.webp](/images/239719934-e61c4564-690f-4ca3-a9d9-45573ad6adb8.webp)
+![239719934-e61c4564-690f-4ca3-a9d9-45573ad6adb8.webp](/images/ucob-tst-towers.webp)
 
 Targetted players will then run directly out to the wall to bait the second Hatch to go through the Neurolink. Another player will need to intercept the Hatch by standing in the Neurolink.
 
@@ -639,7 +639,7 @@ Neurolink targets move to the wall marked in **RED**.
 
 Intercepts move into Neurolink to catch Orbs marked in **YELLOW**.
 
-![239720066-ea2d1ed5-b7d8-4693-8be5-9a7c44c8a74c.webp](/images/239720066-ea2d1ed5-b7d8-4693-8be5-9a7c44c8a74c.webp)
+![239720066-ea2d1ed5-b7d8-4693-8be5-9a7c44c8a74c.webp](/images/ucob-tst-swaps.webp)
 
 ::: info NOTE
 Intercepts on south waymark may need to side-step a bit to catch the incoming orb as it sometimes spawns slightly offset to the right. Your job is to act like a goalkeeper and catch the orb as it goes past the Neurolink.
@@ -649,14 +649,14 @@ After the Hatch resolve, four players will be targetted with Earth Shaker.
 
 Players with Earth Shaker head to the 4 outer waymarks. 
 
-![239720163-97071fb0-e936-42f3-96f5-f5ceecce14e0.webp](/images/239720163-97071fb0-e936-42f3-96f5-f5ceecce14e0.webp)
+![239720163-97071fb0-e936-42f3-96f5-f5ceecce14e0.webp](/images/ucob-tst-proteans.webp)
 
 The remaining players should head to south waymark to avoid Earth Shaker. These players will now get Earth Shaker and need to swap positions with the first four players.
 
 ::: info NOTE
 Pre-position around the south waymark to indicate which outer waymark you will be heading too.
 
-![239720216-5997bb46-72d6-4337-bbed-55e93c0486f6.webp](/images/239720216-5997bb46-72d6-4337-bbed-55e93c0486f6.webp)
+![239720216-5997bb46-72d6-4337-bbed-55e93c0486f6.webp](/images/ucob-tst-directions.webp)
 Image from Tessian's UCOB Guide Video
 :::
 
@@ -692,7 +692,7 @@ Ensure that at least one party member is in a tower and prepare for Twister when
 
 If you are soaking a tower, walk **across** the tower as the dive goes off to ensure you do not leave the tower early and you don't get clipped by your own Twister.
 
-![239723699-7d0c9d70-8300-443b-8e29-c6b9b1001697.webp](/images/239723699-7d0c9d70-8300-443b-8e29-c6b9b1001697.webp)
+![239723699-7d0c9d70-8300-443b-8e29-c6b9b1001697.webp](/images/ucob-go-towerdodge.webp)
 
 Once Twister resolve, you will finish the phase and go into Adds.
 
@@ -832,7 +832,7 @@ To keep this guide consistent in the quality of the diagrams, below is an Emgram
 
 **DIAGRAM IS NOT 100% TO SCALE AND IS PURELY FOR DEMONSTRATIVE PURPOSES**
 
-![313406535-c9c5cda6-f387-4344-84f4-1f7d98866ff2.webp](/images/313406535-c9c5cda6-f387-4344-84f4-1f7d98866ff2.webp)
+![313406535-c9c5cda6-f387-4344-84f4-1f7d98866ff2.webp](/images/ucob-exa.webp)
 
 #### Phase Timeline
 
