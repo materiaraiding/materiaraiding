@@ -1,0 +1,50 @@
+- term: Bahamuts Claw
+  definition: Physical tankbuster consisting of 5 successive hits to her target.
+- term: Dalamud Dive
+  definition: Nael jumps onto her target, dealing significant splash damage. Make sure to spread away from the tank to prevent any extra damage.
+- term: Liquid Hell
+  definition: The boss will target further player with 5 consecutive fireballs dropping puddles, staying in a puddle is fatal. At times this can also target a random non-furthest player.
+- term: Death Sentence
+  definition: Tankbuster dealing heavy physical damage to its target, and inflicting a Slashing Resistance Down.
+- term: Fireball
+  definition: Twintania will mark a player with a red triangle, and throw a fireball dealing significant magic damage that can be shared amongst the party.
+- term: Hatch
+  definition: Orb spawns at boss and targets a player, exploding when it reaches them. Survive by standing in a puddle when it explodes on you.
+- term: Plummet
+  definition: Cleave, dealing significant physical damage to its target.
+- term: Neurolink
+  definition: Puddle dropped by boss, standing in it reduces outgoing damage to foes and incoming damage from Hatch.
+- term: Thunderstruck
+  definition: Two players are targeted with the Thunderstruck debuff and need to stay away from the party to avoid killing party members or giving them paralysis.
+- term: Wings of Salvation
+  definition: Large white puddles appear on the ground exploding shortly after.
+- term: Lunar Dynamo
+  definition: A Dount shaped AOE centered on the boss.
+- term: Thermionic Beam
+  definition: Heavy hitting party stack AOE.
+- term: Iron Chariot
+  definition: Large Point-Blank AOE centered on the boss with heavy knockback.
+- term: Raven's Dive
+  definition: Boss will jump to a player and hit them with a small AOE knocking back anyone nearby.
+- term: Meteor Stream
+  definition: Boss dives down on several players hitting them with a heavy attack in an AOE around them.
+- term: Ravensbeak
+  definition: Tankbuster dealing heavy physical damage to its target, and inflicting a Piercing Resistance Down.
+- term: Hypernova
+  definition: Boss will target a player with a AoE puddle at their location, staying in the puddle too long is fatal.
+- term: Flare Breath
+  definition: Conal cleave dealing very significant magic damage. Treat it like a mini-tankbuster.
+- term: Flatten
+  definition: Physical tankbuster dealing massive physical damage, that must be mitigated.
+- term: Earth Shaker
+  definition: Large conal AoE targetted towards a player.
+- term: Tempest Wing
+  definition: A teher which eventually explodes with magical splash damage and knockback to other people.
+- term: Gigaflare
+  definition: Raid-wide AoE dealing massive magic damage.
+- term: Morn Afah
+  definition: Untelegraphed AoE attack on a random player in which the damage must be shared with everyone.
+- term: Akh Morn
+  definition: Repeated AoE tankbuster attacks on the highest emnity target.
+- term: Exaflare
+  definition: AoE circles that travel in the direction of the indicated arrow.
