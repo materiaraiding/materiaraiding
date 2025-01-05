@@ -1,5 +1,5 @@
 import {defineConfig} from "vitepress";
-import {imagePlugin, customBlockPlugin, youtubeEmbedPlugin, timingWindowPlugin, wordFilter} from "./plugins/markdown";
+import {imagePlugin, customBlockPlugin, youtubeEmbedPlugin, timingWindowPlugin, glossary} from "./plugins/markdown";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -161,10 +161,7 @@ export default defineConfig({
 			md.use(imagePlugin);
 			md.use(youtubeEmbedPlugin);
 			md.use(timingWindowPlugin);
-			md.use(wordFilter, {
-				words: ['written', 'toolbox', 'raidplan'],
-				className: 'filtered'
-			});
+			md.use(glossary);
 		},
 	},
 	rewrites: {

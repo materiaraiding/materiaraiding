@@ -6,6 +6,7 @@ difficulty: Ultimate
 expansion: Stormblood
 image: ultima.webp
 discussionLink: https://discord.com/channels/944115415385247784/954964398206758952
+glossary: UWU
 ---
 ## Credits
 - Written Guide by Em Gram and Noz Leafhill

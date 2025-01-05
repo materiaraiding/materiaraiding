@@ -31,7 +31,9 @@ strong {
     --vp-c-bg-soft: #202127;
 }
 
-.filtered {
-    color: red;
-    font-size: 40px;
+.glossaryTerm {
+    cursor: help;
+    text-decoration: underline wavy;
+    font-weight: bold;
+    color: var(--vp-c-brand-1);
 }
