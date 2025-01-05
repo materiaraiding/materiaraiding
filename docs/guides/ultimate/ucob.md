@@ -4,7 +4,7 @@ title: UCOB
 longTitle: The Unending Coil of Bahamut
 difficulty: Ultimate
 expansion: Stormblood
-image: goldenbaha.webp
+image: ucob-goldenbaha.webp
 discussionLink: https://discord.com/channels/944115415385247784/954964367462514710
 glossary: UCOB
 ---
@@ -186,7 +186,7 @@ Death Sentence is a forced tank swap. Communicate an order with your cotank - id
 
 Your role is to position the boss in a way to drop a Neurolink on Waymarks 1 -> 2 -> 3 markers in order. This will happen when the boss hits 74%, 44% and 0%. You should be on the outside of the boss towards the wall unless moving in to stack with party for other mechanics.
 
-![](/images/ucobmarkers.webp)
+![](/images/ucob-markers.webp)
 :::
 
 ::: damage
@@ -346,7 +346,7 @@ QUOTE 4:
 
 The two players with Thunderstruck must seperate from the party and take up a position near the boss on north side. Thunderstruck will resolve before the second mechanic in the quote. Two players who had Thunderstruck then rejoin or run out depending on quotes.
 
-![](/images/ucobthunder.webp)
+![](/images/ucob-thunder.webp)
 
 Doom will apply to two players (6s and 10s). Wings of Salvation will target a party member and the party should rotate **clockwise** around the boss. Shortest Doom timer takes the small puddle after Wings of Salvation explodes. Another Wings of Salvation and Doom cleanse following that. Bahamuts Claw will happen during Doom cleanses.
 
@@ -376,7 +376,7 @@ Party should aim to move together as one, **clockwise** around the boss as each 
 
 Second Fire Tether appears and this should be taken **OUT**** of the party stack.
 
-![](/images/ucobfire2.webp)
+![](/images/ucob-fire2.webp)
 
 Thunderstruck will apply to two players after fireball resolves, these need to leave the party stack.
 
@@ -428,7 +428,7 @@ This quote will not resolve until after the Second Dive finishes.
 
 The dragons on the outside of the room will start targetting players for Dives. Three players will be fixated with a green marker on their head, these go out one at a time.
 
-![](/images/divemarker.webp)
+![](/images/ucob-divemarker.webp)
 
 The Dragons will dive in sets of **2-1-2** starting at True North. The 1st and 2nd Dragon will fixate on the 1st marked player. The 3rd Dragon will fixate on the 2nd marked player, and the last two dragons will fixate on the 3rd marked player.
 
@@ -436,27 +436,27 @@ Your goal is to position the three marked players in such a way that they bait t
 
 There are 8 possible locations for the Dragons to spawn. Only 5 dragons will spawn.
 
-![](/images/239670444-c687614b-96af-4f14-b6d3-5f42866b8482.webp)
+![](/images/ucob-dives-spawns.webp)
 
 You need to bait the dives in such a way to avoid the middle of the room, such as the following example where RED is the first dive, YELLOW is the second dive and BLUE is the third dive.
 
 If you have an experience party member, they will often call the bait positions using **Clock Positions** (indicated in the following image) to loosely indicate where each bait should go, the solution for this example would be: **"2 6 10"**
 
-![239685120-2641ce2c-55fb-48a4-b67d-81693202d511.webp](/images/239685120-2641ce2c-55fb-48a4-b67d-81693202d511.webp)
+![239685120-2641ce2c-55fb-48a4-b67d-81693202d511.webp](/images/ucob-dive-clocks.webp)
 
 ::: details More Examples...
 
 Solution: **3 7 10**
 
-![239672846-00b5589c-8430-4b5b-af15-2f22f0180db6.webp](/images/239672846-00b5589c-8430-4b5b-af15-2f22f0180db6.webp)
+![239672846-00b5589c-8430-4b5b-af15-2f22f0180db6.webp](/images/ucob-dive-example1.webp)
 
 Solution: **5 9 12**
 
-![239674081-bd087b32-a861-406b-b791-2b21cc9ff614.webp](/images/239674081-bd087b32-a861-406b-b791-2b21cc9ff614.webp)
+![239674081-bd087b32-a861-406b-b791-2b21cc9ff614.webp](/images/ucob-dive-example2.webp)
 
 Solution: **11 5 7**
 
-![239674130-6d04b1c7-5842-4d4f-be86-3ad29e863d6a.webp](/images/239674130-6d04b1c7-5842-4d4f-be86-3ad29e863d6a.webp)
+![239674130-6d04b1c7-5842-4d4f-be86-3ad29e863d6a.webp](/images/ucob-dive-example3.webp)
 :::
 
 Try out the Divebomb simulator here to practice solving these yourself: 
@@ -512,13 +512,13 @@ Party Stacks middle and looks for the Three dragons to spawn on a wall and prepa
 
 Light parties split, **LP1 relative West**, **LP2 relative East** and spread out on the wall, from top to bottom **(Tanks > Healers > Melee > Range)**.
 
-![239686972-a15141be-7fd0-428c-967c-ba2cc0ae16a2.webp](/images/239686972-a15141be-7fd0-428c-967c-ba2cc0ae16a2.webp)
+![239686972-a15141be-7fd0-428c-967c-ba2cc0ae16a2.webp](/images/ucob-qmt-spread.webp)
 
 Players will drop a Twister when the dragons dive, start moving inwards when you see the dragons begin their dive across the arena.
 
 Stay spread out as players are about to drop **Megaflare Puddles** followed by some players being hit with **Megaflare AoEs**. Players now all need to check debuffs and move into the following positions.
 
-![239686989-ef856845-11c2-4363-b0ef-165c977f6a3b.webp](/images/239686989-ef856845-11c2-4363-b0ef-165c977f6a3b.webp)
+![239686989-ef856845-11c2-4363-b0ef-165c977f6a3b.webp](/images/ucob-qmt-flares.webp)
 
 One DPS and both healers get Earth Shaker. H1 moves to relative West. H2 moves to relative East. DPS with Earth Shaker moves to relative North.
 
@@ -526,7 +526,7 @@ All other DPS stack relative south.
 
 Tanks will intercept the Tempest Wing Tethers and take these East and West in line with the Healers.
 
-![239687017-c5b80af1-68ac-483c-8a86-685af73a501c.webp](/images/239687017-c5b80af1-68ac-483c-8a86-685af73a501c.webp)
+![239687017-c5b80af1-68ac-483c-8a86-685af73a501c.webp](/images/ucob-qmt-baits.webp)
 
 ::: healer
 You may need to run into the middle after **Megaflares** to top up the party as there is heavy damage here, just make sure you get to your relative position quickly after. Suggest using sprint here. Also make sure you are not too close to tanks for Tempest Wing.
@@ -549,7 +549,7 @@ This is heavy damage and needs to be topped up fast. Suggest saving swift-cast a
 
 Party will split into roles at the wall, **Tanks and Healers split left** and **DPS right**.
 
-![239687923-1277de86-0f8a-4472-8a7a-7de7058646ac.webp](/images/239687923-1277de86-0f8a-4472-8a7a-7de7058646ac.webp)
+![239687923-1277de86-0f8a-4472-8a7a-7de7058646ac.webp](/images/ucob-bft-dive.webp)
 
 All players run south, Two DPS and Two Tank/Healers get stack markers, run these to south of the Liquid Hell puddles.
 
@@ -565,7 +565,7 @@ H2    STACK   D4
 
 Before towers resolve, Nael will send out two Hypernova, wait for these to go out **before** moving into the towers.
 
-![239688306-ad209dff-0561-4d3c-a6bf-2b50f2235f4f.webp](/images/239688306-ad209dff-0561-4d3c-a6bf-2b50f2235f4f.webp)
+![239688306-ad209dff-0561-4d3c-a6bf-2b50f2235f4f.webp](/images/ucob-bft-baits.webp)
 
 After towers resolve, party stack and heal for a Gigaflare, followed by Flare Breath followed by Flatten on Tanks.
 
@@ -580,7 +580,7 @@ Nael will do another set of Quotes:
 
 This resolves into either **SPREAD > IN** or **IN > SPREAD**. Spread is centered on Nael using the same spread pattern as Nael phase.
 
-![239689966-69fa32e9-bb34-42f0-bbf2-1ddb63c50740.webp](/images/239689966-69fa32e9-bb34-42f0-bbf2-1ddb63c50740.webp)
+![239689966-69fa32e9-bb34-42f0-bbf2-1ddb63c50740.webp](/images/ucob-frt-spread.webp)
 
 Depending on the Quote, Nael will either jump to a player and then perform a Lunar Dynamo or Raven's Dive, and then Raven's Dive or Lunar Dynamo.
 
@@ -598,13 +598,13 @@ The Trio will be in a random order with Nael positioned either Left, Middle or R
 Screenshots from the toolbox below show the possible spawns and respective spreads, Nael is highlighted **RED**.
 
 
-![239719096-3dca53e3-88c6-4fc7-b04f-d7f05a62f4d1.webp](/images/239719096-3dca53e3-88c6-4fc7-b04f-d7f05a62f4d1.webp){caption="Nael Left"}
+![239719096-3dca53e3-88c6-4fc7-b04f-d7f05a62f4d1.webp](/images/ucob-hft-dives1.webp){caption="Nael Left"}
 
 
-![239719103-52a6c820-214a-4e31-96eb-bab73657f889.webp](/images/239719103-52a6c820-214a-4e31-96eb-bab73657f889.webp){caption="Nael Right"}
+![239719103-52a6c820-214a-4e31-96eb-bab73657f889.webp](/images/ucob-hft-dives2.webp){caption="Nael Right"}
 
 
-![239719119-2935b116-f5ca-4e7e-b9b8-20f587702bd5.webp](/images/239719119-2935b116-f5ca-4e7e-b9b8-20f587702bd5.webp){caption="Nael Middle"}
+![239719119-2935b116-f5ca-4e7e-b9b8-20f587702bd5.webp](/images/ucob-hft-dives3.webp){caption="Nael Middle"}
 
 Pay attention to the position of Nael and spread out in the safe spaces that are not being dived. When the dive goes off, move inwards to avoid a Twister. Players will drop **Megaflare Puddles** as they move in, do not rush in otherwise you might place these too close to the middle. 
 
@@ -632,7 +632,7 @@ Preposition in QMT spreads around the middle of the room. The three players will
 
 The players with Hatch will take the first Hatch in the Neurolink.
 
-![239719934-e61c4564-690f-4ca3-a9d9-45573ad6adb8.webp](/images/239719934-e61c4564-690f-4ca3-a9d9-45573ad6adb8.webp)
+![239719934-e61c4564-690f-4ca3-a9d9-45573ad6adb8.webp](/images/ucob-tst-towers.webp)
 
 Targetted players will then run directly out to the wall to bait the second Hatch to go through the Neurolink. Another player will need to intercept the Hatch by standing in the Neurolink.
 
@@ -640,7 +640,7 @@ Neurolink targets move to the wall marked in **RED**.
 
 Intercepts move into Neurolink to catch Orbs marked in **YELLOW**.
 
-![239720066-ea2d1ed5-b7d8-4693-8be5-9a7c44c8a74c.webp](/images/239720066-ea2d1ed5-b7d8-4693-8be5-9a7c44c8a74c.webp)
+![239720066-ea2d1ed5-b7d8-4693-8be5-9a7c44c8a74c.webp](/images/ucob-tst-swaps.webp)
 
 ::: info NOTE
 Intercepts on south waymark may need to side-step a bit to catch the incoming orb as it sometimes spawns slightly offset to the right. Your job is to act like a goalkeeper and catch the orb as it goes past the Neurolink.
@@ -650,14 +650,14 @@ After the Hatch resolve, four players will be targetted with Earth Shaker.
 
 Players with Earth Shaker head to the 4 outer waymarks. 
 
-![239720163-97071fb0-e936-42f3-96f5-f5ceecce14e0.webp](/images/239720163-97071fb0-e936-42f3-96f5-f5ceecce14e0.webp)
+![239720163-97071fb0-e936-42f3-96f5-f5ceecce14e0.webp](/images/ucob-tst-proteans.webp)
 
 The remaining players should head to south waymark to avoid Earth Shaker. These players will now get Earth Shaker and need to swap positions with the first four players.
 
 ::: info NOTE
 Pre-position around the south waymark to indicate which outer waymark you will be heading too.
 
-![239720216-5997bb46-72d6-4337-bbed-55e93c0486f6.webp](/images/239720216-5997bb46-72d6-4337-bbed-55e93c0486f6.webp)
+![239720216-5997bb46-72d6-4337-bbed-55e93c0486f6.webp](/images/ucob-tst-directions.webp)
 Image from Tessian's UCOB Guide Video
 :::
 
@@ -693,7 +693,7 @@ Ensure that at least one party member is in a tower and prepare for Twister when
 
 If you are soaking a tower, walk **across** the tower as the dive goes off to ensure you do not leave the tower early and you don't get clipped by your own Twister.
 
-![239723699-7d0c9d70-8300-443b-8e29-c6b9b1001697.webp](/images/239723699-7d0c9d70-8300-443b-8e29-c6b9b1001697.webp)
+![239723699-7d0c9d70-8300-443b-8e29-c6b9b1001697.webp](/images/ucob-go-towerdodge.webp)
 
 Once Twister resolve, you will finish the phase and go into Adds.
 
@@ -833,7 +833,7 @@ To keep this guide consistent in the quality of the diagrams, below is an Emgram
 
 **DIAGRAM IS NOT 100% TO SCALE AND IS PURELY FOR DEMONSTRATIVE PURPOSES**
 
-![313406535-c9c5cda6-f387-4344-84f4-1f7d98866ff2.webp](/images/313406535-c9c5cda6-f387-4344-84f4-1f7d98866ff2.webp)
+![313406535-c9c5cda6-f387-4344-84f4-1f7d98866ff2.webp](/images/ucob-exa.webp)
 
 #### Phase Timeline
 

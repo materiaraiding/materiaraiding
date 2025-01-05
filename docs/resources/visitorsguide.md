@@ -7,9 +7,9 @@ description: visitors guide
 
 G'day and welcome to the Oceanic datacenter, Here in the land Down Under (and surrounding regions), we do things a bit differently when it comes to ultimate and savage raids. It's not just about throwing another shrimp on the barbie; it's about mastering the unique strategies that our local raiding community swears by. We'll explore how Oceanic raiders tackle the toughest challenges with a fair dinkum approach and what sets us apart from the rest of the FF14 world. So, let's crack on and delve into the nitty-gritty of Oceanic's raiding scene!
 
-This guide is aimed to help raiders with **previous experience** in current Ultimate and Savage fights transition over to OCE strats and join PFs in Materia. **If you are new to Ultimate Raiding** in OCE, we suggest exploring our full guides on this website using the navigation on the left-hand side of this page! 
+This guide is aimed to help raiders with **previous experience** in current Ultimate and Savage fights transition over to OCE strats and join PFs in Materia. **If you are new to Ultimate Raiding** in OCE, we suggest exploring our full guides on this website using the navigation on the left-hand side of this page!
 
-You can also find parties and other like-minded raiders in our OCE raiding community servers: 
+You can also find parties and other like-minded raiders in our OCE raiding community servers:
 
 - [Materia Raiding Discord](https://discord.gg/EySn5dRj65)
 - [Materia Ultimate Raiding Discord](https://discord.gg/ArZz3b8PZV)
@@ -28,13 +28,13 @@ In OCE we typically use the **MT, OT, H1, H2, D1, D2, D3, D4** notation to indic
 - **D3** - Phys Ranged DPS
 - **D4** - Caster
 
-You will typically see these mentioned in Party Finder when looking for specific roles and in Macros to indicate positions in certain Mechanics. 
+You will typically see these mentioned in Party Finder when looking for specific roles and in Macros to indicate positions in certain Mechanics.
 
 ## Macros
 
-Macro Guides exist in some regions but are apparently foreign in others. In OCE we often share macros to indicate which strategy we are using and to share the details/refresh ourselves on a strategy during a lockout. 
+Macro Guides exist in some regions but are apparently foreign in others. In OCE we often share macros to indicate which strategy we are using and to share the details/refresh ourselves on a strategy during a lockout.
 
-Macros use the same Role notation above to explain positions and mechs in a visual way, for example, here is a macro for P11S: 
+Macros use the same Role notation above to explain positions and mechs in a visual way, for example, here is a macro for P11S:
 
 ```markdown
 ■【Overruling】
@@ -43,10 +43,10 @@ Macros use the same Role notation above to explain positions and mechs in a visu
 　D1  ST D2　　　   STD2    East: G2 (STH2D2D4)
 ■【Arcane Revelation】    Dark: DPS CW (Coloured WM)
 　G1: West (1/4)　G2: East (2/3)
-    Dark: Tank Pair Left | Healer Pair Right
+Dark: Tank Pair Left | Healer Pair Right
 ■【Shadowed Messengers】
 　G1: West　G2: East  
-    ※ MT points boss in same lane as light clone　
+※ MT points boss in same lane as light clone　
 　  ※ Dark tether: closest card/intercardinal ※ Light tether: middle
 ■【Lightstream】
 　G1: CW　　G2: CCW
@@ -57,7 +57,7 @@ Macros use the same Role notation above to explain positions and mechs in a visu
 You will often see macros shared in party chat when you get into your Party Finder group, if you're not sure what strat is being used for a fight, don't be afraid to ask the party leader for a Macro.
 
 ## Savage
-Current Savage Tier raid resources are compiled on our Savage page, which you can find at the button below. This includes our Macros, Images and Toolboxes made for OCE specific strategies. 
+Current Savage Tier raid resources are compiled on our Savage page, which you can find at the button below. This includes our Macros, Images and Toolboxes made for OCE specific strategies.
 
 - [M1S](/m1s)
 - [M2S](/m2s)
@@ -68,11 +68,11 @@ Current Savage Tier raid resources are compiled on our Savage page, which you ca
 
 Primarily, Materia follows Clees' UCOB guide, this is common in some other regions so may not be too unfamiliar to most, see here: [Clees' Guide](https://ultimates.guide/ucob/)
 
-One key difference is due to being in the southern hemisphere, we flip the arena upside down and drop the Hatch puddles in a V shape, obviously. This looks something like this: 
+One key difference is due to being in the southern hemisphere, we flip the arena upside down and drop the Hatch puddles in a V shape, obviously. This looks something like this:
 
 ![](/images/ucobmarkers.webp)
 
-For all of Bahamut, we use the following toolboxes: 
+For all of Bahamut, we use the following toolboxes:
 
 - [QMT](https://ff14.toolboxgaming.space/?id=877146678916361&preview=1)
 - [BFT](https://ff14.toolboxgaming.space/?id=838145884536361&preview=1)
@@ -103,97 +103,90 @@ Materia DC follows the oldbin TEA strats that are present on the NA DCs, such as
 
 [Full TEA OCE Guide](/tea)
 
-This can also be compared to the strats covered in [Tessan Twintails video guide](https://www.youtube.com/watch?v=uVtZ8-XoOZ0), (see EU differences to compare to this guide): 
+This can also be compared to the strats covered in [Tessan Twintails video guide](https://www.youtube.com/watch?v=uVtZ8-XoOZ0), (see EU differences to compare to this guide):
 
-::: details NA Differences
-    
-### General Notes
+### NA Differences
 
 As mentioned in raid roles section:
 D1 = M1/DRG pos
 D2 = M2/NIN pos
 D3 = Phys Range/R1
 D4 = Caster/R2
-    
+
 H1 = Regen Healer
 H2 = Shield Healer
 Esuna Prio is default assumed to be H1 self + top -> bottom, and H2 self + bottom -> top
 
 OT sometimes referenced as ST
 
-### Temporal Stasis
+#### Temporal Stasis
 
 During Temporal Stasis mech after Phase 2, instead of FFA, supports prio left, and DPS right for long tethers, rest is the same (short tether is on the add to the right and no tether is to the add on the left).
 
 ![](/images/305645723-31845dfb-fc41-4ad0-8f3c-5f6972c61b5a.webp)
 
-### Inception Formation
+#### Inception Formation
 
 Everything is mostly the same: Tanks and Stack go LEFT relative to the heart, and everyone else goes RIGHT.
 The MT will usually bait the Super Jump (communicate if you prefer OT to take).
 
-### Wormhole
+#### Wormhole
 
 No differences, we follow the KR sim strat on the most part. [KR Simulator](https://materiaraiding.com/tea.html#simulator)
 
-### Final Word
+#### Final Word
 
 Standard positions are rotated about 90 degrees and start from east side of the room, Dark Beacon plants in the middle of the 2 Marker (EAST) and light beacon middle placed in D Marker west.
 
 For an extended explanation you can see the complete TEA OCE Guide below by Noz Leafhill,
 
-:::
-::: details EU Differences
-
-### General Notes
+### EU Differences
 
 As mentioned in raid roles section:
 D1 = M1/DRG pos
 D2 = M2/NIN pos
 D3 = Phys Range/R1
 D4 = Caster/R2
-    
+
 H1 = Regen Healer
 H2 = Shield Healer
 Esuna Prio is default assumed to be H1 self + top -> bottom, and H2 self + bottom -> top
 
 OT sometimes referenced as ST
 
-### Temporal Stasis
+#### Temporal Stasis
 
 During Temporal Stasis mech after Phase 2, blue tether prio is flipped, supports prio left, and DPS right, rest is the same (short tether is on the add to the right and no tether is to the add on the left).
 
 ![](/images/305645723-31845dfb-fc41-4ad0-8f3c-5f6972c61b5a.webp)
 
-### Inception Formation
+#### Inception Formation
 
 Everything after flarethrowers is flipped left to right, up until the blue tether finishes resolving.
 This means Tanks and Stack go LEFT relative to the heart, and everyone else goes RIGHT.
 The MT will usually bait the Super Jump (communicate if you prefer OT to take).
 
-### Wormhole
+#### Wormhole
 
 No differences, we follow the KR sim strat. [KR Simulator](https://materiaraiding.com/tea.html#simulator)
 
-### Final Word
+#### Final Word
 
 Standard positions are rotated about 90 degrees and start from east side of the room, Dark Beacon plants in the middle of the 2 Marker (EAST) and light beacon middle placed in D Marker west.
 
 For an extended explanation you can see the complete TEA OCE Guide below by Noz Leafhill,
-:::
-::: details JP Differences
 
 OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chaser. The latter half largely follows the same strats with minor positional differences. Please review this list for specific mechanics, using the language in [Tuufless' guide](https://tuufless.github.io/FFXIV-Elemental-Raid-Macros/ultimates/tea/). It is recommended that you know how to do the first half of the fight using OCE strats before you join clear/reclear parties.
 
 - **1. Living Liquid**
     - **General**: Note that the OCE guide treats the quadrant with no tornado as north, rather than the middle tornado in JP.
-    - **Tornadoes**: 
-        - **D4 and D3** will be baiting the first tornado's protean waves instead of healers, in addition to taking Jagd Dolls. 
+    - **Tornadoes**:
+        - **D4 and D3** will be baiting the first tornado's protean waves instead of healers, in addition to taking Jagd Dolls.
         - Both players will be baiting on the sides of the tornadoes **further** from the MT (check cheatsheet).
-    - **Protean Waves #2**: 
-        - MT faces the boss **towards the open quadrant** and resolves mechanics on that side. 
-        - **ST, D1 and D2** will bait the second protean waves coming from the tornadoes. 
-        - ST should then gapclose to MT to resolve Hand of Parting and keep both bosses there. 
+    - **Protean Waves #2**:
+        - MT faces the boss **towards the open quadrant** and resolves mechanics on that side.
+        - **ST, D1 and D2** will bait the second protean waves coming from the tornadoes.
+        - ST should then gapclose to MT to resolve Hand of Parting and keep both bosses there.
         - The roles that go north/south are not fixed in OCE so keep an eye out and make sure you have enough space to resolve mechanics.
 - **2a. Limit Cut**: OCE uses **1256** for this mechanic instead of **1211**, in which parties are split apart according to their limit cut marker (1,2,5,6 + 3,4,7,8). Please read the full OCE guide or the bottom half of Tuufless' Limit Cut page for details.
 - **2b. Brute Justice + Cruise Chaser**: OCE uses **Split BJ/CC** instead of **Tollgate**, which makes vast majority of this phase completely different, such as general positioning, Nisi passes and mines. Please consult the full OCE guide and relevant [toolbox](https://ff14.toolboxgaming.space/?id=340414049443951&preview=1) for how to approach this phase.
@@ -202,14 +195,13 @@ OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chas
 - **3. Alexander Prime**
     - **Temporal Stasis**: Players with **no debuff** go towards the **west** boss (using true north). Players with **red/green tethers** go towards the **east** boss.
     - **Intro**: Usually the MT will take emnity and use their invulnerability on the first tankbuster, but this may not be feasible in the event of a fast killtime or a PLD MT. This should be discussed beforehand and ST should be prepared to provoke for the first or second tankbuster where necesssary.
-    - **Inception**: 
+    - **Inception**:
         - Players handling aetheroplasms on the north may choose to stand on the red dot itself rather than one notch above. However, this should not make much of a difference.
         - MT baits Super Jump instead of ST.
     - **Wormhole**: The core mechanic is handled identically, but at the end, **tanks** will join the **west** enumeration while **healers** join the **east** enumeration.
     - **J Waves**: Double check with the group how outgoing damage will be handled. Tanks may wish to consult the [mit sheet](https://docs.google.com/spreadsheets/d/11g88rCThCPuXadxc1S4pwXSxwVoX04nR77Z0lvbpd30/edit?gid=0#gid=0).
 - **4. Perfect Alexander**
-    - **Exatrines**: Dodge positions are considered to be the **centre** of the arena as well as the **1, 3 and 4 waymarks** (which are positioned differently compared to JP). 
-:::
+    - **Exatrines**: Dodge positions are considered to be the **centre** of the arena as well as the **1, 3 and 4 waymarks** (which are positioned differently compared to JP).
 
 ![](/images/teacheatsheet.webp)
 
@@ -298,15 +290,15 @@ For JP players, please review this list of differences, using the language in [T
 - **General**: OCE will use the [TOP Mitty sheet](https://docs.google.com/spreadsheets/d/1PmSX_yO5GSykt3_Lkh3-LPAOeI2UosCIMLVxmwWEedE/edit#gid=0) for mitigations, heals and tankbusters.
 - **1. Omega**
     - **Program Loop**
-        - **CCW from NW**, the priority is H1 D3 D1 MT ST D2 D4 H2. 
-        - If this priority is flipped, this is equivalent to CW from NW. 
+        - **CCW from NW**, the priority is H1 D3 D1 MT ST D2 D4 H2.
+        - If this priority is flipped, this is equivalent to CW from NW.
     - **Pantokrator**
         - Light parties reference **SW** and **NE**. If the Flamethrowers hit the SW and NE points, rotate **clockwise** to the next safe sector.
         - Priority order is **SW:** H1 D3 D1 MT ST D2 D4 H2 **:NE**.
 - **2. Omega M/F**
     - **Party Synergy**
         - OCE uses **BPOG** for this mechanic. North to south, this is ×□〇▽. Flip × and ▽ if Remote Glitch.
-        - To determine who is moving left and right of the eye, line up before the start of the mechanic from left to right in the following priority: H1 D3 D1 MT ST D2 D4 H2. 
+        - To determine who is moving left and right of the eye, line up before the start of the mechanic from left to right in the following priority: H1 D3 D1 MT ST D2 D4 H2.
         - If both stacks are on one side, the pair **closest** to the eye swaps.
     - **Limitless Synergy**
         - MT takes the tankbuster tether CCW from N, ST takes the tankbuster CW from N.
@@ -337,6 +329,6 @@ For JP players, please review this list of differences, using the language in [T
     - **Wave Cannon** is resolved south.
     - **Cosmo Arrow 2**: initial spread positions are different; consult the cheat sheet below. **Both DPS and supports move for exasquares**: DPS CW, supports CCW. Do not move all the way to the cardinal waymark.
     - **Cosmo Meteor**: H1 will move to the centre by default.
-:::
+      :::
 
 ![](/images/topcheatsheet.webp)
