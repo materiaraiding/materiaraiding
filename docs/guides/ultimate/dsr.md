@@ -4,7 +4,7 @@ title: DSR
 longTitle: Dragonsong's Reprise
 difficulty: Ultimate
 expansion: Endwalker
-image: dkt.webp
+image: DSR-dkt.webp
 discussionLink: https://discord.com/channels/944115415385247784/954964560606015508
 ---
 ## Credits
@@ -116,7 +116,7 @@ SGE/WHM:
 
 ## Cheatsheet
 
-![](/images/dsrcheatsheet.webp)
+![](/images/DSR-dsrcheatsheet.webp)
 
 ## Buff Timings
 :::: timing-window 

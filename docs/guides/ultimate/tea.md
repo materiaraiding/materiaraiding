@@ -4,7 +4,7 @@ title: TEA
 longTitle: The Epic of Alexander
 difficulty: Ultimate
 expansion: Shadowbringers
-image: BJCC2.webp
+image: tea-bjcc2.webp
 discussionLink: https://discord.com/channels/944115415385247784/954964515399811093
 ---
 
@@ -67,7 +67,7 @@ Space = Hold to select numbers
 
 ## Cheatsheets and Visual Guides
 
-![](/images/teacheatsheet.webp)
+![](/images/tea-cheatsheet.webp)
 ![](/images/308899790-f58044da-89ba-4708-8d26-83ce7df50675.webp)
 ![](/images/308899673-4583252e-31eb-43f2-a0c3-d97cf40ca2c0.webp)
 

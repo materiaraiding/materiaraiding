@@ -57,6 +57,7 @@ figure {
 	margin: auto;
 	width: max-content;
 	max-width: 100%;
+	margin-bottom: 0.5em;
 }
 img {
 	border-radius: 8px;

@@ -70,7 +70,7 @@ Primarily, Materia follows Clees' UCOB guide, this is common in some other regio
 
 One key difference is due to being in the southern hemisphere, we flip the arena upside down and drop the Hatch puddles in a V shape, obviously. This looks something like this: 
 
-![](/images/ucobmarkers.webp)
+![](/images/ucob-markers.webp)
 
 For all of Bahamut, we use the following toolboxes: 
 
@@ -211,7 +211,7 @@ OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chas
     - **Exatrines**: Dodge positions are considered to be the **centre** of the arena as well as the **1, 3 and 4 waymarks** (which are positioned differently compared to JP). 
 :::
 
-![](/images/teacheatsheet.webp)
+![](/images/tea-cheatsheet.webp)
 
 ## DSR
 OCE DSR Strats are a variation on NA PF strats.
@@ -271,7 +271,7 @@ There are a number of differences between OCE and JP for DSR. Please review this
 
 :::
 
-![](/images/dsrcheatsheet.webp)
+![](/images/DSR-dsrcheatsheet.webp)
 
 ## TOP
 TOP strats are similar (but not identical!) to NA, which are *substantially* different to JP. For an extended explanation you can see the complete TOP OCE Guide below by Juno Dax,
@@ -281,7 +281,7 @@ TOP strats are similar (but not identical!) to NA, which are *substantially* dif
 ::: details NA Differences
 
 For NA players, both DPS and supports move during P6 WC2 instead of DPS not moving. DPS dodge CW, supports CCW.
-![](/images/exasquares.webp)
+![](/images/top-exasquares.webp)
 
 [Full TOP OCE Guide](/top)
 :::
@@ -339,4 +339,4 @@ For JP players, please review this list of differences, using the language in [T
     - **Cosmo Meteor**: H1 will move to the centre by default.
 :::
 
-![](/images/topcheatsheet.webp)
+![](/images/top-cheatsheet.webp)

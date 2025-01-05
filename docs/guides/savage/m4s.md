@@ -308,7 +308,7 @@ Each source of damage from these debuffs applies a short 2s Magic Vulnerability 
 
 While this mechanic sounds complicated, resolving it is fairly simple. Following each cannon hit, identify which debuff you have and stand in the correct position according to the cheatsheet.
 
-![](/images/356537774-fd2c3662-42f3-49c8-bdda-76e6c568682f.webp)
+![](/images/m4s-electronstream.webp)
 
 ::: info NOTE
 There are several floor markings which can be used to help you position yourself. Additionally, Spinning/Roundhouse Conductor players will all have the same buff and stand in the same spots regardless of which debuff they receive. The same applies to players with Remote/Proximate Current.

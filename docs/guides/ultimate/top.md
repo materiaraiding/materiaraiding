@@ -47,7 +47,7 @@ Mitigation plan spreadsheet
 <Action title='TOP Mitty' color='green' href='http://tinyurl.com/topmitty' />
 
 ## Cheatsheet
-![](/images/topcheatsheet.webp)
+![](/images/top-cheatsheet.webp)
 
 ## Waymarks
 Waymarks are incredibly important in TOP as they are used for many mechanics in the fight for easy solves. 
@@ -422,7 +422,7 @@ Two **Blue Tether Players** will also receive **Hello, Distant World** and **Hel
 
 **Blues Tethers** will then go to **Beetle Omega**, and **Christmas Tethers** to **Final Omega**. Both pairs of tethers will line up parallel to the edge of the arena on their respective side. This is so that  there is a tether closer to the center of the arena (**Inner Tether**), and a tether closer to the edge of the arena (**Outer Tether**). 
 
-![](/images/239018857-1d95a258-2f1d-4b07-9c57-42f650ce9b60.webp)
+![](/images/top-delta.webp)
 
 Much like phase 3, breaking tethers results in a **large raid-wide hit** as well as inflicting **Thrice-come Ruin** <StatusIcon name="Thrice-come Ruin" /> on the party. However if the tether debuffs expire the party is killed. As such, we want to gradually break all 4 throughout the course of the mechanic so that the damage does not kill the party whilst not letting the tethers expire.
 
@@ -450,7 +450,7 @@ The **Outer Blue Tether Players** should use theirs after baiting the AOE from t
 
 After the Monitors resolve, **Beetle Omega** will cleave one side of the arena with a 60% angled cleave. The **Non-debuff Blue Tether Players** will move to the side opposite of **Beetle Omega**. The **Outer Christmas Tethers** will rotate so that the player that is currently within the cleave ends up under Omega, and the **Inner Christmas Tether** will then break their tether as everyone else lines up for **Hello World** as seen below:
 
-![](/images/239021463-0a1c5576-830f-4ea1-8d00-5d12a23f06e4.webp)
+![](/images/top-delta-cleave.webp)
 *Image by Bird*
 
 ::: warning 
@@ -486,7 +486,7 @@ After the AOEs resolve, **Omega-M will change to Omega-F** and towers will spawn
 
 Player's tower positions are designated by the waymark that they **originally spread to**:
 
-![](/images/239234349-8af3cafd-9756-4ef9-a9d5-08c511d9185c.webp)
+![](/images/top-sigma-midremote.webp)
 
 > As an example, if my spread position is the **A Waymark**, my tower to soak would be the **A Tower** as shown in the pictures above.
 
@@ -500,7 +500,7 @@ After the towers are soaked, **Final Omega's Blades** will spawn in the center w
 
 Players will then move into their **Hello World** positions as seen below:
 
-![](/images/239696181-e096327b-c6f3-4e75-8484-5b6a314de6c4.webp)
+![](/images/top-sigma-spreads.webp)
 
 > If you are not running AMs players can pre-position in a line up while they are waiting for the rotating AOE to begin, indicating which position they will take.
 
@@ -525,7 +525,7 @@ This dodge sounds incredibly complicated but it can be split up into several seg
 >
 > Players must then determine if the dodge is going to be an **inner, mid, or outer** dodge as shown by the diagram below:
 >
-> ![](/images/239667774-1d70b8eb-cecc-428c-9d60-57658bddbfcd.webp)
+> ![](/images/top-omega-cleaves.webp)
 >
 > The 2 cardinals adjacent to the safe clone will be the two possible safe spots after that. **Final Omega** will then point it's blades either North/South or East/West for it's cleave, leaving the one cardinal that is uncleaved to be the safespot.
 
@@ -551,7 +551,7 @@ If these players are not given the monitor position, they cannot line up for the
 
 The party will then line up as seen below:
 
-![](/images/239696209-939c9abc-6e5b-411f-8992-b59d4f560487.webp)
+![](/images/top-omega-spreads.webp)
 
 > If you are not running AMs, the line up used in this strategy can prove awkward and difficult to pre-position for, so a different line up (such as in JP strats) can be used to make it more comfy.
 
@@ -561,7 +561,7 @@ If solved correctly, 2 players will have 3 stacks of **Quickening Dynamis** <Sta
 
 **Beetle Omega** will then spawn on a random cardinal, and a second and final **Hello World** line up must be formed. The players with **3 stacks** of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" /> must take two tethers from **Beetle Omega** while the other 6 players position themselves as seen below:
 
-![](/images/239696254-751a990e-660a-40ec-9c3a-2d8e90865b2b.webp)
+![](/images/top-omega-spreads2.webp)
 
 ::: info NOTE
 If solved correctly all 8 players will have 3 stacks of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" />.
