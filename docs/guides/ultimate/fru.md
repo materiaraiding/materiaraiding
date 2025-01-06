@@ -31,7 +31,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ### Phase 2
 <ActionGroup
 :actions="[
-{ title: 'P2 - Diamond Dust - Color Partners', color: 'blue', href: 'https://raidplan.io/plan/PPYgcTqAr4DXZE50' },
+{ title: 'P2 - Diamond Dust - Colour Partners', color: 'blue', href: 'https://raidplan.io/plan/PPYgcTqAr4DXZE50' },
 { title: 'P2 - Silence/Stillness', color: 'blue', href: 'https://raidplan.io/plan/sbGvvKgbVlTjJLqe' },
 { title: 'P2 - Mirror Mirror', color: 'blue', href: 'https://raidplan.io/plan/gFwpXMjpVgxgcnpi' },
 { title: 'P2 - Light Rampant - 4/4 Strat', color: 'blue', href: 'https://raidplan.io/plan/pgz322Znkd_Srn8n' },
@@ -284,7 +284,7 @@ Phase 2 begins with a tankbuster **Quadruple Slap**, before starting the first m
 
 #### Diamond Dust
 
-<Action title='P2 - Diamond Dust - Color Partners' color='blue' href='https://raidplan.io/plan/PPYgcTqAr4DXZE50' />
+<Action title='P2 - Diamond Dust - Colour Partners' color='blue' href='https://raidplan.io/plan/PPYgcTqAr4DXZE50' />
 
 #### Stillness/Silence
 
