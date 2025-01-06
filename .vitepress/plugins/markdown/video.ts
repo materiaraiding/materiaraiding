@@ -1,43 +1,65 @@
 import MarkdownIt from "markdown-it";
 
 export const youtubeEmbedPlugin = (md: MarkdownIt) => {
-	md.inline.ruler.before("image", "video", function (state, silent) {
-		if (state.src.charCodeAt(state.pos) !== 0x40 /* @ */ || state.src.charCodeAt(state.pos + 1) !== 0x5b /* [ */) {
+	function youtubeBlockTokenizer(state: any, startLine: number, endLine: number, silent: boolean): boolean {
+		const startPos = state.bMarks[startLine] + state.tShift[startLine];
+		const maxPos = state.eMarks[startLine];
+		const marker = "@[";
+
+		if (state.src.slice(startPos, startPos + marker.length) !== marker) {
 			return false;
 		}
 
-		const titleStart = state.pos + 2;
-		const titleEnd = state.src.indexOf("]", state.pos + 2);
+		let pos = startPos + marker.length;
 
-		if (titleEnd < 0) {
-			return false;
-		}
-		const linkStart = state.src.indexOf("(", titleEnd + 1);
-		const linkEnd = state.src.indexOf(")", linkStart + 1);
-
-		if (linkStart === -1 || linkEnd === -1) {
+		const titleEnd = state.src.indexOf("]", pos);
+		if (titleEnd === -1 || titleEnd > maxPos) {
 			return false;
 		}
 
-		const title = state.src.slice(titleStart, titleEnd);
-		const url = state.src.slice(linkStart + 1, linkEnd);
+		const title = state.src.slice(pos, titleEnd).trim();
 
-		if (!silent) {
-			const token = state.push("video", "", 0);
-			token.attrs = [
-				["url", url],
-				["title", title],
-			];
+		pos = titleEnd + 1;
+
+		if (pos >= maxPos || state.src.charCodeAt(pos) !== 0x28 /* '(' */) {
+			return false;
+		}
+		pos++;
+
+		const urlEnd = state.src.indexOf(")", pos);
+		if (urlEnd === -1 || urlEnd > maxPos) {
+			return false;
 		}
 
-		state.pos = linkEnd + 1;
+		const url = state.src.slice(pos, urlEnd).trim();
+		pos = urlEnd + 1;
+
+		if (pos < maxPos) {
+			const trailingText = state.src.slice(pos, maxPos).trim();
+			if (trailingText !== "") {
+				return false;
+			}
+		}
+
+		if (silent) {
+			return true;
+		}
+
+		const token = state.push("youtube_block", "div", 0);
+		token.block = true;
+		token.meta = {title, url};
+		state.line = startLine + 1;
+
 		return true;
+	}
+
+	md.block.ruler.before("fence", "youtube_block", youtubeBlockTokenizer, {
+		alt: ["paragraph", "reference", "blockquote", "list"],
 	});
 
-	md.renderer.rules.video = function (tokens, idx) {
-		const url = tokens[idx].attrGet("url");
-		const title = tokens[idx].attrGet("title");
+	md.renderer.rules["youtube_block"] = (tokens, idx) => {
+		const {title, url} = tokens[idx].meta;
 
-		return `<ClientOnly><YoutubeEmbed :url="'${url}'" :title="'${title}'" /></ClientOnly>`;
+		return `<YoutubeEmbed url="${url}" title="${title}" />`;
 	};
 };
