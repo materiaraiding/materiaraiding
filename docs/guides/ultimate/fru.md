@@ -20,7 +20,7 @@ discussionLink: https://discord.com/channels/944115415385247784/1303228301015384
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
-### Phase 1
+
 <ActionGroup
 :actions="[
 { title: 'P1 - Proteans & Utopian Sky', color: 'red', href: 'https://raidplan.io/plan/WlRr-qtrUTEPiaJZ' },
@@ -29,7 +29,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-### Phase 2
+
 <ActionGroup
 :actions="[
 { title: 'P2 - Diamond Dust - Colour Partners', color: 'blue', href: 'https://raidplan.io/plan/PPYgcTqAr4DXZE50' },
@@ -39,7 +39,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-### Phase 3
+
 <ActionGroup
 :actions="[
 { title: 'P3 - Ultimate Relativity', color: 'purple', href: 'https://raidplan.io/plan/oYnDQe4ZbVaoxA5r' },
@@ -47,7 +47,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-### Phase 4
+
 <ActionGroup
 :actions="[
 { title: 'P4 - Darklit Dragonsong', color: 'green', href: 'https://raidplan.io/plan/pcrbL0iqrAYMKFV3' },
@@ -55,7 +55,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-### Phase 5
+
 <ActionGroup
 :actions="[
 { title: 'P5 - Fulgent Blade (Exas)', color: 'yellow', href: 'https://raidplan.io/plan/xE5dM62WDf6sYUYf' },
@@ -134,6 +134,22 @@ These can be imported using an XIV Launcher Plugin.
 ```
 
 ![](/images/fru-waymarks.webp)
+
+## Buff Timings
+:::: timing-window
+::: burst
+- P1
+- 2nd Burninshed P1
+- 
+:::
+
+::: pot
+- P1 (optional and can be too much)
+- Intermission
+- P4
+- P5 2nd Burst
+:::
+::::
 
 ## Written Guide
 
