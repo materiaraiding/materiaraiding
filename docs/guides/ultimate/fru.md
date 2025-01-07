@@ -15,6 +15,7 @@ discussionLink: https://discord.com/channels/944115415385247784/1303228301015384
 - Diagrams by Juno, Em, Pipiro, Kobe, MUR, Ellie
 - Mit Plan by Ikuya Kirishima
 - Video Guides by Kobe, Pham
+- Cheatsheet by Tomosys Vexuna
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
