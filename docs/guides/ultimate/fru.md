@@ -139,7 +139,7 @@ These can be imported using an XIV Launcher Plugin.
 :::: timing-window
 ::: burst
 - P1 Opener
-- P1 Post-Tether 2
+- P1 After Tether 2
 - P2 Mirror Mirror
 - Intermission
 - P3 After Ultimate Relativity
@@ -150,7 +150,7 @@ These can be imported using an XIV Launcher Plugin.
 :::
 
 ::: pot
-- P1 (or P2 if excess damage)
+- P1 Opener (or P2 if excess damage)
 - Intermission (or P3 if excess damage)
 - P4 Darklit when Gaia Spawns
 - P5 Second Exas
