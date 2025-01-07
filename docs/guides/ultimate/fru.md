@@ -138,16 +138,22 @@ These can be imported using an XIV Launcher Plugin.
 ## Buff Timings
 :::: timing-window
 ::: burst
-- P1
-- 2nd Burninshed P1
-- 
+- P1 Opener
+- P1 Post-Tether 2
+- P2 Mirror Mirror
+- Intermission
+- P3 After Ultimate Relativity
+- P4 Darklit when Gaia Spawns
+- P5 Start
+- P5 Second Exas
+- P5 End
 :::
 
 ::: pot
-- P1 (optional and can be too much)
-- Intermission
-- P4
-- P5 2nd Burst
+- P1 (or P2 if excess damage)
+- Intermission (or P3 if excess damage)
+- P4 Darklit when Gaia Spawns
+- P5 Second Exas
 :::
 ::::
 
