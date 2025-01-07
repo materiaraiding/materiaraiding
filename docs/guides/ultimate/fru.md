@@ -99,6 +99,10 @@ ICE - 4
 P5: Polarizing Swap Order: TMRH
 ```
 
+## Cheatsheet
+
+![](/images/fru-cheatsheet.webp)
+
 ## Video Guides
 
 ::: details Expand for Video Guides by Kobe
