@@ -9,7 +9,7 @@ hero:
     - theme: brand
       text: Materia Raiding Discord
       link: "https://discord.gg/EySn5dRj65"
-    - theme: alt
+    - theme: brand
       text: Materia Ultimate Raiding Discord
       link: "https://discord.com/invite/mur"
 ---
