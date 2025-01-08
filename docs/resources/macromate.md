@@ -11,7 +11,7 @@ Unfortunately FF14 has a limit to the total number of macros in-game and storing
 To resolve this issue, with the help of GrittyFrog you can now sync all the Materia Raiding macros directly into the game with the **Macro Mate** plugin. 
 **Macro Mate** is a macro managing plugin that allows you to download and store extra macros in-game. This now also includes syncing raid macros directly from the Materia Raiding website.
 
-## How to setup Macro Mate for Materia Raiding
+## Setup Guide
 
 ::: tip NOTE
 MacroMate is a Dalamud plugin and will require the use of the XIVLauncher to install and run plugins in FFXIV.
