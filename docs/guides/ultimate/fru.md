@@ -64,6 +64,8 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 
 ::: details Archive
 
+The following strats are archived and only kept for ongoing groups, new groups are suggested to use the strats above.
+
 <ActionGroup
 :actions="[
 { title: 'P2 - Diamond Dust - Relative North - Old Strat', href: 'https://raidplan.io/plan/h521rrvlPhF-ajjp' },
