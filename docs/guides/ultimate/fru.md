@@ -17,7 +17,7 @@ discussionLink: https://discord.com/channels/944115415385247784/1303228301015384
 - Video Guides by Kobe, Pham
 
 ## Toolbox/Raidplan
-Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
+Toolboxes are an interactive guide that allows you to click through each phase individually and review the mechanics in an easy-to-understand manner.
 
 ### Phase 1
 <ActionGroup
@@ -62,6 +62,17 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 { title: 'P5 - Polarizing Strikes', color: 'yellow', href: 'https://raidplan.io/plan/ca2GGs51v5uKGpz1' },
 ]"
 />
+
+::: details Old Strats
+
+<ActionGroup
+:actions="[
+{ title: 'P2 - Diamond Dust - Relative North - Old Strat', href: 'https://raidplan.io/plan/h521rrvlPhF-ajjp' },
+{ title: 'P2 - Light Rampant - AB1234 - Old Strat', href: 'https://raidplan.io/plan/zUEBkOqVo0p5FZW-' },
+]"
+/>
+
+:::
 
 ## Strat Summary
 
@@ -440,15 +451,15 @@ This mechanic is quite dense. I recommend looking through toolboxes in addition 
 
 After a heavy hitting raidwide, several "Spell in waiting" debuffs will be assigned to each player:
 
-| Debuff                                                                      | Explanation                                      |
-|-----------------------------------------------------------------------------|--------------------------------------------------|
-| Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />             | Large circle AOE                                 |
-| Dark Blizzard<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />      | Large donut AOE                                  |
-| Dark Eruption<StatusIcon name="Spell-in-Waiting: Dark Eruption" />          | Medium circle AOE                                |
-| Shadoweye<StatusIcon name="Spell-in-Waiting: Shadoweye" />                  | Gaze centered on the player                      |
+| Debuff                                                                       | Explanation                                      |
+|------------------------------------------------------------------------------|--------------------------------------------------|
+| Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />               | Large circle AOE                                 |
+| Dark Blizzard<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />       | Large donut AOE                                  |
+| Dark Eruption<StatusIcon name="Spell-in-Waiting: Dark Eruption" />           | Medium circle AOE                                |
+| Shadoweye<StatusIcon name="Spell-in-Waiting: Shadoweye" />                   | Gaze centered on the player                      |
 | Unholy Darkness<StatusIcon name="Spell-in-Waiting: Unholy Darkness" />       | Party Stack that must be resolved with 5 players |
-| Dark Water<StatusIcon name="Spell-in-Waiting: Dark Water III" />            | A stack that must be resolved with 4 players     |
-| Return<StatusIcon name="Spell-in-Waiting: Return" />                        | A player's position will be recorded for later   |
+| Dark Water<StatusIcon name="Spell-in-Waiting: Dark Water III" />             | A stack that must be resolved with 4 players     |
+| Return<StatusIcon name="Spell-in-Waiting: Return" />                         | A player's position will be recorded for later   |
 
 These buffs will be distributed amongst each role group to look like the following:
 
