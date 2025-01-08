@@ -20,17 +20,17 @@ export default defineConfig({
 			{
 				text: "Guides",
 				items: [
-					{text: "Extreme", link: "/guides/extreme"},
-					{text: "Savage", link: "/guides/savage"},
-					{text: "Ultimate", link: "/guides/ultimate"},
-					{text: "Criterion", link: "/guides/criterion"},
-					{text: "Chaotic", link: "/guides/chaotic"},
+					{text: "Extreme", link: "/extreme"},
+					{text: "Savage", link: "/savage"},
+					{text: "Ultimate", link: "/ultimate"},
+					{text: "Criterion", link: "/criterion"},
+					{text: "Chaotic", link: "/chaotic"},
 				],
 			},
 			{
 				text: "Archive",
 				items: [
-					{text: "Endwalker", link: "/guides/archive/endwalker"},
+					{text: "Endwalker", link: "/archive/endwalker"},
 				],
 			},
 			{
@@ -43,56 +43,56 @@ export default defineConfig({
 			},
 		],
 		sidebar: {
-			"/guides/": [
+			"/": [
 				{
 					text: "Extreme",
 					collapsed: false,
 					items: [
-						{text: "EX1", link: "/guides/extreme/ex1"},
-						{text: "EX2", link: "/guides/extreme/ex2"},
-						{text: "EX3", link: "/guides/extreme/ex3"},
+						{text: "EX1", link: "/extreme/ex1"},
+						{text: "EX2", link: "/extreme/ex2"},
+						{text: "EX3", link: "/extreme/ex3"},
 					],
 				},
 				{
 					text: "Savage",
 					collapsed: false,
 					items: [
-						{text: "M1S", link: "/guides/savage/m1s"},
-						{text: "M2S", link: "/guides/savage/m2s"},
-						{text: "M3S", link: "/guides/savage/m3s"},
-						{text: "M4S", link: "/guides/savage/m4s"},
+						{text: "M1S", link: "/savage/m1s"},
+						{text: "M2S", link: "/savage/m2s"},
+						{text: "M3S", link: "/savage/m3s"},
+						{text: "M4S", link: "/savage/m4s"},
 					],
 				},
 				{
 					text: "Ultimate",
 					collapsed: false,
 					items: [
-						{text: "UCOB", link: "/guides/ultimate/ucob"},
-						{text: "UWU", link: "/guides/ultimate/uwu"},
-						{text: "TEA", link: "/guides/ultimate/tea"},
-						{text: "DSR", link: "/guides/ultimate/dsr"},
-						{text: "TOP", link: "/guides/ultimate/top"},
-						{text: "FRU", link: "/guides/ultimate/fru"},
+						{text: "UCOB", link: "/ultimate/ucob"},
+						{text: "UWU", link: "/ultimate/uwu"},
+						{text: "TEA", link: "/ultimate/tea"},
+						{text: "DSR", link: "/ultimate/dsr"},
+						{text: "TOP", link: "/ultimate/top"},
+						{text: "FRU", link: "/ultimate/fru"},
 					],
 				},
 				{
 					text: "Criterion",
 					collapsed: false,
 					items: [
-						{text: "ASS", link: "/guides/criterion/ass"},
-						{text: "AMR", link: "/guides/criterion/amr"},
-						{text: "AAI", link: "/guides/criterion/aai"},
+						{text: "ASS", link: "/criterion/ass"},
+						{text: "AMR", link: "/criterion/amr"},
+						{text: "AAI", link: "/criterion/aai"},
 					],
 				},
 				{
 					text: "Chaotic",
 					collapsed: false,
 					items: [
-						{text: "COD", link: "/guides/chaotic/cod"},
+						{text: "COD", link: "/chaotic/cod"},
 					],
 				},
 			],
-			"/guides/archive/endwalker": [
+			"/archive/endwalker": [
 				{
 					text: "Endwalker",
 					items: [
@@ -100,24 +100,24 @@ export default defineConfig({
 							text: "Extreme",
 							collapsed: false,
 							items: [
-								{text: "EX4", link: "/guides/archive/endwalker/extreme/ex4"},
-								{text: "EX5", link: "/guides/archive/endwalker/extreme/ex5"},
-								{text: "EX6", link: "/guides/archive/endwalker/extreme/ex6"},
-								{text: "EX7", link: "/guides/archive/endwalker/extreme/ex7"},
+								{text: "EX4", link: "/archive/endwalker/extreme/ex4"},
+								{text: "EX5", link: "/archive/endwalker/extreme/ex5"},
+								{text: "EX6", link: "/archive/endwalker/extreme/ex6"},
+								{text: "EX7", link: "/archive/endwalker/extreme/ex7"},
 							],
 						},
 						{
 							text: "Savage",
 							collapsed: false,
 							items: [
-								{text: "P3S", link: "/guides/archive/endwalker/savage/p3s"},
-								{text: "P4S", link: "/guides/archive/endwalker/savage/p4s"},
-								{text: "P5S", link: "/guides/archive/endwalker/savage/p5s"},
-								{text: "P6S", link: "/guides/archive/endwalker/savage/p6s"},
-								{text: "P9S", link: "/guides/archive/endwalker/savage/p9s"},
-								{text: "P10S", link: "/guides/archive/endwalker/savage/p10s"},
-								{text: "P11S", link: "/guides/archive/endwalker/savage/p11s"},
-								{text: "P12S", link: "/guides/archive/endwalker/savage/p12s"},
+								{text: "P3S", link: "/archive/endwalker/savage/p3s"},
+								{text: "P4S", link: "/archive/endwalker/savage/p4s"},
+								{text: "P5S", link: "/archive/endwalker/savage/p5s"},
+								{text: "P6S", link: "/archive/endwalker/savage/p6s"},
+								{text: "P9S", link: "/archive/endwalker/savage/p9s"},
+								{text: "P10S", link: "/archive/endwalker/savage/p10s"},
+								{text: "P11S", link: "/archive/endwalker/savage/p11s"},
+								{text: "P12S", link: "/archive/endwalker/savage/p12s"},
 							],
 						},
 					],
