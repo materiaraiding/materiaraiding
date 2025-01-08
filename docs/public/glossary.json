@@ -1,226 +1,81 @@
 {
 	"global": {
 		"words": [
-			{
-				"word": "AOE",
-				"definition": "Area-of-Effect, typically used to describe any mechanic or ability which affects multiple enemies/players in an area."
-			},
-			{
-				"word": "Telegraph",
-				"definition": "The indicators you see before a mechanic goes off, usually orange circles or lines on the ground, but can also be things that appear above players/enemies heads or any other indicator that shows you what is about to happen."
-			},
-			{
-				"word": "Enumerations",
-				"definition": "A mechanic which requires a specific number of players to soak a mechanic, similar to STACK/SOAK but with a specific number of players."
-			},
-			{
-				"word": "MT",
-				"definition": "Main Tank, typically the Tank holding the boss aggro the most."
-			},
-			{
-				"word": "OT",
-				"definition": "Off Tank, the other tank, also known as ST."
-			},
-			{
-				"word": "ST",
-				"definition": "Off Tank, the other tank, also known as OT."
-			},
-			{
-				"word": "PBAOE",
-				"definition": "Point-Blank Area-of-Effect, usually an enemy ability that causes a large AOE damage area centered on the enemy."
-			},
-			{
-				"word": "Doom",
-				"definition": "A debuff that will kill the player when the timer reaches zero."
-			}
+			{ "word": "AOE", "definition": "Area-of-Effect, typically used to describe any mechanic or ability which affects multiple enemies/players in an area." },
+			{ "word": "Telegraph", "definition": "The indicators you see before a mechanic goes off, usually orange circles or lines on the ground, but can also be things that appear above players/enemies heads or any other indicator that shows you what is about to happen." },
+			{ "word": "Enumerations", "definition": "A mechanic which requires a specific number of players to soak a mechanic, similar to STACK/SOAK but with a specific number of players." },
+			{ "word": "MT", "definition": "Main Tank, typically the Tank holding the boss aggro the most." },
+			{ "word": "OT", "definition": "Off Tank, the other tank, also known as ST." },
+			{ "word": "ST", "definition": "Off Tank, the other tank, also known as OT." },
+			{ "word": "PBAOE", "definition": "Point-Blank Area-of-Effect, usually an enemy ability that causes a large AOE damage area centered on the enemy." },
+			{ "word": "Doom", "definition": "A debuff that will kill the player when the timer reaches zero." }
 		]
 	},
 	"UCOB": {
 		"words": [
-			{
-				"word": "Bahamuts Claw",
-				"definition": "Physical tankbuster consisting of 5 successive hits to her target."
-			},
-			{
-				"word": "Dalamud Dive",
-				"definition": "Nael jumps onto her target, dealing significant splash damage. Make sure to spread away from the tank to prevent any extra damage."
-			},
-			{
-				"word": "Liquid Hell",
-				"definition": "The boss will target further player with 5 consecutive fireballs dropping puddles, staying in a puddle is fatal. At times this can also target a random non-furthest player."
-			},
-			{
-				"word": "Death Sentence",
-				"definition": "Tankbuster dealing heavy physical damage to its target, and inflicting a Slashing Resistance Down."
-			},
-			{
-				"word": "Fireball",
-				"definition": "Twintania will mark a player with a red triangle, and throw a fireball dealing significant magic damage that can be shared amongst the party."
-			},
-			{
-				"word": "Hatch",
-				"definition": "Orb spawns at boss and targets a player, exploding when it reaches them. Survive by standing in a puddle when it explodes on you."
-			},
-			{
-				"word": "Plummet",
-				"definition": "Cleave, dealing significant physical damage to its target."
-			},
-			{
-				"word": "Neurolink",
-				"definition": "Puddle dropped by boss, standing in it reduces outgoing damage to foes and incoming damage from Hatch."
-			},
-			{
-				"word": "Thunderstruck",
-				"definition": "Two players are targeted with the Thunderstruck debuff and need to stay away from the party to avoid killing party members or giving them paralysis."
-			},
-			{
-				"word": "Wings of Salvation",
-				"definition": "Large white puddles appear on the ground exploding shortly after."
-			},
-			{
-				"word": "Lunar Dynamo",
-				"definition": "A Dount shaped AOE centered on the boss."
-			},
-			{
-				"word": "Thermionic Beam",
-				"definition": "Heavy hitting party stack AOE."
-			},
-			{
-				"word": "Iron Chariot",
-				"definition": "Large Point-Blank AOE centered on the boss with heavy knockback."
-			},
-			{
-				"word": "Raven's Dive",
-				"definition": "Boss will jump to a player and hit them with a small AOE knocking back anyone nearby."
-			},
-			{
-				"word": "Meteor Stream",
-				"definition": "Boss dives down on several players hitting them with a heavy attack in an AOE around them."
-			},
-			{
-				"word": "Ravensbeak",
-				"definition": "Tankbuster dealing heavy physical damage to its target, and inflicting a Piercing Resistance Down."
-			},
-			{
-				"word": "Hypernova",
-				"definition": "Boss will target a player with a AoE puddle at their location, staying in the puddle too long is fatal."
-			},
-			{
-				"word": "Flare Breath",
-				"definition": "Conal cleave dealing very significant magic damage. Treat it like a mini-tankbuster."
-			},
-			{
-				"word": "Flatten",
-				"definition": "Physical tankbuster dealing massive physical damage, that must be mitigated."
-			},
-			{
-				"word": "Earth Shaker",
-				"definition": "Large conal AoE targeted towards a player."
-			},
-			{
-				"word": "Tempest Wing",
-				"definition": "A tether which eventually explodes with magical splash damage and knockback to other people."
-			},
-			{
-				"word": "Gigaflare",
-				"definition": "Raid-wide AoE dealing massive magic damage."
-			},
-			{
-				"word": "Morn Afah",
-				"definition": "Untelegraphed AoE attack on a random player in which the damage must be shared with everyone."
-			},
-			{
-				"word": "Akh Morn",
-				"definition": "Repeated AoE tankbuster attacks on the highest enmity target."
-			},
-			{
-				"word": "Exaflare",
-				"definition": "AoE circles that travel in the direction of the indicated arrow."
-			}
+			{ "word": "Bahamuts Claw", "definition": "Physical tankbuster consisting of 5 successive hits to her target." },
+			{ "word": "Dalamud Dive", "definition": "Nael jumps onto her target, dealing significant splash damage. Make sure to spread away from the tank to prevent any extra damage." },
+			{ "word": "Liquid Hell", "definition": "The boss will target further player with 5 consecutive fireballs dropping puddles, staying in a puddle is fatal. At times this can also target a random non-furthest player." },
+			{ "word": "Death Sentence", "definition": "Tankbuster dealing heavy physical damage to its target, and inflicting a Slashing Resistance Down." },
+			{ "word": "Fireball", "definition": "Twintania will mark a player with a red triangle, and throw a fireball dealing significant magic damage that can be shared amongst the party." },
+			{ "word": "Hatch", "definition": "Orb spawns at boss and targets a player, exploding when it reaches them. Survive by standing in a puddle when it explodes on you." },
+			{ "word": "Plummet", "definition": "Cleave, dealing significant physical damage to its target." },
+			{ "word": "Neurolink", "definition": "Puddle dropped by boss, standing in it reduces outgoing damage to foes and incoming damage from Hatch." },
+			{ "word": "Thunderstruck", "definition": "Two players are targeted with the Thunderstruck debuff and need to stay away from the party to avoid killing party members or giving them paralysis." },
+			{ "word": "Wings of Salvation", "definition": "Large white puddles appear on the ground exploding shortly after." },
+			{ "word": "Lunar Dynamo", "definition": "A Dount shaped AOE centered on the boss." },
+			{ "word": "Thermionic Beam", "definition": "Heavy hitting party stack AOE." },
+			{ "word": "Iron Chariot", "definition": "Large Point-Blank AOE centered on the boss with heavy knockback." },
+			{ "word": "Raven's Dive", "definition": "Boss will jump to a player and hit them with a small AOE knocking back anyone nearby." },
+			{ "word": "Meteor Stream", "definition": "Boss dives down on several players hitting them with a heavy attack in an AOE around them." },
+			{ "word": "Ravensbeak", "definition": "Tankbuster dealing heavy physical damage to its target, and inflicting a Piercing Resistance Down." },
+			{ "word": "Hypernova", "definition": "Boss will target a player with a AoE puddle at their location, staying in the puddle too long is fatal." },
+			{ "word": "Flare Breath", "definition": "Conal cleave dealing very significant magic damage. Treat it like a mini-tankbuster." },
+			{ "word": "Flatten", "definition": "Physical tankbuster dealing massive physical damage, that must be mitigated." },
+			{ "word": "Earth Shaker", "definition": "Large conal AoE targeted towards a player." },
+			{ "word": "Tempest Wing", "definition": "A tether which eventually explodes with magical splash damage and knockback to other people." },
+			{ "word": "Gigaflare", "definition": "Raid-wide AoE dealing massive magic damage." },
+			{ "word": "Morn Afah", "definition": "Untelegraphed AoE attack on a random player in which the damage must be shared with everyone." },
+			{ "word": "Akh Morn", "definition": "Repeated AoE tankbuster attacks on the highest enmity target." },
+			{ "word": "Exaflare", "definition": "AoE circles that travel in the direction of the indicated arrow." }
 		]
 	},
 	"UWU": {
 		"words": [
-			{
-				"word": "Slipstream",
-				"definition": "A heavy hitting cleave attack targeted at the Tank, this can be dodged as the boss will not turn once the cast begins."
-			},
-			{
-				"word": "Feather Rain",
-				"definition": "A loud shriek noise is followed by AOE hits on all players, listen for the sound and then move immediately after."
-			},
-			{
-				"word": "Searing Wind",
-				"definition": "One of the two healers will be targeted with a debuff, this will last for some time and cause periodic explosions around you, anyone caught in this will die."
-			},
-			{
-				"word": "Mistral Song",
-				"definition": "Garuda targets players with a Green Marker, then either Garuda or Clones will launch a line AoE dealing more damage to the first player hit."
-			},
-			{
-				"word": "Downburst",
-				"definition": "Heavy hitting tankbuster requiring mitigation."
-			},
-			{
-				"word": "Vulcan Burst",
-				"definition": "Large Low-Damage AOE with knockback, needs to be mitigated by applying shields."
-			},
-			{
-				"word": "Incinerate",
-				"definition": "Untelegraphed Tankbuster, Triple tankbuster with no broadcast, typically use invuln, darkness damage."
-			},
-			{
-				"word": "Eruptions",
-				"definition": "Ifrit will target the furthest players and cast a series of large explosions."
-			},
-			{
-				"word": "Weight of the Land",
-				"definition": "Several large AOEs appear under all players one after another."
-			},
-			{
-				"word": "Landslides",
-				"definition": "Multiple Line AOEs radiating out from boss, when Awakened, these will happen much faster and need to be dodged into for safety."
-			},
-			{
-				"word": "Mountain Buster",
-				"definition": "Heavy Tankbuster with Cleave."
-			},
-			{
-				"word": "Geocrush",
-				"definition": "Titan will turn to a cardinal and jump, crashing down at the side he was facing, Heavy distance AOE based on his landing location. Room will shrink in size."
-			},
-			{
-				"word": "Twister",
-				"definition": "At the end of its cast, Twintania will place small tornadoes under players. Must move away at the end of the cast, as running into any of the small tornadoes results in instant death to you and friends."
-			},
-			{
-				"word": "Tumults",
-				"definition": "Raid-wide attack dealing moderate magic damage to all players. Usually happens multiple times in a row, in quick succession."
-			},
-			{
-				"word": "Tank Purge",
-				"definition": "Heavy Raidwide Magic Damage."
-			},
-			{
-				"word": "Ultima",
-				"definition": "Massive raidbuster dealing extremely heavy magic damage. Must be mitigated via the use of a Tank LB3."
-			},
-			{
-				"word": "Homing Lasers",
-				"definition": "Very heavy tankbuster (~125k unmitigated) targeting the player with the second highest enmity, in a small circle around them."
-			},
-			{
-				"word": "Viscous Aetheroplasm",
-				"definition": "AOE Attack applying the Viscous Aetheroplasm debuff, which explodes after a short period of time for heavy magic damage that can be soaked with the party."
-			},
-			{
-				"word": "Diffractive Laser",
-				"definition": "Tankbuster with no cast time dealing moderate magic damage. Cleaves."
-			},
-			{
-				"word": "Aetheric Boom",
-				"definition": "Knockback originating from Ultima hitting all players. Is accompanied by 4 sets of Aetheroplasms."
-			}
+			{ "word": "Slipstream", "definition": "A heavy hitting cleave attack targeted at the Tank, this can be dodged as the boss will not turn once the cast begins." },
+			{ "word": "Feather Rain", "definition": "A loud shriek noise is followed by AOE hits on all players, listen for the sound and then move immediately after." },
+			{ "word": "Searing Wind", "definition": "One of the two healers will be targeted with a debuff, this will last for some time and cause periodic explosions around you, anyone caught in this will die." },
+			{ "word": "Mistral Song", "definition": "Garuda targets players with a Green Marker, then either Garuda or Clones will launch a line AoE dealing more damage to the first player hit." },
+			{ "word": "Downburst", "definition": "Heavy hitting tankbuster requiring mitigation." },
+			{ "word": "Vulcan Burst", "definition": "Large Low-Damage AOE with knockback, needs to be mitigated by applying shields." },
+			{ "word": "Incinerate", "definition": "Untelegraphed Tankbuster, Triple tankbuster with no broadcast, typically use invuln, darkness damage." },
+			{ "word": "Eruptions", "definition": "Ifrit will target the furthest players and cast a series of large explosions." },
+			{ "word": "Weight of the Land", "definition": "Several large AOEs appear under all players one after another." },
+			{ "word": "Landslides", "definition": "Multiple Line AOEs radiating out from boss, when Awakened, these will happen much faster and need to be dodged into for safety." },
+			{ "word": "Mountain Buster", "definition": "Heavy Tankbuster with Cleave." },
+			{ "word": "Geocrush", "definition": "Titan will turn to a cardinal and jump, crashing down at the side he was facing, Heavy distance AOE based on his landing location. Room will shrink in size." },
+			{ "word": "Twister", "definition": "At the end of its cast, Twintania will place small tornadoes under players. Must move away at the end of the cast, as running into any of the small tornadoes results in instant death to you and friends." },
+			{ "word": "Tumults", "definition": "Raid-wide attack dealing moderate magic damage to all players. Usually happens multiple times in a row, in quick succession." },
+			{ "word": "Tank Purge", "definition": "Heavy Raidwide Magic Damage." },
+			{ "word": "Homing Lasers", "definition": "Very heavy tankbuster (~125k unmitigated) targeting the player with the second highest enmity, in a small circle around them." },
+			{ "word": "Viscous Aetheroplasm", "definition": "AOE Attack applying the Viscous Aetheroplasm debuff, which explodes after a short period of time for heavy magic damage that can be soaked with the party." },
+			{ "word": "Diffractive Laser", "definition": "Tankbuster with no cast time dealing moderate magic damage. Cleaves." },
+			{ "word": "Aetheric Boom", "definition": "Knockback originating from Ultima hitting all players. Is accompanied by 4 sets of Aetheroplasms." }
+		]
+	},
+	"FRU": {
+		"words": [
+			{ "word": "Cyclonic Break", "definition": "Proteans with either spread AOEs or partner stacks" },
+			{ "word": "Burnt Strike", "definition": "Cleave down the middle of the room with either KB or widening AOE" },
+			{ "word": "Burnished Glory", "definition": "Very heavy raidwide damage with long damage over time effect." },
+			{ "word": "Powder Mark", "definition": "Tankbuster that hits the tank and closest other player when it expires." },
+			{ "word": "Dark Fire", "definition": "Large circle AOE" },
+			{ "word": "Dark Blizzard", "definition": "Large donut AOE" },
+			{ "word": "Dark Eruption", "definition": "Medium circle AOE" },
+			{ "word": "Shadoweye", "definition": "Gaze centered on the player that will apply doom if seen." },
+			{ "word": "Unholy Darkness", "definition": "Party Stack that must be resolved with 5 players" },
+			{ "word": "Dark Water", "definition": "A stack AOE that must be resolved with 4 players" },
+			{ "word": "Return", "definition": "A player's position will be recorded for later" }
 		]
 	}
 }

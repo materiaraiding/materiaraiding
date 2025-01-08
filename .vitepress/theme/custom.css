@@ -40,7 +40,7 @@ strong {
 
 .v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__inner {
     background: var(--vp-c-bg-elv);
-    border: 1px solid var(--vp-c-divider);
+    border: 2px solid var(--vp-c-divider);
     max-width: 250px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
