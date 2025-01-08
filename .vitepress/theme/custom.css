@@ -49,7 +49,7 @@ strong {
 
 .glossaryTerm {
     cursor: help;
-    text-decoration: underline wavy;
+    text-decoration: underline dotted;
     font-weight: bold;
     color: var(--vp-c-brand-1);
 }
