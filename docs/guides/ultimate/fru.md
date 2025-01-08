@@ -1,7 +1,7 @@
 ---
 order: 6
 title: FRU
-longTitle: Future's Rewritten (Ultimate)
+longTitle: Futures Rewritten (Ultimate)
 description: Materia Resources and Guide for Future's Rewritten (Ultimate).
 difficulty: Ultimate
 expansion: Dawntrail
