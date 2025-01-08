@@ -10,7 +10,8 @@ let criterionPages = pages.filter(p => p.frontmatter.difficulty === 'Criterion')
 let otherPages = pages.filter(p => p.frontmatter.difficulty === 'Other Content').sort((a, b) => a.frontmatter.order-b.frontmatter.order);
 
 function openPage (url) {
-	window.open(url,"_self")
+	let strippedUrl = url.replace("/guides", '');
+	window.open(strippedUrl,"_self")
 }
 
 </script>

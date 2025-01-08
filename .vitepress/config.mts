@@ -166,7 +166,12 @@ export default defineConfig({
 		},
 	},
 	rewrites: {
-		'cod.md': 'guides/chaotic/cod.md'
+		'guides/chaotic/:slug*': 'chaotic/:slug*',
+		'guides/ultimate/:slug*': 'ultimate/:slug*',
+		'guides/savage/:slug*': 'savage/:slug*',
+		'guides/extreme/:slug*': 'extreme/:slug*',
+		'guides/criterion/:slug*': 'criterion/:slug*',
+		'guides/other/:slug*': 'other/:slug*',
 	},
 	vite: {
 		optimizeDeps: {
