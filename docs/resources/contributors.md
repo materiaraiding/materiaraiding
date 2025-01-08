@@ -38,7 +38,7 @@ const members = [
   },
   {
     avatar: 'https://cdn.discordapp.com/avatars/163174071436050433/7bcf005b850631c96d0d224f2e3f18c8?size=256',
-    name: 'Juno "P11S" Dax',
+    name: 'Juno Dax',
     title: 'Writer',
     desc: "@ranciddax"
   },
