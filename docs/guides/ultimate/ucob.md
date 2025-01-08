@@ -6,6 +6,7 @@ difficulty: Ultimate
 expansion: Stormblood
 image: ucob-goldenbaha.webp
 discussionLink: https://discord.com/channels/944115415385247784/954964367462514710
+glossary: UCOB
 ---
 ## Credits
 - Written Guide by Em Gram (Phases 1, 2 and 3) and Noz Leafhill (Phases 4 and 5)

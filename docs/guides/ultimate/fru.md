@@ -6,8 +6,8 @@ description: Materia Resources and Guide for Future's Rewritten (Ultimate).
 difficulty: Ultimate
 expansion: Dawntrail
 image: fru-eden.webp
-permalink: /fru
 discussionLink: https://discord.com/channels/944115415385247784/1303228301015384106
+glossary: FRU
 ---
 
 ## Credits

@@ -46,3 +46,26 @@ strong {
     --vp-c-bg-elv: #202127;
     --vp-c-bg-soft: #202127;
 }
+
+.glossaryTerm {
+    cursor: help;
+    text-decoration: underline wavy;
+    font-weight: bold;
+    color: var(--vp-c-brand-1);
+}
+
+.v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__inner {
+    background: var(--vp-c-bg-elv);
+    border: 2px solid var(--vp-c-divider);
+    max-width: 250px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+.v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__arrow-outer {
+    border-color: var(--vp-c-bg-elv);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+.v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__inner {
+    text-align: center;
+    text-wrap: balance;
+    color: var(--vp-c-text-1);
+}
