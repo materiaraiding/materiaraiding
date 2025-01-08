@@ -67,15 +67,15 @@
 		"words": [
 			{ "word": "Cyclonic Break", "definition": "Proteans with either spread AOEs or partner stacks" },
 			{ "word": "Burnt Strike", "definition": "Cleave down the middle of the room with either KB or widening AOE" },
-			{ "word": "Burnished Glory", "definition": "Very heavy raidwide damage with long damage over time effect." },
-			{ "word": "Powder Mark", "definition": "Tankbuster that hits the tank and closest other player when it expires." },
+			{ "word": "Burnished Glory", "definition": "Very heavy raidwide damage with long damage over time effect" },
+			{ "word": "Powder Mark", "definition": "Tankbuster that hits the tank and closest other player when it expires" },
 			{ "word": "Dark Fire", "definition": "Large circle AOE" },
 			{ "word": "Dark Blizzard", "definition": "Large donut AOE" },
 			{ "word": "Dark Eruption", "definition": "Medium circle AOE" },
-			{ "word": "Shadoweye", "definition": "Gaze centered on the player that will apply doom if seen." },
+			{ "word": "Shadoweye", "definition": "Gaze centered on the player that will apply doom if seen" },
 			{ "word": "Unholy Darkness", "definition": "Party Stack that must be resolved with 5 players" },
 			{ "word": "Dark Water", "definition": "A stack AOE that must be resolved with 4 players" },
-			{ "word": "Return", "definition": "A player's position will be recorded for later" }
+			{ "word": "Return", "definition": "A players position will be recorded for later" }
 		]
 	}
 }
