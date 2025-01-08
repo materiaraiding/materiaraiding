@@ -91,7 +91,7 @@ function openPage (url) {
 	font-size: 1.3em;
 	display: flex;
 	align-items: flex-end;
-	transition: 0.2s;
+	transition: 0.2s ease;
 	background-size: cover;
 	background-position: center;
 	cursor: pointer;

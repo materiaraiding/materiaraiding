@@ -49,9 +49,15 @@ strong {
 
 .glossaryTerm {
     cursor: help;
-    text-decoration: underline dotted;
-    font-weight: bold;
+    text-decoration: underline dotted var(--vp-c-brand-1);
+    font-weight: 600;
+    transition: 0.2s ease;
     color: var(--vp-c-brand-1);
+}
+
+.glossaryTerm:hover {
+    color: var(--vp-c-text-1);
+    text-decoration: underline dotted var(--vp-c-text-1);
 }
 
 .v-popper__popper.v-popper--theme-glossary-tooltip .v-popper__inner {
