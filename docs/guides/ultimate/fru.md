@@ -62,6 +62,17 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
+::: details Old Strats
+
+<ActionGroup
+:actions="[
+{ title: 'P2 - Diamond Dust - Relative North - Old Strat', href: 'https://raidplan.io/plan/h521rrvlPhF-ajjp' },
+{ title: 'P2 - Light Rampant - AB1234 - Old Strat', href: 'https://raidplan.io/plan/zUEBkOqVo0p5FZW-' },
+]"
+/>
+
+:::
+
 ## Strat Summary
 
 Quick summary of strats for MUR:
