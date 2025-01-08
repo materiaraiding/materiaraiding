@@ -20,7 +20,6 @@ discussionLink: https://discord.com/channels/944115415385247784/1303228301015384
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
-
 <ActionGroup
 :actions="[
 { title: 'P1 - Proteans & Utopian Sky', color: 'red', href: 'https://raidplan.io/plan/WlRr-qtrUTEPiaJZ' },
@@ -28,7 +27,6 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 { title: 'P1 - Towers Static', color: 'red', href: 'https://raidplan.io/plan/Gfbp6n3NgBHgNqI1' },
 ]"
 />
-
 
 <ActionGroup
 :actions="[
@@ -114,6 +112,22 @@ P5: Polarizing Swap Order: TMRH
 @[](https://youtu.be/QZzuMStV26U)
 @[](https://youtu.be/Si7y2rEz6os)
 :::
+
+## PoV Videos
+PoV Videos provided by Materia Ultimate Raiding
+
+<ActionGroup
+:actions="[
+{ title: 'MT', color: 'blue', href: 'https://youtu.be/p-Zk3DPpSsQ' },
+{ title: 'OT', color: 'blue', href: 'https://youtu.be/i8S6t0sYZUc' },
+{ title: 'H1', color: 'green', href: 'https://youtu.be/jsy09oqdmOs' },
+{ title: 'H2', color: 'green', href: 'https://youtu.be/OhWTq-VqQ_c' },
+{ title: 'D1', color: 'red', href: 'https://youtu.be/aiiH_orPDjs' },
+{ title: 'D2', color: 'red', href: 'https://youtu.be/8oL1fq8ZYvY' },
+{ title: 'D3', color: 'red', href: 'https://youtu.be/8EjVJoCNLQc' },
+{ title: 'D4', color: 'red', href: 'https://youtu.be/VPf-vMLXIKU' }
+]"
+/>
 
 ## Mitigation Plan
 
