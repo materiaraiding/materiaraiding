@@ -450,7 +450,7 @@ As this mechanic has been going on, players have been accruing stacks of **Light
 
 As each group makes their final dodge, a 4 player tower will appear in the centre of the arena. Players with **2** stacks of Lightsteeped should walk into the tower to soak it.
 
-This is immediately followed by another **Banish 3**, and **House of Light**, which will hit every player with a protean AOE and increase their Lightsteeped stacks to 4. Resolve this in Phase 1 clock spots and pairs for Banish III.
+This is immediately followed by another **Banish III**, and **House of Light**, which will hit every player with a protean AOE and increase their Lightsteeped stacks to 4. Resolve this in Phase 1 clock spots and pairs for Banish III.
 
 Shiva must be brought below 20% health before she finishes casting her enrage:
 
@@ -508,23 +508,23 @@ These buffs will be distributed amongst each role group to look like the followi
 
 **Supports**
 
-2 Supports with 30s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />
+2 Supports with 30s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />
 
-1 Support with 20s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />
+1 Support with 20s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />
 
 **DPS**
 
-1 DPS with 20s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />
+1 DPS with 20s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />
 
-2 DPS with 10s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />
+2 DPS with 10s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />
 
 As well as:
 
-1 DPS with 30s Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" /> and 1 Support with Short Rewind Ice<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />
+1 DPS with 30s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" /> and 1 Support with Short Rewind Dark Blizzard<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />
 
 **OR**
 
-1 Support with 10s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" /> and 1 DPS with Long Rewind Ice<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />.
+1 Support with 10s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" /> and 1 DPS with Long Rewind Dark Blizzard<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />.
 
 (Credit to Fae Fiyaa & Ewaen)
 
@@ -532,7 +532,7 @@ As well as this, 8 hourglass/traffic lights will appear around the arena. Gaia w
 
 These Traffic Lights will spawn baited rotating AOEs that cleave 180(?) degrees in front of them. Yellow Tethered Traffic Lights **go first**, and Purple Tethered Traffic Lights **go last**.
 
-There are 2 ways you can orient this arena. Either using the lone yellow traffic light as Relative North, or the empty space between the 2 close yellow traffic lights. **Either method works, however if you are using the priority method below, you will have to reverse the prio for **lone yellow north**
+There are 2 ways you can orient this arena. Either using the lone yellow traffic light as Relative North, or the empty space between the 2 close yellow traffic lights. Either method works, however if you are using the priority method below, you will have to reverse the prio for **lone yellow north**
 
 All of these sounds incredibly intimidating and complicated, but it can be simplified for each person.
 
@@ -542,22 +542,22 @@ DPS will look at their party list to determine which spread they are taking, in 
 
 ![](/images/fru-ur-layout.webp)
 
-Any DPS with a **10s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** will use their priority take the SW and SE traffic lights. 
+Any DPS with a **10s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** will use their priority take the SW and SE traffic lights. 
 
-Any Support with a **30s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** will use their priority and take the NW and NE traffic lights.
+Any Support with a **30s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** will use their priority and take the NW and NE traffic lights.
 
 ![](/images/fru-ur-adjust.webp)
 
 An example of this would be if I'm D1 and both D4 and I get a 10s Fire, the D4 would take SE and I would take SW.
 
-The DPS and Support players with a **20s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** will go East (DPS) and West (Supports) respectively.
+The DPS and Support players with a **20s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** will go East (DPS) and West (Supports) respectively.
 
-And finally, either: A Support with the **10s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** or **20s Ice Debuff<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />** will go North, and a DPS with the **30s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** or **20s Ice Debuff<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />** will go South.
+And finally, either: A Support with the **10s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** or **20s Dark Blizzard<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />** will go North, and a DPS with the **30s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** or **20s Dark Blizzard<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />** will go South.
 
 ::: tip
 You do **NOT** need to form a lineup to find your positions, this prio system resolves so that **Ranged and Healers are always static** and **ONLY melee players flex** by looking at one other party member to determine which direction they go.
 
-For Example: If they have 30s Fire Debuff, ST will always take NE traffic light (balls north relative) **unless** they have the same debuff as H2.
+For Example: If they have 30s Dark Fire, ST will always take NE traffic light (balls north relative) **unless** they have the same debuff as H2.
 :::
 
 This will leave the spreads looking something like this:
@@ -566,23 +566,23 @@ This will leave the spreads looking something like this:
 
 Here is a timeline of events:
 
-After sorting the starting positions, **10s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** players will step out to take their AOE between their respective Traffic Light and the wall. If you are an **Ice debuff<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />** stay stacked in middle.
+After sorting the starting positions, **10s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** players will step out to take their AOE between their respective Traffic Light and the wall. If you are a **Dark Blizzard<StatusIcon name="Spell-in-Waiting: Dark Blizzard III" />** stay stacked in middle.
 
 At the same time as fire debuffs are being solved, an **Unholy Darkness<StatusIcon name="Spell-in-Waiting: Unholy Darkness" />** party stack will occur in middle, so players who are not resolving a mechanic should AFK in the center of the arena. 
 
-Shortly after, the first set of Traffic Lights will go off. Players can essentially just stare at their Traffic Light until the spinning arrow appears around its base for an indication of when they should step out to bait. At the same time, the 1st set of Rewinds will go off. Players with **Water<StatusIcon name="Spell-in-Waiting: Dark Water III" />/Gaze<StatusIcon name="Spell-in-Waiting: Shadoweye" />** should come close to the center whilst being in line with their Traffic Light, with **Water<StatusIcon name="Spell-in-Waiting: Dark Water III" /> standing slightly closer to the center**. 
+Shortly after, the first set of Traffic Lights will go off. Players can essentially just stare at their Traffic Light until the spinning arrow appears around its base for an indication of when they should step out to bait. At the same time, the 1st set of Rewinds will go off. Players with **Dark Water<StatusIcon name="Spell-in-Waiting: Dark Water III" />/Shadoweye<StatusIcon name="Spell-in-Waiting: Shadoweye" />** should come close to the center whilst being in line with their Traffic Light, with **Dark Water<StatusIcon name="Spell-in-Waiting: Dark Water III" /> standing slightly closer to the center**. 
 
-It is important **Gaze<StatusIcon name="Spell-in-Waiting: Shadoweye" />** players don't stack right on top of eachother as the may accidentally gaze one another later. Players with **Eruption<StatusIcon name="Spell-in-Waiting: Dark Eruption" />** should stand just in front of their Traffic light.
+It is important **Shadoweye<StatusIcon name="Spell-in-Waiting: Shadoweye" />** players don't stack right on top of eachother as the may accidentally gaze one another later. Players with **Dark Eruption<StatusIcon name="Spell-in-Waiting: Dark Eruption" />** should stand just in front of their Traffic light.
 
-Afterward **20s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** players will step out to take their AOE. 
+Afterward **20s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** players will step out to take their AOE. 
 
-The second set of baits and rewinds will then go off. Use the same prio as before: **Water<StatusIcon name="Spell-in-Waiting: Dark Water III" />/Gaze<StatusIcon name="Spell-in-Waiting: Shadoweye" />** mid, **Eruptions<StatusIcon name="Spell-in-Waiting: Dark Eruption" />** on Traffic Lights. If you have nothing to do just AFK.
+The second set of baits and rewinds will then go off. Use the same prio as before: **Dark Water<StatusIcon name="Spell-in-Waiting: Dark Water III" />/Shadoweye<StatusIcon name="Spell-in-Waiting: Shadoweye" />** mid, **Dark Eruption<StatusIcon name="Spell-in-Waiting: Dark Eruption" />** on Traffic Lights. If you have nothing to do just AFK.
 
-The **30s Fire Debuff<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** players will then step out to take their AOEs.
+The **30s Dark Fire<StatusIcon name="Spell-in-Waiting: Dark Fire III" />** players will then step out to take their AOEs.
 
 The final set of Traffic Light baits will then go off and everyone will stack mid. **ALL players should look OUT of the arena towards their clockspot.**
 
-Rewind will pull everyone back to their recorded position and the **Water Stack<StatusIcon name="Spell-in-Waiting: Dark Water III" />**, **Gazes<StatusIcon name="Spell-in-Waiting: Shadoweye" />** and **Eruptions<StatusIcon name="Spell-in-Waiting: Dark Eruption" />** will all go off at once.
+Rewind will pull everyone back to their recorded position and the **Dark Water<StatusIcon name="Spell-in-Waiting: Dark Water III" />**, **Shadoweye<StatusIcon name="Spell-in-Waiting: Shadoweye" />** and **Dark Eruption<StatusIcon name="Spell-in-Waiting: Dark Eruption" />** will all go off at once.
 
 The following cheatsheets can help summarize the process of events through this mech, these can be useful to help with learning positions: 
 
@@ -612,7 +612,7 @@ In their Light Parties, each player will form a small square to indicate the pos
 
 (image, ranged back melee front etc)
 
-Gaia will begin to cast **Dark Water III**, granting 6 players 3 different **Water** stack debuffs. In pairs of 2, these stacks will have the timers: **10s, 29s, and 38s**.
+Gaia will begin to cast **Dark Water III**, granting 6 players 3 different **Dark Water** stack debuffs. In pairs of 2, these stacks will have the timers: **10s, 29s, and 38s**.
 
 Using the priority system below (which you may recognise from TOP), players with the same stack timer (or lack of stack) as another in their Light Party will flex to the opposite party so that stacks will not overlap.
 
@@ -700,7 +700,7 @@ Both bosses will then cast:
 
 All players will be assigned 3 stacks of **Lightsteeped**
 
-2 random players will be assigned a **Water Stack** that will go off in **19s**.
+2 random players will be assigned a Dark Water that will go off in **19s**.
 
 1 Tank, 1 Healer and 2 random DPS will be tethered with Light Rampant chains and 2 towers will appear that require 2 players in each to soak.
 
@@ -718,7 +718,7 @@ Once the bowtie is formed, the tether players will stand in their towers, and th
 
 ![396285330-dfeae866-9934-4def-a4ed-2eb951b55c0f.webp](/images/fru-darklit-swap.webp)
 
-After the towers and AOEs resolve, Gaia will cast **Sprit Taker**, targeting a random player again. All players will roughly spread to resolve this. Immediately after Ryne will cast **Hallowed Wings**, cleaving one half of the arena. The party will shift over into the safespot and take the **Water Stack**.
+After the towers and AOEs resolve, Gaia will cast **Sprit Taker**, targeting a random player again. All players will roughly spread to resolve this. Immediately after Ryne will cast **Hallowed Wings**, cleaving one half of the arena. The party will shift over into the safespot and take the Dark Water.
 
 A tank will **immediately** run to **true East** or **true West** (whichever is furthest) to bait out a **Somber Dance** tankbuster, followed by another **Somber Dance** baited on the closest person.
 
@@ -736,18 +736,24 @@ Both bosses will move and then cast:
 This mechanic is extremely dense and has many minute details that must be taken into consideration. I **highly** recommend watching as many POVs as possible, as well as studying the toolbox in addition to this guide.
 
 As Crystallize Time is cast, 4 players will be assigned a **Wyrmclaw (Red)** debuff, and 4 players with a **Wyrmfang (Blue)** debuff. 
-Within the **Red** debuffs, there will be 2 aero players and 2 ice players. Using a lineup/prio system below, these players will sort themselves so that one aero and one ice are on East and West of the arena.
+Within the **Red** debuffs, there will be 2 Dark Aero players and 2 ice players. Using a lineup/prio system below, these players will sort themselves so that one Dark Aero and one ice are on East and West of the arena.
 
 From left to right:
 `West - H1 D3 D1 MT ST D2 D4 H2 - East`
 
-Ice Debuffs will step up, Aero debuffs will step down, look at the two players standing north/south of the lineup to determine who goes East/West.
+| Debuff                                                         | Explanation                                                           |
+|----------------------------------------------------------------|-----------------------------------------------------------------------|
+| Wyrmclaw<StatusIcon name="Wyrmclaw" />                         | A debuff that creates a large AOE and puddle when you touch a dragon  |
+| Wyrmfang<StatusIcon name="Wyrmfang" />                         | A debuff that must be cleansed by picking up the puddle from Wyrmclaw |
+| Dark Aero<StatusIcon name="Spell-in-Waiting: Dark Aero III" /> | A very large AOE with Knockback when expires                          |
+
+Dark Blizzards will step up, Dark Aero debuffs will step down, look at the two players standing north/south of the lineup to determine who goes East/West.
 
 ![395830834-a625f6c7-a1f0-4eaf-abb4-5bd787ccfb4a.webp](/images/fru-ct-adjust.webp)
 
 **Red** players must intercept dragonheads that will begin to travel around the arena from North to South. Intercepting these dragons will cleanse the debuff, and cause a large AOE explosion aswell as leaving behind a small puddle on the floor. This puddle must be picked up by a **Blue** player to successfully cleanse their own debuff. Allowing either of these debuffs to remain unresolved will immediately kill the player.
 
-As well as these Red and Blue buffs everyone will also gain an additional debuff. As mentioned prior Red players will have 2 aero and 2 ice. Blue players will have 1 **Ice**, 1 **Water**, 1 **Unholy Darkness**, and 1 **Eruption**.
+As well as these Red and Blue buffs everyone will also gain an additional debuff. As mentioned prior Red players will have 2 aero and 2 Dark Blizzard. Blue players will have 1 **Dark Blizzard**, 1 **Dark Water**, 1 **Unholy Darkness**, and 1 **Dark Eruption**.
 
 As **Blue** players will need to soak a debuff, we use these debuffs to indicate who takes which puddle. As each puddle is left in the proximity of a waymark, **Blue** players will take puddles following the list below:
 
@@ -764,10 +770,10 @@ With the crystal being true North, 1 **Yellow Tether** will always be North/Sout
 
 To break up this mechanic, I'll first write through the resolution for all **Blue** players:
 
-The assigned **Red Aero** player, and all the **non-Eruption Blue** debuff players will go to the South **Purple Tether**. The **Eruption Blue** debuff player will go to the North **Purple Tether**
+The assigned **Red Dark Aero** player, and all the **non-Dark Eruption Blue** debuff players will go to the South **Purple Tether**. The **Dark Eruption Blue** debuff player will go to the North **Purple Tether**
 
-The **Red Aero** and **Eruption** player will stand 2 pips down from the star on the arena's edge so that they are leaning South/North respectively
-After the **Yellow Tether** traffic lights go off, the south **Blue** players will immediately move just in front of the **Red Aero** player. Immediately, the **Water, Ice, and Aero** will all go off at once, launching the **Blue** players to the opposite side of the arena, and they will immediately stack with the **Eruption** & **Red Ice** player of that side to resolve **Unholy Darkness**.
+The **Red Dark Aero** and **Dark Eruption** player will stand 2 pips down from the star on the arena's edge so that they are leaning South/North respectively
+After the **Yellow Tether** traffic lights go off, the south **Blue** players will immediately move just in front of the **Red Dark Aero** player. Immediately, the **Dark Water, Dark Blizzard, and Dark Aero** will all go off at once, launching the **Blue** players to the opposite side of the arena, and they will immediately stack with the **Dark Eruption** & **Red Dark Blizzard** player of that side to resolve **Unholy Darkness**.
 
 ![fru-ct-dragonpops.png](/images/fru-ct-dragonpops.png)
 
