@@ -62,7 +62,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-::: details Old Strats
+::: details Archive
 
 <ActionGroup
 :actions="[
