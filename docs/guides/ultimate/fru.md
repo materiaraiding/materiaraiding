@@ -336,9 +336,11 @@ Finally, Fatebreaker will cast his enrage:
 
 Phase 2 begins with a tankbuster **Quadruple Slap**, before starting the first major mechanic:
 
-#### Diamond Dust (Work in progress for Colour Partners)
+#### Diamond Dust
 
 <Action title='P2 - Diamond Dust - Colour Partners' color='blue' href='https://raidplan.io/plan/PPYgcTqAr4DXZE50' />
+
+(Work in progress guide for Colour Partners)
 
 After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena. 
 (clarification on clone here)
