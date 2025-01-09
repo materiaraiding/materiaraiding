@@ -336,9 +336,48 @@ Finally, Fatebreaker will cast his enrage:
 
 Phase 2 begins with a tankbuster **Quadruple Slap**, before starting the first major mechanic:
 
-#### Diamond Dust
+#### Diamond Dust (Work in progress for Colour Partners)
 
 <Action title='P2 - Diamond Dust - Colour Partners' color='blue' href='https://raidplan.io/plan/PPYgcTqAr4DXZE50' />
+
+After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena. 
+(clarification on clone here)
+
+These will be followed by another 6 AOEs that fill the edge of the arena but only the first 2 are important and the rest can be ignored.
+
+Either DPS or Supports will then be marked by 4 orange Frigid Stone AOEs that will spawn a star shaped AOE after a delay. Theses AOEs should always be placed on intercardinals when facing relative North.
+
+Our goal in this mechanic is to place these AOE markers in specific positions such that we form safe spots within the first 2 AOEs
+
+Shiva will then cast 1 of 2 abilities:
+
+**Axe Kick/Cleave**: Shiva will do a large AOE, reaching to the outside ring of the arena.
+
+**Scythe Kick/Reap**: Shiva will do a small donut AOE, the safespot being halfway between the centre and the innermost ring.
+
+(images for both)
+
+Because the AOEs are role based we use our Phase 1 protean spread to form ranged/melee partners for the following resolutions:
+
+### Axe Kick
+{: .no_toc }
+
+For Axe Kick, Shiva will begin by shouting **"Cleave"**. Players will move out to their coloured quadrant.
+
+The non-AOE players will stand just outside the outer ring on the arena floor to bait out proximity based protean AOEs. Leaning slightly towards the relative cardinal marker may help with clipping the AOE player. Meanwhile, AOE players should move as far out as they can and place their AOEs on their colour waymark **closest** to the **first 2 AOEs**.
+
+### Scythe Kick
+{: .no_toc }
+
+For Scythe Kick, Shiva will begin by shouting **"Reap"**. Players will find relative North and immediately move out to their positions as shown in the image below. 
+
+The non-AOE players will stand as close as possible to Shiva. It is possible to use the small diamond shapes on the floor to align yourself. The AOE players **must also** start extremely close to Shiva as the donut AOE is tiny (**The inner ring is NOT the safe spot; it is actually about half the diameter of that ring**). After the initial cleave goes off, all the AOE players will quickly move out and place their AOE on the middle ring on the Arena's floor.
+
+After dropping their puddles, everyone will quickly rush back to the centre of the arena. Shiva will shortly do a knockback and Light Party 1 will ride this to the relative North as this will be the safespot formed from the AOEs. Light Party 2 will ride this KB to the relative South. 
+
+{: .note }
+> Moving slightly closer to the wall after your KB can help alleviate some poor AOE placement.
+
 
 #### Stillness/Silence
 
