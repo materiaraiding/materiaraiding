@@ -362,14 +362,12 @@ Shiva will then cast 1 of 2 abilities:
 Because the AOEs are role based we use our Phase 1 protean spread to form ranged/melee partners for the following resolutions:
 
 ### Axe Kick
-{: .no_toc }
 
 For Axe Kick, Shiva will begin by shouting **"Cleave"**. Players will move out to their coloured quadrant.
 
 The non-AOE players will stand just outside the outer ring on the arena floor to bait out proximity based protean AOEs. Leaning slightly towards the relative cardinal marker may help with clipping the AOE player. Meanwhile, AOE players should move as far out as they can and place their AOEs on their colour waymark **closest** to the **first 2 AOEs**.
 
 ### Scythe Kick
-{: .no_toc }
 
 For Scythe Kick, Shiva will begin by shouting **"Reap"**. Players will find relative North and immediately move out to their positions as shown in the image below. 
 
@@ -377,9 +375,9 @@ The non-AOE players will stand as close as possible to Shiva. It is possible to 
 
 After dropping their puddles, everyone will quickly rush back to the centre of the arena. Shiva will shortly do a knockback and Light Party 1 will ride this to the relative North as this will be the safespot formed from the AOEs. Light Party 2 will ride this KB to the relative South. 
 
-{: .note }
-> Moving slightly closer to the wall after your KB can help alleviate some poor AOE placement.
-
+::: tip
+Moving slightly closer to the wall after your KB can help alleviate some poor AOE placement.
+:::
 
 #### Stillness/Silence
 
