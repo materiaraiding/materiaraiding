@@ -780,7 +780,7 @@ Both bosses will move and then cast:
 <Action title='Crystallize Time' color='green' href='https://raidplan.io/plan/GIXItxnLI2MJma73' />
 @[](https://youtu.be/PD6m6SzlxSI)
 
-::: Healers
+::: healer
 Shortly after the Crystallize Time cast the crystal will pulse for additional damage. It is recommended to shield for this initial pulse, and _then_ apply shielded mitigation (such as spreadlo) afterwards.
 :::
 
