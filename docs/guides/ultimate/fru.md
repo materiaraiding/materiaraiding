@@ -789,6 +789,8 @@ This mechanic is extremely dense and has many minute details that must be taken 
 As Crystallize Time is cast, 4 players will be assigned a **Wyrmclaw (Red)** debuff, and 4 players with a **Wyrmfang (Blue)** debuff. 
 Within the **Red** debuffs, there will be 2 Dark Aero players and 2 ice players. Using a lineup/prio system below, these players will sort themselves so that one Dark Aero and one ice are on East and West of the arena.
 
+3 Players will also be assigned a **Spell-in-Waiting: Quietus** debuff.
+
 From left to right:
 `West - H1 D3 D1 MT ST D2 D4 H2 - East`
 
@@ -797,6 +799,7 @@ From left to right:
 | Wyrmclaw<StatusIcon name="Wyrmclaw" />                         | A debuff that creates a large AOE and puddle when you touch a dragon  |
 | Wyrmfang<StatusIcon name="Wyrmfang" />                         | A debuff that must be cleansed by picking up the puddle from Wyrmclaw |
 | Dark Aero<StatusIcon name="Spell-in-Waiting: Dark Aero III" /> | A very large AOE with Knockback when expires                          |
+| Quietus<StatusIcon name="Spell-in-Waiting: Quietus" />         | A heavy hitting raidwide                                              |
 
 Dark Blizzards will step up, Dark Aero debuffs will step down, look at the two players standing north/south of the lineup to determine who goes East/West.
 
@@ -819,11 +822,13 @@ In addition to debuffs going out, 6 Traffic Lights will spawn. The Traffic Light
 
 With the crystal being true North, 1 **Yellow Tether** will always be North/South and 1 **Purple Tether** will either be North West/South East or North East/South West. These Traffic Lights will blow up in a large circular AOE, the hitbox of which can be seen on the arena floor.
 
-To break up this mechanic, I'll first write through the resolution for all **Blue** players:
+The following is a run-down of the mechanic:
 
-The assigned **Red Dark Aero** player, and all the **non-Dark Eruption Blue** debuff players will go to the South **Purple Tether**. The **Dark Eruption Blue** debuff player will go to the North **Purple Tether**
+The assigned **Red Dark Aero** player, and all the **non-Dark Eruption Blue** debuff players will go to the South **Purple Tether**. The **Dark Eruption Blue** debuff player will go to the North **Purple Tether**. The **other Aero player** will simply mirror this movement on the non-purple tether side.
 
 The **Red Dark Aero** and **Dark Eruption** player will stand 2 pips down from the star on the arena's edge so that they are leaning South/North respectively.
+
+Meanwhile the the ice players will stand directly East/West to intercept their dragon. The **eruption side** Ice player should intercept their dragon before moving to the eruption player. The **non-eruption side** ice will move to the wall and slightly south to avoid the traffic lights. After the traffic light goes off, they can move to join the other players at north.
 
 (image)
 
@@ -853,6 +858,14 @@ If a blue player is unable to cleanse their buff in time, they can run to the sa
 At the same time, the spell in waiting: "**Quietus**" will go off, dealing raid wide damage.
 
 After placing rewinds, players will immediately spread **away** from the crystal at north to take another **Spirit Taker** AOE.
+
+The Rewinds will then go off, pulling the party back to the "safe" waymark for the two wild-charges.
+
+After this resolves, **Ryne** and **Gaia** will appear and become targetable, immediately starting another dual stack **Akh Morn** will be resolved the same as the Dark Lit variant. 
+This is followed by another **Morn Afah hand of pain check**
+
+Ryne and Gaia will then cast their respective enrages:
+
 
 ---
 
