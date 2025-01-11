@@ -367,13 +367,19 @@ For Axe Kick, Shiva will begin by shouting **"Cleave"**. Players will move out t
 
 The non-AOE players will stand just outside the outer ring on the arena floor to bait out proximity based protean AOEs. Leaning slightly towards the relative cardinal marker may help with clipping the AOE player. Meanwhile, AOE players should move as far out as they can and place their AOEs on their colour waymark **closest** to the **first 2 AOEs**.
 
+::: info
+Sometimes as a protean player, your colour waymark may be inside one of the first 2 AOEs. Even though it isn't necessary, for the sake of safety it is okay to move to the opposite side to bait your protean into the open area either side of the AOE.
+:::
+
 ### Scythe Kick
 
-For Scythe Kick, Shiva will begin by shouting **"Reap"**. Players will find relative North and immediately move out to their positions as shown in the image below. 
+For Scythe Kick, Shiva will begin by shouting **"Reap"**. Players will find their waymark and immediately move into the positions as shown in the image below. 
+
+(image)
 
 The non-AOE players will stand as close as possible to Shiva. It is possible to use the small diamond shapes on the floor to align yourself. The AOE players **must also** start extremely close to Shiva as the donut AOE is tiny (**The inner ring is NOT the safe spot; it is actually about half the diameter of that ring**). After the initial cleave goes off, all the AOE players will quickly move out and place their AOE on the middle ring on the Arena's floor.
 
-After dropping their puddles, everyone will quickly rush back to the centre of the arena. Shiva will shortly do a knockback and Light Party 1 will ride this to the relative North as this will be the safespot formed from the AOEs. Light Party 2 will ride this KB to the relative South. 
+After dropping their puddles, everyone will quickly rush back to the centre of the arena. Shiva will shortly do a knockback and Light Party 1 will ride this to the safe spot with a **Red or Purple** waymark in it, and Light Party 2 will ride this KB to the safe spot with a **Yellow or Blue** waymark in it.
 
 ::: tip
 Moving slightly closer to the wall after your KB can help alleviate some poor AOE placement.
