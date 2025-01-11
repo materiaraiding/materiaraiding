@@ -780,6 +780,10 @@ Both bosses will move and then cast:
 <Action title='Crystallize Time' color='green' href='https://raidplan.io/plan/GIXItxnLI2MJma73' />
 @[](https://youtu.be/PD6m6SzlxSI)
 
+::: Healers
+Shortly after the Crystallize Time cast the crystal will pulse for additional damage. It is recommended to shield for this initial pulse, and _then_ apply shielded mitigation (such as spreadlo) afterwards.
+:::
+
 This mechanic is extremely dense and has many minute details that must be taken into consideration. I **highly** recommend watching as many POVs as possible, as well as studying the toolbox in addition to this guide.
 
 As Crystallize Time is cast, 4 players will be assigned a **Wyrmclaw (Red)** debuff, and 4 players with a **Wyrmfang (Blue)** debuff. 
