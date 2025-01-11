@@ -737,6 +737,10 @@ Both bosses will then cast:
 
 <Action title='Darklit Dragonsong' color='green' href='https://raidplan.io/plan/pcrbL0iqrAYMKFV3' />
 
+::: warnign
+due to the raidwide doing heavy damage on a 2 minute window along with outgoing debuffs from the light teathers you may reach buffcap in whichcase your oldest buffs will disappear this can cause mit shields and buffs to disappear
+:::
+
 All players will be assigned 3 stacks of **Lightsteeped**
 
 2 random players will be assigned a Dark Water that will go off in **19s**.
@@ -757,7 +761,11 @@ Once the bowtie is formed, the tether players will stand in their towers, and th
 
 ![396285330-dfeae866-9934-4def-a4ed-2eb951b55c0f.webp](/images/fru-darklit-swap.webp)
 
-After the towers and AOEs resolve, Gaia will cast **Sprit Taker**, targeting a random player again. All players will roughly spread to resolve this. Immediately after Ryne will cast **Hallowed Wings**, cleaving one half of the arena. The party will shift over into the safespot and take the Dark Water.
+After the towers and AOEs resolve, Gaia will cast **Sprit Taker**, targeting a random player again. All players will roughly spread to resolve this. Immediately after Ryne will cast **Hallowed Wings**, cleaving one half of the arena. The party will shift over into the safespot and take the Dark Water stacks. 
+
+::: info
+The North stack here should be careful not to clip the crystal. Shifting slightly south or further into the safe side can make it more comfortable.
+:::
 
 A tank will **immediately** run to **true East** or **true West** (whichever is furthest) to bait out a **Somber Dance** tankbuster, followed by another **Somber Dance** baited on the closest person.
 
@@ -811,8 +819,11 @@ To break up this mechanic, I'll first write through the resolution for all **Blu
 
 The assigned **Red Dark Aero** player, and all the **non-Dark Eruption Blue** debuff players will go to the South **Purple Tether**. The **Dark Eruption Blue** debuff player will go to the North **Purple Tether**
 
-The **Red Dark Aero** and **Dark Eruption** player will stand 2 pips down from the star on the arena's edge so that they are leaning South/North respectively
-After the **Yellow Tether** traffic lights go off, the south **Blue** players will immediately move just in front of the **Red Dark Aero** player. Immediately, the **Dark Water, Dark Blizzard, and Dark Aero** will all go off at once, launching the **Blue** players to the opposite side of the arena, and they will immediately stack with the **Dark Eruption** & **Red Dark Blizzard** player of that side to resolve **Unholy Darkness**.
+The **Red Dark Aero** and **Dark Eruption** player will stand 2 pips down from the star on the arena's edge so that they are leaning South/North respectively.
+
+(image)
+
+After the **Yellow Tether** traffic lights go off the south **Blue** players will immediately move just in front of the **Red Dark Aero** player. The **Dark Water, Dark Blizzard, and Dark Aero** will then all go off at once, launching the **Blue** players to the opposite side of the arena, and they will stack with the **Dark Eruption** & **Red Dark Blizzard** player of that side to resolve **Unholy Darkness**.
 
 ![fru-ct-dragonpops.png](/images/fru-ct-dragonpops.png)
 
@@ -822,9 +833,9 @@ Line Exas will then begin to propogate from either East or West, as well as the 
 
 As safely and quickly as possible, each **Blue** player will begin to make their way to their corresponding waymark to cleanse their debuff. As they move across the arena, a second Exa starting from North or South will begin to move across the arena.
 
-The starting position of both of these Exas must be remembered, as they are the starting position for a upcoming wild-charge knockback.
+The starting position of both of these Exas must be remembered, as they are the starting position for two upcoming **wild-charge knockbacks**.
 
-For example if the Exas started West and North, the North West intercardinal will be "safe"
+For example if the Exas started West and North, the North West intercardinal will be "safe".
 
 After cleansing their debuff, everyone should run to the safe intercardinal and stack on the waymark as seen below:
 
@@ -834,6 +845,10 @@ After cleansing their debuff, everyone should run to the safe intercardinal and 
 If a blue player is unable to cleanse their buff in time, they can run to the safe spot, drop their rewind and then run to go cleanse immediately after as there is a short window before the puddle despawns.
 (image)
 :::
+
+At the same time, the spell in waiting: "**Quietus**" will go off, dealing raid wide damage.
+
+After placing rewinds, players will immediately spread **away** from the crystal at north to take another **Spirit Taker** AOE.
 
 ---
 
