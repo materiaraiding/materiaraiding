@@ -866,7 +866,7 @@ This is followed by another **Morn Afah hand of pain check**
 
 Ryne and Gaia will then cast their respective enrages:
 
-
+#### Absolute Zero & Memory's End
 ---
 
 ### Phase 5: Pandora
