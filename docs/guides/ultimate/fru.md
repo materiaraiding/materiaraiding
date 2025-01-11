@@ -787,9 +787,9 @@ Shortly after the Crystallize Time cast the crystal will pulse for additional da
 This mechanic is extremely dense and has many minute details that must be taken into consideration. I **highly** recommend watching as many POVs as possible, as well as studying the toolbox in addition to this guide.
 
 As Crystallize Time is cast, 4 players will be assigned a **Wyrmclaw (Red)** debuff, and 4 players with a **Wyrmfang (Blue)** debuff. 
-Within the **Red** debuffs, there will be 2 Dark Aero players and 2 ice players. Using a lineup/prio system below, these players will sort themselves so that one Dark Aero and one ice are on East and West of the arena.
+Within the **Red** debuffs, there will be 2 Dark Aero players and 2 Ice players. Using a lineup/prio system below, these players will sort themselves so that one Dark Aero and one ice are on East and West of the arena.
 
-3 Players will also be assigned a **Spell-in-Waiting: Quietus** debuff.
+A **Spell-in-Waiting: Quietus** debuff will also be applied to 3 random players.
 
 From left to right:
 `West - H1 D3 D1 MT ST D2 D4 H2 - East`
