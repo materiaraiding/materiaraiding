@@ -737,8 +737,8 @@ Both bosses will then cast:
 
 <Action title='Darklit Dragonsong' color='green' href='https://raidplan.io/plan/pcrbL0iqrAYMKFV3' />
 
-::: warnign
-due to the raidwide doing heavy damage on a 2 minute window along with outgoing debuffs from the light teathers you may reach buffcap in whichcase your oldest buffs will disappear this can cause mit shields and buffs to disappear
+::: warning
+Due to the raidwide doing heavy damage on a 2 minute window, along with outgoing debuffs from the light tethers you may reach buffcap. In this circumstance, the oldest buffs will disappear. This can cause mit, shields, and buffs (such as dance partner) to disappear.
 :::
 
 All players will be assigned 3 stacks of **Lightsteeped**
@@ -842,7 +842,7 @@ After cleansing their debuff, everyone should run to the safe intercardinal and 
 ![fru-ct-rewinds.png](/images/fru-ct-rewinds.png)
 
 ::: info
-If a blue player is unable to cleanse their buff in time, they can run to the safe spot, drop their rewind and then run to go cleanse immediately after as there is a short window before the puddle despawns.
+If a blue player is unable to cleanse their buff in time, they can run to the safe spot to drop their rewind, and then run to go cleanse immediately after as there is a short window before the puddle despawns.
 (image)
 :::
 
