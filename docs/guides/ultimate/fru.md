@@ -867,7 +867,7 @@ After placing rewinds, players will immediately spread **away** from the crystal
 
 The Rewinds will then go off, pulling the party back to the "safe" waymark for the two wild-charges.
 
-After this resolves, **Ryne** and **Gaia** will appear and become targetable, immediately starting another dual stack **Akh Morn** will be resolved the same as the Dark Lit variant. 
+After this resolves, **Ryne** and **Gaia** will appear and become targetable, immediately starting another dual stack **Akh Morn** which will be resolved the same as the Dark Lit variant. 
 This is followed by another **Morn Afah hand of pain check**
 
 Ryne and Gaia will then cast their respective enrages:
