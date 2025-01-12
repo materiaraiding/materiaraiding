@@ -3,3 +3,4 @@ export * from "./image";
 export * from "./video";
 export * from "./timingWindow";
 export * from "./glossary";
+export * from "./statusIcon";
