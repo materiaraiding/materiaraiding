@@ -57,7 +57,7 @@ export function glossaryPlugin(md: MarkdownIt): void {
 
 		if (wordList.length > 0 && !isHeading) {
 			const wordMap: Record<string, string> = {};
-			wordList.forEach(({ word, definition }) => {
+			wordList.forEach(({word, definition}) => {
 				const base = word.toLowerCase();
 				const plural = pluralize.plural(base);
 
