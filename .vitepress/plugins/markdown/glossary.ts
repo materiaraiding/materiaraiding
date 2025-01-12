@@ -59,9 +59,10 @@ export function glossaryPlugin(md: MarkdownIt): void {
 			const wordMap: Record<string, string> = {};
 			wordList.forEach(({word, definition}) => {
 				const base = word.toLowerCase();
+				const singular = pluralize.singular(base);
 				const plural = pluralize.plural(base);
 
-				wordMap[base] = definition;
+				wordMap[singular] = definition;
 				wordMap[plural] = definition;
 			});
 
