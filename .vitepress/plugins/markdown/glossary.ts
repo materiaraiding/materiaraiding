@@ -8,7 +8,7 @@ type WordDefinition = {
 	definition: string;
 };
 
-export function glossary(md: MarkdownIt): void {
+export function glossaryPlugin(md: MarkdownIt): void {
 	const defaultTextRender =
 		md.renderer.rules.text || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options));
 	const defaultHeadingOpenRender =
