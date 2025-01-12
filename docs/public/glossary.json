@@ -2,7 +2,6 @@
 	"global": {
 		"words": [
 			{ "word": "AOE", "definition": "Area-of-Effect, typically used to describe any mechanic or ability which affects multiple enemies/players in an area" },
-			{ "word": "AOEs", "definition": "Area-of-Effect, typically used to describe any mechanic or ability which affects multiple enemies/players in an area" },
 			{ "word": "Telegraph", "definition": "The indicators you see before a mechanic goes off, usually orange circles or lines on the ground, but can also be things that appear above players/enemies heads or any other indicator that shows you what is about to happen" },
 			{ "word": "Enumerations", "definition": "A mechanic which requires a specific number of players to soak a mechanic, similar to STACK/SOAK but with a specific number of players" },
 			{ "word": "MT", "definition": "Main Tank, typically the Tank holding the boss aggro the most" },
