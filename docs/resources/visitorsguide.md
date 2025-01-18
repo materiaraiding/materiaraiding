@@ -1,6 +1,7 @@
 ---
 order: 1
 description: visitors guide
+outline: 2
 ---
 
 # Visitor's Guide to Oceanic Raiding
@@ -119,22 +120,22 @@ Esuna Prio is default assumed to be H1 self + top -> bottom, and H2 self + botto
 
 OT sometimes referenced as ST
 
-<h4>Temporal Stasis</h4>
+#### Temporal Stasis
 
 During Temporal Stasis mech after Phase 2, instead of FFA, supports prio left, and DPS right for long tethers, rest is the same (short tether is on the add to the right and no tether is to the add on the left).
 
 ![](/images/tea-stasis.webp)
 
-<h4>Inception Formation</h4>
+#### Inception Formation
 
 Everything is mostly the same: Tanks and Stack go LEFT relative to the heart, and everyone else goes RIGHT.
 The MT will usually bait the Super Jump (communicate if you prefer OT to take).
 
-<h4>Wormhole</h4>
+#### Wormhole
 
 No differences, we follow the KR sim strat on the most part. [KR Simulator](https://materiaraiding.com/tea.html#simulator)
 
-<h4>Final Word</h4>
+#### Final Word
 
 Standard positions are rotated about 90 degrees and start from east side of the room, Dark Beacon plants in the middle of the 2 Marker (EAST) and light beacon middle placed in D Marker west.
 
@@ -155,23 +156,23 @@ Esuna Prio is default assumed to be H1 self + top -> bottom, and H2 self + botto
 
 OT sometimes referenced as ST
 
-<h4>Temporal Stasis</h4>
+#### Temporal Stasis
 
 During Temporal Stasis mech after Phase 2, blue tether prio is flipped, supports prio left, and DPS right, rest is the same (short tether is on the add to the right and no tether is to the add on the left).
 
 ![](/images/tea-stasis.webp)
 
-<h4>Inception Formation</h4>
+#### Inception Formation
 
 Everything after flarethrowers is flipped left to right, up until the blue tether finishes resolving.
 This means Tanks and Stack go LEFT relative to the heart, and everyone else goes RIGHT.
 The MT will usually bait the Super Jump (communicate if you prefer OT to take).
 
-<h4>Wormhole</h4>
+#### Wormhole
 
 No differences, we follow the KR sim strat. [KR Simulator](https://materiaraiding.com/tea.html#simulator)
 
-<h4>Final Word</h4>
+#### Final Word
 
 Standard positions are rotated about 90 degrees and start from east side of the room, Dark Beacon plants in the middle of the 2 Marker (EAST) and light beacon middle placed in D Marker west.
 
