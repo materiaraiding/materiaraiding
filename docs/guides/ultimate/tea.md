@@ -460,12 +460,12 @@ The debuffs are as below. They are **role-based**, one DPS and one support will 
 This is where everyone will stand to make this work:
 - Both **Aggravated Assault** players run hard east or west to the wall - whichever one BJ is closest to. This ensures they are far enough to not be hit by anything and do not bait any cleaves.
 - **No debuff** players go towards the left boss. The support will go north of the boss and the DPS will go south of the boss to bait their cleaves.
-- **Christmas tether** players go towards the right boss. The support will go north of the boss and the DPS will go south of the boss to bait their cleaves. You will notice the (1) waymark will be under this boss - the width of the waymark is approximately how far the 2 players should be for the Christmas tether to resolve safely. Here's a screenshot that demonstrates that: ![](/images/tea-statisexmaple.webp)
+- **Christmas tether** players go towards the right boss. The support will go north of the boss and the DPS will go south of the boss to bait their cleaves. You will notice the (1) waymark will be under this boss - the width of the waymark is approximately how far the 2 players should be for the Christmas tether to resolve safely. Here's a screenshot that demonstrates that: ![](/images/tea-stasisexample.webp)
 - Players with the **blue tether** will be across the room from each other - support to the west, DPS to the east. The player on the side nearest BJ should stand on the wall, with the Aggravated Assault players as they will not be baiting his flarethrower. **However**, the player on the side nearest CC should stand more inwards to ensure they bait his 3rd cleave (the D and 2 waymarks are good indicators on where to stand).
 
 Here is a diagram demonstrating the above information. Credits to Juno Dax for making this image.
 
-![](/images/tea-statis.webp)
+![](/images/tea-stasis.webp)
 
 Take note that in this scenario, as CC is on the right, D2 with the blue tether is a little more inwards and not on the wall to ensure they bait that 3rd CC cleave. If CC was on the left instead, D2 would be on the wall, the Aggravated Assault players on the right with D2 (as BJ would be there) and the H1 with blue tether would be a little more inwards to bait the CC cleave.
 
