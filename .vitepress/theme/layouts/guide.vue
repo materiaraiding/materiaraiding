@@ -40,7 +40,7 @@ const dutyType = computed(() => {
 			<div v-if="frontmatter.difficulty" class="guide_label_box">
 				<a
 					v-if="frontmatter.difficulty?.toLowerCase() === 'ultimate'"
-					href="https://discord.gg/mur"
+					href="https://discord.gg/ArZz3b8PZV"
 					class="guide_label label_mur">
 					MUR Strat
 				</a>

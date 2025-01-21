@@ -36,7 +36,7 @@ const members = [
     name: 'Materia Ultimate Raiding',
     title: 'Community Server',
     links: [
-      { icon: 'discord', link: 'https://discord.gg/mur' },
+      { icon: 'discord', link: 'https://discord.gg/ArZz3b8PZV' },
     ]
   },
   {
