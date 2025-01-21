@@ -11,7 +11,7 @@ hero:
       link: "https://discord.gg/EySn5dRj65"
     - theme: brand
       text: Materia Ultimate Raiding Discord
-      link: "https://discord.com/invite/mur"
+      link: "https://discord.gg/ArZz3b8PZV"
   image:
     src: /images/materia-logo-large.webp
     alt: VitePress
