@@ -142,7 +142,7 @@ Golden Bahamut Mits
 ## Buff Timings
 :::: timing-window
 ::: burst
-- Twin opener
+- Twintania opener
 - Nael opener
 - Bahamut opener
 - Post Felruin Trio
@@ -152,10 +152,12 @@ Golden Bahamut Mits
 :::
 
 ::: pot
-- Twin opener
-- Bahamut reopener
+- Twintania opener (for extra pot usage) **OR** Nael reopener (to try and skip Divebombs) 
+- Bahamut reopener (if used pot in Twintania)
 - Adds opener
-- 2nd 2-minute buffs during golden
+- 2nd 2-minute buffs during Golden Bahamut
+
+**Given that the DPS check in Twintania and Bahamut are not tight, it is recommended to pot Nael and endeavour to avoid Divebombs. However, pick the option that suits you and your party's needs.**
 :::
 ::::
 
