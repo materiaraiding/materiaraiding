@@ -7,7 +7,7 @@ defineProps(['limitedList']);
 /**
  * @notes - Archived extremes' frontmatter titles and banner image names
  *          should be suffixed with their abbreviated expansion,
- *          e.g. EX4_DT, in order to avoid conflict with current/other archived extremes.
+ *          e.g. EX4_DT, in order to avoid conflict with current/other archived extremes' banner images.
  */
 
 const selectedDifficulties = difficultyTypes.filter(difficulty =>
