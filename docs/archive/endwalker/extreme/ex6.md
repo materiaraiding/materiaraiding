@@ -1,6 +1,6 @@
 ---
 order: 6
-title: EX6_EW
+title: EX6
 longTitle: The Voidcast Dias
 expansion: Endwalker
 difficulty: Extreme

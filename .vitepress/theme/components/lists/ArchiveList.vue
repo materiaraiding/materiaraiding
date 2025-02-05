@@ -5,9 +5,8 @@ import { difficultyTypes } from './difficultyTypes.js';
 defineProps(['limitedList']);
 
 /**
- * @notes - Archived extremes' frontmatter titles and banner image names
- *          should be suffixed with their abbreviated expansion,
- *          e.g. EX4_DT, in order to avoid conflict with current/other archived extremes' banner images.
+ * @notes - Archived extremes' frontmatter banner images should be
+ *          moved to '/images/banners/archived-extremes/<expansion>' to avoid conflicts.
  */
 
 const selectedDifficulties = difficultyTypes.filter(difficulty =>
@@ -37,9 +36,9 @@ function openPage(url) {
 				<!-- Page Links -->
 				<div v-for="page in filterPagesBy(difficulty.type, $frontmatter.expansion)" :key="page.url">
 					<div :class="`navlink ${difficulty.colorClass}`" @click="openPage(page.url)" :style="{
-						'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('/images/banners/${page.frontmatter.title}.webp')`
+						'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('/images/banners/${difficulty.type === 'Extreme' ? `archived-extremes/${$frontmatter.expansion.toLowerCase()}/` : ''}${page.frontmatter.title}.webp')`
 					}">
-						{{ difficulty.type === 'Extreme' ? page.frontmatter.longTitle : page.frontmatter.title }}
+						{{ page.frontmatter.title }}
 					</div>
 				</div>
 			</div>

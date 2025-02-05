@@ -1,6 +1,6 @@
 ---
 order: 5
-title: EX5_EW
+title: EX5
 longTitle: Mount Ordeals
 expansion: Endwalker
 difficulty: Extreme
