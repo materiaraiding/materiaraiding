@@ -1,6 +1,6 @@
 ---
 order: 7
-title: The Abyssal Fracture
+title: EX7_EW
 longTitle: The Abyssal Fracture
 expansion: Endwalker
 difficulty: Extreme

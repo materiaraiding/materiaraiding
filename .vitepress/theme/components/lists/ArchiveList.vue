@@ -4,6 +4,12 @@ import { data as pages } from '../loaders/archives.data.js';
 import { difficultyTypes } from './difficultyTypes.js';
 defineProps(['limitedList']);
 
+/**
+ * @notes - Archived extremes' frontmatter titles and banner image names
+ * 					should be suffixed with their abbreviated expansion,
+ * 					e.g. EX4_DT, in order to avoid conflict with current/other archived extremes.
+ */
+
 const selectedDifficulties = difficultyTypes.filter(difficulty =>
 	['Extreme', 'Savage'].includes(difficulty.type)
 );
@@ -33,7 +39,7 @@ function openPage(url) {
 					<div :class="`navlink ${difficulty.colorClass}`" @click="openPage(page.url)" :style="{
 						'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('/images/banners/${page.frontmatter.title}.webp')`
 					}">
-						{{ page.frontmatter.title }}
+						{{ difficulty.type === 'Extreme' ? page.frontmatter.longTitle : page.frontmatter.title }}
 					</div>
 				</div>
 			</div>
