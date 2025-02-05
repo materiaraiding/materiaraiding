@@ -2,6 +2,7 @@
 import './lists.css';
 import { data as pages } from '../loaders/archives.data.js';
 import { difficultyTypes } from './difficultyTypes.js';
+import { useData } from 'vitepress';
 defineProps(['limitedList']);
 
 /**
@@ -9,13 +10,15 @@ defineProps(['limitedList']);
  *          moved to '/images/banners/archived/<expansion>' to avoid conflicts with Extremes.
  */
 
+const { frontmatter } = useData();
+
 const selectedDifficulties = difficultyTypes.filter(difficulty =>
-	['Extreme', 'Savage'].includes(difficulty.type)
+	frontmatter.value.difficulties.includes(difficulty.type)
 );
 
-const filterPagesBy = (difficulty, expansion) => {
+const filterPagesBy = (difficulty) => {
 	return pages
-		.filter(p => p.frontmatter.difficulty === difficulty && p.frontmatter.expansion === expansion)
+		.filter(p => p.frontmatter.difficulty === difficulty && p.frontmatter.expansion === frontmatter.value.expansion)
 		.sort((a, b) => a.frontmatter.order - b.frontmatter.order);
 };
 
@@ -34,7 +37,7 @@ function openPage(url) {
 					{{ difficulty.type }}
 				</div>
 				<!-- Page Links -->
-				<div v-for="page in filterPagesBy(difficulty.type, $frontmatter.expansion)" :key="page.url">
+				<div v-for="page in filterPagesBy(difficulty.type)" :key="page.url">
 					<div :class="`navlink ${difficulty.colorClass}`" @click="openPage(page.url)" :style="{
 						'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('/images/banners/archived/${$frontmatter.expansion.toLowerCase()}/${page.frontmatter.title}.webp')`
 					}">
