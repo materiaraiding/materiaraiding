@@ -1,6 +1,6 @@
 ---
 order: 4
-title: Storms Crown
+title: EX4
 longTitle: Storms Crown
 expansion: Endwalker
 difficulty: Extreme
