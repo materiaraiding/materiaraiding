@@ -96,6 +96,7 @@ export default defineConfig({
 			"/archive/endwalker": [
 				{
 					text: "Endwalker",
+					collapsed: false,
 					items: [
 						{
 							text: "Extreme",

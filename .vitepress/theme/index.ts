@@ -21,7 +21,9 @@ import ActionGroup from "./components/ActionGroup.vue";
 // @ts-ignore
 import CustomBlock from "./components/CustomBlock.vue";
 // @ts-ignore
-import PageList from "./components/PageList.vue";
+import PageList from "./components/lists/PageList.vue";
+// @ts-ignore
+import ArchiveList from "./components/lists/ArchiveList.vue";
 
 // @ts-ignore
 import guide from "./layouts/guide.vue";
@@ -45,6 +47,7 @@ export default {
 		ctx.app.component("ActionGroup", ActionGroup);
 		ctx.app.component("CustomBlock", CustomBlock);
 		ctx.app.component("PageList", PageList);
+		ctx.app.component("ArchiveList", ArchiveList);
 		ctx.app.use(FloatingVue, {
 			boundary: 'body',
 			themes: {

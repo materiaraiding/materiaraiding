@@ -2,4 +2,4 @@
 
 Materia Guides and Resources for Other Content based on MR strats.
 
-<PageList limitedList="other"/>
+<PageList limitedList="other content"/>
