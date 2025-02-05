@@ -93,10 +93,9 @@ export default defineConfig({
 					],
 				},
 			],
-			"/archive/": [
+			"/archive/endwalker": [
 				{
 					text: "Endwalker",
-					collapsed: false,
 					items: [
 						{
 							text: "Extreme",
