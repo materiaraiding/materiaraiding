@@ -93,7 +93,7 @@ export default defineConfig({
 					],
 				},
 			],
-			"/archive/endwalker": [
+			"/archive/": [
 				{
 					text: "Endwalker",
 					collapsed: false,
