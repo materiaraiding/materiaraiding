@@ -28,7 +28,6 @@ function openPage (url) {
 					<img class="guide_titleimg" :alt="`${difficulty.type} Icon`" :src="difficulty.icon" />
 					{{ difficulty.type }}
 				</div>
-
 				<!-- Page Links -->
 				<div v-for="page in filterPagesBy(difficulty.type)" :key="page.url">
 					<div

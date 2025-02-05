@@ -22,16 +22,12 @@ function openPage (url) {
 <template>
   <div class="navblock">
 		<template v-for="difficulty in selectedDifficulties" :key="difficulty.type">
-			<div
-				class="navcolumn"
-				
-			>
+			<div class="navcolumn">
 				<!-- Icon + Difficulty Type -->
 				<div class="navtitle">
 					<img class="guide_titleimg" :alt="`${difficulty.type} Icon`" :src="difficulty.icon" />
 					{{ difficulty.type }}
 				</div>
-
 				<!-- Page Links -->
 				<div v-for="page in filterPagesBy(difficulty.type, $frontmatter.expansion)" :key="page.url">
 					<div
