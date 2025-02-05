@@ -6,7 +6,7 @@ defineProps(['limitedList']);
 
 /**
  * @notes - Ensure frontmatter titles match image banner names, 
- * 					e.g. title: M4S === M4S.webp, since the banner image is soft-coded in.
+ *          e.g. title: M4S === M4S.webp, since the banner image is soft-coded in.
  */
 
 const filterPagesBy = (difficulty) => {
