@@ -335,3 +335,59 @@ For JP players, please review this list of differences, using the language in [T
       :::
 
 ![](/images/top-cheatsheet.webp)
+
+## FRU
+
+::: warning
+This content was written on the same patch this fight was released. OCE strats are pretty much set in stone, but please be advised this section may see small updates in the future as we observe the FRU OCE PF scene in the long term (i.e. removing mention of lingering early strats - while these are archived in the written guide, they are mentioned here for now for the sake of Voyagers looking to PF). We will also complete DC-specific differences when we can.
+:::
+
+For an extended explanation, all toolboxes and the cheatsheet, please see below guide - credits to Juno Dax for the written guide, and Tomosys Vexuna for the cheatsheet.
+
+[FRU OCE Guide](/fru)
+
+Majority of mechanics use the "Pantokrator" lineup from TOP as the priority system, that is - <br> H1 - D3 - D1 - MT - OT - D2 - D4 - H2
+
+- **1. Fatebreaker**
+    - **Utopian Sky**
+        - For fire tether stacks, LP1 goes north and LP2 goes south. If both tethers are on the same side, the swap priority is <br> Tank -> Melee -> Ranged -> Healer (healer never adjusts).
+        - If a swap has occurred, the tank from the no-tether side adjusts over to even out the light parties.
+    - **Fall of Faith**
+        - Line up E/W using the Pantokrator lineup. Odd tethers west, even tethers east.
+    - **Towers**
+        - Fixed towers for H1 (north), D4 (middle) and H2 (south).
+        - D1 defaults north, D2 defaults middle and D3 defaults south. However, if the tower only needs 1, the non-fixed DPS in that tower is to find another tower that needs 3+. For example, if north tower is 1 but south tower is 3, D1 will adjust to the south tower (**NOT** filling top-down).
+     
+- **2. Usurper of Frost**
+    - **Diamond Dust**
+        - The official strat is Colour Pairs but many parties also do Relative North. **PLEASE CHECK PF DESCRIPTIONS** and if putting your own party up, SPECIFY the strat.
+        - Regardless of strat, Sinbound Holy is resolved by moving CW, UNLESS Shiva is 45 degrees from that direction - in that case, move CCW.
+    - **Light Rampant**
+        - 4/4 strat with puddles starting N/S and moving CW.
+        - Supports line up north (H1 -> H2 -> MT -> OT) and DPS line up south (D3 -> D4 -> D1 -> D2)
+        - D3 or OT to 'adjust' to the other side if both puddles are on their opposite side.
+        - Some parties may still be doing 'ab1234,' an early strat - once again, CHECK PF DESCRIPTIONS and it never hurts to specify your desired strat if putting up your own party.
+
+- **3. Oracle of Darkness**
+    - **Ultimate Relativity**
+        - Using Y as relative north: supports take W -> NE traffic lights, DPS take SW -> E traffic lights.
+        - For support 30 second fire, prio from W -> E is H1 -> MT -> OT -> H2.
+        - For DPS 10 second fire, prio from W -> E is D3 -> D1 -> D2 -> D4.
+        - If you prefer seeing upside-down Y as relative north, reverse the above directions and prio.
+    - **Apocalypse**
+        - If there are any same water timers (or no debuff) in a LP, **permanently swap over players** for the rest of the mech using Pantokrator priority.
+     
+- **4. Ryne and Gaia**
+    - Stack at 1 or 3 Waymark (depending on which side Shiva spawns) for Akh Rhai baits.
+    - **Darklit Dragonsong**
+        - Same starting lineup as 4/4 Light Rampant as described above.
+        - Tanks / DPS adjust to create bowtie if needed. If there are 2 water stacks on the same side, non-tethered players to adjust.
+    - **Akh Morns**: LP1 north, LP2 south.
+    - **Crystallise Time**: early pop
+        - Use Pantokrator prio to determine red debuff positions.
+        - Aeros are to **PLANT**. Tuck in the corner and DO NOT DO ANY MOVEMENT OR WIGGLES until knockback occurs.
+
+- **5. Pandora**
+    - Haven't identified any differences in strats but just in case:
+    - **Paradise Regained**: healers first tower, D1 D3 left tower, D2 D4 right tower. MT first cleave and OT first tether, OT second cleave and MT second tether.
+    - **Polarising Strikes**: front order is Tanks -> Melees -> Ranged -> Healers.
