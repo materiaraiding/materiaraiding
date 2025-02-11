@@ -339,7 +339,7 @@ For JP players, please review this list of differences, using the language in [T
 ## FRU
 
 ::: warning
-This content was written on the same patch this fight was released. OCE strats are pretty much set in stone and decided, but please be advised this section may see small updates in the future as we observe the FRU OCE PF scene in the long term (i.e. removing mention of lingering early strats - while these aren't in the written guide, they are mentioned here for now for the Voyagers' Guide). We will also complete DC-specific differences when we can (and if necessary).
+This content was written on the same patch this fight was released. OCE strats are pretty much set in stone, but please be advised this section may see small updates in the future as we observe the FRU OCE PF scene in the long term (i.e. removing mention of lingering early strats - while these are archived in the written guide, they are mentioned here for now for the sake of Voyagers looking to PF). We will also complete DC-specific differences when we can.
 :::
 
 For an extended explanation, all toolboxes and the cheatsheet, please see below guide - credits to Juno Dax for the written guide, and Tomosys Vexuna for the cheatsheet.
@@ -360,7 +360,7 @@ Majority of mechanics use the "Pantokrator" lineup from TOP as the priority syst
      
 - **2. Usurper of Frost**
     - **Diamond Dust**
-        - CHECK AND READ PF DESCRIPTION. The official strat is Colour Pairs but many parties also do Relative North. PLEASE CHECK PF DESCRIPTIONS and if putting your own party up, SPECIFY the strat.
+        - The official strat is Colour Pairs but many parties also do Relative North. **PLEASE CHECK PF DESCRIPTIONS** and if putting your own party up, SPECIFY the strat.
         - Regardless of strat, Sinbound Holy is resolved by moving CW, UNLESS Shiva is 45 degrees from that direction - in that case, move CCW.
     - **Light Rampant**
         - 4/4 strat with puddles starting N/S and moving CW.
