@@ -332,7 +332,7 @@ For JP players, please review this list of differences, using the language in [T
     - **Wave Cannon** is resolved south.
     - **Cosmo Arrow 2**: initial spread positions are different; consult the cheat sheet below. **Both DPS and supports move for exasquares**: DPS CW, supports CCW. Do not move all the way to the cardinal waymark.
     - **Cosmo Meteor**: H1 will move to the centre by default.
-      :::
+:::
 
 ![](/images/top-cheatsheet.webp)
 
