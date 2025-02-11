@@ -335,3 +335,39 @@ For JP players, please review this list of differences, using the language in [T
       :::
 
 ![](/images/top-cheatsheet.webp)
+
+## FRU
+
+::: warning
+This content was written on the same patch this fight was released. OCE strats are pretty much set in stone and decided, but please be advised this section may see small updates in the future as we observe the FRU OCE PF scene in the long term. We will also complete DC-specific differences when we can (and if necessary).
+:::
+
+For an extended explanation, all toolboxes and the cheatsheet, please see below guide - credits to Juno Dax for the written guide, and Tomosys Vexuna for the cheatsheet.
+
+[FRU OCE Guide](/fru)
+
+Majority of mechanics use the "pantokrator" lineup from TOP as the priority system, that is - <br> H1 - D3 - D1 - MT - OT - D2 - D4 - H2
+
+- **1. Fatebreaker**
+    - **Utopian Sky**
+        - For fire tether stacks, LP1 goes north and LP2 goes south. If both tethers are on the same side, the swap priority is <br> Tank -> Melee -> Ranged -> Healer (healer never adjusts).
+        - If a swap has occurred, the tank from the no-tether side also adjusts over to even out the light parties.
+    - **Fall of Faith**
+        - Line up E/W using the pantokrator lineup. Odd tethers west, even tethers east.
+    - **Towers**
+        - Fixed towers for H1 (north), D4 (middle) and H2 (south).
+        - D1 defaults north, D2 defaults middle and D3 defaults south. However, if the tower only needs 1, the DPS in that tower is to find another tower that needs 3+. For example, if north tower is 1 but south tower is 3, D1 will adjust to the south tower (**NOT** filling top-down).
+     
+- **2. Usurper of Frost**
+    - **Diamond Dust**
+        - CHECK AND READ PF DESCRIPTION. The official MUR strat is Colour Pairs but many parties also do Relative North. PLEASE CHECK PF DESCRIPTIONS and if putting your own party up, SPECIFY the strat.
+        - Regardless of strat, Sinbound Holy is resolved by moving CW, UNLESS Shiva is 45 degrees from that direction - in that case, move CCW.
+    - **Light Rampant**
+        - 4/4 strat with puddles starting N/S and moving CW.
+        - Supports line up north (H1 -> H2 -> MT -> OT) and DPS line up south (D3 -> D4 -> D1 -> D2)
+        - D3 or OT to 'adjust' CW if both puddles on their opposite side.
+        - Some parties may still be doing 'ab1234,' an early strat - once again, CHECK PF DESCRIPTIONS and never hurts to specify desired strat if putting up your own party.
+
+- **3. Oracle of Darkness**
+    - **Ultimate Relativity**
+        - Using Y as relative north: 
