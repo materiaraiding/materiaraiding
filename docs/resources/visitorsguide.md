@@ -339,7 +339,7 @@ For JP players, please review this list of differences, using the language in [T
 ## FRU
 
 ::: warning
-This content was written on the same patch this fight was released. OCE strats are pretty much set in stone and decided, but please be advised this section may see small updates in the future as we observe the FRU OCE PF scene in the long term (i.e. removing mention of lingering early strats). We will also complete DC-specific differences when we can (and if necessary).
+This content was written on the same patch this fight was released. OCE strats are pretty much set in stone and decided, but please be advised this section may see small updates in the future as we observe the FRU OCE PF scene in the long term (i.e. removing mention of lingering early strats - while these aren't in the written guide, they are mentioned here for now for the Voyagers' Guide). We will also complete DC-specific differences when we can (and if necessary).
 :::
 
 For an extended explanation, all toolboxes and the cheatsheet, please see below guide - credits to Juno Dax for the written guide, and Tomosys Vexuna for the cheatsheet.
@@ -385,7 +385,7 @@ Majority of mechanics use the "Pantokrator" lineup from TOP as the priority syst
     - **Akh Morns**: LP1 north, LP2 south.
     - **Crystallise Time**: early pop
         - Use Pantokrator prio to determine red debuff positions.
-        - Aeros are to **PLANT**. I.E. AEROS DO NOT ANY WIGGLES/ADJUSTMENTS AFTER FIRST TRAFFIC AOE. Tuck in the corner and stay until knockback occurs.
+        - Aeros are to **PLANT**. Tuck in the corner and DO NOT DO ANY MOVEMENT OR WIGGLES until knockback occurs.
 
 - **5. Pandora**
     - Haven't identified any differences in strats but just in case:
