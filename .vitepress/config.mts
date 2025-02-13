@@ -42,6 +42,7 @@ export default defineConfig({
 					{text: "Contributors", link: "/resources/contributors"},
 				],
 			},
+			{text: "Directory", link: "https://materia.directory/"},
 		],
 		sidebar: {
 			"/": [
