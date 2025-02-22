@@ -177,7 +177,9 @@ No differences, we follow the KR sim strat. [KR Simulator](https://materiaraidin
 Standard positions are rotated about 90 degrees and start from east side of the room, Dark Beacon plants in the middle of the 2 Marker (EAST) and light beacon middle placed in D Marker west.
 
 For an extended explanation you can see the complete TEA OCE Guide below by Noz Leafhill,
+:::
 
+::: details JP Differences
 OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chaser. The latter half largely follows the same strats with minor positional differences. Please review this list for specific mechanics, using the language in [Tuufless' guide](https://tuufless.github.io/FFXIV-Elemental-Raid-Macros/ultimates/tea/). It is recommended that you know how to do the first half of the fight using OCE strats before you join clear/reclear parties.
 
 - **1. Living Liquid**
@@ -204,9 +206,10 @@ OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chas
     - **J Waves**: Double check with the group how outgoing damage will be handled. Tanks may wish to consult the [mit sheet](https://docs.google.com/spreadsheets/d/11g88rCThCPuXadxc1S4pwXSxwVoX04nR77Z0lvbpd30/edit?gid=0#gid=0).
 - **4. Perfect Alexander**
     - **Exatrines**: Dodge positions are considered to be the **centre** of the arena as well as the **1, 3 and 4 waymarks** (which are positioned differently compared to JP).
+:::
 
 ![](/images/tea-cheatsheet.webp)
-:::
+
 
 ## DSR
 OCE DSR Strats are a variation on NA PF strats.
