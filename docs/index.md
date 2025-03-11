@@ -58,19 +58,19 @@ const members = [
     desc: "@junocatto"
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/168710722346418177/e5baaf6a7f7b40824076c1409da1f1c8.png?size=256',
+    avatar: 'https://github.com/user-attachments/assets/55456308-eadc-4a47-adea-6d7e8fd17739',
     name: 'Noz Leafhill',
     title: 'Writer',
     desc: "@happy.gorl.lucky"
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/715021806033174590/3ef2d147d8af04f93a03966e53ca46f4.png?size=256',
+    avatar: 'https://github.com/user-attachments/assets/13ffa631-d633-4bbb-81e9-014a3bd9ab3a',
     name: 'Lynx Starflare',
     title: 'Editor',
     desc: "@lynx.starflare"
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/120703775139823618/374c90a3f6050676e6f75a3825717e7e.png?size=256',
+    avatar: 'https://github.com/user-attachments/assets/4737fdf9-8f36-4962-a988-90c8cd50c5ff',
     name: 'Kobe',
     title: 'Content Creator',
     desc: "@kobe_."
