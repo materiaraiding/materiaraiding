@@ -60,10 +60,10 @@ You will often see macros shared in party chat when you get into your Party Find
 ## Savage
 Current Savage Tier raid resources are compiled on our Savage page, which you can find at the button below. This includes our Macros, Images and Toolboxes made for OCE specific strategies.
 
-- [M1S](/m1s)
-- [M2S](/m2s)
-- [M3S](/m3s)
-- [M4S](/m4s)
+- [M1S](/savage/m1s)
+- [M2S](/savage/m2s)
+- [M3S](/savage/m3s)
+- [M4S](/savage/m4s)
 
 ## UCOB
 
@@ -82,7 +82,7 @@ For all of Bahamut, we use the following toolboxes:
 - [TST](https://ff14.toolboxgaming.space/?id=141245760517361&preview=1)
 - [GO](https://ff14.toolboxgaming.space/?id=803246524767361&preview=1)
 
-[Full UCOB OCE Guide](/ucob)
+[Full UCOB OCE Guide](/ultimate/ucob)
 
 Potential differences to double check may include:
 
@@ -97,12 +97,12 @@ Materia also follows [Clees' Guide](https://ultimates.guide/uwu/) for UWU. Poten
 - **Titan Jails**: These are resolved using AMs.
 - **Ultimate Suppression**: Most PFs will use Clees' method for this.
 
-[Full UWU OCE Guide](/uwu)
+[Full UWU OCE Guide](/ultimate/uwu)
 
 ## TEA
 Materia DC follows the oldbin TEA strats that are present on the NA DCs, such as the split BJ/CC strat and 1256 method for Limit Cut. It is best to review the toolboxes for the initial phases ([Living Liquid](https://ff14.toolboxgaming.space/?id=830419115443951&preview=1), [Limit Cut](https://ff14.toolboxgaming.space/?id=240411819443951&preview=1), [BJ/CC](https://ff14.toolboxgaming.space/?id=340414049443951&preview=1)) and make sure the positions for everything else is the same.
 
-[Full TEA OCE Guide](/tea)
+[Full TEA OCE Guide](/ultimate/tea)
 
 This can also be compared to the strats covered in [Tessan Twintails video guide](https://www.youtube.com/watch?v=uVtZ8-XoOZ0), (see EU differences to compare to this guide):
 
@@ -214,7 +214,7 @@ OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chas
 ## DSR
 OCE DSR Strats are a variation on NA PF strats.
 
-[Full DSR OCE Guide](/dsr)
+[Full DSR OCE Guide](/ultimate/dsr)
 
 ::: details NA Differences
 
@@ -235,7 +235,7 @@ For an extended explanation you can see the complete DSR OCE Guide below by Juno
 
 Please refer to full guide.
 
-[Full DSR OCE Guide](/dsr)
+[Full DSR OCE Guide](/ultimate/dsr)
 :::
 ::: details JP Differences
 
@@ -274,20 +274,20 @@ There are a number of differences between OCE and JP for DSR. Please review this
 ## TOP
 TOP strats are similar (but not identical!) to NA, which are *substantially* different to JP. For an extended explanation you can see the complete TOP OCE Guide below by Juno Dax,
 
-[TOP OCE Guide](/top)
+[TOP OCE Guide](/ultimate/top)
 
 ::: details NA Differences
 
 For NA players, both DPS and supports move during P6 WC2 instead of DPS not moving. DPS dodge CW, supports CCW.
 ![](/images/top-exasquares.webp)
 
-[Full TOP OCE Guide](/top)
+[Full TOP OCE Guide](/ultimate/top)
 :::
 ::: details EU Differences
 
 Please refer to full guide.
 
-[Full TOP OCE Guide](/top)
+[Full TOP OCE Guide](/ultimate/top)
 :::
 ::: details JP Differences
 
@@ -347,7 +347,7 @@ This content was written on the same patch this fight was released. OCE strats a
 
 For an extended explanation, all toolboxes and the cheatsheet, please see below guide - credits to Juno Dax for the written guide, and Tomosys Vexuna for the cheatsheet.
 
-[FRU OCE Guide](/fru)
+[FRU OCE Guide](/ultimate/fru)
 
 Majority of mechanics use the "Pantokrator" lineup from TOP as the priority system, that is - <br> H1 - D3 - D1 - MT - OT - D2 - D4 - H2
 
