@@ -22,7 +22,7 @@
     "markdown-it-container": "^4.0.0",
     "prettier": "^3.4.1",
     "viewerjs": "^1.11.7",
-    "vite": "^6.0.1",
+    "vite": "^6.0.9",
     "vitepress": "^1.5.0",
     "vitepress-plugin-image-viewer": "^1.1.5"
   },
