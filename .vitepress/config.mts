@@ -53,6 +53,7 @@ export default defineConfig({
 						{text: "EX1", link: "/extreme/ex1"},
 						{text: "EX2", link: "/extreme/ex2"},
 						{text: "EX3", link: "/extreme/ex3"},
+						{text: "EX4", link: "/extreme/ex4"},
 					],
 				},
 				{
