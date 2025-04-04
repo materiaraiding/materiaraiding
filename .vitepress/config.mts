@@ -64,6 +64,10 @@ export default defineConfig({
 						{text: "M2S", link: "/savage/m2s"},
 						{text: "M3S", link: "/savage/m3s"},
 						{text: "M4S", link: "/savage/m4s"},
+						{text: "M5S", link: "/savage/m5s"},
+						{text: "M6S", link: "/savage/m6s"},
+						{text: "M7S", link: "/savage/m7s"},
+						{text: "M8S", link: "/savage/m8s"},
 					],
 				},
 				{
