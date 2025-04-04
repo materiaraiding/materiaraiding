@@ -31,7 +31,7 @@ const dutyType = computed(() => {
 				width="150"
 				style="float: right" />
 			<div v-if="frontmatter.expansion && frontmatter.difficulty" class="guide_subtitle">
-				{{ frontmatter.expansion }} - {{ frontmatter.difficulty }}
+				{{ frontmatter.expansion }} - {{ frontmatter.difficulty }} - {{ frontmatter.title }}
 			</div>
 			<h1 v-if="frontmatter.longTitle" class="guide_title" id="{{frontmatter.longTitle}}">
 				<img :src="`/images/icons/${dutyType}.webp`" /> {{ frontmatter.longTitle }}
