@@ -6,6 +6,11 @@ expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1355408064001474682
 ---
+
+::: danger EARLY STRATS
+Warning, the strats for this fight are still being developed and are subject to change.
+:::
+
 ## Credits
 
 
@@ -19,7 +24,10 @@ coming soon
 coming soon
 
 ## PoV Videos
-coming soon
+
+@[](https://youtu.be/OsbruWxedRc)
+
+@[](https://youtu.be/ngyZNlaJRwc)
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
