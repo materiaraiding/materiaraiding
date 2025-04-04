@@ -1,5 +1,5 @@
 .navtitle {
-	margin: 0px 0 16px;
+	margin: 0 0 10px;
 	letter-spacing: -0.02em;
 	line-height: 32px;
 	font-size: 24px;
@@ -17,6 +17,7 @@
 	display: flex;
 	flex-grow: 1;
 	flex-direction: column;
+	margin-bottom: 10px;
 	gap: 0.5em;
 }
 .navlink {
