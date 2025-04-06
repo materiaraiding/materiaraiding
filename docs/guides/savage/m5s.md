@@ -22,8 +22,7 @@ Warning, the strats for this fight are still being developed and are subject to 
 　 MTH1D3D4　　　　　　T
 　  STH2D1D2　　　　　　★ H
 ■ Disco Inferno 1　　　   DPS
-　 G1 4-A
-　 G2 2-C
+　 G1 W | G2 E
 ■ Ensemble Assemble
 　 H1 MT ST H2　　※ Line up north to south to resolve debuff
 　 D3 D1 D2 D4　　　5s 10s 15s 20s
@@ -32,7 +31,7 @@ Warning, the strats for this fight are still being developed and are subject to 
 　 D3               D4　 　 D3  D4
 　　　MT   ST　 　 　  MT  ST　 　 D3 MT  ST  D4
 　　　D1    D2　 　 　D1  D2　 　H1 D1  D2 H2
-　 H1    
+　 H1 
 ```
 
 ## Video Guide
