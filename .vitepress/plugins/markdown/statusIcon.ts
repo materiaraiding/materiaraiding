@@ -2,7 +2,7 @@ import MarkdownIt from "markdown-it";
 
 export const statusIconPlugin = (md: MarkdownIt) => {
 	function statusIconInlineTokenizer(state: any, silent: boolean) {
-		const marker = "$[";
+		const marker = "^[";
 		let pos = state.pos;
 
 		if (state.src.slice(pos, pos + marker.length) !== marker) {

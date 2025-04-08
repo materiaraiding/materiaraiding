@@ -306,7 +306,7 @@ Once a tether goes off on each side, the tethered players should swap positions.
 ![](/images/fru-tether2-1.webp)
 ![](/images/fru-tether2-2.webp)
 
-After another **Burnished Glory**, Fatebreaker will do another **Powder Mark** $[Powder Mark] tankbuster before casting the final mechanic:
+After another **Burnished Glory**, Fatebreaker will do another **Powder Mark** ^[Powder Mark] tankbuster before casting the final mechanic:
 
 #### Burnt Strike / Enum Towers
 
@@ -541,35 +541,35 @@ After a heavy hitting raidwide, several "Spell in waiting" debuffs will be assig
 
 | Debuff                                                                      | Explanation                                      |
 |-----------------------------------------------------------------------------|--------------------------------------------------|
-| Dark Fire$[Spell-in-Waiting: Dark Fire III]             | Large circle AOE                                 |
-| Dark Blizzard$[Spell-in-Waiting: Dark Blizzard III]      | Large donut AOE                                  |
-| Dark Eruption$[Spell-in-Waiting: Dark Eruption]          | Medium circle AOE                                |
-| Shadoweye$[Spell-in-Waiting: Shadoweye]                  | Gaze centered on the player                      |
-| Unholy Darkness$[Spell-in-Waiting: Unholy Darkness]       | Party Stack that must be resolved with 5 players |
-| Dark Water$[Spell-in-Waiting: Dark Water III]            | A stack that must be resolved with 4 players     |
-| Return$[Spell-in-Waiting: Return]                        | A player's position will be recorded for later   |
+| Dark Fire^[Spell-in-Waiting: Dark Fire III]             | Large circle AOE                                 |
+| Dark Blizzard^[Spell-in-Waiting: Dark Blizzard III]      | Large donut AOE                                  |
+| Dark Eruption^[Spell-in-Waiting: Dark Eruption]          | Medium circle AOE                                |
+| Shadoweye^[Spell-in-Waiting: Shadoweye]                  | Gaze centered on the player                      |
+| Unholy Darkness^[Spell-in-Waiting: Unholy Darkness]       | Party Stack that must be resolved with 5 players |
+| Dark Water^[Spell-in-Waiting: Dark Water III]            | A stack that must be resolved with 4 players     |
+| Return^[Spell-in-Waiting: Return]                        | A player's position will be recorded for later   |
 
 These buffs will be distributed amongst each role group to look like the following:
 
 **Supports**
 
-2 Supports with 30s Dark Fire$[Spell-in-Waiting: Dark Fire III]
+2 Supports with 30s Dark Fire^[Spell-in-Waiting: Dark Fire III]
 
-1 Support with 20s Dark Fire$[Spell-in-Waiting: Dark Fire III]
+1 Support with 20s Dark Fire^[Spell-in-Waiting: Dark Fire III]
 
 **DPS**
 
-1 DPS with 20s Dark Fire$[Spell-in-Waiting: Dark Fire III]
+1 DPS with 20s Dark Fire^[Spell-in-Waiting: Dark Fire III]
 
-2 DPS with 10s Dark Fire$[Spell-in-Waiting: Dark Fire III]
+2 DPS with 10s Dark Fire^[Spell-in-Waiting: Dark Fire III]
 
 As well as:
 
-1 DPS with 30s Dark Fire$[Spell-in-Waiting: Dark Fire III] and 1 Support with Short Rewind Dark Blizzard$[Spell-in-Waiting: Dark Blizzard III]
+1 DPS with 30s Dark Fire^[Spell-in-Waiting: Dark Fire III] and 1 Support with Short Rewind Dark Blizzard^[Spell-in-Waiting: Dark Blizzard III]
 
 **OR**
 
-1 Support with 10s Dark Fire$[Spell-in-Waiting: Dark Fire III] and 1 DPS with Long Rewind Dark Blizzard$[Spell-in-Waiting: Dark Blizzard III].
+1 Support with 10s Dark Fire^[Spell-in-Waiting: Dark Fire III] and 1 DPS with Long Rewind Dark Blizzard^[Spell-in-Waiting: Dark Blizzard III].
 
 (Credit to Fae Fiyaa & Ewaen)
 
@@ -587,17 +587,17 @@ DPS will look at their party list to determine which spread they are taking, in 
 
 ![](/images/fru-ur-layout.webp)
 
-Any DPS with a **10s Dark Fire$[Spell-in-Waiting: Dark Fire III]** will use their priority take the SW and SE traffic lights. 
+Any DPS with a **10s Dark Fire^[Spell-in-Waiting: Dark Fire III]** will use their priority take the SW and SE traffic lights. 
 
-Any Support with a **30s Dark Fire$[Spell-in-Waiting: Dark Fire III]** will use their priority and take the NW and NE traffic lights.
+Any Support with a **30s Dark Fire^[Spell-in-Waiting: Dark Fire III]** will use their priority and take the NW and NE traffic lights.
 
 ![](/images/fru-ur-adjust.webp)
 
 An example of this would be if I'm D1 and both D4 and I get a 10s Fire, the D4 would take SE and I would take SW.
 
-The DPS and Support players with a **20s Dark Fire$[Spell-in-Waiting: Dark Fire III]** will go East (DPS) and West (Supports) respectively.
+The DPS and Support players with a **20s Dark Fire^[Spell-in-Waiting: Dark Fire III]** will go East (DPS) and West (Supports) respectively.
 
-And finally, either: A Support with the **10s Dark Fire$[Spell-in-Waiting: Dark Fire III]** or **20s Dark Blizzard$[Spell-in-Waiting: Dark Blizzard III]** will go North, and a DPS with the **30s Dark Fire$[Spell-in-Waiting: Dark Fire III]** or **20s Dark Blizzard$[Spell-in-Waiting: Dark Blizzard III]** will go South.
+And finally, either: A Support with the **10s Dark Fire^[Spell-in-Waiting: Dark Fire III]** or **20s Dark Blizzard^[Spell-in-Waiting: Dark Blizzard III]** will go North, and a DPS with the **30s Dark Fire^[Spell-in-Waiting: Dark Fire III]** or **20s Dark Blizzard^[Spell-in-Waiting: Dark Blizzard III]** will go South.
 
 ::: tip
 You do **NOT** need to form a lineup to find your positions, this prio system resolves so that **Ranged and Healers are always static** and **ONLY melee players flex** by looking at one other party member to determine which direction they go.
@@ -611,23 +611,23 @@ This will leave the spreads looking something like this:
 
 Here is a timeline of events:
 
-After sorting the starting positions, **10s Dark Fire$[Spell-in-Waiting: Dark Fire III]** players will step out to take their AOE between their respective Traffic Light and the wall. If you are a **Dark Blizzard$[Spell-in-Waiting: Dark Blizzard III]** stay stacked in middle.
+After sorting the starting positions, **10s Dark Fire^[Spell-in-Waiting: Dark Fire III]** players will step out to take their AOE between their respective Traffic Light and the wall. If you are a **Dark Blizzard^[Spell-in-Waiting: Dark Blizzard III]** stay stacked in middle.
 
-At the same time as fire debuffs are being solved, an **Unholy Darkness$[Spell-in-Waiting: Unholy Darkness]** party stack will occur in middle, so players who are not resolving a mechanic should AFK in the center of the arena. 
+At the same time as fire debuffs are being solved, an **Unholy Darkness^[Spell-in-Waiting: Unholy Darkness]** party stack will occur in middle, so players who are not resolving a mechanic should AFK in the center of the arena. 
 
-Shortly after, the first set of Traffic Lights will go off. Players can essentially just stare at their Traffic Light until the spinning arrow appears around its base for an indication of when they should step out to bait. At the same time, the 1st set of Rewinds will go off. Players with **Dark Water$[Spell-in-Waiting: Dark Water III]/Shadoweye$[Spell-in-Waiting: Shadoweye]** should come close to the center whilst being in line with their Traffic Light, with **Dark Water$[Spell-in-Waiting: Dark Water III] standing slightly closer to the center**. 
+Shortly after, the first set of Traffic Lights will go off. Players can essentially just stare at their Traffic Light until the spinning arrow appears around its base for an indication of when they should step out to bait. At the same time, the 1st set of Rewinds will go off. Players with **Dark Water^[Spell-in-Waiting: Dark Water III]/Shadoweye^[Spell-in-Waiting: Shadoweye]** should come close to the center whilst being in line with their Traffic Light, with **Dark Water^[Spell-in-Waiting: Dark Water III] standing slightly closer to the center**. 
 
-It is important **Shadoweye$[Spell-in-Waiting: Shadoweye]** players don't stack right on top of eachother as the may accidentally gaze one another later. Players with **Dark Eruption$[Spell-in-Waiting: Dark Eruption]** should stand just in front of their Traffic light.
+It is important **Shadoweye^[Spell-in-Waiting: Shadoweye]** players don't stack right on top of eachother as the may accidentally gaze one another later. Players with **Dark Eruption^[Spell-in-Waiting: Dark Eruption]** should stand just in front of their Traffic light.
 
-Afterward **20s Dark Fire$[Spell-in-Waiting: Dark Fire III]** players will step out to take their AOE. 
+Afterward **20s Dark Fire^[Spell-in-Waiting: Dark Fire III]** players will step out to take their AOE. 
 
-The second set of baits and rewinds will then go off. Use the same prio as before: **Dark Water$[Spell-in-Waiting: Dark Water III]/Shadoweye$[Spell-in-Waiting: Shadoweye]** mid, **Dark Eruption$[Spell-in-Waiting: Dark Eruption]** on Traffic Lights. If you have nothing to do just AFK.
+The second set of baits and rewinds will then go off. Use the same prio as before: **Dark Water^[Spell-in-Waiting: Dark Water III]/Shadoweye^[Spell-in-Waiting: Shadoweye]** mid, **Dark Eruption^[Spell-in-Waiting: Dark Eruption]** on Traffic Lights. If you have nothing to do just AFK.
 
-The **30s Dark Fire$[Spell-in-Waiting: Dark Fire III]** players will then step out to take their AOEs.
+The **30s Dark Fire^[Spell-in-Waiting: Dark Fire III]** players will then step out to take their AOEs.
 
 The final set of Traffic Light baits will then go off and everyone will stack mid. **ALL players should look OUT of the arena towards their clockspot.**
 
-Rewind will pull everyone back to their recorded position and the **Dark Water$[Spell-in-Waiting: Dark Water III]**, **Shadoweye$[Spell-in-Waiting: Shadoweye]** and **Dark Eruption$[Spell-in-Waiting: Dark Eruption]** will all go off at once.
+Rewind will pull everyone back to their recorded position and the **Dark Water^[Spell-in-Waiting: Dark Water III]**, **Shadoweye^[Spell-in-Waiting: Shadoweye]** and **Dark Eruption^[Spell-in-Waiting: Dark Eruption]** will all go off at once.
 
 The following cheatsheets can help summarize the process of events through this mech, these can be useful to help with learning positions: 
 
@@ -802,10 +802,10 @@ From left to right:
 
 | Debuff                                                         | Explanation                                                           |
 |----------------------------------------------------------------|-----------------------------------------------------------------------|
-| Wyrmclaw$[Wyrmclaw]                         | A debuff that creates a large AOE and puddle when you touch a dragon  |
-| Wyrmfang$[Wyrmfang]                         | A debuff that must be cleansed by picking up the puddle from Wyrmclaw |
-| Dark Aero$[Spell-in-Waiting: Dark Aero III] | A very large AOE with Knockback when expires                          |
-| Quietus$[Spell-in-Waiting: Quietus]         | A heavy hitting raidwide                                              |
+| Wyrmclaw^[Wyrmclaw]                         | A debuff that creates a large AOE and puddle when you touch a dragon  |
+| Wyrmfang^[Wyrmfang]                         | A debuff that must be cleansed by picking up the puddle from Wyrmclaw |
+| Dark Aero^[Spell-in-Waiting: Dark Aero III] | A very large AOE with Knockback when expires                          |
+| Quietus^[Spell-in-Waiting: Quietus]         | A heavy hitting raidwide                                              |
 
 Dark Blizzards will step up, Dark Aero debuffs will step down, look at the two players standing north/south of the lineup to determine who goes East/West.
 
