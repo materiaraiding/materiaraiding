@@ -18,6 +18,7 @@
     "@types/markdown-it": "^14.1.2",
     "@types/markdown-it-container": "^2.0.10",
     "@types/node": "^22.10.5",
+    "@types/pluralize": "^0.0.33",
     "fs-extra": "^11.2.0",
     "markdown-it-container": "^4.0.0",
     "prettier": "^3.4.1",
@@ -29,6 +30,7 @@
   "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387",
   "dependencies": {
     "floating-vue": "^5.2.2",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "pluralize": "^8.0.0"
   }
 }
