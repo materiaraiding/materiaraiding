@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/ff7facfd-81db-4575-8648-d7fc5910f55b)---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
@@ -58,19 +58,19 @@ const members = [
     desc: "@junocatto"
   },
   {
-    avatar: 'https://github.com/user-attachments/assets/55456308-eadc-4a47-adea-6d7e8fd17739',
+    avatar: 'https://cdn.discordapp.com/avatars/168710722346418177/8d47cb83e7b79b7b8b9391a59cb16e4c?size=256',
     name: 'Noz Leafhill',
     title: 'Writer',
     desc: "@happy.gorl.lucky"
   },
   {
-    avatar: 'https://github.com/user-attachments/assets/13ffa631-d633-4bbb-81e9-014a3bd9ab3a',
+    avatar: 'https://cdn.discordapp.com/avatars/715021806033174590/b183fe66bd2aec1d2c1aee6cb7035625?size=256',
     name: 'Lynx Starflare',
     title: 'Editor',
     desc: "@lynx.starflare"
   },
   {
-    avatar: 'https://github.com/user-attachments/assets/4737fdf9-8f36-4962-a988-90c8cd50c5ff',
+    avatar: 'https://cdn.discordapp.com/avatars/120703775139823618/3b46661783b34a9f29ccd0c518c96e3b?size=256',
     name: 'Kobe',
     title: 'Content Creator',
     desc: "@kobe_."
