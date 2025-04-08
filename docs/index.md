@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ff7facfd-81db-4575-8648-d7fc5910f55b)---
+---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
