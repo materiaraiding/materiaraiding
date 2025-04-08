@@ -12,7 +12,7 @@ Warning, the strats for this fight are still being developed and are subject to 
 :::
 
 ## Credits
-
+- Raidplans by MR 
 
 ## Macro
 
@@ -24,9 +24,9 @@ Warning, the strats for this fight are still being developed and are subject to 
 　 ※TN Clock Spread　　　　　　　 Storm
 ■ Desert Defams　　　　　　　　  ★ 
 　  Tank: W | DPS: E　　　T/H 《 Party 》DPS
-　  H1: 1st CCW　　　   ■ Lava
-　　  H2: 2nd CCW　　　　　  D3　　D4
-　　  Party: 1st CW　　　　　  H1　　H2
+　  H1: CW　　　   ■ Lava
+　　  H2: CCW　　　　　　　　  D3　　D4
+　　  Party: South of Cactus　H1　　H2
 ■ Desert Bombs　　　　　　 D1  ★  D2
 　 ※True North　　　　　　　MT　　ST
 　 H1 MT ST H2　　　　　　※ 8 towers
