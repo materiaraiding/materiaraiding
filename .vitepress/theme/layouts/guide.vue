@@ -91,7 +91,7 @@ const dutyType = computed(() => {
 	width: fit-content;
 	padding: 1px 6px 1px 6px;
 	border-radius: 8px;
-	color: var(--vp-c-text-1);
+	color: #dfdfd6;
 	font-weight: 500;
 	font-size: small;
 	cursor: pointer;
