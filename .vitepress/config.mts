@@ -1,5 +1,12 @@
 import {defineConfig} from "vitepress";
-import {imagePlugin, customBlockPlugin, youtubeEmbedPlugin, timingWindowPlugin, glossaryPlugin} from "./plugins/markdown";
+import {
+	imagePlugin,
+	customBlockPlugin,
+	youtubeEmbedPlugin,
+	timingWindowPlugin,
+	glossaryPlugin,
+	statusIconPlugin,
+} from "./plugins/markdown";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -30,9 +37,7 @@ export default defineConfig({
 			},
 			{
 				text: "Archive",
-				items: [
-					{text: "Endwalker", link: "/archive/endwalker"},
-				],
+				items: [{text: "Endwalker", link: "/archive/endwalker"}],
 			},
 			{
 				text: "Resources",
@@ -95,9 +100,7 @@ export default defineConfig({
 				{
 					text: "Chaotic",
 					collapsed: false,
-					items: [
-						{text: "COD", link: "/chaotic/cod"},
-					],
+					items: [{text: "COD", link: "/chaotic/cod"}],
 				},
 				{
 					text: "Unreal",
@@ -178,6 +181,7 @@ export default defineConfig({
 			md.use(youtubeEmbedPlugin);
 			md.use(timingWindowPlugin);
 			md.use(glossaryPlugin);
+			md.use(statusIconPlugin);
 		},
 	},
 	rewrites: {
@@ -192,105 +196,6 @@ export default defineConfig({
 	vite: {
 		optimizeDeps: {
 			exclude: ["vitepress"],
-		},
-		server: {
-			proxy: {
-				"/ex1": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/ex1", "/ultimate/ex1"),
-				},
-				"/ex2": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/ex2", "/ultimate/ex2"),
-				},
-				"/ex3": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/ex3", "/ultimate/ex3"),
-				},
-				"/m1s": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/m1s", "/savage/m1s"),
-				},
-				"/m2s": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/m2s", "/savage/m2s"),
-				},
-				"/m3s": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/m3s", "/savage/m3s"),
-				},
-				"/m4s": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/m4s", "/savage/m4s"),
-				},
-				"/ucob": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/ucob", "/ultimate/ucob"),
-				},
-				"/uwu": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/uwu", "/ultimate/uwu"),
-				},
-				"/tea": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/tea", "/ultimate/tea"),
-				},
-				"/dsr": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/dsr", "/ultimate/dsr"),
-				},
-				"/top": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/top", "/ultimate/top"),
-				},
-				"/fru": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/fru", "/ultimate/fru"),
-				},
-				"/ass": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/ass", "/criterion/ass"),
-				},
-				"/amr": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/amr", "/criterion/amr"),
-				},
-				"/aai": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/aai", "/criterion/aai"),
-				},
-				"/glossary": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/glossary", "/resources/glossary"),
-				},
-				"/visitorsguide": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/visitorsguide", "/resources/visitorsguide"),
-				},
-				"/macros": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/macros", "/resources/macromate"),
-				},
-			},
 		},
 	},
 });
