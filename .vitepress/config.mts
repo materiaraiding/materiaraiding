@@ -1,5 +1,5 @@
-import {defineConfig} from "vitepress";
-import {imagePlugin, customBlockPlugin, youtubeEmbedPlugin, timingWindowPlugin, glossaryPlugin} from "./plugins/markdown";
+import { defineConfig } from "vitepress";
+import { imagePlugin, customBlockPlugin, youtubeEmbedPlugin, timingWindowPlugin, glossaryPlugin } from "./plugins/markdown";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,7 +7,7 @@ export default defineConfig({
 	title: "Materia Raiding",
 	description:
 		"Materia Raiding is a community driven project to collate the various guide and tools created for raiding in the FF14 Materia Datacenter.",
-	head: [["link", {rel: "icon", href: "/images/favicon.ico"}]],
+	head: [["link", { rel: "icon", href: "/images/favicon.ico" }]],
 	cleanUrls: true,
 	ignoreDeadLinks: true,
 	lastUpdated: true,
@@ -16,34 +16,35 @@ export default defineConfig({
 		logo: "/images/icons/materia.webp",
 		outline: "deep",
 		nav: [
-			{text: "Home", link: "/"},
+			{ text: "Home", link: "/" },
 			{
 				text: "Guides",
 				items: [
-					{text: "Extreme", link: "/extreme"},
-					{text: "Savage", link: "/savage"},
-					{text: "Ultimate", link: "/ultimate"},
-					{text: "Criterion", link: "/criterion"},
-					{text: "Chaotic", link: "/chaotic"},
-					{text: "Unreal", link: "/unreal"},
+					{ text: "Extreme", link: "/extreme" },
+					{ text: "Savage", link: "/savage" },
+					{ text: "Ultimate", link: "/ultimate" },
+					{ text: "Criterion", link: "/criterion" },
+					{ text: "Chaotic", link: "/chaotic" },
+					{ text: "Unreal", link: "/unreal" },
 				],
 			},
 			{
 				text: "Archive",
 				items: [
-					{text: "Endwalker", link: "/archive/endwalker"},
+					{ text: "Endwalker", link: "/archive/endwalker" },
+					{ text: "Dawntrail", link: "/archive/dawntrail" },
 				],
 			},
 			{
 				text: "Resources",
 				items: [
-					{text: "Visitors Guide", link: "/resources/visitorsguide"},
-					{text: "Macro Mate", link: "/resources/macromate"},
-					{text: "Raidplan Templates", link: "/resources/raidplantemplates"},
-					{text: "Contributors", link: "/resources/contributors"},
+					{ text: "Visitors Guide", link: "/resources/visitorsguide" },
+					{ text: "Macro Mate", link: "/resources/macromate" },
+					{ text: "Raidplan Templates", link: "/resources/raidplantemplates" },
+					{ text: "Contributors", link: "/resources/contributors" },
 				],
 			},
-			{text: "Directory", link: "https://materia.directory/"},
+			{ text: "Directory", link: "https://materia.directory/" },
 		],
 		sidebar: {
 			"/": [
@@ -51,60 +52,60 @@ export default defineConfig({
 					text: "Extreme",
 					collapsed: false,
 					items: [
-						{text: "EX1", link: "/extreme/ex1"},
-						{text: "EX2", link: "/extreme/ex2"},
-						{text: "EX3", link: "/extreme/ex3"},
-						{text: "EX4", link: "/extreme/ex4"},
+						{ text: "EX1", link: "/extreme/ex1" },
+						{ text: "EX2", link: "/extreme/ex2" },
+						{ text: "EX3", link: "/extreme/ex3" },
+						{ text: "EX4", link: "/extreme/ex4" },
 					],
 				},
 				{
 					text: "Savage",
 					collapsed: false,
 					items: [
-						{text: "M1S", link: "/savage/m1s"},
-						{text: "M2S", link: "/savage/m2s"},
-						{text: "M3S", link: "/savage/m3s"},
-						{text: "M4S", link: "/savage/m4s"},
-						{text: "M5S", link: "/savage/m5s"},
-						{text: "M6S", link: "/savage/m6s"},
-						{text: "M7S", link: "/savage/m7s"},
-						{text: "M8S", link: "/savage/m8s"},
+						{ text: "M1S", link: "/savage/m1s" },
+						{ text: "M2S", link: "/savage/m2s" },
+						{ text: "M3S", link: "/savage/m3s" },
+						{ text: "M4S", link: "/savage/m4s" },
+						{ text: "M5S", link: "/savage/m5s" },
+						{ text: "M6S", link: "/savage/m6s" },
+						{ text: "M7S", link: "/savage/m7s" },
+						{ text: "M8S", link: "/savage/m8s" },
 					],
 				},
 				{
 					text: "Ultimate",
 					collapsed: false,
 					items: [
-						{text: "UCOB", link: "/ultimate/ucob"},
-						{text: "UWU", link: "/ultimate/uwu"},
-						{text: "TEA", link: "/ultimate/tea"},
-						{text: "DSR", link: "/ultimate/dsr"},
-						{text: "TOP", link: "/ultimate/top"},
-						{text: "FRU", link: "/ultimate/fru"},
+						{ text: "UCOB", link: "/ultimate/ucob" },
+						{ text: "UWU", link: "/ultimate/uwu" },
+						{ text: "TEA", link: "/ultimate/tea" },
+						{ text: "DSR", link: "/ultimate/dsr" },
+						{ text: "TOP", link: "/ultimate/top" },
+						{ text: "FRU", link: "/ultimate/fru" },
 					],
 				},
 				{
 					text: "Criterion",
 					collapsed: false,
 					items: [
-						{text: "ASS", link: "/criterion/ass"},
-						{text: "AMR", link: "/criterion/amr"},
-						{text: "AAI", link: "/criterion/aai"},
+						{ text: "ASS", link: "/criterion/ass" },
+						{ text: "AMR", link: "/criterion/amr" },
+						{ text: "AAI", link: "/criterion/aai" },
 					],
 				},
 				{
 					text: "Chaotic",
 					collapsed: false,
 					items: [
-						{text: "COD", link: "/chaotic/cod"},
+						{ text: "COD", link: "/chaotic/cod" },
 					],
 				},
 				{
 					text: "Unreal",
 					collapsed: false,
 					items: [
-						{text: "Byakko", link: "/unreal/byakko"},
-						{text: "Suzaku", link: "/unreal/suzaku"},
+						{ text: "Byakko", link: "/unreal/byakko" },
+						{ text: "Suzaku", link: "/unreal/suzaku" },
 					],
 				},
 			],
@@ -116,36 +117,52 @@ export default defineConfig({
 							text: "Extreme",
 							collapsed: false,
 							items: [
-								{text: "EX4", link: "/archive/endwalker/extreme/ex4"},
-								{text: "EX5", link: "/archive/endwalker/extreme/ex5"},
-								{text: "EX6", link: "/archive/endwalker/extreme/ex6"},
-								{text: "EX7", link: "/archive/endwalker/extreme/ex7"},
+								{ text: "EX4", link: "/archive/endwalker/extreme/ex4" },
+								{ text: "EX5", link: "/archive/endwalker/extreme/ex5" },
+								{ text: "EX6", link: "/archive/endwalker/extreme/ex6" },
+								{ text: "EX7", link: "/archive/endwalker/extreme/ex7" },
 							],
 						},
 						{
 							text: "Savage",
 							collapsed: false,
 							items: [
-								{text: "P3S", link: "/archive/endwalker/savage/p3s"},
-								{text: "P4S", link: "/archive/endwalker/savage/p4s"},
-								{text: "P5S", link: "/archive/endwalker/savage/p5s"},
-								{text: "P6S", link: "/archive/endwalker/savage/p6s"},
-								{text: "P9S", link: "/archive/endwalker/savage/p9s"},
-								{text: "P10S", link: "/archive/endwalker/savage/p10s"},
-								{text: "P11S", link: "/archive/endwalker/savage/p11s"},
-								{text: "P12S", link: "/archive/endwalker/savage/p12s"},
+								{ text: "P3S", link: "/archive/endwalker/savage/p3s" },
+								{ text: "P4S", link: "/archive/endwalker/savage/p4s" },
+								{ text: "P5S", link: "/archive/endwalker/savage/p5s" },
+								{ text: "P6S", link: "/archive/endwalker/savage/p6s" },
+								{ text: "P9S", link: "/archive/endwalker/savage/p9s" },
+								{ text: "P10S", link: "/archive/endwalker/savage/p10s" },
+								{ text: "P11S", link: "/archive/endwalker/savage/p11s" },
+								{ text: "P12S", link: "/archive/endwalker/savage/p12s" },
 							],
 						},
 					],
 				},
 			],
+			"/archive/dawntrail": [
+				{
+					text: "Dawntrail",
+					items: [
+						{
+							text: "Savage",
+							collapsed: false,
+							items: [
+								{ text: "M1S", link: "/archive/dawntrail/savage/m1s" },
+								{ text: "M2S", link: "/archive/dawntrail/savage/m2s" },
+								{ text: "M3S", link: "/archive/dawntrail/savage/m3s" },
+								{ text: "M4S", link: "/archive/dawntrail/savage/m4s" },
+							],
+						},
+					],
+				}],
 			"/resources/": [
 				{
 					text: "Resources",
 					items: [
-						{text: "Visitors Guide", link: "/resources/visitorsguide"},
-						{text: "Macro Mate", link: "/resources/macromate"},
-						{text: "Raid Plan Templates", link: "/resources/raidplantemplates"},
+						{ text: "Visitors Guide", link: "/resources/visitorsguide" },
+						{ text: "Macro Mate", link: "/resources/macromate" },
+						{ text: "Raid Plan Templates", link: "/resources/raidplantemplates" },
 					],
 				},
 			],
@@ -154,8 +171,8 @@ export default defineConfig({
 			provider: "local",
 		},
 		socialLinks: [
-			{icon: "discord", link: "https://discord.gg/EySn5dRj65"},
-			{icon: "github", link: "https://github.com/materiaraiding/materiaraiding"},
+			{ icon: "discord", link: "https://discord.gg/EySn5dRj65" },
+			{ icon: "github", link: "https://github.com/materiaraiding/materiaraiding" },
 		],
 		editLink: {
 			pattern: "https://github.com/materiaraiding/materiaraiding/edit/main/docs/:path",

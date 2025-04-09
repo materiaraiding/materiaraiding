@@ -4,7 +4,6 @@ title: EX1
 longTitle: Worqor Lar Dor
 expansion: Dawntrail
 difficulty: Extreme
-permalink: /ex1
 discussionLink: https://discord.com/channels/895516967543390249/1011883681222234182
 ---
 
