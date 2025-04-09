@@ -3,7 +3,7 @@ title: Byakko
 order: 2
 longTitle: The Jade Stoa (Unreal)
 expansion: Dawntrail
-difficulty: Other Content
+difficulty: Unreal
 discussionLink: https://discordapp.com/channels/895516967543390249/1011883681222234182
 ---
 

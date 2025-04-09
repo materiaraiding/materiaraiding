@@ -2,6 +2,8 @@
 import './lists.css';
 import { data as pages } from '../loaders/guides.data.js';
 import { difficultyTypes } from './difficultyTypes.js';
+import { useData } from 'vitepress'
+let pageData = useData();
 defineProps(['limitedList']);
 
 /**
@@ -16,13 +18,19 @@ defineProps(['limitedList']);
  */
 
 const filterPagesBy = (difficulty) => {
-	return pages
-		.filter(p => p.frontmatter.difficulty === difficulty)
-		.sort((a, b) => a.frontmatter.order - b.frontmatter.order);
+  let filteredPages = pages
+      .filter(p => p.frontmatter.difficulty === difficulty)
+      .sort((a, b) => a.frontmatter.order - b.frontmatter.order)
+
+  if (difficulty === 'Savage' && pageData.frontmatter.value.layout === 'home') {
+    return filteredPages.slice(-4); // Limit to the last 4 pages for Savage
+  } else {
+    return filteredPages;
+  }
 };
 
 function openPage(url) {
-	let strippedUrl = url.replace("/guides", '');
+	let strippedUrl = url.replace("/guides", '').toLowerCase();
 	window.open(strippedUrl, "_self");
 }
 </script>
@@ -32,7 +40,7 @@ function openPage(url) {
 		<template v-for="difficulty in difficultyTypes" :key="difficulty.type">
 			<div class="navcolumn" v-if="(limitedList === difficulty.type.toLowerCase()) || (limitedList == null)">
 				<!-- Icon + Difficulty Type -->
-				<div class="navtitle">
+				<div v-if="pageData.frontmatter.value.layout === 'home'" class="navtitle" @click="openPage(`/${difficulty.type}/`)">
 					<img class="guide_titleimg" :alt="`${difficulty.type} Icon`" :src="difficulty.icon" />
 					{{ difficulty.type }}
 				</div>

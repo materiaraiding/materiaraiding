@@ -25,6 +25,7 @@ export default defineConfig({
 					{text: "Ultimate", link: "/ultimate"},
 					{text: "Criterion", link: "/criterion"},
 					{text: "Chaotic", link: "/chaotic"},
+					{text: "Unreal", link: "/unreal"},
 				],
 			},
 			{
@@ -96,6 +97,14 @@ export default defineConfig({
 					collapsed: false,
 					items: [
 						{text: "COD", link: "/chaotic/cod"},
+					],
+				},
+				{
+					text: "Unreal",
+					collapsed: false,
+					items: [
+						{text: "Byakko", link: "/unreal/byakko"},
+						{text: "Suzaku", link: "/unreal/suzaku"},
 					],
 				},
 			],
@@ -177,7 +186,8 @@ export default defineConfig({
 		'guides/savage/:slug*': 'savage/:slug*',
 		'guides/extreme/:slug*': 'extreme/:slug*',
 		'guides/criterion/:slug*': 'criterion/:slug*',
-		'guides/other/:slug*': 'other/:slug*',
+		'guides/unreal/:slug*': 'unreal/:slug*',
+		'other/:slug*': 'unreal/:slug*',
 	},
 	vite: {
 		optimizeDeps: {

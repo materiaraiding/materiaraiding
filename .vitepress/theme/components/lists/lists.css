@@ -1,14 +1,21 @@
 .navtitle {
-	margin: 0 0 10px;
+	margin: 0 0 5px;
 	letter-spacing: -0.02em;
 	line-height: 32px;
 	font-size: 24px;
 	font-weight: 600;
 	outline: none;
+	cursor: pointer;
+	transition: 0.2s ease;
+	&:hover {
+		color: var(--vp-c-brand);
+		text-shadow: #000000 0 0 3px;
+	}
 }
 .navblock {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: masonry;
 	margin-top: 1.5em;
 	column-gap: 0.5rem;
 	row-gap: 0.5rem;
@@ -79,7 +86,7 @@
 	border-color: var(--color-criterion);
 }
 
-.other-color {
+.unreal-color {
 	color: var(--color-other);
 	border-color: var(--color-other);
 }
