@@ -45,7 +45,6 @@ export default defineConfig({
 					{text: "Visitors Guide", link: "/resources/visitorsguide"},
 					{text: "Macro Mate", link: "/resources/macromate"},
 					{text: "Raidplan Templates", link: "/resources/raidplantemplates"},
-					{text: "Contributors", link: "/resources/contributors"},
 				],
 			},
 			{text: "Directory", link: "https://materia.directory/"},

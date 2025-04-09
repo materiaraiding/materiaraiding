@@ -1,5 +1,5 @@
 .navtitle {
-	margin: 0 0 5px;
+	height: 60px;
 	letter-spacing: -0.02em;
 	line-height: 32px;
 	font-size: 24px;
@@ -7,6 +7,7 @@
 	outline: none;
 	cursor: pointer;
 	transition: 0.2s ease;
+	align-content: center;
 	&:hover {
 		color: var(--vp-c-brand);
 		text-shadow: #000000 0 0 3px;
@@ -15,16 +16,14 @@
 .navblock {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-template-rows: masonry;
 	margin-top: 1.5em;
 	column-gap: 0.5rem;
 	row-gap: 0.5rem;
 }
 .navcolumn {
 	display: flex;
-	flex-grow: 1;
 	flex-direction: column;
-	margin-bottom: 10px;
+	margin-bottom: 0.5em;;
 	gap: 0.5em;
 }
 .navlink {
