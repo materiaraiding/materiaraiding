@@ -22,7 +22,7 @@ Warning, the strats for this fight are still being developed and are subject to 
 　　　　   STD2　　　　　　  G2: Middle
 ■ Sticky Mousse　　　　■ Thunderstorm
 　 ※TN Clock Spread　　　　　　　 Storm
-■ Desert Defams　　　　　　　　  ★ 
+■ Desert (North)　　　　　　　　　　  ★ 
 　  Tank: W | DPS: E　　　T/H 《 Party 》DPS
 　  H1: CW　　　   ■ Lava
 　　  H2: CCW　　　　　　　　  D3　　D4
@@ -40,13 +40,14 @@ Warning, the strats for this fight are still being developed and are subject to 
 ```markdown
 ■ Adds
 　  ST W Yan / MT SE Squirrels
-　  D3 NE Ray / D4 NW Ray
+　  D3 NW Ray / H1 NE Ray
+　  D3 SW Ray / D4 SE Ray
 　  ST N Yan / MT S Squirrels
 　　  MT  D1  D2 Stun
 　  OT  D1  D2 Stun
 ■ Kill Priority
 　  Ranged Cat / Melee Yan 
-　  NW Ray  NE Ray  Squirrels
+　  NE Ray  NW Ray  Squirrels
 　  Jabberwock  Squirrels  Cat
 　  Jabberwock  SE Ray  Cat  SW Ray  Squirrels  Yans
 ```
