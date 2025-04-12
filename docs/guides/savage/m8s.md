@@ -23,17 +23,21 @@ coming soon
 ## Video Guide
 coming soon
 
-## PoV Videos
-coming soon
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
-coming soon
+<Action title='P1' color='red' href='https://raidplan.io/plan/cDlHvB-NLIHMrzx0' />
+<Action title='P2' color='red' href='https://raidplan.io/plan/hlSXiV_NFEPfGo8h' />
+
+## PoV Videos
+@[](https://youtu.be/w7CxKq2IeyQ)
+@[](https://youtu.be/olxudnLVF9Y)
+@[](https://youtu.be/KdV73V6hl9E)
 
 ## Waymarks
 Waymarks can be imported to the game using the Waymark Import addon, or you can ask a friend to import them for you and save a copy for yourself.
 
 ```
-coming soon
+{"Name":"M8S","MapID":1026,"A":{"X":100.0,"Y":0.0,"Z":88.0,"ID":0,"Active":true},"B":{"X":112.0,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":112.0,"ID":2,"Active":true},"D":{"X":88.0,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":91.5,"Y":0.0,"Z":91.5,"ID":4,"Active":true},"Two":{"X":108.5,"Y":0.0,"Z":91.5,"ID":5,"Active":true},"Three":{"X":108.5,"Y":0.0,"Z":108.5,"ID":6,"Active":true},"Four":{"X":91.5,"Y":0.0,"Z":108.5,"ID":7,"Active":true}}
 ```

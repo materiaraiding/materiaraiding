@@ -55,18 +55,18 @@ Warning, the strats for this fight are still being developed and are subject to 
 ## Video Guide
 coming soon
 
-## PoV Videos
-
-@[](https://youtu.be/OsbruWxedRc)
-
-@[](https://youtu.be/ngyZNlaJRwc)
-
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
 <Action title='Main' color='red' href='https://raidplan.io/plan/LjZsRWUJahEe1fdM' />
 <Action title='Desert' color='red' href='https://raidplan.io/plan/PqngLnEaS1I214wO' />
 <Action title='Bridges' color='red' href='https://raidplan.io/plan/9mcgjmDLobOka-P5' />
+
+## PoV Videos
+
+@[](https://youtu.be/OsbruWxedRc)
+
+@[](https://youtu.be/ngyZNlaJRwc)
 
 ## Waymarks
 Waymarks can be imported to the game using the Waymark Import addon, or you can ask a friend to import them for you and save a copy for yourself.
