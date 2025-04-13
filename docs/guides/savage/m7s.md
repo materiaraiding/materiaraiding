@@ -25,13 +25,13 @@ Warning, the strats for this fight are still being developed and are subject to 
 　 ※ Stack: G1 W | G2 E   Pull Adds E
 ■ Pulp Smash: Standard Spread
 ■Glower Spread　　■ Thorn Deathmatch 
-　　 OT D1 H2 D4　　　2Wall　Boss　Close　Far
-　 ★　　　　　　　　　   Melee  MT　　OT　　 H1
-　　 MT D1 H1 D3　　　Range  MT　　H1　　H2
-■ Strange Seeds
-　 MT (OT) D1 (D2) (D3) D4 (H1) H2　※ (on WM)
-　 ※ Pairs: MTD1　OTD2　H2D4
-　　　　　　　　　   H1D3
+　　 OT D1 H2 D4　　　Boss　Long　Short
+　 ★　　　　　　　　　   MT　   H2　　H1
+　　 MT D1 H1 D3
+■ Strange Seeds (Uptime WM)
+　 Supports: (A)(D)
+　 DPS: (B)(C)
+　 ※ Pairs: MTD1　OTD2　H1D3　H2D4
 ```
 
 ```markdown
