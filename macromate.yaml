@@ -59,6 +59,11 @@ macros:
     iconId: 81807
     markdownUrl: docs/guides/extreme/ex3.md
 
+  - name: EX4
+    group: "Extreme"
+    iconId: 81807
+    markdownUrl: docs/guides/extreme/ex4.md
+
   # ==========
   # = Savage =
   # ==========
@@ -86,12 +91,32 @@ macros:
     iconId: 26460
     markdownUrl: docs/guides/savage/m4s.md
 
+  - name: M5S
+    group: "Savage"
+    iconId: 26457
+    markdownUrl: docs/guides/savage/m5s.md
+
+  - name: M6S
+    group: "Savage"
+    iconId: 26458
+    markdownUrl: docs/guides/savage/m6s.md
+
+  - name: M7S
+    group: "Savage"
+    iconId: 26459
+    markdownUrl: docs/guides/savage/m7s.md
+
+  - name: M8S
+    group: "Savage"
+    iconId: 26460
+    markdownUrl: docs/guides/savage/m8s.md
+
   # ==========
   # = Ultimate =
   # ==========
-  
+
   # UWU
-  
+
   - name: UWU - Garuda
     group: "Ultimate/UWU"
     iconId: 26532
