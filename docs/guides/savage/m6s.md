@@ -12,7 +12,8 @@ Warning, the strats for this fight are still being developed and are subject to 
 :::
 
 ## Credits
-- Raidplans by MR 
+- Materia Raiding Community
+- Videos by Kobe
 
 ## Macro
 
