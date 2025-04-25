@@ -12,7 +12,7 @@ discussionLink: https://discord.com/channels/944115415385247784/9549645153998110
 - Toolboxes by MUR
 - PoVs by Kur Rumi, Olg
 - Cheatsheets by MUR and Em Gram
-- Written guide by Noz Leafhill
+- Written guide by Noz
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
@@ -67,6 +67,7 @@ Space = Hold to select numbers
 
 ## Cheatsheets and Visual Guides
 
+Cheatsheet by Dango Silvers
 ![](/images/tea-cheatsheet.webp)
 ![](/images/tea-mspaintcheatsheet.webp)
 ![](/images/tea-bigcheatsheet.webp)
@@ -101,7 +102,7 @@ These can be imported using an XIV Launcher Plugin.
 
 ## Written Guide
 
-I highly recommend going over the toolboxes and / or watching PoVs in conjunction with reading this guide to put everything you read into context.
+I highly recommend going over the toolboxes and / or watching PoVs in conjunction with reading this guide. This fight uses a lot of precise positioning to resolve puzzle-type mechanics and as such is much easier to understand **how** to do this fight through diagrams and images, which is what toolboxes are for. However, as great as diagrams are, they do not really give context as to **why** you make a particular movement. Therefore, the primary purpose of this written guide is to provide an explanation to what is actually happening during mechanics and hence why you position as such.
 
 FYI - in the toolboxes, the **DRG is D1** and **NIN is D2**.
 
@@ -114,6 +115,10 @@ This phase will involve a lot of specific movement and shuffling from each playe
 The fight begins with MT pulling **Living Liquid** (LL) to the centre and facing him north. After a few autoattacks he will cast **Fluid Swing**, an untelegraphed cleaving tankbuster that leaves a very brief **Water Resistance Down**.
 
 He will then cast **Cascade**, a raidwide that spawns 3 large puddles with tornadoes in them, on 3 cardinals or 3 intercardinals, leaving one quarter of the room empty. Standing in a puddle will inflict nasty lethal DoT damage, so steer clear. The toolbox treats this empty quarter as the new 'north,' so we will follow this.
+
+::: info NOTE
+If you find it easier to understand your positioning if it was from the perspective of middle tornado north, the cheatsheet by Dango Silvers at the top of this page reflects this and is a fantastic resource.
+:::
 
 At this time, LL will also summon **Liquid Hand** (who I will just refer to as the Hand) and split half his current HP with it. The OT will take aggro of the Hand. **Keep the HP's of the bosses as similar as possible**, as there will be periodic 'checks' throughout this phase that wipe the party if the HP's are too different.
 
