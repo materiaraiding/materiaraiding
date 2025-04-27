@@ -7,10 +7,6 @@ difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1355407851677421698
 ---
 
-::: danger EARLY STRATS
-Warning, the strats for this fight are still being developed and are subject to change.
-:::
-
 ## Credits
 - Materia Raiding Community
 

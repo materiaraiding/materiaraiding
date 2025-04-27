@@ -7,9 +7,6 @@ difficulty: Savage
 discussionLink: https://ptb.discord.com/channels/895516967543390249/1355408159451250708
 ---
 
-::: danger EARLY STRATS
-Warning, the strats for this fight are still being developed and are subject to change.
-:::
 
 ## Credits
 - Video by Kobe
