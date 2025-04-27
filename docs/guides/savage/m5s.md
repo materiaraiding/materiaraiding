@@ -4,7 +4,7 @@ title: M5S
 longTitle: AAC Cruiserweight M1
 expansion: Dawntrail
 difficulty: Savage
-discussionLink: https://discord.com/channels/895516967543390249/1353965011734757386
+discussionLink: https://ptb.discord.com/channels/895516967543390249/1355408159451250708
 ---
 
 ::: danger EARLY STRATS
