@@ -50,7 +50,8 @@ discussionLink: https://discord.com/channels/895516967543390249/1355408064001474
 ```
 
 ## Video Guide
-coming soon
+
+@[](https://youtu.be/sbmLwpO-BJY)
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
