@@ -51,8 +51,8 @@ Baits　   NE>SE>SW>NW　   NW>SW>SE>NE
 ```
 
 ## Video Guide
-coming soon
 
+@[](https://youtu.be/jnjuHZSSWlc)
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
