@@ -8,6 +8,10 @@ description: The Beginner Guide to High-End Raiding in Final Fantasy XIV.
 
 This guide is intended to introduce you to the basics of High-End Duty content in FF14 and is intended for new players who are interested in trying out harder content.
 
+::: danger Work-In-Progress
+This page is a work in progress and incomplete.
+:::
+
 ## What is High-End Raiding in FFXIV?
 
 High-End Duty content in Final Fantasy XIV refers to the most challenging instanced encounters in the game, designed for experienced players seeking difficult mechanics and rewarding loot. These duties include:
@@ -91,6 +95,38 @@ A static might follow the regions standard strats or may use their own developed
 
 A static is generally considered the **fastest way to clear a tier** and can also guarantee you will get all the loot you need eventually as your team can target loot to players strategically.
 
+::: tip
+The best way to find a static is to join your regions party-finder discord servers, for example, we have the [Materia Raiding Discord](https://discord.gg/EySn5dRj65) for the Materia Datacenter.
+:::
+
+#### Managing expectations
+
+When setting up a Static, the most important thing to do is to ensure all members have the same expectations for the party, Static groups generally for as either Casual, Midcore or Hardcore groups, with vastly different expectations of time commitment and work.
+
+Statics often fall apart when groups don't communicate the expectations properly beforehand.
+
+### Party Finder
+
+Party Finder can be a useful tool for finding a group, depending on your region. It allows you to recruit additional players to complete your party or join an existing group for specific content. This system is a great way to participate in raids without committing to a fixed schedule like a static group.
+
+To find the right group, it is important to understand the terminology that is often used for Party Finder listings:
+
+| Terminology       | Meaning                                                                                                                  |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------|
+| **Fresh**         | This group is starting the fight or mechanic fresh and is open to unexperienced players                                  |
+| **Prog**          | This group is currently progging a specific mechanic and looking for other players at a similar experience level.        |
+| **Cleanup**       | This group is looking to cleanup a specific mech and move onto the next one                                              |
+| **A2C**           | This group is looking for experienced players who are trying to clear the fight and are confident with all the mechanics |
+| **C41/C4x**       | This group is doing a clear of the fight with only 1 or X players who have not cleared before.                           |
+| **Blind**         | This group is not studying the fight and going in without any prior knowledge, let them work it out themselves.          |
+| **Need WM/Macro** | This group is looking for someone who can bring their own Macros or Waymarks to share with the group                     |
+| **MR Strat**      | This group is using strats specifically from "Materia Raiding" community, this might be replaced with other strat names  |
+| **3x runs**       | This group is looking to kill the boss a certain number of times to farm loot, often seen with extreme trials            |
+
+::: danger DON'T
+Avoid joining a party for content you haven't progressed to yet, as joining groups beyond your current prog point may disrupt others' time and could harm your reputation within the raiding community.
+:::
+
 WORK IN PROGRESS
 
 
@@ -115,7 +151,6 @@ The following is an outline of what I want to include in this guide:
 - What is a static
   - Managing static expectations
 - Using Party Finder
-- Typical PF times
 
 ## Preparation
 
