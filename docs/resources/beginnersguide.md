@@ -4,6 +4,8 @@ title: Beginners Guide to Raiding
 description: The Beginner Guide to High-End Raiding in Final Fantasy XIV.
 ---
 
+![](/images/banners/raidbanner.webp)
+
 # The Beginners Guide to Raiding
 
 This guide is intended to introduce you to the basics of High-End Duty content in FF14 and is intended for new players who are interested in trying out harder content.
@@ -26,7 +28,7 @@ High-End Duty content in Final Fantasy XIV refers to the most challenging instan
 
 - **Unreal Trials**: Revamped versions of older extreme trials, adjusted to modern difficulty standards.
 
-- **Chaotic Raid**: Newer large scale 24 man raids with complex mechanics based on older alliance raids.
+- **Chaotic Raid**: Newer large-scale 24 man raids with complex mechanics based on older alliance raids.
 
 These duties typically release in cycles alongside major patches and expansions, offering powerful gear, titles, and cosmetic rewards. 
 Players can tackle them via Party Finder or by joining a Static Group, which is a dedicated team that regularly raids together.
@@ -101,7 +103,7 @@ The best way to find a static is to join your regions party-finder discord serve
 
 #### Managing expectations
 
-When setting up a Static, the most important thing to do is to ensure all members have the same expectations for the party, Static groups generally for as either Casual, Midcore or Hardcore groups, with vastly different expectations of time commitment and work.
+When setting up a Static, the most important thing to do is to ensure all members have the same expectations for the party. Static groups are generally classified as either Casual, Midcore or Hardcore groups, with vastly different expectations of time commitment, skill level, and work.
 
 Statics often fall apart when groups don't communicate the expectations properly beforehand.
 
@@ -129,7 +131,23 @@ Avoid joining a party for content you haven't progressed to yet, as joining grou
 
 WORK IN PROGRESS
 
+## Raiding Terminology
 
+(section on stuff like roles/mechs/common terms)
+
+## Raid Etiquette (How to not get blacklisted)
+
+### How to improve your performance
+
+## Rewards & Loot
+
+### Raid Loot Systems (Masterloot/L>R)
+
+### Weekly Lockouts
+
+### Tokens & Books
+
+## Other Tips & Resources
 
 
 
