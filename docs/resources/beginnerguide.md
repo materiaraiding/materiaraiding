@@ -25,6 +25,11 @@ The following is an outline of what I want to include in this guide:
 - Using Party Finder
 - Typical PF times
 
+## Terminology
+
+- Party Finder
+- Raid Terms and Glossary
+
 ## Preparation
 
 - Gearing & Melds
@@ -40,7 +45,6 @@ The following is an outline of what I want to include in this guide:
 
 ## Other Tips
 
-- Terminology
 - Discords
 - Resources
 ```
