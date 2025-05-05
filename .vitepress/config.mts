@@ -42,6 +42,7 @@ export default defineConfig({
 			{
 				text: "Resources",
 				items: [
+					{text: "Beginners Guide", link: "/resources/beginnersguide"},
 					{text: "Visitors Guide", link: "/resources/visitorsguide"},
 					{text: "Macro Mate", link: "/resources/macromate"},
 					{text: "Raidplan Templates", link: "/resources/raidplantemplates"},
@@ -145,6 +146,7 @@ export default defineConfig({
 				{
 					text: "Resources",
 					items: [
+						{text: "Beginners Guide", link: "/resources/beginnersguide"},
 						{text: "Visitors Guide", link: "/resources/visitorsguide"},
 						{text: "Macro Mate", link: "/resources/macromate"},
 						{text: "Raid Plan Templates", link: "/resources/raidplantemplates"},
