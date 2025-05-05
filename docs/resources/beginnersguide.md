@@ -125,7 +125,7 @@ The following is an outline of what I want to include in this guide:
 
 - Gearing & Melds
 - Consumables
-- Learning your Rotation
+- Learning your Rotation (keep GCD rolling, etc)
 - Studying
 
 ## Rewards
