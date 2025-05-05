@@ -113,12 +113,13 @@ The following is an outline of what I want to include in this guide:
 
 - Static vs Party Finder
 - Finding a Static
+  - Managing static expectations
 - Using Party Finder
 - Typical PF times
 
 ## Terminology
 
-- Party Finder
+- Party Finder Terms
 - Raid Terms and Glossary
 
 ## Preparation
@@ -127,6 +128,11 @@ The following is an outline of what I want to include in this guide:
 - Consumables
 - Learning your Rotation (keep GCD rolling, etc)
 - Studying
+
+## How to be a good raider
+
+- Raid Etiquette (How to not get blacklisted)
+- Reviewing your performance (logs, Xivanalysis)
 
 ## Rewards
 
