@@ -129,25 +129,59 @@ To find the right group, it is important to understand the terminology that is o
 Avoid joining a party for content you haven't progressed to yet, as joining groups beyond your current prog point may disrupt others' time and could harm your reputation within the raiding community.
 :::
 
-WORK IN PROGRESS
+## Preparation
 
-## Raiding Terminology
+Prior to instancing into a raid, there are several things you need to prepare for - gear, consumables, knowing your class's general rotation and studying for the encounter you intend to do (unless you have joined a "blind" PF or static). 
 
-(section on stuff like roles/mechs/common terms)
+### Gear and Melding
 
-## Raid Etiquette (How to not get blacklisted)
+If you are raiding at the beginning of a tier, you want to be wielding the newest crafted gear that is overmelded with 5 materia. You may have some pieces from the extreme / normal raid and as you obtain tome and raid gear you can replace the lower iLvl piece. You must always have all pieces of gear fully melded if you to enter a raid.
 
-### How to improve your performance
+**The Balance** Discord will provide you with information on your job's Week 1 BiS, as well as the final raid BiS.
 
-## Rewards & Loot
+To obtain crafted gear: you can craft it yourself, buy it off the Market Board or have someone else craft it for you.
 
-### Raid Loot Systems (Masterloot/L>R)
+To overmeld your gear:
+- You must have 1 Disciple of the Hand (crafter) job at max level as this allows you to meld your own gear.
+- You must complete this [full quest chain(https://ffxiv.consolegameswiki.com/wiki/Forging_the_Spirit)] that eventually teaches overmelding.
 
-### Weekly Lockouts
+As overmelding gear is a gambling process, you will need a lot of materia. Regularly attending A rank hunt trains (which you can track in the Faloop Discord) is the best way to obtain clusters (which you exchange for materia). Otherwise, your other immediate option is to buy them from the Market Board which becomes expensive very quickly.
 
-### Tokens & Books
+If for some reason you absolutely cannot achieve Week 1 BiS and intend on doing early prog:
+- If you are in a static, let them know. However they choose to handle that is up to the static.
+- If you intend to PF, please respect other people's time and do not join parties with undergeared and unmelded jobs. People want to give themselves the best chance to progress and having bad gear will undermine that.
 
-## Other Tips & Resources
+If you begin raiding later in the tier, as long as you are fully melded with current tome, crafted or normal raid gear, that is acceptable.
+
+### Consumables
+
+You must have current high quality food up and running during a raid. Food buffs give you extra health and a boost in 2 specific stats - they last 30 minutes (40 with FC buffs and 45 with a manual). The ideal food for your job is information available on The Balance Discord.
+
+You must also carry current high quality potions with you. For extreme and savage, you are not expected to use them during early prog and can save them for final mech prog / A2C / reclears. For ultimates, especially on-content encounters, it is expected that pots are used even during prog at specific points to meet a phase's DPS check. Individual encounters may have unique pot windows but in general, use them when available at the beginning of a 2 minute burst window.
+
+**People can see if you are not using your consumables so don't try to get away with this.**
+
+You can craft these consumables yourself, have someone else craft them for you or buy them from the Market Board.
+
+### Understanding your Class
+
+coming soon
+
+### Studying
+
+If there are resources available and agreed strategies to solve mechanics for a particular encounter, it is paramount to be familiar with them before instancing into the encounter. Of course, it is normal to make mistakes while practicing physically executing the mechanic, but do not come into raid without having idea what you are supposed to do.
+
+Your static may provide you with the resources you need for studying, but many statics try to match PF strategies for compatability. For PF strategies, the Materia Raiding Discord has resources including raidplans / toolboxes (visual diagrams of how to resolve a mechanic).
+
+::: warning 
+If you are jumping into PF week 1, **expect strats to change multiple times** and regularly check the Materia Raiding Discord until strategies are 100% set in stone.
+:::
+
+Studying goes beyond simply looking at raidlpans - POVs are essential to put these diagrams into context. Do your best to also understand *why* the mechanic plays out - having a proper understanding of the mechanic (as opposed to looking at the raidplan purely to understand where to stand) will make you a better and more competent raider. As mentioned before, it is disrespectful to other party members and their time to show up underprepared so please study adequately.
+
+How much you need to study depends on the encounter itself or static expectations. Generally speaking, you want to study *at least* 1 phase ahead of your prog point. Again, the definition of a phase will depend on the encounter itself, but just study as much as possible!
+
+The only exception to a study requirement is if you are in a blind PF or static (i.e. the party intends to solve the encounter themselves without any resources)
 
 
 
