@@ -4,7 +4,7 @@ title: Beginners Guide to Raiding
 description: The Beginner Guide to High-End Raiding in Final Fantasy XIV.
 ---
 
-# The Beginners Guide to High-End Raiding
+# The Beginners Guide to Raiding
 
 This guide is intended to introduce you to the basics of High-End Duty content in FF14 and is intended for new players who are interested in trying out harder content.
 
