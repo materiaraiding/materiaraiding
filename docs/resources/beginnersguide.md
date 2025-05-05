@@ -112,7 +112,7 @@ The following is an outline of what I want to include in this guide:
 ## How to get a party
 
 - Static vs Party Finder
-- Finding a Static
+- What is a static
   - Managing static expectations
 - Using Party Finder
 - Typical PF times
