@@ -113,17 +113,17 @@ Party Finder can be a useful tool for finding a group, depending on your region.
 
 To find the right group, it is important to understand the terminology that is often used for Party Finder listings:
 
-| Terminology       | Meaning                                                                                                                  |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------|
-| **Fresh**         | This group is starting the fight or mechanic fresh and is open to unexperienced players                                  |
-| **Prog**          | This group is currently progging a specific mechanic and looking for other players at a similar experience level.        |
-| **Cleanup**       | This group is looking to cleanup a specific mech and move onto the next one                                              |
-| **A2C**           | This group is looking for experienced players who are trying to clear the fight and are confident with all the mechanics |
-| **C41/C4x**       | This group is doing a clear of the fight with only 1 or X players who have not cleared before.                           |
-| **Blind**         | This group is not studying the fight and going in without any prior knowledge, let them work it out themselves.          |
-| **Need WM/Macro** | This group is looking for someone who can bring their own Macros or Waymarks to share with the group                     |
-| **MR Strat**      | This group is using strats specifically from "Materia Raiding" community, this might be replaced with other strat names  |
-| **3x runs**       | This group is looking to kill the boss a certain number of times to farm loot, often seen with extreme trials            |
+| Terminology        | Meaning                                                                                                                                                                                 |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Fresh**          | This group is starting the fight or mechanic fresh and is open to unexperienced players                                                                                                 |
+| "mech" **Prog**    | This group is currently progging a specific mechanic and looking for other players to also learn this mechanic and prog past it.                                                        |
+| "mech" **Cleanup** | This group is looking finish progging a specific mechanic and are looking for players up to the same point in the fight. Do not join if you have not learnt this specific mechanic yet. |
+| **A2C**            | This group has progged all the mechanics and are looking for players who are ready to clear the fight, do not join if you are still progging mechanics.                                 |
+| **C41/C4x**        | This group is doing a clear of the fight with only 1 or X players who have not cleared before.                                                                                          |
+| **Blind**          | This group is not studying the fight and going in without any prior knowledge, let them work it out themselves.                                                                         |
+| **Need WM/Macro**  | This group is looking for someone who can bring their own Macros or Waymarks to share with the group                                                                                    |
+| **MR Strat**       | This group is using strats specifically from "Materia Raiding" community, this might be replaced with other strat names                                                                 |
+| **3x runs**        | This group is looking to kill the boss a certain number of times to farm loot, often seen with extreme trials                                                                           |
 
 ::: danger DON'T
 Avoid joining a party for content you haven't progressed to yet, as joining groups beyond your current prog point may disrupt others' time and could harm your reputation within the raiding community.
@@ -217,6 +217,12 @@ In smaller communities, bad behavior can lead to being blacklisted from future p
 
 After each raid, take some time to review your performance. This can help you identify areas where you can improve and become a better raider. Here are some tools you can use to review your performance:
 
+- **Stone, Sky and Sea**: This is a built-in tool in the game that allows you to review your damage performance against a dummy with similar checks to a savage raid fight. if you can kill it, use the time left on the encounter as a gauge of your damage. If you can't kill it, you might need to work on fixing your rotation and burst window usage. If you can effectively pass the SSS trials with plenty time to spare, you are likely ready to tackle the damage requirements for the fight.
+
+- **Record Yourself**: Recording your gameplay can help you identify areas where you can improve. You can use software like OBS or Shadowplay to record your gameplay and then review it later.
+
+- **The Balance**: The Balance Discord is a community of players who share information about job rotations, strategies, and performance analysis. You can ask for help with your rotation or performance in the individual job-specific question channels.
+
 ::: warning Third-Party Tools
 Some of these tools are considered third-party tools and may violate the Terms of Service of Final Fantasy XIV. Use them at your own discretion.
 :::
@@ -226,8 +232,6 @@ Some of these tools are considered third-party tools and may violate the Terms o
   - uptime: This is the amount of time you were able to deal damage during the fight and keep your GCD rolling.
 
 - **Xivanalysis**: A tool that provides detailed analysis of your performance in raids. You can see how you performed in different areas, such as uptime, rotational mistakes, buff usage, and more.
-
-- **The Balance**: The Balance Discord is a community of players who share information about job rotations, strategies, and performance analysis. You can ask for help with your rotation or performance in the individual job-specific question channels.
 
 ::: warning Note
 FFLogs requires someone in the party to be using the ACT (Advanced Combat Tracker) app to export logs and FFLogs Uploader app to upload them. This is not a requirement for all parties, but it is a good idea to ask if you are in a static or log for yourself if you are in a PF.
