@@ -139,16 +139,26 @@ If you are raiding at the beginning of a tier, you want to be wielding the newes
 
 **The Balance** Discord will provide you with information on your job's Week 1 BiS, as well as the final raid BiS.
 
+::: tip
+BiS or Best-In-Slot gear is the best possible gear you can obtain for your job at a given time. This is usually determined by the community and is often updated with new patches. There are typically multiple BiS sets for a job, depending on the player's preferred GCD timing.
+:::
+
 To obtain crafted gear: you can craft it yourself, buy it off the Market Board or have someone else craft it for you.
+
+Overmelding is a process that allows you to add additional materia to your gear beyond the normal limit of 2 and is only available for crafted gear. This is important for maximizing your stats and performance in high-end content for early prog. The first 2 meld slots are guaranteed, but the 3rd, 4th and 5th slots are not guaranteed and can fail.
 
 To overmeld your gear:
 - You must have 1 Disciple of the Hand (crafter) job at max level as this allows you to meld your own gear.
-- You must complete this [full quest chain(https://ffxiv.consolegameswiki.com/wiki/Forging_the_Spirit)] that eventually teaches overmelding.
+- You must complete this [full quest chain](https://ffxiv.consolegameswiki.com/wiki/Forging_the_Spirit) that eventually teaches overmelding.
+
+OR 
+
+- You can borrow the services of a crafter who has already unlocked overmelding themselves. Be sure to give them a tip for their time and effort.
 
 As overmelding gear is a gambling process, you will need a lot of materia. Regularly attending A rank hunt trains (which you can track in the Faloop Discord) is the best way to obtain clusters (which you exchange for materia). Otherwise, your other immediate option is to buy them from the Market Board which becomes expensive very quickly.
 
 If for some reason you absolutely cannot achieve Week 1 BiS and intend on doing early prog:
-- If you are in a static, let them know. However they choose to handle that is up to the static.
+- If you are in a static, let them know. How they choose to handle that is up to the static.
 - If you intend to PF, please respect other people's time and do not join parties with undergeared and unmelded jobs. People want to give themselves the best chance to progress and having bad gear will undermine that.
 
 If you begin raiding later in the tier, as long as you are fully melded with current tome, crafted or normal raid gear, that is acceptable.
@@ -157,7 +167,7 @@ If you begin raiding later in the tier, as long as you are fully melded with cur
 
 You must have current high quality food up and running during a raid. Food buffs give you extra health and a boost in 2 specific stats - they last 30 minutes (40 with FC buffs and 45 with a manual). The ideal food for your job is information available on The Balance Discord.
 
-You must also carry current high quality potions with you. For extreme and savage, you are not expected to use them during early prog and can save them for final mech prog / A2C / reclears. For ultimates, especially on-content encounters, it is expected that pots are used even during prog at specific points to meet a phase's DPS check. Individual encounters may have unique pot windows but in general, use them when available at the beginning of a 2 minute burst window.
+You must also carry current high quality potions with you. For extreme and savage, you are not expected to use them during early prog and can save them for final mech prog / A2C / reclears. For ultimates, especially on-content encounters, it is expected that pots are used even during prog at specific points to meet a phase's DPS check. Individual encounters may have unique pot windows but in general, use them when available at the beginning of a 2-minute burst window.
 
 **People can see if you are not using your consumables so don't try to get away with this.**
 
