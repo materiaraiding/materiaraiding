@@ -294,6 +294,12 @@ Damage mitigation is a crucial aspect of high-end raiding, as it helps reduce th
 
 A Mit-plan is a plan that outlines when and how to use damage mitigation abilities during a fight. This can help ensure that the party is prepared for high-damage phases and can survive difficult mechanics. This can vary greatly with party composition and the fight itself, so it is important to discuss this with your party before the fight begins.
 
+::: tip
+**FFXIV Fight Line** is a great tool for creating a Mit-plan for your party. It allows you to create a timeline of the fight with premade templates of existing encounters. This can help ensure that everyone is on the same page and knows when to use their cooldowns.
+
+<Action title='FFXIV-FightLine' color='blue' href='https://www.ffxiv-fightline.com/' />
+:::
+
 ### Macros
 
 Macros are a way to automate certain actions in the game, such as using items or abilities. They are also often used to quickly share information with the party, such as strats. In Materia it is common practice to share a macro with the party at the start of a session to explain the strats the party plans to use.
@@ -304,9 +310,45 @@ Macros are provided by Materia Raiding for all current raids.
 
 Waymarks are markers that can be placed on the ground to help players navigate and position themselves during encounters. They are often used in conjunction with macros to provide visual cues for mechanics or party positioning.
 
-Waymarks are generally specific to a strategy and are generally provided alongside other resources such as in the raid guides provided by Materia Raiding. 
+Waymarks are generally specific to a strategy and are generally provided alongside other resources such as in the raid guides provided by Materia Raiding.
+
+![](/images/ex1-waymarks.webp)
 
 These waymarks can be imported into the game using the Waymark Import addon, or you can ask a friend to import them for you and save a copy for yourself.
+
+### Role Positions
+
+There are a handfull of default positons and groups assigned to each role in a raid that are commonly used across many mechanics, knowing these can help you understand a wide variety of mechanics without having to learn them all individually.
+
+#### Light Parties
+
+Light parties are a way to describe the position of players in relation to two separate groups. This is commonly used in mechanics where the party must be split in half to perform a mechanic, the default light parties are:
+
+- Light Party 1 (LP1): MT H1 D1 D3
+- Light Party 2 (LP2): ST H2 D2 D4
+
+#### Clock Spots
+
+Clock spots are a way to describe the position of players in relation to a clock face. This is often used in mechanics where players need to spread out or stack together. The default clock spots are:
+
+![](/images/beginnersguide-defaultpositions.webp)
+
+These positions are in relation to the default clock-spot waymarks. These are use commonly and are a great way to also start blind-prog in any fight. All raiders should be aware of their default clock spots.
+
+::: warning IMPORTANT
+Beware there are variations of these positions for some fights due to specific mechanics, such as FRU where ST and H2 positions are swapped. It is important to check the fight guide for any specific changes to these positions.
+:::
+
+#### Color Partners
+
+As an extension of clock spots, color partners are a way to describe the position of players in relation to each other. This is often used in mechanics where players need to spread out or stack together. The default color partners are based on you clock spots and the waymarks which are in the same positions (colors).
+
+As per the image above, you will notice H1 and D1 are both in line with a Purple waymarks, this means they are color partners and will use these pairs for various mechanics.
+
+- Red: MT D3
+- Yellow: H2 D4
+- Blue: ST D2
+- Purple: H1 D1
 
 ```
 The following is an outline of what I want to include in this guide: 

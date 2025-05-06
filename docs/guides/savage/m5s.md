@@ -21,10 +21,10 @@ discussionLink: https://ptb.discord.com/channels/895516967543390249/135540815945
 　 H1 MT ST H2　　　　　　　Dps H2
 　 D3 D1 D2 D4
 ■ Ride The Waves　 ■ Frogtourage
-　 MT　D3　※Column 　D3  D4
-　 D1　H1　T/M Inner　 MT  ST　 D3MT  STD4
-　 D2　H2　H/R Outer　D1  D2　H1D1  D2H2
-　 ST　D4　　　　　　　  H1  H2
+　 MT　H1　※Column 　D3  D4
+　 D1　D3　T/M Inner　 MT  ST　 D3MT  STD4
+　 D2　D4　H/R Outer　D1  D2　H1D1  D2H2
+　 ST　H2　　　　　　　  H1  H2
 ```
 
 ```markdown
