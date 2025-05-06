@@ -27,8 +27,8 @@ High-End Duty content in Final Fantasy XIV refers to the most challenging instan
 - **Criterion Dungeons**: High-difficulty dungeon content with unique mechanics and a savage mode for special cosmetics.
 
 - **Unreal Trials**: Revamped versions of older extreme trials, adjusted to modern difficulty standards.
-
-- **Chaotic Raid**: Newer large-scale 24 man raids with complex mechanics based on older alliance raids.
+    
+- **Chaotic Raids**: Newer large-scale 24 man raids with complex mechanics based on older alliance raids.
 
 These duties typically release in cycles alongside major patches and expansions, offering powerful gear, titles, and cosmetic rewards. 
 Players can tackle them via Party Finder or by joining a Static Group, which is a dedicated team that regularly raids together.
@@ -193,7 +193,7 @@ How much you need to study depends on the encounter itself or static expectation
 
 The only exception to a study requirement is if you are in a blind PF or static (i.e. the party intends to solve the encounter themselves without any resources)
 
-## How to be a good raid member
+## How to be a good Raider
 
 Being a good raider is not just about knowing your job and mechanics, but also about being a good team player. This topic will get into some more advanced concepts, terminology and tips that will help you become a better raider.
 
