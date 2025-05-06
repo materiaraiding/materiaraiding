@@ -318,7 +318,7 @@ These waymarks can be imported into the game using the Waymark Import addon, or 
 
 ### Role Positions
 
-There are a handfull of default positons and groups assigned to each role in a raid that are commonly used across many mechanics, knowing these can help you understand a wide variety of mechanics without having to learn them all individually.
+There are a handful of default positions and groups assigned to each role in a raid that are commonly used across many mechanics, knowing these can help you understand a wide variety of mechanics without having to learn them all individually.
 
 #### Light Parties
 
