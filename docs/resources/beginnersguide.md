@@ -352,21 +352,37 @@ As per the image above, you will notice H1 and D1 are both in line with a Purple
 
 ## Rewards
 
+Many loot rewards from various battle content have weekly limits. For reference, these weekly limits reset every Tuesday UTC+00:00 (18:00 AEST | 19:00 AEDT). You can check the "Battle Tab" in your currency interface in-game to see the exact time till the next reset converted to your timezone:
+
+![](/images/beginnersguide-reset.webp)
+
 ### Raid Loot Systems
 
-S
+Each raid type offers different types of loot.
 
-### Weekly Lockouts
+| Content Type   | Reward                                                                                                        |
+|----------------|----------------------------------------------------------------------------------------------------------------------|
+| Savage Raids   | Offers the highest iLvl gear pieces for the current tier, plus material that will upgrade tome gear. More detail will be provided on Savage loot below. |
+| Extreme Trials | Drops weapons or accessories (depending on the fight) suitable for pre-BiS gearsets. There is also a rare chance of a unique mount dropping. Once the trial is no longer 'current content,' the mount drop rate increases. Each clear provides 1-2 totems (amount depending on the fight) that can be exchanged for the gear that can drop in the fight. The mount is purchasable for 99 totems on the next major patch after release. There is no weekly limit to how many rewards you can obtain in Extreme trials. |
+| Ultimate Raids | A clear gives 1 totem that can be exchanged for a cosmetic weapon. While the ultimate is current content, the weapon may be BiS and players are limited to 1 totem per week. This weekly cap is lifted on the next major patch after the ultimate's release. |
+| Criterion Dungeons | Gives unique tokens that can be used for unique glamour pieces and other miscellaneous cosmetic / registrable items. The latest Endwalker Criterion Savage also provides cosmetic weapons. This is still relatively experimental content for the game, so a baseline for rewards is not set in stone. |
+| Unreal Trials | A clear grants you a round of Faux Hollows (Faux Commander in Idyllshire at X:5.7 Y:6.1), a simple minigame where you uncover illustrations to receive Faux Leaves. You can play up to 2 rounds of Faux Hollows (i.e. 2 clears) per week. Note that you need to play the minigame before moving to your 2nd reclear (also known as a **retell**). Faux Leaves are a currency used to buy unique minions, mounts and glamour pieces. |
+
+### Weekly Savage Lockouts
+
+:::note
+Don't confuse this term with 'instance timer lockout.'
+:::
+
+to be written
 
 ### Loot Order
 
-If you are in a static, how loot is assigned every week is entirely up to the group. 
+If you are in a static, how loot is assigned every week is entirely up to the group. Some groups may choose to funnel gear to DPS, some groups try to evenly distribute gear between everyone. Just don't do any reclears outside of your static until the end of your scheduled week, otherwise you will screw over the rest of your team's potential loot for that week.
 
 If you are in a PF and successfully clear a fight, there are 2 main ways to assign loot:
-- L > R (left to right):
+- L > R (left to right): only one item is rolled at a time, starting from the first (leftmost) loot in the list and going right. Players are only permitted to win 1 item - if you win an item, pass on the remaining loot.
 - FFA (free for all): anyone is free to take anything.
-
-### Books & Totems
 
 ## Other Resources
 
