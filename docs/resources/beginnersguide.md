@@ -137,7 +137,7 @@ Prior to instancing into a raid, there are several things you need to prepare fo
 
 If you are raiding at the beginning of a tier, you want to be wielding the newest crafted gear that is overmelded with 5 materia. You may have some pieces from the extreme / normal raid and as you obtain tome and raid gear you can replace the lower iLvl piece. You must always have all pieces of gear fully melded if you to enter a raid.
 
-**The Balance** Discord will provide you with information on your job's Week 1 BiS, as well as the final raid BiS.
+[The Balance Discord](https://discord.com/invite/thebalanceffxiv) will provide you with information on your job's Week 1 BiS, as well as the final raid BiS.
 
 ::: tip
 BiS or Best-In-Slot gear is the best possible gear you can obtain for your job at a given time. This is usually determined by the community and is often updated with new patches. There are typically multiple BiS sets for a job, depending on the player's preferred GCD timing.
@@ -155,7 +155,7 @@ OR
 
 - You can borrow the services of a crafter who has already unlocked overmelding themselves. Be sure to give them a tip for their time and effort.
 
-As overmelding gear is a gambling process, you will need a lot of materia. Regularly attending A rank hunt trains (which you can track in the Faloop Discord) is the best way to obtain clusters (which you exchange for materia). Otherwise, your other immediate option is to buy them from the Market Board which becomes expensive very quickly.
+As overmelding gear is a gambling process, you will need a lot of materia. Regularly attending A rank hunt trains (which you can track in the [Faloop Discord](https://discord.com/invite/faloop)) is the best way to obtain clusters (which you exchange for materia). Otherwise, your other immediate option is to buy them from the Market Board which becomes expensive very quickly.
 
 If for some reason you absolutely cannot achieve Week 1 BiS and intend on doing early prog:
 - If you are in a static, let them know. How they choose to handle that is up to the static.
@@ -181,19 +181,129 @@ coming soon
 
 If there are resources available and agreed strategies to solve mechanics for a particular encounter, it is paramount to be familiar with them before instancing into the encounter. Of course, it is normal to make mistakes while practicing physically executing the mechanic, but do not come into raid without having idea what you are supposed to do.
 
-Your static may provide you with the resources you need for studying, but many statics try to match PF strategies for compatability. For PF strategies, the Materia Raiding Discord has resources including raidplans / toolboxes (visual diagrams of how to resolve a mechanic).
+Your static may provide you with the resources you need for studying, but many statics try to match PF strategies for compatability. For PF strategies, the [Materia Raiding Discord](https://discord.gg/EySn5dRj65) has resources including raidplans / toolboxes (visual diagrams of how to resolve a mechanic).
 
 ::: warning 
 If you are jumping into PF week 1, **expect strats to change multiple times** and regularly check the Materia Raiding Discord until strategies are 100% set in stone.
 :::
 
-Studying goes beyond simply looking at raidlpans - POVs are essential to put these diagrams into context. Do your best to also understand *why* the mechanic plays out - having a proper understanding of the mechanic (as opposed to looking at the raidplan purely to understand where to stand) will make you a better and more competent raider. As mentioned before, it is disrespectful to other party members and their time to show up underprepared so please study adequately.
+Studying goes beyond simply looking at raidplans - POVs are essential to put these diagrams into context. Do your best to also understand *why* the mechanic plays out - having a proper understanding of the mechanic (as opposed to looking at the raidplan purely to understand where to stand) will make you a better and more competent raider. As mentioned before, it is disrespectful to other party members and their time to show up underprepared so please study adequately.
 
 How much you need to study depends on the encounter itself or static expectations. Generally speaking, you want to study *at least* 1 phase ahead of your prog point. Again, the definition of a phase will depend on the encounter itself, but just study as much as possible!
 
 The only exception to a study requirement is if you are in a blind PF or static (i.e. the party intends to solve the encounter themselves without any resources)
 
+## How to be a good raid member
 
+Being a good raider is not just about knowing your job and mechanics, but also about being a good team player. This topic will get into some more advanced concepts, terminology and tips that will help you become a better raider.
+
+### Raid Etiquette
+
+- **Be on time**: Arrive at the raid location on time and be ready to start. If you are running late, let your party know as soon as possible.
+
+- **Communicate**: Use voice chat or text chat to communicate with your party. Let them know if you are having trouble with a mechanic or if you need help.
+
+- **Be respectful**: Treat your party members with respect and kindness. Avoid being rude to others. Give everyone a chance to speak and share their thoughts. A healthy atmosphere is important for a successful raid.
+
+- **Evaluate yourself regularly**: If you are consistently causing wipes or falling behind, it may be time to reevaluate your performance and ask for help. If you are not willing to improve, you may be blacklisted from future parties.
+
+- **Be open to feedback**: If someone gives you constructive criticism, take it to heart and try to improve. Everyone makes mistakes, but it's important to learn from them.
+
+- **Avoid getting tilted**: If you are having a bad day or are frustrated with the fight, take a break and come back when you are in a better mindset. Getting tilted can lead to further mistakes and frustration for everyone involved.
+
+In smaller communities, bad behavior can lead to being blacklisted from future parties. Admitting fault and apologizing can go a long way in repairing relationships. If you are blacklisted, it may be difficult to find parties in the future.
+
+### Reviewing your performance
+
+After each raid, take some time to review your performance. This can help you identify areas where you can improve and become a better raider. Here are some tools you can use to review your performance:
+
+::: warning Third-Party Tools
+Some of these tools are considered third-party tools and may violate the Terms of Service of Final Fantasy XIV. Use them at your own discretion.
+:::
+
+- **FFLogs**: A popular tool for analyzing raid performance. FFLogs allows you to see in-depth statistics about your performance, key areas to look for are: 
+  - rDPS: This is the damage you dealt including all damage due to buffs you provided other players.
+  - uptime: This is the amount of time you were able to deal damage during the fight and keep your GCD rolling.
+
+- **Xivanalysis**: A tool that provides detailed analysis of your performance in raids. You can see how you performed in different areas, such as uptime, rotational mistakes, buff usage, and more.
+
+- **The Balance**: The Balance Discord is a community of players who share information about job rotations, strategies, and performance analysis. You can ask for help with your rotation or performance in the individual job-specific question channels.
+
+::: warning Note
+FFLogs requires someone in the party to be using the ACT (Advanced Combat Tracker) app to export logs and FFLogs Uploader app to upload them. This is not a requirement for all parties, but it is a good idea to ask if you are in a static or log for yourself if you are in a PF.
+
+[How to get started with FFLogs in FFXIV](https://www.fflogs.com/help/start)
+:::
+
+### Understanding the Game Systems
+
+Understanding the games engine and combat system can have a large impact on you performance, here are a few key concepts to understand:
+
+- **GCD**: The Global Cooldown is the time it takes for your character to perform an action. Most jobs will run a GCD speed close to the default value of 2.5 seconds, however some jobs either have passive skills or use Skill Speed, Spell Speed or Food to lower this value. Understanding how the GCD works and how to optimize it is crucial for maximizing your damage output.
+
+- **oGCD**: Off Global Cooldown abilities are abilities that do not trigger the GCD and can be used at any time. These abilities can be used to fill the gaps while you wait for the GCS to come back up. Using oGCD abilites between GCDs is called "**Weaving**" and is a key part of maximizing your damage output. You can typically fit 2 oGCDs in between each GCD, but this can vary depending on your job and the abilities you are using. This would be called "**Double Weaving**".
+
+- **Queueing & Clipping**: The game allows you to queue up your next ability while the GCD is still on cooldown. This means you can press your next ability before the GCD is finished, and it will automatically trigger when the GCD is over. This is important for maintaining a smooth rotation and avoiding clipping. The queue server-side which means that the ability occurs instantly after the GCD finishes which allows you to achieve zero downtime between abilities. Most abilities can be queued however some abilities cannot be queued and will require you to wait for the GCD to finish before using them. The delay that occurs after the GCD finishs and when the next input is registered on the server is called "**Clipping**" and can lead to a loss of damage if not managed properly.
+
+- **Snapshots**: Snapshots is a reference to how the game handles events from the server-side, the game bundles events together every few seconds and processes them as a batch. This can result in some unexpected behaviours when using certain abilites or most commonly when avoiding mechanics. You might visually avoid or dodge a mechanic before the visual indicator ends however if the game has already processed the event, you will still take damage.
+
+
+Some plugins can assist with common issues with latency and clipping. These can help greatly with tight DPS rotations when you have high ping or are on a low-end PC. These plugins are not required but can help with your performance.
+
+- NoClippy: A plugin that helps with clipping issues by adjusting your GCD and ability timings. This can help you maintain a smoother rotation and avoid clipping abilities on high-latency connections.
+
+
+## Raiding Concepts
+
+### Phases
+
+Phases are used to describe portions of a fight that have different mechanics or require different strategies. Savage fights will usually only have one phase except the last fight of a tier, which will have 2 distinct phases. Ultimate raids will generally have 5-6 phases, with each phase being like a mini-savage in itself.
+
+Some raids will have a checkpoint where you can wipe and start future pulls from a later phase. These are most common in the last fight of a savage tier.
+
+Phases are helpful for breaking down a fight into manageable chunks and allow you to focus on one part of the fight at a time. This is especially useful for new players who may be overwhelmed by the number of mechanics in a fight. 
+
+### Burst/Pot Windows
+
+Burst window is a term commonly used to refer to a period of time when the party aligns party buffs and cooldowns for maximum damage output. This is usually done at the start of a fight and at regular 2-minute intervals throughout the encounter. Some jobs will also have a 1-minute burst window but these are generally handled automatically between the 2-minute windows. 
+
+To get the most damage out of your job, you may hold some cooldowns to ensure they align for an upcoming burst window.
+
+2-minute burst windows may be deliberately delayed to align with downtime or other mechanics, it is important to communicate with your party about when these windows will occur.
+
+Pots will typically be used in line with the first burst window and the subsequent usages will be delayed to align with another burst window later in the fight, it is important to discuss this with your party to ensure these are used correctly. Most savage raids will get at least 2 pot windows, with some fights having 3. Ultimate fights are significantly longer and will have even more pot windows.
+
+### DPS Checks & Enrage
+
+DPS checks are points in a fight where the party must deal a certain amount of damage or reach a certain boss health percentage within a specific time frame to avoid a wipe. These checks can be triggered by mechanics or boss abilities, and they often require the party to use their burst windows and potions effectively.
+
+The most common form of DPS check will be the enrage for a fight where the boss will enrage and wipe the party if they do not defeat the boss before to enrage. Ultimate fights will often have multiple DPS checks throughout the fight that must be met to progress through the fight or into the next phase.
+
+### Mitigations (Mits)
+
+Damage mitigation is a crucial aspect of high-end raiding, as it helps reduce the amount of damage taken by the party during encounters. This can be achieved through various means, including:
+
+- **Tank cooldowns**: Tanks have a variety of abilities that can reduce damage taken by themselves and the party. These should be used strategically during high-damage phases or mechanics. Tanks will also need to coordinate their mitigations to deal with tank busters and other mechanics that require them to take significant damage.
+
+- **Healer cooldowns**: Healers have abilities that can mitigate damage for the party, such as shields or healing over time effects. These should be used in conjunction with tank cooldowns to ensure the party stays alive during difficult mechanics. Shield healers have the most defensive mitigations but all healers have some tools to help mitigate damage.
+
+- **Feint/Addle**: Certain DPS roles have abilities that can reduce damage dealt by the target, such as Feint or Addle. These should be used strategically during high-damage phases or mechanics. Feint reduces outgoing physical damage by 10% and magic damage by 5% for 10 seconds. Addle reduces magic damage by 10% and physical damage by 5% for 10 seconds. This should be coordinated with your DPS to ensure these do not overlap.
+
+A Mit-plan is a plan that outlines when and how to use damage mitigation abilities during a fight. This can help ensure that the party is prepared for high-damage phases and can survive difficult mechanics. This can vary greatly with party composition and the fight itself, so it is important to discuss this with your party before the fight begins.
+
+### Macros
+
+Macros are a way to automate certain actions in the game, such as using items or abilities. They are also often used to quickly share information with the party, such as strats. In Materia it is common practice to share a macro with the party at the start of a session to explain the strats the party plans to use.
+
+Macros are provided by Materia Raiding for all current raids.
+
+### Waymarks
+
+Waymarks are markers that can be placed on the ground to help players navigate and position themselves during encounters. They are often used in conjunction with macros to provide visual cues for mechanics or party positioning.
+
+Waymarks are generally specific to a strategy and are generally provided alongside other resources such as in the raid guides provided by Materia Raiding. 
+
+These waymarks can be imported into the game using the Waymark Import addon, or you can ask a friend to import them for you and save a copy for yourself.
 
 ```
 The following is an outline of what I want to include in this guide: 
@@ -225,17 +335,14 @@ The following is an outline of what I want to include in this guide:
 
 - Raid Etiquette (How to not get blacklisted)
 - Reviewing your performance (logs, Xivanalysis)
-
-## Terminology
-
-- Party Finder Terms
-- Raid Terms and Glossary
+- How to improve your performance
 
 ## Rewards
 
 - Looting Priority (L>R)
 - Weekly Lockouts
 - Books & Tokens
+
 
 ## Other Tips
 
