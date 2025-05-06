@@ -11,7 +11,7 @@ description: The Beginner Guide to High-End Raiding in Final Fantasy XIV.
 This guide is intended to introduce you to the basics of High-End Duty content in FF14 and is intended for new players who are interested in trying out harder content.
 
 ::: danger Work-In-Progress
-This page is a work in progress and incomplete.
+This page is a work-in-progress and may have some incomplete sections, check back soon to see it finished.
 :::
 
 ## What is High-End Raiding in FFXIV?
@@ -350,47 +350,18 @@ As per the image above, you will notice H1 and D1 are both in line with a Purple
 - Blue: ST D2
 - Purple: H1 D1
 
-```
-The following is an outline of what I want to include in this guide: 
-
-## What is High-End Raiding?
-
-- explain the main types of high end duty content
-- Savage, Extreme, Ultimate Raids
-- Criterion Dungeons
-- Mid-end: Chaotic & Unreal
-- What rewards they give
-- When they release typically
-
-## How to get a party
-
-- Static vs Party Finder
-- What is a static
-  - Managing static expectations
-- Using Party Finder
-
-## Preparation
-
-- Gearing & Melds
-- Consumables
-- Learning your Rotation (keep GCD rolling, etc)
-- Studying
-
-## How to be a good raider
-
-- Raid Etiquette (How to not get blacklisted)
-- Reviewing your performance (logs, Xivanalysis)
-- How to improve your performance
-
 ## Rewards
 
-- Looting Priority (L>R)
-- Weekly Lockouts
-- Books & Tokens
+### Raid Loot Systems
 
+### Fair Loot Order (L>R)
 
-## Other Tips
+### Weekly Lockouts
 
-- Discords
-- Resources
-```
+### Books & Tokens
+
+## Other Resources
+
+### Discords
+
+### Websites
