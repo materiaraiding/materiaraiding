@@ -83,7 +83,7 @@ Savage Raids and Extreme Trials are the core of FF14's gearing system, and it is
 There are two ways you can get a party together for High-End Duty content. 
 
 - Form a Static: A group of players who raid together on a regular schedule with the same roster.
-- Use Party Finder: Ad-hoc parties formed using the in-game party finder tool.
+- Use Party Finder: Temporary improvised parties formed using the in-game party finder tool.
 
 There are pros and cons to both approaches, this will ultimately depend on your own availability, commitment and goals.
 
