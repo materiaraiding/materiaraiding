@@ -173,10 +173,6 @@ You must also carry current high quality potions with you. For extreme and savag
 
 You can craft these consumables yourself, have someone else craft them for you or buy them from the Market Board.
 
-### Understanding your Class
-
-coming soon
-
 ### Studying
 
 If there are resources available and agreed strategies to solve mechanics for a particular encounter, it is paramount to be familiar with them before instancing into the encounter. Of course, it is normal to make mistakes while practicing physically executing the mechanic, but do not come into raid without having idea what you are supposed to do.
@@ -212,6 +208,10 @@ Being a good raider is not just about knowing your job and mechanics, but also a
 - **Avoid getting tilted**: If you are having a bad day or are frustrated with the fight, take a break and come back when you are in a better mindset. Getting tilted can lead to further mistakes and frustration for everyone involved.
 
 In smaller communities, bad behavior can lead to being blacklisted from future parties. Admitting fault and apologizing can go a long way in repairing relationships. If you are blacklisted, it may be difficult to find parties in the future.
+
+### Understanding your Class
+
+text :)
 
 ### Reviewing your performance
 
@@ -354,11 +354,19 @@ As per the image above, you will notice H1 and D1 are both in line with a Purple
 
 ### Raid Loot Systems
 
-### Fair Loot Order (L>R)
+S
 
 ### Weekly Lockouts
 
-### Books & Tokens
+### Loot Order
+
+If you are in a static, how loot is assigned every week is entirely up to the group. 
+
+If you are in a PF and successfully clear a fight, there are 2 main ways to assign loot:
+- L > R (left to right):
+- FFA (free for all): anyone is free to take anything.
+
+### Books & Totems
 
 ## Other Resources
 
