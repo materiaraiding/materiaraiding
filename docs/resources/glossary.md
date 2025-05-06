@@ -1,4 +1,12 @@
+---
+order: 5
+title: Glossary
+description: A glossary of common raid and mechanic terms used in the game.
+---
+
 # Glossary
+This glossary contains common terms and phrases used in the game, particularly in relation to raids and mechanics. It is intended to help players understand the terminology used in guides, discussions, and other resources.
+
 
 ## Encounter
 
