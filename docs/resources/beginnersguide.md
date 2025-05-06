@@ -1,14 +1,14 @@
 ---
 order: 4
 title: Beginners Guide to Raiding
-description: The Beginner Guide to High-End Raiding in Final Fantasy XIV.
+description: A comprehensive guide to raiding in FFXIV, covering the fundamentals of high-end raiding such as mechanics, party finder, and more.
 ---
 
 ![](/images/banners/raidbanner.webp)
 
 # The Beginners Guide to Raiding
 
-This guide is intended to introduce you to the basics of High-End Duty content in FF14 and is intended for new players who are interested in trying out harder content.
+This guide is intended to introduce you to the fundamentals of High-End Duty content in FF14 and is intended for new players who are interested in trying out harder content.
 
 ::: danger Work-In-Progress
 This page is a work-in-progress and may have some incomplete sections, check back soon to see it finished.
@@ -236,21 +236,19 @@ Being a good raider is not just about knowing your job and mechanics, but also a
 
 In smaller communities, bad behavior can lead to being blacklisted from future parties. Admitting fault and apologizing can go a long way in repairing relationships. If you are blacklisted, it may be difficult to find parties in the future.
 
-### Understanding your Class
-
-#### Abilities and Cooldowns
-
-Make sure you understand your job's core abilities and cooldowns. This includes your **GCD** and **oGCD** abilities, as well as any buffs or debuffs you can provide to the party. Knowing how to use these abilities effectively is crucial for maximizing your damage output and survivability. 
+### Understanding your Job
 
 #### GCDs and Uptime/Downtime
 
+Rule no.1 is "Always be Casting" or keep your GCD rolling. This means you want to always keep your GCD "spinning". Any time your GCD is not moving is considered downtime and should be avoided. Using the correct GCD abilities comes next and this is your "rotation". 
+
 Uptime is the effective time you are able to deal damage during an encounter. Managing uptime will lead to better overall damage output and can involve multiple factors such as:
 
-- **Positioning**: Make sure you are in the right position to deal with damage and avoid mechanics. This may involve moving around the arena or adjusting your position based on the fight to stay within range of the boss.
+- **Positioning**: Make sure you are in the right position to achieve positionals and stay in range of the boss, this is especially important for melee DPS jobs. If you are a ranged DPS or healer, make sure you are in range of the boss and other party members.
 
-- **Forced Downtime**: Many encounters will have downtime periods where the boss is not targetable or is moving around the arena. This can be caused by mechanics or other factors. Make sure you are aware of these periods and adjust your rotation accordingly.
+- **Forced Downtime**: Many encounters will have downtime periods where the boss is not targetable or is moving around the arena. This can be caused by mechanics or other factors. Make sure you are aware of these periods and adjust your rotation accordingly, this may involve using non-damaging abilities or prepping 
 
-- **Movement (Cast time)**: If you are a Caster or Healer, keep in mind your movement speed and cast time. Some jobs have abilities that can be used while moving, while others require you to stand still. Make sure you are aware of your job's movement capabilities and adjust your rotation accordingly to ensure you can avoid mechanics while still dealing damage.
+- **Cast Times**: If you are a Caster or Healer, keep in mind your movement speed and cast time. Some jobs have abilities that can be used while moving, while others require you to stand still. Make sure you are aware of your job's movement capabilities and adjust your rotation accordingly to ensure you can avoid mechanics while still dealing damage.
 
 ::: tip SLIDECASTING
 Slide-casting is a technique used by casters to move while casting spells. When casting an ability that requires you to stand still, you can safely move within the last 0.5 seconds of the cast duration. This will not cancel the cast and can help you maintain uptime while avoiding mechanics. For Casters, it is important to practice this technique to ensure you can use it effectively in raids.
@@ -264,7 +262,23 @@ This image shows an example of the slide-cast window, moving when the cast is wi
 
 #### Rotation and Burst Windows
 
+Your rotation is made up of three components: your opener, your core rotation and your burst window. The opener is the order of actions and cooldowns you will use from the beginning of the fight, while the core rotation is the order of abilities you will use throughout the fight.
+
+Your burst windows are the periods of time when you will use your abilities and cooldowns to maximize your damage output. These are usually aligned with the party's burst windows and are generally on a 2-minute cycle from the start of the fight.
+
+The best resource for learning your job is the [The Balance Discord](https://discord.com/invite/thebalanceffxiv). This is a community of players who share information about job rotations, openers, and performance analysis. Here you will find comprehensive guides for all jobs and their rotations.
+
+<Action title='Visit the Balance' color='yellow' href='https://www.thebalanceffxiv.com/' />
+
 #### Utilities
+
+Certain jobs have utility abilities that can be used to help the party or themselves. These can be unique tools specific to certain jobs or common utilities found across a role. The core utilities are:
+
+- **Resurrections**: These are abilities that allow healers and some caster jobs to revive fallen party members. These have no cooldown but have a long cast time and are expensive on mana. Players revived by a healer will have a debuff that also significantly reduces their damage output.
+- **Tank Invulnerability**: Each tank has an ability that allows them to temporarily mitigate any amount of damage for a short period of time, these have a very long cooldown and work slightly differently for each tank job.
+- **Rescue**: Healers all have a rescue ability that allows them to pull a party member to their location. A good healer can use this to save another party member from a mistake or quickly reposition them for a mechanic.
+- **Gap Closers**: These are movement abilities that allow players to quickly close the gap between them and the boss. This is especially important for melee DPS jobs who need to be in range of the boss to deal damage.
+
 
 ### Reviewing your performance
 
@@ -296,15 +310,22 @@ FFLogs requires someone in the party to be using the ACT (Advanced Combat Tracke
 
 Understanding the games engine and combat system can have a large impact on you performance, here are a few key concepts to understand:
 
-- **GCD**: The Global Cooldown is the time it takes for your character to perform an action. Most jobs will run a GCD speed close to the default value of 2.5 seconds, however some jobs either have passive skills or use Skill Speed, Spell Speed or Food to lower this value. Understanding how the GCD works and how to optimize it is crucial for maximizing your damage output.
+- **GCD**: The Global Cooldown is the time it takes for your character to perform an action. Most jobs will run a GCD speed close to the default value of 2.5 seconds, however, some jobs either have passive skills or use Skill Speed, Spell Speed or Food to lower this value. Understanding how the GCD works and how to optimize it is crucial for maximizing your damage output.
 
-- **oGCD**: Off Global Cooldown abilities are abilities that do not trigger the GCD and can be used at any time. These abilities can be used to fill the gaps while you wait for the GCS to come back up. Using oGCD abilites between GCDs is called "**Weaving**" and is a key part of maximizing your damage output. You can typically fit 2 oGCDs in between each GCD, but this can vary depending on your job and the abilities you are using. This would be called "**Double Weaving**".
+- **oGCD**: Off Global Cooldown abilities are abilities that do not trigger the GCD and can be used at any time. These abilities can be used to fill the gaps while you wait for the GCS to come back up. Using oGCD abilities between GCDs is called "**Weaving**" and is a key part of maximizing your damage output. You can typically fit 2 oGCDs in between each GCD, but this can vary depending on your job and the abilities you are using. This would be called "**Double Weaving**".
 
-- **Queueing & Clipping**: The game allows you to queue up your next ability while the GCD is still on cooldown. This means you can press your next ability before the GCD is finished, and it will automatically trigger when the GCD is over. The queue window is about 0.5s before the end of the GCD cooldown. This is important for maintaining a smooth rotation and avoiding clipping. The queue is server-side which means that the ability occurs instantly after the GCD finishes which allows you to achieve zero downtime between abilities. Most abilities can be queued however some abilities cannot be queued and will require you to wait for the GCD to finish before using them. The delay that occurs after the GCD finishs and when the next input is registered on the server is called "**Clipping**" and can lead to a loss of damage if not managed properly.
+::: tip
+You will notice all skills in the game are labelled as "Weaponskill", "Spell" or "Ability".
+
+- **Weaponskills** and **Spells** are on the GCD
+- **Abilities** are oGCD.
+:::
+
+- **Queueing & Clipping**: The game allows you to queue up your next ability while the GCD is still on cooldown. This means you can press your next ability before the GCD is finished, and it will automatically trigger when the GCD is over. The queue window is about 0.5s before the end of the GCD cooldown. This is important for maintaining a smooth rotation and avoiding clipping. The queue is server-side which means that the ability occurs instantly after the GCD finishes which allows you to achieve zero downtime between abilities. Most abilities can be queued however some abilities cannot be queued and will require you to wait for the GCD to finish before using them. The delay that occurs after the GCD finishes and when the next input is registered on the server is called "**Clipping**" and can lead to a loss of damage if not managed properly.
 
 - **Snapshots**: Snapshots is a reference to how the game handles events from the server-side, the game bundles events together every few seconds and processes them as a batch. This can result in some unexpected behaviours when using certain abilites or most commonly when avoiding mechanics. You might visually avoid or dodge a mechanic before the visual indicator ends however if the game has already processed the event, you will still take damage.
 
-Some plugins can assist with common issues with latency and clipping. These can help greatly with tight DPS rotations when you have high ping or are on a low-end PC. These plugins are not required but can help with your performance.
+Some plugins can help with common issues with latency and clipping. These can help greatly with tight DPS rotations when you have high ping or are on a low-end PC. These plugins are not required but can help with your performance.
 
 - NoClippy: A plugin that helps with clipping issues by adjusting your GCD and ability timings. This can help you maintain a smoother rotation and avoid clipping abilities on high-latency connections.
 
@@ -439,7 +460,7 @@ Each raid type offers different types of loot.
 
 ### Weekly Savage Lockouts
 
-:::note
+::: tip NOTE
 Don't confuse this term with 'instance timer lockout.'
 :::
 
