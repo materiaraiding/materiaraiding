@@ -135,7 +135,7 @@ Prior to instancing into a raid, there are several things you need to prepare fo
 
 ### Gear and Melding
 
-If you are raiding at the beginning of a tier, you want to be wielding the newest crafted gear that is overmelded with 5 materia. You may have some pieces from the extreme / normal raid and as you obtain tome and raid gear you can replace the lower iLvl piece. You must always have all pieces of gear fully melded if you to enter a raid.
+If you are raiding at the beginning of a tier, you want to be wielding the newest crafted gear that is overmelded with 5 materia. You may have some pieces from the extreme / normal raid and as you obtain tome and raid gear you can replace the lower iLvl piece. You must ensure you gear is fully melded before joining a raid party in PF.
 
 [The Balance Discord](https://discord.com/invite/thebalanceffxiv) will provide you with information on your job's Week 1 BiS, as well as the final raid BiS.
 
@@ -247,7 +247,7 @@ Understanding the games engine and combat system can have a large impact on you 
 
 - **oGCD**: Off Global Cooldown abilities are abilities that do not trigger the GCD and can be used at any time. These abilities can be used to fill the gaps while you wait for the GCS to come back up. Using oGCD abilites between GCDs is called "**Weaving**" and is a key part of maximizing your damage output. You can typically fit 2 oGCDs in between each GCD, but this can vary depending on your job and the abilities you are using. This would be called "**Double Weaving**".
 
-- **Queueing & Clipping**: The game allows you to queue up your next ability while the GCD is still on cooldown. This means you can press your next ability before the GCD is finished, and it will automatically trigger when the GCD is over. The queue window is about 0.5s before the end of the GCD cooldown. This is important for maintaining a smooth rotation and avoiding clipping. The queue server-side which means that the ability occurs instantly after the GCD finishes which allows you to achieve zero downtime between abilities. Most abilities can be queued however some abilities cannot be queued and will require you to wait for the GCD to finish before using them. The delay that occurs after the GCD finishs and when the next input is registered on the server is called "**Clipping**" and can lead to a loss of damage if not managed properly.
+- **Queueing & Clipping**: The game allows you to queue up your next ability while the GCD is still on cooldown. This means you can press your next ability before the GCD is finished, and it will automatically trigger when the GCD is over. The queue window is about 0.5s before the end of the GCD cooldown. This is important for maintaining a smooth rotation and avoiding clipping. The queue is server-side which means that the ability occurs instantly after the GCD finishes which allows you to achieve zero downtime between abilities. Most abilities can be queued however some abilities cannot be queued and will require you to wait for the GCD to finish before using them. The delay that occurs after the GCD finishs and when the next input is registered on the server is called "**Clipping**" and can lead to a loss of damage if not managed properly.
 
 - **Snapshots**: Snapshots is a reference to how the game handles events from the server-side, the game bundles events together every few seconds and processes them as a batch. This can result in some unexpected behaviours when using certain abilites or most commonly when avoiding mechanics. You might visually avoid or dodge a mechanic before the visual indicator ends however if the game has already processed the event, you will still take damage.
 
@@ -280,7 +280,7 @@ Potions (Pots) will typically be used in line with the first burst window and th
 
 DPS checks are points in a fight where the party must deal a certain amount of damage or reach a certain boss health percentage within a specific time frame to avoid a wipe. These checks can be triggered by mechanics or boss abilities, and they often require the party to use their burst windows and potions effectively.
 
-The most common form of DPS check will be the enrage for a fight where the boss will enrage and wipe the party if they do not defeat the boss before to enrage. Ultimate fights will often have multiple DPS checks throughout the fight that must be met to progress through the fight or into the next phase.
+The most common form of DPS check will be the enrage for a fight where the boss will enrage and wipe the party if they do not defeat the boss before enrage. Ultimate fights will often have multiple DPS checks throughout the fight that must be met to progress through the fight or into the next phase.
 
 ### Mitigations (Mits)
 

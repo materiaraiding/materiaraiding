@@ -12,9 +12,8 @@ This guide is aimed to help raiders with **previous experience** in current Ulti
 
 You can also find parties and other like-minded raiders in our OCE raiding community servers:
 
-- [Materia Raiding Discord](https://discord.gg/EySn5dRj65)
-- [Materia Ultimate Raiding Discord](https://discord.gg/ArZz3b8PZV)
-
+<Action title='Materia Raiding Discord' color='blue' href='https://discord.gg/EySn5dRj65' />
+<Action title='Materia Ultimate Raiding Discord' color='blue' href='https://discord.gg/ArZz3b8PZV' />
 
 ## Raid Roles
 
@@ -60,10 +59,7 @@ You will often see macros shared in party chat when you get into your Party Find
 ## Savage
 Current Savage Tier raid resources are compiled on our Savage page, which you can find at the button below. This includes our Macros, Images and Toolboxes made for OCE specific strategies.
 
-- [M1S](/savage/m1s)
-- [M2S](/savage/m2s)
-- [M3S](/savage/m3s)
-- [M4S](/savage/m4s)
+<Action title='View all Savage Guides' color='purple' href='/savage' />
 
 ## UCOB
 

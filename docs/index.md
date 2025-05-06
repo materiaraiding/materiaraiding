@@ -15,6 +15,17 @@ hero:
   image:
     src: /images/materia-logo-large.webp
     alt: VitePress
+
+
+features:
+  - icon: 🌱
+    title: The Beginner's Guide to Raiding
+    details: A comprehensive guide to raiding in FFXIV for new players.
+    link: "/resources/beginnersguide"
+  - icon: ✈️
+    title: The Visitor's Guide to Materia Raiding
+    details: A complete guide for raiders visiting the Materia Datacenter.
+    link: "/resources/visitorsguide"
 ---
 
 <PageList/>
