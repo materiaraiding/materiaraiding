@@ -217,11 +217,11 @@ In smaller communities, bad behavior can lead to being blacklisted from future p
 
 After each raid, take some time to review your performance. This can help you identify areas where you can improve and become a better raider. Here are some tools you can use to review your performance:
 
-- **Stone, Sky and Sea**: This is a built-in tool in the game that allows you to review your damage performance against a dummy with similar checks to a savage raid fight. if you can kill it, use the time left on the encounter as a gauge of your damage. If you can't kill it, you might need to work on fixing your rotation and burst window usage. If you can effectively pass the SSS trials with plenty time to spare, you are likely ready to tackle the damage requirements for the fight.
+- **Stone, Sky and Sea**: This is a built-in tool in the game that allows you to review your damage performance against a dummy with similar checks to a savage raid fight. if you can kill it, use the time left on the encounter as a gauge of your damage. If you can't kill it, you might need to work on fixing your rotation and burst window usage. If you can effectively pass the SSS trials with plenty time to spare, you are likely ready to tackle the damage requirements for the fight. You can find out how to unlock this content [here](https://ffxiv.consolegameswiki.com/wiki/Stone,_Sky,_Sea).
 
 - **Record Yourself**: Recording your gameplay can help you identify areas where you can improve. You can use software like OBS or Shadowplay to record your gameplay and then review it later.
 
-- **The Balance**: The Balance Discord is a community of players who share information about job rotations, strategies, and performance analysis. You can ask for help with your rotation or performance in the individual job-specific question channels.
+- **The Balance**: [The Balance Discord](https://discord.com/invite/thebalanceffxiv) is a community of players who share information about job rotations, strategies, and performance analysis. You can ask for help with your rotation or performance in the individual job-specific question channels.
 
 ::: warning Third-Party Tools
 Some of these tools are considered third-party tools and may violate the Terms of Service of Final Fantasy XIV. Use them at your own discretion.
@@ -251,7 +251,6 @@ Understanding the games engine and combat system can have a large impact on you 
 
 - **Snapshots**: Snapshots is a reference to how the game handles events from the server-side, the game bundles events together every few seconds and processes them as a batch. This can result in some unexpected behaviours when using certain abilites or most commonly when avoiding mechanics. You might visually avoid or dodge a mechanic before the visual indicator ends however if the game has already processed the event, you will still take damage.
 
-
 Some plugins can assist with common issues with latency and clipping. These can help greatly with tight DPS rotations when you have high ping or are on a low-end PC. These plugins are not required but can help with your performance.
 
 - NoClippy: A plugin that helps with clipping issues by adjusting your GCD and ability timings. This can help you maintain a smoother rotation and avoid clipping abilities on high-latency connections.
@@ -275,7 +274,7 @@ To get the most damage out of your job, you may hold some cooldowns to ensure th
 
 2-minute burst windows may be deliberately delayed to align with downtime or other mechanics, it is important to communicate with your party about when these windows will occur.
 
-Pots will typically be used in line with the first burst window and the subsequent usages will be delayed to align with another burst window later in the fight, it is important to discuss this with your party to ensure these are used correctly. Most savage raids will get at least 2 pot windows, with some fights having 3. Ultimate fights are significantly longer and will have even more pot windows.
+Potions (Pots) will typically be used in line with the first burst window and the subsequent usages will be delayed to align with another burst window later in the fight, it is important to discuss this with your party to ensure these are used correctly. Most savage raids will get at least 2 pot windows, with some fights having 3. Ultimate fights are significantly longer and will have even more pot windows.
 
 ### DPS Checks & Enrage
 
