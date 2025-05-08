@@ -104,7 +104,7 @@ An instance will have a timer that will depend on the type of High-End Duty:
 - Savage 1-3/Chaotic/Criterion Normal: **90 Minutes**
 - Savage 4/Ultimate/Criterion Savage: **120 Minutes**
 
-At the end of the timer, the instance will close, and you will be returned to the open world. If you are in a party, you will be returned to the party leader's location. This will boot you from an instance even if you are in combat.
+At the end of the timer, the instance will close, and you will be returned to the open world. This will boot you from an instance even if you are in combat.
 
 Most groups refer to the full-timer duration as a "Lockout" and your static might say they are doing "2 lockouts" or "3 lockouts" of a fight. This means they are doing two or three full runs of the fight before calling it for the day.
 
@@ -116,7 +116,7 @@ The "lockout" terminology is also used for the weekly lockout of savage raids an
 
 Phases are used to describe portions of a fight that have different mechanics or require different strategies. Savage fights will usually only have one phase except the last fight of a tier, which will have two distinct phases. Ultimate raids will generally have 5-6 phases, with each phase being like a mini-savage in itself.
 
-Some raids will have a checkpoint where you can wipe and start future pulls from a later phase. These are most common in the last fight of a savage tier.
+Some raids will have a checkpoint where you can wipe and start future pulls from a later phase. These are most common in the last fight of a savage tier and are often referred to as "door bosses"
 
 Phases are helpful for breaking down a fight into manageable chunks and allow you to focus on one part of the fight at a time. This is especially useful for new players who may be overwhelmed by the number of mechanics in a fight.
 
@@ -141,27 +141,27 @@ Raid mechanics are the various abilities and attacks that bosses use during enco
 
 The glossary page has a list of common mechanics and descriptions, but we also suggest exploring the guides on this website to see some other examples of different mechanics.
 
-### Burst/Pot Windows & 2 Mins
+### Burst/Pot Windows "2 mins"
 
-Burst window is a term commonly used to refer to a period of time when the party aligns party buffs and cooldowns for maximum damage output. This is usually done at the start of a fight and at regular 2-minute intervals throughout the encounter. Some jobs will also have a 1-minute burst window, but these are generally handled automatically between the 2-minute windows.
+Burst window is a term commonly used to refer to a period of time when the party aligns party buffs and cooldowns for maximum damage output. This is usually done at the start of a fight and at regular **2-minute intervals** throughout the encounter. Some jobs will also have a 1-minute burst window, but these are generally handled automatically between the 2-minute windows.
 
 To get the most damage out of your job, you may hold some cooldowns to ensure they align for an upcoming burst window.
 
-2-minute burst windows may be deliberately delayed to align with downtime or other mechanics, it is important to communicate with your party about when these windows will occur.
+2-minute burst windows may be deliberately delayed to align with downtime or other mechanics, **it is important to communicate with your party about when these windows will occur**.
 
-Potions (Pots) will typically be used in line with the first burst window and the subsequent usages will be delayed to align with another burst window later in the fight, it is important to discuss this with your party to ensure these are used correctly. Most savage raids will get at least 2 pot windows, with some fights having 3. Ultimate fights are significantly longer and will have even more pot windows.
+Potions (Pots) are consumables that temporarily increase your stats and will typically be used in line with the first burst window and the later usages will be delayed to align with another burst window later in the fight. Most savage raids will get at least two pot windows, with some fights and ultimates having three or more.
 
 ### Mitigations (Mits)
 
-Damage mitigation is a crucial aspect of high-end raiding, as it helps reduce the amount of damage taken by the party during encounters. This can be achieved through various means, including:
+Damage mitigation is a crucial aspect of high-end raiding, as it helps reduce the amount of damage taken by the party during encounters and to survive certain mechanics.
 
-- **Tank cooldowns**: Tanks have a variety of abilities that can reduce damage taken by themselves and the party. These should be used strategically during high-damage phases or mechanics. Tanks will also need to coordinate their mitigations to deal with tank busters and other mechanics that require them to take significant damage.
+- **Tank mits**: Tanks have a variety of abilities that can reduce damage taken by themselves and the party. Tanks will also need to coordinate their mitigations to deal with tank busters and other mechanics that require them to take significant damage alone.
 
-- **Healer cooldowns**: Healers have abilities that can mitigate damage for the party, such as shields or damage reduction cooldowns. These should be used in conjunction with tank cooldowns to ensure the party stays alive during difficult mechanics. Shield healers have the most defensive mitigations but all healers have some tools to help mitigate damage.
+- **Healer mits**: Healers have a number of raid-wide and targeted mitigations. Shield healers have the most options here, but all healers have some form of mit that can help the party.
 
-- **DPS cooldowns**: DPS roles have a number of targeted and party-wide mitigations such as Feint, Addle and other job specific abilities, these should be rotated through the fight to help reduce overall damage taken by the party. Communication is key to ensure that these are used effectively and to avoid waste and overlapping.
+- **DPS mits**: DPS roles have a number of targeted and party-wide mitigations such as Feint, Addle and other job-specific abilities, these should be rotated through the fight to help reduce overall damage taken by the party. DPS mits are usually targeted at a foe and reduce the damage dealt rather than the damage taken.
 
-- **Personal Defensives (Personals)**: Many jobs have personal defensive abilities that can be used to reduce damage taken. These should be used during high-damage phases or mechanics to help keep the player alive and reduce healer workload. Do not be afraid to use these, they are there to help you survive and keep the party alive. Your healers will appreciate it.
+- **Personal Defensives (Personals)**: Many jobs have personal defensive abilities that can be used to reduce individual damage taken. These should be used during high-damage phases or mechanics to help keep the player alive and reduce healer workload. Do not be afraid to use these, they are there to help you survive and keep the party alive. Your healers will appreciate it.
 
 A Mit-plan is a plan that outlines when and how to use damage mitigation abilities during a fight. This can help ensure that the party is prepared for high-damage phases and can survive difficult mechanics. This can vary greatly with party composition and the fight itself, so it is important to discuss this with your party before the fight begins.
 
@@ -386,9 +386,9 @@ If you begin raiding later in the tier, as long as you are fully melded with cur
 
 ### Consumables
 
-You must have current high quality food up and running during a raid. Food buffs give you extra health and a boost in 2 specific stats - they last 30 minutes (40 with FC buffs and 45 with a manual). The ideal food for your job is information available on The Balance Discord.
+You must have current high-quality food up and running during a raid. Food buffs give you extra health and a boost in 2 specific stats - they last 30 minutes (40 with FC buffs and 45 with a manual). The ideal food for your job is information available on The Balance Discord.
 
-You must also carry current high quality potions with you. For extreme and savage, you are not expected to use them during early prog and can save them for final mech prog / A2C / reclears. For ultimates, especially on-content encounters, it is expected that pots are used even during prog at specific points to meet a phase's DPS check. Individual encounters may have unique pot windows but in general, use them when available at the beginning of a 2-minute burst window.
+You must also carry current high-quality potions with you. For extreme and savage, you are not expected to use them during early prog and can save them for final mech prog / A2C / reclears. For ultimates, especially on-content encounters, it is expected that pots are used even during prog at specific points to meet a phase's DPS check. Individual encounters may have unique pot windows but in general, use them when available at the beginning of a 2-minute burst window. At the time of writing, the current pots are called "Grade 3 Gemdraught of X" and can be crafted by alchemists or bought from the market board.
 
 **People can see if you are not using your consumables so don't try to get away with this.**
 
@@ -396,7 +396,7 @@ You can craft these consumables yourself, have someone else craft them for you o
 
 ### Studying
 
-If there are resources available and agreed strategies to solve mechanics for a particular encounter, it is paramount to be familiar with them before instancing into the encounter. Of course, it is normal to make mistakes while practicing physically executing the mechanic, but do not come into raid without having idea what you are supposed to do.
+If there are resources available and agreed strategies to solve mechanics for a particular encounter, it is paramount to be familiar with them before instancing into the encounter. Of course, it is normal to make mistakes while practicing physically executing the mechanic, but do not come into raid without having an idea what you are supposed to do.
 
 Your static may provide you with the resources you need for studying, but many statics try to match PF strategies for compatability. For PF strategies, the [Materia Raiding Website](https://materiaraiding.com/) has resources including raidplans / toolboxes (visual diagrams of how to resolve a mechanic).
 
@@ -430,7 +430,12 @@ A static might follow the regions standard strats or may use their own developed
 A static is generally considered the **fastest way to clear a tier** and can also guarantee you will get all the loot you need eventually as your team can target loot to players strategically.
 
 ::: tip
-The best way to find a static is to join your regions party-finder discord servers, for example, we have the [Materia Raiding Discord](https://discord.gg/EySn5dRj65) for the Materia Datacenter.
+The best way to find a static is to join your regions party-finder discord servers.
+
+For Materia Players, use the [Materia Raiding Discord](https://discord.gg/EySn5dRj65) and check the following channels:
+
+- **#looking-for-members**: Groups that are advertising open spots for members to join.
+- **#looking-for-group**: Players advertising they are looking for a static to join.
 :::
 
 #### Managing expectations
@@ -441,7 +446,7 @@ Statics often fall apart when groups don't communicate the expectations properly
 
 ### Party Finder
 
-Party Finder can be a useful tool for finding a group, depending on your region. It allows you to recruit additional players to complete your party or join an existing group for specific content. This system is a great way to participate in raids without committing to a fixed schedule like a static group.
+Party Finde is an in-game tool that can be a useful tool for finding a group, depending on your region. Party finder lets you advertise a party for a specific duty, and players can join your party if they meet the requirements. This is a great way to find groups for high-end content if you are looking for a more casual experience.
 
 To find the right group, it is important to understand the terminology that is often used for Party Finder listings:
 
@@ -457,13 +462,13 @@ To find the right group, it is important to understand the terminology that is o
 | **MR Strat**       | This group is using strats specifically from "Materia Raiding" community, this might be replaced with other strat names                                                                 |
 | **3x runs**        | This group is looking to kill the boss a certain number of times to farm loot, often seen with extreme trials                                                                           |
 
-::: danger DON'T
-Avoid joining a party for content you haven't progressed to yet, as joining groups beyond your current prog point may disrupt others' time and could harm your reputation within the raiding community.
+::: danger WARNING
+Do not join a party for content you have not progressed up to yet, joining groups beyond your current prog point will inevitably cause unnecessary wipes, waste others' time and could harm your reputation within the raiding community.
 :::
 
 ## Rewards
 
-Many loot rewards from various battle content have weekly limits. For reference, these weekly limits reset every Tuesday UTC+00:00 (18:00 AEST | 19:00 AEDT). You can check the "Battle Tab" in your currency interface in-game to see the exact time till the next reset converted to your timezone:
+Many loot rewards from various battle content have weekly limits. For reference, these weekly limits reset every **Tuesday UTC+00:00** (18:00 AEST | 19:00 AEDT). You can check the "Battle Tab" in your currency interface in-game to see the exact time till the next reset converted to your timezone:
 
 ![](/images/beginnersguide-reset.webp)
 
