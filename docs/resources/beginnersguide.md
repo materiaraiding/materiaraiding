@@ -38,7 +38,7 @@ High-End Duty content in Final Fantasy XIV refers to the most challenging instan
 
 - **Criterion Dungeons**^: High-difficulty dungeon content with unique mechanics and a savage mode for special cosmetics.
 
-- **Ultimate Raids**: The pinnacle of difficulty in FF14 raiding, extra-long boss roulettes requiring precision, practice and persistence.
+- **Ultimate Raids**: The pinnacle of difficulty in FF14 raiding, extra-long boss roulettes requiring precision, practice, and persistence.
 
 These duties typically release in cycles alongside major patches and expansions, offering powerful gear, titles, and cosmetic rewards. 
 Players can tackle them via Party Finder or by joining a Static Group, which is a dedicated team that regularly raids together.
@@ -46,7 +46,7 @@ Players can tackle them via Party Finder or by joining a Static Group, which is 
 ::: tip
 If you are a new player who has never taken part in High-End Duty, we recommend starting with **Extreme** as this is the best entry point to learn new systems and mechanics in a lower-stress environment.
 
-Extreme trials will introduce you to basics of party roles, mechanics and the terminology used in raiding. This will give you a taste of what to expect in Savage and Ultimate raiding.
+Extreme trials will introduce you to the basics of party roles, mechanics, and the terminology used in raiding. This will give you a taste of what to expect in Savage and Ultimate raiding.
 :::
 
 ::: warning
@@ -67,18 +67,18 @@ High-End Duty content in Final Fantasy XIV follows a structured release cycle ti
 | Criterion Dungeons | Added in mid-patches, offering a fresh challenge between major content updates. Unpredictable as they were only recently added in Endwalker. |
 | Unreal Trials | Updated periodically with most major patches, replacing older trials with revamped versions. |
 
-Savage Raids are the core of FF14 Raiding and release in three sets of four, known as **Tiers**. Each released on patch x.0, x.2 and x.4. Each Tier is made up of four Trial-like fights where you face off against a single boss.
+Savage Raids are the core of FF14 Raiding and release in three sets of four, known as **Tiers**. Each released on patch x.0, x.2, and x.4. Each Tier is made up of four Trial-like fights where you face off against a single boss.
 
 ::: tip SAVAGE NAMING
-The FF14 community names savage fights using a **3-part naming scheme**. The prefix letter is unqiue to the Expansion Tier, the number refers to boss order from 1-12 and the last letter is always "S" for savage.
+The FF14 community names savage fights using a **3-part naming scheme**. The prefix letter is unqiue to the Expansion Tier, the number refers to boss order from 1 to 12 and the last letter is always "S" for savage.
 
 For example, the first fight in the Endwalker expansion is called "Pandaemonium: Asphodelos - The First Circle (Savage)" or "**P1S**". The second fight is called "**P2S**" and so on.
 :::
 
 ::: tip PATCH NUMBERS
-FF14 patch numbers are formatted as x.yz where x is the expansion number, y is the major patch number and z is the minor patch number. For example, 6.4 was the fourth major patch of the Endwalker expansion. While 6.45 came out a few weeks later with extra content and some minor adjustments.
+FF14 patch numbers are formatted as x.yz where x is the expansion number, y is the major patch number, and z is the minor patch number. For example, 6.4 was the fourth major patch of the Endwalker expansion. While 6.45 came out a few weeks later with extra content and some minor adjustments.
 
-Major patches are released every 3-4 months and contain new content, story and features. Minor patches are released every few weeks after a major patch to stagger the major patch content out over the patch cycle.
+Major patches are released every 3–4 months and contain new content, story, and features. Minor patches are released every few weeks after a major patch to stagger the major patch content out over the patch cycle.
 :::
 
 ### Rewards
@@ -94,7 +94,7 @@ Instances are the areas where you will be doing your High-End Duties. These are 
 An instance will have a timer that will depend on the type of High-End Duty:
 
 - Extreme/Unreal: **60 Minutes**
-- Savage 1-3/Chaotic/Criterion Normal: **90 Minutes**
+- Savage 1–3/Chaotic/Criterion Normal: **90 Minutes**
 - Savage 4/Ultimate/Criterion Savage: **120 Minutes**
 
 At the end of the timer, the instance will close, and you will be returned to the open world. This will boot you from an instance even if you are in combat.
@@ -107,7 +107,7 @@ The "lockout" terminology is also used for the weekly lockout of savage raids an
 
 ### Phases
 
-Phases are used to describe portions of a fight that have different mechanics or require different strategies. Savage fights will usually only have one phase except the last fight of a tier, which will have two distinct phases. Ultimate raids will generally have 5-6 phases, with each phase being like a mini-savage in itself.
+Phases are used to describe portions of a fight that have different mechanics or require different strategies. Savage fights will usually only have one phase except the last fight of a tier, which will have two distinct phases. Ultimate raids will generally have 5–6 phases, with each phase being like a mini-savage in itself.
 
 Some raids will have a checkpoint where you can wipe and start future pulls from a later phase. These are most common in the last fight of a savage tier and are often referred to as "door bosses"
 
@@ -152,7 +152,7 @@ Damage mitigation is a crucial aspect of high-end raiding, as it helps reduce th
 
 - **Healer mits**: Healers have a number of raid-wide and targeted mitigations. Shield healers have the most options here, but all healers have some form of mit that can help the party.
 
-- **DPS mits**: DPS roles have a number of targeted and party-wide mitigations such as Feint, Addle and other job-specific abilities, these should be rotated through the fight to help reduce overall damage taken by the party. DPS mits are usually targeted at a foe and reduce the damage dealt rather than the damage taken.
+- **DPS mits**: DPS roles have a number of targeted and party-wide mitigations such as Feint, Addle, and other job-specific abilities, these should be rotated through the fight to help reduce overall damage taken by the party. DPS mits are usually targeted at a foe and reduce the damage dealt rather than the damage taken.
 
 - **Personal Defensives (Personals)**: Many jobs have personal defensive abilities that can be used to reduce individual damage taken. These should be used during high-damage phases or mechanics to help keep the player alive and reduce healer workload. Do not be afraid to use these, they are there to help you survive and keep the party alive. Your healers will appreciate it.
 
@@ -218,7 +218,7 @@ Beware there are variations of these positions for some fights due to specific m
 
 #### Color Partners
 
-As an extension of clock spots, color partners are a way to describe the position of players in relation to each other. This is often used in mechanics where players need to spread out or stack together. The default color partners are based on you clock spots and the waymarks which are in the same positions (colors).
+As an extension of clock spots, color partners are a way to describe the position of players in relation to each other. This is often used in mechanics where players need to spread out or stack together. The default color partners are based on your clock spots and the waymarks which are in the same positions (colors).
 
 As per the image above, you will notice H1 and D1 are both in line with the Purple waymarks, this means they are color partners and will use these pairs for various mechanics.
 
@@ -230,7 +230,7 @@ As per the image above, you will notice H1 and D1 are both in line with the Purp
 
 ## How to be a good Raider
 
-Being a good raider is not just about knowing your job and mechanics, but also about being a good team player. This topic will get into some more advanced concepts, terminology and tips that will help you become a better raider.
+Being a good raider is not just about knowing your job and mechanics, but also about being a good team player. This topic will get into some more advanced concepts, terminology, and tips that will help you become a better raider.
 
 ### Raid Etiquette
 
@@ -276,11 +276,11 @@ This image shows an example of the slide-cast window, moving when the cast is wi
 
 #### Rotation and Burst Windows
 
-Your rotation is made up of three components: your opener, your core rotation and your burst window. The opener is the order of actions and cooldowns you will use from the beginning of the fight, while the core rotation is the order of abilities you will use throughout the fight.
+Your rotation is made up of three components: your opener, your core rotation, and your burst window. The opener is the order of actions and cooldowns you will use from the beginning of the fight, while the core rotation is the order of abilities you will use throughout the fight.
 
 Your burst windows are the periods of time when you will use your abilities and cooldowns to maximize your damage output. These are usually aligned with the party's burst windows and are generally on a 2-minute cycle from the start of the fight.
 
-The best resource for learning your job is the [The Balance Discord](https://discord.com/invite/thebalanceffxiv). This is a community of players who share information about job rotations, openers, and performance analysis. Here you will find comprehensive guides for all jobs and their rotations.
+The best resource for learning your job is [The Balance Discord](https://discord.com/invite/thebalanceffxiv). This is a community of players who share information about job rotations, openers, and performance analysis. Here you will find comprehensive guides for all jobs and their rotations.
 
 <Action title='Visit the Balance' color='yellow' href='https://www.thebalanceffxiv.com/' />``
 
@@ -298,7 +298,7 @@ Certain jobs have utility abilities that can be used to help the party or themse
 
 After each raid, take some time to review your performance. This can help you identify areas where you can improve and become a better raider. Here are some tools you can use to review your performance:
 
-- **Stone, Sky and Sea**: This is a built-in tool in the game that allows you to review your damage performance against a dummy with similar checks to a savage raid fight. if you can kill it, use the time left on the encounter as a gauge of your damage. If you can't kill it, you might need to work on fixing your rotation and burst window usage. If you can effectively pass the SSS trials with plenty time to spare, you are likely ready to tackle the damage requirements for the fight. You can find out how to unlock this content [here](https://ffxiv.consolegameswiki.com/wiki/Stone,_Sky,_Sea).
+- **Stone, Sky and Sea**: This is a built-in tool in the game that allows you to review your damage performance against a target dummy with similar checks to a savage raid fight. if you can kill it, use the time left on the encounter as a gauge of your damage. If you can't kill it, you might need to work on fixing your rotation and burst window usage. If you can effectively pass the SSS trials with plenty time to spare, you are likely ready to tackle the damage requirements for the fight. You can find out how to unlock this content [here](https://ffxiv.consolegameswiki.com/wiki/Stone,_Sky,_Sea).
 
 - **Record Yourself**: Recording your gameplay can help you identify areas where you can improve. You can use software like OBS or Shadowplay to record your gameplay and then review it later.
 
@@ -324,7 +324,7 @@ FFLogs requires someone in the party to be using the ACT (Advanced Combat Tracke
 
 Understanding the games' engine and combat system can have a large impact on your performance; 
 
-- **GCD**: The Global Cooldown is the time it takes for your character to perform an action. Most jobs will run a GCD speed close to the default value of 2.5 seconds, however, some jobs either have passive skills or use Skill Speed, Spell Speed or Food to lower this value. Understanding how the GCD works and how to optimize it is crucial for maximizing your damage output.
+- **GCD**: The Global Cooldown is the time it takes for your character to perform an action. Most jobs will run a GCD speed close to the default value of 2.5 seconds, however, some jobs either have passive skills or use Skill Speed, Spell Speed, or Food to lower this value. Understanding how the GCD works and how to optimize it is crucial for maximizing your damage output.
 
 - **oGCD**: Off Global Cooldown abilities are abilities that do not trigger the GCD and can be used at any time. These abilities can be used to fill the gaps while you wait for the GCS to come back up. Using oGCD abilities between GCDs is called "**Weaving**" and is a key part of maximizing your damage output. You can typically fit 2 oGCDs in between each GCD, but this can vary depending on your job and the abilities you are using. This would be called "**Double Weaving**".
 
@@ -335,9 +335,9 @@ You will notice all skills in the game are labelled as "Weaponskill", "Spell" or
 - **Abilities** are oGCD.
 :::
 
-- **Queueing & Clipping**: The game allows you to queue up your next ability while the GCD is still on cooldown. This means you can press your next ability before the GCD is finished, and it will automatically trigger when the GCD is over. The queue window is about 0.5s before the end of the GCD cooldown. This is important for maintaining a smooth rotation and avoiding clipping. The queue is server-side which means that the ability occurs instantly after the GCD finishes which allows you to achieve zero downtime between abilities. Most abilities can be queued however some abilities cannot be queued and will require you to wait for the GCD to finish before using them. The delay that occurs after the GCD finishes and when the next input is registered on the server is called "**Clipping**" and can lead to a loss of damage if not managed properly.
+- **Queueing & Clipping**: The game allows you to queue up your next ability while the GCD is still on cooldown. This means you can press your next ability before the GCD is finished, and it will automatically trigger when the GCD is over. The queue window is about 0.5s before the end of the GCD cooldown. This is important for maintaining a smooth rotation and avoiding clipping. The queue is server-side, which means that the ability occurs instantly after the GCD finishes which allows you to achieve zero downtime between abilities. Most abilities can be queued, however, some abilities cannot be queued and will require you to wait for the GCD to finish before using them. The delay that occurs after the GCD finishes and when the next input is registered on the server is called "**Clipping**" and can lead to a loss of damage if not managed properly.
 
-- **Snapshots**: Snapshots is a reference to how the game handles events from the server-side, the game bundles events together every few seconds and processes them as a batch. This can result in some unexpected behaviours when using certain abilites or most commonly when avoiding mechanics. You might visually avoid or dodge a mechanic before the visual indicator ends however if the game has already processed the event, you will still take damage.
+- **Snapshots**: Snapshots are a reference to how the game handles events from the server-side, the game bundles events together every few seconds and processes them as a batch. This can result in some unexpected behaviours when using certain abilites or most commonly when avoiding mechanics. You might visually avoid or dodge a mechanic before the visual indicator ends however if the game has already processed the event, you will still take damage.
 
 Some plugins can help with common issues with latency and clipping. These can help greatly with tight DPS rotations when you have high ping or are on a low-end PC. These plugins are not required but can help with your performance.
 
@@ -345,11 +345,11 @@ Some plugins can help with common issues with latency and clipping. These can he
 
 ## Preparation
 
-Prior to instancing into a raid, there are several things you need to prepare for - gear, consumables, knowing your class's general rotation and studying for the encounter you intend to do (unless you have joined a "blind" PF or static).
+Prior to instancing into a raid, there are several things you need to prepare for - gear, consumables, knowing your class's general rotation, and studying for the encounter you intend to do (unless you have joined a "blind" PF or static).
 
 ### Gear and Melding
 
-If you are raiding at the beginning of a tier, you want to be wielding the newest crafted gear that is overmelded with 5 materia. You may have some pieces from the extreme / normal raid and as you obtain tome and raid gear you can replace the lower iLvl piece. You must ensure you gear is fully melded before joining a raid party in PF.
+If you are raiding at the beginning of a tier, you want to be wielding the newest crafted gear that is overmelded with 5 materia. You may have some pieces from the extreme / normal raid, and as you obtain tome and raid gear you can replace the lower iLvl piece. You must ensure your gear is fully melded before joining a raid party in PF.
 
 [The Balance Discord](https://discord.com/invite/thebalanceffxiv) will provide you with information on your job's Week 1 BiS, as well as the final raid BiS.
 
@@ -357,9 +357,9 @@ If you are raiding at the beginning of a tier, you want to be wielding the newes
 BiS or Best-In-Slot gear is the best possible gear you can obtain for your job at a given time. This is usually determined by the community and is often updated with new patches. There are typically multiple BiS sets for a job, depending on the player's preferred GCD timing.
 :::
 
-To obtain crafted gear: you can craft it yourself, buy it off the Market Board or have someone else craft it for you.
+To obtain crafted gear: you can craft it yourself, buy it off the Market Board, or have someone else craft it for you.
 
-Overmelding is a process that allows you to add additional materia to your gear beyond the normal limit of 2 and is only available for crafted gear. This is important for maximizing your stats and performance in high-end content for early prog. The first 2 meld slots are guaranteed, but the 3rd, 4th and 5th slots are not guaranteed and can fail.
+Overmelding is a process that allows you to add additional materia to your gear beyond the normal limit of 2 and is only available for crafted gear. This is important for maximizing your stats and performance in high-end content for early prog. The first 2 meld slots are guaranteed, but the 3rd, 4th, and 5th slots are not guaranteed and can fail.
 
 To overmeld your gear:
 - You must have 1 Disciple of the Hand (crafter) job at max level as this allows you to meld your own gear.
@@ -369,7 +369,7 @@ OR
 
 - You can borrow the services of a crafter who has already unlocked overmelding themselves. Be sure to give them a tip for their time and effort.
 
-As overmelding gear is a gambling process, you will need a lot of materia. Regularly attending A rank hunt trains (which you can track in the [Faloop Discord](https://discord.com/invite/faloop)) is the best way to obtain clusters (which you exchange for materia). Otherwise, your other immediate option is to buy them from the Market Board which becomes expensive very quickly.
+As overmelding gear is a gambling process, you will need a lot of materia. Regularly attending A rank hunt trains (which you can track in the [Faloop Discord](https://discord.com/invite/faloop)) is the best way to obtain clusters (which you exchange for materia). Otherwise, your other immediate option is to buy them from the Market Board, which becomes expensive very quickly.
 
 If for some reason you absolutely cannot achieve Week 1 BiS and intend on doing early prog:
 - If you are in a static, let them know. How they choose to handle that is up to the static.
@@ -410,7 +410,7 @@ There are two ways you can get a party together for High-End Duty content.
 - **Form a Static**: A group of players who raid together on a regular schedule with the same roster.
 - **Use Party Finder**: Temporary improvised parties formed using the in-game party finder tool.
 
-There are pros and cons to both approaches; this will ultimately depend on your own availability, commitment and goals.
+There are pros and cons to both approaches; this will ultimately depend on your own availability, commitment, and goals.
 
 ### What is a Static?
 
@@ -433,7 +433,7 @@ For Materia Players, use the [Materia Raiding Discord](https://discord.gg/EySn5d
 
 #### Managing expectations
 
-When setting up a Static, the most important thing to do is to ensure all members have the same expectations for the party. Static groups are generally classified as either Casual, Midcore or Hardcore groups, with vastly different expectations of time commitment, skill level, and work.
+When setting up a Static, the most important thing to do is to ensure all members have the same expectations for the party. Static groups are generally classified as either Casual, Midcore, or Hardcore groups, with vastly different expectations of time commitment, skill level, and work.
 
 Statics often fall apart when groups don't communicate the expectations properly beforehand.
 
@@ -491,7 +491,7 @@ When you clear a savage raid boss, your party will recieve a number of loot item
 
 Each player character is **eligible for loot once per week per savage boss**. You can repeat the fight as many times as you like, but **you will reduce the amount of loot that drops for the party,** and you are ineligible to receive any loot after your first kill of the week.
 
-You should aim to clear each boss with a full party of **8 eligible players to maximize loot**.
+You should aim to clear each boss with a full party of **8 eligible players to maximise loot**.
 
 You will also receive one **"book"** per week for each boss you kill regardless of lockout. Multiple books can be exchanged for a raid drop of your choice from a vendor in one of the expansion cities.
 
@@ -515,7 +515,7 @@ If you are in a PF and successfully clear a fight, there are 2 main ways to assi
 ## Other Resources & Tools
 
 - [Materia Raiding](https://materiaraiding.com/) - The home of Materia Datacenter strats and resources for raiding in Oceanic.
-- [The Balance](https://www.thebalanceffxiv.com/) - Comprehensive guides for all jobs, rotations, openers and BiS info.
+- [The Balance](https://www.thebalanceffxiv.com/) - Comprehensive guides for all jobs, rotations, openers, and BiS info.
 - [FFLogs](https://www.fflogs.com/) - A tool for analyzing raid performance and logs. This is a great way to see how you are performing in raids and where you can improve.
 - [XIVanalysis](https://xivanalysis.com/) - A tool for analyzing your performance in raids by reviewing your logs.
 - [Raidplan](https://raidplan.io/ffxiv) - A tool for creating and sharing visual raid plans and strategies.
