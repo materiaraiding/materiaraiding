@@ -8,7 +8,7 @@ description: A comprehensive guide to raiding in FFXIV, covering the fundamental
 
 # The Beginners Guide to Raiding
 
-This guide is intended to introduce you to the fundamentals of High-End Duty content in FF14 and is intended for new players who are interested in trying out harder content.
+This guide is intended to introduce you to the fundamentals of High-End Duty content in FFXIV and is intended for new players who are interested in trying out harder content.
 
 ### Quick Links
 
@@ -36,9 +36,9 @@ High-End Duty content in Final Fantasy XIV refers to the most challenging instan
 
 - <span style="font-weight: 600; color: var(--color-savage)">Savage Raids:</span> Challenging versions of normal raids with complex mechanics and strict execution requirements.
 
-- <span style="font-weight: 600; color: var(--color-criterion)">Criterion Dungeons^:</span> High-difficulty dungeon content with unique mechanics and a savage mode for special cosmetics.
+- <span style="font-weight: 600; color: var(--color-criterion)">Criterion Dungeons:</span> High-difficulty dungeon content with unique mechanics and a savage mode for special cosmetics.
 
-- <span class="ultimate-text">Ultimate Raids:</span> The pinnacle of difficulty in FF14 raiding, extra-long boss roulettes requiring precision, practice, and persistence.
+- <span class="ultimate-text">Ultimate Raids:</span> The pinnacle of difficulty in FFXIV raiding, extra-long boss roulettes requiring precision, practice, and persistence.
 
 These duties typically release in cycles alongside major patches and expansions, offering powerful gear, titles, and cosmetic rewards. 
 Players can tackle them via Party Finder or by joining a Static Group, which is a dedicated team that regularly raids together.
@@ -53,39 +53,43 @@ Extreme trials will introduce you to the basics of party roles, mechanics, and t
 As Unreal Trials and Chaotic Raids are generally more seasonal events, these are usually not considered an entry-point for new players getting into raiding and can be heavily cheesed.
 :::
 
-> ^Criterion Dungeons are not strictly raid content but function similarly to Savage Raids. They are designed for four players and have a normal and savage mode. The savage mode is considered high-end content and is similar in difficulty to Savage Raids.
+> Criterion Dungeons are not strictly raid content but function similarly to Savage Raids. They are designed for four players and have a normal and savage mode. The savage mode is considered high-end content and is similar in difficulty to Savage Raids.
 
 ### Release Cycle
 
-High-End Duty content in Final Fantasy XIV follows a structured release cycle tied to major patches and expansions. Here's how it typically works:
+High-End Duty content in FFXIV follows a structured release cycle tied to major patches and expansions. Here's how it typically works:
 
 | Content Type   | Release Cycle                                                                                                        |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
-| Savage Raids   | Released two weeks after a new expansion or major patch, allowing players time to complete the normal version first. |
 | Extreme Trials | Usually launched on day one of an expansion or major patch as these are tied to MSQ releases.                        |
-| Ultimate Raids | Introduced several months after an expansion or major patch, Typically two ultimates will release per expansion.     |
+| Savage Raids   | Released two weeks after a new expansion or major patch, allowing players time to complete the normal version first. |
+| Ultimate Raids | Introduced several months after an expansion or major patch. Typically two ultimates will release per expansion.     |
 | Criterion Dungeons | Added in mid-patches, offering a fresh challenge between major content updates. Unpredictable as they were only recently added in Endwalker. |
 | Unreal Trials | Updated periodically with most major patches, replacing older trials with revamped versions. |
 
-Savage Raids are the core of FF14 Raiding and release in three sets of four, known as **Tiers**. Each released on patch x.0, x.2, and x.4. Each Tier is made up of four Trial-like fights where you face off against a single boss.
-
-::: tip SAVAGE NAMING
-The FF14 community names savage fights using a **3-part naming scheme**. The prefix letter is unqiue to the Expansion Tier, the number refers to boss order from 1 to 12 and the last letter is always "S" for savage.
-
-For example, the first fight in the Endwalker expansion is called "Pandaemonium: Asphodelos - The First Circle (Savage)" or "**P1S**". The second fight is called "**P2S**" and so on.
-:::
+Savage Raids are the core of FFXIV Raiding and release in three sets of four, known as **Tiers**. Each released on patch x.0, x.2, and x.4. Each Tier is made up of four Trial-like fights where you face off against a single boss.
 
 ::: tip PATCH NUMBERS
-FF14 patch numbers are formatted as x.yz where x is the expansion number, y is the major patch number, and z is the minor patch number. For example, 6.4 was the fourth major patch of the Endwalker expansion. While 6.45 came out a few weeks later with extra content and some minor adjustments.
+FFXIV patch numbers are formatted as x.yz where x is the expansion number, y is the major patch number, and z is the minor patch number. For example, 6.4 was the fourth major patch of the Endwalker expansion, while 6.45 came out a few weeks later with extra content and some minor adjustments.
 
 Major patches are released every 3–4 months and contain new content, story, and features. Minor patches are released every few weeks after a major patch to stagger the major patch content out over the patch cycle.
 :::
 
 ### Rewards
 
-High-End Duties in Final Fantasy XIV offer a variety of cosmetic and gear rewards depending on the type of content. You will find a detailed breakdown of the rewards for each type of content towards the [end of this guide](#rewards-1).
+High-End Duties in FFXIV offer a variety of cosmetic and gear rewards depending on the content type. You will find a breakdown of the rewards for each type towards the [end of this guide](#rewards-1).
 
 ## Raiding Concepts
+
+### Encounter Naming Convention
+
+The FFXIV community generally will not use the full name of an encounter to refer to it and have abbreviations for simplicity.
+
+For current expansion **Extremes**, they are numbered based on the order of release. So, the first Extreme Trial of an expansion would be **EX1**, the next **EX2**, and so on. For older expansions, they are generally referred to as \<boss name> EX.
+
+Normal and Savage Raid fights use a **3-part naming scheme**. The first is a letter unique to the expansion tier, the second part is a number referring to the boss order from 1 to 12 and the last part is either "N" for normal or "S" for savage. For example, the first savage fight in the Endwalker expansion's full name is "Pandaemonium: Asphodelos - The First Circle (Savage)." We shorten this to "**P1S**". The second savage fight is called "**P2S,**" and so on.
+
+Ultimate Raid and Criterion Dungeon names are abbreviated based on the actual full name of the encounter. For example, the Ultimate Raid "**T**he **E**pic of **A**lexander" is referred to as **TEA**, while the Criterion Dungeon "**A**nother **S**il'dihn **S**ubterrane" is abbreviated to **ASS**.
 
 ### Mechanics
 
@@ -94,17 +98,15 @@ Raid mechanics are the various abilities and attacks that bosses use during enco
 | **Abbreviation**      | **Description** |
 |------------------------|-----------------|
 | **AoE**               | "Area-of-Effect" is a term often used to describe any mechanic or ability that impacts multiple enemies or players within a defined area. |
-| **Stack/Soak**        | "Stack" or "Soak" refers to a mechanic that necessitates the party or a specific number of players to gather together in close proximity to share the damage inflicted by an attack or ability. |
-| **Spread**            | "Spread" signifies a mechanic that requires party members to disperse and position themselves apart from each other to prevent overlapping damage or adverse effects. |
-| **Telegraph/Broadcast** | "Telegraph" or "Broadcast" is a term used to describe the visual indicators displayed before a mechanic or ability activates. These indicators can include orange circles or lines on the ground, markers above player or enemy heads, or any other visual cue that signals an impending action. In more challenging content like Ultimates, some mechanics may not telegraph, necessitating players to rely on other cues such as cast bars. |
+| **Stack/Soak**        | "Stack" or "Soak" refers to a mechanic that requires the party or a certain number of players to gather together in close proximity to share damage inflicted by an attack or ability. |
+| **Spread**            | "Spread" signifies a mechanic that requires party members to spread themselves apart from each other to prevent overlapping damage or adverse effects. |
+| **Telegraph** | "Telegraph" is a term used to describe visual indicators displayed before a mechanic or ability resolves. These indicators can include orange circles, lines on the ground, markers above player or enemy heads and any other visual cue that indicates an impending action. In more challenging content like Ultimates, some mechanics may not telegraph, meaning players have to rely on other cues such as the enemy's cast bar. |
 | **PB-AoE**            | "Point-Blank Area-of-Effect" typically denotes an enemy ability that generates a significant AoE damage area centered directly on the enemy itself. |
-| **Chariot**           | "Chariot" describes a large circular AoE effect that encompasses the boss's immediate vicinity. |
-| **Dynamo**            | "Dynamo" denotes a large donut-shaped AoE effect that surrounds the boss, with a safe zone in the center. |
+| **Donut**            | "Donut" refers to a large donut-shaped AoE effect that surrounds the enemy, but with a safe zone in the center. |
 | **Defamation**        | "Defamation" refers to a large circular AoE centered on a specific player, requiring nearby allies to react accordingly. |
 | **Protean**           | "Protean" describes cone-shaped AoEs that target several or all players in a raid group, necessitating precise positioning and movement to avoid damage. |
 | **Exaflare**          | "Exaflare" represents a mechanic involving delayed, sequential attacks that move in a specified direction. Typically, only the first explosion is visibly marked, requiring players to anticipate subsequent movements. |
-| **Enums**             | "Enums" describe mechanics that require a specific number of players to participate in soaking the damage or effects. Similar to "Stack/Soak" mechanics, but with a predetermined player count involved. |
-
+| **Enumeration**             | "Enumerations (can be shortened to enums) describe mechanics that require a specific number of players to soak the damage or effects. Similar to "Stack/Soak" mechanics, but with a predetermined player count involved. |
 
 The glossary page has a list of common mechanics and descriptions, but we also suggest exploring the guides on this website to see some other examples of different mechanics.
 
@@ -114,7 +116,7 @@ There are a handful of default positions that are commonly used in raids and are
 
 #### Light Parties
 
-Light parties are a way to describe the position of players in relation to two separate groups. This is commonly used in mechanics where the party must be split in half to perform a mechanic, the default light parties are:
+Light parties are a way to describe the position of players in relation to two separate groups. This is commonly used in mechanics where the party must be split in half to perform a mechanic. The default light parties are:
 
 - Light Party 1 (LP1): MT H1 D1 D3
 - Light Party 2 (LP2): ST H2 D2 D4
@@ -128,14 +130,14 @@ Clock spots are a way to describe the position of players in relation to a clock
 These positions are in relation to the default clock-spot waymarks. These are use commonly and are a great way to also start blind-prog in any fight. All raiders should be aware of their default clock spots.
 
 ::: warning IMPORTANT
-Beware there are variations of these positions for some fights due to specific mechanics, such as FRU where ST and H2 positions are swapped. It is important to check the fight guide for any specific changes to these positions.
+Beware there are variations of these positions for some fights due to specific mechanics, such as the ultimate raid Futures Rewritten, where ST and H2 positions are swapped. It is important to check the fight guide for any specific changes to these positions.
 :::
 
-#### Color Partners
+#### Colour Partners
 
-As an extension of clock spots, color partners are a way to describe the position of players in relation to each other. This is often used in mechanics where players need to spread out or stack together. The default color partners are based on your clock spots and the waymarks which are in the same positions (colors).
+As an extension of clock spots, colour partners are a way to describe the position of players in relation to each other. This is often used in mechanics where players need to spread out or stack together. The default colour partners are based on your clock spots and the waymarks which are in the same positions (colours).
 
-As per the image above, you will notice H1 and D1 are both in line with the Purple waymarks, this means they are color partners and will use these pairs for various mechanics.
+As per the image above, you will notice H1 and D1 are both in line with the purple waymarks. This means they are colour partners and some fights use these pairs for various mechanics.
 
 - Red: MT D3
 - Yellow: H2 D4
