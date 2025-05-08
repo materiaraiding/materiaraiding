@@ -315,11 +315,11 @@ After each raid, take some time to review your performance. This can help you id
 Some of these tools are considered third-party tools and may violate the Terms of Service of Final Fantasy XIV. Use them at your own discretion.
 :::
 
-- **FFLogs**: A popular tool for analyzing raid performance. FFLogs allows you to see in-depth statistics about your performance, key areas to look for are:
+- [FFLogs](https://www.fflogs.com/): A popular tool for analyzing raid performance. FFLogs allows you to see in-depth statistics about your performance, key areas to look for are:
   - rDPS: This is the damage you dealt including all damage due to buffs you provided other players.
   - uptime: This is the amount of time you were able to deal damage during the fight and keep your GCD rolling.
 
-- **Xivanalysis**: A tool that provides detailed analysis of your performance in raids. You can see how you performed in different areas, such as uptime, rotational mistakes, buff usage, and more.
+- [Xivanalysis](https://xivanalysis.com/): Used with FFLogs, XIVanalysis is a tool that provides detailed analysis of your logs. You can see how you performed in different areas, such as uptime, rotational mistakes, buff usage, and more.
 
 ::: warning Note
 FFLogs requires someone in the party to be using the ACT (Advanced Combat Tracker) app to export logs and FFLogs Uploader app to upload them. This is not a requirement for all parties, but it is a good idea to ask if you are in a static or log for yourself if you are in a PF.
