@@ -32,7 +32,7 @@ High-End Duty content in Final Fantasy XIV refers to the most challenging instan
 
 - <span style="font-weight: 600; color: var(--color-chaotic)">Chaotic Raids:</span> Newer large-scale 24 man raids with complex mechanics based on older alliance raids.
 
-- <span style="font-weight: 600; color: var(--color-extreme)">Extreme Trials:</span>: Tougher versions of standard trials, often featuring unique mechanics and valuable rewards.
+- <span style="font-weight: 600; color: var(--color-extreme)">Extreme Trials:</span> Tougher versions of standard trials, often featuring unique mechanics and valuable rewards.
 
 - <span style="font-weight: 600; color: var(--color-savage)">Savage Raids:</span> Challenging versions of normal raids with complex mechanics and strict execution requirements.
 
