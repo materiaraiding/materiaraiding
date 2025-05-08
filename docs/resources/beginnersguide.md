@@ -30,7 +30,7 @@ High-End Duty content in Final Fantasy XIV refers to the most challenging instan
 
 - <span style="font-weight: 600; color: var(--color-other)">Unreal Trials:</span> Revamped versions of older extreme trials, adjusted to the current level cap.
 
-- <span style="font-weight: 600; color: var(--color-chaotic)">Chaotic Raids:</span> Newer large-scale 24 man raids with complex mechanics based on older alliance raids.
+- <span style="font-weight: 600; color: var(--color-chaotic)">Chaotic Raids:</span> Newer large-scale 24-man raids with complex mechanics based on older alliance raids.
 
 - <span style="font-weight: 600; color: var(--color-extreme)">Extreme Trials:</span> Tougher versions of standard trials, often featuring unique mechanics and valuable rewards.
 
@@ -44,7 +44,7 @@ These duties typically release in cycles alongside major patches and expansions,
 Players can tackle them via Party Finder or by joining a Static Group, which is a dedicated team that regularly raids together.
 
 ::: tip
-If you are a new player who has never taken part in High-End Duty, we recommend starting with **Extreme** as this is the best entry point to learn new systems and mechanics in a lower-stress environment.
+If you are a new player who has never taken part in High-End Duty, we recommend starting with **Extreme Trials** as this is the best entry point to learn new systems and mechanics in a lower-stress environment.
 
 Extreme trials will introduce you to the basics of party roles, mechanics, and the terminology used in raiding. This will give you a taste of what to expect in Savage and Ultimate raiding.
 :::
@@ -113,6 +113,27 @@ The glossary page has a list of common mechanics and descriptions, but we also s
 ### Role Positions
 
 There are a handful of default positions that are commonly used in raids and are a good starting point for new players to learn. These will often be mentioned in party discussions and guides.
+
+#### Job Roles
+
+In an 8-man party, we typically organise the party members into the following role positions:
+
+- Main Tank (MT)
+- Secondary Tank (ST) - (aka: Off-Tank or OT)
+- Healer 1 (H1) - Pure Healer (WHM or AST)
+- Healer 2 (H2) - Shield Healer (SGE or SCH)
+- DPS 1 (D1) - Melee DPS
+- DPS 2 (D2) - Melee DPS
+- DPS 3 (D3) - Ranged DPS (aka: Phys Ranged)
+- DPS 4 (D4) - Caster DPS
+
+It is common for Melee to call "D1" or "D2" preference when zoning into an instance, be sure to work this out before you pull the boss. D1 or D2 can also be replaced by another ranged or caster if necessary, this is often called "Fake Melee". 
+
+If you have at least one of each role in your party you will also get a "Party Bonus" that gives you a +5% buff to STR/DEX/VIT/INT and MND stats.
+
+::: tip
+In some regions, the D1 to D4 terminology is replaced with M1, M2, R1, R2 instead.
+:::
 
 #### Light Parties
 
@@ -233,6 +254,12 @@ Some raids will have a checkpoint where you can wipe and start future pulls from
 
 Phases are helpful for breaking down a fight into manageable chunks and allow you to focus on one part of the fight at a time. This is especially useful for new players who may be overwhelmed by the number of mechanics in a fight.
 
+### Glossary
+
+You can find more common terms and definitions in the glossary page,
+
+<Action title='Glossary' color='purple' href='/resources/glossary' />
+
 ## How to be a good Raider
 
 Being a good raider is not just about knowing your job and mechanics, but also about being a good team player. This topic will get into some more advanced concepts, terminology, and tips that will help you become a better raider.
@@ -257,7 +284,7 @@ In smaller communities, bad behaviour can lead to being blacklisted from future 
 
 ### Understanding your Job
 
-### Understanding the Game Systems
+#### Know the Game Systems
 
 Understanding the game's engine and combat system can have a large impact on your performance: 
 
@@ -286,7 +313,7 @@ Some plugins can help with common issues with latency and clipping. These can he
 
 #### GCDs and Uptime/Downtime
 
-Rule #1 is "Always be Casting" or keep your GCD rolling. This means you want to always keep your GCD "spinning". Any time your GCD is not moving is considered downtime and should be avoided. Using the correct GCD abilities comes next and this is your "rotation". 
+Rule #1 is **"Always be Casting"** or keep your GCD rolling. This means you want to always keep your GCD "spinning". Any time your GCD is not moving is considered downtime and should be avoided. Using the correct GCD abilities comes next and this is your "rotation". 
 
 Uptime is the effective time you are able to deal damage during an encounter and keep your GCD rolling. Managing uptime will lead to better overall damage output and can involve multiple factors such as:
 
