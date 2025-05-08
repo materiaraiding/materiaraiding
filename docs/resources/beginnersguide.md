@@ -43,7 +43,7 @@ High-End Duty content in Final Fantasy XIV refers to the most challenging instan
 - <span class="ultimate-text">Ultimate Raids:</span> The pinnacle of difficulty in FFXIV raiding, extra-long boss roulettes requiring precision, practice, and persistence.
 
 These duties typically release in cycles alongside major patches and expansions, offering powerful gear, titles, and cosmetic rewards. 
-Players can tackle them via Party Finder or by joining a Static Group, which is a dedicated team that regularly raids together.
+Players can tackle them via **Party Finder** or by joining a **Static Group**, which is a dedicated team that regularly raids together.
 
 ::: tip
 If you are a new player who has never taken part in High-End Duty, we recommend starting with **Extreme Trials** as this is the best entry point to learn new systems and mechanics in a lower-stress environment.
@@ -61,13 +61,13 @@ As Unreal Trials and Chaotic Raids are generally more seasonal events, these are
 
 High-End Duty content in FFXIV follows a structured release cycle tied to major patches and expansions. Here's how it typically works:
 
-| Content Type   | Release Cycle                                                                                                        |
+| **Content Type**   | **Release Cycle**                                                                                                        |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
-| Extreme Trials | Usually launched on day one of an expansion or major patch as these are tied to MSQ releases.                        |
-| Savage Raids   | Released two weeks after a new expansion or major patch, allowing players time to complete the normal version first. |
-| Ultimate Raids | Introduced several months after an expansion or major patch. Typically two ultimates will release per expansion.     |
-| Criterion Dungeons | Added in mid-patches, offering a fresh challenge between major content updates. Unpredictable as they were only recently added in Endwalker. |
-| Unreal Trials | Updated periodically with most major patches, replacing older trials with revamped versions. |
+| **Extreme Trials** | Usually launched on day one of an expansion or major patch as these are tied to MSQ releases.                        |
+| **Savage Raids**   | Released two weeks after a new expansion or major patch, allowing players time to complete the normal version first. |
+| **Ultimate Raids** | Introduced several months after an expansion or major patch. Typically two ultimates will release per expansion.     |
+| **Criterion Dungeons** | Added in mid-patches, offering a fresh challenge between major content updates. Unpredictable as they were only recently added in Endwalker. |
+| **Unreal Trials** | Updated periodically with most major patches, replacing older trials with revamped versions. |
 
 Savage Raids are the core of FFXIV Raiding and release in three sets of four, known as **Tiers**. Each released on patch x.0, x.2, and x.4. Each Tier is made up of four Trial-like fights where you face off against a single boss.
 
@@ -87,7 +87,7 @@ High-End Duties in FFXIV offer a variety of cosmetic and gear rewards depending 
 
 The FFXIV community generally will not use the full name of an encounter to refer to it and have abbreviations for simplicity.
 
-For current expansion **Extremes**, they are numbered based on the order of release. So, the first Extreme Trial of an expansion would be **EX1**, the next **EX2**, and so on. For older expansions, they are generally referred to as \<boss name> EX.
+For current expansion **Extreme Trials**, they are numbered based on the order of release. So, the first Extreme Trial of an expansion would be **EX1**, the next **EX2**, and so on. For older expansions, they are generally referred to as \<boss name> EX.
 
 Normal and Savage Raid fights use a **3-part naming scheme**. The first is a letter unique to the expansion tier, the second part is a number referring to the boss order from 1 to 12 and the last part is either "N" for normal or "S" for savage. For example, the first savage fight in the Endwalker expansion's full name is "Pandaemonium: Asphodelos - The First Circle (Savage)." We shorten this to "**P1S**". The second savage fight is called "**P2S,**" and so on.
 
@@ -129,9 +129,9 @@ In an 8-man party, we typically organise the party members into the following ro
 - DPS 3 (D3) - Ranged DPS (aka: Phys Ranged)
 - DPS 4 (D4) - Caster DPS
 
-It is common for Melee to call "D1" or "D2" preference when zoning into an instance, be sure to work this out before you pull the boss. D1 or D2 can also be replaced by another ranged or caster if necessary, this is often called "Fake Melee". 
+It is common for Melee to call "D1" or "D2" preference when zoning into an instance - be sure to work this out before you pull the boss. D1 or D2 can also be replaced by another ranged or caster if necessary and this is often called "Fake Melee". 
 
-If you have at least one of each role in your party you will also get a "Party Bonus" that gives you a +5% buff to STR/DEX/VIT/INT and MND stats.
+If you have at least one of each role in your party, you will also get a "Party Bonus" that gives you a +5% buff to STR/DEX/VIT/INT and MND stats.
 
 ::: tip
 In some regions, the D1 to D4 terminology is replaced with M1, M2, R1, R2 instead.
@@ -139,14 +139,14 @@ In some regions, the D1 to D4 terminology is replaced with M1, M2, R1, R2 instea
 
 #### Light Parties
 
-Light parties are a way to describe the position of players in relation to two separate groups. This is commonly used in mechanics where the party must be split in half to perform a mechanic. The default light parties are:
+**Light parties** are a way to describe the position of players in relation to two separate groups. This is commonly used in mechanics where the party must be split in half to perform a mechanic. The default light parties are:
 
 - Light Party 1 (LP1): MT H1 D1 D3
 - Light Party 2 (LP2): ST H2 D2 D4
 
 #### Clock Spots
 
-Clock spots are a way to describe the position of players in relation to a clock face. This is often used in mechanics where players need to spread out or stack together. The default clock spots are:
+**Clock spots** are a way to describe the position of players in relation to a clock face. This is often used in mechanics where players need to spread out or stack together. The default clock spots are:
 
 ![](/images/beginnersguide-defaultpositions.webp)
 
@@ -158,7 +158,7 @@ Beware there are variations of these positions for some fights due to specific m
 
 #### Colour Partners
 
-As an extension of clock spots, colour partners are a way to describe the position of players in relation to each other. This is often used in mechanics where players need to spread out or stack together. The default colour partners are based on your clock spots and the waymarks which are in the same positions (colours).
+As an extension of clock spots, **colour partners** (or colour pairs) are a way to describe the position of players in relation to each other. This is often used in mechanics where players need to spread out or stack together. The default colour partners are based on your clock spots and the waymarks which are in the same positions (colours).
 
 As per the image above, you will notice H1 and D1 are both in line with the purple waymarks. This means they are colour partners and some fights use these pairs for various mechanics.
 
@@ -169,7 +169,7 @@ As per the image above, you will notice H1 and D1 are both in line with the purp
 
 ### Macros
 
-Macros are a way to automate certain actions in the game, such as using items or abilities. They are also often used to quickly share information with the party, such as strats. In Materia, it is common practice to share a macro with the party at the start of a session to explain the strats the party plans to use.
+**Macros** are a way to automate certain actions in the game, such as using items or abilities. They are also often used to quickly share information with the party, such as strats. In Materia, it is common practice to share a macro with the party at the start of a session to explain the strats the party plans to use.
 
 ```
 ■ Disco Inferno 1　　　■ Fixed A/B
@@ -188,13 +188,13 @@ Macros are provided by many guide resources such as the Materia Raiding guides o
 
 ### Waymarks
 
-Waymarks are markers that can be placed on the ground to help players navigate and position themselves during encounters. They are often used in conjunction with macros to provide visual cues for mechanics or party positioning.
+**Waymarks** are markers that can be placed on the ground to help players navigate and position themselves during encounters. They are often used in conjunction with macros to provide visual cues for mechanics or party positioning.
 
 Waymarks are generally specific to a strategy and are provided alongside other resources such as in the raid guides provided by Materia Raiding.
 
 ![](/images/ex1-waymarks.webp)
 
-These waymarks can be imported into the game using the Waymark Import addon, or you can ask a friend to import them so you can save a copy for yourself.
+These waymarks can be imported into the game using the **Waymark Import** addon, or you can ask a friend to import them so you can save a copy for yourself.
 
 ### Burst Windows (2mins)
 
@@ -208,7 +208,7 @@ Potions (Pots) are consumables that temporarily increase your stats and will typ
 
 ### Mitigations (Mits)
 
-Damage mitigation is a crucial aspect of high-end raiding, as it helps reduce the amount of damage taken by the party during encounters and to survive certain mechanics.
+**Damage mitigation** is a crucial aspect of high-end raiding, as it helps reduce the amount of damage taken by the party during encounters and to survive certain mechanics.
 
 - **Tank mits**: Tanks have a variety of abilities that can reduce damage taken by themselves and the party. Tanks will also need to coordinate their mitigations to deal with tank busters and other mechanics that require them to take significant damage alone.
 
@@ -217,12 +217,12 @@ Damage mitigation is a crucial aspect of high-end raiding, as it helps reduce th
 - **DPS mits**: DPS roles have a number of targeted and party-wide mitigations such as Feint, Addle, and other job-specific abilities. These should be rotated through the fight to help reduce overall damage taken by the party.
 
 ::: tip
-Mitigations that target an enemy such as Feint, Addle and Reprisal reduce the enemy's damage dealt rather than the damage taken by the party. This is important as for some fights, damage from certain mechanics does not come from the boss (e.g. the boss summons an add that executes an attack) and for those instances, party-wide mitigations is crucial instead.
+Mitigations that target an enemy such as Feint, Addle and Reprisal **reduce the enemy's damage dealt** rather than the damage taken by the party. This is important as for some fights, damage from certain mechanics does not come from the boss (e.g. it comes from an untargetable add), therefore targeted mitigations will not work. For those instances, **party-wide mitigations** is crucial instead.
 :::
 
-- **Personal Defensives (Personals)**: Many jobs have personal defensive abilities that can be used to reduce individual damage taken or heal themselves up. These should be used during high-damage phases or mechanics to help keep the player alive and reduce healer workload. Do not be afraid to use these - they are there to help you survive and keep the party alive. Your healers will appreciate it.
+- **Personal Defensives (Personals)**: Many jobs have **personal defensive abilities** that can be used to reduce individual damage taken or heal themselves up. These should be used during high-damage phases or mechanics to help keep the player alive and reduce healer workload. Do not be afraid to use these - they are there to help you survive and keep the party alive. **Your healers will appreciate it**.
 
-A Mit-plan is a plan that outlines when and how to use damage mitigation abilities during a fight. This can help ensure that the party is prepared for high-damage phases and can survive difficult mechanics. This can vary greatly with party composition and the fight itself, so it is important to discuss this with your party before the fight begins.
+A **Mit-plan** is a plan that outlines when and how to use damage mitigation abilities during a fight. This can help ensure that the party is prepared for high-damage phases and can survive difficult mechanics. This can vary greatly with party composition and the fight itself, so it is important to discuss this with your party before the fight begins.
 
 ::: tip
 **FFXIV Fight Line** is a great tool for creating a Mit-plan for your party. It allows you to create a timeline of the fight with premade templates of existing encounters. This can help ensure that everyone is on the same page and knows when to use their cooldowns.
@@ -232,7 +232,7 @@ A Mit-plan is a plan that outlines when and how to use damage mitigation abiliti
 
 ### Instances
 
-Instances are the areas where you will be doing your High-End Duties. These are separate from the open world and are designed to be completed with a party of players.
+**Instances** are the areas where you will be doing your High-End Duties. These are separate from the open world and are designed to be completed with a party of players.
 
 An instance will have a timer that will depend on the type of High-End Duty:
 
@@ -242,7 +242,7 @@ An instance will have a timer that will depend on the type of High-End Duty:
 
 At the end of the timer, the instance will close, and you will be returned to the open world. This will boot you from an instance even if you are in combat.
 
-Most groups refer to the full-timer duration as a "Lockout" and your static might say they are doing "2 lockouts" or "3 lockouts" of a fight. This means they are doing two or three full runs of the fight before calling it for the day.
+Most groups refer to the full-timer duration as a "**Lockout**" and your static might say they are doing "2 lockouts" or "3 lockouts" of a fight. This means they are doing two or three full runs of the fight before calling it for the day.
 
 ::: tip NOTE
 The "lockout" terminology is also used for the weekly lockout of Savage Raids and loot, which will be explained in more detail later. Beware of this and understand they are different things.
@@ -252,7 +252,7 @@ The "lockout" terminology is also used for the weekly lockout of Savage Raids an
 
 Phases are used to describe portions of a fight that have different environments or where the boss changes form. Savage Raids will usually only have one phase except the last fight of a tier, which will have two distinct phases. Ultimate Raids generally have 5–6 phases, with each phase being like a mini-savage in itself.
 
-Some raids will have a checkpoint where you can wipe and start future pulls from a later phase. These are most common in the last fight of a Savage tier and are often referred to as "door bosses."
+Some raids will have a **checkpoint** where you can wipe and start future pulls from a later phase. These are most common in the last fight of a Savage tier and are often referred to as "**door bosses**."
 
 Phases are helpful for breaking down a fight into manageable chunks and allow you to focus on one part of the fight at a time. This is especially useful for new players who may be overwhelmed by the number of mechanics in a fight.
 
@@ -264,7 +264,7 @@ You can find more common terms and definitions in the glossary page,
 
 ## How to be a good Raider
 
-Being a good raider is not just about knowing your job and mechanics, but also about being a good team player. This topic will get into some more advanced concepts, terminology, and tips that will help you become a better raider.
+Being a **good raider** is not just about knowing your job and mechanics, but also about being a **good team player**. This topic will get into some more advanced concepts, terminology, and tips that will help you become a better raider.
 
 ### Raid Etiquette
 
@@ -295,7 +295,7 @@ Understanding the game's engine and combat system can have a large impact on you
 - **oGCD**: Off Global Cooldown abilities are abilities that do not trigger the GCD and can be used at any time. These abilities can be used to fill the gaps between GCDs. Using oGCD abilities between GCDs is called "**Weaving**" and is a key part of maximising your damage output. You can typically fit up to 2 oGCDs in between each GCD, but this can vary depending on your job and if any skills have a cast time. Fitting 1 oGCD is called **Single Weaving**, while fitting 2 is called "**Double Weaving**".
 
 ::: tip
-You will notice all skills in the game are labelled as "Weaponskill", "Spell" or "Ability".
+You will notice all skills in the game are labelled as "Weaponskill", "Spell," or "Ability."
 
 - **Weaponskills** and **Spells** are GCD.
 - **Abilities** are oGCD.
@@ -311,7 +311,7 @@ Joonbob has a fantastic video that includes video examples of all the above topi
 
 Some plugins can help with common issues with latency and clipping. These can help greatly with tight DPS rotations when you have high ping or are on a low-end PC. These plugins are not required but can help with your performance.
 
-- NoClippy: A plugin that helps with clipping issues by adjusting your GCD and ability timings. This can help you maintain a smoother rotation and avoid clipping abilities on high-latency connections.
+- **NoClippy**: A plugin that helps with clipping issues by adjusting your GCD and ability timings. This can help you maintain a smoother rotation and avoid clipping abilities on high-latency connections.
 
 #### GCDs and Uptime/Downtime
 
@@ -326,7 +326,7 @@ Uptime is the effective time you are able to deal damage during an encounter and
 - **Cast Times**: If you are a Caster or Healer, keep in mind your movement speed and cast time. Make sure you can avoid mechanics while still dealing damage.
 
 ::: tip SLIDECASTING
-Slide-casting is a technique used by casters to move while casting spells. When casting an ability that requires you to stand still, you can safely move within the last 0.5 seconds of the cast duration. This will not cancel the cast and can help you maintain uptime while avoiding mechanics. For Casters, it is important to practice this technique to ensure you can use it effectively in raids.
+**Slide-casting** is a technique used by casters to **move while casting spells**. When casting an ability that requires you to stand still, you can safely move within the last 0.5 seconds of the cast duration. This will not cancel the cast and can help you maintain uptime while avoiding mechanics. For Casters, it is important to practice this technique to ensure you can use it effectively in raids.
 
 This works due to server-side snapshots where the game has effectively already "finished" the cast when the GCD has less than approx 0.5s remaining. This window will be ping-dependent and may vary from player to player.
 
@@ -358,10 +358,9 @@ Certain jobs have utility abilities that can be used to help the party or themse
 - **Rescue**: Healers all have a rescue ability that allows them to pull a party member to their location. A good healer can use this to save another party member from a mistake or quickly reposition them for a mechanic.
 - **Gap Closers**: These are movement abilities that allow players to quickly close the gap between them and the boss. This is especially important for melee DPS jobs who need to be in range of the boss to deal damage.
 
-
 ### Reviewing your performance
 
-After each raid, take some time to review your performance. This can help you identify areas where you can improve and become a better raider. Here are some tools you can use to review your performance:
+After each raid, take some time to **review your performance**. This can help you identify areas where you can improve and become a better raider. Here are some tools you can use to review your performance:
 
 - **Stone, Sky and Sea**: This is a built-in tool in the game that allows you to review your damage performance against a target dummy with similar checks to a Savage Raid fight. if you can kill it, use the time left on the encounter as a gauge of your damage. If you can't kill it, you might need to work on fixing your rotation and burst window usage. If you can effectively pass the SSS trials with plenty time to spare, you are likely ready to tackle the damage requirements for the fight. You can find out how to unlock this content [here](https://ffxiv.consolegameswiki.com/wiki/Stone,_Sky,_Sea).
 
@@ -374,8 +373,8 @@ Some of these tools are considered third-party tools and may violate the Terms o
 :::
 
 - [FFLogs](https://www.fflogs.com/): A popular tool for analysing raid performance. FFLogs allows you to see in-depth statistics about your performance. Key areas to look for are:
-  - rDPS: This is the damage you dealt, including all damage due to buffs you provided other players.
-  - Uptime: This is the amount of time you were able to deal damage during the fight and keep your GCD rolling.
+  - **rDPS**: This is the damage you dealt, including all damage due to buffs you provided other players.
+  - **Uptime**: This is the amount of time you were able to deal damage during the fight and keep your GCD rolling.
 
 - [Xivanalysis](https://xivanalysis.com/): Used with FFLogs, XIVanalysis is a tool that provides detailed analysis of your logs. You can see how you performed in different areas, such as uptime, rotational mistakes, buff usage, and more.
 
@@ -451,9 +450,11 @@ As overmelding gear is a gambling process, you will need a lot of materia. Regul
 
 ### Consumables
 
-You must have current high-quality food up and running during a raid. Food buffs give you extra health and a boost in 2 specific stats - they last 30 minutes (40 with FC buffs and 45 with a manual). The ideal food for your job is information available on [The Balance Discord](https://discord.com/invite/thebalanceffxiv).
+You must have current **high-quality food** up and running during a raid. Food buffs give you extra health and a boost in 2 specific stats - they last 30 minutes (40 with FC buffs and 45 with a manual). The ideal food for your job is information available on [The Balance Discord](https://discord.com/invite/thebalanceffxiv).
 
-You must also carry current high-quality potions (pots) with you. For Extreme Trials and Savage Raids, you are not expected to use them during early prog and can save them for final mech prog / A2C / reclears. For Ultimate Raids, especially on-content encounters, it is expected that pots are used even during prog at specific points to meet a phase's DPS check. Individual encounters may have unique pot windows but in general, use them when available at the beginning of a 2-minute burst window. At the time of writing, pots are known as "Grade 3 Gemdraught of \<stat>," and the Grade number will increase with new major patches. Check what main stat your job uses (Strength, Mind, Dexterity, Intelligence) to know which type of potion stat to buy.
+You must also carry current **high-quality potions** (pots) with you. At the time of writing, pots are known as "Grade 3 Gemdraught of \<stat>," and the Grade number will increase with new major patches. Check what main stat your job uses (Strength, Mind, Dexterity, Intelligence) to know which type of potion stat to buy.
+
+For Extreme Trials and Savage Raids, you are not expected to use them during early prog and can save them for final mech prog / A2C / reclears. For Ultimate Raids, especially on-content encounters, it is expected that pots are used even during prog at specific points to meet a phase's DPS check. Individual encounters may have unique pot windows but in general, use them when available at the beginning of a 2-minute burst window. 
 
 **People can see if you are not using your consumables so don't try to get away with this.**
 
@@ -461,15 +462,17 @@ You can craft these consumables yourself, have someone else craft them for you o
 
 ### Studying
 
-If there are resources available and agreed strategies to resolve mechanics for a particular encounter, it is paramount to be familiar with them before instancing into the encounter. Of course, it is normal to make mistakes while physically executing the mechanic for the first time, but do not come into raid without having an idea what you are supposed to do.
+If there are resources available and agreed strategies to resolve mechanics for a particular encounter, it is paramount to be familiar with them before instancing into the encounter. Of course, it is normal to make mistakes while physically executing the mechanic for the first time, but **do not come into raid without having an idea what you are supposed to do**.
 
-Your static may provide you with the resources you need for studying, but many statics try to match PF strategies for compatability. For PF strategies, the [Materia Raiding Website](https://materiaraiding.com/) has resources including raidplans / toolboxes (visual diagrams of how to resolve a mechanic).
+Your static may provide you with the resources you need for studying, but many statics try to match Party Finder strategies for compatibility. For Party Finder strategies, the [Materia Raiding Website](https://materiaraiding.com/) has resources including raidplans / toolboxes (visual diagrams of how to resolve a mechanic).
 
 ::: warning
 If you are jumping into PF week 1, **expect strats to change multiple times** and regularly check the Materia Raiding Website/Discord until strategies are 100% set in stone.
 :::
 
-Studying goes beyond simply looking at raidplans - POVs are essential to put these diagrams into context. Do your best to understand *why* the mechanic plays out the way it does - having a proper understanding of the mechanic (as opposed to looking at the raidplan purely to understand where to stand) will make you a better and more competent raider. As mentioned before, it is disrespectful to other party members and their time to show up underprepared so please study adequately.
+Studying goes beyond simply looking at raidplans - POVs are essential to put these diagrams into context. Do your best to understand *why* the mechanic plays out the way it does - having a proper understanding of the mechanic (as opposed to looking at the raidplan purely to understand where to stand) will make you a better and more competent raider. 
+
+As mentioned before, it is disrespectful to other party members and their time to show up underprepared so please study adequately.
 
 How much you need to study depends on the encounter itself or static expectations. Generally speaking, you want to study *at least* 1 phase ahead of your prog point. Again, the definition of a phase will depend on the encounter itself, but just study as much as possible!
 
@@ -522,10 +525,10 @@ Party Finder is an in-game tool that can be a useful tool for finding a group, d
 
 To find the right group, it is important to understand the terminology that is often used for Party Finder listings:
 
-| Terminology        | Meaning                                                                                                                                                                            |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Fresh**          | This group is starting the fight or mechanic fresh and is open to unexperienced players                                                                                            |
-| "mech" **Prog**    | This group is currently progging a specific mechanic and looking for other players to also learn this mechanic and prog past it.                                                   |
+| **Terminology**        | **Meaning**                                                                                                                                                                                |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Fresh**          | This group is starting the fight or mechanic fresh and is open to unexperienced players                                                                                                 |
+| "mech" **Prog**    | This group is currently progging a specific mechanic and looking for other players to also learn this mechanic and prog past it.                                                        |
 | "mech" **Cleanup** | This group is finishing progging a specific mechanic and are looking for players up to the same point in the fight. Do not join if you have not learnt this specific mechanic yet. |
 | **A2C**            | This group has progged all the mechanics and are looking for players who are ready to clear the fight. Do not join if you are still progging mechanics.                            |
 | **C41/C4x**        | This group is doing a clear of the fight with only 1 or X players who have not cleared before.                                                                                     |
@@ -549,14 +552,14 @@ Many loot rewards from various battle content have weekly limits. For reference,
 
 Each raid type offers different types of loot.
 
-| Content Type   | Reward                                                                                                        |
+| **Content Type**   | **Reward**                                                                                                       |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
-| Savage Raids   | Offers the highest iLvl gear pieces for the current tier, plus material that will upgrade tome gear. More detail will be provided on Savage loot below. |
-| Extreme Trials | Drops weapons or accessories (depending on the fight) suitable for pre-BiS gearsets. Also has rare chance to drop a unique mount, orchestrion and / or crafting material. Each clear provides 1-2 totems (amount depending on the fight) that can be exchanged for the gear drops and after 2 major patches, the mount. There is no weekly reward limit. |
-| Ultimate Raids | A clear gives 1 totem that can be exchanged for a cosmetic weapon. While current content, the weapon may be BiS and players are limited to 1 totem per week. This weekly cap is lifted on the next major patch after release. |
-| Criterion Dungeons | Gives unique tokens that can be used for unique glamour pieces and other miscellaneous cosmetic / registrable items. The latest Endwalker Criterion Savage also provides cosmetic weapons. This is still relatively experimental content for the game, so a baseline for rewards is not set in stone. |
-| Chaotic Raids | Offers gear with equivalent iLvl to current Savage tier. Also may drop unique registrable items and cosmetics. Each clear provides tokens that can be exchanged for the aforementioned rewards. This is still new content for the game, so the baseline for rewards may change. |
-| Unreal Trials | A clear grants a round of Faux Hollows (Faux Commander in Idyllshire at X:5.7 Y:6.1), a simple minigame where you uncover illustrations to receive Faux Leaves. You can play up to 2 rounds of Faux Hollows (i.e. 2 clears) per week. Note that you need to play the minigame before moving to your 2nd reclear (also known as a **retell**). Faux Leaves are a currency used to buy unique minions, mounts and glamour pieces. |
+| **Savage Raids**   | Offers the highest iLvl gear pieces for the current tier, plus material that will upgrade tome gear. More detail will be provided on Savage loot below. |
+| **Extreme Trials** | Drops weapons or accessories (depending on the fight) suitable for pre-BiS gearsets. Also has rare chance to drop a unique mount, orchestrion and / or crafting material. Each clear provides 1-2 totems (amount depending on the fight) that can be exchanged for the gear drops and after 2 major patches, the mount. There is no weekly reward limit. |
+| **Ultimate Raids** | A clear gives 1 totem that can be exchanged for a cosmetic weapon. While current content, the weapon may be BiS and players are limited to 1 totem per week. This weekly cap is lifted on the next major patch after release. |
+| **Criterion Dungeons** | Gives unique tokens that can be used for unique glamour pieces and other miscellaneous cosmetic / registrable items. The latest Endwalker Criterion Savage also provides cosmetic weapons. This is still relatively experimental content for the game, so a baseline for rewards is not set in stone. |
+| **Chaotic Raids** | Offers gear with equivalent iLvl to current Savage tier. Also may drop unique registrable items and cosmetics. Each clear provides tokens that can be exchanged for the aforementioned rewards. This is still new content for the game, so the baseline for rewards may change. |
+| **Unreal Trials** | A clear grants a round of Faux Hollows (Faux Commander in Idyllshire at X:5.7 Y:6.1), a simple minigame where you uncover illustrations to receive Faux Leaves. You can play up to 2 rounds of Faux Hollows (i.e. 2 clears) per week. Note that you need to play the minigame before moving to your 2nd reclear (also known as a **retell**). Faux Leaves are a currency used to buy unique minions, mounts and glamour pieces. |
 
 ### Weekly Savage Lockouts
 
@@ -566,9 +569,9 @@ Don't confuse this term with 'instance timer lockout.'
 
 When you clear a Savage Raid boss, your party will recieve a number of loot items based on how many party members were eligible for loot.
 
-- 8 players = 4 loot items (also known as 2 chest)
-- 4-7 players = 2 loot items (also known as 1 chest)
-- 1-3 players = no loot (also known as no chest)
+- 8 players = 4 loot items (also known as **2 chest**)
+- 4-7 players = 2 loot items (also known as **1 chest**)
+- 1-3 players = no loot (also known as **no chest**)
 
 Each player character is **eligible for loot once per week per savage boss**. You can repeat the fight as many times as you like, but **you will reduce the amount of loot that drops for the party,** and you are ineligible to receive any loot after your first kill of the week.
 
@@ -579,7 +582,7 @@ You will also receive one **"book"** per week for each boss you kill regardless 
 Each boss in a Savage tier must also be **cleared in sequence** to receive the weekly loot. If skip a boss, you relinquish your eligibility for a book and loot on the bosses you skipped over.
 
 ::: tip
-Some groups will do "book runs" at the end of the week to get a book regardless of loot eligibility. This is a great way to still get your weekly book if you left your reclears late in the week.
+Some groups will do "any chest / book runs" at the end of the week to get a book regardless of loot eligibility. This is a great way to still get your weekly book if you left your reclears late in the week.
 :::
 
 The weekly Savage loot lockout is removed towards the end of the major patch cycle, allowing players to farm the Savage Raid for loot without any restrictions.
