@@ -10,10 +10,6 @@ description: A comprehensive guide to raiding in FFXIV, covering the fundamental
 
 This guide is intended to introduce you to the fundamentals of High-End Duty content in FF14 and is intended for new players who are interested in trying out harder content.
 
-::: danger Work-In-Progress
-This page is a work-in-progress and may have some incomplete sections, check back soon to see it finished.
-:::
-
 ### Quick Links
 
 <ActionGroup
@@ -30,32 +26,22 @@ This page is a work-in-progress and may have some incomplete sections, check bac
 
 ## What is High-End Raiding in FFXIV?
 
-High-End Duty content in Final Fantasy XIV refers to the most challenging instanced encounters in the game, designed for experienced players seeking difficult mechanics and rewarding loot. These duties include:
+High-End Duty content in Final Fantasy XIV refers to the most challenging instanced encounters in the game, designed for experienced players seeking difficult mechanics and rewarding loot. In order of relative difficulty, these include:
 
-- **Savage Raids**: Harder versions of normal raids with complex mechanics and strict execution requirements.
+- **Unreal Trials**: Revamped versions of older extreme trials, adjusted to the current level cap.
+
+- **Chaotic Raids**: Newer large-scale 24 man raids with complex mechanics based on older alliance raids.
 
 - **Extreme Trials**: Tougher versions of standard trials, often featuring unique mechanics and valuable rewards.
 
-- **Ultimate Raids**: The pinnacle of difficulty in FFXIV, requiring near-perfect execution and teamwork.
+- **Savage Raids**: Challenging versions of normal raids with complex mechanics and strict execution requirements.
 
-- **Criterion Dungeons**: High-difficulty dungeon content with unique mechanics and a savage mode for special cosmetics.
+- **Criterion Dungeons**^: High-difficulty dungeon content with unique mechanics and a savage mode for special cosmetics.
 
-- **Unreal Trials**: Revamped versions of older extreme trials, adjusted to modern difficulty standards.
-    
-- **Chaotic Raids**: Newer large-scale 24 man raids with complex mechanics based on older alliance raids.
+- **Ultimate Raids**: The pinnacle of difficulty in FF14 raiding, extra-long boss roulettes requiring precision, practice and persistence.
 
 These duties typically release in cycles alongside major patches and expansions, offering powerful gear, titles, and cosmetic rewards. 
 Players can tackle them via Party Finder or by joining a Static Group, which is a dedicated team that regularly raids together.
-
-### Difficulty
-
-High-End Content varies in difficulty greatly, generally these are ranked as follows from least to most challenging content:
-
-1. Unreal
-2. Extreme
-3. Chaotic
-4. Savage / Criterion
-5. Ultimate
 
 ::: tip
 If you are a new player who has never taken part in High-End Duty, we recommend starting with **Extreme** as this is the best entry point to learn new systems and mechanics in a lower-stress environment.
@@ -64,8 +50,10 @@ Extreme trials will introduce you to basics of party roles, mechanics and the te
 :::
 
 ::: warning
-As Unreal Trials are generally a more seasonal event, these are usually not considered an entry-point for new players getting into raiding and can be heavily cheesed.
+As Unreal Trials and Chaotic Raids are generally more seasonal events, these are usually not considered an entry-point for new players getting into raiding and can be heavily cheesed.
 :::
+
+> ^Criterion Dungeons are not strictly raid content but function similarly to Savage Raids. They are designed for four players and have a normal and savage mode. The savage mode is considered high-end content and is similar in difficulty to Savage Raids.
 
 ### Release Cycle
 
@@ -79,9 +67,15 @@ High-End Duty content in Final Fantasy XIV follows a structured release cycle ti
 | Criterion Dungeons | Added in mid-patches, offering a fresh challenge between major content updates. Unpredictable as they were only recently added in Endwalker. |
 | Unreal Trials | Updated periodically with most major patches, replacing older trials with revamped versions. |
 
-Savage Raids are the core of FF14 Raiding and release in 3 sets of 4, known as **Tiers**. Each released on patch x.0, x.2 and x.4. Each Tier is made up of four Trial-like fights where you face off against a single boss. 
+Savage Raids are the core of FF14 Raiding and release in three sets of four, known as **Tiers**. Each released on patch x.0, x.2 and x.4. Each Tier is made up of four Trial-like fights where you face off against a single boss.
 
-::: tip NOTE
+::: tip SAVAGE NAMING
+The FF14 community names savage fights using a **3-part naming scheme**. The prefix letter is unqiue to the Expansion Tier, the number refers to boss order from 1-12 and the last letter is always "S" for savage.
+
+For example, the first fight in the Endwalker expansion is called "Pandaemonium: Asphodelos - The First Circle (Savage)" or "**P1S**". The second fight is called "**P2S**" and so on.
+:::
+
+::: tip PATCH NUMBERS
 FF14 patch numbers are formatted as x.yz where x is the expansion number, y is the major patch number and z is the minor patch number. For example, 6.4 was the fourth major patch of the Endwalker expansion. While 6.45 came out a few weeks later with extra content and some minor adjustments.
 
 Major patches are released every 3-4 months and contain new content, story and features. Minor patches are released every few weeks after a major patch to stagger the major patch content out over the patch cycle.
@@ -89,8 +83,7 @@ Major patches are released every 3-4 months and contain new content, story and f
 
 ### Rewards
 
-High-End Duties in Final Fantasy XIV offer a variety of rewards depending on the type of content. You will find a detailed breakdown of the rewards for each type of content towards the end of this guide.
-
+High-End Duties in Final Fantasy XIV offer a variety of cosmetic and gear rewards depending on the type of content. You will find a detailed breakdown of the rewards for each type of content towards the [end of this guide](#rewards-1).
 
 ## Raiding Concepts
 
@@ -401,7 +394,7 @@ If there are resources available and agreed strategies to solve mechanics for a 
 Your static may provide you with the resources you need for studying, but many statics try to match PF strategies for compatability. For PF strategies, the [Materia Raiding Website](https://materiaraiding.com/) has resources including raidplans / toolboxes (visual diagrams of how to resolve a mechanic).
 
 ::: warning
-If you are jumping into PF week 1, **expect strats to change multiple times** and regularly check the Materia Raiding Discord until strategies are 100% set in stone.
+If you are jumping into PF week 1, **expect strats to change multiple times** and regularly check the Materia Raiding Website/Discord until strategies are 100% set in stone.
 :::
 
 Studying goes beyond simply looking at raidplans - POVs are essential to put these diagrams into context. Do your best to also understand *why* the mechanic plays out - having a proper understanding of the mechanic (as opposed to looking at the raidplan purely to understand where to stand) will make you a better and more competent raider. As mentioned before, it is disrespectful to other party members and their time to show up underprepared so please study adequately.
@@ -414,8 +407,8 @@ The only exception to a study requirement is if you are in a blind PF or static 
 
 There are two ways you can get a party together for High-End Duty content. 
 
-- Form a Static: A group of players who raid together on a regular schedule with the same roster.
-- Use Party Finder: Temporary improvised parties formed using the in-game party finder tool.
+- **Form a Static**: A group of players who raid together on a regular schedule with the same roster.
+- **Use Party Finder**: Temporary improvised parties formed using the in-game party finder tool.
 
 There are pros and cons to both approaches; this will ultimately depend on your own availability, commitment and goals.
 
@@ -446,7 +439,7 @@ Statics often fall apart when groups don't communicate the expectations properly
 
 ### Party Finder
 
-Party Finde is an in-game tool that can be a useful tool for finding a group, depending on your region. Party finder lets you advertise a party for a specific duty, and players can join your party if they meet the requirements. This is a great way to find groups for high-end content if you are looking for a more casual experience.
+Party Finder is an in-game tool that can be a useful tool for finding a group, depending on your region. Party finder lets you advertise a party for a specific duty, and players can join your party if they meet the requirements. This is a great way to find groups for high-end content if you are looking for a more casual experience.
 
 To find the right group, it is important to understand the terminology that is often used for Party Finder listings:
 
