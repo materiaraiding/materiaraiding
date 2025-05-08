@@ -64,9 +64,13 @@ export default {
 			},
 		});
 
+		ctx.app.config.globalProperties
+
 		if (typeof window !== 'undefined') {
 			window.createTooltip = createTooltip;
 		}
+
+		console.log("Hello!")
 	},
 	setup() {
 		// Get route
