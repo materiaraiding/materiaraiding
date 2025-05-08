@@ -40,6 +40,22 @@ First, login to github, you need an account to make changes.
 
 If you get stuck, reach out to "mgram" in MR or MUR Discords.
 
+## Local Development
+
+For easy development you can run the website locally on your computer.
+
+### Prerequisites
+
+- Node.js 22.15 LTS
+
+1. Install Node.js 22.15 LTS from [Node.js](https://nodejs.org/en/download/)
+2. Reboot after installing Node.js
+3. Clone the repository to your local machine with git
+4. Open a terminal and navigate to the cloned repository
+5. Run `npm install` to install the required packages
+6. Run `npm run docs:dev` to start the local server
+7. Open your web browser and navigate to `http://localhost:5173` to view the website and see your changes live
+
 ## Pages
 Each page is a single Markdown File (.md) which can be located anywhere in the root folder. Each page begins with a header to specify the page name and details, this will not appear in the final page.
 
