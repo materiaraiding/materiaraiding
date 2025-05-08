@@ -80,3 +80,15 @@ strong {
     color: var(--color-ultimate);
     font-weight: 600;
 }
+
+@media (max-width: 960px) {
+    .VPNav {
+        position: fixed !important;
+    }
+    .VPLocalNav {
+        top: var(--vp-nav-height) !important;
+    }
+    #VPContent {
+        margin-top: var(--vp-nav-height);
+    }
+}
