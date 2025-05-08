@@ -67,16 +67,16 @@ High-End Duty content in Final Fantasy XIV follows a structured release cycle ti
 
 Savage Raids are the core of FF14 Raiding and release in 3 sets of 4, known as **Tiers**. Each released on patch x.0, x.2 and x.4. Each Tier is made up of four Trial-like fights where you face off against a single boss. 
 
+::: tip NOTE
+FF14 patch numbers are formatted as x.yz where x is the expansion number, y is the major patch number and z is the minor patch number. For example, 6.4 was the fourth major patch of the Endwalker expansion. While 6.45 came out a few weeks later with extra content and some minor adjustments.
+
+Major patches are released every 3-4 months and contain new content, story and features. Minor patches are released every few weeks after a major patch to stagger the major patch content out over the patch cycle.
+:::
+
 ### Rewards
 
-High-End Duties in Final Fantasy XIV offer a variety of rewards depending on the type of content. Here’s a quick breakdown:
+High-End Duties in Final Fantasy XIV offer a variety of rewards depending on the type of content. You will find a detailed breakdown of the rewards for each type of content towards the end of this guide.
 
-- **Unreal, Ultimate and Criterion**: Primarily cosmetic rewards and do not play a part in the gearing of your character.
-- **Savage**: Provides the highest-stat gear in the game and tokens that can be used to purchase gear or upgrades for tomestone gear.
-- **Extreme**: Rewards weapons that are best for the beginning of a raid tier along with other cosmetic rewards.
-- **Chaotic**: Provides strong gear that can be useful in preparing alt jobs for raiding. 
-
-Savage Raids and Extreme Trials are the core of FF14's gearing system, and it is important to know how these work, this will be explained in greater detail further down.
 
 ## Raiding Concepts
 
@@ -220,7 +220,7 @@ Being a good raider is not just about knowing your job and mechanics, but also a
 
 ### Raid Etiquette
 
-- **Be on time**: Arrive at the raid location on time and be ready to start. If you are running late, let your party know as soon as possible.
+- **Be on time**: Be available at the agreed time. If you are running late, let your party know as soon as possible.
 
 - **Communicate**: Use voice chat or text chat to communicate with your party. Let them know if you are having trouble with a mechanic or if you need help.
 
@@ -242,13 +242,13 @@ In smaller communities, bad behavior can lead to being blacklisted from future p
 
 Rule no.1 is "Always be Casting" or keep your GCD rolling. This means you want to always keep your GCD "spinning". Any time your GCD is not moving is considered downtime and should be avoided. Using the correct GCD abilities comes next and this is your "rotation". 
 
-Uptime is the effective time you are able to deal damage during an encounter. Managing uptime will lead to better overall damage output and can involve multiple factors such as:
+Uptime is the effective time you are able to deal damage during an encounter and keep your GCD rolling. Managing uptime will lead to better overall damage output and can involve multiple factors such as:
 
 - **Positioning**: Make sure you are in the right position to achieve positionals and stay in range of the boss, this is especially important for melee DPS jobs. If you are a ranged DPS or healer, make sure you are in range of the boss and other party members.
 
-- **Forced Downtime**: Many encounters will have downtime periods where the boss is not targetable or is moving around the arena. This can be caused by mechanics or other factors. Make sure you are aware of these periods and adjust your rotation accordingly, this may involve using non-damaging abilities or prepping 
+- **Forced Downtime**: Many encounters will have downtime periods where the boss is not targetable or is moving around the arena. Make sure you are aware of these periods and adjust your rotation accordingly, this may involve using non-damaging abilities to fill the gaps or ranged attacks to maintain uptime.
 
-- **Cast Times**: If you are a Caster or Healer, keep in mind your movement speed and cast time. Some jobs have abilities that can be used while moving, while others require you to stand still. Make sure you are aware of your job's movement capabilities and adjust your rotation accordingly to ensure you can avoid mechanics while still dealing damage.
+- **Cast Times**: If you are a Caster or Healer, keep in mind your movement speed and cast time. Make sure you can avoid mechanics while still dealing damage.
 
 ::: tip SLIDECASTING
 Slide-casting is a technique used by casters to move while casting spells. When casting an ability that requires you to stand still, you can safely move within the last 0.5 seconds of the cast duration. This will not cancel the cast and can help you maintain uptime while avoiding mechanics. For Casters, it is important to practice this technique to ensure you can use it effectively in raids.
@@ -308,7 +308,7 @@ FFLogs requires someone in the party to be using the ACT (Advanced Combat Tracke
 
 ### Understanding the Game Systems
 
-Understanding the games engine and combat system can have a large impact on you performance, here are a few key concepts to understand:
+Understanding the games' engine and combat system can have a large impact on your performance; 
 
 - **GCD**: The Global Cooldown is the time it takes for your character to perform an action. Most jobs will run a GCD speed close to the default value of 2.5 seconds, however, some jobs either have passive skills or use Skill Speed, Spell Speed or Food to lower this value. Understanding how the GCD works and how to optimize it is crucial for maximizing your damage output.
 
@@ -396,7 +396,7 @@ There are two ways you can get a party together for High-End Duty content.
 - Form a Static: A group of players who raid together on a regular schedule with the same roster.
 - Use Party Finder: Temporary improvised parties formed using the in-game party finder tool.
 
-There are pros and cons to both approaches, this will ultimately depend on your own availability, commitment and goals.
+There are pros and cons to both approaches; this will ultimately depend on your own availability, commitment and goals.
 
 ### What is a Static?
 
@@ -464,15 +464,34 @@ Each raid type offers different types of loot.
 Don't confuse this term with 'instance timer lockout.'
 :::
 
-to be written
+When you clear a savage raid boss, your party will recieve a number of loot items based on how many party members were eligible for loot.
+
+- 8 players = 4 loot items
+- 4-7 players = 2 loot items
+- 1-3 players = no loot
+
+Each player character is **eligible for loot once per week per savage boss**. You can repeat the fight as many times as you like, but **you will reduce the amount of loot that drops for the party,** and you are ineligible to receive any loot after your first kill of the week.
+
+You should aim to clear each boss with a full party of **8 eligible players to maximize loot**.
+
+You will also receive one **"book"** per week for each boss you kill regardless of lockout. Multiple books can be exchanged for a raid drop of your choice from a vendor in one of the expansion cities.
+
+Each boss in a savage tier must also be cleared to receive the weekly loot. If you join a party on a later boss, you relinquish your eligibility for a book and loot on the previous bosses.
+
+::: tip
+Some groups will do "book runs" at the end of the week to get a book regardless of loot eligibility. This is a great way to help get your weekly book if you are having trouble finding a full party in PF
+:::
+
+The weekly savage loot lockout is removed towards the end of the major patch cycle, allowing players to farm the savage raid for loot without any restrictions.
+
 
 ### Loot Order
 
 If you are in a static, how loot is assigned every week is entirely up to the group. Some groups may choose to funnel gear to DPS, some groups try to evenly distribute gear between everyone. Just don't do any reclears outside of your static until the end of your scheduled week, otherwise you will screw over the rest of your team's potential loot for that week.
 
 If you are in a PF and successfully clear a fight, there are 2 main ways to assign loot:
-- L > R (left to right): only one item is rolled at a time, starting from the first (leftmost) loot in the list and going right. Players are only permitted to win 1 item - if you win an item, pass on the remaining loot.
-- FFA (free for all): anyone is free to take anything.
+- **L > R** (left to right): only one item is rolled at a time, starting from the first (leftmost) loot in the list and going right. Players are only permitted to win 1 item - if you win an item, pass on the remaining loot and leave the instance.
+- **FFA** (free for all): anyone is free to take anything.
 
 ## Other Resources
 
