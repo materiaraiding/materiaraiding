@@ -105,7 +105,7 @@ a:hover {
 }
 
 .pink {
-	background-color: #b21bbf;
+	background-color: #c647d5;
 }
 
 .pink:hover {
