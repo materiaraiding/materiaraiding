@@ -522,3 +522,9 @@ If you are in a PF and successfully clear a fight, there are 2 main ways to assi
 - [XIVanalysis](https://xivanalysis.com/) - A tool for analyzing your performance in raids by reviewing your logs.
 - [Raidplan](https://raidplan.io/ffxiv) - A tool for creating and sharing visual raid plans and strategies.
 - [FFXIVFightline](https://www.ffxiv-fightline.com/) - A tool for creating a Mit-plan for your party.
+
+## Credits
+
+This guide was written by **Noz** and **Em** with contributions from the Materia Raiding Community. 
+
+Have feedback? Reach out to us in the [Materia Raiding Discord](https://discord.gg/EySn5dRj65) in the **#feedback** or **#materia-website** channels.
