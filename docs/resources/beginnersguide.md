@@ -87,32 +87,6 @@ High-End Duties in Final Fantasy XIV offer a variety of cosmetic and gear reward
 
 ## Raiding Concepts
 
-### Instances
-
-Instances are the areas where you will be doing your High-End Duties. These are separate from the open world and are designed to be completed with a party of players. Instances are generally designed for 8 players, but some content may require more or less.
-
-An instance will have a timer that will depend on the type of High-End Duty:
-
-- Extreme/Unreal: **60 Minutes**
-- Savage 1–3/Chaotic/Criterion Normal: **90 Minutes**
-- Savage 4/Ultimate/Criterion Savage: **120 Minutes**
-
-At the end of the timer, the instance will close, and you will be returned to the open world. This will boot you from an instance even if you are in combat.
-
-Most groups refer to the full-timer duration as a "Lockout" and your static might say they are doing "2 lockouts" or "3 lockouts" of a fight. This means they are doing two or three full runs of the fight before calling it for the day.
-
-::: tip NOTE
-The "lockout" terminology is also used for the weekly lockout of savage raids and loot, which will be explained in more detail later. Beware of this and understand they are different things.
-:::
-
-### Phases
-
-Phases are used to describe portions of a fight that have different mechanics or require different strategies. Savage fights will usually only have one phase except the last fight of a tier, which will have two distinct phases. Ultimate raids will generally have 5–6 phases, with each phase being like a mini-savage in itself.
-
-Some raids will have a checkpoint where you can wipe and start future pulls from a later phase. These are most common in the last fight of a savage tier and are often referred to as "door bosses"
-
-Phases are helpful for breaking down a fight into manageable chunks and allow you to focus on one part of the fight at a time. This is especially useful for new players who may be overwhelmed by the number of mechanics in a fight.
-
 ### Mechanics
 
 Raid mechanics are the various abilities and attacks that bosses use during encounters. These mechanics can vary greatly from fight to fight, but there are some common mechanics that you will encounter in most high-end duties. Other mechanics are usually a combination of these common mechanics in unique ways.
@@ -133,65 +107,6 @@ Raid mechanics are the various abilities and attacks that bosses use during enco
 
 
 The glossary page has a list of common mechanics and descriptions, but we also suggest exploring the guides on this website to see some other examples of different mechanics.
-
-### Burst/Pot Windows "2 mins"
-
-Burst window is a term commonly used to refer to a period of time when the party aligns party buffs and cooldowns for maximum damage output. This is usually done at the start of a fight and at regular **2-minute intervals** throughout the encounter. Some jobs will also have a 1-minute burst window, but these are generally handled automatically between the 2-minute windows.
-
-To get the most damage out of your job, you may hold some cooldowns to ensure they align for an upcoming burst window.
-
-2-minute burst windows may be deliberately delayed to align with downtime or other mechanics, **it is important to communicate with your party about when these windows will occur**.
-
-Potions (Pots) are consumables that temporarily increase your stats and will typically be used in line with the first burst window and the later usages will be delayed to align with another burst window later in the fight. Most savage raids will get at least two pot windows, with some fights and ultimates having three or more.
-
-### Mitigations (Mits)
-
-Damage mitigation is a crucial aspect of high-end raiding, as it helps reduce the amount of damage taken by the party during encounters and to survive certain mechanics.
-
-- **Tank mits**: Tanks have a variety of abilities that can reduce damage taken by themselves and the party. Tanks will also need to coordinate their mitigations to deal with tank busters and other mechanics that require them to take significant damage alone.
-
-- **Healer mits**: Healers have a number of raid-wide and targeted mitigations. Shield healers have the most options here, but all healers have some form of mit that can help the party.
-
-- **DPS mits**: DPS roles have a number of targeted and party-wide mitigations such as Feint, Addle, and other job-specific abilities, these should be rotated through the fight to help reduce overall damage taken by the party. DPS mits are usually targeted at a foe and reduce the damage dealt rather than the damage taken.
-
-- **Personal Defensives (Personals)**: Many jobs have personal defensive abilities that can be used to reduce individual damage taken. These should be used during high-damage phases or mechanics to help keep the player alive and reduce healer workload. Do not be afraid to use these, they are there to help you survive and keep the party alive. Your healers will appreciate it.
-
-A Mit-plan is a plan that outlines when and how to use damage mitigation abilities during a fight. This can help ensure that the party is prepared for high-damage phases and can survive difficult mechanics. This can vary greatly with party composition and the fight itself, so it is important to discuss this with your party before the fight begins.
-
-::: tip
-**FFXIV Fight Line** is a great tool for creating a Mit-plan for your party. It allows you to create a timeline of the fight with premade templates of existing encounters. This can help ensure that everyone is on the same page and knows when to use their cooldowns.
-
-<Action title='FFXIV-FightLine' color='blue' href='https://www.ffxiv-fightline.com/' />
-:::
-
-### Macros
-
-Macros are a way to automate certain actions in the game, such as using items or abilities. They are also often used to quickly share information with the party, such as strats. In Materia it is common practice to share a macro with the party at the start of a session to explain the strats the party plans to use.
-
-```
-■ Disco Inferno 1　　　■ Fixed A/B
-　 G1 W | G2 E　　　　　　H1　T
-■ Ensemble Assemble　　　　★
-　 H1 MT ST H2　　　　　 Dps H2
-　 D3 D1 D2 D4
-■ Ride The Waves　 ■ Frogtourage
-　 MT　H1　※Column 　D3  D4
-　 D1　D3　T/M Inner　MT  ST　 D3MT  STD4
-　 D2　D4　H/R Outer　D1  D2　H1D1  D2H2
-　 ST　H2　　　　 　　 H1  H2
-```
-
-Macros are provided by many guide resources such as the Materia Raiding guides on this website.
-
-### Waymarks
-
-Waymarks are markers that can be placed on the ground to help players navigate and position themselves during encounters. They are often used in conjunction with macros to provide visual cues for mechanics or party positioning.
-
-Waymarks are generally specific to a strategy and are generally provided alongside other resources such as in the raid guides provided by Materia Raiding.
-
-![](/images/ex1-waymarks.webp)
-
-These waymarks can be imported into the game using the Waymark Import addon, or you can ask a friend to import them for you and save a copy for yourself.
 
 ### Role Positions
 
@@ -227,6 +142,90 @@ As per the image above, you will notice H1 and D1 are both in line with the Purp
 - Blue: ST D2
 - Purple: H1 D1
 
+### Macros
+
+Macros are a way to automate certain actions in the game, such as using items or abilities. They are also often used to quickly share information with the party, such as strats. In Materia it is common practice to share a macro with the party at the start of a session to explain the strats the party plans to use.
+
+```
+■ Disco Inferno 1　　　■ Fixed A/B
+　 G1 W | G2 E　　　　　　H1　T
+■ Ensemble Assemble　　　　★
+　 H1 MT ST H2　　　　　 Dps H2
+　 D3 D1 D2 D4
+■ Ride The Waves　 ■ Frogtourage
+　 MT　H1　※Column 　D3  D4
+　 D1　D3　T/M Inner　MT  ST　 D3MT  STD4
+　 D2　D4　H/R Outer　D1  D2　H1D1  D2H2
+　 ST　H2　　　　 　　 H1  H2
+```
+
+Macros are provided by many guide resources such as the Materia Raiding guides on this website.
+
+### Waymarks
+
+Waymarks are markers that can be placed on the ground to help players navigate and position themselves during encounters. They are often used in conjunction with macros to provide visual cues for mechanics or party positioning.
+
+Waymarks are generally specific to a strategy and are generally provided alongside other resources such as in the raid guides provided by Materia Raiding.
+
+![](/images/ex1-waymarks.webp)
+
+These waymarks can be imported into the game using the Waymark Import addon, or you can ask a friend to import them for you and save a copy for yourself.
+
+### Burst Windows (2mins)
+
+Burst window is a term commonly used to refer to a period of time when the party aligns party buffs and cooldowns for maximum damage output. This is usually done at the start of a fight and at regular **2-minute intervals** throughout the encounter. Some jobs will also have a 1-minute burst window, but these are generally handled automatically between the 2-minute windows.
+
+To get the most damage out of your job, you may hold some cooldowns to ensure they align for an upcoming burst window.
+
+2-minute burst windows may be deliberately delayed to align with downtime or other mechanics, **it is important to communicate with your party about when these windows will occur**.
+
+Potions (Pots) are consumables that temporarily increase your stats and will typically be used in line with the first burst window and the later usages will be delayed to align with another burst window later in the fight. Most savage raids will get at least two pot windows, with some fights and ultimates having three or more.
+
+### Mitigations (Mits)
+
+Damage mitigation is a crucial aspect of high-end raiding, as it helps reduce the amount of damage taken by the party during encounters and to survive certain mechanics.
+
+- **Tank mits**: Tanks have a variety of abilities that can reduce damage taken by themselves and the party. Tanks will also need to coordinate their mitigations to deal with tank busters and other mechanics that require them to take significant damage alone.
+
+- **Healer mits**: Healers have a number of raid-wide and targeted mitigations. Shield healers have the most options here, but all healers have some form of mit that can help the party.
+
+- **DPS mits**: DPS roles have a number of targeted and party-wide mitigations such as Feint, Addle, and other job-specific abilities, these should be rotated through the fight to help reduce overall damage taken by the party. DPS mits are usually targeted at a foe and reduce the damage dealt rather than the damage taken.
+
+- **Personal Defensives (Personals)**: Many jobs have personal defensive abilities that can be used to reduce individual damage taken. These should be used during high-damage phases or mechanics to help keep the player alive and reduce healer workload. Do not be afraid to use these, they are there to help you survive and keep the party alive. Your healers will appreciate it.
+
+A Mit-plan is a plan that outlines when and how to use damage mitigation abilities during a fight. This can help ensure that the party is prepared for high-damage phases and can survive difficult mechanics. This can vary greatly with party composition and the fight itself, so it is important to discuss this with your party before the fight begins.
+
+::: tip
+**FFXIV Fight Line** is a great tool for creating a Mit-plan for your party. It allows you to create a timeline of the fight with premade templates of existing encounters. This can help ensure that everyone is on the same page and knows when to use their cooldowns.
+:::
+
+<Action title='FFXIV-FightLine' color='blue' href='https://www.ffxiv-fightline.com/' />
+
+### Instances
+
+Instances are the areas where you will be doing your High-End Duties. These are separate from the open world and are designed to be completed with a party of players. Instances are generally designed for 8 players, but some content may require more or less.
+
+An instance will have a timer that will depend on the type of High-End Duty:
+
+- Extreme/Unreal: **60 Minutes**
+- Savage 1–3/Chaotic/Criterion Normal: **90 Minutes**
+- Savage 4/Ultimate/Criterion Savage: **120 Minutes**
+
+At the end of the timer, the instance will close, and you will be returned to the open world. This will boot you from an instance even if you are in combat.
+
+Most groups refer to the full-timer duration as a "Lockout" and your static might say they are doing "2 lockouts" or "3 lockouts" of a fight. This means they are doing two or three full runs of the fight before calling it for the day.
+
+::: tip NOTE
+The "lockout" terminology is also used for the weekly lockout of savage raids and loot, which will be explained in more detail later. Beware of this and understand they are different things.
+:::
+
+### Phases
+
+Phases are used to describe portions of a fight that have different mechanics or require different strategies. Savage fights will usually only have one phase except the last fight of a tier, which will have two distinct phases. Ultimate raids will generally have 5–6 phases, with each phase being like a mini-savage in itself.
+
+Some raids will have a checkpoint where you can wipe and start future pulls from a later phase. These are most common in the last fight of a savage tier and are often referred to as "door bosses"
+
+Phases are helpful for breaking down a fight into manageable chunks and allow you to focus on one part of the fight at a time. This is especially useful for new players who may be overwhelmed by the number of mechanics in a fight.
 
 ## How to be a good Raider
 
@@ -248,7 +247,7 @@ Being a good raider is not just about knowing your job and mechanics, but also a
 
 - **Prog Mentality**: Focus on learning a mechanic first before optimizing your DPS and rotation. Understanding and building confidence with a mechanic will lead towards better performance overall. This is especially important in savage and ultimate content where the mechanics are more complex and require more focus.
 
-In smaller communities, bad behavior can lead to being blacklisted from future parties. Admitting fault and apologizing can go a long way in repairing relationships. If you are blacklisted, it may be difficult to find parties in the future.
+In smaller communities, bad behavior can lead to being blacklisted from future parties. Admitting fault and apologising can go a long way in repairing relationships. If you are blacklisted, it may be difficult to find parties in the future.
 
 ### Understanding your Job
 
@@ -278,11 +277,11 @@ This image shows an example of the slide-cast window, moving when the cast is wi
 
 Your rotation is made up of three components: your opener, your core rotation, and your burst window. The opener is the order of actions and cooldowns you will use from the beginning of the fight, while the core rotation is the order of abilities you will use throughout the fight.
 
-Your burst windows are the periods of time when you will use your abilities and cooldowns to maximize your damage output. These are usually aligned with the party's burst windows and are generally on a 2-minute cycle from the start of the fight.
+Your burst windows are the periods of time when you will use your abilities and cooldowns to maximise your damage output. These are usually aligned with the party's burst windows and are generally on a 2-minute cycle from the start of the fight.
 
 The best resource for learning your job is [The Balance Discord](https://discord.com/invite/thebalanceffxiv). This is a community of players who share information about job rotations, openers, and performance analysis. Here you will find comprehensive guides for all jobs and their rotations.
 
-<Action title='Visit the Balance' color='yellow' href='https://www.thebalanceffxiv.com/' />``
+<Action title='Visit the Balance' color='yellow' href='https://www.thebalanceffxiv.com/' />
 
 #### Utilities
 
@@ -308,7 +307,7 @@ After each raid, take some time to review your performance. This can help you id
 Some of these tools are considered third-party tools and may violate the Terms of Service of Final Fantasy XIV. Use them at your own discretion.
 :::
 
-- [FFLogs](https://www.fflogs.com/): A popular tool for analyzing raid performance. FFLogs allows you to see in-depth statistics about your performance, key areas to look for are:
+- [FFLogs](https://www.fflogs.com/): A popular tool for analysing raid performance. FFLogs allows you to see in-depth statistics about your performance, key areas to look for are:
   - rDPS: This is the damage you dealt including all damage due to buffs you provided other players.
   - uptime: This is the amount of time you were able to deal damage during the fight and keep your GCD rolling.
 
@@ -324,9 +323,9 @@ FFLogs requires someone in the party to be using the ACT (Advanced Combat Tracke
 
 Understanding the games' engine and combat system can have a large impact on your performance; 
 
-- **GCD**: The Global Cooldown is the time it takes for your character to perform an action. Most jobs will run a GCD speed close to the default value of 2.5 seconds, however, some jobs either have passive skills or use Skill Speed, Spell Speed, or Food to lower this value. Understanding how the GCD works and how to optimize it is crucial for maximizing your damage output.
+- **GCD**: The Global Cooldown is the time it takes for your character to perform an action. Most jobs will run a GCD speed close to the default value of 2.5 seconds, however, some jobs either have passive skills or use Skill Speed, Spell Speed, or Food to lower this value. Understanding how the GCD works and how to optimise it is crucial for maximising your damage output.
 
-- **oGCD**: Off Global Cooldown abilities are abilities that do not trigger the GCD and can be used at any time. These abilities can be used to fill the gaps while you wait for the GCS to come back up. Using oGCD abilities between GCDs is called "**Weaving**" and is a key part of maximizing your damage output. You can typically fit 2 oGCDs in between each GCD, but this can vary depending on your job and the abilities you are using. This would be called "**Double Weaving**".
+- **oGCD**: Off Global Cooldown abilities are abilities that do not trigger the GCD and can be used at any time. These abilities can be used to fill the gaps while you wait for the GCS to come back up. Using oGCD abilities between GCDs is called "**Weaving**" and is a key part of maximising your damage output. You can typically fit 2 oGCDs in between each GCD, but this can vary depending on your job and the abilities you are using. This would be called "**Double Weaving**".
 
 ::: tip
 You will notice all skills in the game are labelled as "Weaponskill", "Spell" or "Ability".
@@ -337,7 +336,11 @@ You will notice all skills in the game are labelled as "Weaponskill", "Spell" or
 
 - **Queueing & Clipping**: The game allows you to queue up your next ability while the GCD is still on cooldown. This means you can press your next ability before the GCD is finished, and it will automatically trigger when the GCD is over. The queue window is about 0.5s before the end of the GCD cooldown. This is important for maintaining a smooth rotation and avoiding clipping. The queue is server-side, which means that the ability occurs instantly after the GCD finishes which allows you to achieve zero downtime between abilities. Most abilities can be queued, however, some abilities cannot be queued and will require you to wait for the GCD to finish before using them. The delay that occurs after the GCD finishes and when the next input is registered on the server is called "**Clipping**" and can lead to a loss of damage if not managed properly.
 
-- **Snapshots**: Snapshots are a reference to how the game handles events from the server-side, the game bundles events together every few seconds and processes them as a batch. This can result in some unexpected behaviours when using certain abilites or most commonly when avoiding mechanics. You might visually avoid or dodge a mechanic before the visual indicator ends however if the game has already processed the event, you will still take damage.
+- **Snapshots**: Snapshots are a reference to how the game handles events from the server-side, the game bundles events together every few seconds and processes them as a batch. This can result in some unexpected behaviours when using certain abilites or most commonly when avoiding mechanics. You might visually avoid or dodge a mechanic before the visual indicator ends, however, if the game has already processed the event, you will still take damage.
+
+Joonbob has a fantastic video that includes video examples of all the above topics: 
+
+@[](https://youtu.be/JdcQyp8JcqQ)
 
 Some plugins can help with common issues with latency and clipping. These can help greatly with tight DPS rotations when you have high ping or are on a low-end PC. These plugins are not required but can help with your performance.
 
@@ -359,7 +362,7 @@ BiS or Best-In-Slot gear is the best possible gear you can obtain for your job a
 
 To obtain crafted gear: you can craft it yourself, buy it off the Market Board, or have someone else craft it for you.
 
-Overmelding is a process that allows you to add additional materia to your gear beyond the normal limit of 2 and is only available for crafted gear. This is important for maximizing your stats and performance in high-end content for early prog. The first 2 meld slots are guaranteed, but the 3rd, 4th, and 5th slots are not guaranteed and can fail.
+Overmelding is a process that allows you to add additional materia to your gear beyond the normal limit of 2 and is only available for crafted gear. This is important for maximising your stats and performance in high-end content for early prog. The first 2 meld slots are guaranteed, but the 3rd, 4th, and 5th slots are not guaranteed and can fail.
 
 To overmeld your gear:
 - You must have 1 Disciple of the Hand (crafter) job at max level as this allows you to meld your own gear.
