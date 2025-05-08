@@ -1,14 +1,16 @@
 ---
 order: 4
 title: Beginners Guide to Raiding
-description: A comprehensive guide to raiding in FFXIV, covering the fundamentals of high-end raiding such as mechanics, party finder, and more.
+description: A comprehensive handbook to raiding in FFXIV, covering the fundamentals of high-end raiding such as mechanics, party finder, and more.
 ---
 
 ![](/images/banners/raidbanner.webp)
 
 # The Beginners Guide to Raiding
 
-This guide is intended to introduce you to the fundamentals of High-End Duty content in FFXIV and is intended for new players who are interested in trying out harder content.
+So your friends have convinced you to try raiding in FFXIV, or you are just curious about what it is all about. Welcome to the beginning of your raiding journey! 
+
+This guide is intended to be a **helpful handbook** for Warriors of Light who are looking to get into high-end content but are unsure where to start. We don't recommend necessarily trying to read this all at once, but save this page and come back to it as you need it.
 
 ### Quick Links
 
@@ -89,7 +91,7 @@ For current expansion **Extremes**, they are numbered based on the order of rele
 
 Normal and Savage Raid fights use a **3-part naming scheme**. The first is a letter unique to the expansion tier, the second part is a number referring to the boss order from 1 to 12 and the last part is either "N" for normal or "S" for savage. For example, the first savage fight in the Endwalker expansion's full name is "Pandaemonium: Asphodelos - The First Circle (Savage)." We shorten this to "**P1S**". The second savage fight is called "**P2S,**" and so on.
 
-Ultimate Raid and Criterion Dungeon names are abbreviated based on the actual full name of the encounter. For example, the Ultimate Raid "**T**he **E**pic of **A**lexander" is referred to as **TEA**, while the Criterion Dungeon "**A**nother **S**il'dihn **S**ubterrane" is abbreviated to **ASS**. Chaotic Raids are new to the game but will also likely following this type of abbreviation as more are added..
+Ultimate Raid and Criterion Dungeon names are abbreviated based on the actual full name of the encounter. For example, the Ultimate Raid "**T**he **E**pic of **A**lexander" is referred to as **TEA**, while the Criterion Dungeon "**A**nother **S**il'dihn **S**ubterrane" is abbreviated to **ASS**. Chaotic Raids are new to the game but will also likely follow this type of abbreviation as more are added.
 
 ### Mechanics
 
@@ -333,6 +335,20 @@ This works due to server-side snapshots where the game has effectively already "
 This image shows an example of the slide-cast window, moving when the cast is within the last 0.5 seconds will not cancel the cast.
 :::
 
+#### Rotation and Burst Windows
+
+Your rotation is made up of three components: your opener, your core / filler rotation, and your burst window. The opener is the order of actions and cooldowns you will use from the beginning of the fight, while the core rotation is the order of abilities you will use throughout the fight.
+
+Your burst windows are the periods of time when you will use your abilities and cooldowns to maximise your damage output. These are usually aligned with the party's burst windows and are generally on a 2-minute cycle from the start of the fight.
+
+The best resource for learning your job is [The Balance Discord](https://discord.com/invite/thebalanceffxiv). This is a community of players who share information about job rotations, openers, and performance analysis. Here you will find comprehensive guides for all jobs and their rotations.
+
+<Action title='Visit the Balance Website' color='yellow' href='https://www.thebalanceffxiv.com/' />
+
+Example of an opener for Ninja: 
+
+![](/images/beginnersguide-ninopener.webp)
+
 #### Utilities
 
 Certain jobs have utility abilities that can be used to help the party or themselves. These can be unique tools specific to certain jobs or common utilities found across a role. The core utilities are:
@@ -342,15 +358,6 @@ Certain jobs have utility abilities that can be used to help the party or themse
 - **Rescue**: Healers all have a rescue ability that allows them to pull a party member to their location. A good healer can use this to save another party member from a mistake or quickly reposition them for a mechanic.
 - **Gap Closers**: These are movement abilities that allow players to quickly close the gap between them and the boss. This is especially important for melee DPS jobs who need to be in range of the boss to deal damage.
 
-#### Rotation and Burst Windows
-
-Your rotation is made up of three components: your opener, your core / filler rotation, and your burst window. The opener is the order of actions and cooldowns you will use from the beginning of the fight, while the core rotation is the order of abilities you will use throughout the fight.
-
-Your burst windows are the periods of time when you will use your abilities and cooldowns to maximise your damage output. These are usually aligned with the party's burst windows and are generally on a 2-minute cycle from the start of the fight.
-
-The best resource for learning your job is [The Balance Discord](https://discord.com/invite/thebalanceffxiv). This is a community of players who share information about job rotations, openers, and performance analysis. Here you will find comprehensive guides for all jobs and their rotations.
-
-<Action title='Visit the Balance' color='yellow' href='https://www.thebalanceffxiv.com/' />
 
 ### Reviewing your performance
 
@@ -382,9 +389,23 @@ FFLogs requires someone in the party to be using the ACT (Advanced Combat Tracke
 
 Prior to instancing into a raid, there are several things you need to prepare for - gear, consumables and studying for the encounter you intend to do (unless you have joined a "blind" PF or static).
 
-### Gear and Melding
+### Gearing up
 
-If you are raiding at the beginning of a Savage tier, you want to be wielding the newest crafted gear that is overmelded with 5 materia. You may have some pieces from the Extreme / Normal raid, and as you obtain tome and raid gear you can replace the lower iLvl piece. You must ensure your gear is fully melded before joining a raid party in Party Finder.
+There are three primary gear sources for high-end content: 
+
+- Crafted Gear
+- Raid Gear
+- Tome Gear
+
+**Crafted Gear** is introductory gear and is generally the minimum needed to start raiding. Tome and Raid gear will then replace this to make up your BiS (Best-in-Slot) gear for the current savage tier. You can craft it yourself, buy it off the Market Board, or have someone else craft it for you
+
+**Raid gear** is looted from savage encounters and is the highest iLvL gear at the time of each tier.
+
+**Tome gear** is available from the vendor in the main city for each expansion and is obtained by exchanging tomestones, which are obtained from various sources. Tome gear can be upgraded to the same iLvL as raid gear with upgrade tokens that are also looted from the savage encounters.
+
+---
+
+If you are raiding at the beginning of a Savage tier, you want to be wielding the newest crafted gear that is [overmelded](#melding) with as many materia as you can achieve (ideally five). You may have some pieces from the Extreme / Normal raid, and as you obtain tome and raid gear you can replace the lower iLvl piece. You should aim to have your gear fully [melded](#melding) before joining a raid party in Party Finder.
 
 [The Balance Discord](https://discord.com/invite/thebalanceffxiv) will provide you with information on your job's Week 1 BiS, as well as the final raid BiS.
 
@@ -392,9 +413,31 @@ If you are raiding at the beginning of a Savage tier, you want to be wielding th
 BiS or Best-In-Slot gear is the best possible gear you can obtain for your job at a given time. This is usually determined by the community and is often updated with new patches. There are typically multiple BiS sets for a job, depending on the player's preferred GCD timing.
 :::
 
-To obtain crafted gear: you can craft it yourself, buy it off the Market Board, or have someone else craft it for you.
+If for some reason you absolutely cannot achieve Week 1 BiS and intend on doing early prog:
+- If you are in a static, let them know. How they choose to handle that is up to the static.
+- If you intend to PF, please respect other people's time and do not join parties with undergeared and unmelded jobs. People want to give themselves the best chance to progress and having bad gear will undermine that.
+
+If you begin raiding later in the tier, as long as you are fully [melded](#melding) with current tome, crafted or normal raid gear, that is acceptable.
+
+Gearing for older Ultimate Raids strongly depends on how long it has been since its release. However, if you wish to tackle an Ultimate Raid while it is **current content**, you **MUST** be in fully melded final BiS gear for that tier, which as mentioned is available on [The Balance Discord](https://discord.com/invite/thebalanceffxiv).
+
+#### Weapons
+
+Each raid tier drops a weapon for all jobs on the last boss (almost always BiS), therefore, you will need to get a weapon from somehwere else to use during the raid tier. There are three options here: 
+
+- **Extreme Trials Weapons**: The last trial before each raid tier drops a weapon for all jobs that is generally the best option going into a savage raid tier.
+- **Crafted Weapons**: As with crafted armour, you can craft or buy a crafted weapon, however these are lower ilvl than the Extreme Trial weapons.
+- **Tome Weapons**: These will become available partway through the tier as they require a token dropped from the third boss or at least 7 kills of the last boss in Normal mode plus 500 tomestones. These are an undesirable option as they consume tomes which are a limited resource and generally get replaced not long after by raid weapons.
+
+#### Melding
+
+Melding gear is attaching materia to your gear for bonus stats. Anyone can meld up to two materia to most gear with the use of a Materia Melder NPC.
 
 Overmelding is a process that allows you to add additional materia to your gear beyond the normal limit of 2 and is only available for crafted gear. This is important for maximising your stats and performance in high-end content for early prog. The first 2 meld slots are guaranteed, but the 3rd, 4th, and 5th slots are not guaranteed and can fail.
+
+Here are some boots overmelded with five materia:
+
+![](/images/beginnersguide-melds.webp)
 
 To overmeld your gear:
 - You must have 1 Disciple of the Hand (crafter) job at max level as this allows you to meld your own gear.
@@ -405,14 +448,6 @@ OR
 - You can borrow the services of a crafter who has already unlocked overmelding themselves. Be sure to give them a tip for their time and effort.
 
 As overmelding gear is a gambling process, you will need a lot of materia. Regularly attending A rank hunt trains (which you can track in the [Faloop Discord](https://discord.com/invite/faloop)) is the best way to obtain clusters (which you exchange for materia). Otherwise, your other immediate option is to buy them from the Market Board, which becomes expensive very quickly.
-
-If for some reason you absolutely cannot achieve Week 1 BiS and intend on doing early prog:
-- If you are in a static, let them know. How they choose to handle that is up to the static.
-- If you intend to PF, please respect other people's time and do not join parties with undergeared and unmelded jobs. People want to give themselves the best chance to progress and having bad gear will undermine that.
-
-If you begin raiding later in the tier, as long as you are fully melded with current tome, crafted or normal raid gear, that is acceptable.
-
-Gearing for older Ultimate Raids strongly depends on how long it has been since its release. However, if you wish to tackle an Ultimate Raid while it is **current content**, you **MUST** be in fully melded final BiS gear for that tier, which as mentioned is available on [The Balance Discord](https://discord.com/invite/thebalanceffxiv).
 
 ### Consumables
 
@@ -471,9 +506,9 @@ For Materia players, use the [Materia Raiding Discord](https://discord.gg/EySn5d
 #### Managing expectations
 
 When setting up a static, the most important thing to do is to ensure all members have the same expectations for the party. Static groups are generally classified in 3 levels with vastly different expectations of time commitment, skill level, and work:
-- Casual: a more relaxed approach with no or few firm expectations.
-- Midcore: a strong group that generally get together 3-4 days a week to clear content efficiently, but without high pressure expectations.
-- Hardcore: groups that send longer hours and more days with the goal clearing content within a fast timeframe (e.g. clearing the full Savage tier in the first week of release).
+- **Casual**: a more relaxed approach with no or few firm expectations.
+- **Midcore**: a strong group that generally get together 3-4 days a week to clear content efficiently, but without high pressure expectations.
+- **Hardcore**: groups that send longer hours and more days with the goal clearing content within a fast timeframe (e.g. clearing the full Savage tier in the first week of release).
 
 :::tip NOTE
 These are just general guidelines - exact scheduling and expectations will vary from group to group.
@@ -487,17 +522,18 @@ Party Finder is an in-game tool that can be a useful tool for finding a group, d
 
 To find the right group, it is important to understand the terminology that is often used for Party Finder listings:
 
-| Terminology        | Meaning                                                                                                                                                                                 |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Fresh**          | This group is starting the fight or mechanic fresh and is open to unexperienced players                                                                                                 |
-| "mech" **Prog**    | This group is currently progging a specific mechanic and looking for other players to also learn this mechanic and prog past it.                                                        |
+| Terminology        | Meaning                                                                                                                                                                            |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Fresh**          | This group is starting the fight or mechanic fresh and is open to unexperienced players                                                                                            |
+| "mech" **Prog**    | This group is currently progging a specific mechanic and looking for other players to also learn this mechanic and prog past it.                                                   |
 | "mech" **Cleanup** | This group is finishing progging a specific mechanic and are looking for players up to the same point in the fight. Do not join if you have not learnt this specific mechanic yet. |
-| **A2C**            | This group has progged all the mechanics and are looking for players who are ready to clear the fight. Do not join if you are still progging mechanics.                                 |
-| **C41/C4x**        | This group is doing a clear of the fight with only 1 or X players who have not cleared before.                                                                                          |
-| **Blind**          | This group is not studying the fight and going in without any prior knowledge, let them work it out themselves.                                                                         |
-| **Need WM/Macro**  | This group is looking for someone who can bring their own Macros or Waymarks to share with the group                                                                                    |
-| **MR Strat**       | This group is using strats specifically from "Materia Raiding" community, this might be replaced with other strat names                                                                 |
-| **3x runs**        | This group is looking to kill the boss a certain number of times to farm loot, often seen with extreme trials                                                                           |
+| **A2C**            | This group has progged all the mechanics and are looking for players who are ready to clear the fight. Do not join if you are still progging mechanics.                            |
+| **C41/C4x**        | This group is doing a clear of the fight with only 1 or X players who have not cleared before.                                                                                     |
+| **Blind**          | This group is not studying the fight and going in without any prior knowledge, let them work it out themselves.                                                                    |
+| **Need WM/Macro**  | This group is looking for someone who can bring their own Macros or Waymarks to share with the group                                                                               |
+| **MR Strat**       | This group is using strats specifically from "Materia Raiding" community, this might be replaced with other strat names                                                            |
+| **3x runs**        | This group is looking to kill the boss a certain number of times to farm loot, often seen with extreme trials                                                                      |
+| **L>R/FFA** | This group is using a specific [loot Order](#loot-order) to assign loot.                                                                                                                          |
 
 ::: danger WARNING
 Do not join a party for content you have not progressed up to yet. Joining groups beyond your current prog point will inevitably cause unnecessary wipes, waste others' time and could harm your reputation within the raiding community.
@@ -536,11 +572,11 @@ When you clear a Savage Raid boss, your party will recieve a number of loot item
 
 Each player character is **eligible for loot once per week per savage boss**. You can repeat the fight as many times as you like, but **you will reduce the amount of loot that drops for the party,** and you are ineligible to receive any loot after your first kill of the week.
 
-You should aim to clear each boss with a full party of **8 eligible players to maximise loot**. Statics will have this expectation already but if you are using Party Finder, you will have the best chance to do this early in the reset week (ideally Tuesday evening and Wednesday).
+You should aim to clear each boss with a full party of **8 eligible players to maximise loot**. Statics will have this expectation already, but if you are using Party Finder, you will have the best chance to do this early in the reset week (ideally Tuesday evening and Wednesday).
 
 You will also receive one **"book"** per week for each boss you kill regardless of loot lockout. Multiple books can be exchanged for a raid drop of your choice from a vendor in one of the expansion cities.
 
-Each boss in a Savage tier must also be cleared to receive the weekly loot. If you join a party on a later boss, you relinquish your eligibility for a book and loot on the previous bosses.
+Each boss in a Savage tier must also be **cleared in sequence** to receive the weekly loot. If skip a boss, you relinquish your eligibility for a book and loot on the bosses you skipped over.
 
 ::: tip
 Some groups will do "book runs" at the end of the week to get a book regardless of loot eligibility. This is a great way to still get your weekly book if you left your reclears late in the week.
@@ -550,7 +586,7 @@ The weekly Savage loot lockout is removed towards the end of the major patch cyc
 
 ### Loot Order
 
-If you are in a static, how loot is assigned every week is entirely up to the group. Some groups may choose to funnel gear to DPS, some groups try to evenly distribute gear between everyone. Just don't do any reclears outside of your static until the end of your scheduled week, otherwise you will screw over the rest of your team's potential loot for that week.
+If you are in a static, how loot is assigned every week is entirely up to the group. Some groups may choose to funnel gear to DPS, some groups try to evenly distribute gear between everyone. Just **don't do any reclears outside of your static until the end of your scheduled week**, otherwise you will screw over the rest of your team's potential loot for that week.
 
 If you are in a Party Finder and successfully clear a fight, there are 2 main ways to assign loot. The party leader will often state their preferred loot assignment in the Party Finder description and if not, just ask.
 - **L > R** (left to right): only one item is rolled at a time, starting from the first (leftmost) loot in the list and going right. Players are only permitted to win 1 item - if you win an item, pass on the remaining loot and leave the instance.
