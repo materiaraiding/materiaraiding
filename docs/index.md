@@ -22,7 +22,7 @@ features:
     title: The Beginner's Guide to Raiding
     details: A comprehensive guide to raiding in FFXIV for new players.
     link: "/resources/beginnersguide"
-  - icon: ✈️
+  - icon: ⛵
     title: The Visitor's Guide to Materia Raiding
     details: A complete guide for raiders visiting the Materia Datacenter.
     link: "/resources/visitorsguide"

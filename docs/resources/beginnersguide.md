@@ -28,17 +28,17 @@ This guide is intended to introduce you to the fundamentals of High-End Duty con
 
 High-End Duty content in Final Fantasy XIV refers to the most challenging instanced encounters in the game, designed for experienced players seeking difficult mechanics and rewarding loot. In order of relative difficulty, these include:
 
-- **Unreal Trials**: Revamped versions of older extreme trials, adjusted to the current level cap.
+- <span style="font-weight: 600; color: var(--color-other)">Unreal Trials:</span> Revamped versions of older extreme trials, adjusted to the current level cap.
 
-- **Chaotic Raids**: Newer large-scale 24 man raids with complex mechanics based on older alliance raids.
+- <span style="font-weight: 600; color: var(--color-chaotic)">Chaotic Raids:</span> Newer large-scale 24 man raids with complex mechanics based on older alliance raids.
 
-- **Extreme Trials**: Tougher versions of standard trials, often featuring unique mechanics and valuable rewards.
+- <span style="font-weight: 600; color: var(--color-extreme)">Extreme Trials:</span>: Tougher versions of standard trials, often featuring unique mechanics and valuable rewards.
 
-- **Savage Raids**: Challenging versions of normal raids with complex mechanics and strict execution requirements.
+- <span style="font-weight: 600; color: var(--color-savage)">Savage Raids:</span> Challenging versions of normal raids with complex mechanics and strict execution requirements.
 
-- **Criterion Dungeons**^: High-difficulty dungeon content with unique mechanics and a savage mode for special cosmetics.
+- <span style="font-weight: 600; color: var(--color-criterion)">Criterion Dungeons^:</span> High-difficulty dungeon content with unique mechanics and a savage mode for special cosmetics.
 
-- **Ultimate Raids**: The pinnacle of difficulty in FF14 raiding, extra-long boss roulettes requiring precision, practice, and persistence.
+- <span class="ultimate-text">Ultimate Raids:</span> The pinnacle of difficulty in FF14 raiding, extra-long boss roulettes requiring precision, practice, and persistence.
 
 These duties typically release in cycles alongside major patches and expansions, offering powerful gear, titles, and cosmetic rewards. 
 Players can tackle them via Party Finder or by joining a Static Group, which is a dedicated team that regularly raids together.

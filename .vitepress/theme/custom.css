@@ -75,3 +75,8 @@ strong {
     text-wrap: balance;
     color: var(--vp-c-text-1);
 }
+
+.ultimate-text {
+    color: var(--color-ultimate);
+    font-weight: 600;
+}
