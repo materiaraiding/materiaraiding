@@ -103,4 +103,20 @@ a:hover {
 .yellow:hover {
 	background-color: var(--vp-c-yellow-2);
 }
+
+.pink {
+	background-color: #b21bbf;
+}
+
+.pink:hover {
+	background-color: #cc6fd3;
+}
+
+.cyan {
+	background-color: #0fadcf;
+}
+
+.cyan:hover {
+	background-color: #5fbcd3;
+}
 </style>

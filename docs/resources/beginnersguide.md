@@ -14,6 +14,20 @@ This guide is intended to introduce you to the fundamentals of High-End Duty con
 This page is a work-in-progress and may have some incomplete sections, check back soon to see it finished.
 :::
 
+### Quick Links
+
+<ActionGroup
+:actions=" [
+{ title: 'What is High-End Raiding in FFXIV', color: 'red', target: '_self', href: '#what-is-high-end-raiding-in-ffxiv' },
+{ title: 'Raiding Concepts', color: 'blue', target: '_self', href: '#raiding-concepts' },
+{ title: 'How to be a good Raider', color: 'yellow', target: '_self', href: '#how-to-be-a-good-raider' },
+{ title: 'Preparation', color: 'green', target: '_self', href: '#preparation' },
+{ title: 'Finding a Party', color: 'purple', target: '_self', href: '#finding-a-party' },
+{ title: 'Rewards', color: 'cyan', target: '_self', href: '#rewards-1' },
+{ title: 'Other Resources & Tools', color: 'pink', target: '_self', href: '#other-resources-tools' }
+]"
+/>
+
 ## What is High-End Raiding in FFXIV?
 
 High-End Duty content in Final Fantasy XIV refers to the most challenging instanced encounters in the game, designed for experienced players seeking difficult mechanics and rewarding loot. These duties include:
@@ -157,17 +171,24 @@ A Mit-plan is a plan that outlines when and how to use damage mitigation abiliti
 <Action title='FFXIV-FightLine' color='blue' href='https://www.ffxiv-fightline.com/' />
 :::
 
-### Enrage & DPS Checks
-
-DPS checks are points in a fight where the party must deal a certain amount of damage or reach a certain boss health percentage within a specific time frame to avoid a wipe. These checks can be triggered by mechanics or boss abilities, and they often require the party to use their burst windows and potions effectively.
-
-The most common form of DPS check will be the enrage for a fight where the boss will enrage and wipe the party if they do not defeat the boss before enrage. Ultimate fights will often have multiple DPS checks throughout the fight that must be met to progress through the fight or into the next phase.
-
 ### Macros
 
 Macros are a way to automate certain actions in the game, such as using items or abilities. They are also often used to quickly share information with the party, such as strats. In Materia it is common practice to share a macro with the party at the start of a session to explain the strats the party plans to use.
 
-Macros are provided by Materia Raiding for all current raids.
+```
+■ Disco Inferno 1　　　■ Fixed A/B
+　 G1 W | G2 E　　　　　　H1　T
+■ Ensemble Assemble　　　　★
+　 H1 MT ST H2　　　　　 Dps H2
+　 D3 D1 D2 D4
+■ Ride The Waves　 ■ Frogtourage
+　 MT　H1　※Column 　D3  D4
+　 D1　D3　T/M Inner　MT  ST　 D3MT  STD4
+　 D2　D4　H/R Outer　D1  D2　H1D1  D2H2
+　 ST　H2　　　　 　　 H1  H2
+```
+
+Macros are provided by many guide resources such as the Materia Raiding guides on this website.
 
 ### Waymarks
 
@@ -181,7 +202,7 @@ These waymarks can be imported into the game using the Waymark Import addon, or 
 
 ### Role Positions
 
-There are a handful of default positions and groups assigned to each role in a raid that are commonly used across many mechanics, knowing these can help you understand a wide variety of mechanics without having to learn them all individually.
+There are a handful of default positions that are commonly used in raids and are a good starting point for new players to learn. These will often be mentioned in party discussions and guides.
 
 #### Light Parties
 
@@ -206,7 +227,7 @@ Beware there are variations of these positions for some fights due to specific m
 
 As an extension of clock spots, color partners are a way to describe the position of players in relation to each other. This is often used in mechanics where players need to spread out or stack together. The default color partners are based on you clock spots and the waymarks which are in the same positions (colors).
 
-As per the image above, you will notice H1 and D1 are both in line with a Purple waymarks, this means they are color partners and will use these pairs for various mechanics.
+As per the image above, you will notice H1 and D1 are both in line with the Purple waymarks, this means they are color partners and will use these pairs for various mechanics.
 
 - Red: MT D3
 - Yellow: H2 D4
@@ -268,7 +289,7 @@ Your burst windows are the periods of time when you will use your abilities and 
 
 The best resource for learning your job is the [The Balance Discord](https://discord.com/invite/thebalanceffxiv). This is a community of players who share information about job rotations, openers, and performance analysis. Here you will find comprehensive guides for all jobs and their rotations.
 
-<Action title='Visit the Balance' color='yellow' href='https://www.thebalanceffxiv.com/' />
+<Action title='Visit the Balance' color='yellow' href='https://www.thebalanceffxiv.com/' />``
 
 #### Utilities
 
@@ -493,8 +514,11 @@ If you are in a PF and successfully clear a fight, there are 2 main ways to assi
 - **L > R** (left to right): only one item is rolled at a time, starting from the first (leftmost) loot in the list and going right. Players are only permitted to win 1 item - if you win an item, pass on the remaining loot and leave the instance.
 - **FFA** (free for all): anyone is free to take anything.
 
-## Other Resources
+## Other Resources & Tools
 
-### Discords
-
-### Websites
+- [Materia Raiding](https://materiaraiding.com/) - The home of Materia Datacenter strats and resources for raiding in Oceanic.
+- [The Balance](https://www.thebalanceffxiv.com/) - Comprehensive guides for all jobs, rotations, openers and BiS info.
+- [FFLogs](https://www.fflogs.com/) - A tool for analyzing raid performance and logs. This is a great way to see how you are performing in raids and where you can improve.
+- [XIVanalysis](https://xivanalysis.com/) - A tool for analyzing your performance in raids by reviewing your logs.
+- [Raidplan](https://raidplan.io/ffxiv) - A tool for creating and sharing visual raid plans and strategies.
+- [FFXIVFightline](https://www.ffxiv-fightline.com/) - A tool for creating a Mit-plan for your party.
