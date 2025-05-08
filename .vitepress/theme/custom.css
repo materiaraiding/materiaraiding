@@ -85,9 +85,19 @@ strong {
     .VPNav {
         position: fixed !important;
     }
+
+    .VPNav:not(:has(.VPNavBar.home.top)) {
+        background-color: rgba(27, 27, 31) !important;
+    }
+    
+    .VPNavBar:not(.home.top) .divider-line {
+        background-color: var(--vp-c-gutter);
+    }
+
     .VPLocalNav {
         top: var(--vp-nav-height) !important;
     }
+
     #VPContent {
         margin-top: var(--vp-nav-height);
     }
