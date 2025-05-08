@@ -30,7 +30,7 @@ High-End Duty content in Final Fantasy XIV refers to the most challenging instan
 
 - <span style="font-weight: 600; color: var(--color-other)">Unreal Trials:</span> Revamped versions of older extreme trials, adjusted to the current level cap.
 
-- <span style="font-weight: 600; color: var(--color-chaotic)">Chaotic Raids:</span> Newer large-scale 24 man raids with complex mechanics based on older alliance raids.
+- <span style="font-weight: 600; color: var(--color-chaotic)">Chaotic Raids:</span> Newer large-scale 24-man raids with complex mechanics based on older alliance raids.
 
 - <span style="font-weight: 600; color: var(--color-extreme)">Extreme Trials:</span> Tougher versions of standard trials, often featuring unique mechanics and valuable rewards.
 
@@ -44,7 +44,7 @@ These duties typically release in cycles alongside major patches and expansions,
 Players can tackle them via Party Finder or by joining a Static Group, which is a dedicated team that regularly raids together.
 
 ::: tip
-If you are a new player who has never taken part in High-End Duty, we recommend starting with **Extreme** as this is the best entry point to learn new systems and mechanics in a lower-stress environment.
+If you are a new player who has never taken part in High-End Duty, we recommend starting with **Extreme Trials** as this is the best entry point to learn new systems and mechanics in a lower-stress environment.
 
 Extreme trials will introduce you to the basics of party roles, mechanics, and the terminology used in raiding. This will give you a taste of what to expect in Savage and Ultimate raiding.
 :::
@@ -61,18 +61,20 @@ High-End Duty content in Final Fantasy XIV follows a structured release cycle ti
 
 | Content Type   | Release Cycle                                                                                                        |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
-| Savage Raids   | Released two weeks after a new expansion or major patch, allowing players time to complete the normal version first. |
-| Extreme Trials | Usually launched on day one of an expansion or major patch as these are tied to MSQ releases.                        |
-| Ultimate Raids | Introduced several months after an expansion or major patch, Typically two ultimates will release per expansion.     |
-| Criterion Dungeons | Added in mid-patches, offering a fresh challenge between major content updates. Unpredictable as they were only recently added in Endwalker. |
-| Unreal Trials | Updated periodically with most major patches, replacing older trials with revamped versions. |
+| **Savage Raids**   | Released two weeks after a new expansion or major patch, allowing players time to complete the normal version first. |
+| **Extreme Trials** | Usually launched on day one of an expansion or major patch as these are tied to MSQ releases.                        |
+| **Ultimate Raids** | Introduced several months after an expansion or major patch, Typically two ultimates will release per expansion.     |
+| **Criterion Dungeons** | Added in mid-patches, offering a fresh challenge between major content updates. Unpredictable as they were only recently added in Endwalker. |
+| **Unreal Trials** | Updated periodically with most major patches, replacing older trials with revamped versions. |
 
 Savage Raids are the core of FF14 Raiding and release in three sets of four, known as **Tiers**. Each released on patch x.0, x.2, and x.4. Each Tier is made up of four Trial-like fights where you face off against a single boss.
 
-::: tip SAVAGE NAMING
-The FF14 community names savage fights using a **3-part naming scheme**. The prefix letter is unqiue to the Expansion Tier, the number refers to boss order from 1 to 12 and the last letter is always "S" for savage.
+::: tip NAMING CONVENTIONS
+The FF14 community names savage fights using a 3-part naming scheme. The prefix letter is unique to the Raid Tier, the number refers to boss order from 1 to 12 and the last letter is always "S" for savage.
 
 For example, the first fight in the Endwalker expansion is called "Pandaemonium: Asphodelos - The First Circle (Savage)" or "**P1S**". The second fight is called "**P2S**" and so on.
+
+Ultimate raids and Criterion are all abbreviated with a 3/4-letter name, for example, "The Unending Coil of Bahamut" is abbreviated as "**UCOB**". And Another Sil'dihn Subteranne is abbreviated to "ASS".
 :::
 
 ::: tip PATCH NUMBERS
@@ -111,6 +113,27 @@ The glossary page has a list of common mechanics and descriptions, but we also s
 ### Role Positions
 
 There are a handful of default positions that are commonly used in raids and are a good starting point for new players to learn. These will often be mentioned in party discussions and guides.
+
+#### Job Roles
+
+In an 8-man party, we typically organise the party members into the following role positions:
+
+- Main Tank (MT)
+- Secondary Tank (ST) - (aka: Off-Tank or OT)
+- Healer 1 (H1) - Pure Healer (WHM or AST)
+- Healer 2 (H2) - Shield Healer (SGE or SCH)
+- DPS 1 (D1) - Melee DPS
+- DPS 2 (D2) - Melee DPS
+- DPS 3 (D3) - Ranged DPS (aka: Phys Ranged)
+- DPS 4 (D4) - Caster DPS
+
+It is common for Melee to call "D1" or "D2" preference when zoning into an instance, be sure to work this out before you pull the boss. D1 or D2 can also be replaced by another ranged or caster if necessary, this is often called "Fake Melee". 
+
+If you have at least one of each role in your party you will also get a "Party Bonus" that gives you a +5% buff to STR/DEX/VIT/INT and MND stats.
+
+::: tip
+In some regions, the D1 to D4 terminology is replaced with M1, M2, R1, R2 instead.
+:::
 
 #### Light Parties
 
@@ -227,6 +250,12 @@ Some raids will have a checkpoint where you can wipe and start future pulls from
 
 Phases are helpful for breaking down a fight into manageable chunks and allow you to focus on one part of the fight at a time. This is especially useful for new players who may be overwhelmed by the number of mechanics in a fight.
 
+### Glossary
+
+You can find more common terms and definitions in the glossary page,
+
+<Action title='Glossary' color='purple' href='/resources/glossary' />
+
 ## How to be a good Raider
 
 Being a good raider is not just about knowing your job and mechanics, but also about being a good team player. This topic will get into some more advanced concepts, terminology, and tips that will help you become a better raider.
@@ -251,9 +280,22 @@ In smaller communities, bad behavior can lead to being blacklisted from future p
 
 ### Understanding your Job
 
+First, here is an amazing PSA from JoCat that every prospective raider should watch:
+
+@[](https://youtu.be/olxZUfxk4bo)
+
+1. **Everyone is a DPS**
+2. **Press free damage buttons**
+3. **Always be casting**
+4. **Read your tooltips**
+5. **Being dead means zero damage**
+6. **PRACTICE**
+
+Now that you have memorised these simple rules, we will go into some more details about how these systems work.
+
 #### GCDs and Uptime/Downtime
 
-Rule no.1 is "Always be Casting" or keep your GCD rolling. This means you want to always keep your GCD "spinning". Any time your GCD is not moving is considered downtime and should be avoided. Using the correct GCD abilities comes next and this is your "rotation". 
+Rule no.1 is **"Always be Casting"** or keep your GCD rolling. This means you want to always keep your GCD "spinning". Any time your GCD is not moving is considered downtime and should be avoided. Using something is always more than using nothing. Using the correct actions comes next and this is your **rotation**. 
 
 Uptime is the effective time you are able to deal damage during an encounter and keep your GCD rolling. Managing uptime will lead to better overall damage output and can involve multiple factors such as:
 
@@ -342,9 +384,7 @@ Joonbob has a fantastic video that includes video examples of all the above topi
 
 @[](https://youtu.be/JdcQyp8JcqQ)
 
-Some plugins can help with common issues with latency and clipping. These can help greatly with tight DPS rotations when you have high ping or are on a low-end PC. These plugins are not required but can help with your performance.
-
-- NoClippy: A plugin that helps with clipping issues by adjusting your GCD and ability timings. This can help you maintain a smoother rotation and avoid clipping abilities on high-latency connections.
+Some plugins and tools can also help with common issues with latency and clipping. These can help greatly with tight DPS rotations when you have high ping or are on a low-end PC. 
 
 ## Preparation
 
