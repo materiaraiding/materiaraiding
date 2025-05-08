@@ -19,8 +19,8 @@ hero:
 
 features:
   - icon: 🌱
-    title: The Beginner's Guide to Raiding
-    details: A comprehensive guide to raiding in FFXIV for new players.
+    title: The Beginners Handbook to Raiding
+    details: A comprehensive handbook to raiding in FFXIV for new players.
     link: "/resources/beginnersguide"
   - icon: ⛵
     title: The Visitor's Guide to Materia Raiding
