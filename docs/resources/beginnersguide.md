@@ -83,16 +83,6 @@ High-End Duties in FFXIV offer a variety of cosmetic and gear rewards depending 
 
 ## Raiding Concepts
 
-### Encounter Naming Convention
-
-The FFXIV community generally will not use the full name of an encounter to refer to it and have abbreviations for simplicity.
-
-For current expansion **Extreme Trials**, they are numbered based on the order of release. So, the first Extreme Trial of an expansion would be **EX1**, the next **EX2**, and so on. For older expansions, they are generally referred to as \<boss name> EX.
-
-Normal and Savage Raid fights use a **3-part naming scheme**. The first is a letter unique to the expansion tier, the second part is a number referring to the boss order from 1 to 12 and the last part is either "N" for normal or "S" for savage. For example, the first savage fight in the Endwalker expansion's full name is "Pandaemonium: Asphodelos - The First Circle (Savage)." We shorten this to "**P1S**". The second savage fight is called "**P2S,**" and so on.
-
-Ultimate Raid and Criterion Dungeon names are abbreviated based on the actual full name of the encounter. For example, the Ultimate Raid "**T**he **E**pic of **A**lexander" is referred to as **TEA**, while the Criterion Dungeon "**A**nother **S**il'dihn **S**ubterrane" is abbreviated to **ASS**. Chaotic Raids are new to the game but will also likely follow this type of abbreviation as more are added.
-
 ### Mechanics
 
 Raid mechanics are the various abilities and attacks that bosses use during encounters. These mechanics can vary greatly from fight to fight, but there are some common mechanics that you will encounter in most high-end duties. Other mechanics are usually a combination of these common mechanics in unique ways.
@@ -255,6 +245,16 @@ Phases are used to describe portions of a fight that have different environments
 Some raids will have a **checkpoint** where you can wipe and start future pulls from a later phase. These are most common in the last fight of a Savage tier and are often referred to as "**door bosses**."
 
 Phases are helpful for breaking down a fight into manageable chunks and allow you to focus on one part of the fight at a time. This is especially useful for new players who may be overwhelmed by the number of mechanics in a fight.
+
+### Encounter Naming
+
+The FFXIV community generally will not use the full name of an encounter to refer to it and have abbreviations for simplicity.
+
+For current expansion **Extreme Trials**, they are numbered based on the order of release. So, the first Extreme Trial of an expansion would be **EX1**, the next **EX2**, and so on. For older expansions, they are generally referred to as \<boss name> EX.
+
+Normal and Savage Raid fights use a **3-part naming scheme**. The first is a letter unique to the expansion tier, the second part is a number referring to the boss order from 1 to 12 and the last part is either "N" for normal or "S" for savage. For example, the first savage fight in the Endwalker expansion's full name is "Pandaemonium: Asphodelos - The First Circle (Savage)." We shorten this to "**P1S**". The second savage fight is called "**P2S,**" and so on.
+
+Ultimate Raid and Criterion Dungeon names are abbreviated based on the actual full name of the encounter. For example, the Ultimate Raid "**T**he **E**pic of **A**lexander" is referred to as **TEA**, while the Criterion Dungeon "**A**nother **S**il'dihn **S**ubterrane" is abbreviated to **ASS**. Chaotic Raids are new to the game but will also likely follow this type of abbreviation as more are added.
 
 ### Glossary
 
