@@ -464,10 +464,19 @@ You can craft these consumables yourself, have someone else craft them for you o
 
 If there are resources available and agreed strategies to resolve mechanics for a particular encounter, it is paramount to be familiar with them before instancing into the encounter. Of course, it is normal to make mistakes while physically executing the mechanic for the first time, but **do not come into raid without having an idea what you are supposed to do**.
 
-Your static may provide you with the resources you need for studying, but many statics try to match Party Finder strategies for compatibility. For Party Finder strategies, the [Materia Raiding Website](https://materiaraiding.com/) has resources including raidplans / toolboxes (visual diagrams of how to resolve a mechanic).
+Your static may provide you with the resources you need for studying, but many statics try to match Party Finder strategies for compatibility. For OCE Party Finder strategies, the [Materia Raiding Website](https://materiaraiding.com/) has resources including raidplans / toolboxes (visual diagrams of how to resolve a mechanic).
+
+::: tip
+Each region generally has their own strat resources, so be sure to check your region's resources for the most up-to-date information.
+
+- OCE Strats: [Materia Raiding](https://materiaraiding.com/)
+- JP Strats: [Game8](https://game8.jp/ff14)
+- NA Strats: [Aether PF Strats](https://www.thepfstrat.com/)
+- EU Strats: (Generally Hector strats, no single website at this time)
+:::
 
 ::: warning
-If you are jumping into PF week 1, **expect strats to change multiple times** and regularly check the Materia Raiding Website/Discord until strategies are 100% set in stone.
+If you are jumping into PF week 1, **expect strats to change multiple times** and regularly check your region's resources until strategies are 100% set in stone.
 :::
 
 Studying goes beyond simply looking at raidplans - POVs are essential to put these diagrams into context. Do your best to understand *why* the mechanic plays out the way it does - having a proper understanding of the mechanic (as opposed to looking at the raidplan purely to understand where to stand) will make you a better and more competent raider. 
