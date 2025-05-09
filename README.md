@@ -25,16 +25,13 @@ Make a **Fork** of the project and do your edits in the fork, you can then creat
 First, login to github, you need an account to make changes.
 
 - Make a Fork using the Fork Button on the Materia Raiding Repo Page (fork is like your own copy of the website)
-
-{% include image.html path="https://github.com/materiaraiding/materiaraiding-old/assets/85346345/3bb113b8-bdd6-4463-b597-cb0e9be5227c"  %}
+  ![](https://github.com/materiaraiding/materiaraiding-old/assets/85346345/3bb113b8-bdd6-4463-b597-cb0e9be5227c)
 
 - Make Changes on your Fork, edit files and commit the changes to your Fork. You can edit the files directly in the web browser with the Edit Button. Then "Commit Changes" to save them to your fork.
-
-{% include image.html path="https://github.com/materiaraiding/materiaraiding-old/assets/85346345/041b63df-2449-430c-8d91-07fbe0b9a442"  %}
+  ![](https://github.com/materiaraiding/materiaraiding-old/assets/85346345/041b63df-2449-430c-8d91-07fbe0b9a442)
 
 - When you have completed your changes, use the "Contribute" button on your Fork Page to create a Pull Request, this submits it back to the main repo for us to approve the changes.
-
-{% include image.html path="https://github.com/materiaraiding/materiaraiding-old/assets/85346345/fde900bb-48e3-4be0-8518-5c02d04b1fa7"  %}
+  ![](https://github.com/materiaraiding/materiaraiding-old/assets/85346345/fde900bb-48e3-4be0-8518-5c02d04b1fa7)
 
 - Once your pull request is approved, your changes will appear on the website. It will take 5-10 mins for the system to render the new changes. 
 
