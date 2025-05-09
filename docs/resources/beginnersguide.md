@@ -10,7 +10,7 @@ description: A comprehensive handbook to raiding in FFXIV, covering the fundamen
 
 So your friends have convinced you to try raiding in FFXIV, or you are just curious about what it is all about. Welcome to the beginning of your raiding journey! 
 
-This guide is intended to be a **helpful handbook** for Warriors of Light who are looking to get into high-end content but are unsure where to start. We don't recommend necessarily trying to read this all at once, but save this page and come back to it as you need it.
+This guide is intended to be a **helpful handbook** for Warriors of Light who are looking to get into high-end content but are unsure where to start. **We don't recommend necessarily trying to read this all at once**, but save this page and come back to it as you need it.
 
 ### Quick Links
 
