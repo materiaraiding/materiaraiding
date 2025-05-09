@@ -19,7 +19,7 @@ hero:
 
 features:
   - icon: 🌱
-    title: The Beginners Handbook to Raiding
+    title: The Beginners Guide to Raiding
     details: A comprehensive handbook to raiding in FFXIV for new players.
     link: "/resources/beginnersguide"
   - icon: ⛵
