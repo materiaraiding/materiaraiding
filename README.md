@@ -44,8 +44,9 @@ For easy development you can run the website locally on your computer.
 ### Prerequisites
 
 - Node.js 22.15 LTS
+- Git
 
-1. Install Node.js 22.15 LTS from [Node.js](https://nodejs.org/en/download/)
+1. Install Node.js 22.15 LTS from [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads)
 2. Reboot after installing Node.js
 3. Clone the repository to your local machine with git
 4. Open a terminal and navigate to the cloned repository
