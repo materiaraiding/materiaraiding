@@ -70,7 +70,7 @@ const members = [
   },
   {
     avatar: 'https://cdn.discordapp.com/avatars/168710722346418177/21ee876a06956a5b4f21893535560590?size=256',
-    name: 'Noz Leafhill',
+    name: 'Noz',
     title: 'Writer',
     desc: "@happy.gorl.lucky"
   },
