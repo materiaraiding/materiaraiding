@@ -98,12 +98,6 @@ const members = [
     title: 'Content Creator',
     desc: "@lightprizym"
   },
-  {
-    avatar: 'https://cdn.discordapp.com/avatars/217912740180656139/00af26490ffa2a4f81a97f1f82a3b5ed.png?size=256',
-    name: 'Melvin',
-    title: 'Developer',
-    desc: "@melvinhk"
-  },
 ]
 </script>
 
