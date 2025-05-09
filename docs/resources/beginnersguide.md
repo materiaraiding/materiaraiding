@@ -12,6 +12,10 @@ So your friends have convinced you to try raiding in FFXIV, or you are just curi
 
 This guide is intended to be a **helpful handbook** for Warriors of Light who are looking to get into high-end content but are unsure where to start. **We don't recommend necessarily trying to read this all at once**, but save this page and come back to it as you need it.
 
+::: tip NOTE
+Some conventions in this guide will vary from region to region, but we have done our best to mention this where applicable. If you are unsure, it's always best to ask your party or static for clarification.
+:::
+
 ### Quick Links
 
 <ActionGroup
@@ -124,7 +128,7 @@ It is common for Melee to call "D1" or "D2" preference when zoning into an insta
 If you have at least one of each role in your party, you will also get a "Party Bonus" that gives you a +5% buff to STR/DEX/VIT/INT and MND stats.
 
 ::: tip
-In some regions, the D1 to D4 terminology is replaced with M1, M2, R1, R2 instead.
+This terminology varies across regions, typically OCE and JP use the D1 to D4 terminology, however, in other regions it may be replaced with M1, M2, R1, R2 instead.
 :::
 
 #### Light Parties
