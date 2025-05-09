@@ -2,8 +2,11 @@
 import './lists.css';
 import { data as pages } from '../loaders/guides.data.js';
 import { difficultyTypes } from './difficultyTypes.js';
-import { useData } from 'vitepress'
-let pageData = useData();
+import { useData, useRouter } from 'vitepress';
+
+const pageData = useData();
+const router = useRouter();
+
 defineProps(['limitedList']);
 
 /**
@@ -18,20 +21,19 @@ defineProps(['limitedList']);
  */
 
 const filterPagesBy = (difficulty) => {
-  let filteredPages = pages
-      .filter(p => p.frontmatter.difficulty === difficulty)
-      .sort((a, b) => a.frontmatter.order - b.frontmatter.order)
+	let filteredPages = pages
+		.filter(p => p.frontmatter.difficulty === difficulty)
+		.sort((a, b) => a.frontmatter.order - b.frontmatter.order);
 
-  if (difficulty === 'Savage' && pageData.frontmatter.value.layout === 'home') {
-    return filteredPages.slice(-4); // Limit to the last 4 pages for Savage
-  } else {
-    return filteredPages;
-  }
+	if (difficulty === 'Savage' && pageData.frontmatter.value.layout === 'home') {
+		return filteredPages.slice(-4); // Limit to the last 4 pages for Savage
+	} else {
+		return filteredPages;
+	}
 };
 
 function openPage(url) {
-	let strippedUrl = url.replace("/guides", '').toLowerCase();
-	window.open(strippedUrl, "_self");
+	router.go(url.replace("/guides", '').toLowerCase());
 }
 </script>
 
