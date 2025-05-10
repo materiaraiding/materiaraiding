@@ -1,26 +1,29 @@
 /**
- * Listens to the user's scroll direction on mobile widths, 
+ * Listens to the user's scroll direction, 
  * accepts a callback with a boolean of a downward scroll.
+ * 
+ * @param isMobile - Listen only during mobile widths (960px). False by default.
  */
-export default function useMobileScrollDirection(
-  onDirectionChange: (isDown: boolean) => void
+export default function useScrollDirection(
+  onDirectionChange: (isDown: boolean) => void,
+  { isMobile = false }: { isMobile: boolean }
 ): void {
   let lastScrollY = 0;
-  let navbarHidden = false;
+  let scrolledDownFlag = false;
 
   const scrollListener = () => {
     const isScrollingDown = window.scrollY > lastScrollY;
 
-    if (isScrollingDown !== navbarHidden) {
+    if (isScrollingDown !== scrolledDownFlag) {
       onDirectionChange(isScrollingDown);
-      navbarHidden = isScrollingDown;
+      scrolledDownFlag = isScrollingDown;
     }
 
     lastScrollY = window.scrollY;
   }
 
   const updateScrollListener = () => {
-    if (window.innerWidth <= 960) {
+    if (!isMobile || window.innerWidth <= 960) {
       window.addEventListener('scroll', scrollListener);
     } else {
       window.removeEventListener('scroll', scrollListener);
