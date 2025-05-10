@@ -3,7 +3,7 @@
 import DefaultTheme from "vitepress/theme";
 import { useData } from "vitepress";
 import { computed, onMounted } from "vue";
-import useScrollDirection from "../hooks/useMobileScrollDirection";
+import useScrollDirection from "../hooks/useScrollDirection";
 
 const { Layout } = DefaultTheme;
 const { frontmatter } = useData();
