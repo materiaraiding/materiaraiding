@@ -93,8 +93,12 @@ strong {
         margin-top: var(--nav-top);
     }
 
+    .VPNav:has(.screen-open) {
+        margin-top: 0;
+    }
+
     .VPNav:not(:has(.VPNavBar.home.top)) {
-        background-color: rgba(27, 27, 31) !important;
+        background-color: var(--vp-c-bg) !important;
     }
 
     .VPNavBar:not(.home.top) .divider-line {

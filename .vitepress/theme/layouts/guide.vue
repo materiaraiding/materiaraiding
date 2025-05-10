@@ -3,7 +3,7 @@
 import DefaultTheme from "vitepress/theme";
 import { useData } from "vitepress";
 import { computed, onMounted } from "vue";
-import useMobileScrollDirection from "../hooks/useMobileScrollDirection";
+import useScrollDirection from "../hooks/useMobileScrollDirection";
 
 const { Layout } = DefaultTheme;
 const { frontmatter } = useData();
@@ -24,14 +24,16 @@ const dutyType = computed(() => {
 onMounted(() => {
 	const root = document.documentElement;
 
-	useMobileScrollDirection(isDown => {
+	useScrollDirection(isDown => {
 		if (isDown) {
 			root.style.setProperty("--nav-top", "-64px");
-			root.style.setProperty("--local-nav-top", "0")
+			root.style.setProperty("--local-nav-top", "0");
 		} else {
 			root.style.setProperty("--nav-top", "0");
-			root.style.setProperty("--local-nav-top", "64px")
+			root.style.setProperty("--local-nav-top", "64px");
 		}
+	}, {
+		isMobile: true
 	});
 });
 </script>
