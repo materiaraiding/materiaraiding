@@ -114,7 +114,6 @@ After any of these sequences, the phase will end.
 ### Phase 2
 <Action title='Phase 2' color='purple' href='https://raidplan.io/plan/2f37jWj7XwPBjfix' />
 
-## Meow
 General Prios for Inner tiles:
 
 HEALER > TANK > DPS
