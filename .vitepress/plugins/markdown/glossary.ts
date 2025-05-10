@@ -2,13 +2,14 @@ import MarkdownIt from "markdown-it";
 import {readFileSync} from "fs";
 import escapeRegExp from "lodash/escapeRegExp";
 import escape from "lodash/escape";
+import pluralize from "pluralize";
 
 type WordDefinition = {
 	word: string;
 	definition: string;
 };
 
-export function glossary(md: MarkdownIt): void {
+export function glossaryPlugin(md: MarkdownIt): void {
 	const defaultTextRender =
 		md.renderer.rules.text || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options));
 	const defaultHeadingOpenRender =
@@ -56,8 +57,13 @@ export function glossary(md: MarkdownIt): void {
 
 		if (wordList.length > 0 && !isHeading) {
 			const wordMap: Record<string, string> = {};
-			wordList.forEach(({ word, definition }) => {
-				wordMap[word.toLowerCase()] = definition;
+			wordList.forEach(({word, definition}) => {
+				const base = word.toLowerCase();
+				const singular = pluralize.singular(base);
+				const plural = pluralize.plural(base);
+
+				wordMap[singular] = definition;
+				wordMap[plural] = definition;
 			});
 
 			const pattern = Object.keys(wordMap)
@@ -68,12 +74,12 @@ export function glossary(md: MarkdownIt): void {
 				const wordRegex = new RegExp(`\\b(${pattern})\\b`, "gi");
 				const content = tokens[idx].content;
 
-			if (wordRegex.test(content)) {
-				rendered = content.replace(wordRegex, (matchedWord) => {
-					const definition = wordMap[matchedWord.toLowerCase()] || "";
-					return `<span class="glossaryTerm" v-tooltip="{ content: '${escape(definition)}', theme: 'glossary-tooltip' }">${matchedWord}</span>`;
-				});
-			}
+				if (wordRegex.test(content)) {
+					rendered = content.replace(wordRegex, (matchedWord) => {
+						const definition = wordMap[matchedWord.toLowerCase()] || "";
+						return `<span class="glossaryTerm" v-tooltip="{ content: '${escape(definition)}', theme: 'glossary-tooltip' }">${matchedWord}</span>`;
+					});
+				}
 			}
 		}
 

@@ -15,6 +15,8 @@ import ImageEmbed from "./components/ImageEmbed.vue";
 // @ts-ignore
 import StatusIcon from "./components/StatusIcon.vue";
 // @ts-ignore
+import Raidplan from "./components/Raidplan.vue";
+// @ts-ignore
 import Action from "./components/Action.vue";
 // @ts-ignore
 import ActionGroup from "./components/ActionGroup.vue";
@@ -43,6 +45,7 @@ export default {
 		ctx.app.component("TimingWindow", TimingWindow);
 		ctx.app.component("ImageEmbed", ImageEmbed);
 		ctx.app.component("StatusIcon", StatusIcon);
+		ctx.app.component("Raidplan", Raidplan);
 		ctx.app.component("Action", Action);
 		ctx.app.component("ActionGroup", ActionGroup);
 		ctx.app.component("CustomBlock", CustomBlock);

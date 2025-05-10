@@ -9,7 +9,7 @@ discussionLink: https://discord.com/channels/944115415385247784/9549643674625147
 glossary: UCOB
 ---
 ## Credits
-- Written Guide by Em Gram (Phases 1, 2 and 3) and Noz Leafhill (Phases 4 and 5)
+- Written Guide by Em Gram (Phases 1, 2 and 3) and Noz (Phases 4 and 5)
 - PoVs by Kur Rumi
 
 ## Toolbox/Raidplan

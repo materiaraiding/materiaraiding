@@ -15,6 +15,17 @@ hero:
   image:
     src: /images/materia-logo-large.webp
     alt: VitePress
+
+
+features:
+  - icon: 🌱
+    title: The Beginners Guide to Raiding
+    details: A comprehensive handbook to raiding in FFXIV for new players.
+    link: "/resources/beginnersguide"
+  - icon: ⛵
+    title: The Visitor's Guide to Materia Raiding
+    details: A complete guide for raiders visiting the Materia Datacenter.
+    link: "/resources/visitorsguide"
 ---
 
 <PageList/>
@@ -58,19 +69,19 @@ const members = [
     desc: "@junocatto"
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/168710722346418177/e5baaf6a7f7b40824076c1409da1f1c8.png?size=256',
-    name: 'Noz Leafhill',
+    avatar: 'https://cdn.discordapp.com/avatars/168710722346418177/21ee876a06956a5b4f21893535560590?size=256',
+    name: 'Noz',
     title: 'Writer',
     desc: "@happy.gorl.lucky"
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/715021806033174590/3ef2d147d8af04f93a03966e53ca46f4.png?size=256',
+    avatar: 'https://cdn.discordapp.com/avatars/715021806033174590/b183fe66bd2aec1d2c1aee6cb7035625?size=256',
     name: 'Lynx Starflare',
     title: 'Editor',
     desc: "@lynx.starflare"
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/120703775139823618/374c90a3f6050676e6f75a3825717e7e.png?size=256',
+    avatar: 'https://cdn.discordapp.com/avatars/120703775139823618/3b46661783b34a9f29ccd0c518c96e3b?size=256',
     name: 'Kobe',
     title: 'Content Creator',
     desc: "@kobe_."

@@ -74,7 +74,7 @@ figcaption {
 }
 
 .imagelink {
-	color: var(--vp-c-text-3);
+	opacity: 0;
 	transition: color 0.2s;
 	text-decoration: none;
 	cursor: pointer;
@@ -90,7 +90,7 @@ figcaption {
 }
 
 .imagelink:hover {
-	color: var(--vp-c-text-2);
+	opacity: 1;
 }
 
 .active {

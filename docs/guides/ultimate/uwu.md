@@ -9,8 +9,8 @@ discussionLink: https://discord.com/channels/944115415385247784/9549643982067589
 glossary: UWU
 ---
 ## Credits
-- Written Guide by Em Gram and Noz Leafhill
-- Editing by Noz Leafhill
+- Written Guide by Em Gram and Noz
+- Editing by Noz
 - Toolboxes by MUR
 - PoVs by Kur Rumi
 

@@ -98,9 +98,9 @@ It is very important in this phase to keep Omega in the center of the arena.
 The phase begins with heavy hitting auto-attacks before starting the first mechanic:
 
 #### Program Loop
-Program loop begins with each player being assigned a number from 1 to 4, with two of each across the party. This mechanic requires 4 sets of 2 towers to be soaked in a sequential order <StatusIcon name="First in Line" /> → <StatusIcon name="Second in Line" /> → <StatusIcon name="Third in Line" /> → <StatusIcon name="Fourth in Line" /> that will deal significant damage to the player inside. 
+Program loop begins with each player being assigned a number from 1 to 4, with two of each across the party. This mechanic requires 4 sets of 2 towers to be soaked in a sequential order ^[First in Line] → ^[Second in Line] → ^[Third in Line] → ^[Fourth in Line] that will deal significant damage to the player inside. 
 
-For each set of towers that needs to be soaked, two tethers must be taken by two players and taken away from the towers in the order <StatusIcon name="Third in Line" /> → <StatusIcon name="Fourth in Line" /> → <StatusIcon name="First in Line" /> → <StatusIcon name="Second in Line" />.
+For each set of towers that needs to be soaked, two tethers must be taken by two players and taken away from the towers in the order ^[Third in Line] → ^[Fourth in Line] → ^[First in Line] → ^[Second in Line].
 
 These tethers will explode in a large AOE on the targeted player and inflict a HP penalty debuff which will wear off after 10 seconds. 
 
@@ -134,7 +134,7 @@ The cleaves will then either rotate clockwise or counter-clockwise. As the cleav
 ::: warning 
 It is very easy for the puddles to get out of hand, so stack as tightly as possible and move along the edge of Omega's hitbox whilst moving as a group. 
 
-Players whose turn it is to leave the stack should wait for a puddle to drop under their feet before exiting the stack. Using **sprint** <StatusIcon name="Sprint" /> can help but isn't required.
+Players whose turn it is to leave the stack should wait for a puddle to drop under their feet before exiting the stack. Using **sprint** ^[Sprint] can help but isn't required.
 :::
 
 Omega will then cast two tank buster cleaves on the two furthest players, and 6 line AOEs on the non-tanks. Both tanks **stack north, outside of the hitbox** and use invulnerability, and the party spreads within Omegas hitbox as seen in the cheatsheet.
@@ -156,7 +156,7 @@ There is about a 2 GCD window once both bosses become targetable where they are 
 2 minute raid buffs should be used either before they are targetable or on the 1st GCD.
 :::
 
-Omega-M and F will then cast **Firewall**, targeting the 4 closest players to each boss. If a player is close to M they will be inflicted with **Packet Filter F** <StatusIcon name="Packet Filter F" /> and be unable to damage Omega-F. If a player is close to F the opposite happens. 
+Omega-M and F will then cast **Firewall**, targeting the 4 closest players to each boss. If a player is close to M they will be inflicted with **Packet Filter F** ^[Packet Filter F] and be unable to damage Omega-F. If a player is close to F the opposite happens. 
 
 The party will split up into light parties for this so each boss will have a healer, tank, and two DPS able to damage it.
 
@@ -167,7 +167,7 @@ Omega-M and Omega-F will then cast:
 #### Party Synergy
 Both bosses will become untargetable and disappear as the mechanic begins. 
 
-The party is inflicted with either **Mid Glitch** <StatusIcon name="Mid Glitch" /> or **Remote Glitch** <StatusIcon name="Remote Glitch" />. Each player is also assigned 1 of 4 coloured symbols above their head, with two of each. 
+The party is inflicted with either **Mid Glitch** ^[Mid Glitch] or **Remote Glitch** ^[Remote Glitch]. Each player is also assigned 1 of 4 coloured symbols above their head, with two of each. 
 
 ::: everyone
 The party should line-up from East to West as seen in the cheatsheet. 
@@ -200,12 +200,12 @@ The "cursed" pattern (F-Staff & M-Shield) can be easily resolved by using the fa
 These waymarks also help to position during **Mid/Remote Glitch.**
 :::
 
-Once the dodge is made, all players must resolve their **Mid/Remote Glitch** by splitting into the previously designated light parties and moving to the West (LP1) and East (LP2) **relative to Omega's Eye**. If **Remote Glitch** <StatusIcon name="Remote Glitch" /> is being solved, the cross and triangle players in Light Party 2 will swap positions.
+Once the dodge is made, all players must resolve their **Mid/Remote Glitch** by splitting into the previously designated light parties and moving to the West (LP1) and East (LP2) **relative to Omega's Eye**. If **Remote Glitch** ^[Remote Glitch] is being solved, the cross and triangle players in Light Party 2 will swap positions.
 
 After each player takes an AOE, two stacks will then appear on two random players. Multiple clones will spawn around the arena, including a line of 3 Males, and 1 Female in the center. Using the **middle of the 3 males as relative north**, the party must form two stacks in their designated light parties around the female to get pushed back to 1 of 3 safe spots.
 
-Light Party 1 will always anchor West, and Light Party 2 will either be pushed South for **Mid Glitch** <StatusIcon name="Mid Glitch" />
-, or East for **Remote Glitch** <StatusIcon name="Remote Glitch" />
+Light Party 1 will always anchor West, and Light Party 2 will either be pushed South for **Mid Glitch** ^[Mid Glitch]
+, or East for **Remote Glitch** ^[Remote Glitch]
 .
 
 If the stack players are part of the **same light party** the north most stack relative to the eye must swap positions with their partner. 
@@ -259,15 +259,15 @@ The party should line-up from East to West as seen in the cheatsheet before debu
 To survive this transition the party must have *at least* a barrier healer's shield covering the hits.
 :::
 
-The debuffs assigned will target 4 players with **Sniper Cannon Fodder** (spread) <StatusIcon name="Sniper Cannon Fodder" />
-, 2 players with **High-powered Sniper Cannon Fodder** (stack) <StatusIcon name="High-powered Sniper Cannon Fodder" /> and 2 players will not be assigned a debuff.
+The debuffs assigned will target 4 players with **Sniper Cannon Fodder** (spread) ^[Sniper Cannon Fodder]
+, 2 players with **High-powered Sniper Cannon Fodder** (stack) ^[High-powered Sniper Cannon Fodder] and 2 players will not be assigned a debuff.
 
 Players must spread according to their debuff and priority, with the stacks and non-debuff players along the south edge of the arena, and the spread players along the north edge.
 
 Two sets of **Arms** will appear that will cause large circular AOEs, as well as a cascading donut AOE (Wave Repeater) originating from the center. To resolve this, players will dodge Wave Repeater by moving in and out from the edge of the arena, and then dodging into the first arm explosion where they will take their spread or stack. 
 
 ::: info NOTE
-Using **sprint** <StatusIcon name="Sprint" /> can help make the 2->1 dodge easier, but isn't required.
+Using **sprint** ^[Sprint] can help make the 2->1 dodge easier, but isn't required.
 :::
 
 ### Phase 3: Reconfigured Omega
@@ -278,7 +278,7 @@ There are hard hitting auto-attacks throughout this entire phase. The OT should 
 :::
 
 ::: healer
-This phase requires high mitigation for each **Latent Defect** <StatusIcon name="Cascading Latent Defect" />. Use the mitigation sheet provided, and allow the shield healer to get dead center of the arena to mitigate damage before each **Latent Defect**.
+This phase requires high mitigation for each **Latent Defect** ^[Cascading Latent Defect]. Use the mitigation sheet provided, and allow the shield healer to get dead center of the arena to mitigate damage before each **Latent Defect**.
 :::
 
 The phase begins with a hard-hitting raid wide cast:
@@ -289,27 +289,27 @@ This mechanic assigns **a lot** of debuffs to players. Thankfully, a few of them
 For those interested I've attached the ignorable debuffs in the dropdown below:
 
 ::: details Hello World Debuffs
-**Cascading Latent Defect** <StatusIcon name="Cascading Latent Defect" />
+**Cascading Latent Defect** ^[Cascading Latent Defect]
 > Received from soaking a red puddle. Cleansed by allowing **Critical Underflow Bug** to expire. Failing to do so will wipe the raid.
 
-**Latent Performance Defect** <StatusIcon name="Latent Performance Defect" />
+**Latent Performance Defect** ^[Latent Performance Defect]
 > Received from soaking a blue puddle. Cleansed by allowing **Critical Performance Bug** to expire. Failing to do so will wipe the raid.
 
-**Latent Defect** <StatusIcon name="Latent Defect" />
+**Latent Defect** ^[Latent Defect]
 > Players must take damage before the debuff expires or they will die. This is assigned to **Christmas Tether** players.
 
-**Latent Synchronization Bug** <StatusIcon name="Latent Synchronization Bug" />
-> Must be hit by **Critical Synchronization Bug** <StatusIcon name="Critical Synchronization Bug" /> to remove. Failure to do so results in death.
+**Latent Synchronization Bug** ^[Latent Synchronization Bug]
+> Must be hit by **Critical Synchronization Bug** ^[Critical Synchronization Bug] to remove. Failure to do so results in death.
 :::
 
 However, to actually resolve the mechanic we only care about 5 of them:
 
-- **Critical Underflow Bug** (aka Red Rot) <StatusIcon name="Critical Underflow Bug" />
-- **Critical Performance Bug** (aka Blue Rot) <StatusIcon name="Critical Performance Bug" />
-- **Critical Overflow Bug** (aka Defamation) <StatusIcon name="Critical Overflow Bug" />
-- **Critical Synchronization Bug** <StatusIcon name="Critical Synchronization Bug" />
-- **Local Code Smell/Local Regression** (aka Christmas Tether) <StatusIcon name="Local Code Smell" />/<StatusIcon name="Local Regression" />
-- **Remote Code Smell/Remote Regression** (aka Blue Tether) <StatusIcon name="Remote Code Smell" />/<StatusIcon name="Remote Regression" />
+- **Critical Underflow Bug** (aka Red Rot) ^[Critical Underflow Bug]
+- **Critical Performance Bug** (aka Blue Rot) ^[Critical Performance Bug]
+- **Critical Overflow Bug** (aka Defamation) ^[Critical Overflow Bug]
+- **Critical Synchronization Bug** ^[Critical Synchronization Bug]
+- **Local Code Smell/Local Regression** (aka Christmas Tether) ^[Local Code Smell]/^[Local Regression]
+- **Remote Code Smell/Remote Regression** (aka Blue Tether) ^[Remote Code Smell]/^[Remote Regression]
 
 Throughout the phase, each player will have to get each of these debuffs. Once you have received and resolved your debuff, you will become immune to getting it again.
 
@@ -327,7 +327,7 @@ Tether players should also give way to rots to reduce car crashes.
 All players should never pass through the direct center of the arena to avoid walking through the H2 player.
 :::
 
-Tethers players will initially have an "inactive" buff, meaning that they can be any distance away from eachother without causing it to break. Once their tether becomes active, if **Blue Tethers** move far apart, the tether will break, and if **Christmas Tethers** move close together, their tether will break. Both breaks cause **high raid-wide** "patch" damage and a **Thrice-come Ruin** <StatusIcon name="Thrice-come Ruin" /> to be inflicted on each player.
+Tethers players will initially have an "inactive" buff, meaning that they can be any distance away from eachother without causing it to break. Once their tether becomes active, if **Blue Tethers** move far apart, the tether will break, and if **Christmas Tethers** move close together, their tether will break. Both breaks cause **high raid-wide** "patch" damage and a **Thrice-come Ruin** ^[Thrice-come Ruin] to be inflicted on each player.
 
 Failing to break a tether before it expires results in a wipe.
 
@@ -337,7 +337,7 @@ The **Blue Tether** players will move to the stack rots and in between the puddl
 Popping the **Blue Tether** *too* early can cause wipes as the initial hits from defamation and the stack give a magic vulnerability debuff for 1 second.
 :::
 
-The **Christmas Tether** players will be standing outside the puddle next to the defamation players, and giving themself rot once the defamation AOE occurs. They will then break their tether by **getting close to one another**, being careful not to do it too soon after the first tether break as it will wipe the raid due to **Thrice-come Ruin** <StatusIcon name="Thrice-come Ruin" />
+The **Christmas Tether** players will be standing outside the puddle next to the defamation players, and giving themself rot once the defamation AOE occurs. They will then break their tether by **getting close to one another**, being careful not to do it too soon after the first tether break as it will wipe the raid due to **Thrice-come Ruin** ^[Thrice-come Ruin]
 
 This mechanic repeats **Latent Defect** a total of 4 times, where for the final **Latent Defect** all players (except defamation) will move to the **stack rot** side. This will cause the **Christmas Tether** to break immediately, and then the **Blue Tether** will be broken manually after.
 
@@ -350,10 +350,10 @@ The party should pre-position in the cheatsheet lineup for monitors to quickly f
 
 After ~3 more auto-attacks, Omega will begin to cast **Oversampled Wave Cannon** and point a set of blue monitors either true East or true West. 
 
-3 random players will also be inflicted with **Oversampled Wave Cannon Loading**, putting the same East/West facing monitors on their person. Players must position and align themselves such that **each monitor** is only hitting **2 people** at a time, as seen in the MUR cheatsheet. If hit by a monitor, a large AOE will explode on the player for high damage and they will be inflicted by **Twice-come Ruin** <StatusIcon name="Twice-come Ruin" />.
+3 random players will also be inflicted with **Oversampled Wave Cannon Loading**, putting the same East/West facing monitors on their person. Players must position and align themselves such that **each monitor** is only hitting **2 people** at a time, as seen in the MUR cheatsheet. If hit by a monitor, a large AOE will explode on the player for high damage and they will be inflicted by **Twice-come Ruin** ^[Twice-come Ruin].
 
 Misaligning your monitor will result in players either: not being hit by monitor, or hit by 2+ monitors. 
-If a monitor does not hit 2 players it will randomly select a player. If hit by 2+ monitors the player will be inflicted with **doom** due to **Twice-come Ruin** <StatusIcon name="Twice-come Ruin" />.
+If a monitor does not hit 2 players it will randomly select a player. If hit by 2+ monitors the player will be inflicted with **doom** due to **Twice-come Ruin** ^[Twice-come Ruin].
 
 ::: info NOTE
 The monitor positions "lock-in" as the **Oversampled Wave Cannon** cast **finishes**, allowing monitor players to greed GCDs. 
@@ -386,14 +386,14 @@ Each trio is split into a "mechanic" section and a "Hello World" section. During
 **Hello, Distant World**
 > Causes a large AOE on the player. This AOE "bounces" to the **furthest player away** causing a smaller AOE. This AOE then "bounces" once more to the **furthest player away** again. 
 > 
-> These AOEs inflict 1 stack of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" /> to each player.
+> These AOEs inflict 1 stack of **Quickening Dynamis** ^[Quickening Dynamis] to each player.
 
 **Hello, Near World**
 > Causes a large AOE on the player. This AOE "bounces" to the **closest player** causing a smaller AOE. This AOE then "bounces" once more to the **closest player** again. 
 > 
-> These AOEs inflict 1 stack of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" /> to each player.
+> These AOEs inflict 1 stack of **Quickening Dynamis** ^[Quickening Dynamis] to each player.
 
-The goal of the entirety of phase 5 is to end the phase with 3 stacks of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" /> on every player, as this is required to complete phase 6.
+The goal of the entirety of phase 5 is to end the phase with 3 stacks of **Quickening Dynamis** ^[Quickening Dynamis] on every player, as this is required to complete phase 6.
 
 ::: info NOTE
 MUR employs blasphemous strategies of using AMs (they're actually really nice for the last trio), that simplifies the **Hello World** sections of Sigma and Omega. This guide is written assuming players will be using these, though I will explain why some players are *required* to be in certain positions.
@@ -424,7 +424,7 @@ Two **Blue Tether Players** will also receive **Hello, Distant World** and **Hel
 
 ![](/images/top-delta.webp)
 
-Much like phase 3, breaking tethers results in a **large raid-wide hit** as well as inflicting **Thrice-come Ruin** <StatusIcon name="Thrice-come Ruin" /> on the party. However if the tether debuffs expire the party is killed. As such, we want to gradually break all 4 throughout the course of the mechanic so that the damage does not kill the party whilst not letting the tethers expire.
+Much like phase 3, breaking tethers results in a **large raid-wide hit** as well as inflicting **Thrice-come Ruin** ^[Thrice-come Ruin] on the party. However if the tether debuffs expire the party is killed. As such, we want to gradually break all 4 throughout the course of the mechanic so that the damage does not kill the party whilst not letting the tethers expire.
 
 As the tethers are still **inactive**, the **Outer Blue Tether** will stretch so that it will break immediately upon becoming active.
 
@@ -454,13 +454,13 @@ After the Monitors resolve, **Beetle Omega** will cleave one side of the arena w
 *Image by Bird*
 
 ::: warning 
-**Christmas Tether** breaks must be done at the right time. Due to **Twice-come Ruin** <StatusIcon name="Twice-come Ruin" /> debuffs from **Monitors** and **Pile Pitch**, the first break must be delayed. However, the first **Christmas Tether Players** can use the tether timer and break their tether at 15s as it will always be safe.
+**Christmas Tether** breaks must be done at the right time. Due to **Twice-come Ruin** ^[Twice-come Ruin] debuffs from **Monitors** and **Pile Pitch**, the first break must be delayed. However, the first **Christmas Tether Players** can use the tether timer and break their tether at 15s as it will always be safe.
 
 Similarly, the second **Christmas Tether** break can be done at ~2 seconds.
 :::
 
 ::: info NOTE
-If solved correctly, 6 players will have 1 stack of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" />.
+If solved correctly, 6 players will have 1 stack of **Quickening Dynamis** ^[Quickening Dynamis].
 :::
 
 **Omega-M** will then do another **Solar Ray** tank buster before casting:
@@ -505,7 +505,7 @@ Players will then move into their **Hello World** positions as seen below:
 > If you are not running AMs players can pre-position in a line up while they are waiting for the rotating AOE to begin, indicating which position they will take.
 
 ::: info NOTE
-If solved correctly, 4 players will have 1 stack of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" />, and 4 players will have 2 stacks of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" />.
+If solved correctly, 4 players will have 1 stack of **Quickening Dynamis** ^[Quickening Dynamis], and 4 players will have 2 stacks of **Quickening Dynamis** ^[Quickening Dynamis].
 :::
 
 **Omega-F** will then spawn in the center and become targetable.
@@ -515,7 +515,7 @@ After another **Solar Ray** tank buster, **Omega-F** casts:
 #### Run: Dynamis (Omega Version)
 <Action title='P5 Dynamis Omega Toolbox' color='red' href='https://ff14.toolboxgaming.space/?id=078384491946761&preview=1' />
 
-After the initial raid-wide, 4 players are assigned **Hello World** debuffs. Two players are assigned with **First in Line** <StatusIcon name="First in Line" />, and two others will be assigned with **Second in Line** <StatusIcon name="Second in Line" />. One player from each pair will be assigned **Hello, Distant World** <StatusIcon name="Hello, Distant World" /> and the other **Hello, Near World** <StatusIcon name="Hello, Near World" />.
+After the initial raid-wide, 4 players are assigned **Hello World** debuffs. Two players are assigned with **First in Line** ^[First in Line], and two others will be assigned with **Second in Line** ^[Second in Line]. One player from each pair will be assigned **Hello, Distant World** ^[Hello, Distant World] and the other **Hello, Near World** ^[Hello, Near World].
 
 **Omega-F** will remain targetable and **Final Omega** will spawn in the center of the arena. Clones of **Omega-M** and **Omega-F** will appear on opposite intercardinals next to **Final Omega** with the same **Staff/Skates + Sword/Shield** combo that's seen in phase 2. **Final Omega** will then cast 2 large cleaves on opposite cardinals of the arena, before cleaving the opposite cardinals.
 
@@ -545,9 +545,9 @@ Anyone who fails to make this dodge will take **HEAVY** damage and be inflicted 
 
 After the dodges are resolved, **Omega-F** will become untargetable and disappear. **Final Omega** will then point a monitor at either true East or true West. Like before, two players must be hit by this monitor while the rest need to line up for the first **Hello World** section.
 
-The two players that must be hit by the monitor are picked to be players with 2 stacks of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" />. Players with 2 stacks *and* **Second in Line** <StatusIcon name="Second in Line" /> take priority for this position. 
+The two players that must be hit by the monitor are picked to be players with 2 stacks of **Quickening Dynamis** ^[Quickening Dynamis]. Players with 2 stacks *and* **Second in Line** ^[Second in Line] take priority for this position. 
 
-If these players are not given the monitor position, they cannot line up for the 2nd Hello World as they will have 3 stacks of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" /> and will get a 4th from their own **Hello World** debuff, forcing a wipe.
+If these players are not given the monitor position, they cannot line up for the 2nd Hello World as they will have 3 stacks of **Quickening Dynamis** ^[Quickening Dynamis] and will get a 4th from their own **Hello World** debuff, forcing a wipe.
 
 The party will then line up as seen below:
 
@@ -556,15 +556,15 @@ The party will then line up as seen below:
 > If you are not running AMs, the line up used in this strategy can prove awkward and difficult to pre-position for, so a different line up (such as in JP strats) can be used to make it more comfy.
 
 ::: info NOTE
-If solved correctly, 2 players will have 3 stacks of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" /> and the remaining 6 will have 2 stacks of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" />.
+If solved correctly, 2 players will have 3 stacks of **Quickening Dynamis** ^[Quickening Dynamis] and the remaining 6 will have 2 stacks of **Quickening Dynamis** ^[Quickening Dynamis].
 :::
 
-**Beetle Omega** will then spawn on a random cardinal, and a second and final **Hello World** line up must be formed. The players with **3 stacks** of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" /> must take two tethers from **Beetle Omega** while the other 6 players position themselves as seen below:
+**Beetle Omega** will then spawn on a random cardinal, and a second and final **Hello World** line up must be formed. The players with **3 stacks** of **Quickening Dynamis** ^[Quickening Dynamis] must take two tethers from **Beetle Omega** while the other 6 players position themselves as seen below:
 
 ![](/images/top-omega-spreads2.webp)
 
 ::: info NOTE
-If solved correctly all 8 players will have 3 stacks of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" />.
+If solved correctly all 8 players will have 3 stacks of **Quickening Dynamis** ^[Quickening Dynamis].
 :::
 
 **Omega-F** will then become targetable and do one last **Solar Ray** tank buster.
@@ -588,12 +588,12 @@ This phase requires heavy mitigation on almost every mechanic.
 Between every mechanic **Alpha Omega** will do 2 AOE auto-attacks. These will target the player with the highest emnity and the player who is **furthest** from the boss. The OT should stand outside the hitbox between mechanics to take these.
 :::
 
-**Alpha Omega** will become targetable and immediately begin casting **Cosmo Memory**, which requires a tank LB3 to survive. Upon taking damage from **Cosmo Memory**, everyone's 3 stacks of **Quickening Dynamis** <StatusIcon name="Quickening Dynamis" /> will be transformed to **Brilliant Dynamis** <StatusIcon name="Brilliant Dynamis" />.
+**Alpha Omega** will become targetable and immediately begin casting **Cosmo Memory**, which requires a tank LB3 to survive. Upon taking damage from **Cosmo Memory**, everyone's 3 stacks of **Quickening Dynamis** ^[Quickening Dynamis] will be transformed to **Brilliant Dynamis** ^[Brilliant Dynamis].
 
-The **Brilliant Dynamis** <StatusIcon name="Brilliant Dynamis" /> buff allows every player to use a LB3 during the phase, as it will refund the gauge upon use. Once this limit break is used, **Brilliant Dynamis** <StatusIcon name="Brilliant Dynamis" /> will turn into **Spark of Dynamis** <StatusIcon name="Spark of Dynamis" />. Any player **without** **Brilliant Dynamis** <StatusIcon name="Brilliant Dynamis" /> or **Spark of Dynamis** <StatusIcon name="Spark of Dynamis" /> will take lethal damage from any damage the boss inflicts. 
+The **Brilliant Dynamis** ^[Brilliant Dynamis] buff allows every player to use a LB3 during the phase, as it will refund the gauge upon use. Once this limit break is used, **Brilliant Dynamis** ^[Brilliant Dynamis] will turn into **Spark of Dynamis** ^[Spark of Dynamis]. Any player **without** **Brilliant Dynamis** ^[Brilliant Dynamis] or **Spark of Dynamis** ^[Spark of Dynamis] will take lethal damage from any damage the boss inflicts. 
 
 ::: warning
-**Brilliant Dynamis** <StatusIcon name="Brilliant Dynamis" /> and **Spark of Dynamis** <StatusIcon name="Spark of Dynamis" /> buffs are lost upon death so it is imperative players do not die during this phase until the very end.
+**Brilliant Dynamis** ^[Brilliant Dynamis] and **Spark of Dynamis** ^[Spark of Dynamis] buffs are lost upon death so it is imperative players do not die during this phase until the very end.
 :::
 
 **Alpha Omega** will then cast **Cosmo Arrow** (aka **Exasquares**), and will perform 1 of 2 patterns of AOEs. These patterns are referred to as plus (in), or square/box (out). These can be seen in the videos by user **sausoftheroll** below:
@@ -610,7 +610,7 @@ Players must dodge these together at South West and mitigate as **Alpha Omega** 
 After 2 auto-attacks **Alpha Omega** will cast **Unlimited Wave Cannon** (aka **Exaflares**). Each player will stack under the boss to bait puddles, and move to the side of the **first exaflare** that spawned. They will then rotate **into** the exaflare and along the edge of the boss's hitbox until **6 puddles** have been dropped.
 
 ::: info NOTE
-**Sprint** <StatusIcon name="Sprint" /> can be used on the 4th/5th puddle drop to help players reach their spots, and mitigation can be used on the 5th/6th puddle drop.
+**Sprint** ^[Sprint] can be used on the 4th/5th puddle drop to help players reach their spots, and mitigation can be used on the 5th/6th puddle drop.
 :::
 
 **Wave Cannon** will then begin casting. Players will run to their clock positions immediately after dropping the 6th puddle in **Unlimited Wave Cannon**. 
@@ -653,14 +653,14 @@ Healers will top up everyone to full for the very last time after cosmo meteor, 
 **Alpha Omega** will then begin to cast:
 
 #### Magic Number
-**Alpha Omega** will then cast the first **Magic Number**. Tanks must LB3 this to survive. Shortly after the hit a 6s **Magic Number** <StatusIcon name="Magic Number" /> debuff will be applied to the party, killing the player once the debuff falls off. This debuff is cleansed by a healer LB3.
+**Alpha Omega** will then cast the first **Magic Number**. Tanks must LB3 this to survive. Shortly after the hit a 6s **Magic Number** ^[Magic Number] debuff will be applied to the party, killing the player once the debuff falls off. This debuff is cleansed by a healer LB3.
 
 ::: info NOTE
 Although I said before that it's important to not have players die in p6, there is an exception. DRK is able to **click off** the tank LB3 for both magic numbers, and get resurrected by the healer LB3. This results in **no weakness** and **full mana** when they are resurrected, netting a DPS gain.
 :::
 
 ::: healer
-Healers should wait for the debuff to actually appear before casting their LB3, as **Magic Number** <StatusIcon name="Magic Number" /> takes a second or two to apply after the initial damage goes out.
+Healers should wait for the debuff to actually appear before casting their LB3, as **Magic Number** ^[Magic Number] takes a second or two to apply after the initial damage goes out.
 :::
 
 This set of mechanics repeats twice, until **Alpha Omega** casts the final enrage:

@@ -13,4 +13,14 @@
 - term: PBAOE
   definition: Point-Blank Area-of-Effect, usually an enemy ability that causes a large AOE damage area centered on the enemy.
 - term: Doom
-  definition: A debuff that will kill the player when the timer reaches zero.
+  definition: A debuff that will kill the player when the timer reacvhes zero.
+- term: Raidwide
+  definition: A mechanic that will hit all players in the raid, usually a large AOE or a debuff that needs to be shared.
+- term: Soak
+  definition: A mechanic that requires a specific number of players to soak a mechanic, usually a large AOE or a debuff that needs to be shared.
+- term: Stack
+  definition: A mechanic that requires a specific number of players to stack together, usually a large AOE or a debuff that needs to be shared.
+- term: Spread
+  definition: A mechanic that requires players to spread out, usually small targeted AOEs that are lethal if more than one player is hit.
+- term: Tankbuster
+  definition: A mechanic that hits very hard and usually requires a cooldown or mitigation to survive, should be taken by a tank.

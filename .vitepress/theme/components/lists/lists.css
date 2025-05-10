@@ -1,10 +1,17 @@
 .navtitle {
-	margin: 0px 0 16px;
+	height: 60px;
 	letter-spacing: -0.02em;
 	line-height: 32px;
 	font-size: 24px;
 	font-weight: 600;
 	outline: none;
+	cursor: pointer;
+	transition: 0.2s ease;
+	align-content: center;
+	&:hover {
+		color: var(--vp-c-brand);
+		text-shadow: #000000 0 0 3px;
+	}
 }
 .navblock {
 	display: grid;
@@ -15,8 +22,8 @@
 }
 .navcolumn {
 	display: flex;
-	flex-grow: 1;
 	flex-direction: column;
+	margin-bottom: 0.5em;;
 	gap: 0.5em;
 }
 .navlink {
@@ -78,7 +85,7 @@
 	border-color: var(--color-criterion);
 }
 
-.other-color {
+.unreal-color {
 	color: var(--color-other);
 	border-color: var(--color-other);
 }

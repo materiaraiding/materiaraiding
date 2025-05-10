@@ -12,7 +12,7 @@ discussionLink: https://discord.com/channels/944115415385247784/9549645153998110
 - Toolboxes by MUR
 - PoVs by Kur Rumi, Olg
 - Cheatsheets by MUR and Em Gram
-- Written guide by Noz Leafhill
+- Written guide by Noz
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
@@ -67,6 +67,7 @@ Space = Hold to select numbers
 
 ## Cheatsheets and Visual Guides
 
+Cheatsheet by Dango Silvers
 ![](/images/tea-cheatsheet.webp)
 ![](/images/tea-mspaintcheatsheet.webp)
 ![](/images/tea-bigcheatsheet.webp)
@@ -101,7 +102,7 @@ These can be imported using an XIV Launcher Plugin.
 
 ## Written Guide
 
-I highly recommend going over the toolboxes and / or watching PoVs in conjunction with reading this guide to put everything you read into context.
+I highly recommend going over the toolboxes and / or watching PoVs in conjunction with reading this guide. This fight uses a lot of precise positioning to resolve puzzle-type mechanics and as such is much easier to understand **how** to do this fight through diagrams and images, which is what toolboxes are for. However, as great as diagrams are, they do not really give context as to **why** you make a particular movement. Therefore, the primary purpose of this written guide is to provide an explanation to what is actually happening during mechanics and hence why you position as such.
 
 FYI - in the toolboxes, the **DRG is D1** and **NIN is D2**.
 
@@ -114,6 +115,10 @@ This phase will involve a lot of specific movement and shuffling from each playe
 The fight begins with MT pulling **Living Liquid** (LL) to the centre and facing him north. After a few autoattacks he will cast **Fluid Swing**, an untelegraphed cleaving tankbuster that leaves a very brief **Water Resistance Down**.
 
 He will then cast **Cascade**, a raidwide that spawns 3 large puddles with tornadoes in them, on 3 cardinals or 3 intercardinals, leaving one quarter of the room empty. Standing in a puddle will inflict nasty lethal DoT damage, so steer clear. The toolbox treats this empty quarter as the new 'north,' so we will follow this.
+
+::: info NOTE
+If you find it easier to understand your positioning if it was from the perspective of middle tornado north, the cheatsheet by Dango Silvers at the top of this page reflects this and is a fantastic resource.
+:::
 
 At this time, LL will also summon **Liquid Hand** (who I will just refer to as the Hand) and split half his current HP with it. The OT will take aggro of the Hand. **Keep the HP's of the bosses as similar as possible**, as there will be periodic 'checks' throughout this phase that wipe the party if the HP's are too different.
 
@@ -173,7 +178,7 @@ The Hand will then cast another **Hand of Pain**, with LL following with **Casca
 #### Throttles and More Proteans
 With the new tornado puddle positions, we will once again treat the empty space as our **north**. Half the party will then split on the south side of the bosses, while the other half will sit north. MT should be facing the boss north.
 
-**Throttles** <StatusIcon name="Throttle" />
+**Throttles** ^[Throttle]
 will now appear on 6 party members, a debuff that must be cleansed with **Esuna** before the timer expires. If not cleansed, the player will die. Each healer will do 3 Esuna's each (1 less for 1 healer if there is a **BRD who uses The Warden's Paean**). Healers should firstly Esuna themselves if they have Throttle, then:
 - H1 will Esuna starting from the **top** of the party list and go **down**.
 - H2 will Esuna starting from the **bottom** of the party list and go **up**.
@@ -295,8 +300,8 @@ This is important as later in the phase, BJ will cast **Verdict** which is essen
 If 2 players with different Nisi's combine, both players will die and as some Nisi have been lost, it will result in a wipe as you will not survive the resolution of Verdict. Thus, throughout this phase, everyone must be aware of their surroundings and move carefully and with purpose, to avoid any collisions.
 :::
 
-BJ will then cast **Link-Up**, which inflicts 1 healer with a **Compressed Water debuff** <StatusIcon name="Compressed Water" />
-and 1 DPS with a **Compressed Lightning debuff** <StatusIcon name="Compressed Lightning" />. At the end of the debuff timers, they explode:
+BJ will then cast **Link-Up**, which inflicts 1 healer with a **Compressed Water debuff** ^[Compressed Water]
+and 1 DPS with a **Compressed Lightning debuff** ^[Compressed Lightning]. At the end of the debuff timers, they explode:
 - The damage of the water explosion needs to be split between at least 3 players.
 - The lightning explosion damage needs to be split between at least 2 players.
 
@@ -380,7 +385,7 @@ If the MT had to handle the ice puddle, they may need to recentre BJ. The healer
 
 Around this time, the ice puddle should have dissipated and the OT should drag CC towards south west, then face him inwards. The water and lightning debuffs will resolve, passing the water to another player in the stack, and the lightning to the 1st water healer. **Remember that a water tornado will be left behind**, so everyone should leave the vicinity of the B waymark.
 
-BJ will them cast **Verdict** - everyone will now receive a timerless debuff which shows a Nisi colour with two exclamation marks (!!). They look like this:<StatusIcon name="Final Judgment: Decree Nisi a" /><StatusIcon name="Final Judgment: Decree Nisi ?" /><StatusIcon name="Final Judgment: Decree Nisi �" /><StatusIcon name="Final Judgment: Decree Nisi d" />
+BJ will them cast **Verdict** - everyone will now receive a timerless debuff which shows a Nisi colour with two exclamation marks (!!). They look like this:^[Final Judgment: Decree Nisi a]^[Final Judgment: Decree Nisi ?]^[Final Judgment: Decree Nisi �]^[Final Judgment: Decree Nisi d]
 
 
 This is BJ telling you, "**this needs to be your Nisi before I cast Gavel or it will be a wipe.**"
@@ -448,11 +453,11 @@ Once the debuffs resolve, BJ will cast Flarethrower twice (conal AoE) to the 2 c
 
 #### Debuffs
 The debuffs are as below. They are **role-based**, one DPS and one support will receive one of the following:
-- **Aggravated Assault**, shown by a lightning symbol <StatusIcon name="Aggravated Assault" />
+- **Aggravated Assault**, shown by a lightning symbol ^[Aggravated Assault]
   in the debuff. These 2 players will take moderate damage and receive physical and magic vulnerabilities and therefore cannot take any other damage during the timestop, otherwise they will die.
-- **Blue tether**. <StatusIcon name="Restraining Order" />
+- **Blue tether**. ^[Restraining Order]
   These 2 players must be far apart during the timestop or they will die.
-- A red and green tether, which we will call **Christmas tether**. <StatusIcon name="House Arrest" />
+- A red and green tether, which we will call **Christmas tether**. ^[House Arrest]
   These 2 players must be close together during the timestop or they will die.
 - One DPS and one support will receive **nothing**.
 
@@ -530,10 +535,10 @@ While every other player runs north to avoid the proximity damage from the cryst
 Players will then gather around the True Heart. While it will not take damage, you can hit it to build job gauge, etc.
 
 Several players will then receive **debuffs**:
-- A tank and 1 DPS will be connected by a blue tether and need to be far to survive. <StatusIcon name="Restraining Order" />
-- 1 DPS will receive Shared Sentence, symbolised by an icon with 3 figures. <StatusIcon name="Shared Sentence" />
+- A tank and 1 DPS will be connected by a blue tether and need to be far to survive. ^[Restraining Order]
+- 1 DPS will receive Shared Sentence, symbolised by an icon with 3 figures. ^[Shared Sentence]
   This DPS will emit a small AoE around them that needs to be shared with 2 other players. The AoE will inflict both physical and magical vulnerabilities.
-- 2 DPS will get Aggravated Assault, denoted by a lightning symbol. <StatusIcon name="Aggravated Assault" />
+- 2 DPS will get Aggravated Assault, denoted by a lightning symbol. ^[Aggravated Assault]
   They will take moderate damage and receive vulnerabilities.
 
 The True Heart will then **move to the wall** and disappear, granting the **Enigma Codex** buff. Where the True Heart moves signifies where Alexander Prime will spawn, where he casts **Sacrament**, a T-shaped laser.
@@ -674,9 +679,9 @@ The final phase of this fight involves several debuffs which can be simply resol
 #### The Final Word
 Perfect Alexander begins by casting **The Final Word** and everyone will receive a debuff.
 
-- 1 player will be the **light beacon** <StatusIcon name="Final Word: Contact Regulation" /> and 3 will be **light arrows** <StatusIcon name="Final Word: Contact Prohibition" />. When the debuff expires, the light arrows are forced to march **towards** the light beacon for a fixed duration. In this time, if a light arrow makes contact with the light beacon they die.
+- 1 player will be the **light beacon** ^[Final Word: Contact Regulation] and 3 will be **light arrows** ^[Final Word: Contact Prohibition]. When the debuff expires, the light arrows are forced to march **towards** the light beacon for a fixed duration. In this time, if a light arrow makes contact with the light beacon they die.
 
-- 1 player will be the **dark beacon** <StatusIcon name="Final Word: Escape Detection" /> and 3 will be **dark arrows** <StatusIcon name="Final Word: Escape Prohibition" />. When the debuff expires, the dark arrows are forced to march **away** from the dark beacon for a fixed duration. In this time, if a dark arrow makes contact or is too far away from the dark beacon they die.
+- 1 player will be the **dark beacon** ^[Final Word: Escape Detection] and 3 will be **dark arrows** ^[Final Word: Escape Prohibition]. When the debuff expires, the dark arrows are forced to march **away** from the dark beacon for a fixed duration. In this time, if a dark arrow makes contact or is too far away from the dark beacon they die.
 
 As soon as players get their debuffs, everyone should begin to preposition as per follows:
 - **Light Beacon** plants towards the western part of the D waymark.

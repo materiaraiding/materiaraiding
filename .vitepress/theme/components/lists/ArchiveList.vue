@@ -2,7 +2,7 @@
 import './lists.css';
 import { data as pages } from '../loaders/archives.data.js';
 import { difficultyTypes } from './difficultyTypes.js';
-import { useData } from 'vitepress';
+import { useData, useRouter } from 'vitepress';
 
 /**
  * @notes - Archived expansion banner images should be
@@ -10,6 +10,7 @@ import { useData } from 'vitepress';
  */
 
 const { frontmatter } = useData();
+const router = useRouter();
 
 const selectedDifficultyTypes = difficultyTypes.filter(difficulty =>
 	frontmatter.value.difficulties.includes(difficulty.type)
@@ -22,7 +23,7 @@ const filterPagesBy = (difficulty, expansion) => {
 };
 
 function openPage(url) {
-	window.open(url, "_self");
+	router.go(url);
 }
 </script>
 

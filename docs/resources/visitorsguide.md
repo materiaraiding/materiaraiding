@@ -6,15 +6,14 @@ outline: 2
 
 # Visitor's Guide to Oceanic Raiding
 
-G'day and welcome to the Oceanic datacenter, Here in the land Down Under (and surrounding regions), we do things a bit differently when it comes to ultimate and savage raids. It's not just about throwing another shrimp on the barbie; it's about mastering the unique strategies that our local raiding community swears by. We'll explore how Oceanic raiders tackle the toughest challenges with a fair dinkum approach and what sets us apart from the rest of the FF14 world. So, let's crack on and delve into the nitty-gritty of Oceanic's raiding scene!
+> *G'day and welcome to the Oceanic datacenter, Here in the land Down Under (and surrounding regions), we do things a bit differently when it comes to ultimate and savage raids. It's not just about throwing another shrimp on the barbie; it's about mastering the unique strategies that our local raiding community swears by. We'll explore how Oceanic raiders tackle the toughest challenges with a fair dinkum approach and what sets us apart from the rest of the FF14 world. So, let's crack on and delve into the nitty-gritty of Oceanic's raiding scene!*
 
 This guide is aimed to help raiders with **previous experience** in current Ultimate and Savage fights transition over to OCE strats and join PFs in Materia. **If you are new to Ultimate Raiding** in OCE, we suggest exploring our full guides on this website using the navigation on the left-hand side of this page!
 
 You can also find parties and other like-minded raiders in our OCE raiding community servers:
 
-- [Materia Raiding Discord](https://discord.gg/EySn5dRj65)
-- [Materia Ultimate Raiding Discord](https://discord.gg/ArZz3b8PZV)
-
+<Action title='Materia Raiding Discord' color='blue' href='https://discord.gg/EySn5dRj65' />
+<Action title='Materia Ultimate Raiding Discord' color='blue' href='https://discord.gg/ArZz3b8PZV' />
 
 ## Raid Roles
 
@@ -60,10 +59,7 @@ You will often see macros shared in party chat when you get into your Party Find
 ## Savage
 Current Savage Tier raid resources are compiled on our Savage page, which you can find at the button below. This includes our Macros, Images and Toolboxes made for OCE specific strategies.
 
-- [M1S](/m1s)
-- [M2S](/m2s)
-- [M3S](/m3s)
-- [M4S](/m4s)
+<Action title='View all Savage Guides' color='purple' href='/savage' />
 
 ## UCOB
 
@@ -82,7 +78,7 @@ For all of Bahamut, we use the following toolboxes:
 - [TST](https://ff14.toolboxgaming.space/?id=141245760517361&preview=1)
 - [GO](https://ff14.toolboxgaming.space/?id=803246524767361&preview=1)
 
-[Full UCOB OCE Guide](/ucob)
+[Full UCOB OCE Guide](/ultimate/ucob)
 
 Potential differences to double check may include:
 
@@ -97,12 +93,12 @@ Materia also follows [Clees' Guide](https://ultimates.guide/uwu/) for UWU. Poten
 - **Titan Jails**: These are resolved using AMs.
 - **Ultimate Suppression**: Most PFs will use Clees' method for this.
 
-[Full UWU OCE Guide](/uwu)
+[Full UWU OCE Guide](/ultimate/uwu)
 
 ## TEA
 Materia DC follows the oldbin TEA strats that are present on the NA DCs, such as the split BJ/CC strat and 1256 method for Limit Cut. It is best to review the toolboxes for the initial phases ([Living Liquid](https://ff14.toolboxgaming.space/?id=830419115443951&preview=1), [Limit Cut](https://ff14.toolboxgaming.space/?id=240411819443951&preview=1), [BJ/CC](https://ff14.toolboxgaming.space/?id=340414049443951&preview=1)) and make sure the positions for everything else is the same.
 
-[Full TEA OCE Guide](/tea)
+[Full TEA OCE Guide](/ultimate/tea)
 
 This can also be compared to the strats covered in [Tessan Twintails video guide](https://www.youtube.com/watch?v=uVtZ8-XoOZ0), (see EU differences to compare to this guide):
 
@@ -177,7 +173,9 @@ No differences, we follow the KR sim strat. [KR Simulator](https://materiaraidin
 Standard positions are rotated about 90 degrees and start from east side of the room, Dark Beacon plants in the middle of the 2 Marker (EAST) and light beacon middle placed in D Marker west.
 
 For an extended explanation you can see the complete TEA OCE Guide below by Noz Leafhill,
+:::
 
+::: details JP Differences
 OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chaser. The latter half largely follows the same strats with minor positional differences. Please review this list for specific mechanics, using the language in [Tuufless' guide](https://tuufless.github.io/FFXIV-Elemental-Raid-Macros/ultimates/tea/). It is recommended that you know how to do the first half of the fight using OCE strats before you join clear/reclear parties.
 
 - **1. Living Liquid**
@@ -204,14 +202,15 @@ OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chas
     - **J Waves**: Double check with the group how outgoing damage will be handled. Tanks may wish to consult the [mit sheet](https://docs.google.com/spreadsheets/d/11g88rCThCPuXadxc1S4pwXSxwVoX04nR77Z0lvbpd30/edit?gid=0#gid=0).
 - **4. Perfect Alexander**
     - **Exatrines**: Dodge positions are considered to be the **centre** of the arena as well as the **1, 3 and 4 waymarks** (which are positioned differently compared to JP).
+:::
 
 ![](/images/tea-cheatsheet.webp)
-:::
+
 
 ## DSR
 OCE DSR Strats are a variation on NA PF strats.
 
-[Full DSR OCE Guide](/dsr)
+[Full DSR OCE Guide](/ultimate/dsr)
 
 ::: details NA Differences
 
@@ -232,7 +231,7 @@ For an extended explanation you can see the complete DSR OCE Guide below by Juno
 
 Please refer to full guide.
 
-[Full DSR OCE Guide](/dsr)
+[Full DSR OCE Guide](/ultimate/dsr)
 :::
 ::: details JP Differences
 
@@ -271,20 +270,20 @@ There are a number of differences between OCE and JP for DSR. Please review this
 ## TOP
 TOP strats are similar (but not identical!) to NA, which are *substantially* different to JP. For an extended explanation you can see the complete TOP OCE Guide below by Juno Dax,
 
-[TOP OCE Guide](/top)
+[TOP OCE Guide](/ultimate/top)
 
 ::: details NA Differences
 
 For NA players, both DPS and supports move during P6 WC2 instead of DPS not moving. DPS dodge CW, supports CCW.
 ![](/images/top-exasquares.webp)
 
-[Full TOP OCE Guide](/top)
+[Full TOP OCE Guide](/ultimate/top)
 :::
 ::: details EU Differences
 
 Please refer to full guide.
 
-[Full TOP OCE Guide](/top)
+[Full TOP OCE Guide](/ultimate/top)
 :::
 ::: details JP Differences
 
@@ -332,6 +331,62 @@ For JP players, please review this list of differences, using the language in [T
     - **Wave Cannon** is resolved south.
     - **Cosmo Arrow 2**: initial spread positions are different; consult the cheat sheet below. **Both DPS and supports move for exasquares**: DPS CW, supports CCW. Do not move all the way to the cardinal waymark.
     - **Cosmo Meteor**: H1 will move to the centre by default.
-      :::
+:::
 
 ![](/images/top-cheatsheet.webp)
+
+## FRU
+
+::: warning
+This content was written on the same patch this fight was released. OCE strats are pretty much set in stone, but please be advised this section may see small updates in the future as we observe the FRU OCE PF scene in the long term (i.e. removing mention of lingering early strats - while these are archived in the written guide, they are mentioned here for now for the sake of Voyagers looking to PF). We will also complete DC-specific differences when we can.
+:::
+
+For an extended explanation, all toolboxes and the cheatsheet, please see below guide - credits to Juno Dax for the written guide, and Tomosys Vexuna for the cheatsheet.
+
+[FRU OCE Guide](/ultimate/fru)
+
+Majority of mechanics use the "Pantokrator" lineup from TOP as the priority system, that is - <br> H1 - D3 - D1 - MT - OT - D2 - D4 - H2
+
+- **1. Fatebreaker**
+    - **Utopian Sky**
+        - For fire tether stacks, LP1 goes north and LP2 goes south. If both tethers are on the same side, the swap priority is <br> Tank -> Melee -> Ranged -> Healer (healer never adjusts).
+        - If a swap has occurred, the tank from the no-tether side adjusts over to even out the light parties.
+    - **Fall of Faith**
+        - Line up E/W using the Pantokrator lineup. Odd tethers west, even tethers east.
+    - **Towers**
+        - Fixed towers for H1 (north), D4 (middle) and H2 (south).
+        - D1 defaults north, D2 defaults middle and D3 defaults south. However, if the tower only needs 1, the non-fixed DPS in that tower is to find another tower that needs 3+. For example, if north tower is 1 but south tower is 3, D1 will adjust to the south tower (**NOT** filling top-down).
+     
+- **2. Usurper of Frost**
+    - **Diamond Dust**
+        - The official strat is Colour Pairs but many parties also do Relative North. **PLEASE CHECK PF DESCRIPTIONS** and if putting your own party up, SPECIFY the strat.
+        - Regardless of strat, Sinbound Holy is resolved by moving CW, UNLESS Shiva is 45 degrees from that direction - in that case, move CCW.
+    - **Light Rampant**
+        - 4/4 strat with puddles starting N/S and moving CW.
+        - Supports line up north (H1 -> H2 -> MT -> OT) and DPS line up south (D3 -> D4 -> D1 -> D2)
+        - D3 or OT to 'adjust' to the other side if both puddles are on their opposite side.
+        - Some parties may still be doing 'ab1234,' an early strat - once again, CHECK PF DESCRIPTIONS and it never hurts to specify your desired strat if putting up your own party.
+
+- **3. Oracle of Darkness**
+    - **Ultimate Relativity**
+        - Using Y as relative north: supports take W -> NE traffic lights, DPS take SW -> E traffic lights.
+        - For support 30 second fire, prio from W -> E is H1 -> MT -> OT -> H2.
+        - For DPS 10 second fire, prio from W -> E is D3 -> D1 -> D2 -> D4.
+        - If you prefer seeing upside-down Y as relative north, reverse the above directions and prio.
+    - **Apocalypse**
+        - If there are any same water timers (or no debuff) in a LP, **permanently swap over players** for the rest of the mech using Pantokrator priority.
+     
+- **4. Ryne and Gaia**
+    - Stack at 1 or 3 Waymark (depending on which side Shiva spawns) for Akh Rhai baits.
+    - **Darklit Dragonsong**
+        - Same starting lineup as 4/4 Light Rampant as described above.
+        - Tanks / DPS adjust to create bowtie if needed. If there are 2 water stacks on the same side, non-tethered players to adjust.
+    - **Akh Morns**: LP1 north, LP2 south.
+    - **Crystallise Time**: early pop
+        - Use Pantokrator prio to determine red debuff positions.
+        - Aeros are to **PLANT**. Tuck in the corner and DO NOT DO ANY MOVEMENT OR WIGGLES until knockback occurs.
+
+- **5. Pandora**
+    - Haven't identified any differences in strats but just in case:
+    - **Paradise Regained**: healers first tower, D1 D3 left tower, D2 D4 right tower. MT first cleave and OT first tether, OT second cleave and MT second tether.
+    - **Polarising Strikes**: front order is Tanks -> Melees -> Ranged -> Healers.

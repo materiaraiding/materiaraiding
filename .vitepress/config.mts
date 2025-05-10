@@ -1,5 +1,12 @@
 import {defineConfig} from "vitepress";
-import {imagePlugin, customBlockPlugin, youtubeEmbedPlugin, timingWindowPlugin, glossary} from "./plugins/markdown";
+import {
+	imagePlugin,
+	customBlockPlugin,
+	youtubeEmbedPlugin,
+	timingWindowPlugin,
+	glossaryPlugin,
+	statusIconPlugin,
+} from "./plugins/markdown";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -25,23 +32,24 @@ export default defineConfig({
 					{text: "Ultimate", link: "/ultimate"},
 					{text: "Criterion", link: "/criterion"},
 					{text: "Chaotic", link: "/chaotic"},
+					{text: "Unreal", link: "/unreal"},
 				],
 			},
 			{
 				text: "Archive",
-				items: [
-					{text: "Endwalker", link: "/archive/endwalker"},
-				],
+				items: [{text: "Endwalker", link: "/archive/endwalker"}],
 			},
 			{
 				text: "Resources",
 				items: [
+					{text: "Beginners Guide", link: "/resources/beginnersguide"},
 					{text: "Visitors Guide", link: "/resources/visitorsguide"},
 					{text: "Macro Mate", link: "/resources/macromate"},
 					{text: "Raidplan Templates", link: "/resources/raidplantemplates"},
-					{text: "Contributors", link: "/resources/contributors"},
+					{text: "Glossary", link: "/resources/glossary"},
 				],
 			},
+			{text: "Directory", link: "https://materia.directory/"},
 		],
 		sidebar: {
 			"/": [
@@ -52,6 +60,7 @@ export default defineConfig({
 						{text: "EX1", link: "/extreme/ex1"},
 						{text: "EX2", link: "/extreme/ex2"},
 						{text: "EX3", link: "/extreme/ex3"},
+						{text: "EX4", link: "/extreme/ex4"},
 					],
 				},
 				{
@@ -62,6 +71,10 @@ export default defineConfig({
 						{text: "M2S", link: "/savage/m2s"},
 						{text: "M3S", link: "/savage/m3s"},
 						{text: "M4S", link: "/savage/m4s"},
+						{text: "M5S", link: "/savage/m5s"},
+						{text: "M6S", link: "/savage/m6s"},
+						{text: "M7S", link: "/savage/m7s"},
+						{text: "M8S", link: "/savage/m8s"},
 					],
 				},
 				{
@@ -88,8 +101,14 @@ export default defineConfig({
 				{
 					text: "Chaotic",
 					collapsed: false,
+					items: [{text: "COD", link: "/chaotic/cod"}],
+				},
+				{
+					text: "Unreal",
+					collapsed: false,
 					items: [
-						{text: "COD", link: "/chaotic/cod"},
+						{text: "Byakko", link: "/unreal/byakko"},
+						{text: "Suzaku", link: "/unreal/suzaku"},
 					],
 				},
 			],
@@ -128,9 +147,11 @@ export default defineConfig({
 				{
 					text: "Resources",
 					items: [
+						{text: "Beginners Guide", link: "/resources/beginnersguide"},
 						{text: "Visitors Guide", link: "/resources/visitorsguide"},
 						{text: "Macro Mate", link: "/resources/macromate"},
 						{text: "Raid Plan Templates", link: "/resources/raidplantemplates"},
+						{text: "Glossary", link: "/resources/glossary"},
 					],
 				},
 			],
@@ -162,7 +183,8 @@ export default defineConfig({
 			md.use(imagePlugin);
 			md.use(youtubeEmbedPlugin);
 			md.use(timingWindowPlugin);
-			md.use(glossary);
+			md.use(glossaryPlugin);
+			md.use(statusIconPlugin);
 		},
 	},
 	rewrites: {
@@ -171,110 +193,12 @@ export default defineConfig({
 		'guides/savage/:slug*': 'savage/:slug*',
 		'guides/extreme/:slug*': 'extreme/:slug*',
 		'guides/criterion/:slug*': 'criterion/:slug*',
-		'guides/other/:slug*': 'other/:slug*',
+		'guides/unreal/:slug*': 'unreal/:slug*',
+		'other/:slug*': 'unreal/:slug*',
 	},
 	vite: {
 		optimizeDeps: {
 			exclude: ["vitepress"],
-		},
-		server: {
-			proxy: {
-				"/ex1": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/ex1", "/ultimate/ex1"),
-				},
-				"/ex2": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/ex2", "/ultimate/ex2"),
-				},
-				"/ex3": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/ex3", "/ultimate/ex3"),
-				},
-				"/m1s": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/m1s", "/savage/m1s"),
-				},
-				"/m2s": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/m2s", "/savage/m2s"),
-				},
-				"/m3s": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/m3s", "/savage/m3s"),
-				},
-				"/m4s": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/m4s", "/savage/m4s"),
-				},
-				"/ucob": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/ucob", "/ultimate/ucob"),
-				},
-				"/uwu": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/uwu", "/ultimate/uwu"),
-				},
-				"/tea": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/tea", "/ultimate/tea"),
-				},
-				"/dsr": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/dsr", "/ultimate/dsr"),
-				},
-				"/top": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/top", "/ultimate/top"),
-				},
-				"/fru": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/fru", "/ultimate/fru"),
-				},
-				"/ass": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/ass", "/criterion/ass"),
-				},
-				"/amr": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/amr", "/criterion/amr"),
-				},
-				"/aai": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/aai", "/criterion/aai"),
-				},
-				"/glossary": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/glossary", "/resources/glossary"),
-				},
-				"/visitorsguide": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/visitorsguide", "/resources/visitorsguide"),
-				},
-				"/macros": {
-					target: "http://localhost:5173",
-					changeOrigin: true,
-					rewrite: (path) => path.replace("/macros", "/resources/macromate"),
-				},
-			},
 		},
 	},
 });
