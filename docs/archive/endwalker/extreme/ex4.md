@@ -1,7 +1,7 @@
 ---
 order: 4
-title: EX4
-longTitle: Storms Crown
+fightID: EX4
+title: Storms Crown
 expansion: Endwalker
 difficulty: Extreme
 ---

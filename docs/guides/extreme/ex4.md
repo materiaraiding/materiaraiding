@@ -1,7 +1,7 @@
 ---
 order: 4
-title: EX4
-longTitle: Recollection
+fightID: EX4
+title: Recollection
 expansion: Dawntrail
 difficulty: Extreme
 discussionLink: https://discordapp.com/channels/895516967543390249/1353964988712091739

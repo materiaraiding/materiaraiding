@@ -1,7 +1,7 @@
 ---
 order: 5
-title: P5S
-longTitle: Abyssos The Fifth Circle
+fightID: P5S
+title: Abyssos The Fifth Circle
 expansion: Endwalker
 difficulty: Savage
 ---

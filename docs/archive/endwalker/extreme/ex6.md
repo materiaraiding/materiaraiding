@@ -1,7 +1,7 @@
 ---
 order: 6
-title: EX6
-longTitle: The Voidcast Dias
+fightID: EX6
+title: The Voidcast Dias
 expansion: Endwalker
 difficulty: Extreme
 ---

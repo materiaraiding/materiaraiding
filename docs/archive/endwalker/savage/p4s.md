@@ -1,7 +1,7 @@
 ---
 order: 4
-title: P4S
-longTitle: Asphodelos The Fourth Circle
+fightID: P4S
+title: Asphodelos The Fourth Circle
 expansion: Endwalker
 difficulty: Savage
 ---

@@ -43,11 +43,11 @@ onMounted(() => {
 		<template #doc-before>
 			<img v-if="frontmatter.image" :src="`/images/${frontmatter.image}`" alt="DKT" width="150" style="float: right" />
 			<div v-if="frontmatter.expansion && frontmatter.difficulty" class="guide_subtitle">
-				{{ frontmatter.expansion }} - {{ frontmatter.difficulty }} - {{ frontmatter.title }}
+				{{ frontmatter.expansion }} - {{ frontmatter.difficulty }} - {{ frontmatter.fightID }}
 			</div>
-			<h1 v-if="frontmatter.longTitle" class="guide_title" id="{{frontmatter.longTitle}}">
-				<img :src="`/images/icons/${dutyType}.webp`" /> {{ frontmatter.longTitle }}
-				<a href="{{frontmatter.title}}" class="header-anchor" />
+			<h1 v-if="frontmatter.title" class="guide_title" id="{{frontmatter.title}}">
+				<img :src="`/images/icons/${dutyType}.webp`" /> {{ frontmatter.title }}
+				<a href="{{frontmatter.fightID}}" class="header-anchor" />
 			</h1>
 			<div v-if="frontmatter.difficulty" class="guide_label_box">
 				<a v-if="frontmatter.difficulty?.toLowerCase() === 'ultimate'" href="https://discord.gg/ArZz3b8PZV"

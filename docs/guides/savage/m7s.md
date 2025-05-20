@@ -1,7 +1,7 @@
 ---
 order: 7
-title: M7S
-longTitle: AAC Cruiserweight M3
+fightID: M7S
+title: AAC Cruiserweight M3
 expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1355407948838600865

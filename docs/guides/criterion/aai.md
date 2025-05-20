@@ -1,7 +1,7 @@
 ---
 order: 3
-title: AAI
-longTitle: Another Aloalo Island
+fightID: AAI
+title: Another Aloalo Island
 expansion: Endwalker
 difficulty: Criterion
 ---

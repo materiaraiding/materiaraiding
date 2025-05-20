@@ -1,7 +1,7 @@
 ---
 order: 1
-title: M1S
-longTitle: AAC Light-heavyweight M1
+fightID: M1S
+title: AAC Light-heavyweight M1
 expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1267677779735089244

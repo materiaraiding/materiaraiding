@@ -1,7 +1,7 @@
 ---
 order: 1
-title: EX1
-longTitle: Worqor Lar Dor
+fightID: EX1
+title: Worqor Lar Dor
 expansion: Dawntrail
 difficulty: Extreme
 permalink: /ex1

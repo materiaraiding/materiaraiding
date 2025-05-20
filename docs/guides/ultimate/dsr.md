@@ -1,7 +1,7 @@
 ---
 order: 4
-title: DSR
-longTitle: Dragonsong's Reprise
+fightID: DSR
+title: Dragonsong's Reprise
 difficulty: Ultimate
 expansion: Endwalker
 image: dsr-dkt.webp

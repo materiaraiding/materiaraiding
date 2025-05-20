@@ -1,7 +1,7 @@
 ---
 order: 1
-title: ASS
-longTitle: Another Sil'dihn Subterrane
+fightID: ASS
+title: Another Sil'dihn Subterrane
 expansion: Endwalker
 difficulty: Criterion
 ---

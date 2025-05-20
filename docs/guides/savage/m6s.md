@@ -1,7 +1,7 @@
 ---
 order: 6
-title: M6S
-longTitle: AAC Cruiserweight M2
+fightID: M6S
+title: AAC Cruiserweight M2
 expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1355408064001474682

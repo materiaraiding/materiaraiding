@@ -1,7 +1,7 @@
 ---
 order: 5
-title: EX5
-longTitle: Mount Ordeals
+fightID: EX5
+title: Mount Ordeals
 expansion: Endwalker
 difficulty: Extreme
 ---

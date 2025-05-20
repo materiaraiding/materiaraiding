@@ -1,7 +1,7 @@
 ---
 order: 3
-title: EX3
-longTitle: The Interphos
+fightID: EX3
+title: The Interphos
 expansion: Dawntrail
 difficulty: Extreme
 discussionLink: https://discord.com/channels/895516967543390249/1011883681222234182

@@ -1,7 +1,7 @@
 ---
 order: 2
-title: UWU
-longTitle: The Weapon's Refrain
+fightID: UWU
+title: The Weapon's Refrain
 difficulty: Ultimate
 expansion: Stormblood
 image: uwu-ultima.webp

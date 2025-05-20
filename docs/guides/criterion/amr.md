@@ -1,7 +1,7 @@
 ---
 order: 2
-title: AMR
-longTitle: Another Mount Rokkon
+fightID: AMR
+title: Another Mount Rokkon
 expansion: Endwalker
 difficulty: Criterion
 ---

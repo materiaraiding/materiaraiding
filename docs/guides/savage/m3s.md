@@ -1,7 +1,7 @@
 ---
 order: 3
-title: M3S
-longTitle: AAC Light-heavyweight M3
+fightID: M3S
+title: AAC Light-heavyweight M3
 expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1267677717495681064

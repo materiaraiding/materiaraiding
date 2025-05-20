@@ -1,7 +1,7 @@
 ---
 order: 9
-title: P9S
-longTitle: Anabaseios The Ninth Circle
+fightID: P9S
+title: Anabaseios The Ninth Circle
 expansion: Endwalker
 difficulty: Savage
 ---

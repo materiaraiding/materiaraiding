@@ -1,7 +1,7 @@
 ---
 order: 6
-title: P6S
-longTitle: Abyssos The Sixth Circle
+fightID: P6S
+title: Abyssos The Sixth Circle
 expansion: Endwalker
 difficulty: Savage
 ---

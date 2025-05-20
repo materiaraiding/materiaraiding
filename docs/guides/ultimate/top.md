@@ -1,7 +1,7 @@
 ---
 order: 5
-title: TOP
-longTitle: The Omega Protocol
+fightID: TOP
+title: The Omega Protocol
 difficulty: Ultimate
 expansion: Endwalker
 image: top-alphaomega.webp

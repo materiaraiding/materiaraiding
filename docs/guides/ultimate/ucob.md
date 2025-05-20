@@ -1,7 +1,7 @@
 ---
 order: 1
-title: UCOB
-longTitle: The Unending Coil of Bahamut
+fightID: UCOB
+title: The Unending Coil of Bahamut
 difficulty: Ultimate
 expansion: Stormblood
 image: ucob-goldenbaha.webp

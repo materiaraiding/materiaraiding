@@ -1,7 +1,7 @@
 ---
 order: 3
-title: P3S
-longTitle: Asphodelos The Third Circle
+fightID: P3S
+title: Asphodelos The Third Circle
 expansion: Endwalker
 difficulty: Savage
 ---

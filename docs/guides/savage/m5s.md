@@ -1,7 +1,7 @@
 ---
 order: 5
-title: M5S
-longTitle: AAC Cruiserweight M1
+fightID: M5S
+title: AAC Cruiserweight M1
 expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://ptb.discord.com/channels/895516967543390249/1355408159451250708
