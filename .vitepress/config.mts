@@ -18,6 +18,11 @@ export default defineConfig({
 	cleanUrls: true,
 	ignoreDeadLinks: true,
 	lastUpdated: true,
+	metaChunk: true,
+	sitemap: {
+		hostname: 'https://materiaraiding.com',
+		lastmodDateOnly: false
+	},
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		logo: "/images/icons/materia.webp",
