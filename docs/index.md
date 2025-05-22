@@ -52,7 +52,7 @@ const members = [
   },
   {
     avatar: 'https://cdn.discordapp.com/avatars/211624816619290624/57e2b10fdc8c5b525ba3bbefef027696?size=256',
-    name: 'Em Gram',
+    name: 'Em',
     title: 'Creator & Lead Developer',
     desc: "@mgram"
   },
@@ -64,7 +64,7 @@ const members = [
   },
   {
     avatar: 'https://cdn.discordapp.com/avatars/163174071436050433/7bcf005b850631c96d0d224f2e3f18c8?size=256',
-    name: 'Juno Dax',
+    name: 'Juno',
     title: 'Writer',
     desc: "@junocatto"
   },
@@ -76,7 +76,7 @@ const members = [
   },
   {
     avatar: 'https://cdn.discordapp.com/avatars/715021806033174590/b183fe66bd2aec1d2c1aee6cb7035625?size=256',
-    name: 'Lynx Starflare',
+    name: 'Lynx',
     title: 'Editor',
     desc: "@lynx.starflare"
   },
@@ -88,13 +88,13 @@ const members = [
   },
   {
     avatar: 'https://cdn.discordapp.com/avatars/546216982219980800/ebd0a5aec0469fe45f567194b7f8d578.png?size=256',
-    name: 'Ikuya Kirishima',
+    name: 'Ikuya',
     title: 'Content Creator',
     desc: "@gardevoir101"
   },
   {
     avatar: 'https://cdn.discordapp.com/avatars/173223638248587265/106677284cc1260accfa778b37417894.png?size=256',
-    name: 'Pipiro Piro',
+    name: 'Pipiro',
     title: 'Content Creator',
     desc: "@lightprizym"
   },
