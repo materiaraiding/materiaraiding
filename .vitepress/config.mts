@@ -47,11 +47,22 @@ export default defineConfig({
 			{
 				text: "Resources",
 				items: [
-					{text: "Beginners Guide", link: "/resources/beginnersguide"},
-					{text: "Visitors Guide", link: "/resources/visitorsguide"},
-					{text: "Macro Mate", link: "/resources/macromate"},
-					{text: "Raidplan Templates", link: "/resources/raidplantemplates"},
-					{text: "Glossary", link: "/resources/glossary"},
+					{
+						text: "Guides",
+						items: [
+							{text: "Beginners Guide", link: "/resources/beginnersguide"},
+							{text: "Visitors Guide", link: "/resources/visitorsguide"},
+						],
+					},
+					{
+						text: "Resources",
+						items: [
+							{text: "Plugins", link: "/resources/plugins"},
+							{text: "Macro Mate", link: "/resources/macromate"},
+							{text: "Raidplan Templates", link: "/resources/raidplantemplates"},
+							{text: "Glossary", link: "/resources/glossary"},
+						],
+					},
 				],
 			},
 			{text: "Directory", link: "https://materia.directory/"},
@@ -159,6 +170,7 @@ export default defineConfig({
 				{
 					text: "Resources",
 					items: [
+						{text: "Plugins", link: "/resources/plugins"},
 						{text: "Macro Mate", link: "/resources/macromate"},
 						{text: "Raid Plan Templates", link: "/resources/raidplantemplates"},
 						{text: "Glossary", link: "/resources/glossary"},

@@ -14,7 +14,7 @@ To resolve this issue, with the help of GrittyFrog you can now sync all the Mate
 ## Setup Guide
 
 ::: tip NOTE
-MacroMate is a Dalamud plugin and will require the use of the XIVLauncher to install and run plugins in FFXIV.
+MacroMate is a Dalamud plugin and will require the use of the [XIVLauncher](/resources/plugins) to install and run plugins in FFXIV.
 :::
 
 1. Download and install the **Macro Mate** plugin in Dalamud from the *Dalamud Plugins* menu.![](https://github.com/user-attachments/assets/2ded590f-fbe1-4151-bce5-64a6f7cb3fab)

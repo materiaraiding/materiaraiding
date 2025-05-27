@@ -188,7 +188,9 @@ Waymarks are generally specific to a strategy and are provided alongside other r
 
 ![](/images/ex1-waymarks.webp)
 
+::: tip
 These waymarks can be imported into the game using the **Waymark Import** addon, or you can ask a friend to import them so you can save a copy for yourself.
+:::
 
 ### Burst Windows (2mins)
 
