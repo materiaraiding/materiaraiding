@@ -406,6 +406,10 @@ There are three primary gear sources for high-end content:
 
 **Tome gear** is available from the vendor in the main city for each expansion and is obtained by exchanging tomestones, which are obtained from various sources. Tome gear can be upgraded to the same iLvL as raid gear with upgrade tokens that are also looted from the savage encounters.
 
+::: tip
+Alliance raids also provide a catch-up gearing system where once per week you can obtain a token that can be exchanged for tome gear upgrade tokens. Be sure you complete the current alliance raid weekly to get these tokens.
+:::
+
 ---
 
 If you are raiding at the beginning of a Savage tier, you want to be wielding the newest crafted gear that is [overmelded](#melding) with as many materia as you can achieve (ideally five). You may have some pieces from the Extreme / Normal raid, and as you obtain tome and raid gear you can replace the lower iLvl piece. You should aim to have your gear fully [melded](#melding) before joining a raid party in Party Finder.
