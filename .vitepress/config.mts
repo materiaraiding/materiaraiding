@@ -150,10 +150,15 @@ export default defineConfig({
 			],
 			"/resources/": [
 				{
-					text: "Resources",
+					text: "Guides",
 					items: [
 						{text: "Beginners Guide", link: "/resources/beginnersguide"},
 						{text: "Visitors Guide", link: "/resources/visitorsguide"},
+					],
+				},
+				{
+					text: "Resources",
+					items: [
 						{text: "Macro Mate", link: "/resources/macromate"},
 						{text: "Raid Plan Templates", link: "/resources/raidplantemplates"},
 						{text: "Glossary", link: "/resources/glossary"},

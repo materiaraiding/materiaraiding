@@ -45,7 +45,7 @@ onMounted(() => {
 			<div v-if="frontmatter.expansion && frontmatter.difficulty" class="guide_subtitle">
 				{{ frontmatter.expansion }} - {{ frontmatter.difficulty }} - {{ frontmatter.fightID }}
 			</div>
-			<h1 v-if="frontmatter.title" class="guide_title" id="{{frontmatter.title}}">
+			<h1 v-if="frontmatter.fightID" class="guide_title" id="{{frontmatter.title}}">
 				<img :src="`/images/icons/${dutyType}.webp`" /> {{ frontmatter.title }}
 				<a href="{{frontmatter.fightID}}" class="header-anchor" />
 			</h1>
