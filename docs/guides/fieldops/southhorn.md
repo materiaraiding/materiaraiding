@@ -27,6 +27,8 @@ TO-DO
 - Sanguine Scrolls
 - RNG
 - Setting up groups in CA and MOG
+- Lvl 20
+- 
 
 ### Boss 1
 
