@@ -18,7 +18,7 @@ South Horn is unlocked after completing the Dawntrail main story quest and the i
 
 ## Relic Weapons
 
-## Raid: Forked Tower
+## Raid: Forked Tower (Juno writeup)
 
 ### Entry Requirements
 
