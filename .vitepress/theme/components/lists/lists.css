@@ -89,3 +89,8 @@
 	color: var(--color-other);
 	border-color: var(--color-other);
 }
+
+.fieldops-color {
+	color: var(--color-fieldops);
+	border-color: var(--color-fieldops);
+}

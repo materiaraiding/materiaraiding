@@ -38,6 +38,7 @@ export default defineConfig({
 					{text: "Criterion", link: "/criterion"},
 					{text: "Chaotic", link: "/chaotic"},
 					{text: "Unreal", link: "/unreal"},
+					{text: "Field Ops", link: "/fieldops"},
 				],
 			},
 			{
@@ -125,6 +126,13 @@ export default defineConfig({
 					items: [
 						{text: "Byakko", link: "/unreal/byakko"},
 						{text: "Suzaku", link: "/unreal/suzaku"},
+					],
+				},
+				{
+					text: "Field Ops",
+					collapsed: false,
+					items: [
+						{text: "South Horn", link: "/fieldops/southhorn"},
 					],
 				},
 			],
@@ -216,6 +224,7 @@ export default defineConfig({
 		'guides/extreme/:slug*': 'extreme/:slug*',
 		'guides/criterion/:slug*': 'criterion/:slug*',
 		'guides/unreal/:slug*': 'unreal/:slug*',
+		'guides/fieldops/:slug*': 'fieldops/:slug*',
 		'other/:slug*': 'unreal/:slug*',
 	},
 	vite: {
