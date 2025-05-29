@@ -31,3 +31,11 @@ Two major communities support Field Operations in OCE, the **Content Achievers**
 <Action title='Murder of Geese (MOG) Discord' color='blue' href='https://discord.gg/czkX3cTKuj' />
 
 <Action title='Content Achievers Discord' color='red' href='https://discord.gg/FJFxr2U' />
+
+## Field Operations Guides
+
+::: warning In Progress
+Resources are early and still being developed
+:::
+
+<PageList limitedList="field operations"/>
