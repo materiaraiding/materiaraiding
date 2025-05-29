@@ -19,3 +19,16 @@ South Horn is unlocked after completing the Dawntrail main story quest and the i
 ## Relic Weapons
 
 ## Raid: Forked Tower
+
+### Entry Requirements
+
+TO-DO
+- Cover weather requirements
+- Sanguine Scrolls
+- RNG
+- Setting up groups in CA and MOG
+
+### Boss 1
+
+### Boss 2
+
