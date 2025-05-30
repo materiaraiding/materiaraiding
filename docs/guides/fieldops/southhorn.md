@@ -14,13 +14,13 @@ South Horn is unlocked after completing the Dawntrail main story quest and the i
 
 ![](/images/southhorn-map1.webp)
 
-## Phantom Jobs
+### Phantom Jobs
 
-## Relic Weapons
+### Relic Weapons
 
-# Raid: Forked Tower (Juno writeup)
+## Raid: Forked Tower (Juno writeup)
 
-## Entry Requirements
+### Entry Requirements
 
 TO-DO
 - Cover weather requirements
@@ -30,9 +30,9 @@ TO-DO
 - Lvl 20
 - 
 
-## Boss 1
+### Boss 1
 
 <Action title='Boss 1 Raidplan' color='red' href='https://raidplan.io/plan/jar7czxup3wu8chh' />
 
-## Boss 2
+### Boss 2
 
