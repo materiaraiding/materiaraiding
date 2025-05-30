@@ -12,9 +12,31 @@ South Horn is unlocked after completing the Dawntrail main story quest and the i
 
 ## Zone Overview & Quests
 
+<Action title='Full Interactive Map' color='purple' href='https://lynn.pet/map/southhorn' />
+
 ![](/images/southhorn-map1.webp)
 
 ### Phantom Jobs
+
+Phantom Jobs are a unique feature of South Horn, allowing players to temporarily take on the abilities and roles of different jobs. Each phantom job has its own set of abilties or traits, you unlock these by leveling each job through Phantom Job Exp. 
+
+There are currently **13 phantom jobs** available in South Horn, some are purchased with gold and silver coins while others are unlocked from various CE drops.
+
+- Freelancer (**default**)
+- Bard (**default**)
+- Knight (**default**)
+- Monk (**default**)
+- Time Mage (**silver coins**)
+- Chemist (**silver coins**)
+- Cannoneer (**silver coins**)
+- Geomancer (**gold coins**)
+- Samurai (**gold coins**)
+- Thief (**gold coins**)
+- Oracle (**drop from CE**)
+- Berserker (**drop from CE**)
+- Ranger (**drop from CE**)
+
+<Action title='Detailed Phantom Job Info' color='purple' href='https://lynn.pet/occult/phantomjob' />
 
 ### Relic Weapons
 
