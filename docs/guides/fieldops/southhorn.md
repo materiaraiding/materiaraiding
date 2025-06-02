@@ -49,6 +49,11 @@ There are currently **13 phantom jobs** available in South Horn, some are purcha
 This raid will only appear under **certain weather conditions**, and has a maximum player count of 48.
 More blurb here :)
 
+### Raidplans
+
+<Action title='Boss 1 - Demon Tablet' color='red' href='https://raidplan.io/plan/jar7czxup3wu8chh' />
+<Action title='Boss 2 - Trio' color='purple' href='https://raidplan.io/plan/5gf9cxkkffcfucew' />
+
 ### Entry Requirements
 
 Any player who is **knowledge level 20** and has completed the **Mysteries Abide** quest is able to access the Forked Tower instance.
