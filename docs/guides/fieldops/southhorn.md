@@ -44,7 +44,11 @@ There are currently **13 phantom jobs** available in South Horn, some are purcha
 
 ### Relic Weapons
 
-## Raid: Forked Tower (Juno writeup)
+## Raid: Forked Tower
+
+::: warning WORK IN PROGRESS
+This section is still being written and is subject to changes.
+:::
 
 This raid will only appear under **certain weather conditions**, and has a maximum player count of 48.
 More blurb here :)
