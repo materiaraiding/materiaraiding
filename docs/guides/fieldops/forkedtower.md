@@ -1,7 +1,7 @@
 ---
 order: 4
-fightID: South Horn
-title: Occult Crescent - South Horn
+fightID: Forked Tower
+title: Occult Crescent - Forked Tower
 expansion: Dawntrail
 difficulty: Field Operations
 ---
@@ -9,6 +9,16 @@ difficulty: Field Operations
 ## Credits
 - Map and Job Info by Lynn Kaneko
 - Raid Strats by CA, MOG and Fae Fiyaa
+
+## Forked Tower Overview
+
+Forked Tower is the first raid in the Occult Crescent series, introduced in the Dawntrail expansion. It features multiple bosses and puzzles and requires a large group of players to complete. The raid is designed for 48 players and includes unique mechanics that require coordination and teamwork.
+
+Forked Tower is part of the **South Horn Field Operation** and will require completing several prerequisites before players can access it.
+
+Read on for more information about the Field Operation or click below to jump to the Raid Guide.
+
+<Action title='Raid Guide' target='_self' color='raid' href='#raid-forked-tower' />
 
 ## Zone Overview & Quests
 
@@ -50,12 +60,14 @@ There are currently **13 phantom jobs** available in South Horn, some are purcha
 This section is still being written and is subject to changes.
 :::
 
-This raid will only appear under **certain weather conditions**, and has a maximum player count of 48.
-
 ### Raidplans
 
-<Action title='Boss 1 - Demon Tablet' color='red' href='https://raidplan.io/plan/jar7czxup3wu8chh' />
-<Action title='Boss 2 - Trio' color='purple' href='https://raidplan.io/plan/5gf9cxkkffcfucew' />
+<ActionGroup
+:actions=" [
+    { title: 'Boss 1 - Demon Tablet', color: 'red', href: 'https://raidplan.io/plan/jar7czxup3wu8chh' },
+    { title: 'Boss 2 - Trio', color: 'purple', href: 'https://raidplan.io/plan/5gf9cxkkffcfucew' }
+    ]"
+/>
 
 ### Entry Requirements
 
@@ -66,9 +78,7 @@ In general, this occurs within 20-40 minutes (I think it's closer to 30 will nee
 
 To check if an instance is "fresh", players can look at other players in the instance to see how much time they have in the instance. (flesh this out)
 
-
-
-Once the weather is **Mirage**, and the sky is red, players will be able to submit a **Sanguine Scrolls** to the gazebo at the center of the map. (Image here)
+Once the weather is **Mirage**, and the sky is red, players will be able to submit a **Sanguine Cipher** to the gazebo at the center of the map. (Image here)
 
 It is possible to submit more than one scroll. Doing so will improve your chances of entering the instance if there is more than 48 people. 
 Any players who are not accepted into the instance will be refunded their scroll.
@@ -121,5 +131,10 @@ And within all 48 players there should be:
 
 <Action title='Boss 1 Raidplan' color='red' href='https://raidplan.io/plan/jar7czxup3wu8chh' />
 
+> writeup coming soon   
+
 ### Boss 2
 
+<Action title='Boss 2 - Trio' color='purple' href='https://raidplan.io/plan/5gf9cxkkffcfucew' />
+
+> writeup coming soon   

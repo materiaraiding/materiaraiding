@@ -132,7 +132,7 @@ export default defineConfig({
 					text: "Field Ops",
 					collapsed: false,
 					items: [
-						{text: "South Horn", link: "/fieldops/southhorn"},
+						{text: "Forked Tower", link: "/fieldops/forkedtower"},
 					],
 				},
 			],
