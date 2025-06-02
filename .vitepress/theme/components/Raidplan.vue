@@ -1,11 +1,9 @@
 <template>
-
   <div class="raidplan-wrapper" :class="color">
     <a :href="href" class="button-link" :target="target || '_blank'" rel="noopener noreferrer" :class="color">
       {{ title }}</a>
     <iframe class="raidplan-iframe" :src="href + '/embed'"></iframe>
   </div>
-
 </template>
 
 <script>

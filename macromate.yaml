@@ -91,25 +91,45 @@ macros:
     iconId: 26460
     markdownUrl: docs/guides/savage/m4s.md
 
-  - name: M5S
+  - name: M5S-1
     group: "Savage"
     iconId: 26457
-    markdownUrl: docs/guides/savage/m5s.md
+    rawUrl: docs/public/macros/m5s-1.macro
 
-  - name: M6S
+  - name: M5S-2
+    group: "Savage"
+    iconId: 26457
+    rawUrl: docs/public/macros/m5s-2.macro
+
+  - name: M6S-1
     group: "Savage"
     iconId: 26458
-    markdownUrl: docs/guides/savage/m6s.md
+    rawUrl: docs/public/macros/m6s-1.macro
 
-  - name: M7S
+  - name: M6S-2
+    group: "Savage"
+    iconId: 26458
+    rawUrl: docs/public/macros/m6s-2.macro
+
+  - name: M7S-1
     group: "Savage"
     iconId: 26459
-    markdownUrl: docs/guides/savage/m7s.md
+    rawUrl: docs/public/macros/m7s-1.macro
 
-  - name: M8S
+  - name: M7S-2
+    group: "Savage"
+    iconId: 26459
+    rawUrl: docs/public/macros/m7s-2.macro
+
+  - name: M8S-1
     group: "Savage"
     iconId: 26460
-    markdownUrl: docs/guides/savage/m8s.md
+    rawUrl: docs/public/macros/m8s-1.macro
+
+  - name: M8S-2
+    group: "Savage"
+    iconId: 26460
+    rawUrl: docs/public/macros/m8s-2.macro
 
   # ==========
   # = Ultimate =

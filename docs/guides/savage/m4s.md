@@ -12,7 +12,7 @@ discussionLink: https://discord.com/channels/895516967543390249/1267677404135034
 - Liminal Space (toolbox)
 - Kobe (video guide)
 
-## Macro
+## Macros
 
 ```markdown
 ■ Electrifying　■ Witch Hunt (Fixed Baits)

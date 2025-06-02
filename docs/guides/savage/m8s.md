@@ -9,46 +9,13 @@ discussionLink: https://discord.com/channels/895516967543390249/1355407851677421
 
 ## Credits
 - Materia Raiding Community
+- Videos by Kobe
 
-## Macro
+## Macros
 
-Phase 1
-```markdown
-■ Wind/Stonefang　　　　　　■ Terrestrial Rage
-　　MT　D4　　　　　　　　　　　　　Laser
-　D3　　　H2　※Colour　　　  MTD1　　OTD2
-　H1　　　D2　　 Pairs　　　　　　　　 ★
-　　D1　OT　　　　　　　　　　　　　 Laser
-■ Millenial Decay　　　　　　　　H1D3　H2D4
-　 G1 W | G2 E　　　　　　　　   ■ Terrestrial Rage
-　  Drop Colour WM　　　　　   ※TRUE NORTH
-　  Melee Chase, Range Lag　    Stack CW
-　 Tower Colour WM　　　　　  　 SpreadColour WM
-■ Reigns　　　　　　　　　　　■ Beckon Moonlight
-　   MT　OT　※Eminent　　　　　   ★  OT H2
-　G1　★　G2　　　　　　　　　　　MT
-　MT　　   OT　　　　　　　　　　　H1　   
-　    G1　G2　※Revolution
-```
+<<< @/public/macros/m8s-1.macro
 
-Phase 2
-```markdown
-■ Quake III　　　　　　　　■ Lone Wolf's Lament
-　 G1 SW | G2 SE　　　　　　　     Tank　　
-■ Ultraviolet Ray　　　　　　 　　　　   DPS
-　 T > H > R > M　 　　　　　　　　  Healer
-　  North > Stay　　　　　 　※ Melee/Tank Solve
-　  North > Stay > South　■ Final Ultraviolet
-■ Prowling Gale　　　　　　  SW→NW←NE
-　　 MTH1　OTH2　　　　　   SE→S
-　 D1D3　　　D2D4　　　　   DPS > T/H > DPS
-　 　　　　　　　　　　　　   ※ SW is New South
-　 ※ Melee/Tank Courier    ■ Enrage
-■ Twofold Tempest　　　　   Start SCW
-　　　　 West  　 　 　　　　East
-Tether　SW>NW>NE>SE　   SE>NE>NW>SW
-Baits　   NE>SE>SW>NW　   NW>SW>SE>NE
-```
+<<< @/public/macros/m8s-2.macro
 
 ## Video Guide
 

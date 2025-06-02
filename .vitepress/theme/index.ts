@@ -15,6 +15,8 @@ import ImageEmbed from "./components/ImageEmbed.vue";
 // @ts-ignore
 import StatusIcon from "./components/StatusIcon.vue";
 // @ts-ignore
+import Macro from "./components/Macro.vue";
+// @ts-ignore
 import Raidplan from "./components/Raidplan.vue";
 // @ts-ignore
 import Action from "./components/Action.vue";
@@ -44,6 +46,7 @@ export default {
 		ctx.app.component("YoutubeEmbed", YoutubeEmbed);
 		ctx.app.component("TimingWindow", TimingWindow);
 		ctx.app.component("ImageEmbed", ImageEmbed);
+		ctx.app.component("Macro", Macro);
 		ctx.app.component("StatusIcon", StatusIcon);
 		ctx.app.component("Raidplan", Raidplan);
 		ctx.app.component("Action", Action);

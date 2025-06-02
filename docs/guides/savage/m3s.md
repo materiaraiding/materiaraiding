@@ -12,9 +12,8 @@ discussionLink: https://discord.com/channels/895516967543390249/1267677717495681
 - Velyntine (toolbox)
 - Kobe (video guide)
 
-## Macro
+## Macros
 
-Current M3S Macro 09/08/24
 ```markdown
 ■ Lariat
 　 D3 MT D4　 ※ DPS Rotate CW 

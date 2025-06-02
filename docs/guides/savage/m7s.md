@@ -11,43 +11,11 @@ discussionLink: https://discord.com/channels/895516967543390249/1355407948838600
 - Materia Raiding Community
 - Videos by Kobe
 
-## Macro
+## Macros
 
-```markdown
-【  】【  】
-■ Sinister Puddles　　 ■ Sinister Seeds
-　 MTD3　OTD4　　　　   Melee: Start SWCWS
-　　　　 ★　　　　　　　   Range: Start DPS N/H S
-　 H1D1　H2D2　　　　　　HorizontalMiddle
-　 ※ Stack: G1 W | G2 E   Pull Adds E
-■ Pulp Smash: Standard Spread
-■Glower Spread　　■ Thorn Deathmatch 
-　　 OT D1 H2 D4　　　Boss　Long　Short
-　 ★　　　　　　　　　   MT　   H2　　H1
-　　 MT D1 H1 D3
-■ Strange Seeds (Uptime WM)
-　 Supports: (A)(D)
-　 DPS: (B)(C)
-　 ※ Pairs: MTD1　OTD2　H1D3　H2D4
-```
+<<< @/public/macros/m7s-1.macro
 
-```markdown
-【  】
-■Glower Spread　　■ Debris Deathmatch
-　　　　　★　　　　　　　　    MTD3
-　 MT D1　　D2 OT　　　 H1D1　　　H2D2
-　 D3 H1　　 H2 D4　　　　　　OTD4 
-■ Debris Seeds　　　   ■ Debris Puddles
-　 Melee　MT　OT　　　  Melee　Start NCWStack SW
-　　　　　   D1　D2　　　 ※ Spread Facing Corner
-　 Range　　D3　 　  　 　Range　Start Corner
-　　　　　H1　   H2 　　　Walk Along SideStack Middle
-　　　　　　   D4　　　　   ※ Spread True North
-■ Stoneringers 2
-　  MTD3　OTD4
-　　  H1D1　 H2D2
-　　  ※ True North
-```
+<<< @/public/macros/m7s-2.macro
 
 ## Video Guide
 

@@ -12,28 +12,11 @@ discussionLink: https://ptb.discord.com/channels/895516967543390249/135540815945
 - Video by Kobe
 - Macros and Toolbox by MR
 
-## Macro
+## Macros
 
-```markdown
-■ Disco Inferno 1　　　■ Fixed A/B
-　 G1 W | G2 E　　　　　　H1　T
-■ Ensemble Assemble　　　　★
-　 H1 MT ST H2　　　　　　　Dps H2
-　 D3 D1 D2 D4
-■ Ride The Waves　 ■ Frogtourage
-　 MT　H1　※Column 　D3  D4
-　 D1　D3　T/M Inner　 MT  ST　 D3MT  STD4
-　 D2　D4　H/R Outer　D1  D2　H1D1  D2H2
-　 ST　H2　　　　　　　  H1  H2
-```
+<<< @/public/macros/m5s-1.macro
 
-```markdown
-■ Disco Inferno 2
-　 D3　　　D4
-　　　MTST
-　　　D1D2
-　 H1　　　H2
-```
+<<< @/public/macros/m5s-2.macro
 
 ## Video Guide
 

@@ -11,9 +11,8 @@ discussionLink: https://discord.com/channels/895516967543390249/1267677717495681
 - Kobe (video guide)
 - DiscoKnees (PoV)
 
-## Macro
+## Macros
 
-Current M2S Macro 09/08/24
 ```markdown
 ■ Venom Spread (True North)
 　 D3　D4　　MTD3　STD4

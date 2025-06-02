@@ -12,9 +12,8 @@ discussionLink: https://discord.com/channels/895516967543390249/1267677779735089
 - Kobe (video guide)
 - Valyntine (PoV)
 
-## Macro
+## Macros
 
-Current M1S Macro 09/08/24
 ```markdown
 ■ Cardinal Baits/Pairs　■ Light Party Stacks
 　※ True North　　　　　H1D1MTD3 ★ H2D2STD4
