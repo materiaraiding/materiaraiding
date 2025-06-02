@@ -51,7 +51,6 @@ This section is still being written and is subject to changes.
 :::
 
 This raid will only appear under **certain weather conditions**, and has a maximum player count of 48.
-More blurb here :)
 
 ### Raidplans
 
@@ -75,6 +74,14 @@ It is possible to submit more than one scroll. Doing so will improve your chance
 Any players who are not accepted into the instance will be refunded their scroll.
 
 These **Sanguine Scrolls** can be purchased from the ___ vendor next to the main aetheryte for 600 silver or 950(?) gold.
+
+::: tip Finding a Group
+Two major communities support Field Operations in OCE, the **Content Achievers** Discord covers a wide variety of content including Field Operations, while **Murder of Geese (MOG)** Discord focuses specifically on Field Operations Raids and coordinating groups.
+
+<Action title='Murder of Geese (MOG) Discord' color='blue' href='https://discord.gg/czkX3cTKuj' />
+
+<Action title='Content Achievers Discord' color='blue' href='https://discord.gg/FJFxr2U' />
+:::
 
 ### Set Up
 
