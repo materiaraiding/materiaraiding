@@ -4,6 +4,7 @@ fightID: P5S
 title: Abyssos The Fifth Circle
 expansion: Endwalker
 difficulty: Savage
+banner: /images/banners/archived/endwalker/P5S.webp
 ---
 ## Macro
 

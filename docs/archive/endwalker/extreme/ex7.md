@@ -4,6 +4,7 @@ fightID: EX7
 title: The Abyssal Fracture
 expansion: Endwalker
 difficulty: Extreme
+banner: /images/banners/archived/endwalker/EX7.webp
 ---
 ## Macro
 ```markdown

@@ -4,6 +4,7 @@ fightID: EX6
 title: The Voidcast Dias
 expansion: Endwalker
 difficulty: Extreme
+banner: /images/banners/archived/endwalker/EX6.webp
 ---
 ## Macro
 ```markdown

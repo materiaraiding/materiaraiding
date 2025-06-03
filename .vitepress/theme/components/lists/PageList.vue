@@ -10,11 +10,7 @@ const router = useRouter();
 defineProps(['limitedList']);
 
 /**
- * @notes - Ensure frontmatter titles match image banner names, 
- *          e.g. title: M4S === M4S.webp, since the banner image is soft-coded in,
- *          i.e. ${page.frontmatter.title}.webp
- *
- *          Banner images are trimmed down versions of the banners published by SE, these are sourced from the consolegames wiki
+ * @notes - Banner images are trimmed down versions of the banners published by SE, these are sourced from the consolegames wiki
  *          Trim the original images down to remove the transparent fade in the original images
  *          Original Size: 280x89
  *          Trimmed Size: 272x81

@@ -4,6 +4,7 @@ fightID: EX5
 title: Mount Ordeals
 expansion: Endwalker
 difficulty: Extreme
+banner: /images/banners/archived/endwalker/EX5.webp
 ---
 ## Macro
 **North (NW/NE) Limit Cut**
