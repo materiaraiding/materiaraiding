@@ -13,7 +13,7 @@ difficulty: Field Operations
 
 ## Forked Tower Overview
 
-Forked Tower is the first raid in the Occult Crescent series, introduced in the Dawntrail expansion. It features multiple bosses and puzzles and requires a large group of players to complete. The raid is designed for 48 players and includes unique mechanics that require coordination and teamwork.
+Forked Tower is the first raid in the Occult Crescent series, introduced in Dawntrail. It features multiple bosses and puzzles and requires a large group of players to complete. The raid is designed for 48 players and includes unique mechanics that require coordination and teamwork, but parties may enter with as little as 16 players provided they have the requisite **Sanguine Ciphers**.
 
 Forked Tower is part of the **South Horn Field Operation** and will require completing several prerequisites before players can access it.
 
@@ -23,9 +23,11 @@ Read on for more information about the Field Operation or click below to jump to
 
 ## Zone Overview & Quests
 
-Occult Crescent: South Horn is the first Field Operation in the Occult Crescent series, set in the Dawntrail expansion. It introduces players to the unique mechanics and challenges of Field Operations, providing a blend of exploration, combat, and teamwork.
+Occult Crescent: South Horn is the first Field Operation in the Occult Crescent series set in Dawntrail. Field Operations provide a blend of exploration, combat, experimentation and teamwork.
 
-South Horn is unlocked after completing the Dawntrail main story quest and the intro quest "**One Last Hurrah**" and can be accessed in Tuliyollal (X:17.1 Y:11.8).
+South Horn is unlocked after completing the Dawntrail main story quest and the intro quest "**One Last Hurrah**". A portal to **Phantom Village** leading to **South Horn** can be accessed in Tuliyollal (X:17.1 Y:11.8).
+
+Progression in the zone is a blend of Eureka and Save the Queen, allowing players to farm overworld mobs for chain bonuses, complete FATEs, spawn Critical Encounters (CEs) and discover chests around the zone with the help of pots and bunnies. 
 
 ![](/images/southhorn-map1.webp)
 
@@ -33,63 +35,54 @@ South Horn is unlocked after completing the Dawntrail main story quest and the i
 
 ### Phantom Jobs
 
-Phantom Jobs are a unique feature of South Horn, allowing players to temporarily take on the abilities and roles of different jobs. Each phantom job has its own set of abilties or traits, you unlock these by leveling each job through Phantom Job Exp. 
+Phantom Jobs are a unique feature of Occult Crescent, allowing players to temporarily take on the abilities and roles of different jobs. Each phantom job has its own set of abilties or traits, unlocked by earning **Phantom Job EXP** and levelling up through FATEs, CEs and Chain bonuses.
 
-There are currently **13 phantom jobs** available in South Horn, some are purchased with gold and silver coins while others are unlocked from various CE drops.
+Reaching the maximum level on a phantom job will earn you a stack of **Phantom Mastery**, a permament buff increasing your damage dealt and healing potency by **~2.5%** for each stack, as well as adding 1 level to your Phantom Freelancer.
 
-- Freelancer (**default**)
-- Bard (**default**)
-- Knight (**default**)
-- Monk (**default**)
-- Time Mage (**silver coins**)
-- Chemist (**silver coins**)
-- Cannoneer (**silver coins**)
-- Geomancer (**gold coins**)
-- Samurai (**gold coins**)
-- Thief (**gold coins**)
-- Oracle (**drop from CE**)
-- Berserker (**drop from CE**)
-- Ranger (**drop from CE**)
+There are currently **13 phantom jobs** available in South Horn, some are purchased with silver and gold pieces while others are unlocked from various CE drops.
+
+| **Default** <br /> (Starting jobs) | **Silver Pieces** <br /> (4000 per job) | **Gold Pieces** <br /> (1600 per job) | **CE Drop** <br /> (Listed below, not guaranteed) |
+| ----- | ---------- | -------- | ----- |
+| ![](/images/jobs/PhantomFreelancer.webp) Freelancer | ![](/images/jobs/PhantomTimeMage.webp) Time Mage | ![](/images/jobs/PhantomThief.webp) Thief | ![](/images/jobs/PhantomBerserker.webp) Berserker  (**The Unbridled**) |
+| ![](/images/jobs/PhantomKnight.webp) Knight | ![](/images/jobs/PhantomChemist.webp) Chemist | ![](/images/jobs/PhantomSamurai.webp) Samurai | ![](/images/jobs/PhantomRanger.webp) Ranger (**The Black Regiment**) |
+| ![](/images/jobs/PhantomMonk.webp) Monk | ![](/images/jobs/PhantomCannoneer.webp) Cannoneer | ![](/images/jobs/PhantomGeomancer.webp) Geomancer | ![](/images/jobs/PhantomOracle.webp) Oracle (**On The Hunt**) |
+| ![](/images/jobs/PhantomBard.webp) Bard |
 
 <Action title='Detailed Phantom Job Info' color='purple' href='https://lynn.pet/occult/phantomjob' />
 
 ### Relic Weapons
 
-Relic weapons are unlocked from a short quest chain with Gerolt in the entry zone of Occult Crescent. The quest chain involves a few steps:
+Relic weapons are unlocked from a short quest chain with Gerolt in Phantom Village. The quest chain is made up of two steps:
 
-- Gather 3 of each **Demiatma** color (3 x 6 colors = 18 total)
-- Buy 3x Tome Materials from the vendor in the entry zone (1500 tomestones of aesthetics)
+1. A **one-time** quest to gather 3 copies of 6 unique **Demiatmas** (3 copies x 6 types = 18 total).
+2. A **repeatable** quest to buy 3 of a material from the nearby vendor with **uncapped tomestones** (1500 uncapped tomestones per weapon).
 
 Demiatma can be obtained from various sources, including:
-- Completing Fates and Critical Engagements in Occult Crescent (See map above)
-- Completing Fates in Dawntrail zones
-  - Orange: **Shaolaani**
-  - Yellow: **Living Memory**
-  - Green: **Yak T'el**
-  - Azurite: **Urqopacha**
-  - Purple: **Heritage Found**
-  - Blue: **Kozama'uka**
+- Completing FATEs and Critical Encounters in South Horn (See map above)
+- Completing FATEs in Dawntrail zones:
+	- Azurite / Cyan - **Urqopacha**
+	- Verdigris / Blue - **Kozama'uka**
+	- Malachite / Green - **Yak'tel**
+	- Realgar / Orange - **Shaaloani**
+	- Caput Mortuum / Purple - **Heritage Found**
+	- Orpiment / Yellow - **Living Memory**
 
-These are rare drops can can take some time to farm. Occult Crescent appears to be the fastest way but is harder to focus farm as the Fates spawn randomly.
+These are **rare** drops and can take some time to farm. Occult Crescent appears to be the fastest way but is harder to focus farm as the Fates spawn randomly.
 
-Once you have the required materials, return to Gerolt in the entry zone to complete the quest and obtain your first relic weapon.
+Once you have the required materials, return to Gerolt in Phantom Village with all 18 demiatmas to complete the **one-time** quest and begin to obtain your relic weapons.
 
-::: tip Note
-After the first relic, you will only need to gather the tome materials for each subsequent relic. The Demiatma will not be required again.
-:::
+### Arcanaut Sets
 
-### Arcanaught Sets
+Vendors in South Horn sell Arcanaut sets, which is a set of gear designed for players to use in Occult Crescent.
 
-Vendors in the entry zone of Occult Crescent sell Arcanaught sets, which is a set of gear designed for players to use in Field Operations.
-
-Each item costs 4000 silver pieces. The items are 745 ilvl base and come with a special Occult Crescent trait:
+Each item costs 4000 silver pieces. The items are 745 ilvl base and come with a special trait that's only active while in Occult Crescent zones:
 
 - +40 Main Stat (Strength, Dexterity, Intelligence, Mind)
 - +1 Special Attribute
 
-Special Attribute scales up damage from all Phantom Job abilities that "**Scale with item level**" in their tooltip description.
+Special Attribute scales up damage from all Phantom Job abilities that have "**Scale with item level**" in their tooltip description.
 
-You can upgrade the Arcanaught sets using various upgrade materials purchased from the vendor and obtained from loot chests in the zones.
+You can upgrade the Arcanaut sets using various upgrade materials purchased from the vendor and obtained from loot chests in the zones. Each upgrade will add another +40 Main Stat and +1 Special Attribute.
 
 ## Raid: Forked Tower
 
