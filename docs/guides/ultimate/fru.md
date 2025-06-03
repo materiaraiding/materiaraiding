@@ -2,6 +2,7 @@
 order: 6
 fightID: FRU
 title: Futures Rewritten
+banner: /images/banners/FRU.webp
 description: Materia Resources and Guide for Future's Rewritten (Ultimate).
 difficulty: Ultimate
 expansion: Dawntrail

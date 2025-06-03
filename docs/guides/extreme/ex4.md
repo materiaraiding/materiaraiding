@@ -2,6 +2,7 @@
 order: 4
 fightID: EX4
 title: Recollection
+banner: /images/banners/EX4.webp
 expansion: Dawntrail
 difficulty: Extreme
 discussionLink: https://discordapp.com/channels/895516967543390249/1353964988712091739

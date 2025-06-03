@@ -1,6 +1,7 @@
 ---
 order: 4
 fightID: Forked Tower
+banner: /images/banners/forkedtower.webp
 title: Occult Crescent - Forked Tower
 expansion: Dawntrail
 difficulty: Field Operations
@@ -53,6 +54,42 @@ There are currently **13 phantom jobs** available in South Horn, some are purcha
 <Action title='Detailed Phantom Job Info' color='purple' href='https://lynn.pet/occult/phantomjob' />
 
 ### Relic Weapons
+
+Relic weapons are unlocked from a short quest chain with Gerolt in the entry zone of Occult Crescent. The quest chain involves a few steps:
+
+- Gather 3 of each **Demiatma** color (3 x 6 colors = 18 total)
+- Buy 3x Tome Materials from the vendor in the entry zone (1500 tomestones of aesthetics)
+
+Demiatma can be obtained from various sources, including:
+- Completing Fates and Critical Engagements in Occult Crescent (See map above)
+- Completing Fates in Dawntrail zones
+  - Orange: **Shaolaani**
+  - Yellow: **Living Memory**
+  - Green: **Yak T'el**
+  - Azurite: **Urqopacha**
+  - Purple: **Heritage Found**
+  - Blue: **Kozama'uka**
+
+These are rare drops can can take some time to farm. Occult Crescent appears to be the fastest way but is harder to focus farm as the Fates spawn randomly.
+
+Once you have the required materials, return to Gerolt in the entry zone to complete the quest and obtain your first relic weapon.
+
+::: tip Note
+After the first relic, you will only need to gather the tome materials for each subsequent relic. The Demiatma will not be required again.
+:::
+
+### Arconaught Armour
+
+Vendors in the entry zone of Occult Crescent sell Arconaught Armour, which is a set of gear designed for players to use in Field Operations.
+
+Each item costs 4000 silver pieces. The items are 745 ilvl base and come with a special Occult Crescent trait:
+
+- +40 Main Stat (Strength, Dexterity, Intelligence, Mind)
+- +1 Special Attribute
+
+Special Attribute scales up damage from all Phantom Job abilities that "**Scale with item level**" in their tooltip description.
+
+You can upgrade the Arconaught sets using various upgrade materials purchased from the vendor and obtained from loot chests in the zones.
 
 ## Raid: Forked Tower
 

@@ -2,6 +2,7 @@
 order: 7
 fightID: M7S
 title: AAC Cruiserweight M3
+banner: /images/banners/M7S.webp
 expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1355407948838600865

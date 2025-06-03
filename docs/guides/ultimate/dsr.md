@@ -2,6 +2,7 @@
 order: 4
 fightID: DSR
 title: Dragonsong's Reprise
+banner: /images/banners/DSR.webp
 difficulty: Ultimate
 expansion: Endwalker
 image: dsr-dkt.webp

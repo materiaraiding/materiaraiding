@@ -2,6 +2,7 @@
 order: 1
 fightID: EX1
 title: Worqor Lar Dor
+banner: /images/banners/EX1.webp
 expansion: Dawntrail
 difficulty: Extreme
 permalink: /ex1

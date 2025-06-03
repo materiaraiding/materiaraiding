@@ -2,6 +2,7 @@
 order: 2
 fightID: M2S
 title: AAC Light-heavyweight M2
+banner: /images/banners/M2S.webp
 expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1267677717495681064

@@ -2,6 +2,7 @@
 order: 4
 fightID: M4S
 title: AAC Light-heavyweight M4
+banner: /images/banners/M4S.webp
 expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1267677404135034930

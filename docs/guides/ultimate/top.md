@@ -2,6 +2,7 @@
 order: 5
 fightID: TOP
 title: The Omega Protocol
+banner: /images/banners/TOP.webp
 difficulty: Ultimate
 expansion: Endwalker
 image: top-alphaomega.webp

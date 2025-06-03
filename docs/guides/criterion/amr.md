@@ -2,6 +2,7 @@
 order: 2
 fightID: AMR
 title: Another Mount Rokkon
+banner: /images/banners/AMR.webp
 expansion: Endwalker
 difficulty: Criterion
 ---

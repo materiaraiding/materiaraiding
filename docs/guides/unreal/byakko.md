@@ -2,6 +2,7 @@
 fightID: Byakko
 order: 2
 title: The Jade Stoa (Unreal)
+banner: /images/banners/byakko.webp
 expansion: Dawntrail
 difficulty: Unreal
 discussionLink: https://discordapp.com/channels/895516967543390249/1011883681222234182

@@ -2,6 +2,7 @@
 order: 1
 fightID: ASS
 title: Another Sil'dihn Subterrane
+banner: /images/banners/ASS.webp
 expansion: Endwalker
 difficulty: Criterion
 ---

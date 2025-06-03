@@ -2,6 +2,7 @@
 order: 2
 fightID: EX2
 title: Everkeep
+banner: /images/banners/EX2.webp
 expansion: Dawntrail
 difficulty: Extreme
 discussionLink: https://discord.com/channels/895516967543390249/1011883681222234182

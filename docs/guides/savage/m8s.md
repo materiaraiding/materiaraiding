@@ -2,6 +2,7 @@
 order: 8
 fightID: M8S
 title: AAC Cruiserweight M4
+banner: /images/banners/M8S.webp
 expansion: Dawntrail
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1355407851677421698

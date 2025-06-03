@@ -2,6 +2,7 @@
 order: 3
 fightID: TEA
 title: The Epic of Alexander
+banner: /images/banners/TEA.webp
 difficulty: Ultimate
 expansion: Shadowbringers
 image: tea-bjcc2.webp
