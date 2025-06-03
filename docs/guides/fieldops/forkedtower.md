@@ -78,9 +78,9 @@ Once you have the required materials, return to Gerolt in the entry zone to comp
 After the first relic, you will only need to gather the tome materials for each subsequent relic. The Demiatma will not be required again.
 :::
 
-### Arconaught Armour
+### Arcanaught Sets
 
-Vendors in the entry zone of Occult Crescent sell Arconaught Armour, which is a set of gear designed for players to use in Field Operations.
+Vendors in the entry zone of Occult Crescent sell Arcanaught sets, which is a set of gear designed for players to use in Field Operations.
 
 Each item costs 4000 silver pieces. The items are 745 ilvl base and come with a special Occult Crescent trait:
 
@@ -89,7 +89,7 @@ Each item costs 4000 silver pieces. The items are 745 ilvl base and come with a 
 
 Special Attribute scales up damage from all Phantom Job abilities that "**Scale with item level**" in their tooltip description.
 
-You can upgrade the Arconaught sets using various upgrade materials purchased from the vendor and obtained from loot chests in the zones.
+You can upgrade the Arcanaught sets using various upgrade materials purchased from the vendor and obtained from loot chests in the zones.
 
 ## Raid: Forked Tower
 
