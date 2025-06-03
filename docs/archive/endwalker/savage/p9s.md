@@ -4,6 +4,7 @@ fightID: P9S
 title: Anabaseios The Ninth Circle
 expansion: Endwalker
 difficulty: Savage
+banner: /images/banners/archived/endwalker/P9S.webp
 ---
 ## Toolboxes
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.

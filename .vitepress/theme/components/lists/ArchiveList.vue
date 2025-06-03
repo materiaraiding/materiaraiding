@@ -39,7 +39,7 @@ function openPage(url) {
 				<!-- Page Links -->
 				<div v-for="page in filterPagesBy(difficulty.type, $frontmatter.expansion)" :key="page.url">
 					<div :class="`navlink ${difficulty.colorClass}`" @click="openPage(page.url)" :style="{
-						'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('/images/banners/archived/${$frontmatter.expansion.toLowerCase()}/${page.frontmatter.fightID}.webp')`
+						'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('${page.frontmatter.banner}')`
 					}">
 						{{ page.frontmatter.fightID }}
 					</div>

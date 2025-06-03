@@ -4,6 +4,7 @@ fightID: P3S
 title: Asphodelos The Third Circle
 expansion: Endwalker
 difficulty: Savage
+banner: /images/banners/archived/endwalker/P3S.webp
 ---
 ## Strategy
 
