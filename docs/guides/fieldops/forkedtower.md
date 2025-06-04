@@ -37,11 +37,11 @@ Progression in the zone is a blend of Eureka and Save the Queen, allowing player
 
 Phantom Jobs are a unique feature of Occult Crescent, allowing players to temporarily take on the abilities and roles of different jobs. Each phantom job has its own set of abilties or traits, unlocked by earning **Phantom Job EXP** and levelling up through FATEs, CEs and Chain bonuses.
 
-Reaching the maximum level on a phantom job will earn you a stack of **Phantom Mastery**, a permament buff increasing your damage dealt and healing potency by **~2.5%** for each stack, as well as adding 1 level to your Phantom Freelancer.
+Reaching the maximum level on a phantom job will earn you a stack of **Phantom Mastery**, a permament buff increasing your damage dealt and healing potency by **~2%** for each stack, as well as adding 1 level to your Phantom Freelancer.
 
 There are currently **13 phantom jobs** available in South Horn, some are purchased with silver and gold pieces while others are unlocked from various CE drops.
 
-| **Default** <br /> (Starting jobs) | **Silver Pieces** <br /> (4000 per job) | **Gold Pieces** <br /> (1600 per job) | **CE Drop** <br /> (Listed below, not guaranteed) |
+| **Default** <br /> (Starting jobs) | **Silver Pieces** <br /> (1600 per job) | **Gold Pieces** <br /> (1600 per job) | **CE Drop** <br /> (Listed below, not guaranteed) |
 | ----- | ---------- | -------- | ----- |
 | ![](/images/jobs/PhantomFreelancer.webp) Freelancer | ![](/images/jobs/PhantomTimeMage.webp) Time Mage | ![](/images/jobs/PhantomThief.webp) Thief | ![](/images/jobs/PhantomBerserker.webp) Berserker  (**The Unbridled**) |
 | ![](/images/jobs/PhantomKnight.webp) Knight | ![](/images/jobs/PhantomChemist.webp) Chemist | ![](/images/jobs/PhantomSamurai.webp) Samurai | ![](/images/jobs/PhantomRanger.webp) Ranger (**The Black Regiment**) |
@@ -82,7 +82,7 @@ Each item costs 4000 silver pieces. The items are 745 ilvl base and come with a 
 
 Special Attribute scales up damage from all Phantom Job abilities that have "**Scale with item level**" in their tooltip description.
 
-You can upgrade the Arcanaut sets using various upgrade materials purchased from the vendor and obtained from loot chests in the zones. Each upgrade will add another +40 Main Stat and +1 Special Attribute.
+You can upgrade the Arcanaut sets using various upgrade materials purchased from the vendor and obtained from loot chests in the zones. Each upgrade will add another +40 Main Stat and +1 Special Attribute to a gear piece of your choice.
 
 ## Raid: Forked Tower
 
