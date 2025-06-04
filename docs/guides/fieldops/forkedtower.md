@@ -41,7 +41,7 @@ Reaching the maximum level on a phantom job will earn you a stack of **Phantom M
 
 There are currently **13 phantom jobs** available in South Horn, some are purchased with silver and gold pieces while others are unlocked from various CE drops.
 
-| **Default** <br /> (Starting jobs) | **Silver Pieces** <br /> (1600 per job) | **Gold Pieces** <br /> (1600 per job) | **CE Drop** <br /> (Listed below, not guaranteed) |
+| **Default** <br /> (Starting jobs) | **Silver Pieces** <br /> (1000 per job) | **Gold Pieces** <br /> (1600 per job) | **CE Drop** <br /> (Listed below, not guaranteed) |
 | ----- | ---------- | -------- | ----- |
 | ![](/images/jobs/PhantomFreelancer.webp) Freelancer | ![](/images/jobs/PhantomTimeMage.webp) Time Mage | ![](/images/jobs/PhantomThief.webp) Thief | ![](/images/jobs/PhantomBerserker.webp) Berserker  (**The Unbridled**) |
 | ![](/images/jobs/PhantomKnight.webp) Knight | ![](/images/jobs/PhantomChemist.webp) Chemist | ![](/images/jobs/PhantomSamurai.webp) Samurai | ![](/images/jobs/PhantomRanger.webp) Ranger (**The Black Regiment**) |
