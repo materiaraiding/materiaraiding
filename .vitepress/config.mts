@@ -32,13 +32,18 @@ export default defineConfig({
 			{
 				text: "Guides",
 				items: [
-					{text: "Extreme", link: "/extreme"},
-					{text: "Savage", link: "/savage"},
-					{text: "Ultimate", link: "/ultimate"},
-					{text: "Criterion", link: "/criterion"},
-					{text: "Chaotic", link: "/chaotic"},
-					{text: "Unreal", link: "/unreal"},
-					{text: "Field Ops", link: "/fieldops"},
+					{
+						text: "Difficulty",
+						items: [
+							{text: "Extreme", link: "/extreme"},
+							{text: "Savage", link: "/savage"},
+							{text: "Ultimate", link: "/ultimate"},
+							{text: "Criterion", link: "/criterion"},
+							{text: "Chaotic", link: "/chaotic"},
+							{text: "Unreal", link: "/unreal"},
+							{text: "Field Ops", link: "/fieldops"},
+						],
+					}
 				],
 			},
 			{

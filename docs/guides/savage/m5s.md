@@ -6,29 +6,30 @@ banner: /images/banners/M5S.webp
 expansion: Dawntrail
 tier: AAC Cruiserweight
 difficulty: Savage
+authors: [ Kobe, Em, Val ]
 discussionLink: https://ptb.discord.com/channels/895516967543390249/1355408159451250708
 ---
-
-
-## Credits
-- Video by Kobe
-- Macros and Toolbox by MR
-
-## Macros
-
-<<< @/public/macros/m5s-1.macro
-
-<<< @/public/macros/m5s-2.macro
-
-## Video Guide
-
-@[](https://youtu.be/5y81EZBJrpc)
-
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
 <Action title='M5S Raidplan' color='red' href='https://raidplan.io/plan/nDb_1x1B_dTpLoPu' />
+
+## Macros
+::: details Click to View Macros
+
+Part 1
+
+<<< @/public/macros/m5s-1.macro
+
+Part 2
+
+<<< @/public/macros/m5s-2.macro
+:::
+
+## Video Guide
+
+@[](https://youtu.be/5y81EZBJrpc)
 
 ## PoV Videos
 @[](https://youtu.be/OEtriDPAJWo)

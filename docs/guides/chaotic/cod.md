@@ -5,21 +5,18 @@ title: The Cloud of Darkness (Chaotic)
 banner: /images/banners/COD.webp
 expansion: Dawntrail
 difficulty: Chaotic
+authors: [ Kobe, Pipiro, Emilios ]
 discussionLink: https://discord.com/channels/895516967543390249/1321109667644182653
 ---
 
-## Credits
+## Toolbox/Raidplan
+Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
-- Raidplan by Pipiro Piro
-- Video guide by Kobe
+<Action title='Phase 2' color='purple' href='https://raidplan.io/plan/2f37jWj7XwPBjfix' />
 
 ## Video Guide
 
 @[](https://youtu.be/GoZuj9g8N-Q)
-
-## Raidplan
-
-<Action title='Phase 2' color='purple' href='https://raidplan.io/plan/2f37jWj7XwPBjfix' />
 
 ## Fight Summary
 

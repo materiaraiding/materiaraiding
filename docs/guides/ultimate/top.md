@@ -17,15 +17,15 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 
 <ActionGroup
     :actions="[
-        { title: 'P1 Beetle', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=758088204654761&preview=1' },
+        { title: 'P1 Beetle', color: 'green', href: 'https://ff14.toolboxgaming.space/?id=758088204654761&preview=1' },
         { title: 'P2 M&F', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=043186470764761&preview=1' },
-        { title: 'P3 Final Omega', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=949384711756761&preview=1' },
-        { title: 'P4 Blue Screen', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=595188367474761&preview=1' },
-        { title: 'P5 Dynamis Delta', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=732288275415761&preview=1' },
-        { title: 'P5 Dynamis Sigma', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=107380954136761&preview=1' },
-        { title: 'P5 Dynamis Omega', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=078384491946761&preview=1' },
-        { title: 'P6 Alpha Omega', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=829484027197761&preview=1' },
-        { title: 'All TOP Positions', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=510586440608761&preview=1' },
+        { title: 'P3 Final Omega', color: 'purple', href: 'https://ff14.toolboxgaming.space/?id=949384711756761&preview=1' },
+        { title: 'P4 Blue Screen', color: 'blue', href: 'https://ff14.toolboxgaming.space/?id=595188367474761&preview=1' },
+        { title: 'P5 Dynamis Delta', color: 'yellow', href: 'https://ff14.toolboxgaming.space/?id=732288275415761&preview=1' },
+        { title: 'P5 Dynamis Sigma', color: 'yellow', href: 'https://ff14.toolboxgaming.space/?id=107380954136761&preview=1' },
+        { title: 'P5 Dynamis Omega', color: 'yellow', href: 'https://ff14.toolboxgaming.space/?id=078384491946761&preview=1' },
+        { title: 'P6 Alpha Omega', color: 'cyan', href: 'https://ff14.toolboxgaming.space/?id=829484027197761&preview=1' },
+        { title: 'All TOP Positions', color: 'pink', href: 'https://ff14.toolboxgaming.space/?id=510586440608761&preview=1' },
     ]"
 />
 

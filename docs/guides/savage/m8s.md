@@ -6,28 +6,36 @@ banner: /images/banners/M8S.webp
 expansion: Dawntrail
 tier: AAC Cruiserweight
 difficulty: Savage
+authors: [ Kobe, Em, Val ]
 discussionLink: https://discord.com/channels/895516967543390249/1355407851677421698
 ---
 
-## Credits
-- Materia Raiding Community
-- Videos by Kobe
+## Toolbox/Raidplan
+Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
+
+<ActionGroup
+:actions=" [
+{ title: 'Phase 1', color: 'blue', href: 'https://raidplan.io/plan/cDlHvB-NLIHMrzx0' },
+{ title: 'Phase 2', color: 'red', href: 'https://raidplan.io/plan/hlSXiV_NFEPfGo8h' }
+]"
+/>
 
 ## Macros
 
+::: details Click to View Macros
+Part 1
+
 <<< @/public/macros/m8s-1.macro
+Part 2
 
 <<< @/public/macros/m8s-2.macro
+
+:::
 
 ## Video Guide
 
 @[](https://youtu.be/jnjuHZSSWlc)
 
-## Toolbox/Raidplan
-Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
-
-<Action title='P1' color='red' href='https://raidplan.io/plan/cDlHvB-NLIHMrzx0' />
-<Action title='P2' color='red' href='https://raidplan.io/plan/hlSXiV_NFEPfGo8h' />
 
 ## PoV Videos
 @[](https://youtu.be/w7CxKq2IeyQ)

@@ -1,71 +1,103 @@
-<template>
-  <div class="raidplan-wrapper" :class="color">
-    <a :href="href" class="button-link" :target="target || '_blank'" rel="noopener noreferrer" :class="color">
-      {{ title }}</a>
-    <iframe class="raidplan-iframe" :src="href + '/embed'"></iframe>
-  </div>
-</template>
-
-<script>
+<script >
 export default {
-  name: "Action",
-  props: {
-    href: {
-      type: String,
-      required: true,
-    },
-    title: {
-      type: String,
-      required: true,
-    },
-    target: {
-      type: String,
-      default: "_blank",
-    },
-    color: {
-      type: String,
-      default: "",
-    },
-  },
-};
+	name: "Raidplan",
+	props: {
+		href: {
+			type: String,
+			required: true,
+		},
+		title: {
+			type: String,
+			required: true,
+		},
+		target: {
+			type: String,
+			default: "_blank",
+		},
+		color: {
+			type: String,
+			default: "",
+		},
+	},
+	data() {
+		return {
+			msg: 'Copy Link',
+			clicked: false
+		};
+	},
+	methods: {
+	async copyURL(mytext) {
+		try {
+			await navigator.clipboard.writeText(window.location.origin + mytext);
+			this.msg = 'Copied!';
+			this.clicked = true
+			setTimeout(function () {
+				this.msg = "Copy Link";
+				this.clicked = false;
+			}.bind(this), 2000);
+		} catch($e) {
+			this.msg = 'Sorry, unable to copy link';
+		}
+	}
+	}
+}
+
+
 </script>
 
+<template>
+	<div class="raidplan-wrapper" :class="color">
+		<div class="title">{{ title }}</div>
+		<div class="button-wrapper">
+			<a :href="href" class="button-link" :target="target || '_blank'" rel="noopener noreferrer" ><button>View Raidplan</button></a>
+			<button @click="copyURL(href)">{{ msg }}</button>
+		</div>
+	</div>
+</template>
+
 <style scoped>
-
 .raidplan-wrapper {
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  overflow: hidden;
-  border: 3px solid var(--vp-c-bg-elv);
-  background-color: var(--vp-c-bg-alt);
-  padding-top: 10px;
-}
-.raidplan-iframe {
-  width: 100%;
-  height: 500px;
-  border: none;
-  margin-top: 10px;
-  overflow-y: hidden;
+	display: flex;
+	border-radius: 10px;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+	border: 3px solid var(--vp-c-bg-elv);
+	background-color: var(--vp-c-bg-alt);
+	padding: 10px 10px 15px 10px;
 }
 
-.button-link {
-  margin-left: 10px;
+.button-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
 }
 
-.button-link:hover {
-  color: var(--vp-c-brand-1);
+.title {
+	font-size: 1.1em;
+	font-weight: 500;
+	padding-left: 10px;
+	color: var(--vp-c-text-1);
 }
 
-a {
-  border-color: transparent;
-  color: var(--vp-c-text-1);
-  font-size: 1.2rem;
-  text-decoration: none;
+button {
+	border: none;
+	outline: none;
+	background-color: #6c5ce7;
+	padding: 5px 20px;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	min-width: 100px; /* Ensures consistent width for both 'Copy Link' and 'Copied!' */
+	border-radius: 5px;
+	transition: all ease 0.1s;
+	box-shadow: 0px 5px 0px 0px #a29bfe;
 }
 
-a:hover {
-  color: var(--vp-c-brand-1);
+button:active {
+	transform: translateY(5px);
+	box-shadow: 0px 0px 0px 0px #a29bfe;
 }
 
 </style>
