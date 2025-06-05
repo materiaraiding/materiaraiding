@@ -15,7 +15,7 @@ const props = defineProps({
 	},
 	includeTitle: {
 		type: Boolean,
-		default: true,
+		default: false,
 	},
 	isArchiveList: {
 		type: Boolean,

@@ -42,8 +42,13 @@ export default defineConfig({
 				],
 			},
 			{
-				text: "Archive",
-				items: [{text: "Endwalker", link: "/archive/endwalker"}],
+				text: "Archives",
+				items: [
+					{
+						text: "Expansions",
+						items: [{text: "Endwalker", link: "/archive/endwalker"}],
+					},
+				],
 			},
 			{
 				text: "Resources",
@@ -72,6 +77,7 @@ export default defineConfig({
 			"/": [
 				{
 					text: "Extreme",
+					link: "/extreme",
 					collapsed: false,
 					items: [
 						{text: "EX1", link: "/extreme/ex1"},
@@ -82,6 +88,7 @@ export default defineConfig({
 				},
 				{
 					text: "Savage",
+					link: "/savage",
 					collapsed: false,
 					items: [
 						{text: "M1S", link: "/savage/m1s"},
@@ -96,6 +103,7 @@ export default defineConfig({
 				},
 				{
 					text: "Ultimate",
+					link: "/ultimate",
 					collapsed: false,
 					items: [
 						{text: "UCOB", link: "/ultimate/ucob"},
@@ -108,6 +116,7 @@ export default defineConfig({
 				},
 				{
 					text: "Criterion",
+					link: "/criterion",
 					collapsed: false,
 					items: [
 						{text: "ASS", link: "/criterion/ass"},
@@ -117,11 +126,13 @@ export default defineConfig({
 				},
 				{
 					text: "Chaotic",
+					link: "/chaotic",
 					collapsed: false,
 					items: [{text: "COD", link: "/chaotic/cod"}],
 				},
 				{
 					text: "Unreal",
+					link: "/unreal",
 					collapsed: false,
 					items: [
 						{text: "Byakko", link: "/unreal/byakko"},
@@ -130,6 +141,7 @@ export default defineConfig({
 				},
 				{
 					text: "Field Ops",
+					link: "/fieldops",
 					collapsed: false,
 					items: [
 						{text: "Forked Tower", link: "/fieldops/forkedtower"},
@@ -139,6 +151,7 @@ export default defineConfig({
 			"/archive/endwalker": [
 				{
 					text: "Endwalker",
+					link: "/archive/endwalker",
 					items: [
 						{
 							text: "Extreme",
