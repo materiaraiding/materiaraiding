@@ -22,8 +22,6 @@ const router = useRouter();
  * @example
  * <PageList limitedList="Savage" listType="guides" />
  * <PageList :limitedList="['Savage', 'Extreme']" listType="archives" expansion="Endwalker" />
- * 
- * @note - 
  */
 const props = defineProps(['limitedList', 'listType', 'expansion']);
 
