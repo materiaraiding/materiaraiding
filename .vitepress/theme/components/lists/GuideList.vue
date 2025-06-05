@@ -174,7 +174,6 @@ function toggleGroup(groupKey) {
 	user-select: none;
 	&:hover {
 		color: var(--vp-c-brand);
-		text-shadow: #000000 0 0 3px;
 	}
 }
 
@@ -190,7 +189,7 @@ function toggleGroup(groupKey) {
 .group-header {
 	font-size: 1em;
 	font-weight: 500;
-	margin-top: 0.3em;
+	margin-top: 0.2em;
 	margin-bottom: 0.4em;
 	cursor: pointer;
 	display: flex;
@@ -202,11 +201,9 @@ function toggleGroup(groupKey) {
 }
 .group-header.open {
 	color: var(--vp-c-text-1);
-	text-shadow: #000000 0 0 3px;
 }
 .group-header:hover {
 	color: var(--vp-c-text-1);
-	text-shadow: #000000 0 0 3px;
 }
 .arrow-icon {
 	margin-right: 0.4em;
