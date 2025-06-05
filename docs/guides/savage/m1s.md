@@ -4,6 +4,7 @@ fightID: M1S
 title: AAC Light-heavyweight M1
 banner: /images/banners/M1S.webp
 expansion: Dawntrail
+tier: AAC Light-heavyweight
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1267677779735089244
 ---

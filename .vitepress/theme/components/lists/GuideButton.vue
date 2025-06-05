@@ -1,31 +1,40 @@
-.navtitle {
-	height: 60px;
-	letter-spacing: -0.02em;
-	line-height: 32px;
-	font-size: 24px;
-	font-weight: 600;
-	outline: none;
-	cursor: pointer;
-	transition: 0.2s ease;
-	align-content: center;
-	&:hover {
-		color: var(--vp-c-brand);
-		text-shadow: #000000 0 0 3px;
-	}
+<script setup>
+import {difficultyTypes} from "./difficultyTypes.js";
+import {useRouter} from "vitepress";
+
+const router = useRouter();
+
+function openPage(url) {
+	router.go(url.replace("/guides", "").toLowerCase());
 }
-.navblock {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	margin-top: 1.5em;
-	column-gap: 0.5rem;
-	row-gap: 0.5rem;
-}
-.navcolumn {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 0.5em;;
-	gap: 0.5em;
-}
+
+const props = defineProps({
+	page: {
+		type: Object,
+		required: true,
+	},
+});
+
+// Determine the difficulty type and its associated properties from the difficultyTypes array
+const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter.difficulty) || {
+	type: "",
+	colorClass: "",
+	icon: "",
+};
+</script>
+
+<template>
+	<div
+		:class="`navlink ${difficulty.colorClass}`"
+		@click="openPage(page.url)"
+		:style="{
+			'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('${page.frontmatter.banner}')`,
+		}">
+		{{ page.frontmatter.fightID }}
+	</div>
+</template>
+
+<style scoped>
 .navlink {
 	height: 60px;
 	border-radius: 8px;
@@ -49,15 +58,6 @@
 		padding: 0.5em 0.5em 0.4em 0.6em;
 		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 	}
-}
-
-.guide_titleimg {
-	display: inline;
-	height: 1em;
-	vertical-align: bottom;
-	margin-right: 7px;
-	margin-bottom: 3px;
-	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .chaotic-color {
@@ -94,3 +94,4 @@
 	color: var(--color-fieldops);
 	border-color: var(--color-fieldops);
 }
+</style>

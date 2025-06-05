@@ -23,9 +23,11 @@ import ActionGroup from "./components/ActionGroup.vue";
 // @ts-ignore
 import CustomBlock from "./components/CustomBlock.vue";
 // @ts-ignore
-import PageList from "./components/lists/PageList.vue";
+import GuideList from "./components/lists/GuideList.vue";
 // @ts-ignore
-import ArchiveList from "./components/lists/ArchiveList.vue";
+import GuideButton from "./components/lists/GuideButton.vue";
+// @ts-ignore
+import GuideHome from "./components/lists/GuideHome.vue";
 
 // @ts-ignore
 import guide from "./layouts/guide.vue";
@@ -49,8 +51,9 @@ export default {
 		ctx.app.component("Action", Action);
 		ctx.app.component("ActionGroup", ActionGroup);
 		ctx.app.component("CustomBlock", CustomBlock);
-		ctx.app.component("PageList", PageList);
-		ctx.app.component("ArchiveList", ArchiveList);
+		ctx.app.component("GuideList", GuideList);
+		ctx.app.component("GuideButton", GuideButton);
+		ctx.app.component("GuideHome", GuideHome);
 		ctx.app.use(FloatingVue, {
 			boundary: 'body',
 			themes: {
