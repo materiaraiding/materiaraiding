@@ -2,4 +2,4 @@
 
 Materia Criterion Guides and Resources based on MR strats.
 
-<GuideList difficulty="Criterion"/>
+<GuideList :includeTitle=false difficulty="Criterion"/>

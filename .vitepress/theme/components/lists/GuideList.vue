@@ -1,16 +1,12 @@
 <script setup>
 import GuideButton from "./GuideButton.vue";
-import {data as archive} from "../loaders/archives.data.js";
-import {data as guides} from "../loaders/guides.data.js";
-import {difficultyTypes} from "./difficultyTypes.js";
-import {useRouter} from "vitepress";
-import {ref} from "vue";
+import { data as archive } from "../loaders/archives.data.js";
+import { data as guides } from "../loaders/guides.data.js";
+import { difficultyTypes } from "./difficultyTypes.js";
+import { useRouter } from "vitepress";
+import { ref } from "vue";
 
 const router = useRouter();
-
-function openPage(url) {
-	router.go(url.replace("/guides", "").toLowerCase());
-}
 
 const props = defineProps({
 	difficulty: {
@@ -38,10 +34,13 @@ const props = defineProps({
 // Determine which data source to use based on whether it's an archive or not
 const pages = props.isArchiveList ? archive : guides;
 
-// Function to filter pages based on difficulty and limited list
-const filterPagesBy = (difficulty) => {
+// Function to filter pages based on difficulty
+const filterPagesBy = (difficulty, expansion) => {
 	let filteredPages = (Array.isArray(pages) ? pages : [])
-		.filter((p) => p.frontmatter.difficulty === difficulty)
+		.filter((p) =>
+			p.frontmatter.difficulty === difficulty &&
+			(!expansion || p.frontmatter.expansion === expansion)
+		)
 		.sort((a, b) => a.frontmatter.order - b.frontmatter.order);
 	return filteredPages;
 };
@@ -69,14 +68,14 @@ function groupPages(pages, grouping = true) {
 		return reversed;
 	} else {
 		// No grouping for other difficulties, just return all pages in a single group called "All"
-		return {All: pages};
+		return { All: pages };
 	}
 }
 
 // Determine the difficulty type and its associated properties from the difficultyTypes array
 const difficulty = difficultyTypes.find((d) => d.type === props.difficulty);
 
-const pageList = filterPagesBy(difficulty.type);
+const pageList = filterPagesBy(difficulty.type, props.expansion);
 
 const groupedPages = groupPages(pageList, props.grouping !== false);
 
@@ -98,6 +97,11 @@ if (difficulty.type === "Savage") {
 function toggleGroup(groupKey) {
 	openGroups.value[groupKey] = !openGroups.value[groupKey];
 }
+
+function openPage(url) {
+	if (props.isArchiveList) return;
+	router.go(url.replace("/guides", "").toLowerCase());
+}
 </script>
 
 <template>
@@ -110,33 +114,18 @@ function toggleGroup(groupKey) {
 		<!-- Grouped Page Links -->
 		<div v-if="grouping" v-for="(pages, groupKey, idx) in groupedPages" :key="groupKey">
 			<div v-if="groupKey === 'All'" class="all-group-header"></div>
-			<div
-				v-else-if="groupKey !== 'Other' && !(difficulty.type === 'Savage' && idx === 0)"
-				class="group-header"
-				@click="toggleGroup(groupKey)"
-				:class="{open: openGroups[groupKey]}">
-				<svg
-					class="arrow-icon"
-					:class="{open: openGroups[groupKey]}"
-					width="16"
-					height="16"
-					viewBox="0 0 16 16"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg">
-					<path
-						d="M6 4L10 8L6 12"
-						stroke="currentColor"
-						stroke-width="2"
-						stroke-linecap="round"
+			<div v-else-if="groupKey !== 'Other' && !(difficulty.type === 'Savage' && idx === 0)" class="group-header"
+				@click="toggleGroup(groupKey)" :class="{ open: openGroups[groupKey] }">
+				<svg class="arrow-icon" :class="{ open: openGroups[groupKey] }" width="16" height="16" viewBox="0 0 16 16"
+					fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
 						stroke-linejoin="round" />
 				</svg>
 				{{ groupKey }}
 			</div>
 			<div v-else-if="difficulty.type === 'Savage' && idx === 0" class="first-tier-group-header"></div>
 			<transition name="slide-fade">
-				<div
-					v-show="groupKey === 'All' || openGroups[groupKey] !== false || groupKey === 'Other'"
-					class="link-group">
+				<div v-show="groupKey === 'All' || openGroups[groupKey] !== false || groupKey === 'Other'" class="link-group">
 					<GuideButton v-for="page in pages" :key="page.url" :page="page" />
 				</div>
 			</transition>
@@ -172,6 +161,7 @@ function toggleGroup(groupKey) {
 	transition: 0.2s ease;
 	align-content: center;
 	user-select: none;
+
 	&:hover {
 		color: var(--vp-c-brand);
 	}
@@ -199,25 +189,32 @@ function toggleGroup(groupKey) {
 	transition: color 0.2s ease;
 	color: var(--vp-c-text-3);
 }
+
 .group-header.open {
 	color: var(--vp-c-text-1);
 }
+
 .group-header:hover {
 	color: var(--vp-c-text-1);
 }
+
 .arrow-icon {
 	margin-right: 0.4em;
 	transition: transform 0.2s;
 }
+
 .arrow-icon.open {
 	transform: rotate(90deg);
 }
+
 .all-group-header {
 	visibility: hidden;
 }
+
 .first-tier-group-header {
 	visibility: hidden;
 }
+
 .slide-fade-enter-active,
 .slide-fade-leave-active {
 	transition:
@@ -225,16 +222,16 @@ function toggleGroup(groupKey) {
 		opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	overflow: hidden;
 }
+
 .slide-fade-enter-from,
 .slide-fade-leave-to {
 	max-height: 0;
 	opacity: 0;
 }
+
 .slide-fade-enter-to,
 .slide-fade-leave-from {
 	max-height: 500px;
 	opacity: 1;
 }
 </style>
-
-
