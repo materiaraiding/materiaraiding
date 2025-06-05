@@ -17,12 +17,15 @@ const router = useRouter();
 /**
  * @param {string | string[]} limitedList - The difficulty type to filter by.
  * @param {string} listType - Loaded list type.
+ * @param {string} expansion - The expansion to filter by (required for archive lists).
  * 
  * @example
  * <PageList limitedList="Savage" listType="guides" />
  * <PageList :limitedList="['Savage', 'Extreme']" listType="archives" />
+ * 
+ * @note - 
  */
-const props = defineProps(['limitedList', 'listType']);
+const props = defineProps(['limitedList', 'listType', 'expansion']);
 
 const lists = {
 	"guides": guides,
@@ -60,7 +63,7 @@ function openPage(url) {
 					{{ difficulty.type }}
 				</div>
 				<!-- Page Links -->
-				<div v-for="page in filterPagesBy(difficulty.type, $frontmatter.expansion)" :key="page.url">
+				<div v-for="page in filterPagesBy(difficulty.type, props.expansion)" :key="page.url">
 					<div :class="`navlink ${difficulty.colorClass}`" @click="openPage(page.url)" :style="{
 						'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('${page.frontmatter.banner}')`
 					}">

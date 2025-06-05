@@ -1,6 +1,2 @@
----
-expansion: Endwalker
----
-
 # Endwalker Archive
-<PageList :limitedList="['Extreme', 'Savage']" listType="archives" />
+<PageList :limitedList="['Extreme', 'Savage']" listType="archives" expansion="Endwalker" />
