@@ -6,8 +6,9 @@ import { difficultyTypes } from "./difficultyTypes.js";
 import { useRouter } from "vitepress";
 import { ref } from "vue";
 
-const router = useRouter();
+const CURRENT_TIER = "AAC Cruiserweight";
 
+const router = useRouter();
 const props = defineProps({
 	difficulty: {
 		type: String,
@@ -31,10 +32,9 @@ const props = defineProps({
 	},
 });
 
-// Determine which data source to use based on whether it's an archive or not
 const pages = props.isArchiveList ? archive : guides;
 
-// Function to filter pages based on difficulty
+// Filter pages by difficulty (and expansion if defined)
 const filterPagesBy = (difficulty, expansion) => {
 	let filteredPages = (Array.isArray(pages) ? pages : [])
 		.filter((p) =>
@@ -45,57 +45,52 @@ const filterPagesBy = (difficulty, expansion) => {
 	return filteredPages;
 };
 
-// Group pages by expansion (Ultimate only) or tier (Savage) or no grouping (others)
-function groupPages(pages, grouping = true) {
+// Main grouping logic
+function groupPages(pages, grouping) {
 	if (!grouping) {
 		return pages;
 	}
 	if (difficulty.type === "Savage") {
-		// Group by tier for Savage, reversed order
-		const groups = {};
-		for (const page of pages) {
-			const tier = page.frontmatter.tier;
-			if (!groups[tier]) groups[tier] = [];
-			groups[tier].push(page);
-		}
-		// Reverse the order of the keys
-		const reversed = {};
-		Object.keys(groups)
-			.reverse()
-			.forEach((key) => {
-				reversed[key] = groups[key];
-			});
-		return reversed;
+		return bringToFront(groupByFrontmatter(pages, "tier"), CURRENT_TIER);
+	// if () {... insert other grouping conditions in the future if needed E.g. "Expansion"
 	} else {
-		// No grouping for other difficulties, just return all pages in a single group called "All"
-		return { All: pages };
+		return { ungrouped: pages };
 	}
 }
 
-// Determine the difficulty type and its associated properties from the difficultyTypes array
-const difficulty = difficultyTypes.find((d) => d.type === props.difficulty);
-
-const pageList = filterPagesBy(difficulty.type, props.expansion);
-
-const groupedPages = groupPages(pageList, props.grouping !== false);
-
-// State to track open/closed groups
-const openGroups = ref({});
-
-// Set all groups to open by default, except for Savage (tiers: only last open)
-if (difficulty.type === "Savage") {
-	const tierKeys = Object.keys(groupedPages);
-	tierKeys.forEach((tier, idx) => {
-		openGroups.value[tier] = idx === 0; // only first open
+// Grouping utilities
+function groupByFrontmatter(pages, value) {
+	return pages.reduce(((group, p) => {
+		const fm = p.frontmatter[value];
+		if (!group[fm]) group[fm] = [];
+		group[fm].push(p);
+		return group;
+	}), {});
+}
+function bringToFront(groups, key) {
+	return ({
+		[key]: groups[key],
+		...Object.fromEntries(Object.entries(groups).filter(([k]) => k !== key))
 	});
-} else {
-	for (const exp in groupedPages) {
-		openGroups.value[exp] = true;
-	}
 }
 
-function toggleGroup(groupKey) {
-	openGroups.value[groupKey] = !openGroups.value[groupKey];
+const difficulty = difficultyTypes.find((d) => d.type === props.difficulty);
+const filteredPages = filterPagesBy(difficulty.type, props.expansion);
+const groupedPages = groupPages(filteredPages, props.grouping);
+
+const openGroups = ref((() => {
+	if (difficulty.type === "Savage") {
+		return Object.fromEntries(
+			Object.keys(groupedPages).map((key, index) => [key, index === 0])
+		);
+	}
+	return Object.fromEntries(
+		Object.keys(groupedPages).map(key => [key, true])
+	);
+})());
+
+function toggleGroup(key) {
+	openGroups.value[key] = !openGroups.value[key];
 }
 
 function openPage(url) {
@@ -105,34 +100,33 @@ function openPage(url) {
 </script>
 
 <template>
-	<div class="navcolumn" v-if="pageList.length != 0">
+	<div class="navcolumn" v-if="filteredPages.length != 0">
 		<!-- Icon + Title -->
-		<div v-if="includeTitle" class="navtitle" @click="openPage(`/${difficulty.type}/`)">
+		<div v-if="includeTitle" class="navtitle" @click="openPage(`/${difficulty.urlOverride ?? difficulty.type}/`)">
 			<img class="navtitle_img" :alt="`${difficulty.type} Icon`" :src="difficulty.icon" />
 			{{ difficulty.type }}
 		</div>
 		<!-- Grouped Page Links -->
-		<div v-if="grouping" v-for="(pages, groupKey, idx) in groupedPages" :key="groupKey">
-			<div v-if="groupKey === 'All'" class="all-group-header"></div>
-			<div v-else-if="groupKey !== 'Other' && !(difficulty.type === 'Savage' && idx === 0)" class="group-header"
-				@click="toggleGroup(groupKey)" :class="{ open: openGroups[groupKey] }">
-				<svg class="arrow-icon" :class="{ open: openGroups[groupKey] }" width="16" height="16" viewBox="0 0 16 16"
+		<div v-if="grouping" v-for="(pages, key, index) in groupedPages" :key="key">
+			<div v-if="key === 'ungrouped'" class="ungrouped-header"></div>
+			<div v-else-if="!(difficulty.type === 'Savage' && index === 0)" class="group-header" @click="toggleGroup(key)"
+				:class="{ open: openGroups[key] }">
+				<svg class="arrow-icon" :class="{ open: openGroups[key] }" width="16" height="16" viewBox="0 0 16 16"
 					fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
 						stroke-linejoin="round" />
 				</svg>
-				{{ groupKey }}
+				{{ key }}
 			</div>
-			<div v-else-if="difficulty.type === 'Savage' && idx === 0" class="first-tier-group-header"></div>
 			<transition name="slide-fade">
-				<div v-show="groupKey === 'All' || openGroups[groupKey] !== false || groupKey === 'Other'" class="link-group">
+				<div v-show="openGroups[key] !== false" class="link-group">
 					<GuideButton v-for="page in pages" :key="page.url" :page="page" />
 				</div>
 			</transition>
 		</div>
 		<!-- Page links when grouping is disabled -->
 		<div v-else class="link-group">
-			<GuideButton v-for="page in pageList" :key="page.url" :page="page" />
+			<GuideButton v-for="page in filteredPages" :key="page.url" :page="page" />
 		</div>
 	</div>
 </template>
@@ -207,11 +201,7 @@ function openPage(url) {
 	transform: rotate(90deg);
 }
 
-.all-group-header {
-	visibility: hidden;
-}
-
-.first-tier-group-header {
+.ungrouped-header {
 	visibility: hidden;
 }
 
