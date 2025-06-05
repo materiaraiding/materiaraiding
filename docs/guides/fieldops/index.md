@@ -38,4 +38,4 @@ Two major communities support Field Operations in OCE, the **Content Achievers**
 Resources are early and still being developed
 :::
 
-<PageList limitedList="field operations"/>
+<PageList limitedList="Field Operations" listType="guides"/>

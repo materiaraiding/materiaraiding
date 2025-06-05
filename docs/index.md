@@ -28,7 +28,7 @@ features:
     link: "/resources/visitorsguide"
 ---
 
-<PageList/>
+<PageList listType="guides"/>
 
 <script setup>
 import { VPTeamPage, VPTeamPageTitle, VPTeamMembers } from 'vitepress/theme'

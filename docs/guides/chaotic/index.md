@@ -2,4 +2,4 @@
 
 Materia Chaotic Alliance Raid Guides and Resources based on MR strats.
 
-<PageList limitedList="chaotic"/>
+<PageList limitedList="Chaotic" listType="guides"/>

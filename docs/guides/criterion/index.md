@@ -2,4 +2,4 @@
 
 Materia Criterion Guides and Resources based on MR strats.
 
-<PageList limitedList="criterion"/>
+<PageList limitedList="Criterion" listType="guides"/>

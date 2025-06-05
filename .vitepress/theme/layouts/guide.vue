@@ -4,24 +4,12 @@ import DefaultTheme from "vitepress/theme";
 import { useData } from "vitepress";
 import { computed, onMounted } from "vue";
 import useScrollDirection from "../hooks/useScrollDirection";
+import { difficultyTypes } from "../components/lists/difficultyTypes";
 
 const { Layout } = DefaultTheme;
 const { frontmatter } = useData();
 
-const dutyType = computed(() => {
-	switch (frontmatter.value.difficulty?.toLowerCase()) {
-		case "savage":
-			return "raid";
-		case "extreme":
-			return "trial";
-		case "chaotic":
-			return "chaotic";
-		case "field operations":
-			return "raid";
-		default:
-			return "highendduty";
-	}
-});
+const icon = computed(() => difficultyTypes.find(t => t.type === frontmatter.value.difficulty).icon);
 
 onMounted(() => {
 	const root = document.documentElement;
@@ -48,7 +36,7 @@ onMounted(() => {
 				{{ frontmatter.expansion }} - {{ frontmatter.difficulty }} - {{ frontmatter.fightID }}
 			</div>
 			<h1 v-if="frontmatter.fightID" class="guide_title" id="{{frontmatter.title}}">
-				<img :src="`/images/icons/${dutyType}.webp`" /> {{ frontmatter.title }}
+				<img :src="icon" /> {{ frontmatter.title }}
 				<a href="{{frontmatter.fightID}}" class="header-anchor" />
 			</h1>
 			<div v-if="frontmatter.difficulty" class="guide_label_box">

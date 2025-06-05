@@ -2,4 +2,4 @@
 
 Materia Savage Raid Guides and Resources based on MR strats.
 
-<PageList limitedList="savage"/>
+<PageList limitedList="Savage" listType="guides"/>
