@@ -35,7 +35,7 @@ const props = defineProps({
 const pages = props.isArchiveList ? archive : guides;
 
 // Filter pages by difficulty (and expansion if defined)
-const filterPagesBy = (difficulty, expansion) => {
+const filterPages = (difficulty, expansion) => {
 	let filteredPages = (Array.isArray(pages) ? pages : [])
 		.filter((p) =>
 			p.frontmatter.difficulty === difficulty &&
@@ -75,7 +75,7 @@ function bringToFront(groups, key) {
 }
 
 const difficulty = difficultyTypes.find((d) => d.type === props.difficulty);
-const filteredPages = filterPagesBy(difficulty.type, props.expansion);
+const filteredPages = filterPages(difficulty.type, props.expansion);
 const groupedPages = groupPages(filteredPages, props.grouping);
 
 const openGroups = ref((() => {
