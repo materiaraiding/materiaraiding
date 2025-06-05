@@ -13,6 +13,15 @@ import { useData, useRouter } from 'vitepress';
 
 const pageData = useData();
 const router = useRouter();
+
+/**
+ * @param {string | string[]} limitedList - The difficulty type to filter by.
+ * @param {string} listType - Loaded list type.
+ * 
+ * @example
+ * <PageList limitedList="Savage" listType="guides" />
+ * <PageList :limitedList="['Savage', 'Extreme']" listType="archives" />
+ */
 const props = defineProps(['limitedList', 'listType']);
 
 const lists = {
