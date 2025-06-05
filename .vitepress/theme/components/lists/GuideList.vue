@@ -74,16 +74,18 @@ function bringToFront(groups, key) {
 	});
 }
 
-const difficulty = difficultyTypes.find((d) => d.type === props.difficulty);
+const difficulty = difficultyTypes.find(d => d.type === props.difficulty);
 const filteredPages = filterPages(difficulty.type, props.expansion);
 const groupedPages = groupPages(filteredPages, props.grouping);
 
 const openGroups = ref((() => {
+	// Collapse all previous savage tier groups, except the current
 	if (difficulty.type === "Savage") {
 		return Object.fromEntries(
-			Object.keys(groupedPages).map((key, index) => [key, index === 0])
+			Object.keys(groupedPages).map(key => [key, key === CURRENT_TIER])
 		);
 	}
+	// Open others by default
 	return Object.fromEntries(
 		Object.keys(groupedPages).map(key => [key, true])
 	);
@@ -107,9 +109,9 @@ function openPage(url) {
 			{{ difficulty.type }}
 		</div>
 		<!-- Grouped Page Links -->
-		<div v-if="grouping" v-for="(pages, key, index) in groupedPages" :key="key">
+		<div v-if="grouping" v-for="(pages, key) in groupedPages" :key="key">
 			<div v-if="key === 'ungrouped'" class="ungrouped-header"></div>
-			<div v-else-if="!(difficulty.type === 'Savage' && index === 0)" class="group-header" @click="toggleGroup(key)"
+			<div v-else-if="!(difficulty.type === 'Savage' && key === CURRENT_TIER)" class="group-header" @click="toggleGroup(key)"
 				:class="{ open: openGroups[key] }">
 				<svg class="arrow-icon" :class="{ open: openGroups[key] }" width="16" height="16" viewBox="0 0 16 16"
 					fill="none" xmlns="http://www.w3.org/2000/svg">
