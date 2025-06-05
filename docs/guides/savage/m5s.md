@@ -4,6 +4,7 @@ fightID: M5S
 title: AAC Cruiserweight M1
 banner: /images/banners/M5S.webp
 expansion: Dawntrail
+tier: AAC Cruiserweight
 difficulty: Savage
 discussionLink: https://ptb.discord.com/channels/895516967543390249/1355408159451250708
 ---

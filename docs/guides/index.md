@@ -1,3 +1,3 @@
 # Guides
 
-<PageList/>
+<GuideHome />

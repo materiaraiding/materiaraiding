@@ -4,6 +4,7 @@ fightID: M3S
 title: AAC Light-heavyweight M3
 banner: /images/banners/M3S.webp
 expansion: Dawntrail
+tier: AAC Light-heavyweight
 difficulty: Savage
 discussionLink: https://discord.com/channels/895516967543390249/1267677717495681064
 ---
