@@ -21,7 +21,7 @@ const router = useRouter();
  * 
  * @example
  * <PageList limitedList="Savage" listType="guides" />
- * <PageList :limitedList="['Savage', 'Extreme']" listType="archives" />
+ * <PageList :limitedList="['Savage', 'Extreme']" listType="archives" expansion="Endwalker" />
  * 
  * @note - 
  */
