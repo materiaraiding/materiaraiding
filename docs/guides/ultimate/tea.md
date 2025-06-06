@@ -21,12 +21,12 @@ TEA has multiple Toolboxes, each are listed here in order of phases in the fight
 
 <ActionGroup
     :actions=" [
-        { title: 'Living Liquid', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=830419115443951&preview=1' },
-        { title: 'Limit Cut 1256', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=240411819443951&preview=1' },
-        { title: 'BJCC Split', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=340414049443951&preview=1' },
+        { title: 'Living Liquid', color: 'blue', href: 'https://ff14.toolboxgaming.space/?id=830419115443951&preview=1' },
+        { title: 'Limit Cut 1256', color: 'yellow', href: 'https://ff14.toolboxgaming.space/?id=240411819443951&preview=1' },
+        { title: 'BJCC Split', color: 'green', href: 'https://ff14.toolboxgaming.space/?id=340414049443951&preview=1' },
         { title: 'Alexander Prime', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=279973556822761&preview=1' },
-        { title: 'Wormhole', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=236244852760461&preview=1' },
-        { title: 'Perfect Alexander', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=908766479219561&preview=1' },
+        { title: 'Wormhole', color: 'purple', href: 'https://ff14.toolboxgaming.space/?id=236244852760461&preview=1' },
+        { title: 'Perfect Alexander', color: 'cyan', href: 'https://ff14.toolboxgaming.space/?id=908766479219561&preview=1' },
     ]"
 />
 

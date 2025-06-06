@@ -6,29 +6,39 @@ banner: /images/banners/M6S.webp
 expansion: Dawntrail
 tier: AAC Cruiserweight
 difficulty: Savage
+authors: [ Kobe, Em, Val ]
 discussionLink: https://discord.com/channels/895516967543390249/1355408064001474682
 ---
 
-## Credits
-- Materia Raiding Community
-- Videos by Kobe
+## Toolbox/Raidplan
+Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
+
+<ActionGroup
+:actions=" [
+{ title: 'Main', color: 'blue', href: 'https://raidplan.io/plan/LjZsRWUJahEe1fdM' },
+{ title: 'Desert', color: 'red', href: 'https://raidplan.io/plan/PqngLnEaS1I214wO' },
+{ title: 'Bridges', color: 'purple', href: 'https://raidplan.io/plan/9mcgjmDLobOka' }
+]"
+/>
 
 ## Macros
+::: details Click to View Macros
+
+Part 1
 
 <<< @/public/macros/m6s-1.macro
 
+Part 2
+
 <<< @/public/macros/m6s-2.macro
+:::
 
 ## Video Guide
 
 @[](https://youtu.be/sbmLwpO-BJY)
 
-## Toolbox/Raidplan
-Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
-<Action title='Main' color='red' href='https://raidplan.io/plan/LjZsRWUJahEe1fdM' />
-<Action title='Desert' color='red' href='https://raidplan.io/plan/PqngLnEaS1I214wO' />
-<Action title='Bridges' color='red' href='https://raidplan.io/plan/9mcgjmDLobOka-P5' />
+
 
 ## PoV Videos
 

@@ -16,14 +16,14 @@ discussionLink: https://discord.com/channels/944115415385247784/9549645606060155
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 <ActionGroup
     :actions=" [
-        { title: 'Phase 1: Knights', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=199680719834861&preview=1' },
-        { title: 'Phase 2: Thordan', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=110786314454861&preview=1' },
+        { title: 'Phase 1: Knights', color: 'yellow', href: 'https://ff14.toolboxgaming.space/?id=199680719834861&preview=1' },
+        { title: 'Phase 2: Thordan', color: 'green', href: 'https://ff14.toolboxgaming.space/?id=110786314454861&preview=1' },
         { title: 'Phase 3: Nidhogg', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=654299805191961&preview=1' },
-        { title: 'Phase 4: Eyes', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=674291612991961&preview=1' },
-        { title: 'Phase 5: Dark Thordan: Wrath', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=143466228734561&preview=1' },
-        { title: 'Phase 5: Dark Thordan: Death', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=268588669900861&preview=1' },
-        { title: 'Phase 6: Double Dragons', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=610785126654861&preview=1' },
-        { title: 'Phase 7: Dragon King Thordan', color: 'red', href: '' }
+        { title: 'Phase 4: Eyes', color: 'blue', href: 'https://ff14.toolboxgaming.space/?id=674291612991961&preview=1' },
+        { title: 'Phase 5: Dark Thordan: Wrath', color: 'purple', href: 'https://ff14.toolboxgaming.space/?id=143466228734561&preview=1' },
+        { title: 'Phase 5: Dark Thordan: Death', color: 'purple', href: 'https://ff14.toolboxgaming.space/?id=268588669900861&preview=1' },
+        { title: 'Phase 6: Double Dragons', color: 'pink', href: 'https://ff14.toolboxgaming.space/?id=610785126654861&preview=1' },
+        { title: 'Phase 7: Dragon King Thordan', color: 'cyan', href: '' }
     ]"
 />
 

@@ -5,6 +5,7 @@ banner: /images/banners/forkedtower.webp
 title: Occult Crescent - Forked Tower
 description: Materia Raiding strategy guide for the Forked Tower raid in Occult Crescent, South Horn, Includes raid plans, boss strategies, and entry requirements.
 expansion: Dawntrail
+authors: [ Em, Juno, Emilios, Fae Fiyaa, Lynn Kaneko ]
 difficulty: Field Operations
 ---
 
@@ -100,6 +101,10 @@ This section is still being written and is subject to changes.
     ]"
 />
 
+### Video Guides
+By Kobe
+@[](https://youtu.be/QUtda6NLox0)
+
 ### Entry Requirements
 
 Any player who is **knowledge level 20** and has completed the **Mysteries Abide** quest is able to access the Forked Tower instance.
@@ -142,6 +147,8 @@ The host will then assign each party with a name:
 - Party E / 5
 - Party F / 6
 
+The common terminology in Materia Datacenter is **ABC123**, which also splits the raid into two groups of Letters and Numbers.
+
 This is important as various mechanics require players to move to certain waymarks. 
 To ensure an even split, players must go to the waymark assigned to their group. 
 
@@ -149,23 +156,23 @@ Each party leader will have to communicate with the host of the run
 to ensure each group has the adequate Phantom Jobs. As players are only able to change Phantom Jobs within the starting area
 this should be organised beforehand.
 
-In general (subject to change), each party should have:
-- 1 Chemist
+There are several Phantom Jobs that are required for the Forked Tower raid, these are at minimum:
 
-And within all 48 players there should be:
-- 2 Thieves (1 in group A/B/C, 1 in group D/E/F)
-- 2 Geomancers (1 in group A/B/C, 1 in group D/E/F)
-- 2 Rangers (1 in group A/B/C, 1 in group D/E/F)
-- 2 Time Mages (1 in group A/B/C, 1 in group D/E/F)
+Per party (A/B/C/1/2/3):
+- **1x** Knight (Tank) (or at least 3x Knight Tanks across the entire raid)
+- **1x** Bard
 
-### Boss 1
+Per alliance (ABC/123): 
 
-<Action title='Boss 1 Raidplan' color='red' href='https://raidplan.io/plan/jar7czxup3wu8chh' />
+- **1x** Ranger
+- **1x** Thief
+- **1x** Geomancer
+- **1x** Time Mage
 
-> writeup coming soon   
+And for the entire raid at least:
 
-### Boss 2
+- **1x** Berserker
+- **1x** Oracle
+- **1-2x** Cannoneers (10% MIT & 5% DMG Buff)
 
-<Action title='Boss 2 - Trio' color='purple' href='https://raidplan.io/plan/5gf9cxkkffcfucew' />
-
-> writeup coming soon   
+### Encounters <Badge type="warning" text="Incomplete" />

@@ -21,13 +21,13 @@ UWU has multiple Toolboxes and each are listed here in order of phases in the fi
 
 <ActionGroup
     :actions=" [
-        { title: 'Garuda', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=882261013862561&preview=1' },
+        { title: 'Garuda', color: 'green', href: 'https://ff14.toolboxgaming.space/?id=882261013862561&preview=1' },
         { title: 'Ifrit', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=562530446784261&preview=1' },
-        { title: 'Titan', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=982261963862561&preview=1' },
-        { title: 'Lahabrea', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=430631425646261&preview=1' },
-        { title: 'Predation', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=530635345646261&preview=1' },
-        { title: 'Annihilation', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=930637786646261&preview=1' },
-        { title: 'Suppression', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=192261294862561&preview=1' },
+        { title: 'Titan', color: 'yellow', href: 'https://ff14.toolboxgaming.space/?id=982261963862561&preview=1' },
+        { title: 'Lahabrea', color: 'purple', href: 'https://ff14.toolboxgaming.space/?id=430631425646261&preview=1' },
+        { title: 'Predation', color: 'cyan', href: 'https://ff14.toolboxgaming.space/?id=530635345646261&preview=1' },
+        { title: 'Annihilation', color: 'cyan', href: 'https://ff14.toolboxgaming.space/?id=930637786646261&preview=1' },
+        { title: 'Suppression', color: 'cyan', href: 'https://ff14.toolboxgaming.space/?id=192261294862561&preview=1' },
     ]"
 />
 

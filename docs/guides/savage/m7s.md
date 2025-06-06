@@ -6,29 +6,37 @@ banner: /images/banners/M7S.webp
 expansion: Dawntrail
 tier: AAC Cruiserweight
 difficulty: Savage
+authors: [ Kobe, Em, Val ]
 discussionLink: https://discord.com/channels/895516967543390249/1355407948838600865
 ---
 
-## Credits
-- Materia Raiding Community
-- Videos by Kobe
+## Toolbox/Raidplan
+Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
+
+<ActionGroup
+:actions=" [
+{ title: 'Phase 1', color: 'blue', href: 'https://raidplan.io/plan/a0GWxSrH01rbXxmS' },
+{ title: 'Phase 2', color: 'red', href: 'https://raidplan.io/plan/QeESzBHNANmJAkDv' },
+{ title: 'Phase 3 (TF)', color: 'purple', href: 'https://raidplan.io/plan/XJ7zmjNpEWKtuqdJ' }
+]"
+/>
+
 
 ## Macros
+::: details Click to View Macros
+Part 1
 
 <<< @/public/macros/m7s-1.macro
+Part 2
 
 <<< @/public/macros/m7s-2.macro
+
+:::
 
 ## Video Guide
 
 @[](https://youtu.be/JlpEnXAF8Ug)
 
-## Toolbox/Raidplan
-Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
-
-<Action title='P1' color='red' href='https://raidplan.io/plan/a0GWxSrH01rbXxmS' />
-<Action title='P2' color='red' href='https://raidplan.io/plan/QeESzBHNANmJAkDv' />
-<Action title='P3 (TF)' color='red' href='https://raidplan.io/plan/XJ7zmjNpEWKtuqdJ' />
 
 ## PoV Videos
 @[](https://youtu.be/Wa2-cyweLM8)

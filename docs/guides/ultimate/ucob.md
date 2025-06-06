@@ -19,11 +19,11 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 <ActionGroup
     :actions=" [
         { title: 'Quick March Trio (QMT)', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=877146678916361&preview=1' },
-        { title: 'Blackfire Trio (BFT)', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=838145884536361&preview=1' },
-        { title: 'Fellruin Trio (FRT)', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=810783368854861&preview=1' },
-        { title: 'Heavensfall Trio (HFT)', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=740246169786361&preview=1' },
-        { title: 'Tenstrike Trio (TST)', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=141245760517361&preview=1' },
-        { title: 'Grand Octet (GO)', color: 'red', href: 'https://ff14.toolboxgaming.space/?id=803246524767361&preview=1' },
+        { title: 'Blackfire Trio (BFT)', color: 'purple', href: 'https://ff14.toolboxgaming.space/?id=838145884536361&preview=1' },
+        { title: 'Fellruin Trio (FRT)', color: 'pink', href: 'https://ff14.toolboxgaming.space/?id=810783368854861&preview=1' },
+        { title: 'Heavensfall Trio (HFT)', color: 'blue', href: 'https://ff14.toolboxgaming.space/?id=740246169786361&preview=1' },
+        { title: 'Tenstrike Trio (TST)', color: 'green', href: 'https://ff14.toolboxgaming.space/?id=141245760517361&preview=1' },
+        { title: 'Grand Octet (GO)', color: 'yellow', href: 'https://ff14.toolboxgaming.space/?id=803246524767361&preview=1' },
     ]"
 />
 
