@@ -6,8 +6,6 @@ import { difficultyTypes } from "./difficultyTypes.js";
 import { useRouter } from "vitepress";
 import { ref } from "vue";
 
-const CURRENT_TIER = "AAC Cruiserweight";
-
 const router = useRouter();
 const props = defineProps({
 	difficulty: {
@@ -51,7 +49,9 @@ function groupPages(pages, grouping) {
 		return pages;
 	}
 	if (difficulty.type === "Savage") {
-		return bringToFront(groupByFrontmatter(pages, "tier"), CURRENT_TIER);
+		const savageGroups = groupByFrontmatter(pages, "tier");
+		const latestTierKey = Object.keys(savageGroups).at(-1);
+		return bringToFront(savageGroups, latestTierKey);
 	// if () {... insert other grouping conditions in the future if needed E.g. "Expansion"
 	} else {
 		return { ungrouped: pages };
@@ -59,11 +59,11 @@ function groupPages(pages, grouping) {
 }
 
 // Grouping utilities
-function groupByFrontmatter(pages, value) {
+function groupByFrontmatter(pages, fm) {
 	return pages.reduce(((group, p) => {
-		const fm = p.frontmatter[value];
-		if (!group[fm]) group[fm] = [];
-		group[fm].push(p);
+		const value = p.frontmatter[fm];
+		if (!group[value]) group[value] = [];
+		group[value].push(p);
 		return group;
 	}), {});
 }
@@ -82,7 +82,7 @@ const openGroups = ref((() => {
 	// Collapse all previous savage tier groups, except the current
 	if (difficulty.type === "Savage") {
 		return Object.fromEntries(
-			Object.keys(groupedPages).map(key => [key, key === CURRENT_TIER])
+			Object.keys(groupedPages).map((key, index) => [key, index === 0])
 		);
 	}
 	// Open others by default
@@ -109,9 +109,9 @@ function openPage(url) {
 			{{ difficulty.type }}
 		</div>
 		<!-- Grouped Page Links -->
-		<div v-if="grouping" v-for="(pages, key) in groupedPages" :key="key">
+		<div v-if="grouping" v-for="(pages, key, index) in groupedPages" :key="key">
 			<div v-if="key === 'ungrouped'" class="ungrouped-header"></div>
-			<div v-else-if="!(difficulty.type === 'Savage' && key === CURRENT_TIER)" class="group-header" @click="toggleGroup(key)"
+			<div v-else-if="!(difficulty.type === 'Savage' && index === 0)" class="group-header" @click="toggleGroup(key)"
 				:class="{ open: openGroups[key] }">
 				<svg class="arrow-icon" :class="{ open: openGroups[key] }" width="16" height="16" viewBox="0 0 16 16"
 					fill="none" xmlns="http://www.w3.org/2000/svg">
