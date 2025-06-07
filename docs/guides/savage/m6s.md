@@ -17,7 +17,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 :actions=" [
 { title: 'Main', color: 'blue', href: 'https://raidplan.io/plan/LjZsRWUJahEe1fdM' },
 { title: 'Desert', color: 'red', href: 'https://raidplan.io/plan/PqngLnEaS1I214wO' },
-{ title: 'Bridges', color: 'purple', href: 'https://raidplan.io/plan/9mcgjmDLobOka' }
+{ title: 'Bridges', color: 'purple', href: 'https://raidplan.io/plan/9mcgjmDLobOka-P5' }
 ]"
 />
 
