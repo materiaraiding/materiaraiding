@@ -3,7 +3,7 @@ order: 4
 fightID: Forked Tower
 banner: /images/banners/forkedtower.webp
 title: Occult Crescent - Forked Tower
-description: Materia Raiding strategy guide for the Forked Tower raid in Occult Crescent, South Horn, Includes raid plans, boss strategies, and entry requirements.
+description: "Materia Raiding strategy guide for the Forked Tower - Blood raid in The Occult Crescent: South Horn. Includes raid plans, boss strategies, and entry requirements."
 expansion: Dawntrail
 authors: [ Em, Juno, Emilios, Fae Fiyaa, Lynn Kaneko ]
 difficulty: Field Operations
