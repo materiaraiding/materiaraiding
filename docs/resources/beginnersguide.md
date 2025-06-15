@@ -258,7 +258,16 @@ The FFXIV community generally will not use the full name of an encounter to refe
 
 For current expansion **Extreme Trials**, they are numbered based on the order of release. So, the first Extreme Trial of an expansion would be **EX1**, the next **EX2**, and so on. For older expansions, they are generally referred to as \<boss name> EX.
 
-Normal and Savage Raid fights use a **3-part naming scheme**. The first is a letter unique to the expansion tier, the second part is a number referring to the boss order from 1 to 12 and the last part is either "N" for normal or "S" for savage. For example, the first savage fight in the Endwalker expansion's full name is "Pandaemonium: Asphodelos - The First Circle (Savage)." We shorten this to "**P1S**". The second savage fight is called "**P2S,**" and so on.
+Normal and Savage Raid fights use a **3-part naming scheme**. The first is a letter unique to the expansion tier, the second part is a number referring to the boss order from 1 to 12 and the last part is either "N" for normal or "S" for savage. For example, the first savage fight in the Endwalker expansion's full name is "Pandaemonium: Asphodelos - The First Circle (Savage)." We shorten this to "**P1S**". The second savage fight is called "**P2S,**" and so on. The prefxies for each expansion are:
+
+| **Expansion**     | **Prefix** |
+|------------------------|-----------------|
+| **A Realm Reborn**   | **T** (Bahamut raids were numbered by <ins>T</ins>urns) |
+| **Heavensward**   | **A** (<ins>A</ins>lexander) |
+| **Stormblood**    | **O** (<ins>O</ins>mega) |
+| **Shadowbringers**    | **E** (<ins>E</ins>den) |
+| **Endwalker** | **P** (<ins>P</ins>andaemonium) |
+| **Dawntrail**  | **M** (Arcadion <ins>M</ins>atch) |
 
 Ultimate Raid and Criterion Dungeon names are abbreviated based on the actual full name of the encounter. For example, the Ultimate Raid "**T**he **E**pic of **A**lexander" is referred to as **TEA**, while the Criterion Dungeon "**A**nother **S**il'dihn **S**ubterrane" is abbreviated to **ASS**. Chaotic Raids are new to the game but will also likely follow this type of abbreviation as more are added.
 
