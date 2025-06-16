@@ -1,5 +1,13 @@
 # Field Operations
 
+::: warning In Progress
+Resources are early and still being developed
+:::
+
+<GuideList :includeTitle=false difficulty="Field Operations"/>
+
+##
+
 Field Operations are a special type of side-content set in large open-world instances where players can team up to complete various open-world objectives and special events. 
 
 There are currently three different field operations available in FFXIV:
@@ -31,11 +39,3 @@ Two major communities support Field Operations in OCE, the **Content Achievers**
 <Action title='Murder of Geese (MOG) Discord' color='blue' href='https://discord.gg/czkX3cTKuj' />
 
 <Action title='Content Achievers Discord' color='red' href='https://discord.gg/FJFxr2U' />
-
-## Field Operations Guides
-
-::: warning In Progress
-Resources are early and still being developed
-:::
-
-<GuideList :includeTitle=false difficulty="Field Operations"/>
