@@ -23,6 +23,16 @@ Read on for more information about the Field Operation or click below to jump to
 
 <Action title='Raid Guide' target='_self' color='raid' href='#raid-forked-tower' />
 
+## Raidplans
+
+<ActionGroup
+:actions=" [
+{ title: 'Boss 1 - Demon Tablet', color: 'red', href: 'https://raidplan.io/plan/jar7czxup3wu8chh' },
+{ title: 'Boss 2 - Trio', color: 'purple', href: 'https://raidplan.io/plan/5gf9cxkkffcfucew' },
+{ title: 'Boss 3 - Marble Dragon', color: 'blue', href: 'https://raidplan.io/plan/_3HykkEJjbEZu6JV' }
+]"
+/>
+
 ## Zone Overview & Quests
 
 Occult Crescent: South Horn is the first Field Operation in the Occult Crescent series set in Dawntrail. Field Operations provide a blend of exploration, combat, experimentation and teamwork.
