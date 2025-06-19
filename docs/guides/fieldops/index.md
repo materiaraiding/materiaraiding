@@ -13,8 +13,8 @@ Field Operations are a special type of side-content set in large open-world inst
 There are currently three different field operations available in FFXIV:
 
 - **The Forbidden Land, Eureka** (Stormblood)
-- **Bozjan Southern Front & Zadnor** (Shadowbringers)
-- **Shade's Triangle** (Dawntrail)
+- **Save the Queen: Blades of Gunnhildr** (Shadowbringers)
+- **The Occult Crescent** (Dawntrail)
 
 Field Operations provide a wide variety of content, including unique challenges, rewards, and opportunities for exploration. They are designed to be completed with a group of players, encouraging teamwork and coordination. 
 
@@ -24,9 +24,9 @@ Each Field Operation also includes unique mechanics and systems that create uniq
 
 To access Field Operations, players must first complete the required quests to unlock them. Each Field Operation has its own set of prerequisites, which typically involve reaching a certain level and completing specific quests in the main story.
 
-- **Eureka** can be accessed by completing the quest "And We Shall Call It Eureka" in Rhalgr's Reach (X: 9.8, Y: 12.5) after the stormblood main story quest "Stormblood".
-- **Bozjan Southern Front** can be accessed by completing a series of quests in Gangos, for more information see the Wiki here: [Bozjan Southern Front](https://ffxiv.consolegameswiki.com/wiki/The_Bozjan_Southern_Front).
-- **Shade's Triangle** can be access by completing the quest "One Last Hurrah" in Tuliyollal (X:17.1 Y:11.8) after completing the Dawntrail main story quest. 
+- **The Forbidden Land, Eureka** can be accessed by completing the quest "And We Shall Call It Eureka" in Rhalgr's Reach (X: 9.8, Y: 12.5) after the stormblood main story quest "Stormblood".
+- **Save the Queen: Blades of Gunnhildr** can be accessed by completing a series of quests in Gangos, for more information see the Wiki here: [Bozjan Southern Front](https://ffxiv.consolegameswiki.com/wiki/The_Bozjan_Southern_Front).
+- **The Occult Crescent** can be access by completing the quest "One Last Hurrah" in Tuliyollal (X:17.1 Y:11.8) after completing the Dawntrail main story quest. 
 
 ## Community Resources
 
