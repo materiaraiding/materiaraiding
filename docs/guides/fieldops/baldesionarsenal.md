@@ -17,7 +17,7 @@ difficulty: Field Operations
 
 Read on for more information about the Field Operation or click below to jump to the Raid Guide.
 
-<Action title='Raid Guide' target='_self' color='raid' href='#raid-baldesion-arsenal' />
+<Action title='Raid Guide' target='_self' color='raid' href='#raid-the-baldesion-arsenal' />
 
 ## Zone Overview
 
