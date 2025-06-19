@@ -2,22 +2,18 @@
 order: 4
 fightID: Forked Tower
 banner: /images/banners/forkedtower.webp
-title: Occult Crescent - Forked Tower
+title: "Occult Crescent - The Forked Tower: Blood"
 description: "Materia Raiding strategy guide for the Forked Tower - Blood raid in The Occult Crescent: South Horn. Includes raid plans, boss strategies, and entry requirements."
 expansion: Dawntrail
-authors: [ Em, Juno, Val, Emilios, Fae Fiyaa, Lynn Kaneko ]
+authors: [Em, Juno, Val, Emilios, Fae Fiyaa, Lynn Kaneko, CA, MoG]
 difficulty: Field Operations
 ---
-
-## Credits
-- Map and Job Info by Lynn Kaneko
-- Raid Strats by CA, MOG and Fae Fiyaa
 
 ## Forked Tower Overview
 
 Forked Tower is the first raid in the Occult Crescent series, introduced in Dawntrail. It features multiple bosses and puzzles and requires a large group of players to complete. The raid is designed for 48 players and includes unique mechanics that require coordination and teamwork, but parties may enter with as little as 16 players provided they have the requisite **Sanguine Ciphers**.
 
-Forked Tower is part of the **South Horn Field Operation** and will require completing several prerequisites before players can access it.
+Forked Tower is part of **The Occult Crescent - South Horn** and will require completing several prerequisites before players can access it.
 
 Read on for more information about the Field Operation or click below to jump to the Raid Guide.
 
@@ -118,7 +114,7 @@ By Kobe
 
 ### Entry Requirements
 
-Any player who is **knowledge level 20** and has completed the **Mysteries Abide** quest is able to access the Forked Tower instance.
+Any player who is **Knowledge Level 20** and has completed the **Mysteries Abide** quest is able to access the Forked Tower instance.
 
 To instance into the Forked Tower, the current weather in the occult crescent must be **Mirage**.
 In general, this occurs within 20-40 minutes (I think it's closer to 30 will need to test) of a fresh instance of the occult crescent.
