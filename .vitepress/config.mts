@@ -149,7 +149,9 @@ export default defineConfig({
 					link: "/fieldops",
 					collapsed: false,
 					items: [
-						{text: "Forked Tower", link: "/fieldops/forkedtower"},
+						{text: "BA", link: "/fieldops/baldesionarsenal"},
+						{text: "DRS", link: "/fieldops/drs"},
+						{text: "FT", link: "/fieldops/forkedtower"},
 					],
 				},
 			],
