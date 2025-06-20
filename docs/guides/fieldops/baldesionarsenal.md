@@ -404,7 +404,7 @@ Players outside the raid will need to complete the FATE, granting the **Aetheria
 From here, **Absolute Virtue** will enter a loop of attacks until it's defeated or it **enrages at 7:20**, adding in a new attack to the fray:
 
 - **Call Wyvern** - Summons **two Aern's Wynav** adds, both **Lightning** aspected.
-    > These must be killed before they cast **Explosion**, a hefty raidwide that also inflicts everyon with **Damage Down**.
+    > These must be killed before they cast **Explosion**, a hefty raidwide that also inflicts everyone with **Damage Down**.
 
 #### Boss 4 - Proto Ozma
 
