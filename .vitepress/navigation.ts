@@ -23,6 +23,44 @@ export const toTitleCase = (str: string) => {
   });
 };
 
+// Reusable function to sort items based on difficultyTypes
+export const sortByDifficultyType = <T extends string | { name: string }>(items: T[]): T[] => {
+  // Create a lookup map for difficulty types with normalized keys (lowercase)
+  // This avoids repeated searches through the difficultyTypes array
+  const difficultyMap = new Map<string, number>();
+
+  // Populate the map with both type and urlOverride as keys (normalized to lowercase)
+  difficultyTypes.forEach(type => {
+    // Add main type to map
+    difficultyMap.set(type.type.toLowerCase(), type.order);
+
+    // Add urlOverride to map if it exists
+    if (type.urlOverride) {
+      difficultyMap.set(type.urlOverride.toLowerCase(), type.order);
+    }
+  });
+
+  return [...items].sort((a, b) => {
+    // Extract the name string depending on whether we have strings or objects
+    const nameA = typeof a === 'string' ? a : a.name;
+    const nameB = typeof b === 'string' ? b : b.name;
+
+    // Get order values from the map (if they exist)
+    const orderA = difficultyMap.get(nameA.toLowerCase());
+    const orderB = difficultyMap.get(nameB.toLowerCase());
+
+    // Sort by order if both have defined order values
+    if (orderA !== undefined && orderB !== undefined) {
+      return orderA - orderB;
+    }
+    // If only one has an order value, prioritize it
+    if (orderA !== undefined) return -1;
+    if (orderB !== undefined) return 1;
+    // For items without an order value, maintain alphabetical order
+    return nameA.localeCompare(nameB);
+  });
+};
+
 // Function to generate sidebar items from directory
 export const generateSidebarItems = (dir: string, baseUrl: string = '/'): any[] => {
   const files = fs.readdirSync(dir, { withFileTypes: true });
@@ -112,28 +150,8 @@ export const generateGuidesNav = (): any[] => {
     .filter(dirent => dirent.isDirectory() && !dirent.name.startsWith('.'))
     .map(dir => dir.name);
 
-  // Sort directories based on difficultyTypes
-  const sortedDirs = [...dirs].sort((a, b) => {
-    // Find matching difficultyType entries (case insensitive)
-    const typeA = difficultyTypes.find(type =>
-      type.urlOverride?.toLowerCase() === a.toLowerCase() ||
-      type.type.toLowerCase() === a.toLowerCase()
-    );
-    const typeB = difficultyTypes.find(type =>
-      type.urlOverride?.toLowerCase() === b.toLowerCase() ||
-      type.type.toLowerCase() === b.toLowerCase()
-    );
-
-    // Sort by order if both have a difficultyType
-    if (typeA && typeB) {
-      return typeA.order - typeB.order;
-    }
-    // If only one has a difficultyType, prioritize it
-    if (typeA) return -1;
-    if (typeB) return 1;
-    // For items without a difficultyType, maintain alphabetical order
-    return a.localeCompare(b);
-  });
+  // Sort directories using the shared sorting function
+  const sortedDirs = sortByDifficultyType(dirs);
 
   return [{
     text: "Difficulty",
@@ -170,28 +188,8 @@ export const generateFullSidebar = (resourcesNav: any[]): Record<string, any[]> 
   const guideCategories = fs.readdirSync(guidesDir, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory() && !dirent.name.startsWith('.'));
 
-  // Sort the categories based on difficultyTypes
-  const sortedCategories = [...guideCategories].sort((a, b) => {
-    // Find matching difficultyType entries (case insensitive)
-    const typeA = difficultyTypes.find(type =>
-      type.urlOverride?.toLowerCase() === a.name.toLowerCase() ||
-      type.type.toLowerCase() === a.name.toLowerCase()
-    );
-    const typeB = difficultyTypes.find(type =>
-      type.urlOverride?.toLowerCase() === b.name.toLowerCase() ||
-      type.type.toLowerCase() === b.name.toLowerCase()
-    );
-
-    // Sort by order if both have a difficultyType
-    if (typeA && typeB) {
-      return typeA.order - typeB.order;
-    }
-    // If only one has a difficultyType, prioritize it
-    if (typeA) return -1;
-    if (typeB) return 1;
-    // For items without a difficultyType, maintain alphabetical order
-    return a.name.localeCompare(b.name);
-  });
+  // Sort the categories using the shared sorting function
+  const sortedCategories = sortByDifficultyType(guideCategories);
 
   sortedCategories.forEach(category => {
     const categoryPath = path.join(guidesDir, category.name);
