@@ -1,10 +1,10 @@
-<script setup>
-import {difficultyTypes} from "./difficultyTypes.js";
+<script setup lang="ts">
+import {difficultyTypes} from "./difficultyTypes";
 import {useRouter} from "vitepress";
 
 const router = useRouter();
 
-function openPage(url) {
+function openPage(url: string) {
 	router.go(url.replace("/guides", "").toLowerCase());
 }
 
@@ -26,11 +26,11 @@ const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter
 <template>
 	<div
 		:class="`navlink ${difficulty.colorClass}`"
-		@click="openPage(page.url)"
+		@click="openPage(props.page.url)"
 		:style="{
-			'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('${page.frontmatter.banner}')`,
+			'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('${props.page.frontmatter.banner}')`,
 		}">
-		{{ page.frontmatter.fightID }}
+		{{ props.page.frontmatter.fightID }}
 	</div>
 </template>
 
