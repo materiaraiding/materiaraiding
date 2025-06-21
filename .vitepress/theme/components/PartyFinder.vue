@@ -50,18 +50,106 @@ const channelConfig = {
 	},
 };
 
+// Thread names to ignore
+const ignoredThreadNames = [
+  'How to use this channel!',
+];
+
 // Store all threads in one array
 const allThreads = ref<Thread[]>([]);
 
 // Active category
 const activeCategory = ref('lfm'); // Default category
 
-// Reference to currently displayed threads based on active category
-const displayedThreads = computed(() => {
-	const parentId = channelConfig[activeCategory.value as keyof typeof channelConfig].parent_id;
-	return allThreads.value.filter(thread => thread.parent_id === parentId);
+// Function to toggle a tag's filtered state
+const toggleTagFilter = (tagId: string) => {
+  if (tags.value[tagId]) {
+    tags.value[tagId].filtered = !tags.value[tagId].filtered;
+  }
+};
+
+// Check if any filters are currently active for the current category
+const hasActiveFilters = computed(() => {
+  const categoryParentId = channelConfig[activeCategory.value as keyof typeof channelConfig].parent_id;
+
+  // Only consider tags relevant to the current category
+  return Object.values(tags.value).some(tag =>
+    tag.parent_id === categoryParentId && tag.filtered
+  );
 });
 
+// Get all unique tags for the current category
+const categoryTags = computed(() => {
+  const parentId = channelConfig[activeCategory.value as keyof typeof channelConfig].parent_id;
+  const tagIds = new Set<string>();
+
+  // Collect all unique tag IDs from threads in current category
+  allThreads.value
+    .filter(thread => thread.parent_id === parentId)
+    .forEach(thread => {
+      if (thread.applied_tags) {
+        try {
+          const threadTags = JSON.parse(thread.applied_tags) as string[];
+          threadTags.forEach(tagId => {
+            // Only add tags that exist in our tag map
+            if (tags.value[tagId]) {
+              tagIds.add(tagId);
+            }
+          });
+        } catch (e) {
+          // Ignore parse errors
+        }
+      }
+    });
+
+  // Convert to array of tag objects with their filtered status
+  return Array.from(tagIds).map(tagId => ({
+    id: tagId,
+    ...tags.value[tagId]
+  })).sort((a, b) => a.tag_name.localeCompare(b.tag_name)); // Sort alphabetically by name
+});
+
+// Clear all active filters for the current category
+const clearFilters = () => {
+  const categoryParentId = channelConfig[activeCategory.value as keyof typeof channelConfig].parent_id;
+
+  Object.keys(tags.value).forEach(tagId => {
+    if (tags.value[tagId].parent_id === categoryParentId) {
+      tags.value[tagId].filtered = false;
+    }
+  });
+};
+
+// Reference to currently displayed threads based on active category and filters
+const displayedThreads = computed(() => {
+  const parentId = channelConfig[activeCategory.value as keyof typeof channelConfig].parent_id;
+
+  // First filter by parent_id and remove ignored thread names
+  const threadsInCategory = allThreads.value.filter(thread =>
+    thread.parent_id === parentId &&
+    !ignoredThreadNames.some(ignoreName =>
+      thread.thread_name.toLowerCase().includes(ignoreName.toLowerCase())
+    )
+  );
+
+  // If no filters are active, show all non-ignored threads in category
+  if (!hasActiveFilters.value) {
+    return threadsInCategory;
+  }
+
+  // Otherwise, filter threads based on applied tags
+  return threadsInCategory.filter(thread => {
+    if (!thread.applied_tags) return false;
+
+    try {
+      const threadTags = JSON.parse(thread.applied_tags) as string[];
+      // Only show threads that have at least one of the filtered tags
+      return threadTags.some(tagId => tags.value[tagId]?.filtered);
+    } catch (e) {
+      return false;
+    }
+  });
+});
 const loading = ref(true);
 const error = ref<string | null>(null);
 const baseApiUrl = "https://discord-thread-tracker-api.ingramscloud.workers.dev";
@@ -188,6 +276,31 @@ onMounted(async () => {
 			</button>
 		</div>
 
+		<div class="filter-section" v-if="!loading && categoryTags.length > 0">
+			<h3 class="filter-title">Filter by tags:</h3>
+			<div class="filter-buttons">
+				<button
+					v-for="tag in categoryTags"
+					:key="tag.id"
+					:class="{ active: tag.filtered }"
+					@click="toggleTagFilter(tag.id)"
+					class="filter-tag">
+					<img
+						v-if="getTagInfo(tag.id).icon"
+						:src="getTagInfo(tag.id).icon"
+						class="tag-icon"
+						:alt="tag.tag_name" />
+					<span>{{ tag.tag_name }}</span>
+				</button>
+				<button
+					v-if="hasActiveFilters"
+					class="clear-filters"
+					@click="clearFilters">
+					Clear Filters
+				</button>
+			</div>
+		</div>
+
 		<div class="content">
 			<div v-if="loading" class="loading">Loading threads...</div>
 
@@ -305,7 +418,7 @@ onMounted(async () => {
 
 .thread-item {
 	padding: 15px;
-	border: 2px solid var(--vp-c-bg-elv);
+	border: 2px solid var(--vp-c-divider);
 	border-radius: 8px;
 	background-color: var(--vp-c-bg-alt);
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -403,5 +516,65 @@ onMounted(async () => {
 
 .thread-link:hover {
 	background-color: #2980b9;
+}
+
+.filter-section {
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: var(--vp-c-bg-alt);
+	border-radius: 8px;
+	border: 2px solid var(--vp-c-divider);
+}
+
+.filter-title {
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 5px;
+	color: var(--vp-c-text-1);
+}
+
+.filter-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.filter-tag {
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	font-weight: 500;
+	background-color: var(--vp-c-bg-elv);
+	border: 1px solid var(--vp-c-divider);
+	border-radius: 4px;
+	font-size: 15px;
+	color: var(--vp-c-text-2);
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.filter-tag:hover {
+	background-color: var(--vp-c-bg-soft);
+}
+
+.filter-tag.active {
+	background-color: var(--vp-c-brand);
+	color: var(--vp-c-text-1);
+	border-color: var(--vp-c-text-1);
+}
+
+.clear-filters {
+	padding: 6px 12px;
+	color: var(--vp-c-text-2);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	transition: background-color 0.2s ease;
+	font-weight: 500;
+}
+
+.clear-filters:hover {
+	background-color: var(--vp-c-danger-dark);
 }
 </style>
