@@ -28,6 +28,8 @@ import GuideList from "./components/lists/GuideList.vue";
 import GuideButton from "./components/lists/GuideButton.vue";
 // @ts-ignore
 import GuideHome from "./components/lists/GuideHome.vue";
+// @ts-ignore
+import PartyFinder from "./components/PartyFinder.vue";
 
 // @ts-ignore
 import guide from "./layouts/guide.vue";
@@ -54,6 +56,7 @@ export default {
 		ctx.app.component("GuideList", GuideList);
 		ctx.app.component("GuideButton", GuideButton);
 		ctx.app.component("GuideHome", GuideHome);
+		ctx.app.component("PartyFinder", PartyFinder);
 		ctx.app.use(FloatingVue, {
 			boundary: 'body',
 			themes: {

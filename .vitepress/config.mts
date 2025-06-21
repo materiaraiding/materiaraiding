@@ -30,6 +30,7 @@ const resourcesNav = [
 ];
 
 const extraLinks = [
+	{text: "Party Finder", link: "/partyfinder"},
 	{text: "Directory", link: "https://materia.directory/"},
 ];
 
