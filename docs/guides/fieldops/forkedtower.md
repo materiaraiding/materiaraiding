@@ -79,6 +79,13 @@ These are **rare** drops and can take some time to farm. Occult Crescent appears
 
 Once you have the required materials, return to Gerolt in Phantom Village with all 18 demiatmas to complete the **one-time** quest and begin to obtain your relic weapons.
 
+::: note
+Confirmed by Yoshi-P in the 87th PLL, the drop rates for Demiatma are as follows:
+
+- **FATEs** in and out of OC: 5% chance per FATE completion
+- **Critical Encounters** in OC: 20% chance per CE completion
+:::
+
 ### Arcanaut Sets
 
 Vendors in South Horn sell Arcanaut sets, which is a set of gear designed for players to use in Occult Crescent.
