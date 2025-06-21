@@ -33,17 +33,33 @@ const threads = ref<Thread[]>([]);
 const loading = ref(true);
 const error = ref<string | null>(null);
 const baseApiUrl = 'https://discord-thread-tracker-api.ingramscloud.workers.dev';
-const activeEndpoint = ref('/lfg'); // Default endpoint
+const activeEndpoint = ref('/lfm'); // Default endpoint
+const tags = ref<{[key: string]: {tag_name: string, parent_id: string}}>({});
 
-const channelTags = {
-	'1147498074466422884': { icon: '/images/icons/trial.webp', name: 'TEA' },
-	'1147498085929472030': { icon: '/images/icons/trial.webp', name: 'UWU' },
-	'1147498245178806322': { icon: '/images/icons/trial.webp', name: 'DSR' },
-	'1147551329485594644': { icon: '/images/icons/trial.webp', name: 'UCOB' },
-	'1271026958829879309': { icon: '/images/icons/trial.webp', name: 'FRU' },
-	'1147498047790665819': { icon: '/images/icons/trial.webp', name: 'TOP' },
-	'1147521979402960926': { icon: '/images/icons/trial.webp', name: 'Savage' },
-	'1147526116244996246': { icon: '/images/icons/trial.webp', name: 'Midcore' },
+// Fetch tags from the /tags endpoint
+const fetchTags = async () => {
+  try {
+    const url = `${baseApiUrl}/tags`;
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch tags: ${response.status}`);
+    }
+    const tagData = await response.json();
+
+    if (tagData.success && Array.isArray(tagData.data)) {
+      // Convert array to lookup object by tag_id
+      const tagMap: {[key: string]: {tag_name: string, parent_id: string}} = {};
+      tagData.data.forEach(tag => {
+        tagMap[tag.tag_id] = {
+          tag_name: tag.tag_name,
+          parent_id: tag.parent_id
+        };
+      });
+      tags.value = tagMap;
+    }
+  } catch (err) {
+    console.error('Error fetching tags:', err);
+  }
 };
 
 // Parse the thread_metadata JSON string in each thread
@@ -106,7 +122,16 @@ const switchEndpoint = (endpoint: string) => {
 
 // Get tag information by ID
 const getTagInfo = (tagId: string) => {
-  return channelTags[tagId] || { icon: null, name: tagId };
+  const tag = tags.value[tagId];
+
+  if (tag) {
+    return {
+      name: tag.tag_name,
+      icon: `/images/tags/${tag.tag_name.toLowerCase().replace("/", "-")}.webp`
+    };
+  }
+
+  return { icon: null, name: tagId };
 };
 
 // Generate Discord thread URL
@@ -114,7 +139,8 @@ const getDiscordThreadUrl = (threadId: string) => {
   return `https://discordapp.com/channels/895516967543390249/${threadId}`;
 };
 
-onMounted(() => {
+onMounted(async () => {
+  await fetchTags();
   fetchThreads(activeEndpoint.value);
 });
 </script>
@@ -122,6 +148,12 @@ onMounted(() => {
 <template>
   <div class="party-finder">
     <div class="tabs">
+		<button
+			:class="{ active: activeEndpoint === '/lfm' }"
+			@click="switchEndpoint('/lfm')"
+		>
+			Looking For Members
+		</button>
       <button
         :class="{ active: activeEndpoint === '/lfg' }"
         @click="switchEndpoint('/lfg')"
@@ -129,16 +161,10 @@ onMounted(() => {
         Looking For Group
       </button>
       <button
-        :class="{ active: activeEndpoint === '/lfm' }"
-        @click="switchEndpoint('/lfm')"
-      >
-        Looking For Members
-      </button>
-      <button
         :class="{ active: activeEndpoint === '/lfs' }"
         @click="switchEndpoint('/lfs')"
       >
-        Looking For Static
+        Looking For Sub
       </button>
     </div>
 
@@ -169,10 +195,29 @@ onMounted(() => {
           </div>
 
           <div class="thread-info">
-            <span class="thread-owner">Posted by: {{ thread.owner_nickname || 'Unknown' }}</span>
+            <div class="thread-owner">
+				<svg
+					width="16px"
+					height="16px"
+					viewBox="0 0 24 24"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7ZM14 7C14 8.10457 13.1046 9 12 9C10.8954 9 10 8.10457 10 7C10 5.89543 10.8954 5 12 5C13.1046 5 14 5.89543 14 7Z"
+										fill="currentColor"
+									/>
+									<path
+										d="M16 15C16 14.4477 15.5523 14 15 14H9C8.44772 14 8 14.4477 8 15V21H6V15C6 13.3431 7.34315 12 9 12H15C16.6569 12 18 13.3431 18 15V21H16V15Z"
+										fill="currentColor"
+									/>
+								</svg>
+				<div class="thread-owner-name">{{ thread.owner_nickname || 'Unknown' }}</div></div>
 
             <div v-if="thread.parsedMetadata" class="thread-date">
-              Created: {{ formatDate(thread.parsedMetadata.create_timestamp) }}
+              Posted: {{ formatDate(thread.parsedMetadata.create_timestamp) }}
             </div>
           </div>
 
@@ -193,12 +238,13 @@ onMounted(() => {
   max-width: 960px;
   margin: 0 auto;
   padding: 20px;
+	min-height:  100vh;
 }
 
 .tabs {
   display: flex;
   margin-bottom: 20px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid var(--vp-c-text-2);
 }
 
 .tabs button {
@@ -209,64 +255,17 @@ onMounted(() => {
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
-  color: #666;
+	  color: var(--vp-c-text-2);
   transition: all 0.2s ease;
 }
 
 .tabs button:hover {
-  color: #333;
+  color: var(--vp-c-text-3);
 }
 
 .tabs button.active {
-  color: #3498db;
-  border-bottom: 2px solid #3498db;
-}
-
-.filter-section {
-  margin-bottom: 20px;
-}
-
-.filter-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
-.filter-tag {
-  padding: 8px 12px;
-  background-color: var(--vp-c-bg-elv);
-  border-radius: 4px;
-  font-size: 14px;
-  color: var(--vp-c-text-2);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  transition: background-color 0.2s ease;
-}
-
-.filter-tag:hover {
-  background-color: var(--vp-c-bg);
-}
-
-.filter-tag.active {
-  background-color: #3498db;
-  color: #fff;
-}
-
-.clear-filters {
-  padding: 8px 16px;
-  background-color: #e74c3c;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.2s ease;
-}
-
-.clear-filters:hover {
-  background-color: #c0392b;
+  color: var(--vp-c-brand);
+  border-bottom: 3px solid var(--vp-c-brand);
 }
 
 .loading,
@@ -274,7 +273,7 @@ onMounted(() => {
 .empty {
   padding: 20px;
   text-align: center;
-  color: #666;
+  color: var(--vp-c-text-2);
 }
 
 .error {
@@ -322,8 +321,17 @@ onMounted(() => {
 }
 
 .thread-owner {
+	display: flex;
+	  align-items: center;
   font-size: 14px;
   color: var(--vp-c-text-2);
+}
+
+.thread-owner svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  fill: var(--vp-c-text-2);
 }
 
 .thread-info {
@@ -332,11 +340,7 @@ onMounted(() => {
   margin-bottom: 10px;
   font-size: 14px;
 	color: var(--vp-c-text-3);
-}
-
-.thread-stats {
-  display: flex;
-  gap: 15px;
+	font-weight: 600;
 }
 
 .thread-tags {
@@ -347,19 +351,20 @@ onMounted(() => {
 }
 
 .tag {
-  padding: 4px 8px;
+  padding: 4px 6px;
   background-color: var(--vp-c-bg-elv);
   border-radius: 4px;
-  font-size: 12px;
+  font-size: 14px;
 	color: var(--vp-c-text-2);
   display: flex;
   align-items: center;
+	font-weight: 600
 }
 
 .tag-icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 4px;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
 }
 
 .tag-name {
