@@ -17,7 +17,7 @@ hero:
 
 # Party Finder
 
-The **Party Finder** is a tool for players to find or create temporary parties for various content in Final Fantasy XIV. **XIVPF** provides a great website for browsing and creating party listings. You can also find post from active parties in the **Materia Raiding** and **Materia Ultimate Raiding** Discords.
+The **Party Finder** is a tool for players to find or create temporary parties for various content in Final Fantasy XIV. **XIVPF** provides a great website for browsing and creating party listings. You can also find posts from active parties in the **Materia Raiding** and **Materia Ultimate Raiding** Discords.
 
 <ActionGroup
 :actions=" [
