@@ -157,7 +157,7 @@ export const generateGuidesNav = (): any[] => {
     text: "Difficulty",
     items: sortedDirs.map(dir => ({
       text: toTitleCase(dir),
-      link: `/guides/${dir}`
+      link: `/${dir}`
     }))
   }];
 };

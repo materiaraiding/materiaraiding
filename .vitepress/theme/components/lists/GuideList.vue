@@ -1,8 +1,8 @@
 <script setup>
 import GuideButton from "./GuideButton.vue";
-import { data as archive } from "../loaders/archives.data.js";
-import { data as guides } from "../loaders/guides.data.js";
-import { difficultyTypes } from "./difficultyTypes.js";
+import { data as archive } from "../loaders/archives.data";
+import { data as guides } from "../loaders/guides.data";
+import { difficultyTypes } from "./difficultyTypes";
 import { useRouter } from "vitepress";
 import { ref } from "vue";
 

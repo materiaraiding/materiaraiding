@@ -7,7 +7,7 @@ import {
 	glossaryPlugin,
 	statusIconPlugin,
 } from "./plugins/markdown";
-import { generateFullNav ,generateGuidesNav, generateArchivesNav, generateFullSidebar, resourcesNav, extraLinks } from "./navigation";
+import { generateFullNav, generateFullSidebar } from "./navigation";
 
 // Manually defined resources for nav and sidebar
 const resourcesNav = [
