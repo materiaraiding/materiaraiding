@@ -118,10 +118,9 @@ export const generateSidebarItems = (dir: string, baseUrl: string = '/'): any[] 
 
       // Extract order from frontmatter if it exists
       const order = frontmatter && typeof frontmatter.order === 'number' ? frontmatter.order : null;
-
       items.push({
         text,
-        link: `/${relativePath.replace('.md', '')}`,
+        link: `/${relativePath.replace('guides/', '').replace('.md', '')}`,
         order
       });
     }
@@ -197,9 +196,9 @@ export const generateFullSidebar = (resourcesNav: any[]): Record<string, any[]> 
 
     sidebar['/'].push({
       text: toTitleCase(category.name),
-      link: hasIndex ? `/guides/${category.name}` : undefined,
+      link: hasIndex ? `/${category.name}` : undefined,
       collapsed: false,
-      items: generateSidebarItems(categoryPath, `/guides/${category.name}`)
+      items: generateSidebarItems(categoryPath, `/${category.name}`)
     });
   });
 
