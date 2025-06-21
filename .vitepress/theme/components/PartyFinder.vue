@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {ref, onMounted} from "vue";
+import {ref, onMounted, computed} from "vue";
 
 interface ThreadMetadata {
 	archived: boolean;
@@ -29,12 +29,43 @@ interface ThreadResponse {
 	data: Thread[];
 }
 
-const threads = ref<Thread[]>([]);
+interface Tag {
+	tag_name: string;
+	parent_id: string;
+	filtered: boolean;
+}
+
+const channelConfig = {
+	lfm: {
+		name: "Looking For Members",
+		parent_id: "1147471873463033978",
+	},
+	lfg: {
+		name: "Looking For Group",
+		parent_id: "1260078528125468743",
+	},
+	lfs: {
+		name: "Looking For Sub",
+		parent_id: "1324237133212291093",
+	},
+};
+
+// Store all threads in one array
+const allThreads = ref<Thread[]>([]);
+
+// Active category
+const activeCategory = ref('lfm'); // Default category
+
+// Reference to currently displayed threads based on active category
+const displayedThreads = computed(() => {
+	const parentId = channelConfig[activeCategory.value as keyof typeof channelConfig].parent_id;
+	return allThreads.value.filter(thread => thread.parent_id === parentId);
+});
+
 const loading = ref(true);
 const error = ref<string | null>(null);
 const baseApiUrl = "https://discord-thread-tracker-api.ingramscloud.workers.dev";
-const activeEndpoint = ref("/lfm"); // Default endpoint
-const tags = ref<{[key: string]: {tag_name: string; parent_id: string}}>({});
+const tags = ref<{[key: string]: Tag}>({});
 
 // Fetch tags from the /tags endpoint
 const fetchTags = async () => {
@@ -48,11 +79,12 @@ const fetchTags = async () => {
 
 		if (tagData.success && Array.isArray(tagData.data)) {
 			// Convert array to lookup object by tag_id
-			const tagMap: {[key: string]: {tag_name: string; parent_id: string}} = {};
-			tagData.data.forEach((tag) => {
+			const tagMap: {[key: string]: Tag} = {};
+			tagData.data.forEach((tag: any) => {
 				tagMap[tag.tag_id] = {
 					tag_name: tag.tag_name,
 					parent_id: tag.parent_id,
+					filtered: false // Add filtered property, default to false
 				};
 			});
 			tags.value = tagMap;
@@ -88,14 +120,13 @@ const formatDate = (dateString: string) => {
 	});
 };
 
-// Fetch threads from the selected endpoint
-const fetchThreads = async (endpoint: string) => {
+// Fetch all threads from the /threads endpoint
+const fetchThreads = async () => {
 	loading.value = true;
 	error.value = null;
-	activeEndpoint.value = endpoint;
 
 	try {
-		const url = `${baseApiUrl}${endpoint}`;
+		const url = `${baseApiUrl}/threads`;
 		const response = await fetch(url);
 		if (!response.ok) {
 			throw new Error(`Failed to fetch data: ${response.status}`);
@@ -103,7 +134,7 @@ const fetchThreads = async (endpoint: string) => {
 		const data: ThreadResponse = await response.json();
 
 		if (data.success && Array.isArray(data.data)) {
-			threads.value = parseThreadMetadata(data.data);
+			allThreads.value = parseThreadMetadata(data.data);
 		} else {
 			throw new Error("Invalid data format received");
 		}
@@ -115,9 +146,9 @@ const fetchThreads = async (endpoint: string) => {
 	}
 };
 
-// Switch between endpoints
-const switchEndpoint = (endpoint: string) => {
-	fetchThreads(endpoint);
+// Switch between categories
+const switchCategory = (category: string) => {
+	activeCategory.value = category;
 };
 
 // Get tag information by ID
@@ -141,21 +172,19 @@ const getDiscordThreadUrl = (threadId: string) => {
 
 onMounted(async () => {
 	await fetchTags();
-	fetchThreads(activeEndpoint.value);
+	fetchThreads();
 });
 </script>
 
 <template>
 	<div class="party-finder">
 		<div class="tabs">
-			<button :class="{active: activeEndpoint === '/lfm'}" @click="switchEndpoint('/lfm')">
-				Looking For Members
-			</button>
-			<button :class="{active: activeEndpoint === '/lfg'}" @click="switchEndpoint('/lfg')">
-				Looking For Group
-			</button>
-			<button :class="{active: activeEndpoint === '/lfs'}" @click="switchEndpoint('/lfs')">
-				Looking For Sub
+			<button
+				v-for="(config, category) in channelConfig"
+				:key="category"
+				:class="{ active: activeCategory === category }"
+				@click="switchCategory(category)">
+				{{ config.name }}
 			</button>
 		</div>
 
@@ -166,11 +195,11 @@ onMounted(async () => {
 				{{ error }}
 			</div>
 
-			<div v-else-if="threads.length === 0" class="empty">No threads found.</div>
+			<div v-else-if="displayedThreads.length === 0" class="empty">No threads found.</div>
 
 			<div v-else class="thread-list">
 				<a
-					v-for="thread in threads"
+					v-for="thread in displayedThreads"
 					:key="thread.thread_id"
 					class="thread-item"
 					:href="getDiscordThreadUrl(thread.thread_id)"
