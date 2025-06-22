@@ -149,7 +149,7 @@ Depending on your role, it's useful to have certain **Wisdoms** active to furthe
 
 Finally, at least a couple of **DPS players** should have the Logos action **Perception L** to uncover any **traps** littered throughout the raid as well as the **portal** leading to the secret rooms.
 
-Below are example loadouts and mini-guides for each role within **The Baldesion Arsenal**:
+Below are mini-guides and example loadouts for each role within **The Baldesion Arsenal**:
 
 <ActionGroup
 :actions=" [
@@ -340,10 +340,12 @@ Because the nature of the buff on **Absolute Virtue** only requires that the FAT
 2. **Log out**. The doors will open and allow players outside your room to pull the mobs within.
 :::
 
-Players outside the raid will need to complete the FATE, recieving the **Aetherially Primed** provided they fulfil the following conditions:
+Players outside the raid will need to complete the FATE, receiving the **Aetherially Primed** buff provided they fulfil the following conditions:
 - They are **Elemental Level 60** *before* the FATE concludes.
 - They are within the FATE's boundaries when it concludes.
 - They achieve a **Gold Rating**.
+
+After the FATE, **8 Aetheric Nodes** will appear around Hydatos, allowing addtional players to join the raid for the following encounters.
 
 ::: tip The Baldesion Arsenal: Expedition Support
 - **Dispel L** is required to remove any personal buffs the Notorious Monster gives itself. Look for the casts "**Mighty Strikes**" and "**Shock Spikes**".
@@ -434,12 +436,12 @@ From here, **Absolute Virtue** will enter a loop of attacks until it's defeated 
 
 Below is a table with every shape **Proto Ozma** can take, along with the attack it executes after changing shape and the type of auto attacks.
 
-| **Shape** | **Form Shift** | **Auto Attacks** |
+| **Form** | **Form Shift** | **Auto Attacks** |
 | - | :-: | :-: |
-| **Sphere** <br> 🪩 | **Black Hole** - <br> **Six** glowing buttons appear around the arena. Players must be standing on a button to avoid being removed from the raid. Additionally, each button must have at least **one** player on it. | Highest enmity target of each platform |
-| **Cube** <br> 🧊 | **Flare Star** - <br> Donut centred on **Proto Ozma** | Line-AoE at the highest enmity target of each platform |
-| **Pyramid** <br> ⚠️ | **Execration** - <br> Large line AoE down the platform | Small bleed AoE on a random player at the back half of each platform |
-| **Star** <br> ⭐ | **Mourning Star** - <br> PB-AoE centred on **Proto Ozma** | Stack AoE on a random player of each platform |
+| **Sphere** <br> 🪩 | **Black Hole** - <br> **Six** glowing buttons appear around the arena. Players must be standing on a button to avoid being removed from the raid. Additionally, each button must have at least **one** player on it. | Highest enmity target of each platform. |
+| **Cube** <br> 🧊 | **Flare Star** - <br> Donut centred on **Proto Ozma**. | Line-AoE at the highest enmity target of each platform. |
+| **Pyramid** <br> ⚠️ | **Execration** - <br> Large Line-AoE down the platform. | Small AoE on a random player at the **back half** of each platform, inflicts a cleansable DoT. |
+| **Star** <br> ⭐ | **Mourning Star** - <br> PB-AoE centred on **Proto Ozma**. | Stack AoE on a random player on each platform. |
 
 Occasionally, an **Ozmashade** will appear at the back of each platform. Each **Ozmashade** will execute a **Form Shift** that requires players to avoid its attack on top of any existing mechanics that are happening.
 
@@ -510,7 +512,7 @@ Occasionally, an **Ozmashade** will appear at the back of each platform. Each **
 6. **Shooting Star**
 :::
 
-**Proto Ozma** will continue to shift between forms until **hard enraging** at **10:30**, shifting into Star form and casting a long-form version of **Shooting Star** that wipes the raid.
+**Proto Ozma** will continue to shift between forms until **hard enraging** at **10:30**, shifting into **Star** form and casting a long-form version of **Shooting Star** that wipes the raid.
 
 Defeating **Proto Ozma** completes **The Baldesion Arsenal**. Congratulations!
 
