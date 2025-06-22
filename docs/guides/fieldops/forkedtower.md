@@ -124,7 +124,7 @@ By Kobe
 Any player who is **Knowledge Level 20** and has completed the **Mysteries Abide** quest is able to access the Forked Tower instance.
 
 To instance into the Forked Tower, the current weather in the occult crescent must be **Mirage**.
-In general, this occurs within 20-40 minutes (I think it's closer to 30 will need to test) of a fresh instance of the occult crescent.
+In general, this occurs within 20 to 40 minutes (I think it's closer to 30 will need to test) of a fresh instance of the occult crescent.
 
 To check if an instance is "fresh", players can look at other players in the instance to see how much time they have in the instance. (flesh this out)
 
