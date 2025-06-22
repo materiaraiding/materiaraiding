@@ -72,7 +72,7 @@ The Elemental sets are first available from Pyros, and require players to fulfil
 1. Obtain an **Elemental stage weapon**.
 2. Discover **50 Logos actions**.
 
-The sets can then be augmented with the **Expedition Artisan** in the Hydatos base camp, first to +1 with **Hydatos Crystals** and finally to +2 with **Eureka Fragments**, dropped from The Baldesion Arsenal.
+The sets can then be augmented with the **Expedition Artisan** in the Hydatos base camp, first to +1 with **Hydatos Crystals** and finally to +2 with **Eureka Fragments**, dropped from **The Baldesion Arsenal**.
 
 To upgrade your weapon to a Physeos Weapon, you must exchange both your **Eureka stage weapon** and **100 Eureka Fragments** with **Gerolt** in the Hydatos base camp.
 
