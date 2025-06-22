@@ -38,15 +38,15 @@ interface Tag {
 const channelConfig = {
 	lfm: {
 		name: "Looking For Members",
-		parent_id: "1147471873463033978",
+		parent_id: "1147471873463033978"
 	},
 	lfg: {
 		name: "Looking For Group",
-		parent_id: "1260078528125468743",
+		parent_id: "1260078528125468743"
 	},
 	lfs: {
 		name: "Looking For Sub",
-		parent_id: "1324237133212291093",
+		parent_id: "1324237133212291093"
 	},
 };
 
@@ -60,6 +60,9 @@ const allThreads = ref<Thread[]>([]);
 
 // Active category
 const activeCategory = ref('lfm'); // Default category
+
+// Sort order - true for latest first, false for oldest first
+const sortLatestFirst = ref(true);
 
 // Function to toggle a tag's filtered state
 const toggleTagFilter = (tagId: string) => {
@@ -132,22 +135,29 @@ const displayedThreads = computed(() => {
     )
   );
 
-  // If no filters are active, show all non-ignored threads in category
-  if (!hasActiveFilters.value) {
-    return threadsInCategory;
+  // Filter threads based on applied tags if filters are active
+  let filteredThreads = threadsInCategory;
+  if (hasActiveFilters.value) {
+    filteredThreads = threadsInCategory.filter(thread => {
+      if (!thread.applied_tags) return false;
+
+      try {
+        const threadTags = JSON.parse(thread.applied_tags) as string[];
+        // Only show threads that have at least one of the filtered tags
+        return threadTags.some(tagId => tags.value[tagId]?.filtered);
+      } catch (e) {
+        return false;
+      }
+    });
   }
 
-  // Otherwise, filter threads based on applied tags
-  return threadsInCategory.filter(thread => {
-    if (!thread.applied_tags) return false;
+  // Sort by creation timestamp
+  return filteredThreads.sort((a, b) => {
+    const dateA = a.parsedMetadata?.create_timestamp ? new Date(a.parsedMetadata.create_timestamp).getTime() : 0;
+    const dateB = b.parsedMetadata?.create_timestamp ? new Date(b.parsedMetadata.create_timestamp).getTime() : 0;
 
-    try {
-      const threadTags = JSON.parse(thread.applied_tags) as string[];
-      // Only show threads that have at least one of the filtered tags
-      return threadTags.some(tagId => tags.value[tagId]?.filtered);
-    } catch (e) {
-      return false;
-    }
+    // Sort by latest (newest) first or oldest first based on the toggle
+    return sortLatestFirst.value ? dateB - dateA : dateA - dateB;
   });
 });
 const loading = ref(true);
@@ -239,6 +249,11 @@ const switchCategory = (category: string) => {
 	activeCategory.value = category;
 };
 
+// Toggle sort order between latest and oldest first
+const toggleSortOrder = () => {
+	sortLatestFirst.value = !sortLatestFirst.value;
+};
+
 // Get tag information by ID
 const getTagInfo = (tagId: string) => {
 	const tag = tags.value[tagId];
@@ -277,7 +292,24 @@ onMounted(async () => {
 		</div>
 
 		<div class="filter-section" v-if="!loading && categoryTags.length > 0">
-			<h3 class="filter-title">Filter by tags:</h3>
+			<div class="filter-header">
+				<h3 class="filter-title">Filter by tags:</h3>
+				<div class="filter-controls">
+					<button
+						class="sort-toggle"
+						:class="{ active: sortLatestFirst }"
+						@click="toggleSortOrder">
+						Sort: {{ sortLatestFirst ? 'Latest First' : 'Oldest First' }}
+					</button>
+					<a
+						v-bind:href="`https://discordapp.com/channels/895516967543390249/${channelConfig[activeCategory].parent_id}`"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="create-post-button">
+						Create New Post
+					</a>
+				</div>
+			</div>
 			<div class="filter-buttons">
 				<button
 					v-for="tag in categoryTags"
@@ -365,15 +397,15 @@ onMounted(async () => {
 
 <style scoped>
 .party-finder {
-	max-width: 960px;
+	display: flex;
+	flex-direction: column;
 	margin: 0 auto;
-	padding: 20px;
 	min-height: 100vh;
+	gap: 15px;
 }
 
 .tabs {
 	display: flex;
-	margin-bottom: 20px;
 	border-bottom: 2px solid var(--vp-c-text-2);
 }
 
@@ -412,7 +444,8 @@ onMounted(async () => {
 
 .thread-list {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 	gap: 15px;
 }
 
@@ -425,6 +458,7 @@ onMounted(async () => {
 	transition: transform 0.2s ease;
 	text-decoration: none;
 	display: block;
+	flex-grow: 1;
 }
 
 .thread-item:hover {
@@ -440,7 +474,7 @@ onMounted(async () => {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 10px;
+	margin-bottom: 6px;
 }
 
 .thread-title {
@@ -478,7 +512,7 @@ onMounted(async () => {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 6px;
-	margin-top: 10px;
+	margin-top: 6px;
 }
 
 .tag {
@@ -502,35 +536,66 @@ onMounted(async () => {
 	display: inline-block;
 }
 
-.thread-link {
-	display: inline-block;
-	margin-top: 10px;
-	padding: 8px 16px;
-	background-color: #3498db;
-	color: #fff;
-	text-align: center;
-	border-radius: 4px;
-	text-decoration: none;
-	transition: background-color 0.2s ease;
-}
-
-.thread-link:hover {
-	background-color: #2980b9;
-}
-
 .filter-section {
-	margin-bottom: 20px;
 	padding: 10px;
 	background-color: var(--vp-c-bg-alt);
 	border-radius: 8px;
 	border: 2px solid var(--vp-c-divider);
 }
 
+.filter-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 10px;
+}
+
 .filter-title {
-	font-size: 16px;
+	font-size: 14px;
 	margin-top: 0;
 	margin-bottom: 5px;
+	color: var(--vp-c-text-2);
+}
+
+.sort-toggle {
+	padding: 6px 12px;
+	color: var(--vp-c-text-2);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	transition: background-color 0.2s ease;
+	font-weight: 500;
+	background-color: transparent;
+}
+
+.sort-toggle:hover {
+	background-color: var(--vp-c-bg-soft);
+}
+
+.filter-controls {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.create-post-button {
+	padding: 6px 12px;
 	color: var(--vp-c-text-1);
+	background-color: var(--vp-c-brand);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	transition: background-color 0.2s ease;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+}
+
+.create-post-button:hover {
+	color: var(--vp-c-text-1);
+	background-color: var(--vp-c-brand-3);
 }
 
 .filter-buttons {
@@ -545,7 +610,6 @@ onMounted(async () => {
 	padding: 5px 10px;
 	font-weight: 500;
 	background-color: var(--vp-c-bg-elv);
-	border: 1px solid var(--vp-c-divider);
 	border-radius: 4px;
 	font-size: 15px;
 	color: var(--vp-c-text-2);
@@ -560,11 +624,10 @@ onMounted(async () => {
 .filter-tag.active {
 	background-color: var(--vp-c-brand);
 	color: var(--vp-c-text-1);
-	border-color: var(--vp-c-text-1);
 }
 
 .clear-filters {
-	padding: 6px 12px;
+	padding: 0px 12px;
 	color: var(--vp-c-text-2);
 	border: none;
 	border-radius: 4px;
@@ -575,6 +638,6 @@ onMounted(async () => {
 }
 
 .clear-filters:hover {
-	background-color: var(--vp-c-danger-dark);
+	background-color: var(--vp-c-bg-soft);
 }
 </style>

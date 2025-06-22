@@ -15,8 +15,7 @@ hero:
       link: "https://discord.gg/ArZz3b8PZV"
 ---
 
-# Party Finder
-
+# Active Parties
 The **Party Finder** is a tool for players to find or create temporary parties for various content in Final Fantasy XIV. **XIVPF** provides a great website for browsing and creating party listings. You can also find posts from active parties in the **Materia Raiding** and **Materia Ultimate Raiding** Discords.
 
 <ActionGroup
@@ -29,7 +28,7 @@ The **Party Finder** is a tool for players to find or create temporary parties f
 
 ---
 
-# Find a Static
+# Find a Static Team
 
 A **Static** is a group of players who regularly play together, often for high-end content like Ultimate and Savage raids. A static party can help you progress through content faster and more reliably if you can commit to a regular schedule.
 
