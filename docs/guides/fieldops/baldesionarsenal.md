@@ -5,47 +5,49 @@ banner: /images/banners/baldesionarsenal.webp
 title: "The Forbidden Land: Eureka - The Baldesion Arsenal"
 description: Materia Raiding strategy guide for The Baldesion Arsenal in The Forbidden Land, Eureka Hydatos. Includes boss strategies and entry requirements.
 expansion: Stormblood
-authors: [Emilios, CA, MoG, Eureka Tracker]
+authors: [Emilios, Noranda, CA, MoG]
 difficulty: Field Operations
 ---
 
 ## Baldesion Arsenal Overview
 
-**The Baldesion Arsenal** is the only raid available within **The Forbidden Land, Eureka**, introduced in **Stormblood**. The raid features multiple bosses and small-scale encounters, requiring a large group of players with good coordination to complete. The raid is designed for up to 56 players but can be entered with undersized parties should they still meet the entry requirements.
+**The Baldesion Arsenal** is the only raid available within **The Forbidden Land, Eureka**, introduced in **Stormblood**. The raid features multiple bosses and small-scale encounters, requiring a large group of players with good coordination to complete. The raid is designed for up to **56** players but can be entered with undersized parties should they still meet the entry requirements.
 
-**The Baldesion Arsenal** is located within **The Forbidden Land: Eureka Hydatos** and will require completing several prerequisites before players can enter the raid.
+Entry to **The Baldesion Arsenal** is located within **The Forbidden Land: Eureka Hydatos** and will require completing several prerequisites before players can enter the raid.
 
-Read on for more information about the Field Operation, or click below to jump to the Raid Guide.
+Read on for more information about **Eureka**, or click below to jump to the Raid Guide.
 
 <Action title='Raid Guide' target='_self' color='raid' href='#raid-the-baldesion-arsenal' />
 
-## Zone Overview
+## Eureka Overview
 
-**Eureka** allows players to progress their character's power in **many different ways**, each serving to help the player in all **four** zones and inside **The Baldesion Arsenal**.
+**Eureka** allows players to progress their character's power in **many different ways**, each serving to help the player in all **Eureka**-related Field Operations.
 
-These upgrades are not strictly required to clear the raid but are generally recommended if you have lots of Gil and/or plan to spend a lot of time in **Eureka** zones.
+These upgrades are not strictly required to clear the raid but are generally recommended if you have lots of Gil and/or plan to spend a lot of time in **Eureka**-related Field Operations.
 
-### Logos Actions
+### Logos Actions and Wisdoms
 
-Logos actions, first introduced in Pyros, allow the use of up to **2 specialised actions** at any time that have various, powerful effects.
+Logos Actions, first introduced in **The Forbidden Land: Eureka Pyros**, allow the use of up to **2 specialised actions** at any time that have various, powerful effects.
 
-To obtain and equip them players must first acquire the necessary **logograms** which can be dropped by mobs, Notorious Monster FATEs, found in coffers and also purchased off the Marketboard. Afterwards, you can speak with **Drake** to appraise them, and finally combine them at the **Logos Manipulator** to create the actions.
+To obtain and equip them, players must first acquire the necessary **Logograms**. These can be dropped by mobs and Notorious Monster FATEs, found in coffers and also purchased off the Marketboard. Afterwards, you can speak with **Drake** to appraise them, and finally combine them at the **Logos Manipulator** to create the actions.
 
-To see a complete table of Logos actions, along with their effects, recipes and logogram acquisitions, please see the website below.
+Wisdoms, also introduced in **The Forbidden Land: Eureka Pyros** are a subset of Logos Actions that passively boost certain stats, lasting until the player leaves the instance or changes jobs.
+
+To see a complete table of Logos Actions, along with their effects, recipes and Logogram acquisitions, please see the website below.
 
 <Action title='Logos Actions List' color='purple' href='https://ffxiv-eureka.com/logograms' />
 
 ### Aethertight Flasks
 
-Aethertight Flasks are items dropped from **Silver Happy Bunny Coffers only** within Hydatos that serve to increase the amount of Logos action slots available to the player.
+Aethertight Flasks, introduced in **The Forbidden Land: Eureka Hydatos** are items used to increase the amount of Logos Action slots available to the player.
 
-**Up to 3** can be used by speaking with the **Expedition Alchemist** in the base camp of Hydatos, for a **maximum of 6** total Logos action slots.
+Aethertight Flasks are only obtainable via **Silver Happy Bunny Lockboxes** in Hydatos, and each flask can be traded with the **Expedition Alchemist** up to **3** times for a maximum of **6** total Logos Action slots.
 
 ### 6th and 7th Magicites
 
-Certain Notorious Monsters within both Pyros and Hydatos have a **very rare chance** to drop a unique material.
+Certain Notorious Monsters within both **The Forbidden Land: Eureka Pyros** and **The Forbidden Land: Eureka Hydatos** have a **very rare chance** to drop a unique material.
 
-You must obtain one of each unique material available within each zone and speak with the **Expedition Engineer** located within each base camp to earn your 6th and 7th magicites. You may also purchase these materials off the Marketboard.
+You must obtain **1** of each unique material available within each Field Operation and speak with the **Expedition Engineer** located within each Field Operation to earn your 6th and 7th magicites. You may also purchase these materials off the Marketboard.
 
 Below is a table listing the name of the unique material and the Notorious Monster FATE it drops from.
 
@@ -58,43 +60,49 @@ Below is a table listing the name of the unique material and the Notorious Monst
 
 ### Cassie Earring, Blitzring and Optical Hat
 
-Certain Notorious Monsters within Pagos have a **very rare chance** to drop a piece of gear that increases the player's **Haste** stat, with each point being a **~1% additive increase** in skill speed and spell speed.
+Certain Notorious Monsters within **The Forbidden Land: Eureka Pagos** have a **very rare chance** to drop a piece of gear that increases the player's **Haste** stat while in **Eureka**-related Field Operations, with each point reducing the GCD's cooldown by an **additive 1%**.
 
-Both the Cassie Earring and Blitzring are available as rare drops, whereas the Optical hat can be obtained by collecting an assortment of items across Pagos and crafting them into a singular item, then completing the requisite FATE. All these items are also purchasable on the marketboard.
+Both the Cassie Earring and Blitzring are available as rare drops, whereas the Optical hat can be obtained by collecting an assortment of items across the Field Operation and crafting them into a singular item, then completing the requisite FATE. All these items are also purchasable on the marketboard.
 
 These items are **extremely rare, expensive and optional** for only a minor increase in damage (if your job directly benefits with more skill/spell speed). In the **Optical Hat's** case, it is outclassed by Elemental +2 headgear or Vermilion chestpieces due to the **Elemental Bonus** attached to both pieces, offering more raw offence and defence.
 
 ### Elemental +2 Sets and Physeos Weapons
 
-Elemental +2 Sets and Physeos Weapons are obtainable gear that offers substantial increases in universal offence and defence by increasing your **Elemental Bonus** stat.
+Elemental +2 Sets and Physeos Weapons are obtainable gear that offers substantial increases in universal offence and defence by increasing your **Elemental Bonus** stat while in **Eureka**-related Field Operations.
 
-The Elemental sets are first available from Pyros, and require players to fulfill **2 conditions** to unlock the **Expedition Artisan** in the Pyros base camp:
+The Elemental sets are first available from **The Forbidden Land: Eureka Pyros**, and require players to fulfill **2 conditions** to unlock the **Expedition Artisan**:
 1. Obtain an **Elemental stage weapon**.
-2. Discover **50 Logos actions**.
+2. Discover **50 Logos Actions**.
 
-The sets can then be augmented with the **Expedition Artisan** in the Hydatos base camp, first to +1 with **Hydatos Crystals** and finally to +2 with **Eureka Fragments**, dropped from **The Baldesion Arsenal**.
+The sets can then be augmented with the **Expedition Artisan** within **The Forbidden Land: Eureka Hydatos**, first to +1 with **Hydatos Crystals** and finally to +2 with **Eureka Fragments**, dropped from **The Baldesion Arsenal**.
 
-To upgrade your weapon to a Physeos Weapon, you must exchange both your **Eureka stage weapon** and **100 Eureka Fragments** with **Gerolt** in the Hydatos base camp.
+To upgrade your weapon to a Physeos Weapon, you must exchange both your **Eureka stage weapon** and **100 Eureka Fragments** with **Gerolt** within **The Forbidden Land: Eureka Hydatos**.
 
 ### Kirin's and Vermilion Chestpieces
 
 Kirin's and Vermilion chestpieces also offer a substantial increase in **Elemental Bonus** and **Haste**.
 
-Kirin's and Vermilion chestpieces are available for exchange with the **Nostalgic Fellow** in Kugane using **Cryptic Seals** and **Damascene Cloth**, both obtainable within **The Baldesion Arsenal**. You may also buy the armour, seals and cloths off the Marketboard or ask your local Field Operation groups for any handouts as they aren't used for much else.
+Kirin's and Vermilion chestpieces are available for exchange with the **Nostalgic Fellow** in **Kugane** using **Cryptic Seals** and **Damascene Cloth**, both obtainable within **The Baldesion Arsenal**. You may also buy the armour, seals and cloths off the Marketboard or ask your local Field Operation groups for any handouts as they aren't used for much else.
 
 ## Raid: The Baldesion Arsenal
 
+::: warning WARNING
+This guide will entail Set Ups and strategies for an **ANYPROG** run, meaning that any player at any prog-point in the raid can join.
+
+Depending on **what** type of run it is and **who** is running it, your assigned roles and Logos Actions in the raid can **change considerably**. Please confirm your role and actions with the raid leader's linked resources, and be sure to ask questions if you are unsure of anything.
+:::
+
 ### Visual Guide
 
-This visual guide details entry requirements, party and Logos action setup, boss abilities and their potential callouts. The guide also features the trash mobs between each boss, trap zones and loot. While this guide **isn't 100% accurate** on boss timelines, it should give any player a general idea of the mechanics in any given fight.
+This visual guide details entry requirements, party and Logos Action setup, boss abilities and their potential callouts. The guide also features the trash mobs between each boss, trap zones and loot. While this guide **isn't 100% accurate** on boss timelines, it should give any player a general idea of the mechanics in any given fight.
 
 <Action title='Visual Guide' color='purple' href='https://puu.sh/HSjBs/2c2182fc1d.png' />
 
 ### Entry Requirments
 
-Any player who is **Elemental Level 60**, has completed all story objectives in Hydatos and has spoken with the **Expedition Scholar** in the base camp of Hydatos can enter **The Baldesion Arsenal**.
+Any player who is **Elemental Level 60**, has completed all available story objectives in **The Forbidden Land: Eureka Hydatos** and has spoken with the **Expedition Scholar** can enter **The Baldesion Arsenal**.
 
-To enter **The Baldesion Arsenal**, a minimum of 8 players must have met the above prerequisites to spawn the **Umbral Turbulence** weather and the following Notorious Monster FATE: **I Don't Want to Believe**.
+To enter **The Baldesion Arsenal**, a minimum of **8** players must have met the above prerequisites to spawn the **Umbral Turbulence** weather and the following Notorious Monster FATE: **I Don't Want to Believe**.
 
 ::: tip I Don't Want to Believe
 **Dispel L** is required to remove any personal buffs the Notorious Monster gives itself. Look for the cast "**Fluorescence**".
@@ -105,10 +113,10 @@ Players can receive the **Aetherially Primed** buff for **10 minutes** from this
 - They are within the FATE's boundaries when it concludes.
 - They achieve a **Gold Rating**.
 
-This buff allows players to access one of the **48 Aetheric Nodes** scattered around Hydatos that spawn shortly after the FATE concludes. There are two kinds of **Nodes** that appear:
+This buff allows players to access **1** of the **48 Aetheric Nodes** scattered around Hydatos that spawn shortly after the FATE concludes. There are **2** kinds of **Nodes** that appear:
 
-1. **Unstable Aetheric Nodes**, spawning **three** minutes after the FATE concludes and **blue** in colour. Requires the buff and the use of an **Aetheric Stabilizer** to access.
-2. **Stable Aetheric Nodes**, spawning **six** minutes after the FATE concludes and **red** in colour. These can be accessed by anyone with the buff.
+1. **Unstable Aetheric Nodes**, spawning **3** minutes after the FATE concludes and **blue** in colour. Requires the buff and the use of an **Aetheric Stabilizer** to access.
+2. **Stable Aetheric Nodes**, spawning **6** minutes after the FATE concludes and **red** in colour. These can be accessed by anyone with the buff.
 
 | **Unstable Aetheric Node** | **Stable Aetheric Node** |
 | :-: | :-: |
@@ -126,7 +134,7 @@ Two major communities support Field Operations in OCE, the **Content Achievers**
 
 ### Set Up
 ::: tip NOTE
-The nature of **Logos actions** allows players to take on other roles to cover any missing bases of tanking, healing and damage.
+The nature of **Logos Actions** allows players to take on other roles to cover any missing bases of tanking, healing and damage.
 
 <Action title='Logos Actions List' color='black' href='https://ffxiv-eureka.com/logograms' />
 :::
@@ -139,15 +147,20 @@ Each party should aim for:
 
 **Extra tanks and healers** are welcome should the whole raid not have enough players to clear comfortably healthy or need a safety net for **Proto Ozma**.
 
-Additionally, everyone should have a **Spirit of the Remembered** buff active **AT ALL TIMES**, available from the Logos action of the same name. It offers you a **70% chance** to be automatically revived if you die, a very useful tool to circumnavigate the restriction on standard raises. **If it gets consumed**, find a safe moment to refresh your buff, even during battle.
+Additionally, everyone should have a **Spirit of the Remembered** buff active **AT ALL TIMES**, available from the Logos Action of the same name. It offers you a **70% chance** to be automatically revived if you die, a very useful tool to circumnavigate the restriction on standard raises. **If it gets consumed**, find a safe moment to refresh your buff, even during battle.
 
 Depending on your role, it's useful to have certain **Wisdoms** active to further amplify your role in the raid, these are:
 
-| **Main Tank** | **Off Tank** | **Pure Healer** | **Barrier Healer** | **Melee DPS** | **Phys. Ranged DPS** | **Caster DPS** |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Indomitable or Guardian| Martialist | Ordained or Aetherweaver | Templar or Aetherweaver | Duelist or Skirmisher | Fiendhunter or Skirmisher | Elder or Skirmisher|
+| **Role** | **Wisdom**
+| :- | :-: |
+| ![](/images/tags/tank.webp) **Tank** | **Main Tank** - Indomitable or Guardian <br> **Off Tank** - Martialist |
+| ![](/images/tags/healer.webp) **Healer** | **Pure Healer** - Ordained or Aetherweaver <br> **Barrier Healer** - Templar or Aetherweaver |
+| ![](/images/tags/melee.webp) **Melee DPS**| Duelist or Skirmisher |
+| ![](/images/tags/phys-ranged.webp) **Phys. Ranged DPS** | Fiendhunter or Skirmisher |
+| ![](/images/tags/caster.webp) **Caster DPS** | Elder or Skirmisher |
 
-Finally, at least a couple of **DPS players** should have the Logos action **Perception L** to uncover any **traps** littered throughout the raid as well as the **portal** leading to the secret rooms.
+
+Finally, at least a couple of **DPS players** should have the Logos Action **Perception L** to uncover any **traps** littered throughout the raid as well as the **portal** leading to the secret rooms.
 
 Below are mini-guides and example loadouts for each role within **The Baldesion Arsenal**:
 
@@ -198,7 +211,7 @@ Below is a table noting some mobs and their **dangerous casts**, as well as a li
 
 3. **Acallum no Senorach** - A raid-wide.
 
-4. **Mythcall** - Summons **four** spears around the arena that mimic the **Legendcarver** or **Legendspinner** the boss uses.
+4. **Mythcall** - Summons **4** spears around the arena that mimic the **Legendcarver** or **Legendspinner** the boss uses.
     > Players should first dodge the original cast, then dodge that same attack from the spears.
 
 5. **Legendcarver** or **Legendspinner**
@@ -211,7 +224,7 @@ Below is a table noting some mobs and their **dangerous casts**, as well as a li
 
 9. **Legendcarver** or **Legendspinner**
 
-From here, **Art** will enter a loop of attacks until it'd defeated, adding in **three** new attacks to the fray:
+From here, **Art** will enter a loop of attacks until it'd defeated, adding in **3** new attacks to the fray:
 
 - **Legendary Geas** - Targets a player with an avoidable AoE and turns the floor black in colour.
 > Players moving while the floor is darkened will be inflicted with a **Bleed** and **Heavy**. This is followed by multiple line AoEs that become difficult to dodge if you have **Heavy**.
@@ -220,7 +233,7 @@ From here, **Art** will enter a loop of attacks until it'd defeated, adding in *
 > - The targeted player must bait the AoEs away from both the party and the proximity AoE.
 > - **Art** will return at the centre of the proximity AoE.
 
-- **Piercing Dark** - A targeted AoE on **two** players.
+- **Piercing Dark** - A targeted AoE on **2** players.
 :::
 
 ::: details Owain
@@ -232,7 +245,7 @@ From here, **Art** will enter a loop of attacks until it'd defeated, adding in *
 
 2. **Acallum no Senorach** - A raid-wide.
 
-3. **Mythcall** - Summons **eight** spears around the arena that become **Fire or Ice-aspected** in the following cast.
+3. **Mythcall** - Summons **8** spears around the arena that become **Fire or Ice-aspected** in the following cast.
 
 4. **Elemental Shift** - **Owain** shifts its own element and the spears around itself to either **Fire or Ice**.
 
@@ -249,17 +262,17 @@ From here, **Art** will enter a loop of attacks until it'd defeated, adding in *
 
 10. **Thricecull**
 
-11. **Spiritcull** - **Two** players are marked with a targeted AoE and **several** other players are marked with **red triangles**.
+11. **Spiritcull** - **2** players are marked with a targeted AoE and **several** other players are marked with **red triangles**.
     > Any player with a **red triangle** mark should pair up with another marked player.
 
 12. **Thricecull**
 
-From here, **Owain** will enter a loop of attacks until it's defeated, adding in **two** new attacks to the fray:
+From here, **Owain** will enter a loop of attacks until it's defeated, adding in **2** new attacks to the fray:
 
-- **Pitfall** and **Piercing Light** - The boss will jump away, creating a proximity AoE where it lands and targeting **two** players with a targeted AoE.
+- **Pitfall** and **Piercing Light** - The boss will jump away, creating a proximity AoE where it lands and targeting **2** players with a targeted AoE.
 > - **Owain** will return at the centre of the proximity AoE.
 
-- **Hands** - **Two Ivory Palms** will spawn around the arena, **tethering** to a player. These adds will swiftly move towards the tethered player but **freeze** in place if being looked at by them. They also have a **damage resistance buff** that can be removed by being in close proximity of its tethered player.
+- **Hands** - **2 Ivory Palms** will spawn around the arena, **tethering** to a player. These adds will swiftly move towards the tethered player but **freeze** in place if being looked at by them. They also have a **damage resistance buff** that can be removed by being in close proximity of its tethered player.
     > **Tethered** players should look at their hand and move towards it to remove its buff, making sure not to touch it directly.
     >> Everyone else can wait until the buff is removed before DPS'ing them down.
 :::
@@ -299,7 +312,7 @@ Upon either the threshold being passed or the cycle completing, **Raiden** will 
 
 2. **Spirits of the Fallen**
 
-3. **Lancing Bolt** - **Six** massive targeted AoEs on random players, spawning **Streak Lightnings** where each player was hit.
+3. **Lancing Bolt** - **6** massive targeted AoEs on random players, spawning **Streak Lightnings** where each player was hit.
     > **Streak Lightnings** are **Lightning** aspected adds and render **Raiden** invulnerable while it casts its next attack.
     
 4. **Ultimate Zantetsuken**, an enrage that wipes the party if the cast finishes.
@@ -309,7 +322,7 @@ Upon either the threshold being passed or the cycle completing, **Raiden** will 
 
 6. **Booming Lament** - A large telegraphed AoE targeted on a player.
 
-From here, **Raiden** will enter a loop of attacks until it's defeated, adding in **four** new attacks to the fray:
+From here, **Raiden** will enter a loop of attacks until it's defeated, adding in **4** new attacks to the fray:
 
 - **Cloud to Ground** - **Multiple exaflares** spawn along a side of the arena.
     > Players can position in later-spawning lanes of **exaflares**, and then move into earlier-spawning lanes as the AoEs travel along the arena.
@@ -323,17 +336,17 @@ From here, **Raiden** will enter a loop of attacks until it's defeated, adding i
 
 #### Secret Rooms and Expedition Support
 
-To remove the buff that **Absolute Virtue** has, players inside the raid are required to spawn the Notorious Monster FATE **The Baldesion Arsenal: Expedition Support** and players outside the raid are required to complete it.
+To remove the buff that **Absolute Virtue** has, players inside the raid are required to spawn the Notorious Monster FATE: **The Baldesion Arsenal: Expedition Support** and players outside the raid are required to complete it.
 
 To spawn it, players must first discover the secret rooms via a portal in one of the rooms before **Absolute Virtue**. The portal can be uncovered via the use of **Perception L**.
 
-There are **six** secret rooms, each aspected to an element and each with a button that when all simultaneously pressed, will do the following:
+There are **6** secret rooms, each aspected to an element and each with a button that when all simultaneously pressed, will do the following:
 
 - Spawn the Notorious Monster FATE **The Baldesion Arsenal: Expedition Support**.
 - **Lock** the entrance to the room and spawn enemies that must be killed to unlock the entrance.
 
 ::: tip NOTE
-Because the nature of the buff on **Absolute Virtue** only requires that the FATE be spawned and completed, you may opt to **cheese** a room instead. There are **two** available methods to cheese a room:
+Because the nature of the buff on **Absolute Virtue** only requires that the FATE be spawned and completed, you may opt to **cheese** a room instead. There are **2** available methods to cheese a room:
 
 1. Use **Return** to exit the room **AND** the raid as a whole.
 
@@ -350,7 +363,7 @@ After the FATE, **8 Aetheric Nodes** will appear around Hydatos, allowing addtio
 ::: tip The Baldesion Arsenal: Expedition Support
 - **Dispel L** is required to remove any personal buffs the Notorious Monster gives itself. Look for the casts "**Mighty Strikes**" and "**Shock Spikes**".
 
-- **Wind-aspected** enemies have some slight innate evasion. Players can circumvent this via **two** Logos actions:
+- **Wind-aspected** enemies have some slight innate evasion. Players can circumvent this via **2** Logos Actions:
 
     1. **Feint L** - Reduces an enemy's evasion.
 
@@ -364,7 +377,7 @@ After the FATE, **8 Aetheric Nodes** will appear around Hydatos, allowing addtio
 **Absolute Virtue** is **Wind** aspected, so adjust your Magia board to **Wind** for defence and **Ice** for offence.
 
 ::: tip Wind-aspected Enemies
-**Wind-aspected** enemies have some slight innate evasion. Players can circumvent this via **two** Logos actions:
+**Wind-aspected** enemies have some slight innate evasion. Players can circumvent this via **2** Logos Actions:
 
 1. **Feint L** - Reduces an enemy's evasion.
 
@@ -407,7 +420,7 @@ After the FATE, **8 Aetheric Nodes** will appear around Hydatos, allowing addtio
 
 **Absolute Virtue** will then jump away, becoming untargetable and beginning the following sequence:
 
-1. **Explosive Impulse x3** - **Three** proximity AoEs along the walls of the arena. Also spawns **three** clones of **Absolute Virtue** with active **Light** or **Dark** bracelets. These clones will each cast **one Impact Stream**.
+1. **Explosive Impulse x3** - **3** proximity AoEs along the walls of the arena. Also spawns **3** clones of **Absolute Virtue** with active **Light** or **Dark** bracelets. These clones will each cast **one Impact Stream**.
 
 2. **Impact Stream**
     > To identify which clone is casting **Impact Stream**, players can follow the cut down the middle to a clone.
@@ -425,7 +438,7 @@ After the FATE, **8 Aetheric Nodes** will appear around Hydatos, allowing addtio
 
 From here, **Absolute Virtue** will enter a loop of attacks until it's defeated or it **enrages at 7:20**, adding in **one** new attack to the fray:
 
-- **Call Wyvern** - Summons **two Aern's Wynav** adds, both **Lightning** aspected.
+- **Call Wyvern** - Summons **2 Aern's Wynav** adds, both **Lightning** aspected.
     > These must be killed before they cast **Explosion**, a hefty raid-wide that also inflicts everyone with **Damage Down**.
 
 #### Boss 4 - Proto Ozma
@@ -438,7 +451,7 @@ Below is a table with every shape **Proto Ozma** can take, along with the attack
 
 | **Form** | **Form Shift** | **Auto Attacks** |
 | - | :-: | :-: |
-| **Sphere** <br> 🪩 | **Black Hole** - <br> **Six** glowing buttons appear around the arena. Players must be standing on a button to avoid being removed from the raid. Additionally, each button must have at least **one** player on it. | Highest enmity target of each platform. |
+| **Sphere** <br> 🪩 | **Black Hole** - <br> **6** glowing buttons appear around the arena. Players must be standing on a button to avoid being removed from the raid. Additionally, each button must have at least **one** player on it. | Highest enmity target of each platform. |
 | **Cube** <br> 🧊 | **Flare Star** - <br> Donut centred on **Proto Ozma**. | Line-AoE at the highest enmity target of each platform. |
 | **Pyramid** <br> ⚠️ | **Execration** - <br> Large Line-AoE down the platform. | Small AoE on a random player at the **back half** of each platform, inflicts a cleansable DoT. |
 | **Star** <br> ⭐ | **Mourning Star** - <br> PB-AoE centred on **Proto Ozma**. | Stack AoE on a random player on each platform. |
@@ -485,7 +498,7 @@ Occasionally, an **Ozmashade** will appear at the back of each platform. Each **
     > Failing this mechanic deals **90% max HP damage** to yourself and anyone around you, severely crippling you and any others against any upcoming attacks.
     >> Players are suggested to **step away** from the party to resolve these to affect as little people as possible with the punishment.
 
-4. **Meteor (Proximity)** - **Two** players per platform for a total of **six** players are targeted with a placeable proximity AoE. Each proximity AoE also spawns an **Arsenal Urolith**, a **Lightning** aspected add that players need to kill.
+4. **Meteor (Proximity)** - **2** players per platform for a total of **6** players are targeted with a placeable proximity AoE. Each proximity AoE also spawns an **Arsenal Urolith**, a **Lightning** aspected add that players need to kill.
     > - **One** player should place their AoE at the back of the platform.
     > - The **other** player should place their AoE at the **clockwise** button.
 
@@ -501,7 +514,7 @@ Occasionally, an **Ozmashade** will appear at the back of each platform. Each **
 
 2. **Auto Attacks**
 
-3. **Meteor (Proximity)** - **Two** players per platform for a total of **six** players are targeted with a placeable proximity AoE. Each proximity AoE also spawns an **Arsenal Urolith**, a **Lightning** aspected add that players need to kill.
+3. **Meteor (Proximity)** - **2** players per platform for a total of **6** players are targeted with a placeable proximity AoE. Each proximity AoE also spawns an **Arsenal Urolith**, a **Lightning** aspected add that players need to kill.
     > - **One** player should place their AoE at the back of the platform.
     > - The **other** player should place their AoE at the **clockwise** button.
 
