@@ -5,39 +5,26 @@ import {EnhanceAppContext, useRoute} from "vitepress";
 import "./custom.css";
 import FloatingVue, {createTooltip} from "floating-vue";
 import "floating-vue/dist/style.css";
+import masonry from "vue-next-masonry";
 
 // Nolebase imports
-// @ts-ignore
-import {InjectionKey, LayoutMode, Options} from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
+import {InjectionKey, LayoutMode, Options} from "@nolebase/vitepress-plugin-enhanced-readabilities"
 import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css";
 
-// @ts-ignore
 import YoutubeEmbed from "./components/YoutubeEmbed.vue";
-// @ts-ignore
 import TimingWindow from "./components/TimingWindow.vue";
-// @ts-ignore
 import ImageEmbed from "./components/ImageEmbed.vue";
-// @ts-ignore
 import StatusIcon from "./components/StatusIcon.vue";
-// @ts-ignore
 import Raidplan from "./components/Raidplan.vue";
-// @ts-ignore
 import Action from "./components/Action.vue";
-// @ts-ignore
 import ActionGroup from "./components/ActionGroup.vue";
-// @ts-ignore
 import CustomBlock from "./components/CustomBlock.vue";
-// @ts-ignore
 import GuideList from "./components/lists/GuideList.vue";
-// @ts-ignore
 import GuideButton from "./components/lists/GuideButton.vue";
-// @ts-ignore
 import GuideHome from "./components/lists/GuideHome.vue";
-// @ts-ignore
 import PartyFinder from "./components/PartyFinder.vue";
-
-// @ts-ignore
 import guide from "./layouts/guide.vue";
+import { PluginOption } from "vite";
 
 declare global {
 	interface Window {
@@ -74,6 +61,8 @@ export default {
 				},
 			},
 		});
+
+		masonry.install(ctx.app, {} as PluginOption);
 
 		if (typeof window !== "undefined") {
 			window.createTooltip = createTooltip;

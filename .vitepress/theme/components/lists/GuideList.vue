@@ -147,9 +147,12 @@ function openPage(url) {
 }
 
 .navtitle {
-	height: 50px;
+	display: flex;
+	height: 60px;
+	margin-top: 6.5px;
+	margin-bottom: 4.8px;
+	padding-top: 12px;
 	letter-spacing: -0.02em;
-	line-height: 32px;
 	font-size: 24px;
 	font-weight: 600;
 	outline: none;
@@ -157,6 +160,7 @@ function openPage(url) {
 	transition: 0.2s ease;
 	align-content: center;
 	user-select: none;
+	align-items: center;
 
 	&:hover {
 		color: var(--vp-c-brand);
@@ -164,23 +168,19 @@ function openPage(url) {
 }
 
 .navtitle_img {
-	display: inline;
 	height: 1em;
-	vertical-align: bottom;
 	margin-right: 7px;
-	margin-bottom: 3px;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .group-header {
 	font-size: 1em;
 	font-weight: 500;
-	margin-top: 0.2em;
-	margin-bottom: 0.4em;
+	padding: 0.5em 0;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	/* justify-content: center; */
 	user-select: none;
 	transition: color 0.2s ease;
 	color: var(--vp-c-text-3);
