@@ -48,7 +48,7 @@ export default {
 	margin: 16px 0;
 	max-width: 1200px;
 	text-align: center;
-	margin: auto;
+	margin: 16px auto;
 }
 .youtube-iframe {
 	width: 100%;
