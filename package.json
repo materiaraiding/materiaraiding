@@ -14,6 +14,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.17.2",
     "@types/lodash": "^4.17.16",
     "@types/markdown-it": "^14.1.2",
     "@types/markdown-it-container": "^2.0.10",

@@ -5,6 +5,7 @@ import { useData } from "vitepress";
 import { computed, onMounted } from "vue";
 import useScrollDirection from "../hooks/useScrollDirection";
 import { difficultyTypes } from "../components/lists/difficultyTypes";
+import { NolebaseEnhancedReadabilitiesMenu, NolebaseEnhancedReadabilitiesScreenMenu } from '@nolebase/vitepress-plugin-enhanced-readabilities/client';
 
 const { Layout } = DefaultTheme;
 const { frontmatter } = useData();
@@ -25,6 +26,14 @@ onMounted(() => {
 
 <template>
 	<Layout>
+		<template #nav-bar-content-after>
+			<NolebaseEnhancedReadabilitiesMenu />
+		</template>
+
+		<template #nav-screen-content-after>
+			<NolebaseEnhancedReadabilitiesScreenMenu />
+		</template>
+
 		<template #doc-before>
 			<img v-if="frontmatter.image" :src="`/images/${frontmatter.image}`" alt="DKT" width="150" style="float: right" />
 			<div v-if="frontmatter.expansion && frontmatter.difficulty" class="guide_subtitle">
