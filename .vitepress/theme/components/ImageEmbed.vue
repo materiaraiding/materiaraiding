@@ -57,7 +57,7 @@ export default {
 <style scoped>
 figure {
 	text-align: center;
-	margin: auto;
+	margin: 0 auto;
 	width: 100%;
 	max-width: 1200px;
 	margin-bottom: 0.5em;
