@@ -1,10 +1,14 @@
 import DefaultTheme from "vitepress/theme";
 import "viewerjs/dist/viewer.min.css";
 import imageViewer from "vitepress-plugin-image-viewer";
-import { EnhanceAppContext, useRoute } from "vitepress";
+import {EnhanceAppContext, useRoute} from "vitepress";
 import "./custom.css";
-import FloatingVue, { createTooltip } from 'floating-vue'
-import 'floating-vue/dist/style.css'
+import FloatingVue, {createTooltip} from "floating-vue";
+import "floating-vue/dist/style.css";
+
+// @ts-ignore
+import {InjectionKey, LayoutMode, Options} from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
+import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css";
 
 // @ts-ignore
 import YoutubeEmbed from "./components/YoutubeEmbed.vue";
@@ -58,21 +62,34 @@ export default {
 		ctx.app.component("GuideHome", GuideHome);
 		ctx.app.component("PartyFinder", PartyFinder);
 		ctx.app.use(FloatingVue, {
-			boundary: 'body',
+			boundary: "body",
 			themes: {
-				'glossary-tooltip': {
-					$extend: 'tooltip',
+				"glossary-tooltip": {
+					$extend: "tooltip",
 					hideTriggers: (events: string[]) => events,
 					instantMove: true,
-					delay: { show: 100, hide: 200 },
+					delay: {show: 100, hide: 200},
 					html: true,
-				}
+				},
 			},
 		});
 
-		if (typeof window !== 'undefined') {
+		if (typeof window !== "undefined") {
 			window.createTooltip = createTooltip;
 		}
+
+		// Register enhanced readabilities plugin options
+		ctx.app.provide(InjectionKey, {
+			layoutSwitch: {
+				defaultMode: LayoutMode.Original,
+				contentLayoutMaxWidth: {
+					default: "2000",
+				}
+			},
+			spotlight: {
+				disabled: true
+			}
+		} as Options);
 	},
 	setup() {
 		// Get route
