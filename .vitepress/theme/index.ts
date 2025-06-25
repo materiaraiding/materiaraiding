@@ -1,3 +1,4 @@
+//@ts-ignore
 import DefaultTheme from "vitepress/theme";
 import "viewerjs/dist/viewer.min.css";
 import imageViewer from "vitepress-plugin-image-viewer";
