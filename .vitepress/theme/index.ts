@@ -6,6 +6,7 @@ import "./custom.css";
 import FloatingVue, {createTooltip} from "floating-vue";
 import "floating-vue/dist/style.css";
 
+// Nolebase imports
 // @ts-ignore
 import {InjectionKey, LayoutMode, Options} from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
 import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css";
@@ -78,7 +79,7 @@ export default {
 			window.createTooltip = createTooltip;
 		}
 
-		// Register enhanced readabilities plugin options
+		// Implement options for enhanced readabilities plugin
 		ctx.app.provide(InjectionKey, {
 			layoutSwitch: {
 				defaultMode: LayoutMode.Original,
