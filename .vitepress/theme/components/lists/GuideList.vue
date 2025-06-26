@@ -148,12 +148,12 @@ function openPage(url) {
 
 .navtitle {
 	display: flex;
-	height: 60px;
-	margin-top: 6.5px;
+	height: 50px;
+	margin-top: 16.5px;
 	margin-bottom: 4.8px;
 	padding-top: 12px;
 	letter-spacing: -0.02em;
-	font-size: 24px;
+	font-size: 1.4em;
 	font-weight: 600;
 	outline: none;
 	cursor: pointer;
@@ -168,8 +168,9 @@ function openPage(url) {
 }
 
 .navtitle_img {
-	height: 1em;
+	height: 1.2em;
 	margin-right: 7px;
+	margin-left: 7px;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 

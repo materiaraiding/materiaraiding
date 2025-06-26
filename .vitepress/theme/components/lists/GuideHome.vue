@@ -57,7 +57,6 @@ function getArchiveColumns(expansion) {
 
 <style scoped>
 .navblock {
-	margin-top: 16px;
 	column-gap: 0.8rem;
 	/* flex-direction: row-reverse;  */
 }
