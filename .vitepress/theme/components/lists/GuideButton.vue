@@ -1,10 +1,10 @@
-<script setup lang="ts">
+<script setup>
 import {difficultyTypes} from "./difficultyTypes";
 import {useRouter} from "vitepress";
 
 const router = useRouter();
 
-function openPage(url: string) {
+function openPage(url) {
 	router.go(url.replace("/guides", "").toLowerCase());
 }
 
