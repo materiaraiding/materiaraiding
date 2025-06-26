@@ -1680,7 +1680,7 @@ snapshots:
     optional: true
 
   '@rollup/rollup-win32-arm64-msvc@4.40.2':
-    optional: true
+    optional: false
 
   '@rollup/rollup-win32-ia32-msvc@4.40.2':
     optional: true
