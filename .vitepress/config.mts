@@ -103,12 +103,18 @@ export default defineConfig({
 				'@nolebase/ui',
 				'@nolebase/vitepress-plugin-enhanced-readabilities/client',
 			],
+			include: ['vue-next-masonry'],
 		},
 		ssr: {
 			noExternal: [
 				'@nolebase/vitepress-plugin-enhanced-readabilities',
 				'@nolebase/ui',
 			]
-		}
+		},
+		build: {
+			commonjsOptions: {
+				include: [/vue-next-masonry/, /node_modules/],
+			},
+		},
 	},
 });
