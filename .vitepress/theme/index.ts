@@ -72,9 +72,7 @@ export default {
 		ctx.app.provide(InjectionKey, {
 			layoutSwitch: {
 				defaultMode: LayoutMode.Original,
-				contentLayoutMaxWidth: {
-					default: "2000",
-				}
+				disableAnimation: true,
 			},
 			spotlight: {
 				disabled: true
