@@ -2,6 +2,7 @@
 import GuideList from "./GuideList.vue";
 import { difficultyTypes } from "./difficultyTypes";
 import { data as archivePages } from "../loaders/archives.data";
+import { computed, ref, onMounted, onBeforeUnmount } from 'vue';
 
 const { isArchive, expansion, grouping } = defineProps({
 	isArchive: {
@@ -18,7 +19,17 @@ const { isArchive, expansion, grouping } = defineProps({
 	},
 });
 
-const defaultCols = { default: 5, 1250: 4, 1000: 3, 700: 2, 400: 1 };
+let breakpoints = { default: 5, 1250: 4, 1000: 3, 700: 2, 400: 1 };
+breakpoints = (isArchive && expansion) ? getArchiveColumns(expansion) : breakpoints;
+
+const columnCount = ref(breakpoints.default);
+const columns = computed(() => {
+	const cols = Array.from({ length: columnCount.value }, () => []);
+	difficultyTypes.forEach((item, i) => {
+		cols[i % columnCount.value].push(item);
+	});
+	return cols;
+});
 
 function getArchiveColumns(expansion) {
 	const difficulties = new Map();
@@ -26,38 +37,60 @@ function getArchiveColumns(expansion) {
 		.filter(p => p.frontmatter.expansion === expansion)
 		.forEach(p => difficulties.set(p.frontmatter.difficulty, null));
 
-	if (difficulties.size > defaultCols.default) {
-		return defaultCols;
+	if (difficulties.size >= breakpoints.default) {
+		return breakpoints;
 	}
 
 	const trimmedCols = { default: difficulties.size };
-	for (const [key, value] of Object.entries(defaultCols)) {
-		if (key !== "default" && value <= difficulties.size) {
-			trimmedCols[key] = value;
+	for (const [bp, cols] of Object.entries(breakpoints)) {
+		if (bp !== "default" && cols <= difficulties.size) {
+			trimmedCols[bp] = cols;
 		}
 	}
 
 	return trimmedCols;
 }
+
+function updateColumnCount() {
+	const width = window.innerWidth;
+	for (const [bp, cols] of Object.entries(breakpoints)) {
+		if (width <= bp && bp !== "default") {
+			columnCount.value = cols;
+			return;
+		}
+	}
+	columnCount.value = breakpoints.default;
+}
+
+onMounted(() => {
+	updateColumnCount();
+	window.addEventListener('resize', updateColumnCount);
+});
+
+onBeforeUnmount(() => {
+	window.removeEventListener('resize', updateColumnCount);
+});
 </script>
 
 <template>
-	<masonry :cols="isArchive ? getArchiveColumns(expansion) : defaultCols" class="navblock">
-		<template v-for="difficulty in difficultyTypes" :key="difficulty.type">
-			<GuideList 
-				:difficulty="difficulty.type" 
-				:includeTitle="true" 
-				:grouping="grouping" 
-				:isArchiveList="isArchive"
-				:expansion="expansion" 
-			/>
-		</template>
-	</masonry>
+	<div class="navblock">
+		<div v-for="(column, colIndex) in columns" :key="colIndex" class="masonry-column">
+			<GuideList v-for="difficulty in column" :key="difficulty.type" :difficulty="difficulty.type" :includeTitle="true"
+				:grouping="grouping" :isArchiveList="isArchive" :expansion="expansion" />
+		</div>
+	</div>
 </template>
 
 <style scoped>
 .navblock {
-	column-gap: 0.8rem;
-	/* flex-direction: row-reverse;  */
+	display: flex;
+	gap: 1rem;
+	align-items: flex-start;
+}
+
+.masonry-column {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
 }
 </style>
