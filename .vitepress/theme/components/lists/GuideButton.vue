@@ -1,18 +1,17 @@
 <script setup>
+import { computed } from 'vue';
 import {difficultyTypes} from "./difficultyTypes";
-import {useRouter} from "vitepress";
-
-const router = useRouter();
-
-function openPage(url) {
-	router.go(url.replace("/guides", "").toLowerCase());
-}
 
 const props = defineProps({
 	page: {
 		type: Object,
 		required: true,
 	},
+});
+
+// Compute the proper href for the link
+const linkHref = computed(() => {
+  return props.page.url.replace("/guides", "").toLowerCase();
 });
 
 // Determine the difficulty type and its associated properties from the difficultyTypes array
@@ -24,14 +23,14 @@ const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter
 </script>
 
 <template>
-	<div
+	<a
 		:class="`navlink ${difficulty.colorClass}`"
-		@click="openPage(props.page.url)"
+		:href="linkHref"
 		:style="{
 			'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('${props.page.frontmatter.banner}')`,
 		}">
 		{{ props.page.frontmatter.fightID }}
-	</div>
+	</a>
 </template>
 
 <style scoped>
@@ -52,6 +51,8 @@ const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter
 	text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
 	font-weight: 500;
 	max-width: 400px;
+	text-decoration: none;
+	color: inherit;
 	&:hover {
 		color: #ffffff;
 		border: 3px solid #ffffff;
