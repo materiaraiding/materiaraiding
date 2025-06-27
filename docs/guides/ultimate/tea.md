@@ -7,14 +7,9 @@ banner: /images/banners/TEA.webp
 difficulty: Ultimate
 expansion: Shadowbringers
 image: tea-bjcc2.webp
+authors: [MR, Noz, Kur Rumi, Olg, Em]
 discussionLink: https://discord.com/channels/944115415385247784/954964515399811093
 ---
-
-## Credits
-- Toolboxes by MUR
-- PoVs by Kur Rumi, Olg
-- Cheatsheets by MUR and Em Gram
-- Written guide by Noz
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.

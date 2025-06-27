@@ -7,14 +7,10 @@ banner: /images/banners/UWU.webp
 difficulty: Ultimate
 expansion: Stormblood
 image: uwu-ultima.webp
+authors: [Em, Noz, MUR, Kur Rumi]
 discussionLink: https://discord.com/channels/944115415385247784/954964398206758952
 glossary: UWU
 ---
-## Credits
-- Written Guide by Em Gram and Noz
-- Editing by Noz
-- Toolboxes by MUR
-- PoVs by Kur Rumi
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.

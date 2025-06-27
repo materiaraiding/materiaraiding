@@ -6,6 +6,7 @@ description: A Materia Raiding strategy guide for the Suzaku Unreal fight in Fin
 banner: /images/banners/suzaku.webp
 expansion: Dawntrail
 difficulty: Unreal
+authors: [MR, Kobe]
 discussionLink: https://discord.com/channels/895516967543390249/1011883681222234182
 ---
 

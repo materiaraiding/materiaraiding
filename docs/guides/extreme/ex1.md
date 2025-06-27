@@ -7,6 +7,7 @@ banner: /images/banners/EX1.webp
 expansion: Dawntrail
 difficulty: Extreme
 permalink: /ex1
+authors: [MR]
 discussionLink: https://discord.com/channels/895516967543390249/1011883681222234182
 ---
 

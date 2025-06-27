@@ -7,12 +7,9 @@ banner: /images/banners/M2S.webp
 expansion: Dawntrail
 tier: AAC Light-heavyweight
 difficulty: Savage
+authors: [MR, Kobe, DiscoKnees]
 discussionLink: https://discord.com/channels/895516967543390249/1267677717495681064
 ---
-## Credits
-- Materia Raiding (macros/waymarks)
-- Kobe (video guide)
-- DiscoKnees (PoV)
 
 ## Macros
 

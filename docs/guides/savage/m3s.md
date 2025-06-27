@@ -7,13 +7,9 @@ banner: /images/banners/M3S.webp
 expansion: Dawntrail
 tier: AAC Light-heavyweight
 difficulty: Savage
+authors: [MR, Kobe, Valyntine]
 discussionLink: https://discord.com/channels/895516967543390249/1267677717495681064
 ---
-## Credits
-- Materia Raiding (macros/waymarks)
-- Em Gram (toolbox)
-- Velyntine (toolbox)
-- Kobe (video guide)
 
 ## Macros
 

@@ -7,12 +7,10 @@ banner: /images/banners/UCOB.webp
 difficulty: Ultimate
 expansion: Stormblood
 image: ucob-goldenbaha.webp
+authors: [Em, Noz, Kur Rumi]
 discussionLink: https://discord.com/channels/944115415385247784/954964367462514710
 glossary: UCOB
 ---
-## Credits
-- Written Guide by Em Gram (Phases 1, 2 and 3) and Noz (Phases 4 and 5)
-- PoVs by Kur Rumi
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.

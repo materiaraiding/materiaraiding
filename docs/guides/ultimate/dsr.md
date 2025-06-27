@@ -7,6 +7,7 @@ banner: /images/banners/DSR.webp
 difficulty: Ultimate
 expansion: Endwalker
 image: dsr-dkt.webp
+authors: [Juno, Tessan Twintails, MUR]
 discussionLink: https://discord.com/channels/944115415385247784/954964560606015508
 ---
 ## Credits

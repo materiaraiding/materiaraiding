@@ -5,10 +5,10 @@ title: Another Sil'dihn Subterrane
 description: A guide for the Another Sil'dihn Subterrane Criterion dungeon in Final Fantasy XIV.
 banner: /images/banners/ASS.webp
 expansion: Endwalker
+authors: [MR]
 difficulty: Criterion
 ---
 ## Macros
-By Materia Raiding
 
 ### Boss 1
 ```markdown

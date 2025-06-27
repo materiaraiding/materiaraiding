@@ -7,11 +7,9 @@ banner: /images/banners/TOP.webp
 difficulty: Ultimate
 expansion: Endwalker
 image: top-alphaomega.webp
+authors: [Juno, Bird, MUR]
 discussionLink: https://discord.com/channels/944115415385247784/1055803481820246056
 ---
-## Credits
-- Written guide by Juno
-- Diagrams by Juno, Bird, MUR
 
 ## Toolbox/Raidplan
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.

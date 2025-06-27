@@ -7,13 +7,9 @@ banner: /images/banners/M4S.webp
 expansion: Dawntrail
 tier: AAC Light-heavyweight
 difficulty: Savage
+authors: [MR, Evansith, Liminal Space, Kobe]
 discussionLink: https://discord.com/channels/895516967543390249/1267677404135034930
 ---
-## Credits
-- Materia Raiding (macros/waymarks)
-- Evansith (toolbox)
-- Liminal Space (toolbox)
-- Kobe (video guide)
 
 ## Macros
 

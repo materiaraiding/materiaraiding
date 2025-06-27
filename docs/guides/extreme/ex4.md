@@ -6,6 +6,7 @@ description: A guide for the Recollection Extreme trial in Final Fantasy XIV.
 banner: /images/banners/EX4.webp
 expansion: Dawntrail
 difficulty: Extreme
+authors: [Kobe, MR]
 discussionLink: https://discordapp.com/channels/895516967543390249/1353964988712091739
 ---
 ## Macro

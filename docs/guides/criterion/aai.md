@@ -5,6 +5,7 @@ title: Another Aloalo Island
 description: A guide for the Another Aloalo Island Criterion dungeon in Final Fantasy XIV.
 banner: /images/banners/AAI.webp
 expansion: Endwalker
+authors: [Kobe, MR]
 difficulty: Criterion
 ---
 ## Boss 1
