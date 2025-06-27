@@ -1,6 +1,8 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: Materia Raiding
+description: Materia Raiding is the home of Materia Datacenter Resources for FFXIV raiding. In-depth guides and resources for all high-end raiding content designed for the Materia Datacenter community.
 
 hero:
     name: "Welcome to Materia Raiding"
