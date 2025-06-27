@@ -58,8 +58,8 @@ export default {
 figure {
 	text-align: center;
 	margin: 0 auto;
-	width: 100%;
-	max-width: 1200px;
+	width: max-content;
+	max-width: 100%;
 	margin-bottom: 0.5em;
 }
 img {

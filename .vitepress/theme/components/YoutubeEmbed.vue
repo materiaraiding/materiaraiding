@@ -46,9 +46,6 @@ export default {
 .youtube-container {
 	aspect-ratio: 16 / 9;
 	margin: 16px 0;
-	max-width: 1200px;
-	text-align: center;
-	margin: 16px auto;
 }
 .youtube-iframe {
 	width: 100%;

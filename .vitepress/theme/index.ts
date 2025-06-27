@@ -6,10 +6,6 @@ import "./custom.css";
 import FloatingVue, {createTooltip} from "floating-vue";
 import "floating-vue/dist/style.css";
 
-// Nolebase imports
-import {InjectionKey, LayoutMode, Options} from "@nolebase/vitepress-plugin-enhanced-readabilities"
-import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css";
-
 import YoutubeEmbed from "./components/YoutubeEmbed.vue";
 import TimingWindow from "./components/TimingWindow.vue";
 import ImageEmbed from "./components/ImageEmbed.vue";
@@ -63,17 +59,6 @@ export default {
 		if (typeof window !== "undefined") {
 			window.createTooltip = createTooltip;
 		}
-
-		// Implement options for enhanced readabilities plugin
-		ctx.app.provide(InjectionKey, {
-			layoutSwitch: {
-				defaultMode: LayoutMode.Original,
-				disableAnimation: true,
-			},
-			spotlight: {
-				disabled: true
-			}
-		} as Options);
 	},
 	setup() {
 		// Get route
