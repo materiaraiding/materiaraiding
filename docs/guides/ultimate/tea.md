@@ -2,6 +2,7 @@
 order: 3
 fightID: TEA
 title: The Epic of Alexander
+description: A Materia Raiding strategy guide for The Epic of Alexander Ultimate fight in Final Fantasy XIV.
 banner: /images/banners/TEA.webp
 difficulty: Ultimate
 expansion: Shadowbringers

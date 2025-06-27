@@ -2,6 +2,7 @@
 order: 3
 fightID: EX3
 title: The Interphos
+description: A guide for the Everkeep Extreme trial in Final Fantasy XIV.
 banner: /images/banners/EX3.webp
 expansion: Dawntrail
 difficulty: Extreme

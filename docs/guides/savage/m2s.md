@@ -2,6 +2,7 @@
 order: 2
 fightID: M2S
 title: AAC Light-heavyweight M2
+description: A Materia Raiding strategy guide for the AAC Light-heavyweight M2 Savage fight in Final Fantasy XIV for the Materia Datacenter.
 banner: /images/banners/M2S.webp
 expansion: Dawntrail
 tier: AAC Light-heavyweight

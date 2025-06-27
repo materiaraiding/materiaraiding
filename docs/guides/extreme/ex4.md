@@ -2,6 +2,7 @@
 order: 4
 fightID: EX4
 title: Recollection
+description: A guide for the Recollection Extreme trial in Final Fantasy XIV.
 banner: /images/banners/EX4.webp
 expansion: Dawntrail
 difficulty: Extreme

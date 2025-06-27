@@ -2,6 +2,7 @@
 order: 5
 fightID: TOP
 title: The Omega Protocol
+description: A Materia Raiding strategy guide for The Omega Protocol Ultimate fight in Final Fantasy XIV.
 banner: /images/banners/TOP.webp
 difficulty: Ultimate
 expansion: Endwalker

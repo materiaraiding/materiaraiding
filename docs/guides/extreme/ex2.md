@@ -2,6 +2,7 @@
 order: 2
 fightID: EX2
 title: Everkeep
+description: A guide for the Everkeep Extreme trial in Final Fantasy XIV.
 banner: /images/banners/EX2.webp
 expansion: Dawntrail
 difficulty: Extreme

@@ -2,6 +2,7 @@
 order: 2
 fightID: UWU
 title: The Weapon's Refrain
+description: A Materia Raiding strategy guide for The Weapon's Refrain Ultimate fight in Final Fantasy XIV.
 banner: /images/banners/UWU.webp
 difficulty: Ultimate
 expansion: Stormblood

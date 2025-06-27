@@ -2,6 +2,7 @@
 fightID: COD
 order: 1
 title: The Cloud of Darkness (Chaotic)
+description: A guide to the Chaotic Cloud of Darkness in Dawntrail.
 banner: /images/banners/COD.webp
 expansion: Dawntrail
 difficulty: Chaotic

@@ -2,8 +2,8 @@
 order: 6
 fightID: FRU
 title: Futures Rewritten
+description: A Materia Raiding strategy guide for the Futures Rewritten Ultimate fight in Final Fantasy XIV.
 banner: /images/banners/FRU.webp
-description: Materia Resources and Guide for Future's Rewritten (Ultimate).
 difficulty: Ultimate
 expansion: Dawntrail
 image: fru-eden.webp

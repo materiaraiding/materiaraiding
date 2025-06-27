@@ -2,6 +2,7 @@
 order: 4
 fightID: DSR
 title: Dragonsong's Reprise
+description: A Materia Raiding strategy guide for the Dragonsong's Reprise Ultimate raid in Final Fantasy XIV.
 banner: /images/banners/DSR.webp
 difficulty: Ultimate
 expansion: Endwalker

@@ -2,6 +2,7 @@
 order: 3
 fightID: M3S
 title: AAC Light-heavyweight M3
+description: A Materia Raiding strategy guide for the AAC Light-heavyweight M3 Savage fight in Final Fantasy XIV for the Materia Datacenter.
 banner: /images/banners/M3S.webp
 expansion: Dawntrail
 tier: AAC Light-heavyweight

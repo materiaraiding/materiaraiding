@@ -2,6 +2,7 @@
 order: 1
 fightID: EX1
 title: Worqor Lar Dor
+description: A guide for the Worqor Lar Dor Extreme trial in Final Fantasy XIV.
 banner: /images/banners/EX1.webp
 expansion: Dawntrail
 difficulty: Extreme

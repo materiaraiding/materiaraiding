@@ -2,6 +2,7 @@
 order: 1
 fightID: UCOB
 title: The Unending Coil of Bahamut
+description: A Materia Raiding strategy guide for the Unending Coil of Bahamut Ultimate fight in Final Fantasy XIV.
 banner: /images/banners/UCOB.webp
 difficulty: Ultimate
 expansion: Stormblood

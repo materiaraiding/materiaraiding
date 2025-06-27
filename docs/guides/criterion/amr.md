@@ -2,6 +2,7 @@
 order: 2
 fightID: AMR
 title: Another Mount Rokkon
+description: A guide for the Another Mount Rokkon Criterion dungeon in Final Fantasy XIV.
 banner: /images/banners/AMR.webp
 expansion: Endwalker
 difficulty: Criterion

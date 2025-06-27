@@ -2,6 +2,7 @@
 order: 1
 fightID: ASS
 title: Another Sil'dihn Subterrane
+description: A guide for the Another Sil'dihn Subterrane Criterion dungeon in Final Fantasy XIV.
 banner: /images/banners/ASS.webp
 expansion: Endwalker
 difficulty: Criterion

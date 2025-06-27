@@ -2,6 +2,7 @@
 order: 1
 fightID: M1S
 title: AAC Light-heavyweight M1
+description: A Materia Raiding strategy guide for the AAC Light-heavyweight M1 Savage fight in Final Fantasy XIV for the Materia Datacenter.
 banner: /images/banners/M1S.webp
 expansion: Dawntrail
 tier: AAC Light-heavyweight
