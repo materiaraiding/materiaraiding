@@ -25,7 +25,8 @@ Read on for more information about the Field Operation or click below to jump to
 :actions=" [
 { title: 'Boss 1 - Demon Tablet', color: 'red', href: 'https://raidplan.io/plan/jar7czxup3wu8chh' },
 { title: 'Boss 2 - Trio', color: 'purple', href: 'https://raidplan.io/plan/5gf9cxkkffcfucew' },
-{ title: 'Boss 3 - Marble Dragon', color: 'blue', href: 'https://raidplan.io/plan/_3HykkEJjbEZu6JV' }
+{ title: 'Boss 3 - Marble Dragon', color: 'blue', href: 'https://raidplan.io/plan/_3HykkEJjbEZu6JV' },
+{ title: 'Boss 4 - Magitaur', color: 'green', href: 'https://raidplan.io/plan/nGscIqvbyUU7bfEx' },
 ]"
 />
 
@@ -109,10 +110,11 @@ This section is still being written and is subject to changes.
 
 <ActionGroup
 :actions=" [
-    { title: 'Boss 1 - Demon Tablet', color: 'red', href: 'https://raidplan.io/plan/jar7czxup3wu8chh' },
-    { title: 'Boss 2 - Trio', color: 'purple', href: 'https://raidplan.io/plan/5gf9cxkkffcfucew' },
-	{ title: 'Boss 3 - Marble Dragon', color: 'blue', href: 'https://raidplan.io/plan/_3HykkEJjbEZu6JV' }
-    ]"
+{ title: 'Boss 1 - Demon Tablet', color: 'red', href: 'https://raidplan.io/plan/jar7czxup3wu8chh' },
+{ title: 'Boss 2 - Trio', color: 'purple', href: 'https://raidplan.io/plan/5gf9cxkkffcfucew' },
+{ title: 'Boss 3 - Marble Dragon', color: 'blue', href: 'https://raidplan.io/plan/_3HykkEJjbEZu6JV' },
+{ title: 'Boss 4 - Magitaur', color: 'green', href: 'https://raidplan.io/plan/nGscIqvbyUU7bfEx' },
+]"
 />
 
 ### Video Guides
