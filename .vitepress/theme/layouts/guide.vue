@@ -30,9 +30,9 @@ onMounted(() => {
 			<div v-if="frontmatter.expansion && frontmatter.difficulty" class="guide_subtitle">
 				{{ frontmatter.expansion }} - {{ frontmatter.difficulty }} - {{ frontmatter.fightID }}
 			</div>
-			<h1 v-if="frontmatter.fightID" class="guide_title" id="{{frontmatter.title}}">
+			<h1 v-if="frontmatter.fightID" class="guide_title" :id="frontmatter.title">
 				<img :src="icon" /> {{ frontmatter.title }}
-				<a href="{{frontmatter.fightID}}" class="header-anchor" />
+				<a :href="frontmatter.fightID.toLowerCase()" class="header-anchor" ></a>
 			</h1>
 			<div v-if="frontmatter.difficulty" class="guide_label_box">
 				<a v-if="frontmatter.difficulty?.toLowerCase() === 'ultimate'" href="https://discord.gg/ArZz3b8PZV"
