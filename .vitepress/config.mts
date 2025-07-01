@@ -9,6 +9,8 @@ import {
 } from "./plugins/markdown";
 import { generateFullNav, generateFullSidebar } from "./navigation";
 
+// PR Test
+
 // Manually defined resources for nav and sidebar
 const resourcesNav = [
 	{
