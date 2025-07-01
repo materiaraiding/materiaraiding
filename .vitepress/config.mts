@@ -116,6 +116,7 @@ export default defineConfig({
 
 		head.push(['meta', { property: 'og:image', content: "https://materiaraiding.com/images/icons/materia.webp" }])
 		head.push(['meta', { property: 'og:image:alt', content: "Materia Icon" }])
+		head.push(['meta', { property: 'theme-color ', content: "#c77676" }])
 
 		head.push(['meta', { property: 'og:site_name', content: "Materia Raiding" }])
 		head.push(['meta', { property: 'og:type ', content: "website" }])
