@@ -1,4 +1,4 @@
-import {defineConfig} from "vitepress";
+import { defineConfig, HeadConfig } from "vitepress";
 import {
 	imagePlugin,
 	customBlockPlugin,
@@ -111,4 +111,23 @@ export default defineConfig({
 			]
 		}
 	},
+	transformHead: ({ pageData }) => {
+		const head: HeadConfig[] = []
+
+		head.push(['meta', { property: 'og:image', content: "https://materiaraiding.com/images/icons/materia.webp" }])
+		head.push(['meta', { property: 'og:image:alt', content: "Materia Icon" }])
+
+		head.push(['meta', { property: 'og:site_name', content: "Materia Raiding" }])
+		head.push(['meta', { property: 'og:type ', content: "website" }])
+
+		if (pageData.frontmatter.title) {
+			head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
+		}
+
+		if (pageData.frontmatter.description) {
+			head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
+		}
+
+		return head
+	}
 });
