@@ -103,6 +103,9 @@ export default defineConfig({
 			md.use(glossaryPlugin);
 			md.use(statusIconPlugin);
 		},
+		languageAlias: {
+			'macro': 'markdown'
+		}
 	},
 	rewrites: {
 		'guides/chaotic/:slug*': 'chaotic/:slug*',
