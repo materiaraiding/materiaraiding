@@ -14,24 +14,24 @@ const resourcesNav = [
 	{
 		text: "Guides",
 		items: [
-			{text: "Beginners Guide", link: "/resources/beginnersguide"},
-			{text: "Visitors Guide", link: "/resources/visitorsguide"},
+			{ text: "Beginners Guide", link: "/resources/beginnersguide" },
+			{ text: "Visitors Guide", link: "/resources/visitorsguide" },
 		],
 	},
 	{
 		text: "Resources",
 		items: [
-			{text: "Plugins", link: "/resources/plugins"},
-			{text: "Macro Mate", link: "/resources/macromate"},
-			{text: "Raidplan Templates", link: "/resources/raidplantemplates"},
-			{text: "Glossary", link: "/resources/glossary"},
+			{ text: "Plugins", link: "/resources/plugins" },
+			{ text: "Macro Mate", link: "/resources/macromate" },
+			{ text: "Raidplan Templates", link: "/resources/raidplantemplates" },
+			{ text: "Glossary", link: "/resources/glossary" },
 		],
 	},
 ];
 
 const extraLinks = [
-	{text: "Party Finder", link: "/partyfinder"},
-	{text: "Directory", link: "https://materia.directory/"},
+	{ text: "Party Finder", link: "/partyfinder" },
+	{ text: "Directory", link: "https://materia.directory/" },
 ];
 
 // https://vitepress.dev/reference/site-config
@@ -40,7 +40,7 @@ export default defineConfig({
 	title: "Materia Raiding",
 	description:
 		"Materia Raiding is a community driven project to collate the various guide and tools created for raiding in the FF14 Materia Datacenter.",
-	head: [["link", {rel: "icon", href: "/images/favicon.ico"}]],
+	head: [["link", { rel: "icon", href: "/images/favicon.ico" }]],
 	cleanUrls: true,
 	ignoreDeadLinks: true,
 	lastUpdated: true,
@@ -57,10 +57,28 @@ export default defineConfig({
 		sidebar: generateFullSidebar(resourcesNav),
 		search: {
 			provider: "local",
+			options: {
+				miniSearch: {
+					searchOptions: {
+						fuzzy: 0,
+						fields: ['title', 'titles']
+					}
+				},
+				_render(src, env, md) {
+					const html = md.render(src, env)
+					const title = env.frontmatter?.title;
+					const fightId = env.frontmatter?.fightID;
+					if (title && fightId) {
+						const result = md.render(`# ${fightId} - ${title}`) + html;
+						return result;
+					}
+					return html;
+				}
+			}
 		},
 		socialLinks: [
-			{icon: "discord", link: "https://discord.gg/EySn5dRj65"},
-			{icon: "github", link: "https://github.com/materiaraiding/materiaraiding"},
+			{ icon: "discord", link: "https://discord.gg/EySn5dRj65" },
+			{ icon: "github", link: "https://github.com/materiaraiding/materiaraiding" },
 		],
 		editLink: {
 			pattern: "https://github.com/materiaraiding/materiaraiding/edit/main/docs/:path",
