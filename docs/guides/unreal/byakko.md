@@ -1,6 +1,6 @@
 ---
 fightID: Byakko
-order: 2
+order: 3
 title: The Jade Stoa (Unreal)
 description: A Materia Raiding strategy guide for the Byakko Unreal fight in Final Fantasy XIV for the Materia Datacenter.
 banner: /images/banners/byakko.webp
