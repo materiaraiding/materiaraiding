@@ -13,10 +13,10 @@ discussionLink: https://discord.com/channels/895516967543390249/1011883681222234
 ## Video Guide
 By Kobe
 
-<!--- (@[]([URL Here]) --->
+@[](https://youtu.be/g-OOV3G_CoY)
 
 ## Macro
-```
+```macro
 ■【Tethers + Interrupt Order】
 　 ※ MT - West | OT - East
 　 ※ MT 1st -> OT 2nd
@@ -34,7 +34,7 @@ By Kobe
 ## Waymarks
 Waymarks can be imported to the game using *Waymark Preset Plugin*, or you can ask a friend to import them for you and save a copy for yourself.
 
-```
+```waymarks
 {"Name":"Seiryu","MapID":638,"A":{"X":100.0,"Y":0.0,"Z":84.0,"ID":0,"Active":true},"B":{"X":116.0,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":116.0,"ID":2,"Active":true},"D":{"X":84.0,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":89.0,"Y":0.0,"Z":89.0,"ID":4,"Active":true},"Two":{"X":111.0,"Y":0.0,"Z":89.0,"ID":5,"Active":true},"Three":{"X":111.0,"Y":0.0,"Z":111.0,"ID":6,"Active":true},"Four":{"X":89.0,"Y":0.0,"Z":111.0,"ID":7,"Active":true}}
 ```
 
