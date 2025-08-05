@@ -22,7 +22,7 @@ By Kobe
 @[]([URL Here])
 
 ## Toolbox
-Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
+Toolboxes are an interactive guide that allows you to click through each phase individually and review the mechanics in a easy to understand manner.
 
 <Action title='Toolbox' color='purple' href='[URL here]' />
 
