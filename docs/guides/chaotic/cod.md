@@ -2,11 +2,11 @@
 fightID: COD
 order: 1
 title: The Cloud of Darkness (Chaotic)
-description: A guide to the Chaotic Cloud of Darkness in Dawntrail.
+description: A guide for The Cloud of Darkness (Chaotic) in Dawntrail.
 banner: /images/banners/COD.webp
 expansion: Dawntrail
 difficulty: Chaotic
-authors: [ Kobe, Pipiro, Emilios ]
+authors: [ Kobe, Pipiro, Pod ]
 discussionLink: https://discord.com/channels/895516967543390249/1321109667644182653
 ---
 

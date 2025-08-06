@@ -2,10 +2,10 @@
 order: 4
 fightID: FT
 banner: /images/banners/forkedtower.webp
-title: "The Occult Crescent - The Forked Tower: Blood"
-description: "Materia Raiding strategy guide for the Forked Tower - Blood raid in The Occult Crescent: South Horn. Includes raid plans, boss strategies, and entry requirements."
+title: "The Forked Tower: Blood"
+description: "Materia Raiding strategy guide for the Forked Tower: Blood raid in The Occult Crescent: South Horn. Includes raid plans, boss strategies, and entry requirements."
 expansion: Dawntrail
-authors: [Em, Juno, Val, Emilios, Fae Fiyaa, Lynn Kaneko, CA, MoG]
+authors: [Em, Juno, Val, Pod, Fae Fiyaa, Lynn Kaneko, CA, MoG]
 difficulty: Field Operations
 ---
 

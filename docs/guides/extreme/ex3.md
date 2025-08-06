@@ -1,8 +1,8 @@
 ---
 order: 3
 fightID: EX3
-title: The Interphos
-description: A guide for the Everkeep Extreme trial in Final Fantasy XIV.
+title: "The Minstrel's Ballad: Sphene's Burden"
+description: "A guide for The Interphos Extreme trial in Final Fantasy XIV: Dawntrail."
 banner: /images/banners/EX3.webp
 expansion: Dawntrail
 difficulty: Extreme

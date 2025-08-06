@@ -2,7 +2,7 @@
 fightID: EX5
 order: 5
 title: "The Minstrel's Ballad: Necron's Embrace"
-description: A guide for The Ageless Necropolis Extreme trial in Final Fantasy XIV.
+description: "A guide for The Ageless Necropolis Extreme trial in Final Fantasy XIV: Dawntrail."
 banner: /images/banners/hidden.webp
 expansion: Dawntrail
 difficulty: Extreme
@@ -14,17 +14,22 @@ discussionLink: https://discord.com/channels/895516967543390249/1011883681222234
 This page is a work in progress and will be updated as soon as possible.
 :::
 
-<!---
+## Raidplans
+Raidplans are an interactive guide that allows you to click through each phase individually and review the mechanics in a easy to understand manner.
+
+<ActionGroup
+:actions="[
+{ title: 'Opener -> Adds', color: 'purple', href: 'https://raidplan.io/plan/UTl8MUlR0_Wsy1zk' },
+{ title: 'Specter of Death -> Enrage', color: 'white', href: 'https://raidplan.io/plan/dzrj3_3MLWwmDW8t' },
+]"
+/>
 
 ## Video Guide
 By Kobe
 
-@[]([URL Here])
+@[](https://youtu.be/bla48p52EKo)
 
-## Toolbox
-Toolboxes are an interactive guide that allows you to click through each phase individually and review the mechanics in a easy to understand manner.
-
-<Action title='Toolbox' color='purple' href='[URL here]' />
+<!---
 
 ## Macro
 
