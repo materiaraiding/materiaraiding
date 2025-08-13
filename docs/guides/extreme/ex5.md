@@ -11,7 +11,7 @@ discussionLink: https://discord.com/channels/895516967543390249/1011883681222234
 ---
 
 ## Raidplans
-Raidplans are an interactive guide that allow you to click through each phase individually and review the mechanics in a easy to understand manner.
+Raidplans are an interactive guide that allow you to click through each phase individually and review the mechanics in an easy to understand manner.
 
 <ActionGroup
 :actions="[
