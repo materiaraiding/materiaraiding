@@ -2,10 +2,10 @@
 order: 2
 fightID: DRS
 banner: /images/banners/DRS.webp
-title: "Save the Queen: Blades of Gunnhildr - Delubrum Reginae (Savage)"
+title: Delubrum Reginae (Savage)
 description: Materia Raiding strategy guide for Delubrum Reginae (Savage) raid in Save the Queen. Includes boss strategies and entry requirements.
 expansion: Shadowbringers
-authors: [Emilios, Lia Alir, Helios Dhanu, O'palt Jhaid, CA, MoG]
+authors: [Pod, Lia Alir, Helios Dhanu, O'palt Jhaid, CA, MoG]
 difficulty: Field Operations
 ---
 

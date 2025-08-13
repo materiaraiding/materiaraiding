@@ -2,10 +2,10 @@
 order: 1
 fightID: BA
 banner: /images/banners/baldesionarsenal.webp
-title: "The Forbidden Land: Eureka - The Baldesion Arsenal"
+title: The Baldesion Arsenal
 description: Materia Raiding strategy guide for The Baldesion Arsenal in The Forbidden Land, Eureka Hydatos. Includes boss strategies and entry requirements.
 expansion: Stormblood
-authors: [Emilios, Noranda, CA, MoG]
+authors: [Pod, Noranda, CA, MoG]
 difficulty: Field Operations
 ---
 
