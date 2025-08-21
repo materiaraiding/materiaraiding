@@ -33,10 +33,10 @@ Even: Cleave NE, Party SE, Tether Order: 8->2->4->6
 
 ## Diagrams
 
-![image](/images/ex5-1.webp)
+![image](/images/archive/rubicante-scalding.webp)
 
-![image](/images/ex5-2.webp)
+![image](/images/archive/rubicante-sweeping.webp)
 
-![image](/images/ex5-3.webp)
+![image](/images/archive/rubicante-flamespire.webp)
 
-![image](/images/ex5-4.webp)
+![image](/images/archive/rubicante-ordeal.webp)

@@ -76,11 +76,11 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 
 ## Cheatsheets
 *Updated as of 13/08/24*
-![](/images/m4s1.webp)
+![](/images/savage/m4s1.webp)
 
-![](/images/m4s2.webp)
+![](/images/savage/m4s2.webp)
 
-![](/images/m4s3.webp)
+![](/images/savage/m4s3.webp)
 
 ::: details Recent Changes
 - No strat updates from previous version. 
@@ -107,7 +107,7 @@ A B C D are exactly on the middle of in/out dodges for witch hunt
 {"Name":"M4S OCE","MapID":992,"A":{"X":93.125,"Y":0.001,"Z":93.125,"ID":0,"Active":true},"B":{"X":106.875,"Y":0.001,"Z":93.125,"ID":1,"Active":true},"C":{"X":106.875,"Y":0.0,"Z":106.875,"ID":2,"Active":true},"D":{"X":93.125,"Y":0.0,"Z":106.875,"ID":3,"Active":true},"One":{"X":90.8,"Y":0.0,"Z":155.8,"ID":4,"Active":true},"Two":{"X":109.2,"Y":0.0,"Z":155.8,"ID":5,"Active":true},"Three":{"X":109.2,"Y":0.0,"Z":174.2,"ID":6,"Active":true},"Four":{"X":90.8,"Y":0.001,"Z":174.2,"ID":7,"Active":true}}
 ```
 
-![](/images/m4s-waymarks.webp)
+![](/images/savage/m4s-waymarks.webp)
 
 ## Written Guide
 By Pipiro Piro
@@ -117,21 +117,21 @@ This fight contains several recurring and new status effects. It is important th
 
 |          Debuff Name         | Icon |  Effect  |
 |:----------------------------:|:----:|:----:|
-| Physical Vulnerability Up    |![](/images/m4s-pvu.webp)| Prevents you from receiving any other physical damage until this debuff wears off. Doing so kills you.|
-| Forked Lightning             |![](/images/m4s-forked.webp)| Causes a point blank (PB) AOE around the affected player. This AOE does not do damage to you but will kill anyone else who is hit by it.|
-| Magic Vulnerability Up       |![](/images/m4s-mv.webp)| Prevents you from receiving any other magic damage until this debuff wears off. Doing so kills you.|
-| Electrical Condenser         |![](/images/m4s-ec.webp)| Causes tiles in a R-tile radius around the player to explode dealing lightning damage and inflicting Lightning Resistance Down II.  R here is the number of times the player receives lightning damage from the boss while the debuff is up from either Witchgleam or Eight/Four Star.|
-| Lightning Resistance Down II |![](/images/m4s-lrd.webp)| Prevents you from receiving any other lightning damage until this debuff wears off. Doing so kills you.|
-| Positron                     |![](/images/m4s-positron.webp)| Stacks up to 6. Will instantly kill the player once the timer reaches zero. Getting hit by a cannon of the opposite colour/polarity (blue) will cleanse a stack.|
-| Negatron                     |![](/images/m4s-negatron.webp)| Stacks up to 6. Will instantly kill the player once the timer reaches zero. Getting hit by a cannon of the opposite colour/polarity (yellow) will cleanse a stack.|
-| Spinning Conductor           |![](/images/m4s-sc.webp)| Causes a tiny PB AOE round the player that will kill any other players hit.|
-| Roundhouse Conductor         |![](/images/m4s-rc.webp)| Causes a massive donut around the player that will kill any other players hit.|
-| Collider Conductor           |![](/images/m4s-cc.webp)| Will cause a player to explode if not resolved before the timer reaches zero, inflicting Damage Down and Sustained Damage on the entire party. Can be cleansed by taking damage from cleaves from Remote/Proximate Current.|
-| Remote Current               |![](/images/m4s-remotec.webp)| Fires a narrow lightning cone at the farthest player.|
-| Proximate Current            |![](/images/m4s-proxc.webp)| Fires a narrow lightning cone at the closest player.|
-| Fire Resistance Down II      |![](/images/m4s-frd.webp)| Prevents you from receiving any other fire damage until this debuff wears off. Doing so kills you.|
-| Mustard Bomb                 |![](/images/m4s-mb.webp)| Causes a delayed PB AOE around the affected player dealing fire damage and inflicting Fire Resistance Down II.. Can be passed to other players via physical contact.|
-| Mustard Bombproof            |![](/images/m4s-mbp.webp)| Granted when passing Mustard Bomb to another player and prevents you from being able to receive it.|
+| Physical Vulnerability Up    |![](/images/savage/m4s-pvu.webp)| Prevents you from receiving any other physical damage until this debuff wears off. Doing so kills you.|
+| Forked Lightning             |![](/images/savage/m4s-forked.webp)| Causes a point blank (PB) AOE around the affected player. This AOE does not do damage to you but will kill anyone else who is hit by it.|
+| Magic Vulnerability Up       |![](/images/savage/m4s-mv.webp)| Prevents you from receiving any other magic damage until this debuff wears off. Doing so kills you.|
+| Electrical Condenser         |![](/images/savage/m4s-ec.webp)| Causes tiles in a R-tile radius around the player to explode dealing lightning damage and inflicting Lightning Resistance Down II.  R here is the number of times the player receives lightning damage from the boss while the debuff is up from either Witchgleam or Eight/Four Star.|
+| Lightning Resistance Down II |![](/images/savage/m4s-lrd.webp)| Prevents you from receiving any other lightning damage until this debuff wears off. Doing so kills you.|
+| Positron                     |![](/images/savage/m4s-positron.webp)| Stacks up to 6. Will instantly kill the player once the timer reaches zero. Getting hit by a cannon of the opposite colour/polarity (blue) will cleanse a stack.|
+| Negatron                     |![](/images/savage/m4s-negatron.webp)| Stacks up to 6. Will instantly kill the player once the timer reaches zero. Getting hit by a cannon of the opposite colour/polarity (yellow) will cleanse a stack.|
+| Spinning Conductor           |![](/images/savage/m4s-sc.webp)| Causes a tiny PB AOE round the player that will kill any other players hit.|
+| Roundhouse Conductor         |![](/images/savage/m4s-rc.webp)| Causes a massive donut around the player that will kill any other players hit.|
+| Collider Conductor           |![](/images/savage/m4s-cc.webp)| Will cause a player to explode if not resolved before the timer reaches zero, inflicting Damage Down and Sustained Damage on the entire party. Can be cleansed by taking damage from cleaves from Remote/Proximate Current.|
+| Remote Current               |![](/images/savage/m4s-remotec.webp)| Fires a narrow lightning cone at the farthest player.|
+| Proximate Current            |![](/images/savage/m4s-proxc.webp)| Fires a narrow lightning cone at the closest player.|
+| Fire Resistance Down II      |![](/images/savage/m4s-frd.webp)| Prevents you from receiving any other fire damage until this debuff wears off. Doing so kills you.|
+| Mustard Bomb                 |![](/images/savage/m4s-mb.webp)| Causes a delayed PB AOE around the affected player dealing fire damage and inflicting Fire Resistance Down II.. Can be passed to other players via physical contact.|
+| Mustard Bombproof            |![](/images/savage/m4s-mbp.webp)| Granted when passing Mustard Bomb to another player and prevents you from being able to receive it.|
 
 ::: info NOTE
 Getting hit by any avoidable mechanics in this fight will incur a Damage Down debuff that will reduce damage dealt by 25% for 30s. Some mechanics will also inflict Sustained Damage , which is a heavy bleed that cannot be mitigated.
@@ -156,7 +156,7 @@ Following this, the vertical cleaves will each leave behind a glowing line of li
 
 |  |  |
 |---|---|
-| ![](/images/m4s-flights.webp) | ![](/images/m4s-line.webp) |
+| ![](/images/savage/m4s-flights.webp) | ![](/images/savage/m4s-line.webp) |
 
 
 The boss will then teleport back to the centre and immediately begin casting Electrifying Witch Hunt.
@@ -176,7 +176,7 @@ Combined, these overlapping mechanics will leave 8 small squares safe in which t
 
 |  |  |
 |---|---|
-|![](/images/m4s-in.webp)|![](/images/m4s-out.webp)|
+|![](/images/savage/m4s-in.webp)|![](/images/savage/m4s-out.webp)|
 
 Following this, the remaining lightning lines on the floor will begin to glow and expand leaving the opposite area of the arena safe. Wicked Thunder will also cast **Witch Hunt**, which will target either the four closest or farthest players with a clone dive. This is determined by the symbol she shows on her chest during the castbar. 
 
@@ -184,7 +184,7 @@ Given four players have already been dived and cannot be hit again, the opposite
 
 | **Close Bait** | **Far Bait** |
 |:--:|:--:|
-| ![](/images/m4s-close.webp) | ![](/images/m4s-far.webp) |
+| ![](/images/savage/m4s-close.webp) | ![](/images/savage/m4s-far.webp) |
 
 ### Widening/Narrowing Witch Hunt
 
@@ -209,17 +209,17 @@ Ultimately, one of two bait patterns will be observed. You can make these into a
 
 | Tanks > Healers > Melee > Ranged <br>(Close > Far > Close > Far) | Healers > Tanks > Ranged > Melee <br>(Far > Close > Far > Close) |
 |:--:|:--:|
-| ![](/images/m4s-close.webp) | ![](/images/m4s-far.webp) |
+| ![](/images/savage/m4s-close.webp) | ![](/images/savage/m4s-far.webp) |
 
 
 ::: tip EVERYONE
 To allow for better uptime and to prevent melees accidentally killing each other with close baits, this mechanic will be resolved with modified clock spots.
 
-![](/images/m4s-witchhuntstart.webp)
+![](/images/savage/m4s-witchhuntstart.webp)
 
 The waymarks and floor markings here are also very useful to help you determine the size of the upcoming point-blank AOE. The PB AOE and donut cleave directly through the middle of the waymarks and the intersection of the cardinal tiles (green arrows).
 
-![](/images/m4s-witchuntexmaple.webp)
+![](/images/savage/m4s-witchuntexmaple.webp)
 :::
 
 Wicked Thunder will end this mechanic with another Wrath of Zeus raidwide before beginning the next major mechanic **Electrope Edge**. 
@@ -237,7 +237,7 @@ The half room cleave and exploding cubes will render a single quadrant safe in w
 These spread AOEs are very big. Melees should ensure they are max melee from the boss in order to avoid clipping the MT. The ST may need to take a GCD of downtime to do the same.
 :::
 
-![](/images/m4s-ee1.webp)
+![](/images/savage/m4s-ee1.webp)
 
 Wicked Thunder immediately follows this with Wicked Jolt, a hard-hitting line tankbuster that inflicts Magic Vulnerability Up for 5s, forcing either a tankswap or a tank invuln.
 
@@ -258,11 +258,11 @@ The number of times a player is hit while the debuff is active indicates the siz
 
 The boss will now cast **Lightning Cage** spawning the following grid pattern on the floor. This pattern is **always the same** but can spawn in any orientation. Here, we will take the square at the base of the ‘T’ as the new **relative south** for this mechanic. 
 
-![](/images/m4s-ee2.webp)
+![](/images/savage/m4s-ee2.webp)
 
 To resolve this mechanic, the **LONG** players need to stack on the safe spot at south. **SHORT** players need to head to their respective spots based on the number of times they were hit. To make this easier, we have the 3 hits go **far** to the corners and the 2 hits **close**, against the south set of AOEs at the wall. Supports will always go to the left and DPS will always go to the right, facing **relative north**. See the macro/cheatsheet for these exact spots.
 
-![](/images/m4s-dogs.webp)
+![](/images/savage/m4s-dogs.webp)
 
 ::: info NOTE
 LONG players should add one to the number of times they are hit as the upcoming spread/stack mechanic will count as damage taken while the debuff is active. As such long 2 hit players will be going far and long 1 hit players will be going short. This is important for the upcoming mechanic if it is stack.
@@ -270,11 +270,11 @@ LONG players should add one to the number of times they are hit as the upcoming 
 
 Wicked Thunder will start casting Sideways Spark again, telegraphing a half room cleave. At the same time either 8 small orbs or 4 large orbs will be telegraphed on her body indicating either a spread (Eight Star) or pair stacks (Four Star) respectively. If it is spreads, players can go to their assigned positions and let the mechanic resolve.
 
-![](/images/m4s-ee2spread.webp)
+![](/images/savage/m4s-ee2spread.webp)
 
 If it is pairs, the pair stacks will target the long players meaning regular pair stacks cannot be used. Instead, static pair stack positions are assigned based on whether players were far or close as this guarantees a short and long player will be stacked. 
 
-![](/images/m4s-ee2pairs.webp)
+![](/images/savage/m4s-ee2pairs.webp)
 
 Following this, the boss will spawn the Lightning Cage grid pattern on the floor again, potentially in a different orientation. To resolve this, have the short players move to the safe square south and have long players resolve their debuffs in the same way as before. 
 
@@ -307,7 +307,7 @@ Each source of damage from these debuffs applies a short 2s Magic Vulnerability 
 
 While this mechanic sounds complicated, resolving it is fairly simple. Following each cannon hit, identify which debuff you have and stand in the correct position according to the cheatsheet.
 
-![](/images/m4s-electronstream.webp)
+![](/images/savage/m4s-electronstream.webp)
 
 ::: info NOTE
 There are several floor markings which can be used to help you position yourself. Additionally, Spinning/Roundhouse Conductor players will all have the same buff and stand in the same spots regardless of which debuff they receive. The same applies to players with Remote/Proximate Current.
@@ -322,11 +322,11 @@ Ion Cluster is an incredibly hard-hitting set of mechanics requiring a fairly so
 ### Transition
 Wicked Thunder will cast Electrope Transplant, beginning the transition phase. Transition is a fast-paced phase that while mechanically simple, is quite execution heavy. She will be facing south this entire phase. As such, new spread spots are assigned for this entire phase. 
 
-![](/images/m4s-transition.webp)
+![](/images/savage/m4s-transition.webp)
 
 Wicked Thunder begins by telegraphing narrow proteans targeted at the cardinals and intercardinals. She will cleave these proteans before cleaving the safe spots. This will alternate back and forth, however only the initial cleave is telegraphed, each subsequent cleave is untelegraphed. 
 
-![](/images/m4s-intermissionexample.webp)
+![](/images/savage/m4s-intermissionexample.webp)
 
 All players want to be fairly spread while doing these dodges. To ensure this, every pair should be dodging these cleaves in the same manner. To resolve this, start at the safe spot directly clockwise of your assigned waymark with your partner - melees should be close to the boss at max melee while ranged should be further out. Rotate counterclockwise into the marker, dodge the cleave and then rotate clockwise back into the initial safe spot. Rinse and repeat. 
 

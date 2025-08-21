@@ -41,17 +41,17 @@ It's recommended to use some of your personal mitigation for extended periods of
 :::
 
 ::: everyone
-In this phase, Cloud of Darkness will take increased damage. Try to deal as much damage as you can here through bursts, potions and even **LB3**.
+In this phase, Cloud of Darkness will take increased damage. Try to deal as much damage as you can here through bursts and potions.
 :::
 
 #### Grim Embrace
 Cloud of Darkness starts by casting **Grim Embrace** twice, tethering half the raid with each cast and applying a debuff that will summon a hand facing towards you when it expires. This hand lunges in the direction it's facing and how it faces you is determined by her animation **while you're tethered**.
 
 > - Her hand is **under** the crystal; the hand will spawn **behind** you. Step **backwards** when it spawns.
-> ![](/images/cod-handback.webp)
+> ![](/images/chaotic/cod-handback.webp)
 
 > - Her hand is **in front** of the crystal; the hand will spawn **in front** of you. Step **forwards** when it spawns.
-> ![](/images/cod-handfront.webp)
+> ![](/images/chaotic/cod-handfront.webp)
 
 Throughout the phase these debuffs will resolve in batches, requiring players to break away from the raid so as to not hit other players.
 
@@ -150,7 +150,7 @@ To resolve all mechanics in this phase and to evenly distribute roles across the
 
 Alliance A players are marked in **red**, Alliance B in **yellow** and Alliance C in **blue**.
 
-![](/images/cod-p2start.webp)
+![](/images/chaotic/cod-p2start.webp)
 
 ::: tank
 Make sure to **provoke** your new target. Both here and after **Looming Chaos**.
@@ -169,7 +169,7 @@ From here, this guide will occasionally **split** between players on the **outer
 	| 1 Orb | 2 Orbs | No Orb/Boss Glows |
 	| :---: | :---: | :---: |
 	| **180° cleave** on glowing orb's side. | Pair stacks on the **3 closest** players. | Beam **spreads**. |
-	| ![](/images/cod-p2cleave.webp) | ![](/images/cod-p2pairs.webp) | ![](/images/cod-p2spread.webp) |
+	| ![](/images/chaotic/cod-p2cleave.webp) | ![](/images/chaotic/cod-p2pairs.webp) | ![](/images/chaotic/cod-p2spread.webp) |
 
 	> - A sequence will always be made up of **2 180° cleaves** and **1 pair**/**spread**.
 	> - Use the positions above to resolve, mirroring the positions of the **pair**/**spread** if on the **East** platform.
@@ -177,7 +177,7 @@ From here, this guide will occasionally **split** between players on the **outer
 2. **Particle Concentration** - **3-player towers** will spawn opposite of each other on the platform.
 	> - MT, H1 and D3 will take the tower that's either **North** or on the **outer side** of the platform.
 	> - D1, D2 and D4 will take the tower that's either **South** or on the **inner side** of the platform.
-	![](/images/cod-towers.webp)
+	![](/images/chaotic/cod-towers.webp)
 :::
 
 ::: details Inner Platform
@@ -197,11 +197,11 @@ After the towers resolve, **Cloud of Darkness** will then cast **Ghastly Gloom**
 ::: details Outer Platforms
 1. **Evil Seed** - 2 players are targeted with a marker that drops a **lingering puddle** after some time.
 	> Take these to the **outer corners** of the platform, before the outer ring.
-	![](/images/cod-seedout.webp)
+	![](/images/chaotic/cod-seedout.webp)
 2. **Ghastly Gloom** - This will be the **opposite** shape of what was casted before.
 3. **Thorny Vine** - The lingering puddles will target the **closest** player to it with a tether that must be broken by running away.
 	> **DPS** will pick up these tethers, with **melee** players taking the **outer seeds** and **ranged** players taking the **inner seeds**. Use the **outer ring** to create distance.
-	![](/images/cod-seedtether.webp)
+	![](/images/chaotic/cod-seedtether.webp)
 4. **Flood of Darkness** - Each shadow will cast an **interruptible** attack that does **massive damage** + a **bleed** to the entire raid if allowed to finish.
 	> **Tanks** will interrupt these with **Interject**. **Phys. Ranged** players can also interrupt this with **Head Graze**.
 :::
@@ -209,13 +209,13 @@ After the towers resolve, **Cloud of Darkness** will then cast **Ghastly Gloom**
 ::: details Inner Platform
 1. **Evil Seed** - 2 players **East** and 2 players **West** are targeted with a marker that drops a **lingering puddle** after some time.
 	> Take these seeds to the **East**/**West** tiles, keeping the movement priority in mind and place them as shown below.
-	![](/images/cod-seedin.webp)
+	![](/images/chaotic/cod-seedin.webp)
 2. **Ghastly Gloom** - This will be the **opposite** shape of what was casted before.
 3. **Thorny Vine** - 2 players will be **tethered together** which must be broken by running the **full length** of the platform.
 	> Start by **grouping together** in your corner.
 		>> - If you are **tethered**, use the movement priority and start running **horizontally** across the arena if you're the **lower priority**.
 		>> - If you **aren't tethered**, **make space** for the tethered player on your side.
-	![](/images/cod-playertether.webp)
+	![](/images/chaotic/cod-playertether.webp)
 :::
 
 After **Thorny Vine** is resolved, an on-screen alert will appear signifying that **Cloud of Darkness** is charging an attack. This can either be **24 spread AoEs** or **6 light party beams** that target each **healer**.
@@ -242,7 +242,7 @@ After **Thorny Vine** is resolved, an on-screen alert will appear signifying tha
 	- Players **at-risk** of being hit by the beams' rotation will shuffle towards the safe **North** or **South** corner accordingly, **"crossing"** the initial danger zone and keeping the movement priority in mind.
 	- Players **not at-risk** of being hit should make space by having the tank shuffle over, while the other two tuck into the corner spots.
 2. As the beams **resolve**, players can shuffle back into their corners, like so.
-	| ![](/images/cod-pivot1.webp) | ![](/images/cod-pivot2.webp) | ![](/images/cod-pivot3.webp) |
+	| ![](/images/chaotic/cod-pivot1.webp) | ![](/images/chaotic/cod-pivot2.webp) | ![](/images/chaotic/cod-pivot3.webp) |
 	| --- | --- | --- |
 :::
 
@@ -256,7 +256,7 @@ This means there'll be about **12 players** swapping platforms **mechanically**,
 
 The positions we'll be taking look like **this**:
 
-![](/images/cod-looming.webp)
+![](/images/chaotic/cod-looming.webp)
 
 This is to ensure that the roles of the **6 players** swapping out of the inner platform (**2 tanks**, **2 healers** and **2 DPS**) will stay consistent by swapping with the **6 furthest players** away from them (the **2 tanks**, **2 healers** and **2 DPS** on the **East**/**West** edge).
 
@@ -277,7 +277,7 @@ After the swap, the **Stygian Shadows** will cast **Core-Lateral**/**Lateral-Cor
 	| 1 Orb | 2 Orbs | No Orb/Boss Glows |
 	| :---: | :---: | :---: |
 	| **180° cleave** on glowing orb's side. | Pair stacks on the **3 closest** players. | Beam **spreads**. |
-	| ![](/images/cod-p2cleave.webp) | ![](/images/cod-p2pairs.webp) | ![](/images/cod-p2spread.webp) |
+	| ![](/images/chaotic/cod-p2cleave.webp) | ![](/images/chaotic/cod-p2pairs.webp) | ![](/images/chaotic/cod-p2spread.webp) |
 
 	> - A sequence will always be made up of **2 180° cleaves** and **1 pair**/**spread**.
 	> - Use the positions above to resolve, mirroring the positions of the **pair**/**spread** if on the **East** platform.
@@ -288,7 +288,7 @@ After the swap, the **Stygian Shadows** will cast **Core-Lateral**/**Lateral-Cor
 1. **Feint Particle Beam** - **1 player** in each corner will be marked with a **fast chasing AoE**.
 	> - Players marked should run **clockwise immediately** around the inner platform.
 	> - **Everyone** should create space ahead of time by leaving the **clockwise pathway free to travel**, like so.
-	![](/images/cod-feint.webp)
+	![](/images/chaotic/cod-feint.webp)
 :::
 
 The phase will close out with repeated mechanics:
