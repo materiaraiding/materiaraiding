@@ -382,7 +382,7 @@ If the MT had to handle the ice puddle, they may need to recentre BJ. The healer
 
 Around this time, the ice puddle should have dissipated and the OT should drag CC towards south west, then face him inwards. The water and lightning debuffs will resolve, passing the water to another player in the stack, and the lightning to the 1st water healer. **Remember that a water tornado will be left behind**, so everyone should leave the vicinity of the B waymark.
 
-BJ will them cast **Verdict** - everyone will now receive a timerless debuff which shows a Nisi colour with two exclamation marks (!!). They look like this:^[Final Judgment: Decree Nisi a]^[Final Judgment: Decree Nisi ?]^[Final Judgment: Decree Nisi �]^[Final Judgment: Decree Nisi d]
+BJ will them cast **Verdict** - everyone will now receive a timerless debuff which shows a Nisi colour with two exclamation marks (!!). They look like this:^[Final Judgment: Decree Nisi Alpha]^[Final Judgment: Decree Nisi Beta]^[Final Judgment: Decree Nisi Gamma]^[Final Judgment: Decree Nisi Delta]
 
 
 This is BJ telling you, "**this needs to be your Nisi before I cast Gavel or it will be a wipe.**"
