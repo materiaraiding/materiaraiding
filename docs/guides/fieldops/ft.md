@@ -334,7 +334,7 @@ Finally, below are in-depth guides for certain **Phantom Jobs** within **The For
 ]"
 />
 
-### Encounters <Badge type="warning" text="Incomplete" />
+### Encounters
 
 #### Boss 1 - Demon Tablet
 
