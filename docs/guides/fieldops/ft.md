@@ -5,7 +5,7 @@ banner: /images/banners/FT.webp
 title: "The Forked Tower: Blood"
 description: "Materia Raiding strategy guide for the Forked Tower: Blood raid in The Occult Crescent: South Horn. Includes raid plans, boss strategies, and entry requirements."
 expansion: Dawntrail
-image: ft-minotaur.webp
+image: ft-magitaur.webp
 authors: [Em, Juno, Val, Pod, Fae Fiyaa, Lynn Kaneko, CA, MoG]
 difficulty: Field Operations
 ---
