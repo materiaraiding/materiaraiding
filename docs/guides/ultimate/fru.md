@@ -6,7 +6,7 @@ description: A Materia Raiding strategy guide for the Futures Rewritten Ultimate
 banner: /images/banners/FRU.webp
 difficulty: Ultimate
 expansion: Dawntrail
-image: fru-eden.webp
+image: fru-gaia.webp
 authors: [ Juno, Em, Pipiro, Kobe, Pham, Ikuya Kirishima, Ellie, Ikuya Kirishima, Tomosys Vexuna ]
 discussionLink: https://discord.com/channels/944115415385247784/1303228301015384106
 glossary: FRU
