@@ -49,4 +49,4 @@ There are two common variations of this fight, using different strats for Cachex
 
 ## Resources
 
-![](/images/p6s-ref.webp)
+![](/images/archive/p6s-ref.webp)

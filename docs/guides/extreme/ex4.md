@@ -45,10 +45,10 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ## Strategies
 
 ### Bloom 3 - "gap rel"
-![](/images/ex4-1.webp)
+![](/images/extreme/ex4-1.webp)
 
 ### Bloom 6 - Tank LB3 Static Pos
-![](/images/ex4-2.webp)
+![](/images/extreme/ex4-2.webp)
 
 ## Waymarks
 
@@ -58,4 +58,4 @@ For import with Waymark Addon
 {"Name":"Recollection (Extreme)","MapID":1031,"A":{"X":100.0,"Y":0.0,"Z":85.5,"ID":0,"Active":true},"B":{"X":114.6,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":114.5,"ID":2,"Active":true},"D":{"X":85.5,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":90.0,"Y":0.0,"Z":90.0,"ID":4,"Active":true},"Two":{"X":110.0,"Y":0.0,"Z":90.0,"ID":5,"Active":true},"Three":{"X":110.0,"Y":0.0,"Z":110.0,"ID":6,"Active":true},"Four":{"X":90.0,"Y":0.0,"Z":110.0,"ID":7,"Active":true}}
 ```
 
-![](/images/ex4-3.webp)
+![](/images/extreme/ex4-3.webp)

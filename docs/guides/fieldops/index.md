@@ -1,9 +1,5 @@
 # Field Operations
 
-::: warning In Progress
-Resources are early and still being developed
-:::
-
 <GuideList :includeTitle=false difficulty="Field Operations"/>
 
 ##
@@ -34,8 +30,8 @@ To access Field Operations, players must first complete the required quests to u
 These are OCE specific resources, you might have different resources available in your region.
 :::
 
-Two major communities support Field Operations in OCE, the **Content Achievers** Discord covers a wide variety of content including Field Operations, while **Murder of Geese (MOG)** Discord focuses specifically on Field Operations Raids and coordinating groups.
+Two major communities support Field Operations in OCE, the **Content Achievers** Discord covers a wide variety of content including Field Operations, while the **Murder of Geese (MOG)** Discord focuses specifically on Field Operations Raids and coordinating groups.
 
-<Action title='Murder of Geese (MOG) Discord' color='blue' href='https://discord.gg/czkX3cTKuj' />
+<Action title='Content Achievers Discord' color='black' href='https://discord.gg/FJFxr2U' />
 
-<Action title='Content Achievers Discord' color='red' href='https://discord.gg/FJFxr2U' />
+<Action title='Murder of Geese (MOG) Discord' color='black' href='https://discord.gg/czkX3cTKuj' />

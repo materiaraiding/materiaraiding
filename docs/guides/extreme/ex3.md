@@ -44,11 +44,11 @@ D　　 B
 4　C　3
 ```
 
-![](/images/ex3-1.webp)
+![](/images/extreme/ex3-1.webp)
 
-![](/images/ex3-2.webp)
+![](/images/extreme/ex3-2.webp)
 
-![](/images/ex3-3.webp)
+![](/images/extreme/ex3-3.webp)
 
 ## Waymarks
 
@@ -58,4 +58,4 @@ For import with Waymark Addon
 {"Name":"EX3 OCE","MapID":1017,"A":{"X":100.0,"Y":0.0,"Z":81.5,"ID":0,"Active":true},"B":{"X":118.5,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":118.5,"ID":2,"Active":true},"D":{"X":81.5,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":81.5,"Y":0.0,"Z":81.5,"ID":4,"Active":true},"Two":{"X":118.5,"Y":0.0,"Z":81.5,"ID":5,"Active":true},"Three":{"X":118.5,"Y":0.0,"Z":118.5,"ID":6,"Active":true},"Four":{"X":81.5,"Y":0.0,"Z":118.5,"ID":7,"Active":true}}
 ```
 
-![](/images/ex3-waymarks.webp)
+![](/images/extreme/ex3-waymarks.webp)

@@ -104,8 +104,9 @@ export default defineConfig({
 			md.use(statusIconPlugin);
 		},
 		languageAlias: {
-			'macro': 'markdown'
-		}
+			'macro': 'markdown',
+			'waymarks': 'markdown',
+		},
 	},
 	rewrites: {
 		'guides/chaotic/:slug*': 'chaotic/:slug*',
@@ -115,7 +116,7 @@ export default defineConfig({
 		'guides/criterion/:slug*': 'criterion/:slug*',
 		'guides/unreal/:slug*': 'unreal/:slug*',
 		'guides/fieldops/:slug*': 'fieldops/:slug*',
-		'other/:slug*': 'unreal/:slug*',
+		// 'other/:slug*': 'unreal/:slug*',
 	},
 	vite: {
 		optimizeDeps: {

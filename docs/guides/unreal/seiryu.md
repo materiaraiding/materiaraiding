@@ -38,4 +38,4 @@ Waymarks can be imported to the game using *Waymark Preset Plugin*, or you can a
 {"Name":"Seiryu","MapID":638,"A":{"X":100.0,"Y":0.0,"Z":84.0,"ID":0,"Active":true},"B":{"X":116.0,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":116.0,"ID":2,"Active":true},"D":{"X":84.0,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":89.0,"Y":0.0,"Z":89.0,"ID":4,"Active":true},"Two":{"X":111.0,"Y":0.0,"Z":89.0,"ID":5,"Active":true},"Three":{"X":111.0,"Y":0.0,"Z":111.0,"ID":6,"Active":true},"Four":{"X":89.0,"Y":0.0,"Z":111.0,"ID":7,"Active":true}}
 ```
 
-![](/images/seiryu-waymarks.webp)
+![](/images/unreal/seiryu-waymarks.webp)

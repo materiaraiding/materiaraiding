@@ -40,4 +40,4 @@ For import with Waymark Addon
 {"Name":"EX1","MapID":833,"A":{"X":95.0,"Y":0.0,"Z":95.0,"ID":0,"Active":true},"B":{"X":105.0,"Y":0.0,"Z":95.0,"ID":1,"Active":true},"C":{"X":95.0,"Y":0.0,"Z":105.0,"ID":2,"Active":true},"D":{"X":105.0,"Y":0.0,"Z":105.0,"ID":3,"Active":true},"One":{"X":89.0,"Y":0.0,"Z":86.0,"ID":4,"Active":true},"Two":{"X":111.0,"Y":0.0,"Z":86.0,"ID":5,"Active":true},"Three":{"X":81.0,"Y":0.0,"Z":94.0,"ID":6,"Active":true},"Four":{"X":119.0,"Y":0.0,"Z":94.0,"ID":7,"Active":true}}
 ```
 
-![](/images/ex1-waymarks.webp)
+![](/images/extreme/ex1-waymarks.webp)

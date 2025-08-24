@@ -1,7 +1,7 @@
 ---
 order: 1
 fightID: BA
-banner: /images/banners/baldesionarsenal.webp
+banner: /images/banners/BA.webp
 title: The Baldesion Arsenal
 description: Materia Raiding strategy guide for The Baldesion Arsenal in The Forbidden Land, Eureka Hydatos. Includes boss strategies and entry requirements.
 expansion: Stormblood
@@ -120,9 +120,9 @@ This buff allows players to access **1** of the **48 Aetheric Nodes** scattered 
 
 | **Unstable Aetheric Node** | **Stable Aetheric Node** |
 | :-: | :-: |
-| ![](/images/ba-bluenode.webp) | ![](/images/ba-rednode.webp) |
+| ![](/images/fieldops/ba-bluenode.webp) | ![](/images/fieldops/ba-rednode.webp) |
 
-![](/images/ba-nodesmap.webp)
+![](/images/fieldops/ba-nodesmap.webp)
 
 ::: tip Finding a Group
 Two major communities support Field Operations in OCE, the **Content Achievers** Discord covers a wide variety of content including Field Operations, while the **Murder of Geese (MOG)** Discord focuses specifically on Field Operations Raids and coordinating groups.
