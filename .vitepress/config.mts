@@ -42,7 +42,7 @@ export default defineConfig({
 		"Materia Raiding is a community driven project to collate the various guide and tools created for raiding in the FF14 Materia Datacenter.",
 	head: [["link", { rel: "icon", href: "/images/favicon.ico" }]],
 	cleanUrls: true,
-	ignoreDeadLinks: true,
+	ignoreDeadLinks: false,
 	lastUpdated: true,
 	metaChunk: true,
 	sitemap: {
