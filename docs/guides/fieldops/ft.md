@@ -288,7 +288,7 @@ Additionally, the raid should have the following **Phantom Jobs** to successfull
 
 | <span style="font-size: 18px;">**Phantom Job**</span> | <span style="font-size: 18px;">**Amount**</span> | <span style="font-size: 18px;">**Responsibilities**</span> |
 | :- | :-: | :- |
-| ![](/images/jobs/PhantomKnight.webp) Knight | **x1** ^[Aetheric Mimicry: Tank] Tank per Party (**A** / **B** / **C** / **1** / **2** / **3**) | ^[Phantom Guard] **Phantom Guard** - **90%** personal mitgation. <br> ^[Pledge] **Pledge** - Self/Targeted **Invulnerability**. <br> ^[Pray] **Pray** - **10%** party mitigation. |
+| ![](/images/jobs/PhantomKnight.webp) Knight | **x1** ^[Aetheric Mimicry: Tank] **Tank** per Party (**A** / **B** / **C** / **1** / **2** / **3**) | ^[Phantom Guard] **Phantom Guard** - **90%** personal mitgation. <br> ^[Pledge] **Pledge** - Self/Targeted **Invulnerability**. <br> ^[Pray] **Pray** - **10%** party mitigation. |
 | ![](/images/jobs/PhantomThief.webp) Thief | **x1** per Alliance (**ABC** / **123**) | **Trap Detection** - **Reveals** hidden explosive traps and passages. <br> **Lockpicker** - **Opens** locked doors to receive bonus loot. <br> ^[Weapon Pilfered] **Pilfer Weapon** - **Removes** a damage **buff** ^[Armed to the Teeth] from the **Guardian Weapon**. |
 | ![](/images/jobs/PhantomGeomancer.webp) Geomancer | **x1** per Alliance (**ABC** / **123**) | ^[Suspend] **Suspend** - **Negates** the lightning floors in the **Hallways** and the **Bridges**. |
 | ![](/images/jobs/PhantomTimeMage.webp) Time Mage | **x1** per Alliance (**ABC** / **123**) | ^[Slow] **Occult Slowga** - **Slows** enemies. <br> **Occult Dispel** - **Removes** most enemies' **buffs**. |
@@ -617,7 +617,7 @@ Afterwards, **Marble Dragon** will follow up with another **Dread Deluge**.
 
 ##### Adds
 
-**Marble Dragon** will jump back to the middle and begin casting **Withering Eternity**, leaving the arena when the cast finishes and summoning **six Ice Golems**. These **Ice Golems** gain a ^[Vulnerability Down] **Vulnerability Down buff** when in close proximity of each other, and will cast **Frozen Heart** if not defeated in time, granting themselves a ^[Physical Damage Up] **Physical Damage Up buff** that will instantlly kill anyone they auto attack. **One ^[Aetheric Mimicry: Tank] tank** from each party should grab an **Ice Golem** and drag it towards their party's closest wall, keeping them separated, even while dodging **Marble Dragon** and using their ^[Hallowed Ground] ^[Holmgang] ^[Living Dead] ^[Superbolide] ^[Pledge] **Invulnerability** if the **Ice Golems** cast **Frozen Heart**.
+**Marble Dragon** will jump back to the middle and begin casting **Withering Eternity**, leaving the arena when the cast finishes and summoning **six Ice Golems**. These **Ice Golems** gain a ^[Vulnerability Down] **Vulnerability Down buff** when in close proximity of each other, and will cast **Frozen Heart** if not defeated in time, granting themselves a ^[Physical Damage Up] **Physical Damage Up buff** that will instantlly kill anyone they auto attack. **One ^[Aetheric Mimicry: Tank] tank** from each party should grab an **Ice Golem** and drag it towards their party's closest wall, keeping them separated, even while dodging **Marble Dragon** and using their ^[Hallowed Ground] ^[Holmgang] ^[Living Dead] ^[Superbolide] ^[Pledge] **Invulnerability** if the **Ice Golems** cast **Frozen Heart**. Additionally, **Letter** Alliance players should burst down the **North Ice Golem** and **Number** Alliance players should burst down the **South Ice Golem**
 
 Additionally, **Marble Dragon** will use the following cycle of attacks **twice** before returning:
 1. **Imitation Rain** - Spawning **one Spiked Puddle** in the middle and **three Tower Puddles** along the wall, opposite each other.
@@ -625,7 +625,7 @@ Additionally, **Marble Dragon** will use the following cycle of attacks **twice*
 3. **Two Tower & Spiked Puddles** - The **two Tower & Spiked Puddles** will detonate, freezing the other **four Tower Puddles**.
 4. **Four Tower Puddles** - The remaining **four Tower Puddles** will detonate.
 
-To ensure even numbers for each tower. The raid will split into **two**, with the **Letter** Alliance looking for towers in the **Northern Half** of the arena, and the **Number** Alliance looking for towers in the **Southern Half** of the arena.
+To ensure even numbers for each tower. The raid will split into **two**, with the **Letter** Alliance looking for towers in the **Northern Half** of the arena, and the **Number** Alliance looking for towers in the **Southern Half** of the arena. 
 
 Upon returning, **Marble Dragon** will summon **six Tethered Ice Sprites** that tether and travel towards the boss, rendering itself ^[Invincibility] **invincible** while it casts **Withering Eternity**, an incredibly heavy raidwaide. Players must defeat the **Ice Sprites** before they reach **Marble Dragon**, they are susceptible to ^[Phantom Bard] **Bard's Romeo's Ballad** and ^[Phantom Oracle] **Oracle's Cleansing**.
 
