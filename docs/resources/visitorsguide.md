@@ -67,7 +67,7 @@ Primarily, Materia follows Clees' UCOB guide, this is common in some other regio
 
 One key difference is due to being in the southern hemisphere, we flip the arena upside down and drop the Hatch puddles in a V shape, obviously. This looks something like this:
 
-![](/images/ucob-markers.webp)
+![](/images/ultimate/ucob-markers.webp)
 
 For all of Bahamut, we use the following toolboxes:
 
@@ -120,7 +120,7 @@ OT sometimes referenced as ST
 
 During Temporal Stasis mech after Phase 2, instead of FFA, supports prio left, and DPS right for long tethers, rest is the same (short tether is on the add to the right and no tether is to the add on the left).
 
-![](/images/tea-stasis.webp)
+![](/images/ultimate/tea-stasis.webp)
 
 #### Inception Formation
 
@@ -156,7 +156,7 @@ OT sometimes referenced as ST
 
 During Temporal Stasis mech after Phase 2, blue tether prio is flipped, supports prio left, and DPS right, rest is the same (short tether is on the add to the right and no tether is to the add on the left).
 
-![](/images/tea-stasis.webp)
+![](/images/ultimate/tea-stasis.webp)
 
 #### Inception Formation
 
@@ -204,7 +204,7 @@ OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chas
     - **Exatrines**: Dodge positions are considered to be the **centre** of the arena as well as the **1, 3 and 4 waymarks** (which are positioned differently compared to JP).
 :::
 
-![](/images/tea-cheatsheet.webp)
+![](/images/ultimate/tea-cheatsheet.webp)
 
 
 ## DSR
@@ -265,7 +265,7 @@ There are a number of differences between OCE and JP for DSR. Please review this
 
 :::
 
-![](/images/dsr-dsrcheatsheet.webp)
+![](/images/ultimate/dsr-dsrcheatsheet.webp)
 
 ## TOP
 TOP strats are similar (but not identical!) to NA, which are *substantially* different to JP. For an extended explanation you can see the complete TOP OCE Guide below by Juno Dax,
@@ -275,7 +275,7 @@ TOP strats are similar (but not identical!) to NA, which are *substantially* dif
 ::: details NA Differences
 
 For NA players, both DPS and supports move during P6 WC2 instead of DPS not moving. DPS dodge CW, supports CCW.
-![](/images/top-exasquares.webp)
+![](/images/ultimate/top-exasquares.webp)
 
 [Full TOP OCE Guide](/ultimate/top)
 :::
@@ -336,10 +336,6 @@ For JP players, please review this list of differences, using the language in [T
 ![](/images/top-cheatsheet.webp)
 
 ## FRU
-
-::: warning
-This content was written on the same patch this fight was released. OCE strats are pretty much set in stone, but please be advised this section may see small updates in the future as we observe the FRU OCE PF scene in the long term (i.e. removing mention of lingering early strats - while these are archived in the written guide, they are mentioned here for now for the sake of Voyagers looking to PF). We will also complete DC-specific differences when we can.
-:::
 
 For an extended explanation, all toolboxes and the cheatsheet, please see below guide - credits to Juno Dax for the written guide, and Tomosys Vexuna for the cheatsheet.
 
