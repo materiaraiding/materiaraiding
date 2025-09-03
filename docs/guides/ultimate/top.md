@@ -32,13 +32,17 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 Videos covering clears by different roles.
 
 ::: details DPS
-@[DPS](https://youtu.be/BKGcoU_Entc)
+@[MNK](https://youtu.be/BKGcoU_Entc)
+@[RPR](https://youtu.be/vJauj9_ihn8)
+@[RDM](https://youtu.be/NCSy8d52x2I)
 :::
 ::: details Healer
-ADD LINK HERE
+@[WHM](https://youtu.be/ItHh-lof-pQ)
+@[SGE](https://youtu.be/Y_lKmvdCsB8)
 :::
 ::: details Tank
-@[Tank](https://youtu.be/XHEpxUdz_6Q)
+@[GNB](https://youtu.be/XHEpxUdz_6Q)
+@[DRK](https://youtu.be/zAwMPLy_-pg)
 :::
 
 ## Mitigation Plan
