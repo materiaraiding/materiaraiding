@@ -186,7 +186,7 @@ Macros are provided by many guide resources such as the Materia Raiding guides o
 
 Waymarks are generally specific to a strategy and are provided alongside other resources such as in the raid guides provided by Materia Raiding.
 
-![](/images/ex1-waymarks.webp)
+![](/images/extreme/ex1-waymarks.webp)
 
 ::: tip
 These waymarks can be imported into the game using the **Waymark Import** addon, or you can ask a friend to import them so you can save a copy for yourself.

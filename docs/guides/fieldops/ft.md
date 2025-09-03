@@ -98,7 +98,7 @@ Raidplans are an interactive guide that allow you to click through each phase in
 <ActionGroup
 :actions=" [
 { title: 'Hallways', color: 'green', href: 'https://docs.google.com/presentation/d/1MQx7FPoZmPbp0X8Wy8743gfMptDjZSLHQyUAIyin3CU/edit?usp=sharing' },
-{ title: 'Boss 2 - Dead Stars', color: 'green', href: 'https://raidplan.io/plan/Dw6CPg3_b9vUDXUm' },
+{ title: 'Boss 2 - Dead Stars', color: 'green', href: 'https://raidplan.io/plan/A64reKpIcFtpv01o' },
 ]"
 />
 
