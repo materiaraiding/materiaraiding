@@ -3,7 +3,7 @@ fightID: EX5
 order: 5
 title: "The Minstrel's Ballad: Necron's Embrace"
 description: "A guide for The Ageless Necropolis Extreme trial in Final Fantasy XIV: Dawntrail."
-banner: /images/banners/EX5.webp
+banner: /images/banners/DT_EX5.webp
 expansion: Dawntrail
 difficulty: Extreme
 authors: [MR, Kobe]
@@ -50,4 +50,4 @@ Waymarks can be imported to the game using *Waymark Preset Plugin*, or you can a
 {"Name":"EX5 MR","MapID":1062,"A":{"X":100.0,"Y":0.0,"Z":91.0,"ID":0,"Active":true},"B":{"X":109.0,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":109.0,"ID":2,"Active":true},"D":{"X":91.0,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":94.0,"Y":0.0,"Z":94.0,"ID":4,"Active":true},"Two":{"X":106.0,"Y":0.0,"Z":94.0,"ID":5,"Active":true},"Three":{"X":106.0,"Y":0.0,"Z":106.0,"ID":6,"Active":true},"Four":{"X":94.0,"Y":0.0,"Z":106.0,"ID":7,"Active":true}}
 ```
 
-![](/images/extreme/ex5-waymarks.webp)
+![](/images/extreme/dt_ex5-waymarks.webp)

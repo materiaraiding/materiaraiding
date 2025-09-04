@@ -4,7 +4,7 @@ fightID: EX7
 title: The Abyssal Fracture
 expansion: Endwalker
 difficulty: Extreme
-banner: /images/banners/archived/endwalker/EX7.webp
+banner: /images/banners/EW_EX7.webp
 ---
 ## Macro
 ```markdown
@@ -36,7 +36,7 @@ Variants of these markers exist where there are markers in the corners, or with 
 
 The `2` and `B` markers are also used by the marked player when dropping Black Hole
 
-![Preview of how Waymarks appear in-game](/images/markers/ew_ex7.webp)
+![Preview of how Waymarks appear in-game](/images/extreme/ew_ex7-waymarks.webp)
 
 ```json
 {"Name":"Zeromus EX","MapID":965,"A":{"X":92.17,"Y":0.0,"Z":82.0,"ID":0,"Active":true},"B":{"X":81.6,"Y":0.0,"Z":91.9,"ID":1,"Active":true},"C":{"X":0.0,"Y":0.0,"Z":0.0,"ID":2,"Active":false},"D":{"X":0.0,"Y":0.0,"Z":0.0,"ID":3,"Active":false},"One":{"X":108.128,"Y":0.0,"Z":82.0,"ID":4,"Active":true},"Two":{"X":118.675,"Y":0.0,"Z":91.9,"ID":5,"Active":true},"Three":{"X":0.0,"Y":0.0,"Z":0.0,"ID":6,"Active":false},"Four":{"X":0.0,"Y":0.0,"Z":0.0,"ID":7,"Active":false}}

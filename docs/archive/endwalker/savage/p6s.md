@@ -4,7 +4,7 @@ fightID: P6S
 title: Abyssos The Sixth Circle
 expansion: Endwalker
 difficulty: Savage
-banner: /images/banners/archived/endwalker/P6S.webp
+banner: /images/banners/P6S.webp
 ---
 ## Macro
 There are two common variations of this fight, using different strats for Cachexia 1, be aware of the changes, one focuses on your debuff timer, the other focusses on your role.

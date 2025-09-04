@@ -4,7 +4,7 @@ fightID: EX5
 title: Mount Ordeals
 expansion: Endwalker
 difficulty: Extreme
-banner: /images/banners/archived/endwalker/EX5.webp
+banner: /images/banners/EW_EX5.webp
 ---
 ## Macro
 **North (NW/NE) Limit Cut**
@@ -33,10 +33,10 @@ Even: Cleave NE, Party SE, Tether Order: 8->2->4->6
 
 ## Diagrams
 
-![image](/images/archive/rubicante-scalding.webp)
+![image](/images/extreme/ew_ex5-scalding.webp)
 
-![image](/images/archive/rubicante-sweeping.webp)
+![image](/images/extreme/ew_ex5-sweeping.webp)
 
-![image](/images/archive/rubicante-flamespire.webp)
+![image](/images/extreme/ew_ex5-flamespire.webp)
 
-![image](/images/archive/rubicante-ordeal.webp)
+![image](/images/extreme/ew_ex5-ordeal.webp)
