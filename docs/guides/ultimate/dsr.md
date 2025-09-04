@@ -596,7 +596,7 @@ It should be noted that extra people caught in the AoE when passing will receive
 Mortal Vow gives a mild DoT. It isn't anything you have to focus on heavily but just be aware in case an under-mitted raidwide leaves them on single digit HP.
 :::
 
-::: note
+::: info NOTE
 D1 and D2 must pay attention to who received the first Mortal Vow as this will affect who does a pass later on in the phase.
 :::
 
@@ -622,7 +622,7 @@ Once you find the safe quadrant, the tanks will position to bait the tankbuster 
 
 Both Nidhogg will return and both dragons will do a few autoattacks. We will now pass Mortal Vow - the DPS with Mortal Vow and the MT will go mid, passing the debuff to the MT. Everyone else must steer clear.
 
-::: note
+::: info NOTE
 Even after Nidhogg returns, it is recommended to focus hitting Hraesvelgr as he will be untargettable for the next mechanic.
 :::
 
@@ -657,7 +657,7 @@ After the dodges, Nidhogg will cast Hot Tail (sides of Nidhogg safe) or Hot Wing
 
 The spreads will spread under Nidhogg, while the stacks move under Hraesvelgr.
 
-::: note
+::: info NOTE
 MUR PF uses AMs to determine spread and stack positions. If you wish to do it legitimately, the spreads are fairly yoloable and you can devise a simple prio system (or just communicate in chat) for the stacks. Whatever you do, give priority for tanks to be towards the centre of the arena as they need to move middle for Mortal Vow pass after this mechanic.
 :::
 
@@ -683,7 +683,7 @@ There will be another Mortal Vow pass after HW2. This will be with the OT passin
 
 WB2 as a mechanic conceptually functions the same way as WB1, however this time we don't want to cancel our debuffs out for the mechanic after. Healers and DPS have fixed positions that if done correctly, will always result in them only getting hit by 1 tether and keeping their ice or fire debuff.
 
-::: note
+::: info NOTE
 Don't worry if your tether is not stretched, just stand in the exact spot as per diagram.
 :::
 
@@ -718,13 +718,13 @@ The dragons jump down for:
 
 #### Touchdown and Enrage
 
-::: note
+::: info NOTE
 If one of the bosses had their vow broken due to Cauterize, Touchdown is liveable with a tank LB2.
 :::
 
 Nidhogg and Hraesvelgr will slam down on the centre and south of the arena, respectively, for proximity AoE damage. Everyone must run out to finish the bosses off, EXCEPT D3 and the melee who has Mortal Vow, to complete the final pass on the A waymark. They can move along once the pass has completed.
 
-::: note
+::: info NOTE
 It is okay for D3 to pass here even if they were the first Mortal Vow player because their vulnerability would have fallen off by then.
 :::
 
@@ -746,7 +746,7 @@ Initially, the eyes will do a small raidwide with a bleed. This does not need mi
 
 Thordan will then return to absorb the eyes. He will do another small raidwide with a bleed to heal through again, same as before.
 
-::: note
+::: info NOTE
 For Dancer players: if you are going to use Improvisation for the transition, as soon as Thordan does this raidwide, this is your cue to start channeling.
 :::
 
@@ -793,7 +793,7 @@ Each non-tank player will take turns running to the middle under the boss to bai
 - After Akh Morns: D3 -> D4
 - After Gigaflares: H1 -> H2
 
-::: note
+::: info NOTE
 If anyone dies (e.g. D1 dies to Exaflare), someone else can take the auto and switch order with them.
 :::
 
@@ -811,7 +811,7 @@ Exactly where this beam is, is where you will run to after the first hit. It can
 
 Everyone can just stay here until all the Exaflares have passed, except for the tanks and D1 who will move up opposite of the party for the Trinity autoattacks. These players still need to pay attention to the state of the Exaflares, as they need to position without getting caught by a stray AoE. The main emnity tank should run completely across to face the boss north/south, while the second emnity tank stands on either diagonal on the front side of the boss (i.e. just be away from the party, but not on top of your cotank)
 
-::: note
+::: info NOTE
 Sprint isn't mandatory but extremely useful for Exaflares.
 
 If the boss wasn't facing north/south, you can still do the first dodge the same, just use the edge of the intial AoE marker closest to the wall as your indicator to where to run next. Yell at your tanks to do better next time.
