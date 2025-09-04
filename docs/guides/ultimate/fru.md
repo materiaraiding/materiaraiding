@@ -108,7 +108,7 @@ P5: Polarizing Swap Order: TMRH
 
 ## Cheatsheet
 
-![](/images/fru-cheatsheet.webp)
+![](/images/ultimate/fru-cheatsheet.webp)
 
 ## Video Guides
 
@@ -155,7 +155,7 @@ These can be imported using an XIV Launcher Plugin.
 {"Name":"cardinal exalines, intercard dragon & rewinds 1A","MapID":1006,"A":{"X":100.0,"Y":0.0,"Z":93.0,"ID":0,"Active":true},"B":{"X":107.0,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":107.0,"ID":2,"Active":true},"D":{"X":93.0,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":91.575,"Y":0.0,"Z":91.575,"ID":4,"Active":true},"Two":{"X":108.425,"Y":0.0,"Z":91.575,"ID":5,"Active":true},"Three":{"X":108.425,"Y":0.0,"Z":108.425,"ID":6,"Active":true},"Four":{"X":91.575,"Y":0.0,"Z":108.425,"ID":7,"Active":true}}
 ```
 
-![](/images/fru-waymarks.webp)
+![](/images/ultimate/fru-waymarks.webp)
 
 ## Buff Timings
 :::: timing-window
@@ -202,15 +202,15 @@ Lightning **Burnt Strike**
 After a few heavy hitting auto attacks, Fatebreaker will cast **Cyclonic Break** which will target each player with proteans.
 These proteans will repeat in the position they are baited, and then alternate to the previous safe spot twice.
 
-![](/images/fru-basicspread.webp)
+![](/images/ultimate/fru-basicspread.webp)
 
 For **Fire Aspected** Cyclonic Break, each player will rotate into a pair stack, then alternating between proteans.
 
-![](/images/fru-firebreak.webp)
+![](/images/ultimate/fru-firebreak.webp)
 
 For **Lightning Aspected** Cyclonic Break each player will move into the same proteans but with ranged behind the melee for spreads, then alternate between proteans.
 
-![](/images/fru-lightningbreak.webp)
+![](/images/ultimate/fru-lightningbreak.webp)
 
 After this resolves, Fatebreaker will cast **Powder Mark Trail**, hitting the MT with a heavy tankbuster and marking them with a 15s debuff of the same name.
 
@@ -224,7 +224,7 @@ This mechanic can be Fire or Lightning aspected. Fire will result in 2 light par
 
 Fatebreaker will go untargetable and jump away as fog fills the arena. Party members will spread to the wall in protean positions with ST and D4 swapped. ST and MT will resolve their Powder Mark by moving slightly closer together at the wall.
 
-![](/images/fru-utopiansky1.webp)
+![](/images/ultimate/fru-utopiansky1.webp)
 
 While at the wall, 3 random clones will raise their arms, indicating they will cleave through the arena.
 
@@ -232,7 +232,7 @@ Because only the players who are next to these clones can see them, if a player 
 
 If the person opposite you walks in, **you must walk in as well, even if your clone has a lowered arm**.
 
-![](/images/fru-utopiansky2.webp)
+![](/images/ultimate/fru-utopiansky2.webp)
 
 This will result in 2 people remaining on the wall and subsequently form a small triangular safe spot. 
 
@@ -243,8 +243,8 @@ Light party 2 will take any safe spot from NE - S
 After arriving at the safespot, the party will either stack or spread. The spread can be seen in the image below. 
 The DPS can move 3.5 notches from the star on the arena edge to determine a safe distance from the healer.
 
-![](/images/fru-utopiansky3.webp)
-![](/images/fru-utopiansky4.webp)
+![](/images/ultimate/fru-utopiansky3.webp)
+![](/images/ultimate/fru-utopiansky4.webp)
 
 #### Tethers 1
 
@@ -262,7 +262,7 @@ Light party 1 will move slightly to the north, and Light party 2 will move sligh
 
 Using the knock back from Burnt Strike, each party will be knocked North-East/West and South-East/West depending on where the safespot is.
 
-![](/images/fru-tether1.webp)
+![](/images/ultimate/fru-tether1.webp)
 
 If these light parties are not an even 4/4 split, players will be hit with a heavy damage down.
 
@@ -298,8 +298,8 @@ Because the tether colour disappears quickly on the first tether, it can be usef
 
 Once a tether goes off on each side, the tethered players should swap positions.
 
-![](/images/fru-tether2-1.webp)
-![](/images/fru-tether2-2.webp)
+![](/images/ultimate/fru-tether2-1.webp)
+![](/images/ultimate/fru-tether2-2.webp)
 
 After another **Burnished Glory**, Fatebreaker will do another **Powder Mark** ^[Powder Mark] tankbuster before casting the final mechanic:
 
@@ -317,7 +317,7 @@ If Burnt Strike is Fire Aspected, players will ride the knockback into their res
 
 If Burnt Strike is Lightning Aspected, players can simply step out into their tower immediately.
 
-![](/images/fru-towers.webp)
+![](/images/ultimate/fru-towers.webp)
 
 Whilst this is happening, the tanks will be utilising the opposite half of the arena to resolve their **Powder Mark** debuff in the same manner as the previous tankbusters.
 
@@ -442,7 +442,7 @@ As this cast goes off, 4 proximity based AOEs will launch at the players closest
 
 The lineup for these AOEs can be seen below:
 
-![](/images/fru-mirrormirror.webp)
+![](/images/ultimate/fru-mirrormirror.webp)
 
 Immediately after, the MT will pull the boss to the closest red mirror to the boss, and the ranged will move to the closest red mirror to the blue mirror, and everyone will spread for another Scythe Kick + Protean combo.
 
@@ -454,11 +454,11 @@ After this mechanic resolves the mirrors will despawn and Shiva will cast **Bani
 
 If this halo has **1 orb**, the party must group up in pairs as seen in the image below:
 
-![](/images/fru-banishpartners.webp)
+![](/images/ultimate/fru-banishpartners.webp)
 
 If this halo has **4 orbs**, the party must spread as seen in the image below:
 
-![](/images/fru-banishspread.webp)
+![](/images/ultimate/fru-banishspread.webp)
 
 Shiva will then cast:
 
@@ -468,7 +468,7 @@ Shiva will then cast:
   
 Shiva will go untargetable, and the party should line up as seen in the image below, with DPS south and Supports north. Shortly after the cast finishes, 6 players will be tethered together with 2 of them having large white orbs above their heads, signifying they are being targeted for a light party stack later.
   
-![](/images/fru-lr-old1.webp)
+![](/images/ultimate/fru-lr-old1.webp)
   
 These tethers will explode if the distance between two players is too short, so they must be stretched to an adequate distance (close to 80-90% of the arena length) to satisfy the mechanic.
 The 2 remaining players will be targeted with AOEs marks similar to the puddles in Stillness/Silence.
@@ -476,12 +476,12 @@ At the same time, 6 towers will appear around the arena.
   
 Players must quickly form a hexagon shape, using the 3 North waymarks and the 3 South waymarks. Some players (D1/H2) may have to walk to the opposite cardinal to form the hexagon.
   
-![](/images/fru-lr-old2.webp)
+![](/images/ultimate/fru-lr-old2.webp)
   
 The N/S players will then swap positions, and the NE/NW players will also swap positions. All the tether players will then quickly spread out to the tower on their cardinal/intercardinal.
   
-![](/images/fru-lr-old3.webp)
-![](/images/fru-lr-old4.webp)
+![](/images/ultimate/fru-lr-old3.webp)
+![](/images/ultimate/fru-lr-old4.webp)
   
 The 2 AOE players will start in the inner ring on the Arena at N/S and rotate CW to drop 5 puddle AOES each.
 After resolving the towers, Northern and Southern tether players should group up at North and South respectively. Each AOE player should also join a separate light party after they drop their puddles.
@@ -500,7 +500,7 @@ Shiva must be brought below 20% health before she finishes casting her enrage:
 
 All players will spread as seen in the image below and close to the centre of the arena, as there will be a short ranged knock back.
 
-![](/images/fru-intermission.webp)
+![](/images/ultimate/fru-intermission.webp)
 
 Ryne will become frozen in an **Ice Veil** in the centre of the arena, and 8 Crystals will spawn around the arena. 
 
@@ -580,13 +580,13 @@ Once the cast bar goes off players will find Relative North. For this example I 
 
 DPS will look at their party list to determine which spread they are taking, in the priority D3-D1-D2-D4 looking at relative North. Supports will do the same with the priority H1 MT ST H2. 
 
-![](/images/fru-ur-layout.webp)
+![](/images/ultimate/fru-ur-layout.webp)
 
 Any DPS with a **10s Dark Fire^[Spell-in-Waiting: Dark Fire III]** will use their priority take the SW and SE traffic lights. 
 
 Any Support with a **30s Dark Fire^[Spell-in-Waiting: Dark Fire III]** will use their priority and take the NW and NE traffic lights.
 
-![](/images/fru-ur-adjust.webp)
+![](/images/ultimate/fru-ur-adjust.webp)
 
 An example of this would be if I'm D1 and both D4 and I get a 10s Fire, the D4 would take SE and I would take SW.
 
@@ -602,7 +602,7 @@ For Example: If they have 30s Dark Fire, ST will always take NE traffic light (b
 
 This will leave the spreads looking something like this:
 
-![](/images/fru-ur-final.webp)
+![](/images/ultimate/fru-ur-final.webp)
 
 Here is a timeline of events:
 
@@ -626,18 +626,18 @@ Rewind will pull everyone back to their recorded position and the **Dark Water^[
 
 The following cheatsheets can help summarize the process of events through this mech, these can be useful to help with learning positions: 
 
-![](/images/fru-ur-dps.webp)
-![](/images/fru-ur-supp.webp)
+![](/images/ultimate/fru-ur-dps.webp)
+![](/images/ultimate/fru-ur-supp.webp)
 
 ::: details Flipped Version
 Images flipped upside down if you prefer looking at it this way. The strat is exactly the same and compatible with the images above. 
 
-![](/images/fru-ur-dps-flip.webp)
-![](/images/fru-ur-supp-flip.webp)
+![](/images/ultimate/fru-ur-dps-flip.webp)
+![](/images/ultimate/fru-ur-supp-flip.webp)
 
 :::
 
-![](/images/fru-ur-cheatsheet.webp)
+![](/images/ultimate/fru-ur-cheatsheet.webp)
 
 Gaia will follow Ultimate Relativity with a **Party Stack**, a **Shockwave Pulsar** raidwide, and a **Black Halo** **Dual Tank Buster Cleave**
 
@@ -671,7 +671,7 @@ Once the safespot is identified, each party will move into it and spread out usi
 
 The safespot for all 4 will be the initial safe cardinal/intercardinal, and the cardinal/intercardinal **opposite** the spin of the AOEs.
 
-![](/images/fru-apocspread.webp)
+![](/images/ultimate/fru-apocspread.webp)
 
 ::: tip
 The players at the front can keep full melee uptime but must be careful, as the inner exploding AOE is quite large. I recommend breaking max melee and tapping forward until you're just able to hit Gaia.
@@ -752,15 +752,15 @@ Ryne will also cast 4 proximity based Protean AOEs from her that will be baited 
 
 To begin, each player will stack mid as Ryne transformed before quickly moving to the following lineup with **supports true North** and **DPS true South**
 
-![396285559-1efa326f-0514-4f6a-9f28-34ccc126b966.webp](/images/fru-darklit1.webp)
+![396285559-1efa326f-0514-4f6a-9f28-34ccc126b966.webp](/images/ultimate/fru-darklit1.webp)
 
 The tether players will quickly determine what shape the tether is currently in and make a bowtie shape. This is to ensure 2 players from each side can soak towers while still satisfying the length requirement for the tethers.
 
-![396285380-661063e9-26ec-4725-bbdc-8281f6b5e73b.webp](/images/fru-darklit-adjust.webp)
+![396285380-661063e9-26ec-4725-bbdc-8281f6b5e73b.webp](/images/ultimate/fru-darklit-adjust.webp)
 
 Once the bowtie is formed, the tether players will stand in their towers, and the 4 remaining players will split left/right and shuffle close to Ryne to bait out the Proteans. If both water stacks are on the same North/South side of the room, the untethered AOE player will swap with the untethered player on their side of the room to ensure the water stacks are split north/south.
 
-![396285330-dfeae866-9934-4def-a4ed-2eb951b55c0f.webp](/images/fru-darklit-swap.webp)
+![396285330-dfeae866-9934-4def-a4ed-2eb951b55c0f.webp](/images/ultimate/fru-darklit-swap.webp)
 
 After the towers and AOEs resolve, Gaia will cast **Sprit Taker**, targeting a random player again. All players will roughly spread to resolve this. Immediately after Ryne will cast **Hallowed Wings**, cleaving one half of the arena. The party will shift over into the safespot and take the Dark Water stacks. 
 
@@ -804,7 +804,7 @@ From left to right:
 
 Dark Blizzards will step up, Dark Aero debuffs will step down, look at the two players standing north/south of the lineup to determine who goes East/West.
 
-![395830834-a625f6c7-a1f0-4eaf-abb4-5bd787ccfb4a.webp](/images/fru-ct-adjust.webp)
+![395830834-a625f6c7-a1f0-4eaf-abb4-5bd787ccfb4a.webp](/images/ultimate/fru-ct-adjust.webp)
 
 **Red** players must intercept dragonheads that will begin to travel around the arena from North to South. Intercepting these dragons will cleanse the debuff, and cause a large AOE explosion aswell as leaving behind a small puddle on the floor. This puddle must be picked up by a **Blue** player to successfully cleanse their own debuff. Allowing either of these debuffs to remain unresolved will immediately kill the player.
 
@@ -835,7 +835,7 @@ Meanwhile the the ice players will stand directly East/West to intercept their d
 
 After the **Yellow Tether** traffic lights go off the south **Blue** players will immediately move just in front of the **Red Dark Aero** player. The **Dark Water, Dark Blizzard, and Dark Aero** will then all go off at once, launching the **Blue** players to the opposite side of the arena, and they will stack with the **Dark Eruption** & **Red Dark Blizzard** player of that side to resolve **Unholy Darkness**.
 
-![fru-ct-dragonpops.png](/images/fru-ct-dragonpops.png)
+![fru-ct-dragonpops.png](/images/ultimate/fru-ct-dragonpops.png)
 
 After the stack resolves, all North players (**Blue** & **Red Ice**) will shift over to the North Cardinal.
 
@@ -849,7 +849,7 @@ For example if the Exas started West and North, the North West intercardinal wil
 
 After cleansing their debuff, everyone should run to the safe intercardinal and stack on the waymark as seen below:
 
-![fru-ct-rewinds.png](/images/fru-ct-rewinds.png)
+![fru-ct-rewinds.png](/images/ultimate/fru-ct-rewinds.png)
 
 ::: info
 If a blue player is unable to cleanse their buff in time, they can run to the safe spot to drop their rewind, and then run to go cleanse immediately after as there is a short window before the puddle despawns.
