@@ -233,7 +233,7 @@ Please refer to full guide.
 
 [Full DSR OCE Guide](/ultimate/dsr)
 :::
-::: details JP Differences
+::: details JP (Tuufless) Differences
 
 There are a number of differences between OCE and JP for DSR. Please review this list for specific mechanics, using the language in [Tuufless' guide](https://tuufless.github.io/FFXIV-Elemental-Raid-Macros/ultimates/dsr/). It is recommended that you are familiar with these differences before you join clear/reclear parties.
 
@@ -262,6 +262,30 @@ There are a number of differences between OCE and JP for DSR. Please review this
 - **7. Dragonking Thordan**
     - **General**: Mitigations are different from JP; consult the cheat sheet for details.
     - **Enrage**: MT takes towers first instead of ST.
+ 
+::: details JP (Mana) Differences
+- **1. The Holy See**
+    - **Hyperdimensional Slash:** Initial marked players spread along the **north** side.
+    - **Playstation Chains:** Green/triangle DPS goes North-West.
+    - **Interrupts:** ST -> D3 -> ST 
+- **3. Niddhogg**
+     - **Dive from Grace:** Easthogg.
+- **4. Eyes**
+    - **Orbs**
+        - Initial lineup is different; check cheat sheet for details.
+        - **Tanks and melees** take yellow orbs, and move to ranged and healers to pass tethers afterwards.
+    - **Mirage Dives**
+        - **Ranged and healers** take dives first, using the positions in the cheat sheet.
+        - The order of swaps are tanks, melees, then ranged and healers again.
+        - Swaps are done North relative.
+- **5. Alternate Thordan**
+    - **Death of the Heavens**:
+        - The line up from left to right is H1 MT D3 D1 D2 D4 ST H2.
+- **6. Double Dragons**
+    - **Wyrmsbreath #1**: Anchors are H1, D1 and D4.
+    - **Wroth Flames**: Spreads (numbers) go to Nidhogg, Stacks (chains) go to Hraesvelgr. OCE usually uses AMs for wroth.
+- **7. Dragonking Thordan**
+    - **General**: OCE typically does not use Tank LB3 for AM2. Consult with the cheatsheet for typical mit use.
 
 :::
 
