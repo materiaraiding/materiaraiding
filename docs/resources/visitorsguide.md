@@ -265,11 +265,11 @@ There are a number of differences between OCE and JP for DSR. Please review this
  
 ::: details JP (Mana) Differences
 - **1. The Holy See**
-    - **Hyperdimensional Slash:** Initial marked players spread along the **north** side.
-    - **Playstation Chains:** Green/triangle DPS goes North-West.
-    - **Interrupts:** ST -> D3 -> ST 
+    - **Hyperdimensional Slash**: Initial marked players spread along the **north** side.
+    - **Playstation Chains**: Green/triangle DPS goes North-West.
+    - **Interrupts**: ST -> D3 -> ST 
 - **3. Niddhogg**
-     - **Dive from Grace:** Easthogg.
+     - **Dive from Grace:** Easthogg. 3s typically indicate where they want to go by physically going to their spot.
 - **4. Eyes**
     - **Orbs**
         - Initial lineup is different; check cheat sheet for details.
