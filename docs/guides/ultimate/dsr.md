@@ -165,17 +165,17 @@ Once pulled, tanks will stack the bosses and the party will stay south.
 As Adelphel goes untargetable soon after the phase starts, players should spend their buffs and openers on him. Throughout the phase both bossess should be kept as similar health as possible.
 :::
 
-After a **Holiest of Holy** raid wide Grinnaux will cast **Empty Dimension**, forming a donut AOE centered on him. At the same time Adelphel will cast **Holy Shield Bash**, a tethered AOE tankbuster that is targeted on a random player. The MT must walk through this tether and bring it north of the bosses to take the tankbuster **with invulnerability**. At the same time the party will take a **Heavensblaze** stack at the south.
+After a **Holiest of Holy** raid wide Grinnaux will cast **Empty Dimension**, forming a donut AoE centered on him. At the same time Adelphel will cast **Holy Shield Bash**, a tethered AoE tankbuster that is targeted on a random player. The MT must walk through this tether and bring it north of the bosses to take the tankbuster **with invulnerability**. At the same time the party will take a **Heavensblaze** stack at the south.
 
 After this stack and tankbuster combo, Adelphel will become untargetable and Grinnaux will cast:
 
 #### Hyperdimensional Slash
 
-Grinnaux will then target 4 random players with a line AOE. This AOE will drop a purple portal on the edge of the arena wherever it was aimed, and if two portals are too close to one another they will tether to eachother and wipe the raid. Similarly, if a player stands too close to a portal they will become tethered and die.
+Grinnaux will then target 4 random players with a line AoE. This AoE will drop a purple portal on the edge of the arena wherever it was aimed, and if two portals are too close to one another they will tether to eachother and wipe the raid. Similarly, if a player stands too close to a portal they will become tethered and die.
 
-These 4 players must spread to the north of Grinnaux at max melee, where they will take a line AOE. The positions each player will take are designated by waymarks.
+These 4 players must spread to the north of Grinnaux at max melee, where they will take a line AoE. The positions each player will take are designated by waymarks.
 
-At the same time as the prey markers move north, the remaining party members will stack south of Grinnaux and take a large conal AOE stack that gets baited on a random non-prey player.
+At the same time as the prey markers move north, the remaining party members will stack south of Grinnaux and take a large conal AoE stack that gets baited on a random non-prey player.
 
 ![](/images/ultimate/dsr-hyperslash.webp)
 
@@ -188,7 +188,7 @@ Adelphel will then drop down onto a random cardinal and cast another **Holiest o
 
 Adelphel will start this dodge by either moving left or right, and the party will move the same direction and stand on the tip of an arrow shaped pattern in the arena . **(I'll try get a video for this - Juno)**
 
-After completing his dashes, Adelphel will drop onto the player who had the highest emnity on him before he dissappeared, delivering a heavy hitting AOE tank buster that the OT will invuln. To avoid hitting the party with this, the OT will follow the party to the safe spot and then **continue moving past the party**. 
+After completing his dashes, Adelphel will drop onto the player who had the highest emnity on him before he dissappeared, delivering a heavy hitting AoE tank buster that the OT will invuln. To avoid hitting the party with this, the OT will follow the party to the safe spot and then **continue moving past the party**. 
 
 Adelphel will then immediately begin casting 1 of 3 instances of **Holiest Hallowing**, an interruptible heal targeted on Grinnaux. The OT will interrupt this and both tanks will position their bosses in the center of the arena for:
 
@@ -200,7 +200,7 @@ Each player will be marked with either a cross, square, circle, or triangle, so 
 **Healers** can only ever get Cross or Triangle, **Tanks** can only get Cross or Square, and **DPS** can only get Square, Circle or Triangle
 :::
 
-The party will form around Grinnaux in the pattern seen below, and be knocked back by another **Faith Unmoving** to break their tethers. If unbroken, the resulting AOE will kill any players who have not resolved their tethers.
+The party will form around Grinnaux in the pattern seen below, and be knocked back by another **Faith Unmoving** to break their tethers. If unbroken, the resulting AoE will kill any players who have not resolved their tethers.
 
 ![](/images/ultimate/dsr-playstation.webp)
 
@@ -208,7 +208,7 @@ The party will form around Grinnaux in the pattern seen below, and be knocked ba
 A warning to warrior players; Inner release is perfectly timed in this phase to be up as this mechanic is resolving. This means that you'll be immune to knockback and therefore unable to resolve your tether. You can either prepull inner release earlier in the fight, or simply click the **Inner Strength** buff off during this mechanic.
 :::
 
-Immediately after this is resolved, the 2nd **Holiest Hallowing** cast will begin, and the ranged player (or main tank) will interrupt the cast. Both bosses should be stacked middle again for another **Holiest Holy** and either an **Empty** or **Full Dimension**. If it is **Empty** Grinnaux will do a donut AOE around him like before. If it is **Full**, move away from Grinnaux as he will cast a large circular AOE centered on him.
+Immediately after this is resolved, the 2nd **Holiest Hallowing** cast will begin, and the ranged player (or main tank) will interrupt the cast. Both bosses should be stacked middle again for another **Holiest Holy** and either an **Empty** or **Full Dimension**. If it is **Empty** Grinnaux will do a donut AoE around him like before. If it is **Full**, move away from Grinnaux as he will cast a large circular AoE centered on him.
 
 The final **Holiest Hallowing** will be interrupted by the OT again. At this point, if one of them dies before the other, they will begin to cast their enrage: either **Bull's Steel** or **Brightblade's Steel**. As such both bosses must be killed at roughly the same time.
 
@@ -220,7 +220,7 @@ A new boss **Charibert** will then appear at the southern side of the circle and
 
 **Haurchefant** will run to the side of the circle and block an arrow. This arrow pulses intermittently, dealing damage to the party. 
 
-Charibert will then cleave the two players closest to him, applying a 5s debuff **Skyblind**. Once this debuff wears off, an invisible AOE will drop under the players feet that will explode after a few seconds. To resolve this, we have players bait in the order **H → M → R → T**, where the ranged players will drop their AOEs on the east and the melee players will drop them on the west.
+Charibert will then cleave the two players closest to him, applying a 5s debuff **Skyblind**. Once this debuff wears off, an invisible AoE will drop under the players feet that will explode after a few seconds. To resolve this, we have players bait in the order **H → M → R → T**, where the ranged players will drop their AoEs on the east and the melee players will drop them on the west.
 
 Once Charibert is reduced to approximately ~25-30% health, the DPS check is reached and as long as one player survives the transition the party will receive a checkpoint.
 
@@ -253,7 +253,7 @@ The way that the waymarkers are set up means that **Light Party 1** will always 
 
 > In the image above we can see the purple, yellow, and blue waymarks have knights on them. Thus we can simply call out "Red" and both parties will know where they have to go.
 
-Within both of those safespots, each light party will have to spread to avoid overlapping lightning AOEs that are about to drop on each player. These lightning AOEs will go off at the same time as the dashes go off.
+Within both of those safespots, each light party will have to spread to avoid overlapping lightning AoEs that are about to drop on each player. These lightning AoEs will go off at the same time as the dashes go off.
 
 While the parties are getting into position **Grinnaux** and **Thordan** appear again, with Grinnaux being placed somewhere near the center of the arena and Thordan in the direct center. After everything resolves Grinnaux will begin to cast a quake that will expand out towards each light party. Avoiding this is simple, just waiting until it is safe to walk forward and doing so. 
 
@@ -305,11 +305,11 @@ After the last AoEs resolve, various knights will appear around the arena alongs
 
 #### Meteors
 
-Players should split off into pairs on each of the cardinals as per the cheatsheet (MT/D3 N, OTD4 S, H1D1 E, H2D2 W), standing between the AOEs that have spawned on the intercardinals. 2 players will be marked by "Meteors", a small red arrow above the players head. These 2 players will **ALWAYS** be part of the same role. The role that gets the meteors is deemed as the "priority" role.
+Players should split off into pairs on each of the cardinals as per the cheatsheet (MT/D3 N, OTD4 S, H1D1 E, H2D2 W), standing between the AoEs that have spawned on the intercardinals. 2 players will be marked by "Meteors", a small red arrow above the players head. These 2 players will **ALWAYS** be part of the same role. The role that gets the meteors is deemed as the "priority" role.
 
 The meteor players will position themselves North and South, swapping with the same respective role player that is already positioned there. _Generally_ the meteor players should try and go to N/S cardinal that is **clockwise** of them, however this rule isn't always followed.
 
-Each pair should stand roughly halfway between the centre of the arena and the edge of the arena to bait a set of partner stacks that will leave a puddle of ice that will inflict a short **"Ice Resistance Up"** buff for a moment, allowing you to quickly move out of the puddle before it applies a heavy frostbite DOT. The large orange AOEs on the intercardinals will also turn into fire puddles when the stacks go off, leaving the middle of the arena unable to access the outer ring and vice versa.
+Each pair should stand roughly halfway between the centre of the arena and the edge of the arena to bait a set of partner stacks that will leave a puddle of ice that will inflict a short **"Ice Resistance Up"** buff for a moment, allowing you to quickly move out of the puddle before it applies a heavy frostbite DOT. The large orange AoEs on the intercardinals will also turn into fire puddles when the stacks go off, leaving the middle of the arena unable to access the outer ring and vice versa.
 
 While everyone is moving to their positions, 8 towers will spawn. Some of these towers will be on the outer edges and some in the middle of the arena. If only one tower is available on the outer edge of the arena in a pair's quadrant, the **priority role** (i.e. the one with meteors) should take that tower, and the other player should move into the middle of the arena to soak the tower **clockwise** from where they baited their puddle. If 2 towers are available on the outer edge of the arena the **priority role** will take the left most tower, and the **non-priority role** will take the right most. However this rule is a bit flimsy and most often people will just move to the left/right beforehand to indicate which tower they will take.
 
@@ -317,7 +317,7 @@ The meteor players can be a little different with which towers they want to take
 
 In an ideal world this means that each meteor player will take a tower that results in them being 180 degrees from eachother. However it doesn't always pan out this way as the tower positions are semi-random, resulting in 2 other patterns where one meteor player will be closer to the other, about 150 or 120 degrees. The 120 degree pattern is colloquially known as **"cursed"**.
 
-To avoid these patterns as much as possible, each meteor player will look at the other and indicate to take a tower to give the largest gap between the two. Once you inevitably get one of these patterns, the player on the "short" side, will have to: Follow the curve of the inner AOEs to use up as much space as possible, and if the pattern is cursed employ stutter stepping to pace out the meteors correctly. This can be difficult at first as the meteors will drop very close to eachother. Fortunately this pattern is pretty unlikely.
+To avoid these patterns as much as possible, each meteor player will look at the other and indicate to take a tower to give the largest gap between the two. Once you inevitably get one of these patterns, the player on the "short" side, will have to: Follow the curve of the inner AoEs to use up as much space as possible, and if the pattern is cursed employ stutter stepping to pace out the meteors correctly. This can be difficult at first as the meteors will drop very close to eachother. Fortunately this pattern is pretty unlikely.
 
 After the initial tower soak both meteor players will start moving clockwise around the arena. 8 more towers will spawn on each cardinal and intercardinal and after about 5/6 meteor drops **Faith Unmoving** will be cast. All outside players will use **Anti KB**, and all inside players will ride the knockback into their respective tower. The towers each player will take depends on the initial safespot they started from. **Priority** players will take the cardinal tower, and the **Non-priority players** will take the tower **1 clockwise** of the starting safespot. Both Meteor players will end up in the opposite North or South tower.
 
@@ -373,7 +373,7 @@ The order that the numbers will soak the towers is as follows:
 * East and West 1st dive players will soak the towers dropped by 2nd dive players
 * 2nd dive players and the South 1st dive player will soak the towers dropped by 3rd dive players
 
-Upon soaking a tower, a Nidhogg clone will drop down and aim a line AOE at that closest player. Simply bait this out of the arena, and **when Nidhogg glows**, step through Nidhogg to avoid being hit.
+Upon soaking a tower, a Nidhogg clone will drop down and aim a line AoE at that closest player. Simply bait this out of the arena, and **when Nidhogg glows**, step through Nidhogg to avoid being hit.
 
 In addition to all these mechanics, while the first and third set of towers are preparing to be placed, Nidhogg will begin to cast either **Lash and Gnash** (in then out) or **Gnash and Lash** (out then in). On the cast finish, Nidhogg will cast a party stack on one of the players not currently placing or soaking a tower, as well as performing either Lash or Gnash (whichever was first on the castbar), followed by the opposite.
 
@@ -387,7 +387,7 @@ While it is possible to live getting hit by Lash/Gnash, it will knock the player
 
 #### Enumeration Towers
 
-Immediately after this mechanic, the tank will take a few more auto-attacks before casting Drachenlance on a random player, which is a short conal AOE that will deal lethal damage to anyone hit.
+Immediately after this mechanic, the tank will take a few more auto-attacks before casting Drachenlance on a random player, which is a short conal AoE that will deal lethal damage to anyone hit.
 
 4 towers will then spawn on each intercardinal around Nidhogg. As seen in the cheatsheet, all players will stack with their partner to begin with. In all but 1 pattern, each Tower will need a different number of people in them, the amount of which can be determined by the number of pillars in the tower. As all the ranged players anchor in their spot, if the melee player sees that only 1 person is required in the tower they start on, they will flex to another tower using the priority **clockwise, then counter-clockwise, and lastly across the arena.** 
 
@@ -453,13 +453,13 @@ Following the same H -> M -> R -> T order as phase 1, players will resolve the m
 
 ### Phase 5 - Dark King Thordan
 
-After 2 AOE autoattacks, Thordan will begin to cast:
+After 2 AoE autoattacks, Thordan will begin to cast:
 
 #### Wrath of the Heavens (WOTH/Wrath)
 
 Thordan will become untargetable, and 2 knights and a dragon will drop down on a random cardinal/intercardinal. **This will become our new north.**
 
-A player will then be marked with a blue **defamation** marker and 2 players will be marked with 2 line-AOEs, indicated by orange tethers coming from the knights. 
+A player will then be marked with a blue **defamation** marker and 2 players will be marked with 2 line-AoEs, indicated by orange tethers coming from the knights. 
 
 The tether players will pull these tethers across the arena from their knight, and the defamation will stand near the western knight.
 
@@ -478,7 +478,7 @@ As Twisting Dive is going off, two more knights and thordan will drop into the c
 This effectively splits the party into 2 groups. 4 players who have done a mechanic, and 4 which haven't.
 
 After a protean slash from Thordan a random **non-mechanic** player will be targeted with 5 consecutive **Liquid Heaven** baits, and a random **mechanic** player will be targeted with 4 **Eruption** baits.
-2 random players (these can be the same players as above) will also be targeted with lightning AOEs.
+2 random players (these can be the same players as above) will also be targeted with lightning AoEs.
 
 (video of baits)
 
@@ -486,11 +486,11 @@ After a protean slash from Thordan a random **non-mechanic** player will be targ
 It is very important that players stay on their side of the arena here. All **mechanic** players will have a **Magic Vuln** debuff which means that they will **instantly die** upon touching a Liquid Heaven.
 :::
 
-Everyone will then make their way to the warrior as he will shortly cast a donut AOE. Everyone should stack near Thordan, whilst the two lightning AOEs should spread near the rear of the donut AOE to form a "Mickey Mouse" style shape.
+Everyone will then make their way to the warrior as he will shortly cast a donut AoE. Everyone should stack near Thordan, whilst the two lightning AoEs should spread near the rear of the donut AoE to form a "Mickey Mouse" style shape.
 
 Both bait players should _not_ overlap their baits on top of the warrior to make room for the rest of the party. It is possible to walk away from the safe spot and loop back around in time to the safe spot.
 
-After this is resolved, Thordan will cast an **Ancient Quaga** raidwide, followed by 2 more AOE auto attacks and another **Heavenly Heel** into **Ascalon's Might** tank buster.
+After this is resolved, Thordan will cast an **Ancient Quaga** raidwide, followed by 2 more AoE auto attacks and another **Heavenly Heel** into **Ascalon's Might** tank buster.
 
 ::: tank
 Due to the mit plan that MUR PF uses, if the MT is a **WAR** they can use their invincibility here for free.
@@ -520,13 +520,13 @@ Because there will shortly be several dives going through the arena from the dra
 Once in position, all the dives from the dragons and the lightning spread from the knight will go off. As one of the dragons was the same one from **Wrath**, there will also be twisters. 
 
 ::: info NOTE
-The timing for this twister is as soon as the lightning AOE goes off.
+The timing for this twister is as soon as the lightning AoE goes off.
 :::
 
 In addition, the knight in the middle will also be doing a quake that will gradually spread outwards from his position.
 
-Dodging this is relatively simple. All the north, close west, and close east players will simply hold forward towards the knight as soon as their lightning AOE goes off.
-The rest of the players will begin to walk along the arenas edge, dodging in to the 2nd earthshaker AOE that goes off.
+Dodging this is relatively simple. All the north, close west, and close east players will simply hold forward towards the knight as soon as their lightning AoE goes off.
+The rest of the players will begin to walk along the arenas edge, dodging in to the 2nd earthshaker AoE that goes off.
 
 As these go off, several knights will replace the axe knight in the middle, including our favourite **Grinnaux.**
 
@@ -542,7 +542,7 @@ Players will then all look away from the gazes and ride a **Faith Unmoving** kno
 #### Meteors
 Without a break, 8 meteors will spawn on each cardinal and intercardinal. The 3 meteors at N/NW/NE will be killed using a targeted magic LB2 on the meteor at north, whilst the rest of the party bursts down the reamining meteors.
 
-Killing the meteors results in Thordan jumping back to the arena and performing another **Ancient Quaga**, followed by yet another 2 AOE auto-attacks into **Heavenly Heel** and an **Ascalon's Might** tank buster.
+Killing the meteors results in Thordan jumping back to the arena and performing another **Ancient Quaga**, followed by yet another 2 AoE auto-attacks into **Heavenly Heel** and an **Ascalon's Might** tank buster.
 
 ::: warning
 Players **MUST** stop damaging Thordan below %2.8 health. If Thordan dies here it is **impossible** to beat the fight as he will wipe the party at the end of phase 6.
@@ -556,7 +556,7 @@ Players will then immediately position south for the next phase:
 An important mechanic to note in this phase is the two possible failure conditions:
 
 **Nidhogg's Vow** - Letting the **Mortal Vow** debuff fall off will result in Nidhogg's Vow being broken (will be explained soon).
-**Hraesvelgr's Vow** - Dying to any instance of damage from Hraesvelgr (autos/stacks/AOE/spreads) will result in the Vow breaking.
+**Hraesvelgr's Vow** - Dying to any instance of damage from Hraesvelgr (autos/stacks/AoE/spreads) will result in the Vow breaking.
 
 Breaking a vow will result in that dragon receiving a **Damage Up** and **Damage Taken Down** buff, effectively one shotting your tanks with auto attacks.
 
@@ -574,7 +574,7 @@ MT will grab Nidhogg, and OT will grab Hraesvelgr. After a few auto attacks, bot
 
 #### Wyrmsbreath 1 (WB1)
 
-The arena will be transformed into a donut via an AOE.
+The arena will be transformed into a donut via an AoE.
 
 Nidhogg will then target 3 random **Non Tank players** with fire tethers, and Hraesvelgr will target 3 random **Non Tank players** with ice tethers. These tethers will cause both Pyretic and a Frozen debuff respectively. To resolve this, each fire tether player must stack with an ice tether player to cancel out the debuff. Because we can't determine which players are going to be targeted, we set up 3 groups of 2 people where one person from each will plant while the other will be the designated "flex" player. The flex player will swap with another player if they have the same tether as their partner.
 
@@ -586,7 +586,7 @@ If **one** mouth is glowing, the tank that is tanking the **non-glowing** dragon
 
 (Image WB1 Tanks)
 
-Immediately afterwards, all players should spread away from DPS players as a random DPS will be assigned **Mortal Vow** in the form of a targeted AOE.
+Immediately afterwards, all players should spread away from DPS players as a random DPS will be assigned **Mortal Vow** in the form of a targeted AoE.
 
 **Mortal Vow** is essentially a 'hot potato' mechanic - at the end of the debuff timer (or when the player dies), it releases a small AoE on the player. Someone else must be hit by this AoE to receive and renew the Mortal Vow debuff. As mentioned initially, letting this debuff fall off without renewal will enrage Nidhogg.
 
@@ -610,7 +610,7 @@ Everyone will be near the middle of the arena for this, with LP1 leaning northwa
 
 Very shortly after, Nidhogg will fly away and Hraesvelgr will cast:
 
-### Hallowed Wings 1 (HW1)
+#### Hallowed Wings 1 (HW1)
 
 This mechanic involves 2 separately baited tankbusters while only a quarter of the arena is safe. There are 3 components to reading this mechanic and you can read them in any order that works for you:
 
@@ -634,9 +634,7 @@ After the pass Nidhogg will cast:
 This mechanic involves heavy-hitting party stacks while moving, so generally most major mitigations are sent here to ease stress on healers.
 :::
 
-4 players will be inflicted with a spread debuff <img width="24" height="32" alt="Spreading_flames_icon1" src="https://github.com/user-attachments/assets/164264cb-3da3-45b8-9982-0135aba84d13" />
-, 2 players with a pair stack debuff <img width="24" height="32" alt="Entangled_flames_icon1" src="https://github.com/user-attachments/assets/d3f81a50-90c2-400c-962b-350cac1e6698" />
- and 2 players with nothing (who will assist with the pair stacks). These do not resolve until the very end of the mechanic.
+4 players will be inflicted with a spread debuff <img width="24" height="32" alt="Spreading_flames_icon1" src="https://github.com/user-attachments/assets/164264cb-3da3-45b8-9982-0135aba84d13" /> , 2 players with a pair stack debuff <img width="24" height="32" alt="Entangled_flames_icon1" src="https://github.com/user-attachments/assets/d3f81a50-90c2-400c-962b-350cac1e6698" /> , and 2 players with nothing (who will assist with the pair stacks). These do not resolve until the very end of the mechanic.
 
 Nidhogg will prepare Akh Morn (a 4-hit party stack that leaves a lethal puddle behind) and Hraesvelgr will fly away and prepare to cleave the entire west or east side of the arena. Three sets of fire orbs will also spawn that will do large plus + shaped AoEs when they resolve. The goal is to dodge all of these together as a party as you soak the repeated Akh Morn stacks.
 
@@ -648,7 +646,7 @@ So, for example, if Hraesvaelgr is cleaving the west side of the arena, and the 
 The party will then do a fixed "J" shaped movement, gradually moving to the middle of the arena.
 
 ::: warning
-stack tightly and do not run ahead - stop at the edge of each puddle before making the next step. Sprint is not essential for the movement and should only be used if you read the safe spot too late and need to make it to the party in time.
+Stack tightly and do not run ahead - stop at the edge of each puddle before making the next step. Sprint is not essential for the movement and should only be used if you read the safe spot too late and need to make it to the party in time.
 :::
 
 !diagram to be added.
@@ -737,7 +735,7 @@ If the Mortal Vow fails to pass here, Nidhogg will still 'enrage,' giving him a 
 #### Transition
 
 Once both dragons die,
-- If Thordan died in Phase 5, you will wipe here as the Eyes of Nidhogg appear (like in Phase 4), but you will not receive the friendship buff (because haurch lived lmao L bozo).
+- If Thordan died in Phase 5, you will wipe here as the Eyes of Nidhogg appear (like in Phase 4), but you will not receive the friendship buff.
 - If Thordan survived in Phase 5, continue on and prepare for the heavy raidwide transition:
 
 Use this downtime to mark your tanks with Ignore overhead markers, as they will take AoE attacks in the final phase. This will make it easier for the rest of the party to avoid them.
@@ -784,7 +782,7 @@ In between each mechanic, Dragon King Thordan will do 2× sets, of 3 AoE autoatt
 - The 2nd enmity player is hit and receives a stacking Light Resistance Down debuff.
 - The closest player is hit and receives a Physical Vulnerability Up and both a Dark and Light Resistance Down debuff.
 
-:: tank
+::: tank
 After every 2 autoattacks, you will need to switch aggro. As you will swap aggro regularly, shirk will not always be up - pay attention to the enmity gauge on your party list and depending the DPS disparity between you and your cotank, you may need to do some switching on/off with your stance.
 :::
 
@@ -872,6 +870,7 @@ Generally speaking, Akh Morn 2 will be the heaviest to heal as based on the miti
 - Gigaflare 2
 - H1 autoattack -> H2 autoattack
 - Exaflare 3
+- D1 autoattack -> D2 autoattack
 - Akh Morn 3 (7 hits)
 - D3 autoattack -> D4 autoattack
 - Enrage sequence
