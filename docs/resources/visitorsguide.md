@@ -232,6 +232,7 @@ For an extended explanation you can see the complete DSR OCE Guide below by Juno
 Please refer to full guide.
 
 [Full DSR OCE Guide](/ultimate/dsr)
+
 :::
 ::: details JP (Tuufless) Differences
 
@@ -262,7 +263,8 @@ There are a number of differences between OCE and JP for DSR. Please review this
 - **7. Dragonking Thordan**
     - **General**: Mitigations are different from JP; consult the cheat sheet for details.
     - **Enrage**: MT takes towers first instead of ST.
- 
+
+:::
 ::: details JP (Mana) Differences
 - **1. The Holy See**
     - **Hyperdimensional Slash**: Initial marked players spread along the **north** side.
@@ -286,7 +288,6 @@ There are a number of differences between OCE and JP for DSR. Please review this
     - **Wroth Flames**: Spreads (numbers) go to Nidhogg, Stacks (chains) go to Hraesvelgr. OCE usually uses AMs for wroth.
 - **7. Dragonking Thordan**
     - **General**: OCE typically does not use Tank LB3 for AM2. Consult with the cheatsheet for typical mit use.
-
 :::
 
 ![](/images/ultimate/dsr-dsrcheatsheet.webp)
