@@ -4,7 +4,7 @@ fightID: P4S
 title: Asphodelos The Fourth Circle
 expansion: Endwalker
 difficulty: Savage
-banner: /images/banners/archived/endwalker/P4S.webp
+banner: /images/banners/P4S.webp
 ---
 ## Strategy
 

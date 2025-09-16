@@ -4,7 +4,7 @@ fightID: EX4
 title: Storms Crown
 expansion: Endwalker
 difficulty: Extreme
-banner: /images/banners/archived/endwalker/EX4.webp
+banner: /images/banners/EW_EX4.webp
 ---
 ## Macro
 ```markdown
