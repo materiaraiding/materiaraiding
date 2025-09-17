@@ -131,7 +131,7 @@ If you have at least one of each role in your party, you will also get a "Party 
 This terminology varies across regions, typically OCE and JP use the D1 to D4 terminology, however, in other regions it may be replaced with M1, M2, R1, R2 instead.
 :::
 
-#### Light Parties
+#### Light Partiesewfwefw
 
 **Light parties** are a way to describe the position of players in relation to two separate groups. This is commonly used in mechanics where the party must be split in half to perform a mechanic. The default light parties are:
 
