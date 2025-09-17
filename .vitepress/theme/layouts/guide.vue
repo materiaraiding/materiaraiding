@@ -25,6 +25,9 @@ onMounted(() => {
 
 <template>
 	<Layout>
+		<template #layout-top>
+			<div id="loading-bar"></div>
+		</template>
 		<template #doc-before>
 			<img v-if="frontmatter.image" :src="`/images/${frontmatter.image}`" alt="DKT" width="150" style="float: right" />
 			<div v-if="frontmatter.expansion && frontmatter.difficulty" class="guide_subtitle">
@@ -32,7 +35,7 @@ onMounted(() => {
 			</div>
 			<h1 v-if="frontmatter.fightID" class="guide_title" :id="frontmatter.title">
 				<img :src="icon" /> {{ frontmatter.title }}
-				<a :href="frontmatter.fightID.toLowerCase()" class="header-anchor" ></a>
+				<a :href="frontmatter.fightID.toLowerCase()" class="header-anchor"></a>
 			</h1>
 			<div v-if="frontmatter.difficulty" class="guide_label_box">
 				<a v-if="frontmatter.difficulty?.toLowerCase() === 'ultimate'" href="https://discord.gg/ArZz3b8PZV"
@@ -166,5 +169,30 @@ onMounted(() => {
 
 .header-anchor::before {
 	content: var(--vp-header-anchor-symbol);
+}
+
+#loading-bar {
+	opacity: 0;
+	width: 0;
+	height: 2.5px;
+	background: linear-gradient(120deg, #c77676 10%, #ebd2b4);
+	z-index: 99;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transform-origin: left;
+	transition: width ease-out;
+	transition-duration: 4s;
+}
+
+#loading-bar.loading {
+	opacity: 1;
+	width: 80%;
+}
+
+#loading-bar.finished {
+	opacity: 1;
+	transition-duration: 0.2s;
+	width: 100%;
 }
 </style>

@@ -19,6 +19,7 @@ import GuideButton from "./components/lists/GuideButton.vue";
 import GuideHome from "./components/lists/GuideHome.vue";
 import PartyFinder from "./components/PartyFinder.vue";
 import guide from "./layouts/guide.vue";
+import useRouterLoadingBar from "./hooks/useRouterLoadingBar";
 
 declare global {
 	interface Window {
@@ -56,6 +57,10 @@ export default {
 			},
 		});
 
+		const loadingBar = useRouterLoadingBar();
+		ctx.router.onBeforePageLoad = () => loadingBar.loading();
+		ctx.router.onAfterPageLoad = () => loadingBar.finished();
+		
 		if (typeof window !== "undefined") {
 			window.createTooltip = createTooltip;
 		}
