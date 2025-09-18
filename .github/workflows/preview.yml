@@ -17,12 +17,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Not needed if lastUpdated is not enabled
+      - uses: pnpm/action-setup@v3 # Uncomment this block if you're using pnpm
+        with:
+          version: 9 # Not needed if you've set "packageManager" in package.json
 
-      - name: Install and Build
-        if: github.event.action != 'closed'
-        run: |
-          pnpm install
-          pnpm run docs:build # or your specific build command
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm # or pnpm / yarn
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Install dependencies
+        run: pnpm install
+      - name: Build with VitePress
+        run: npx vitepress build # or pnpm docs:build / yarn docs:build / bun run docs:build
 
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
