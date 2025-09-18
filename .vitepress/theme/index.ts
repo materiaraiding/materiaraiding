@@ -56,13 +56,13 @@ export default {
 				},
 			},
 		});
-
-		const loadingBar = useRouterLoadingBar();
-		ctx.router.onBeforePageLoad = () => loadingBar.loading();
-		ctx.router.onAfterPageLoad = () => loadingBar.finished();
 		
 		if (typeof window !== "undefined") {
 			window.createTooltip = createTooltip;
+
+			const loadingBar = useRouterLoadingBar();
+	        ctx.router.onBeforePageLoad = () => loadingBar.loading();
+		    ctx.router.onAfterPageLoad = () => loadingBar.finished();
 		}
 	},
 	setup() {
