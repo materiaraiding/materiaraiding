@@ -1,5 +1,5 @@
 # Workflow to check that pull requests build successfully
-name: PR Build Check
+name: Build Check
 
 on:
   pull_request:
