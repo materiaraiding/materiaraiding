@@ -10,7 +10,7 @@ This glossary contains common terms and phrases used in the game, particularly i
 
 ## Encounter
 
-### General
+### Generalqweqweqwewwwwwwww
 
 | **Abbreviation** | **Description** |
 |-------------------|-----------------|
