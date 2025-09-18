@@ -14,11 +14,15 @@ concurrency: preview-${{ github.ref }}
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: pnpm/action-setup@v3 # Uncomment this block if you're using pnpm
         with:
           version: 9 # Not needed if you've set "packageManager" in package.json
