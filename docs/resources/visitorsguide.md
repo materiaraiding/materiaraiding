@@ -176,7 +176,7 @@ For an extended explanation you can see the complete TEA OCE Guide below by Noz 
 :::
 
 ::: details JP Differences
-OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chaser. The latter half largely follows the same strats with minor positional differences. Please review this list for specific mechanics, using the language in [Tuufless' guide](https://tuufless.github.io/FFXIV-Elemental-Raid-Macros/ultimates/tea/). It is recommended that you know how to do the first half of the fight using OCE strats before you join clear/reclear parties.
+OCE and JP vary considerably for TEA, especially for Brute Justice + Cruise Chaser. The latter half largely follows the same strats with minor positional differences. Please review this list for specific mechanics, using the language in [Tuufless' guide](https://ffxiv.tuufless.com/elemental/tea/). It is recommended that you know how to do the first half of the fight using OCE strats before you join clear/reclear parties.
 
 - **1. Living Liquid**
     - **General**: Note that the OCE guide treats the quadrant with no tornado as north, rather than the middle tornado in JP.
@@ -236,7 +236,7 @@ Please refer to full guide.
 :::
 ::: details JP (Tuufless) Differences
 
-There are a number of differences between OCE and JP for DSR. Please review this list for specific mechanics, using the language in [Tuufless' guide](https://tuufless.github.io/FFXIV-Elemental-Raid-Macros/ultimates/dsr/). It is recommended that you are familiar with these differences before you join clear/reclear parties.
+There are a number of differences between OCE and JP for DSR. Please review this list for specific mechanics, using the language in [Tuufless' guide](https://ffxiv.tuufless.com/elemental/dsr/). It is recommended that you are familiar with these differences before you join clear/reclear parties.
 
 - **General**: From Phase 2 onwards, waymarks are positioned along the walls rather than in the middle.
 - **1. The Holy See**
@@ -312,7 +312,7 @@ Please refer to full guide.
 :::
 ::: details JP Differences
 
-For JP players, please review this list of differences, using the language in [Tuufless' guide](https://tuufless.github.io/FFXIV-Elemental-Raid-Macros/ultimates/top/). It is recommended you do **not** join clear/reclear parties before adapting to these differences.
+For JP players, please review this list of differences, using the language in [Tuufless' guide](https://ffxiv.tuufless.com/elemental/top/). It is recommended you do **not** join clear/reclear parties before adapting to these differences.
 
 - **General**: OCE will use the [TOP Mitty sheet](https://docs.google.com/spreadsheets/d/1PmSX_yO5GSykt3_Lkh3-LPAOeI2UosCIMLVxmwWEedE/edit#gid=0) for mitigations, heals and tankbusters.
 - **1. Omega**
