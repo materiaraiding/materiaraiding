@@ -7,7 +7,7 @@ banner: /images/banners/FRU.webp
 difficulty: Ultimate
 expansion: Dawntrail
 image: fru-gaia.webp
-authors: [ Juno, Em, Pipiro, Kobe, Pham, Ikuya Kirishima, Ellie, Ikuya Kirishima, Tomosys Vexuna ]
+authors: [ Juno, Em, Pipiro, Kobe, Pham, Ikuya, Ellie, Tomosys ]
 discussionLink: https://discord.com/channels/944115415385247784/1303228301015384106
 glossary: FRU
 ---
