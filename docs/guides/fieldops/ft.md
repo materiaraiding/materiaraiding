@@ -6,13 +6,13 @@ title: "The Forked Tower: Blood"
 description: "Materia Raiding strategy guide for the Forked Tower: Blood raid in The Occult Crescent: South Horn. Includes raid plans, boss strategies, and entry requirements."
 expansion: Dawntrail
 image: ft-magitaur.webp
-authors: [Em, Juno, Val, Pod, Fae Fiyaa, Lynn Kaneko, CA, MoG]
+authors: [Em, Juno, Val, Pod, Kobe, Fae, Lynn, CA, MoG]
 difficulty: Field Operations
 ---
 
 ## Forked Tower: Blood Overview
 
-The Forked Tower: Blood is the first raid available in **The Occult Crescent**, introduced in **Dawntrail**. The raid features multiple **bosses** and **small-scale encounters**, requriring a large group of players with good coordination to complete. The raid is designed for up to **48** players, but parties may enter with as little as **24** players should they still meet the entry requirements.
+**The Forked Tower: Blood** is the first raid available within **The Occult Crescent**, introduced in **Dawntrail**. The raid features multiple **bosses** and **small-scale encounters**, requiring a large group of players with good coordination to complete. The raid is designed for up to **48** players, but parties may enter with as little as **24** players should they still meet the entry requirements.
 
 Entry to **The Forked Tower: Blood** is located within **The Occult Crescent: South Horn** and will require completing several prerequisites before players can enter the raid.
 
@@ -24,15 +24,11 @@ Read on for more information about **Occult Crescent** or click below to jump to
 
 **Occult Crescent** allows players to progress their character's power in **several different ways**, each serving to help the player in all **Occult Crescent**-related Field Operations.
 
-These upgrades are not strictly required to clear the raid but are generally recommended if you plan to spend a lot of time in **Occult Crescent**-related Field Operations.
+These upgrades are not strictly required to clear the raid, but are generally recommended if you plan to spend a lot of time in **Occult Crescent**-related Field Operations.
 
 ### Phantom Jobs
 
-**Phantom Jobs** allow players to temporarily take on the abilities and roles of various jobs. Each **Phantom Job** has its own set of abilties or traits, unlocked by earning **Phantom EXP** and levelling up through FATEs, Critical Encounters (CEs) and Chain bonuses.
-
-Reaching the maximum level on a **Phantom Job** will earn you a stack of **Phantom Mastery**, a permament buff increasing your damage dealt and healing potency by **~2-2.5%** for each stack, as well as adding 1 level to your **Phantom Freelancer**.
-
-There are currently **13 Phantom Jobs** available in The Occult Crescent, some are purchased with **Enlightenment Silver and Gold Pieces** while others are dropped from various CEs.
+**Phantom Jobs** allow players to temporarily take on the unique abilities of various jobs. There are currently **13 Phantom Jobs** available in The Occult Crescent, some are purchased with **Enlightenment Silver and Gold Pieces** while others are dropped from various CEs.
 
 | <span style="font-size: 18px;">**Default**</span> <br /> (Starting jobs) | <span style="font-size: 18px;">**Silver Pieces**</span> <br /> (1000 per job) | <span style="font-size: 18px;">**Gold Pieces**</span> <br /> (1600 per job) | <span style="font-size: 18px;">**CE Drop**</span> <br /> (Listed below, not guaranteed) |
 | ----- | ---------- | -------- | ----- |
@@ -41,7 +37,13 @@ There are currently **13 Phantom Jobs** available in The Occult Crescent, some a
 | ![](/images/jobs/PhantomMonk.webp) Monk | ![](/images/jobs/PhantomCannoneer.webp) Cannoneer | ![](/images/jobs/PhantomGeomancer.webp) Geomancer | ![](/images/jobs/PhantomOracle.webp) Oracle (**On The Hunt**) |
 | ![](/images/jobs/PhantomBard.webp) Bard |
 
+**Phantom Jobs** can level up by earning **Phantom EXP**, earned through FATEs, Critical Encounters (CEs) and Chain bonuses.
+
+Reaching the maximum level on a **Phantom Job** will earn you a stack of ^[Phantom Mastery] **Phantom Mastery**, a permanent buff increasing your damage dealt and healing potency by **~2-2.5%** for each stack, as well as adding **1 level** to your **Phantom Freelancer**.
+
 <Action title='Detailed Phantom Job Info' color='purple' href='https://lynn.pet/occult/phantomjob' />
+
+<!-- Removed until the Relics actually give a bonus in OC
 
 ### Phantom Weapons Penumbrae
 
@@ -62,6 +64,8 @@ Demiatma can be obtained from various sources, including:
 <Action title='Full Interactive Map' color='purple' href='https://lynn.pet/map/southhorn' />
 
 Upon completing the one-time quest, you can trade **3 Arcanite**, purchased from **Ermina** for **500 uncapped Tomestones** each, to **Dodokkuli** for a **Phantom Weapon Penumbrae**. Both vendors are located within Phantom Village.
+
+-->
 
 ### Arcanaut Sets
 
@@ -196,10 +200,8 @@ https://sourpuh.github.io/waymarkstudio?preset=wms1.AeQE_8-RKf_EZpCVE9OaAeGaAQDf
 :::
 
 ::: details Lockwards & Boss 4 - Magitaur
-<!-- >
 <span style="font-size: 18px;">**Video Guide**</span>
- @[]()
- -->
+ @[](https://youtu.be/SDYMYjQ5kQE)
 
 <span style="font-size: 18px;">**Macro**</span>
 ```
@@ -247,7 +249,7 @@ To successfully complete the entry process, at least **24** players must offer a
 Each player looking to enter **The Forked Tower: Blood** must offer at least **1 Sanguine Cipher**, even should you exceed the minimum **24** offerings required to begin the raid.
 :::
 
-Should the **entry process fail**, your offerings of **Sanguine Ciphers** will be returned to you. They will only be conusmed *if* the entry process succeeds, regardless of if you are not selected for the raid or not.
+Should the **entry process fail**, your offerings of **Sanguine Ciphers** will be returned to you. They will only be consumed *if* the entry process succeeds, regardless of if you are not selected for the raid or not.
 
 ::: tip Finding a Group
 Two major communities support Field Operations in OCE, the **Content Achievers** Discord covers a wide variety of content including Field Operations, while the **Murder of Geese (MOG)** Discord focuses specifically on Field Operations Raids and coordinating groups.
@@ -297,13 +299,13 @@ Additionally, the raid should have the following **Phantom Jobs** to successfull
 | ![](/images/jobs/PhantomBerserker.webp) Berserker | **x1** per Raid (**ABC123**) |  ^[Rage] **Rage** - Negates the  ^[Hysteria] **Hysteria debuff** from the **Universal Empowerment Conduit**. |
 | ![](/images/jobs/PhantomOracle.webp) Oracle | **x1** per Raid (**ABC123**) | ^[Phantom Doom] **Phantom Doom** - Applies ^[Doom] **Doom**; **instakill** option for **Guardian Berserker**. |
 | ![](/images/jobs/PhantomCannoneer.webp) Cannoneer | **x1** per Raid (**ABC123**) | **Phantom Fire** - **Instakill** option for **Guardian Berserker**. <br> ^[Silver Sickness] **Silver Cannon** - **Debuffs** enemies to do less and take more damage. |
-| ![](/images/jobs/PhantomSamurai.webp) Samurai | As many as possible | **Iainuki** - **Instakill** option for **Gardian Berserker**. <br> **Zeninage** - **Accuracy** option for **Guardian Bats**. |
-| ![](/images/jobs/PhantomRanger.webp) Ranger | Optional | **Occult Falcon** - **Disarms** traps from a distance. <br> ^[Phantom Aim] **Phantom Aim** - **Accuracy** option for **Guardian Bats**. |
+| ![](/images/jobs/PhantomSamurai.webp) Samurai | As many as possible | **Iainuki** - **Instakill** option for **Guardian Berserker**. <br> **Zeninage** - **Accuracy** option for **Guardian Bats**. |
+| ![](/images/jobs/PhantomRanger.webp) Ranger | Optional | **Occult Falcon** - **Trigger** traps from a distance. <br> ^[Phantom Aim] **Phantom Aim** - **Accuracy** option for **Guardian Bats**. |
 
 ::: tip Additional Information
 ^[Phantom Chemist] **Phantom Chemists** and ^[Phantom Samurai] **Phantom Samurai** should ensure they have their **consumable** items, **Occult Potions/Elixirs** and **Occult Coffers** respectively, in their inventory. These can be purchased for **Enlightenment Silver/Gold Pieces** and **Gil** in **South Horn's** base camp.
 
- ^[Phantom Ranger] **Rangers** should ensure they communicate **clearly** with the team when deciding to pop traps.
+ ^[Phantom Ranger] **Rangers** and ^[Aetheric Mimicry: Tank] **Tanks** should ensure they communicate **clearly** with the team when deciding to pop traps.
 :::
 
 Finally, below are in-depth guides for certain **Phantom Jobs** within **The Forked Tower: Blood**. Players can follow these to maximise their **Phantom Job's** effectiveness:
@@ -322,7 +324,7 @@ Finally, below are in-depth guides for certain **Phantom Jobs** within **The For
 
 #### Boss 1 - Demon Tablet
 
-**Demon Tablet** is the first boss of **The Forked Tower: Blood**. It features several simple mechanics, but with **harsh punishments** and a **hard enrage** at **6:40**. **Demon Tablet** itself is a **wide enemy**, splitting the room into **two square platforms** and **preventing** players from walking through the boss, **unless** it is raised into the air while casting an attack. Finally, **Demon Tablet's** auto attacks will target the top **three** emnity players.
+**Demon Tablet** is the first boss of **The Forked Tower: Blood**. It features several simple mechanics, but with **harsh punishments** and a **hard enrage** at **6:40**. **Demon Tablet** itself is a **wide enemy**, splitting the room into **two square platforms** and **preventing** players from walking through the boss, **unless** it is raised into the air while casting an attack. Finally, **Demon Tablet's** auto attacks will target the top **three** enmity players.
 
 **Demon Tablet** will begin the fight by using **Demonic Dark II**, a very heavy hitting raidwide.
 
@@ -332,7 +334,7 @@ Throughout the fight, **Demon Tablet** will combine its primary attacks with **o
 
 After the raidwide, **Demon Tablet** will cast **Ray of Dangers Near/Expulsion Afar**, which will fire persistent AoE lasers down one half of the arena. Players can determine which half will be unsafe by the presence of **three large glowing orbs** that spawn in front of **Demon Tablet**. While casting this, the boss will raise into the air, allowing players to cross through to the safe side. Players should also make sure to position for the **Dangers Near/Expulsion Afar** as they cross through. This is cast one more time before moving on.
 
-**Demon Tablet** will then target the top **three** emnity players for **Occult Chisel**, an AoE tankbuster. ^[Aetheric Mimicry: Tank] **Tanks** should break away from the raid to ensure no one else gets hit, and are free to stack on top of each other provided they use their job's ^[Hallowed Ground] ^[Holmgang] ^[Living Dead] ^[Superbolide] **Invulnerability**.
+**Demon Tablet** will then target the top **three** enmity players for **Occult Chisel**, an AoE tankbuster. ^[Aetheric Mimicry: Tank] **Tanks** should break away from the raid to ensure no one else gets hit, and are free to stack on top of each other provided they use their job's ^[Hallowed Ground] ^[Holmgang] ^[Living Dead] ^[Superbolide] **Invulnerability**.
 
 ##### Demonograph
 
@@ -383,7 +385,7 @@ After the AoEs resolve, **Demon Tablet** will cast **Rotate Left/Right** again t
 **Demon Tablet** will then cast **Summon**, raising into the air, creating a telegraphed AoE under itself and summoning **two Summoned Demons** and **one Summoned Arch Demon** on each side. Each party can use the same designation as the [**Demonograph**](#demonograph) towers to find their add.
 
 ::: tip Time Mages
-Each **Summoned Arch Demon** will spawn with a ^[Dark Defenses] **defense increasing buff**. ^[Phantom Time Mage] **Time Mages** will need to remove this buff with **Occult Dispel**.
+Each **Summoned Arch Demon** will spawn with a ^[Dark Defenses] **defence increasing buff**. ^[Phantom Time Mage] **Time Mages** will need to remove this buff with **Occult Dispel**.
 :::
 
 ##### Gravity
