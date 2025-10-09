@@ -325,7 +325,7 @@ Quotes come in pairs, either one of the two can happen and you need to be able t
 
 Quote 1:
 - IN → STACK
-- IN → SPREAD
+- IN → OUT
 
 Quote 2:
 - STACK → IN
