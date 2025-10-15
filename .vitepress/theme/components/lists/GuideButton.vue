@@ -87,12 +87,17 @@ const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter
 }
 
 .unreal-color {
-	color: var(--color-other);
-	border-color: var(--color-other);
+	color: var(--color-unreal);
+	border-color: var(--color-unreal);
 }
 
 .fieldops-color {
 	color: var(--color-fieldops);
 	border-color: var(--color-fieldops);
+}
+
+.quantum-color {
+	color: var(--color-quantum);
+	border-color: var(--color-quantum);
 }
 </style>

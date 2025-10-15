@@ -6,4 +6,5 @@ export const difficultyTypes = [
 	{ type: 'Ultimate', icon: '/images/icons/highendduty.webp', colorClass: 'ultimate-color', order: 3 },
 	{ type: 'Field Operations', icon: '/images/icons/fieldops.webp', colorClass: 'fieldops-color', urlOverride: 'fieldops', order: 7 },
 	{ type: 'Criterion', icon: '/images/icons/variant.webp', colorClass: 'criterion-color', order: 4 },
+	{ type: 'Quantum', icon: '/images/icons/quantum.webp', colorClass: 'quantum-color', order: 8 },
 ];

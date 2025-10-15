@@ -116,6 +116,7 @@ export default defineConfig({
 		'guides/criterion/:slug*': 'criterion/:slug*',
 		'guides/unreal/:slug*': 'unreal/:slug*',
 		'guides/fieldops/:slug*': 'fieldops/:slug*',
+		'guides/quantum/:slug*': 'quantum/:slug*',
 		// 'other/:slug*': 'unreal/:slug*',
 	},
 	vite: {
