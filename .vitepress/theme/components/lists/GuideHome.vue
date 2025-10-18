@@ -25,7 +25,9 @@ breakpoints = (isArchive && expansion) ? getArchiveColumns(expansion) : breakpoi
 const columnCount = ref(breakpoints.default);
 const columns = computed(() => {
 	const cols = Array.from({ length: columnCount.value }, () => []);
-	difficultyTypes.forEach((item, i) => {
+	// Sort difficulties by their homeNavOrder property before distributing to columns
+	const sortedDifficulties = [...difficultyTypes].sort((a, b) => a.homeNavOrder - b.homeNavOrder);
+	sortedDifficulties.forEach((item, i) => {
 		cols[i % columnCount.value].push(item);
 	});
 	return cols;

@@ -20,6 +20,11 @@ const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter
 	colorClass: "",
 	icon: "",
 };
+
+// Check if the page has a "New" label
+const hasNewLabel = computed(() => {
+	return props.page.frontmatter.label && props.page.frontmatter.label.toLowerCase().includes('new');
+});
 </script>
 
 <template>
@@ -30,6 +35,7 @@ const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter
 			'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('${props.page.frontmatter.banner}')`,
 		}">
 		{{ props.page.frontmatter.fightID }}
+		<div v-if="hasNewLabel" class="new-tag">New Content</div>
 	</a>
 </template>
 
@@ -53,6 +59,7 @@ const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter
 	max-width: 400px;
 	text-decoration: none;
 	color: inherit;
+	position: relative;
 	&:hover {
 		color: #ffffff;
 		border: 3px solid #ffffff;
@@ -81,9 +88,9 @@ const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter
 	border-color: var(--color-extreme);
 }
 
-.criterion-color {
-	color: var(--color-criterion);
-	border-color: var(--color-criterion);
+.dungeon-color {
+	color: var(--color-dungeon);
+	border-color: var(--color-dungeon);
 }
 
 .unreal-color {
@@ -95,4 +102,20 @@ const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter
 	color: var(--color-fieldops);
 	border-color: var(--color-fieldops);
 }
+
+.new-tag {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	background-color: var(--vp-c-brand-2);
+	color: white;
+	font-size: 0.7em;
+	font-weight: bold;
+	padding: 0px 7px;
+	border-radius: 6px;
+	text-shadow: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	z-index: 10;
+}
+
 </style>

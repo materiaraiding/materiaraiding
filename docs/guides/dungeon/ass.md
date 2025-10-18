@@ -6,7 +6,7 @@ description: A guide for the Another Sil'dihn Subterrane Criterion dungeon in Fi
 banner: /images/banners/ASS.webp
 expansion: Endwalker
 authors: [MR]
-difficulty: Criterion
+difficulty: Dungeon
 ---
 ## Macros
 
