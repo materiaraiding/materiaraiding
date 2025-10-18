@@ -6,7 +6,7 @@ description: A guide for the Another Mount Rokkon Criterion dungeon in Final Fan
 banner: /images/banners/AMR.webp
 expansion: Endwalker
 authors: [Kobe, MR]
-difficulty: Criterion
+difficulty: Dungeon
 ---
 ## Boss 1
 ### Video Guide

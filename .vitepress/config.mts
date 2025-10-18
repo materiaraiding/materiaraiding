@@ -113,9 +113,10 @@ export default defineConfig({
 		'guides/ultimate/:slug*': 'ultimate/:slug*',
 		'guides/savage/:slug*': 'savage/:slug*',
 		'guides/extreme/:slug*': 'extreme/:slug*',
-		'guides/criterion/:slug*': 'criterion/:slug*',
+		'guides/dungeon/:slug*': 'dungeon/:slug*',
 		'guides/unreal/:slug*': 'unreal/:slug*',
 		'guides/fieldops/:slug*': 'fieldops/:slug*',
+		'guides/criterion/:slug*': 'dungeon/:slug*',
 		// 'other/:slug*': 'unreal/:slug*',
 	},
 	vite: {

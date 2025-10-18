@@ -6,7 +6,7 @@ description: A guide for the Another Aloalo Island Criterion dungeon in Final Fa
 banner: /images/banners/AAI.webp
 expansion: Endwalker
 authors: [Kobe, MR]
-difficulty: Criterion
+difficulty: Dungeon
 ---
 ## Boss 1
 ### Video Guide
