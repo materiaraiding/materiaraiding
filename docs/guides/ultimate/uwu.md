@@ -548,12 +548,12 @@ During the RP where the Ultima Weapon consumes the Primals, non tank players sho
 During this phase, the Ultima Weapon will have a Duty Gauge bar (Ultima Aether) that slowly fills up, increasing with mechanics but also each death. When this bar fills, the Ultima Weapon gains a massive Damage Up buff which will likely result in a wipe. Increases by 4 with some mechanics and 4 for each death.
 :::
 
-- Ultima Massive raidbuster dealing extremely heavy magic damage. Must be mitigated via the use of a tank LB3.
-- Tank Purge Heavy raidwide magic damage.
-- Homing Lasers Very heavy tankbuster (~125k unimitigated) targeting the player with the second highest enmity, in a small circle around them.
-- Viscous Aetheroplasm AoE attack applying the Viscous Aetheroplasm debuff, which explodes after a short period of time for heavy magic damage that can be soaked with the party.
-- Diffractive Laser Cleaving tankbuster with no cast time dealing moderate magic damage.
-- Aetheric Boom Knockback originating from the Ultima Weapon, hitting all players. It is accompanied by 4 sets of Aetheroplasms.
+- Ultima: Massive raidbuster dealing extremely heavy magic damage. Must be mitigated via the use of a tank LB3.
+- Tank: Purge Heavy raidwide magic damage.
+- Homing Lasers: Very heavy tankbuster (~125k unimitigated) targeting the player with the second highest enmity, in a small circle around them.
+- Viscous Aetheroplasm: AoE attack applying the Viscous Aetheroplasm debuff, which explodes after a short period of time for heavy magic damage that can be soaked with the party.
+- Diffractive Laser: Cleaving tankbuster with no cast time dealing moderate magic damage.
+- Aetheric Boom: Knockback originating from the Ultima Weapon, hitting all players. It is accompanied by 4 sets of Aetheroplasms.
 
 After consuming all Primals, the Ultima Weapon begins the phase at the north of the room. 
 
@@ -593,7 +593,6 @@ If **Sage**: After the Ultima raidwide, use 1 Prognosis. Then, before the Ultima
 
 ### Phase 5.1: Ultimate Predation
 
-#### Passive Phase
 The Ultima Weapon is untargetable for this section.
 
 Ultimate Predation begins with a dodge mechanic - all Primals and the Ultima Weapon will appear around the arena. You will need to find one of several safe-spots to survive this mechanic. 
@@ -622,7 +621,7 @@ Your final goal is to reach one of several possible safespots. Some of the optio
 
 After the main mechanics resolve, Garuda will perform another Feather Rain. Do not move until you hear the shriek to avoid dropping AoE's on your party members.
 
-#### Active Phase
+#### Post-Predation
 The Ultima Weapon becomes targetable in the middle of the room. The MT will pull the Ultima Weapon slightly northwest at the A Waymark, then join the party stacking north on the visible second-line on the floor. D3 and D4 will stay towards the south to bait 4 Eruptions from Ifrit. If there is a death from the first section of **Ultimate Predation**, back-up baiters should be prepared (ideally healers or any other ranged player). During this section, the autoattacks on the MT **hurt**, so healers keep an eye on their HP. 
 
 After the **Eruption** baits, the Ultima Weapon surrounds the outside of the arena with **Radiant Plumes** (large deadly AoEs). Boulders will be falling on the centre, leaving you very little room between the plumes and boulders. Stay on the 2nd line and move out to the 3 Waymark as soon as plumes resolve. Titan is also baited to the southeast intercardinal as he drops at the furthest intercardinal from the Ultima Weapon. This sets up Titan for a consistent Landslides pattern.
@@ -641,8 +640,7 @@ The Ultima Weapon will teleport to the north side of the arena. Facing the boss,
 
 ### Phase 5.2: Ultimate Annihilation
 
-#### Passive Phase
-Although this is considered a passive phase, the Ultima Weapon will be targetable for this section. Stack up tight on the southwest side of boss hitbox. 
+The Ultima Weapon will be targetable for this section. Stack up tight on the southwest side of boss hitbox. 
 
 This mechanic starts with a series of 3 Weight of the Land AoE's. The party needs to remain stacked together - a player will be marked with **Flaming Crush**, a party stack. The AoE of the attack is **very small**, so it is important to stay as tightly grouped as possible. For the first 2 Weight of the Land sets, firstly dodge right, then left, back to where you started. For the third set - the party will now split up as all 3 Primals will begin a variety of attacks. 
 
@@ -682,8 +680,7 @@ Once we are all north, wait for Ifrit to dash across through the intercardinal -
 
 ![](/images/ultimate/uwu-anni.webp)
 
-#### Active Phase
-
+#### Post-Annihilation
 
 After Tank Purge, the Ultima Weapon will briefly become untargetable and reappear in the centre with Garuda casing **Eye of the Storm**. The Searing Wind still has one more explosion to go before their debuff expires so the afflicted healer must stay in the south part of the safe spot. MT stays north, OT moves northeast (double check the OT is 2nd in aggro here) and the rest of the party remains northwest.
 
@@ -699,7 +696,6 @@ If not, they will continue to repeat the following mechanics until below 50% HP:
 
 ### Phase 5.3: Ultimate Suppression
 
-#### Passive Phase
 The Ultima Weapon will become untargetable for this section.
 
 Non-tank players should make their way to their positions that they predetermined during the RP transition to this phase. 
@@ -736,7 +732,7 @@ Once the gaol is dead, everyone will stack on the B Waymark, ready to bait upcom
 
 When the stack resolves, healers must top everyone ASAP as a raidwide is coming. Stay grouped - there will be a Feather Rain. Once the Feather Rain occurs, players can move out and the Ultima Weapon casts Tank Purge. Heal up again.
 
-#### Active Phase
+#### Post-Suppression
 The Ultima Weapon becomes targetable in the centre of the arena and casts Ultima. This requires a tank LB3 to survive, so if you haven't recharged all of your LB since intermission, it's unfortunately GG.
 
 ::: warning 
