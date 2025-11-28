@@ -25,8 +25,8 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 
 <ActionGroup
 :actions="[
-{ title: 'P2 - Diamond Dust - Colour Partners', color: 'blue', href: 'https://raidplan.io/plan/PPYgcTqAr4DXZE50' },
-{ title: 'P2 - Diamond Dust - Relative North - Alt Strat', href: 'https://raidplan.io/plan/h521rrvlPhF-ajjp' }
+{ title: 'P2 - Diamond Dust - Relative North Strat', color: 'blue', href: 'https://raidplan.io/plan/h521rrvlPhF-ajjp' },
+{ title: 'P2 - Diamond Dust - Colour Partners Strat', color: 'blue', href: 'https://raidplan.io/plan/PPYgcTqAr4DXZE50' }
 ]"
 />
 
@@ -339,12 +339,43 @@ Phase 2 begins with a tankbuster **Quadruple Slap**, before starting the first m
 
 #### Diamond Dust
 
-<Action title='P2 - Diamond Dust - Colour Partners' color='blue' href='https://raidplan.io/plan/PPYgcTqAr4DXZE50' />
+::: tip
+There are two common strats used here in OCE, *Color Partners* and *Relative North*, make sure you confirm which strat your party plans to use first.
+:::
 
-(Work in progress guide for Colour Partners)
+::: details Relative North Strat
+
+<Action title='P2 - Diamond Dust - Relative North Strat' color='blue' href='https://raidplan.io/plan/h521rrvlPhF-ajjp' />
 
 After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena. 
 (clarification on clone here)
+
+These will be followed by another 6 AOEs that fill the edge of the arena but only the first 2 are important and the rest can be ignored.
+
+Looking from NW to E, the AOE that is in this quadrant will become **relative North**.
+
+Either DPS or Supports will then be marked by 4 orange Frigid Stone AOEs that will spawn a star shaped AOE after a delay. Theses AOEs should always be placed on intercardinals when facing relative North.
+
+Our goal in this mechanic is to place these AOE markers in specific positions such that we form safe spots within relative North and relative South.
+
+Shiva will then cast 1 of 2 abilities:
+
+**Axe Kick/Cleave**: Shiva will do a large AOE, reaching to the outside ring of the arena.
+
+**Scythe Kick/Reap**: Shiva will do a small donut AOE, the safespot being halfway between the centre and the innermost ring.
+
+Because the AOEs are role based we split into ranged/melee partners for the following resolutions:
+
+:::
+
+::: details Color Partners Strat
+
+
+<Action title='P2 - Diamond Dust - Colour Partners' color='blue' href='https://raidplan.io/plan/PPYgcTqAr4DXZE50' />
+
+After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena. 
+
+(clarification on clone here needed)
 
 These will be followed by another 6 AOEs that fill the edge of the arena but only the first 2 are important and the rest can be ignored.
 
@@ -361,6 +392,8 @@ Shiva will then cast 1 of 2 abilities:
 (images for both)
 
 Because the AOEs are role based we use our Phase 1 protean spread to form ranged/melee partners for the following resolutions:
+
+:::
 
 ### Axe Kick
 
