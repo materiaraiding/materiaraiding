@@ -340,7 +340,7 @@ Phase 2 begins with a tankbuster **Quadruple Slap**, before starting the first m
 #### Diamond Dust
 
 ::: tip
-There are two common strats used here in OCE, *Color Partners* and *Relative North*, make sure you confirm which strat your party plans to use first.
+There are two common strats used here in OCE, *Colour Partners* and *Relative North*, make sure you confirm which strat your party plans to use first.
 :::
 
 ::: details Relative North Strat
@@ -370,7 +370,7 @@ Because the AOEs are role based we split into ranged/melee partners for the foll
 
 :::
 
-::: details Color Partners Strat
+::: details Colour Partners Strat
 
 
 <Action title='P2 - Diamond Dust - Colour Partners' color='blue' href='https://raidplan.io/plan/PPYgcTqAr4DXZE50' />
