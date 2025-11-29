@@ -347,6 +347,8 @@ There are two common strats used here in OCE, *Color Partners* and *Relative Nor
 
 <Action title='P2 - Diamond Dust - Relative North Strat' color='blue' href='https://raidplan.io/plan/h521rrvlPhF-ajjp' />
 
+@[](https://youtu.be/DFcK39CELEw)
+
 After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena. 
 (clarification on clone here)
 
