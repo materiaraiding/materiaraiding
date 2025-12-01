@@ -170,6 +170,8 @@ These can be imported using an XIV Launcher Plugin.
 
 ## Fight Writeup
 
+Written by Noz and Em
+
 ### Phase 1: Twintania
 
 This phase is a little different to most other ultimate phases in that there is no hard-fixed timeline of mechanics, and is instead broken up into 3 mini-phases depending on Twintania's HP. At the end of each mini-phase (i.e. once Twintania is damaged down to a certain HP), Twintania drops a **Neurolink** - this is a small circular puddle that reduces a player's damage dealt while standing inside, but plays an important role in resolving mechanics throughout the entire fight. The goal is to place a Neurolink in Waymarks 1, 2 and 3:
@@ -182,12 +184,14 @@ Regardless of where you are up to in the phase, if Twintania is not dead by 3 mi
 
 Start at the west side of the arena to make pulling easier. Everyone should be loosely spread and not on the rear of the boss, prepared to dodge **Twister**. The tank should pull the boss into the 1 Waymark then face it away from the party as it will use Plummet, a cleaving tankbuster with no cast bar.
 
-A player will then be marked with **Fireball**, which is a party stack. Just before this resolves, Twintania will cast **Twister** - at the end of the cast, random players will have **small tornadoes** spawn beneath them. Coming into contact with a **Twister** results in **instant death** and knock back surrounding players into the death wall. It is recommended to start moving about 90% into the castbar. Twister will be a recurring mechanic throughout the entire fight, so it is important you get a feel for its timing and to also be aware of surrounding players.
+A player will then be marked with **Fireball**, which is a party stack. Just before this resolves, Twintania will cast **Twister** - at the end of the cast, random players will have **small tornadoes** spawn beneath them. Coming into contact with a **Twister** results in **instant death** and **knock back** surrounding players into the death wall. It is recommended to start moving about 90% into the castbar. **Twister** will be a recurring mechanic throughout the entire fight, so it is important you get a feel for its timing and to also be aware of surrounding players.
 
 Players will converge to the boss's rear to resolve the **Fireball** stack.
 
 ::: info NOTE
-Just for this first Fireball, it is common practice for both tanks and 1 other designated player (commonly D3 but can be anyone as long as the party agrees on someone) to exclude themselves from this stack. This increases LB generation therefore guaranteeing LB2 (possibly LB3) for P2 to P3 transition, where tank LB is required). If the designated player is the one with the Fireball stack, someone else can adjust to leave the stack.
+Just for this first Fireball, it is common practice for both tanks and 1 other designated player (commonly D3 but can be anyone as long as the party agrees on someone) to exclude themselves from this stack. 
+
+This increases LB generation therefore guaranteeing LB2 (possibly LB3) for P2 to P3 transition, where tank LB is required). If the designated player is the one with the Fireball stack, someone else can adjust to leave the stack.
 
 Future Fireballs should have everyone stacked together. 
 :::
@@ -204,11 +208,13 @@ Ideally, the boss is pushed to below 74% at this point, but if not, Twintania wi
 
 Twintania will drop a **Neurolink** (should be in Waymark 1) and the next miniphase begins. The current tank with aggro (OT on a clean run) will drag the boss over to the 2 Waymark and face it out.
 
-While this is happening D3 should be waiting around the south wall. Shortly after, Twintania will cast **Liquid Hell** to the furthest player, a series of 5 fire puddle baits. These will be baited by the D3, who will move clockwise along the wall to bait them and everyone else should just stand somewhere (i.e. in mid or near Twintania) where they will not accidentally bait a puddle themselves. Staying in or walking into a puddle after it has been placed will inflict a lethal bleed.
+While this is happening D3 should be waiting around the south wall. Shortly after, Twintania will cast **Liquid Hell** to the furthest player, a series of 5 fire puddle baits. These will be baited by the D3, who will move clockwise along the wall to bait them and everyone else should just stand somewhere (i.e. in mid or near Twintania) where they will not accidentally bait a puddle themselves. 
+
+Staying in or walking into a puddle after it has been placed will inflict a lethal bleed.
 
 <img width="330" height="330" alt="image" src="https://github.com/user-attachments/assets/988bd09d-1b61-4756-8ac6-7d21deba2611" />
 
-Twintania will then cast **Generate**, creating a **hatch orb** and marking a DPS. The orb will chase the marked player and upon contact, explode and wipe the raid. If the orb lingers and does not mark contact with any player after a period of time, it will also explode and wipe the raid. If the marked player however soaks the orb in a **Neurolink**, the player will survive and only emit a small explosion.
+Twintania will then cast **Generate**, creating a **hatch orb** and marking a DPS. The orb will chase the marked player and upon contact, explode and wipe the raid. If the orb lingers and does not make contact with any player after a period of time, it will also explode and wipe the raid. If the marked player however soaks the orb in a **Neurolink**, the player will survive and only emit a small explosion.
 
 ::: warning
 Do not stand directly under Twintania and do not stand in the orb's trajectory to avoid touching it.
@@ -277,7 +283,7 @@ You may notice there is little to no mention of healers in this entire phase. Yo
 
 ### Phase 2: Nael
 
-Upon, transition, a pillar will drop in the middle of the room and knock everyone back.
+Upon transition, a pillar will drop in the middle of the room and knock everyone back.
 
 ::: info NOTE
 If you are progging it is helpful to make a mental note now on how far the knockback is. In **Heavensfall Trio** in Phase 3, you will need to ride a similar knockback without the aide of the Neurolink.
@@ -285,9 +291,17 @@ If you are progging it is helpful to make a mental note now on how far the knock
 
 Players must now spread as they will be targeted with **Meteor Stream** (small AoE spread) in 2 sets. Spread positions are fairly yolo-able but you can use clock positions as a guide if you wish. While this is happening, players need to rotate around to dodge the cleaves.
 
-Nael will then dive onto whoever last had aggro on Twintania (on a clean run, will be OT) with **Dalamud Dive**, a heavy hitting tankbuster. This tank should wait on the north side of the pillar. Immediately after, she will use **Bahamut's Claw**, a multi-hit tankbuster. Both should be fully resolved with the OT's invulnerability. Once these tankbusters resolves, the MT should provoke Nael and face her north while the party stacks in the middle (4 Waymark).
+Nael will then dive onto whoever last had aggro on Twintania (on a clean run, will be OT) with **Dalamud Dive**, a heavy hitting tankbuster. This tank should wait on the north side of the pillar. Immediately after, she will use **Bahamut's Claw**, a multi-hit tankbuster. Both should be fully resolved with the OT's invulnerability. 
 
-Nael will then cast **Bahamut's Favour**, spawning 5 dragons around the room. The dragons do a number of things but the only ones I will mention for now is the **Ice Dragon** and **Fire Dragon**. The Ice Dragon will periodically single-target hit players with an iceball. This applies an **Icebitten** debuff, causing the next Iceball attack to kill them. On the other hand, the Fire Dragon applies a fire tether to a random player, which after a few moments explodes in a small AoE, inflicting a **Firescorched** debuff on affected players. Being hit by another fire AoE with this debuff will result in death. **The fire and ice attacks cancel each other's debuffs out** which is how we will survive them.
+Once these tankbusters resolves, the MT should provoke Nael and face her north while the party stacks in the middle (4 Waymark).
+
+Nael will then cast **Bahamut's Favour**, spawning 5 dragons around the room. The dragons do a number of things but the only ones I will mention for now is the **Ice Dragon** and **Fire Dragon**. 
+
+The Ice Dragon will periodically single-target hit players with an iceball. This applies an **Icebitten** debuff, causing the next Iceball attack to kill them. 
+
+On the other hand, the Fire Dragon applies a fire tether to a random player, which after a few moments explodes in a small AoE, inflicting a **Firescorched** debuff on affected players. Being hit by another fire AoE with this debuff will result in death. 
+
+**The fire and ice attacks cancel each other's debuffs out** which is how we will survive them.
 
 There will be 4 **fire tethers** throughout this phase. There is a specific order and way in which we will handle them that works everytime, so you don't need to keep track of your debuffs. However, if you mess one of the tethers up (e.g. you missed the AoE of the first tether), just be prepared to adjust on the next tether.
 
@@ -308,13 +322,17 @@ Nael will then say a **quote**, which indicate the upcoming mechanics. She will 
 - O hallowed moon, shine you the iron path! = Lunar Dynamo (donut) → Iron Chariot (point black AoE)
   - This is **IN -> OUT**
 
-The two players with **Thunderstruck** must seperate from the party and take up a position near the boss on north side. Thunderstruck will resolve around when the IN goes off - the two players who had Thunderstruck will then rejoin or run out depending on quotes.
+The two players with **Thunderstruck** must seperate from the party and take up a position near the boss on north side. Thunderstruck will resolve around when the **IN** goes off - the two players who had Thunderstruck will then rejoin or run out depending on quotes.
 
 ![](/images/ultimate/ucob-thunder.webp)
 
 The **first fire tether** will appear during quotes. After the second quote mechanic, the party will **stack together** in the middle of the arena to take the fire tether together and cleanly bait the next mechanic.
 
-**Doom** will apply to two players (6s and 10s). A dragon will then cast **Wings of Salvation** on a party member, leaving a large white puddle. The party should rotate **clockwise** around the boss to avoid the puddle, as once it 'explodes' it will leave behind a **small white puddle used to cleanse the doom**. The shortest Doom timer takes the small puddle after Wings of Salvation explodes. Another **Wings of Salvation** and Doom cleanse following that, the party needs to move out of the large white AoE again, **being very careful not to accidentally yoink the previous cleanse puddle**. Nael will use **Bahamut's Claw** on the tank during Doom cleanses.
+**Doom** will apply to two players (6s and 10s). A dragon will then cast **Wings of Salvation** on a party member, leaving a large white puddle. The party should rotate **clockwise** around the boss to avoid the puddle, as once it 'explodes' it will leave behind a **small white puddle used to cleanse the doom**. 
+
+The shortest Doom timer takes the small puddle after Wings of Salvation explodes. Another **Wings of Salvation** and Doom cleanse follows that and the party needs to move out of the large white AoE again, **being very careful not to accidentally yoink the previous cleanse puddle**. 
+
+Nael will use **Bahamut's Claw** on the tank during Doom cleanses.
 
 If you forget what order / timer your Doom puddle was, you should be taking the cleanse puddle when your Doom is less than **5 seconds**.
 
@@ -331,13 +349,17 @@ Nael will then say another **quote**, she will say either:
 - Take fire, O hallowed moon! = Thermionic Beam (stack) → Lunar Dynamo (donut)
   - This is **STACK -> IN**
 
-As you can see, this will always be a **stack first** which is why we have the party group up mid. The **Thunderstruck** resolves FIRST, then the two players return to the party for the stack. After the second part of the quote, everyone should return middle as another set of **Doom** and **Wings of Salvation** will happen, this time affecting 3 players (6s, 10s and 16s). Once again, rotate clockwise and it is your turn to cleanse when there is **5 seconds or less** left on your Doom.
+As you can see, this will always be a **stack first** which is why we have the party group up mid. The **Thunderstruck** resolves FIRST, then the two players return to the party for the stack. After the second part of the quote, everyone should return middle as another set of **Doom** and **Wings of Salvation** will happen, this time affecting 3 players (6s, 10s and 16s). 
+
+Once again, rotate clockwise and it is your turn to cleanse when there is **5 seconds or less** left on your Doom.
 
 ::: info NOTE
 If the quote was OUT second, the Doom cleanse puddle may be somewhere in Narnia - just keep an eye out.
 :::
 
-After the third **Wings of Salvation** another two players will get **Thunderstruck** and should leave the party stack immediately. As **Thunderstruck** players move out, the **third fire tether** will appear. This should be stacked with the party, EXCEPT the person who had the second tether should move out (as they will still be firescorched). Players who had **Thunderstruck** and did not have the second fire tether will need to make sure they get back to the stack for this (sprint is helpful). 
+After the third **Wings of Salvation** another two players will get **Thunderstruck** and should leave the party stack immediately. As **Thunderstruck** players move out, the **third fire tether** will appear. This should be stacked with the party, EXCEPT the person who had the second tether should move out (as they will still be firescorched). 
+
+Players who had **Thunderstruck** and did not have the second fire tether will need to make sure they get back to the stack for this (sprint is helpful). 
 
 ::: warning
 As people will be running around a lot for this section, this is a gentle reminder to not accidentally steal someone's cleanse puddle.
@@ -346,7 +368,7 @@ As people will be running around a lot for this section, this is a gentle remind
 Nael will follow this up with another **Bahamut's Claw**.
 
 #### Third Quotes / Doom 3 / Fire 4
-Prepare for Third Quotes by pre-spreading as this will always start with a Raven's Dive - this is a spread mechanic where Nael dives onto a random player, and any players closeby will be knocked back and killed.
+Prepare for third quotes by pre-spreading as this will always start with a Raven's Dive - this is a spread mechanic where Nael dives onto a random player, and any players closeby will be knocked back and killed.
 
 This is the default spread with H1 on Waymark 4.
 ```markdown
@@ -362,7 +384,7 @@ Nael will say either:
 - From on high I descend, the hallowed moon to call! = Raven's Dive (spread) → Lunar Dynamo (donut)
   - This is **SPREAD -> IN**
  
-Keep in mind that since Nael **jumps to a player** here, the following IN or OUT will be relative to her **new location**.
+Keep in mind that since Nael **jumps to a player** here, the following **IN** or **OUT** will be relative to her **new location**.
 
 During the quotes, another **fire tether** will target a player and two more players will get **Thunderstruck**. This Thunderstruck will resolve **AFTER** the fire tether, so the party (everyone this time) will stack for the fire AoE and players with Thunderstruck should run out when they have **3 seconds left** on their Thunderstruck debuff to ensure they get hit by the fire, while safely resolving their Thunderstruck.
 
@@ -430,7 +452,9 @@ Once Nael **Dalamud Dives**, she should be close to dead on a clean run. If not,
 ### Phase 3: Bahamut Prime
 
 #### Transition and Intro
-After Nael dies, the party stacks on south Neurolink ready for the **Seventh Umbral Era**, a heavy raidwide and knockback. This will be followed by three **Calamitous Flame** raidwides and **Calamitous Blaze**, a much heavier raidwide. Tank LB is essential to surviving these attacks - use immediately after the knockback. With tank LB3 the raidwides are fairly comfortable, but if it is only a tank LB2, some mitigation and healer GCDs will be required to live.
+After Nael dies, the party stacks on south Neurolink ready for the **Seventh Umbral Era**, a heavy raidwide and knockback. This will be followed by three **Calamitous Flame** raidwides and **Calamitous Blaze**, a much heavier raidwide. 
+
+Tank LB is essential to surviving these attacks - use immediately after the knockback. With tank LB3 the raidwides are fairly comfortable, but if it is only a tank LB2, some mitigation and healer GCDs will be required to live.
 
 ::: tank
 There will be a variety of tankbusters in between mechanics during this phase. A sample mit plan is available in #ucob-strats in the MUR Discord. Generally speaking, the MT will take the first two sets, then it alternates between OT and MT after. However depending on Nael kill times and due to the general nature of this fight (how easily recoverable deaths are), be prepared to make quick adjustments and communicate with your cotank.
@@ -440,7 +464,7 @@ There will be a variety of tankbusters in between mechanics during this phase. A
 Some of the tankbusters are multihit (such as the triple Flare Breath), be prepared to top of your tank in between hits if required.
 :::
 
-For all major mechanics in this phase, Bahamut Prime will be untargetable. You only need to DPS him down to below 60% to 'make' the DPS check.
+For all major mechanics in this phase, Bahamut Prime will be untargetable in the beginning. You only need to DPS him down to below 60% to 'make' the DPS check.
 
 The MT should immediately face the boss north away from the party as he will cast **Flare Breath**, a frontal tankbuster and **Flatten**, another tankbuster. The MT should be able to solo this with a few mititgations. Bahamut Prime then casts:
 
@@ -496,7 +520,7 @@ Once split, two DPS and two supports will receive markers - these are stack mark
 
 Non-stack markers should move **NEAR** one of the four towers that have spawned. 
 
-This is a general guide priority for towers. While healers should be given priority to the south tower to be in range for heals, to be honest for the DPS side this is a use-eyes and adjust mech.
+While healers should be given priority to the south tower to be in range for heals, to be honest for the DPS side this is a use-eyes and adjust mech as macros and toolboxes have conflicting information (if you want something set-in-stone for your static, below is the macro prio).
 
 ```markdown
 MT     Nael   D1
@@ -532,7 +556,11 @@ Remember that the **IN** is relative to Nael's positioning.
 
 While this is happening, two **Tempest Wing Tethers** (as seen in QMT) will appear. Tanks will need to grab the two Tempest Wing Tethers coming from Bahamut and after the **IN** goes off, the MT runs to Bahamut and OT runs to Twintania. Sprint is helpful to reach the Neurolink in time for an upcoming raidwide.
 
-After whatever the second quote as, the party must stack in south Neurolink (and the tanks in the Neurolink under their respective boss) for **Aetheric Profusion**, a heavy raidwide that is only survivable while being in a Neurolink. After this immediately, Bahamut Prime will become targetable. Spread for **Meteor Stream** and everyone should gather to Bahamut for heals, as he will use **Gigaflare**. This is followed by another set of tankbusters with **Flare Breath** followed by **Flatten** and then another **Flare Breath**.
+After whatever the second quote as, the party must stack in south Neurolink (and the tanks in the Neurolink under their respective boss) for **Aetheric Profusion**, a heavy raidwide that is only survivable while being in a Neurolink. 
+
+After this immediately, Bahamut Prime will become targetable. Spread for **Meteor Stream** and everyone should gather to Bahamut for heals, as he will use **Gigaflare**. 
+
+This is followed by another set of tankbusters with **Flare Breath** followed by **Flatten** and then another **Flare Breath**.
 
 Bahamut Prime will then cast:
 
@@ -569,9 +597,15 @@ D3 < D1 < H1 < MT < OT > H2 > D2 > D4
 If a tower spawns infront of Nael, this belongs to **OT**.
 :::
 
-Avoiding the **Megaflare Puddles** that drop, preposition yourself to be knocked back into your tower by **Heavensfall** (a pillar will drop in the middle - this is the same knockback as the transition from P1 to P2). If you miss the tower, you have a brief moment to adjust into the tower before it explodes.
+Avoiding the **Megaflare Puddles** that drop, preposition yourself to be knocked back into your tower by **Heavensfall** (a pillar will drop in the middle - this is the same knockback as the transition from P1 to P2). 
 
-Once the towers resolve, rotating cones will begin spinning around the room. Avoid the AoEs by rotating around the room and stay near the wall while Nael sends out two **Hypernovas**. After the two Hypernova make your way into the center of the room. When the pillar disappears, Bahamut Prime becomes targetable again and everyone should stand on the 4 Waymark (dead centre) for **party stack** (Fireball). Finally, Bahamut Prime will use another **Gigaflare** raidwide (healers must quickly top up between damage), followed by three **Flare Breath**. Remember to face the boss away from your party.
+If you miss the tower, you have a brief moment to adjust into the tower before it explodes.
+
+Once the towers resolve, rotating cones will begin spinning around the room. Avoid the AoEs by rotating around the room and stay near the wall while Nael sends out two **Hypernovas**. 
+
+After the two Hypernovas, make your way into the center of the room. When the pillar disappears, Bahamut Prime becomes targetable again and everyone should stand on the 4 Waymark (dead centre) for **party stack** (Fireball). 
+
+Finally, Bahamut Prime will use another **Gigaflare** raidwide (healers must quickly top up between damage), followed by three **Flare Breath**. Remember to face the boss away from your party.
 
 Bahamut Prime then casts:
 
@@ -773,8 +807,8 @@ The damage buff from **Phoenix's Blessing** is lost on death. While the DPS chec
 
 **Golden Bahamut** will cycle between **3 attacks** throughout this phase.
 
-- Morn Afah an untelegraphed **AoE attack** on a random player in which the damage must be shared with everyone (**stack**). Mitigation is a **MUST**, you can use tank LB if you feel it is needed.
-- Akh Morn repeated **AoE tankbuster attacks** on the highest emnity target. The first Akh Morn includes 3 attacks, but each subsequent Akh Morn will add 1 extra hit. These can be shared between both tanks with mitigation or taken solo with an invulnerability - **everyone else must steer clear**. Tanks will usually have an ignore overhead marker so healers and DPS can easily identify where they should not stand near.
+- Morn Afah: a **party stack** on a random player. Mitigation is a **MUST**, you can use tank LB if you feel it is needed.
+- Akh Morn: repeated **shareable tankbuster attacks** on the highest emnity target. The first Akh Morn includes 3 attacks, but each subsequent Akh Morn will add 1 extra hit. These can be shared between both tanks with mitigation or taken solo with an invulnerability - **everyone else must steer clear**. Tanks will usually have an ignore overhead marker so healers and DPS can easily identify where they should not stand near.
 - Exaflare are **AoE circles** that travel in the direction of the indicated arrow. In this fight, the exaflares all spawn on one side in 3 sets of 2, and all travel in the same direction. The first set appears roughly at 50% of the castbar. Taking damage from an exaflare is **lethal** for healers and DPS, tanks can survive a hit but will be afflicted with a **damage down**.
 
 I will explain 2 ways to dodge Exaflare, **wall dodge** and **mid dodge**.
