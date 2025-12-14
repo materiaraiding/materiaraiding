@@ -265,7 +265,7 @@ Twintania will then cast Death Sentence. Swap aggro.
 
 There will be another **Generate** cast marking 2 DPS, shortly followed by a **Twister**. Resolve **Twister** first before entering the Neurolink.
 
-Twintania will then use **Plummet**. During this time, D3 should return to the wall ready for Liquid Hell baits, as Twintania will just repeat mechanics from here. Push the boss to 0% and the third Neurolink will drop in the C Waymark:
+Twintania will then use **Plummet**. During this time, D3 should return to the wall ready for Liquid Hell baits, as Twintania will just repeat mechanics from here. Push the boss to 0% and the third Neurolink will drop in the 3 Waymark:
 
 1. Liquid Hell
 2. Hatch **x2** to Neurolink.
