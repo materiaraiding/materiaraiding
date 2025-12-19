@@ -1,8 +1,8 @@
 ---
 fightID: Seiryu
-order: 1
+order: 3
 title: The Wreath of Snakes (Unreal)
-description: A Materia Raiding strategy guide for the Seiryu Unreal fight in Final Fantasy XIV for the Materia Datacenter.
+description: "A Materia Raiding strategy guide for the Seiryu Unreal fight in Final Fantasy XIV: Dawntrail. "
 banner: /images/banners/seiryu.webp
 expansion: Dawntrail
 difficulty: Unreal

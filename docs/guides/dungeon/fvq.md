@@ -8,7 +8,6 @@ expansion: Dawntrail
 difficulty: Dungeon
 authors: [MR, Pod, Kobe]
 discussionLink: https://discordapp.com/channels/895516967543390249/1011883681222234182
-label: New
 ---
 
 ::: warning Note
