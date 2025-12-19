@@ -6,17 +6,18 @@ description: "A guide for The Hell on Rails Extreme trial in Final Fantasy XIV: 
 banner: /images/banners/DT_EX6.webp
 expansion: Dawntrail
 difficulty: Extreme
-authors: [MR, Kobe,]
+authors: [MR, Kobe, Valyntine, Kroxy]
 discussionLink: https://discord.com/channels/895516967543390249/1011883681222234182
 label: New
 ---
 
-<!--
+
 ## Raidplans
 Raidplans are an interactive guide that allow you to click through each phase individually and review the mechanics in an easy to understand manner.
 
-<Action title='Raidplan' color='red' href='' />
+<Action title='Raidplan' color='red' href='https://raidplan.io/plan/cPu-jJY15_QYODAe' />
 
+<!--
 ## Video Guide
 By Kobe
 
