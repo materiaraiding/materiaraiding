@@ -28,14 +28,15 @@ These upgrades are not strictly required to clear the raid, but are generally re
 
 ### Phantom Jobs
 
-**Phantom Jobs** allow players to temporarily take on the unique abilities of various jobs. There are currently **13 Phantom Jobs** available in The Occult Crescent, some are purchased with **Enlightenment Silver and Gold Pieces** while others are dropped from various CEs.
+**Phantom Jobs** allow players to temporarily take on the unique abilities of various jobs. There are currently **16 Phantom Jobs** available in The Occult Crescent, some are purchased with **Enlightenment Silver and Gold Pieces** while others are dropped from various CEs.
 
 | <span style="font-size: 18px;">**Default**</span> <br /> (Starting jobs) | <span style="font-size: 18px;">**Silver Pieces**</span> <br /> (1000 per job) | <span style="font-size: 18px;">**Gold Pieces**</span> <br /> (1600 per job) | <span style="font-size: 18px;">**CE Drop**</span> <br /> (Listed below, not guaranteed) |
 | ----- | ---------- | -------- | ----- |
 | ![](/images/jobs/PhantomFreelancer.webp) Freelancer | ![](/images/jobs/PhantomTimeMage.webp) Time Mage | ![](/images/jobs/PhantomThief.webp) Thief | ![](/images/jobs/PhantomBerserker.webp) Berserker  (**The Unbridled**) |
 | ![](/images/jobs/PhantomKnight.webp) Knight | ![](/images/jobs/PhantomChemist.webp) Chemist | ![](/images/jobs/PhantomSamurai.webp) Samurai | ![](/images/jobs/PhantomRanger.webp) Ranger (**The Black Regiment**) |
 | ![](/images/jobs/PhantomMonk.webp) Monk | ![](/images/jobs/PhantomCannoneer.webp) Cannoneer | ![](/images/jobs/PhantomGeomancer.webp) Geomancer | ![](/images/jobs/PhantomOracle.webp) Oracle (**On The Hunt**) |
-| ![](/images/jobs/PhantomBard.webp) Bard |
+| ![](/images/jobs/PhantomBard.webp) Bard | ![](/images/jobs/PhantomMysticKnight.webp) Mystic Knight | ![](/images/jobs/PhantomGladiator.webp) Gladiator |
+| | ![](/images/jobs/PhantomDancer.webp) Dancer | 
 
 **Phantom Jobs** can level up by earning **Phantom EXP**, earned through FATEs, Critical Encounters (CEs) and Chain bonuses.
 
