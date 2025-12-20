@@ -106,6 +106,7 @@ export default defineConfig({
 		languageAlias: {
 			'macro': 'markdown',
 			'waymarks': 'markdown',
+			'stratboard': 'markdown',
 		},
 	},
 	rewrites: {

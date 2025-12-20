@@ -2,7 +2,7 @@
 fightID: Suzaku
 order: 2
 title: Hells' Kier (Unreal)
-description: A Materia Raiding strategy guide for the Suzaku Unreal fight in Final Fantasy XIV for the Materia Datacenter.
+description: "A Materia Raiding strategy guide for the Suzaku Unreal fight in Final Fantasy XIV: Dawntrail. "
 banner: /images/banners/suzaku.webp
 expansion: Dawntrail
 difficulty: Unreal

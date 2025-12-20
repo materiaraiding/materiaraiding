@@ -8,7 +8,6 @@ expansion: Dawntrail
 difficulty: Extreme
 authors: [Kobe]
 discussionLink: https://discord.com/channels/895516967543390249/1425048736849068112
-label: New
 ---
 
 ## Video Guide
