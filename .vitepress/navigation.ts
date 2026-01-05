@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { difficultyTypes } from './theme/components/lists/difficultyTypes';
+import { externalLinks } from './external-links';
 
 // Function to extract frontmatter from markdown files
 export const extractFrontmatter = (filePath: string) => {
@@ -224,6 +225,19 @@ export const generateFullSidebar = (resourcesNav: any[]): Record<string, any[]> 
   sidebar['/resources/'] = resourcesNav;
 
   return sidebar;
+};
+
+// Function to generate external links section for resources
+export const generateExternalLinksSection = (): any => {
+  // Only return the section if there are external links defined
+  if (externalLinks.length === 0) {
+    return null;
+  }
+
+  return {
+    text: "External",
+    items: externalLinks
+  };
 };
 
 // Function to generate full navigation structure including resources and extra links

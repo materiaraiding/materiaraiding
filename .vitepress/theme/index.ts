@@ -18,6 +18,7 @@ import GuideList from "./components/lists/GuideList.vue";
 import GuideButton from "./components/lists/GuideButton.vue";
 import GuideHome from "./components/lists/GuideHome.vue";
 import PartyFinder from "./components/PartyFinder.vue";
+import StratBoard from "./components/StratBoard.vue";
 import guide from "./layouts/guide.vue";
 import useRouterLoadingBar from "./hooks/useRouterLoadingBar";
 
@@ -43,6 +44,7 @@ export default {
 		ctx.app.component("GuideList", GuideList);
 		ctx.app.component("GuideButton", GuideButton);
 		ctx.app.component("GuideHome", GuideHome);
+		ctx.app.component("StratBoard", StratBoard);
 		ctx.app.component("PartyFinder", PartyFinder);
 		ctx.app.use(FloatingVue, {
 			boundary: "body",

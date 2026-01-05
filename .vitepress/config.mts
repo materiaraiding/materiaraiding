@@ -7,7 +7,7 @@ import {
 	glossaryPlugin,
 	statusIconPlugin,
 } from "./plugins/markdown";
-import { generateFullNav, generateFullSidebar } from "./navigation";
+import { generateFullNav, generateFullSidebar, generateExternalLinksSection } from "./navigation";
 
 // Manually defined resources for nav and sidebar
 const resourcesNav = [
@@ -27,7 +27,9 @@ const resourcesNav = [
 			{ text: "Glossary", link: "/resources/glossary" },
 		],
 	},
-];
+	// Add external links section if available
+	generateExternalLinksSection(),
+].filter(Boolean); // Remove null entries if no external links exist
 
 const extraLinks = [
 	{ text: "Party Finder", link: "/partyfinder" },
