@@ -44,20 +44,21 @@ For easy development you can run the website locally on your computer.
 ### Prerequisites
 
 - Node.js 22.15 LTS
+- pnpm
 - Git
 
 1. Install Node.js 22.15 LTS from [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads)
 2. Reboot after installing Node.js
 3. Clone the repository to your local machine with git
 4. Open a terminal and navigate to the cloned repository
-5. Run `npm install` to install the required packages
-6. Run `npm run docs:dev` to start the local server
+5. Run `pnpm install` to install the required packages
+6. Run `pnpm run docs:dev` to start the local server
 7. Open your web browser and navigate to `http://localhost:5173` to view the website and see your changes live
 
 ## Pages
 Each page is a single Markdown File (.md) which can be located anywhere in the root folder. Each page begins with a header to specify the page name and details, this will not appear in the final page.
 
-{% include image.html path="https://github.com/The-Seat-of-Namazu/namazu.tools/assets/85346345/ea33a705-6501-4a46-a6c8-155dc35e201c"  %}
+![](https://github.com/The-Seat-of-Namazu/namazu.tools/assets/85346345/ea33a705-6501-4a46-a6c8-155dc35e201)
 
 After this, you can use Markdown or HTML formatting to build out the page. Take a look at some of the [existing pages](https://github.com/The-Seat-of-Namazu/namazu.tools/blob/main/top.md?plain=1) for an example. 
 
