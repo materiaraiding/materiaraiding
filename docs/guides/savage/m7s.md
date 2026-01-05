@@ -2,7 +2,7 @@
 order: 7
 fightID: M7S
 title: AAC Cruiserweight M3
-description: A Materia Raiding strategy guide for the AAC Cruiserweight M7 Savage fight in Final Fantasy XIV for the Materia Datacenter.
+description: A Materia Raiding strategy guide for the AAC Cruiserweight M3 Savage fight in Final Fantasy XIV for the Materia Datacenter.
 banner: /images/banners/M7S.webp
 expansion: Dawntrail
 tier: AAC Cruiserweight

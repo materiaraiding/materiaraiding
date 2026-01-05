@@ -50,9 +50,20 @@ function groupPages(pages, grouping) {
 	}
 	if (difficulty.type === "Savage") {
 		const savageGroups = groupByFrontmatter(pages, "tier");
-		const latestTierKey = Object.keys(savageGroups).at(-1);
-		return bringToFront(savageGroups, latestTierKey);
-	// if () {... insert other grouping conditions in the future if needed E.g. "Expansion"
+		
+		const sortedTiers = Object.entries(savageGroups)
+			.map(([tier, tierPages]) => ({
+				tier,
+				pages: tierPages,
+				orderSum: tierPages.reduce((sum, p) => sum + (p.frontmatter.order || 0), 0)
+			}))
+			.sort((a, b) => b.orderSum - a.orderSum);
+	
+		const sortedGroups = Object.fromEntries(
+			sortedTiers.map(({ tier, pages }) => [tier, pages])
+		);
+
+		return sortedGroups;
 	} else {
 		return { ungrouped: pages };
 	}
@@ -177,11 +188,10 @@ function openPage(url) {
 .group-header {
 	font-size: 1em;
 	font-weight: 500;
-	padding: 0.5em 0;
+	padding: 0.5em 0 0 0;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
-	/* justify-content: center; */
 	user-select: none;
 	transition: color 0.2s ease;
 	color: var(--vp-c-text-3);
@@ -189,6 +199,7 @@ function openPage(url) {
 
 .group-header.open {
 	color: var(--vp-c-text-1);
+	padding-bottom: 0.5em;
 }
 
 .group-header:hover {
