@@ -2,7 +2,7 @@
 order: 8
 fightID: M8S
 title: AAC Cruiserweight M4
-description: A Materia Raiding strategy guide for the AAC Cruiserweight M8 Savage fight in Final Fantasy XIV for the Materia Datacenter.
+description: A Materia Raiding strategy guide for the AAC Cruiserweight M4 Savage fight in Final Fantasy XIV for the Materia Datacenter.
 banner: /images/banners/M8S.webp
 expansion: Dawntrail
 tier: AAC Cruiserweight

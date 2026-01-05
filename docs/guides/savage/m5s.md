@@ -2,7 +2,7 @@
 order: 5
 fightID: M5S
 title: AAC Cruiserweight M1
-description: A Materia Raiding strategy guide for the AAC Cruiserweight M5 Savage fight in Final Fantasy XIV for the Materia Datacenter.
+description: A Materia Raiding strategy guide for the AAC Cruiserweight M1 Savage fight in Final Fantasy XIV for the Materia Datacenter.
 banner: /images/banners/M5S.webp
 expansion: Dawntrail
 tier: AAC Cruiserweight

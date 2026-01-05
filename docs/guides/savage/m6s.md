@@ -2,7 +2,7 @@
 order: 6
 fightID: M6S
 title: AAC Cruiserweight M2
-description: A Materia Raiding strategy guide for the AAC Cruiserweight M6 Savage fight in Final Fantasy XIV for the Materia Datacenter.
+description: A Materia Raiding strategy guide for the AAC Cruiserweight M2 Savage fight in Final Fantasy XIV for the Materia Datacenter.
 banner: /images/banners/M6S.webp
 expansion: Dawntrail
 tier: AAC Cruiserweight
