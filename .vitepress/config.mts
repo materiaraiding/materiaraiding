@@ -6,6 +6,7 @@ import {
 	timingWindowPlugin,
 	glossaryPlugin,
 	statusIconPlugin,
+	stratboardPlugin,
 } from "./plugins/markdown";
 import { generateFullNav, generateFullSidebar, generateExternalLinksSection } from "./navigation";
 
@@ -104,6 +105,7 @@ export default defineConfig({
 			md.use(timingWindowPlugin);
 			md.use(glossaryPlugin);
 			md.use(statusIconPlugin);
+			md.use(stratboardPlugin);
 		},
 		languageAlias: {
 			'macro': 'markdown',
