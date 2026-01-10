@@ -6,7 +6,7 @@ title: The Baldesion Arsenal
 description: Materia Raiding strategy guide for The Baldesion Arsenal in The Forbidden Land, Eureka Hydatos. Includes boss strategies and entry requirements.
 expansion: Stormblood
 authors: [Pod, Noranda, CA, MoG]
-difficulty: Field Operations
+difficulty: Field Ops
 ---
 
 ## Baldesion Arsenal Overview
