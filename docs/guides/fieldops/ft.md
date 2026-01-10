@@ -7,7 +7,7 @@ description: "Materia Raiding strategy guide for the Forked Tower: Blood raid in
 expansion: Dawntrail
 image: ft-magitaur.webp
 authors: [Em, Juno, Val, Pod, Kobe, Fae, Lynn, CA, MoG]
-difficulty: Field Operations
+difficulty: Field Ops
 ---
 
 ## Forked Tower: Blood Overview

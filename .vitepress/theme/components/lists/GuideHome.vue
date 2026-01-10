@@ -3,6 +3,7 @@ import GuideList from "./GuideList.vue";
 import { difficultyTypes } from "./difficultyTypes";
 import { data as archivePages } from "../loaders/archives.data";
 import { computed, ref, onMounted, onBeforeUnmount } from 'vue';
+import { homeList } from "./homeList";
 
 const { isArchive, expansion, grouping } = defineProps({
 	isArchive: {
@@ -27,9 +28,11 @@ const columns = computed(() => {
 	const cols = Array.from({ length: columnCount.value }, () => []);
 	// Sort difficulties by their homeNavOrder property before distributing to columns
 	const sortedDifficulties = [...difficultyTypes].sort((a, b) => a.homeNavOrder - b.homeNavOrder);
-	sortedDifficulties.forEach((item, i) => {
-		cols[i % columnCount.value].push(item);
-	});
+	sortedDifficulties
+		.filter(diff => homeList[diff.type]) // If the homeList doesn't include the difficulty, filter it out.
+		.forEach((item, i) => {
+			cols[i % columnCount.value].push(item);
+		});
 	return cols;
 });
 
@@ -78,7 +81,8 @@ onBeforeUnmount(() => {
 	<div class="navblock">
 		<div v-for="(column, colIndex) in columns" :key="colIndex" class="masonry-column">
 			<GuideList v-for="difficulty in column" :key="difficulty.type" :difficulty="difficulty.type" :includeTitle="true"
-				:grouping="grouping" :isArchiveList="isArchive" :expansion="expansion" />
+				:grouping="grouping" :isArchiveList="isArchive" :expansion="expansion"
+				:homeList="!isArchive ? homeList : null" />
 		</div>
 	</div>
 </template>

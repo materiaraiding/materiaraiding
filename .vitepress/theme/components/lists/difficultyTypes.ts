@@ -7,6 +7,6 @@ export const difficultyTypes = [
 	{ type: 'Extreme', icon: '/images/icons/trial.webp', colorClass: 'extreme-color', order: 1, homeNavOrder: 3 },
 	{ type: 'Savage', icon: '/images/icons/raid.webp', colorClass: 'savage-color', order: 2, homeNavOrder: 4 },
 	{ type: 'Ultimate', icon: '/images/icons/highendduty.webp', colorClass: 'ultimate-color', order: 3,	homeNavOrder: 5 },
-	{ type: 'Field Operations', icon: '/images/icons/fieldops.webp', colorClass: 'fieldops-color', urlOverride: 'fieldops', order: 7, homeNavOrder: 7 },
+	{ type: 'Field Ops', icon: '/images/icons/fieldops.webp', colorClass: 'fieldops-color', urlOverride: 'fieldops', order: 7, homeNavOrder: 7 },
 	{ type: 'Dungeon', icon: '/images/icons/dungeon.webp', colorClass: 'dungeon-color', order: 4, homeNavOrder: 6 },
 ];

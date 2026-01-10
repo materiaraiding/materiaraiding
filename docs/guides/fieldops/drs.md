@@ -6,7 +6,7 @@ title: Delubrum Reginae (Savage)
 description: Materia Raiding strategy guide for Delubrum Reginae (Savage) raid in Save the Queen. Includes boss strategies and entry requirements.
 expansion: Shadowbringers
 authors: [Pod, Lia Alir, Helios Dhanu, O'palt Jhaid, CA, MoG]
-difficulty: Field Operations
+difficulty: Field Ops
 ---
 
 ::: warning WORK IN PROGRESS
