@@ -21,8 +21,8 @@ const props = defineProps({
 		type: String,
 		default: null,
 	},
-	homeList: {
-		type: Object,
+	fightIDs: {
+		type: Array,
 		default: null
 	}
 });
@@ -35,7 +35,7 @@ const filterPages = (difficulty, expansion) => {
 		.filter((p) =>
 			p.frontmatter.difficulty === difficulty &&
 			(!expansion || p.frontmatter.expansion === expansion) &&
-			(!props.homeList || props.homeList[difficulty]?.includes(p.frontmatter.fightID))
+			(!props.fightIDs || props.fightIDs.includes(p.frontmatter.fightID))
 		)
 		.sort((a, b) => a.frontmatter.order - b.frontmatter.order);
 	return filteredPages;
