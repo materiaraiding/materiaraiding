@@ -35,7 +35,7 @@ const filterPages = (difficulty, expansion) => {
 		.filter((p) =>
 			p.frontmatter.difficulty === difficulty &&
 			(!expansion || p.frontmatter.expansion === expansion) &&
-			(!props.fightIDs || props.fightIDs.includes(p.frontmatter.fightID))
+			(!props.fightIDs || props.fightIDs.length === 0 || props.fightIDs.includes(p.frontmatter.fightID))
 		)
 		.sort((a, b) => a.frontmatter.order - b.frontmatter.order);
 	return filteredPages;
