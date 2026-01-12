@@ -8,7 +8,6 @@ expansion: Dawntrail
 difficulty: Extreme
 authors: [MR, Kobe, Valyntine, Kroxy]
 discussionLink: https://discord.com/channels/895516967543390249/1011883681222234182
-label: New
 ---
 
 

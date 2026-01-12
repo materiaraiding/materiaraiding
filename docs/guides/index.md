@@ -1,3 +1,3 @@
 # Guides
 
-<GuideHome />
+<GuideHome :showAll=true />

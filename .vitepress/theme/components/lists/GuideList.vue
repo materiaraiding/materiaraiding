@@ -3,10 +3,7 @@ import GuideButton from "./GuideButton.vue";
 import { data as archive } from "../loaders/archives.data";
 import { data as guides } from "../loaders/guides.data";
 import { difficultyTypes } from "./difficultyTypes";
-import { useRouter } from "vitepress";
-import { ref } from "vue";
 
-const router = useRouter();
 const props = defineProps({
 	difficulty: {
 		type: String,
@@ -24,121 +21,41 @@ const props = defineProps({
 		type: String,
 		default: null,
 	},
-	grouping: {
-		type: Boolean,
-		default: false,
-	},
+	fightIDs: {
+		type: Array,
+		default: null
+	}
 });
 
 const pages = props.isArchiveList ? archive : guides;
 
-// Filter pages by difficulty (and expansion if defined)
+// Filter pages by difficulty (and expansion if defined; e.g., used for distinguishing archived expansions)
 const filterPages = (difficulty, expansion) => {
 	let filteredPages = (Array.isArray(pages) ? pages : [])
 		.filter((p) =>
 			p.frontmatter.difficulty === difficulty &&
-			(!expansion || p.frontmatter.expansion === expansion)
+			(!expansion || p.frontmatter.expansion === expansion) &&
+			(!props.fightIDs || props.fightIDs.length === 0 || props.fightIDs.includes(p.frontmatter.fightID))
 		)
 		.sort((a, b) => a.frontmatter.order - b.frontmatter.order);
 	return filteredPages;
 };
 
-// Main grouping logic
-function groupPages(pages, grouping) {
-	if (!grouping) {
-		return pages;
-	}
-	if (difficulty.type === "Savage") {
-		const savageGroups = groupByFrontmatter(pages, "tier");
-		
-		const sortedTiers = Object.entries(savageGroups)
-			.map(([tier, tierPages]) => ({
-				tier,
-				pages: tierPages,
-				orderSum: tierPages.reduce((sum, p) => sum + (p.frontmatter.order || 0), 0)
-			}))
-			.sort((a, b) => b.orderSum - a.orderSum);
-	
-		const sortedGroups = Object.fromEntries(
-			sortedTiers.map(({ tier, pages }) => [tier, pages])
-		);
-
-		return sortedGroups;
-	} else {
-		return { ungrouped: pages };
-	}
-}
-
-// Grouping utilities
-function groupByFrontmatter(pages, fm) {
-	return pages.reduce(((group, p) => {
-		const value = p.frontmatter[fm];
-		if (!group[value]) group[value] = [];
-		group[value].push(p);
-		return group;
-	}), {});
-}
-function bringToFront(groups, key) {
-	return ({
-		[key]: groups[key],
-		...Object.fromEntries(Object.entries(groups).filter(([k]) => k !== key))
-	});
-}
-
+const filteredPages = filterPages(props.difficulty, props.expansion);
 const difficulty = difficultyTypes.find(d => d.type === props.difficulty);
-const filteredPages = filterPages(difficulty.type, props.expansion);
-const groupedPages = groupPages(filteredPages, props.grouping);
 
-const openGroups = ref((() => {
-	// Collapse all previous savage tier groups, except the current
-	if (difficulty.type === "Savage") {
-		return Object.fromEntries(
-			Object.keys(groupedPages).map((key, index) => [key, index === 0])
-		);
-	}
-	// Open others by default
-	return Object.fromEntries(
-		Object.keys(groupedPages).map(key => [key, true])
-	);
-})());
-
-function toggleGroup(key) {
-	openGroups.value[key] = !openGroups.value[key];
-}
-
-function openPage(url) {
-	if (props.isArchiveList) return;
-	router.go(url.replace("/guides", "").toLowerCase());
-}
 </script>
 
 <template>
 	<div class="navcolumn" v-if="filteredPages.length != 0">
 		<!-- Icon + Title -->
-		<div v-if="includeTitle" class="navtitle" @click="openPage(`/${difficulty.urlOverride ?? difficulty.type}/`)">
+		<a v-if="includeTitle" :href="`/${difficulty.urlOverride ?? difficulty.type}/`.toLowerCase()" class="navtitle">
 			<img class="navtitle_img" :alt="`${difficulty.type} Icon`" :src="difficulty.icon" />
 			{{ difficulty.type }}
-		</div>
-		<!-- Grouped Page Links -->
-		<div v-if="grouping" v-for="(pages, key, index) in groupedPages" :key="key">
-			<div v-if="key === 'ungrouped'" class="ungrouped-header"></div>
-			<div v-else-if="!(difficulty.type === 'Savage' && index === 0)" class="group-header" @click="toggleGroup(key)"
-				:class="{ open: openGroups[key] }">
-				<svg class="arrow-icon" :class="{ open: openGroups[key] }" width="16" height="16" viewBox="0 0 16 16"
-					fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-						stroke-linejoin="round" />
-				</svg>
-				{{ key }}
-			</div>
-			<transition name="slide-fade">
-				<div v-show="openGroups[key] !== false" class="link-group">
-					<GuideButton v-for="page in pages" :key="page.url" :page="page" />
-				</div>
-			</transition>
-		</div>
-		<!-- Page links when grouping is disabled -->
-		<div v-else class="link-group">
+			<span data-v-d90ee278="" class="vpi-chevron-down header-arrow"></span>
+		</a>
+		<!-- Page links -->
+		<div class="link-group">
 			<GuideButton v-for="page in filteredPages" :key="page.url" :page="page" />
 		</div>
 	</div>
@@ -158,6 +75,7 @@ function openPage(url) {
 }
 
 .navtitle {
+	color: inherit;
 	display: flex;
 	height: 50px;
 	margin-top: 16.5px;
@@ -166,6 +84,7 @@ function openPage(url) {
 	letter-spacing: -0.02em;
 	font-size: 1.4em;
 	font-weight: 600;
+	text-decoration: none;
 	outline: none;
 	cursor: pointer;
 	transition: 0.2s ease;
@@ -183,6 +102,11 @@ function openPage(url) {
 	margin-right: 7px;
 	margin-left: 7px;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header-arrow {
+	transform: none;
+	opacity: 0.5;
 }
 
 .group-header {

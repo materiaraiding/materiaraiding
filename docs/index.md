@@ -29,7 +29,7 @@ features:
       link: "/resources/visitorsguide"
 ---
 
-<GuideHome :grouping=true />
+<GuideHome />
 
 <script setup>
 import { VPTeamPage, VPTeamPageTitle, VPTeamMembers } from 'vitepress/theme'

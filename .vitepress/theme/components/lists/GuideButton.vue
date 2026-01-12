@@ -11,7 +11,7 @@ const props = defineProps({
 
 // Compute the proper href for the link
 const linkHref = computed(() => {
-  return props.page.url.replace("/guides", "").toLowerCase();
+  return props.page.url.replace("/guides", "");
 });
 
 // Determine the difficulty type and its associated properties from the difficultyTypes array
@@ -20,11 +20,6 @@ const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter
 	colorClass: "",
 	icon: "",
 };
-
-// Check if the page has a "New" label
-const hasNewLabel = computed(() => {
-	return props.page.frontmatter.label && props.page.frontmatter.label.toLowerCase().includes('new');
-});
 </script>
 
 <template>
@@ -35,7 +30,6 @@ const hasNewLabel = computed(() => {
 			'background-image': `linear-gradient(0.75turn, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90)), url('${props.page.frontmatter.banner}')`,
 		}">
 		{{ props.page.frontmatter.fightID }}
-		<div v-if="hasNewLabel" class="new-tag">New Content</div>
 	</a>
 </template>
 
