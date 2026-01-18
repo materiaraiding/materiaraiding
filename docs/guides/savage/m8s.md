@@ -12,7 +12,7 @@ discussionLink: https://discord.com/channels/895516967543390249/1355407851677421
 ---
 
 ## Toolbox/Raidplan
-Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
+Toolboxes are an interactive guide that allows you to click through each phase individually and review the mechanics in a easy to understand manner.
 
 <ActionGroup
 :actions=" [
