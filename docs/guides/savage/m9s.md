@@ -7,7 +7,7 @@ banner: /images/banners/M9S.webp
 expansion: Dawntrail
 tier: AAC Heavyweight
 difficulty: Savage
-authors: [ MR, Val ]
+authors: [ MR, Val, Hyulia ]
 discussionLink: https://discord.com/channels/895516967543390249/1457529623855235244
 ---
 
@@ -15,6 +15,11 @@ discussionLink: https://discord.com/channels/895516967543390249/1457529623855235
 Raidplans are an interactive guide that allow you to click through each phase individually and review the mechanics in a easy to understand manner.
 
 <Action title='M9S Raidplan' color='red' href='https://raidplan.io/plan/c2L5iJfuYIWXk1v7' />
+<Action title='M9S Raidplan - Detailed Ver.' color='black' href='https://raidplan.io/plan/D8fCeim7LDLuEFmu' />
+
+## Cheatsheet
+![](/images/savage/m9s-cheatsheet.webp)
+
 
 <!--
 ## Video Guide
@@ -32,7 +37,6 @@ Raidplans are an interactive guide that allow you to click through each phase in
 ::: details Hell in a Cell
 [stgy:al2zPOSlU2z4XElaCFlc4TbYeUK0gl4ciaZUPWh50Zwij3ECfwmlYBX3SReA2SH1zryAnXzezdY52F5bfOer2Go65naV5Usb9tFtjj4VXi4ei1jIg6JsH+LbW-uuzqM-iKCJg-QbQw5A4k9oMgqLxvpdSpaFdj7KnzPvEVueIY6cAZEdy8QECSTE0DkW4WZM0f0uBQX+7MVrRjAOwW1uRa6HjrVpnwesR8fN83d3wr4kvQ3nB39rTBZSdtxKlK8Tr9XYplmkVc1rTKHtqFON04Utw5kq+7D-gAbY-qrWIty2jPQtclopB1regs0XLum1w0LOxphJV1hGcb9xL3Jv7e5whu+wv8xNQYA6QQZiAen3QG+Ypb6A3UXE+Aoj3Si6NyHzNWSNR6IfbzzRh+aiJcTJy5mULoroetRIM2dlE+ZddX9wj9TpqLLogIOSPbIG1lMPo67suKn2-91NV+qjjsa0HVkZiYbo1sJ8wvEzv+DDoI1FVSVowuEcBzwVSBi7m7Ov6nBWvbbsN1Bz04tOkE4+ZfuVI81NA3EZ]
 :::
-
 
 ## Waymarks
 Waymarks can be imported to the game using *Waymark Preset Plugin*, or you can ask a friend to import them for you and save a copy for yourself.
