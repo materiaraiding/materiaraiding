@@ -68,6 +68,16 @@ Changes in difficulty are only noted **in relation** to **Q40**.
 > - There are only **4 Flameborns** during **Fevered Flame**.
 :::
 
+::: details Q30
+**General**:
+> - The **Light**/**Dark Vengeance** debuffs last for **2 minutes**.
+> - The **towers** don't inflict ^[Bleeding] **Bleeding**, and don't require the **Light Vengeance** debuff to resolve properly.
+
+**Mechanical**:
+> - The ^[Doom] **Doom** debuff during **Crime and Punishment** lasts for **6 seconds**.
+> - There are only **4 Flameborns** during **Fevered Flame**.
+:::
+
 ::: details Q35
 **General**:
 > - The **Light**/**Dark Vengeance** debuffs last for **2 minutes**.
