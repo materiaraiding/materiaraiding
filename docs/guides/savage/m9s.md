@@ -27,6 +27,9 @@ Raidplans are an interactive guide that allow you to click through each phase in
 @[]()
 -->
 
+## POV Videos
+@[](https://youtu.be/kOZHx8hAdwQ)
+
 ## Strategy Boards
 ::: details Vamp Stomp
 [stgy:azpHK+NQu97aKb2ArWFXXB2oxJflaY8jgsuqVmn6WX3zyJ4+3eFtYIk3sd2IxZ5PUf9a5xnzG1IGuZkClcNTcnpMMxizxVvC3sLR5AHoWibEEu81e32RGnL61LcKlZnJ69fTAXW0cw6Fn10w+UMoN0sHybc5ubDjDa7bxNcQT+k7gl3kKQciutvLpS-WHqFmKv+cmLFloNztMcqyMLUI6J5C-MiNgRLL346a9xR0c9HGnJPphw8evKBOqdDHnZ8C6yyNeK2UYJvSPGZzGnLa5cfhCzh6Z0vVbHF1uEfAuUlQ9d2frrU0eAVyAxo6]
