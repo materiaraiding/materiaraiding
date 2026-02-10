@@ -84,5 +84,5 @@ Changes in difficulty are only noted **in relation** to **Q40**.
 
 **Mechanical**:
 > - The ^[Doom] **Doom** debuff during **Crime and Punishment** lasts for **6 seconds**.
-> - There are only **? Flameborns** during **Fevered Flame**.
+> - There are only **4 Flameborns** during **Fevered Flame**.
 :::
