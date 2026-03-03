@@ -70,7 +70,7 @@ const members = [
     desc: "@junocatto"
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/168710722346418177/21ee876a06956a5b4f21893535560590?size=256',
+    avatar: 'https://cdn.discordapp.com/avatars/168710722346418177/8aed64ed3e0920bbc6e11753ffc78fbb.webp?size=128',
     name: 'Noz',
     title: 'Writer',
     desc: "@happy.gorl.lucky"
@@ -82,25 +82,25 @@ const members = [
     desc: "@pod153"
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/715021806033174590/b183fe66bd2aec1d2c1aee6cb7035625?size=256',
-    name: 'Lynx',
+    avatar: 'https://cdn.discordapp.com/avatars/715021806033174590/f2ae42f01f6d5ccc28268afd4318abe5.webp?size=128',
+    name: 'Lumi',
     title: 'Editor',
-    desc: "@lynx.starflare"
+    desc: "@lumi.starflare"
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/120703775139823618/3b46661783b34a9f29ccd0c518c96e3b?size=256',
+    avatar: 'https://cdn.discordapp.com/avatars/120703775139823618/45f1ecd1af82188d8b8119fa1eb547a1.webp?size=128',
     name: 'Kobe',
     title: 'Content Creator',
     desc: "@kobe_."
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/546216982219980800/ebd0a5aec0469fe45f567194b7f8d578.png?size=256',
+    avatar: 'https://cdn.discordapp.com/avatars/546216982219980800/807a2bcb1409bf1615df38495bcf2ece.webp?size=128',
     name: 'Ikuya',
     title: 'Content Creator',
     desc: "@gardevoir101"
   },
   {
-    avatar: 'https://cdn.discordapp.com/avatars/173223638248587265/106677284cc1260accfa778b37417894.png?size=256',
+    avatar: 'https://cdn.discordapp.com/avatars/173223638248587265/2cf2eb006d677fc4d38ebe4e3a610c40.webp?size=128',
     name: 'Pipiro',
     title: 'Content Creator',
     desc: "@lightprizym"

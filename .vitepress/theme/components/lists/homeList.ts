@@ -3,8 +3,8 @@
 
 export const homeList = {
   "Chaotic": ["COD"],
-  "Dungeon": ["AAI", "FVQ"],
-  "Unreal": ["Seiryu", "Tsukuyomi"],
+  "Dungeon": ["FVQ", "AMT"],
+  "Unreal": ["Tsukuyomi"],
   "Field Ops": ["DRS", "FT"],
   "Extreme": ["EX6", "MHW"],
   "Savage": ["M9S", "M10S", "M11S", "M12S"],
