@@ -193,4 +193,32 @@ Below are mini-guides and example loadouts for each role within **Delubrum Regin
 
 #### Stygimoloch Lord
 
+The **Stygimoloch Lord** is the final trash encounter of **Delubrum Reginae (Savage)**. While alive, it applies ^[Royal Favor] **Royal Favor** to **The Queen**, preventing her from dropping below **1HP** and making all damage she deals **highly lethal**.
+
+To reach the **Stygimoloch Lord**, at least **1 player** must slip through the **iron bars** located beyond **Trinity Avowed's** arena via ^[Mini] **Mini**. This player can then **unlock** the entrance to the mini-boss's lair for everyone else. Players should huddle around the **Mini Trap** located before **Trinity Avowed**, **detonate** it as a group and then make their way through the iron bars. Players should also be aware of the traps located just after entering its lair.
+
+![](/images/fieldops/drs-styglordmap.webp)
+
+::: warning
+The following lost actions and items **Lost Reflect**, **Light Curtains** and **Lost Dispel** are required.
+
+The fight against the **Stygimoloch Lord** features a lengthy adds phase in which players are required to use these actions to destroy orbs spawned in the inner lane of the arena.
+:::
+
+The **Stygimoloch Lord** begins with the following **looping** sequence of attacks until its HP reaches below **70%**:
+
+1. **Foe Splitter** - Single target conal-cleaving tankbuster. The ^[Aetheric Mimicry: Tank] **MT** should stand away from everyone.
+2. **Vicious Swipe** - Small circle AoE around itself that damages and **knocks back** any players hit. Players can use ^[Arm's Length] ^[Surecast] Knockback immunity.
+3. **Whack x3** - **3** telegraphed conal AoEs targeting random players.
+4. **1111-tonze Swing** - **Large untelegraphed** circle AoE around itself. Players should retreat to the edge of the arena.
+5. **Rapid Bolts** - Targeted AoEs on **3** players that after resolving, will pulse multiple times. Marked players should move away from the group and place these AoEs at the edge of the arena.
+6. **Rapid Bolts**
+7. **Rush** - Targets a random player and charges towards them. Any other players caught between the **Stygimoloch Lord** and its target receive a stack of ^[Twice-come Ruin] **Twice-come Ruin**.
+8. **Rapid Bolts**
+9. **Rapid Bolts**
+10. **Crushing Hoof** - Places a **proximity marker** at a **random** player's location and jumps towards it shortly after.
+11. **Whack**
+
+Once pushed **below 70%**, the **Stygimoloch Lord** will jump to the middle of the arena and become untargetable.
+
 #### Boss 4 - The Queen
