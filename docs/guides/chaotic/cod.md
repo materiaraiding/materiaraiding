@@ -5,6 +5,7 @@ title: The Cloud of Darkness (Chaotic)
 description: A guide for The Cloud of Darkness (Chaotic) in Dawntrail.
 banner: /images/banners/COD.webp
 expansion: Dawntrail
+image: chaotic-cod.webp
 difficulty: Chaotic
 authors: [ Kobe, Pipiro, Pod ]
 discussionLink: https://discord.com/channels/895516967543390249/1321109667644182653

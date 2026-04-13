@@ -86,6 +86,22 @@ You can upgrade the Arcanaut sets using various upgrade materials obtained aroun
 
 Each augment will add another **+40** Main Stat and **+1** Special Attribute to a gear piece of your choice.
 
+### Occult Accessories
+
+Occult accessories are another set of obtainable gear that offer substantial increases in universal offence while in **Occult Crescent**-related Field Operations.
+
+Split into **Blood (DoW)** and **Magic (DoM)**, accessories can be obtained by various means within **South Horn** and offer the following bonuses:
+- **+40** Main Stat (Strength, Dexterity, Intelligence, Mind)
+- **+1** Special Attribute
+
+Special Attribute scales up damage from all **Phantom Job abilities** that have "**Scale with item level**" in their tooltip description.
+
+There is also a **special accessory**, an **Occult Ring of Deep Blood**/**Magic**, that offers **+80** Main Stat and **+2** Special Attribute as a **set bonus**, if all other accessories are equipped.
+
+- **Earrings**, **Necklaces** and **Bracelets** are obtained from **CEs** at a **~0.1%** chance and from **treasure coffers** at a **~0.06%** chance.
+- **Rings** are obtained from **Gold Persistent Pot** coffers, at a **~10%** drop rate.
+- **Deep Rings** are obtained from **Happy Bunny** coffers, discoverable through the use of **Fortune Carrots**, at a **~20%** drop rate.
+
 ## Raid: The Forked Tower: Blood
 
 ::: warning WARNING
@@ -296,10 +312,11 @@ Additionally, the raid should have the following **Phantom Jobs** to successfull
 | ![](/images/jobs/PhantomGeomancer.webp) Geomancer | **x1** per Alliance (**ABC** / **123**) | ^[Suspend] **Suspend** - **Negates** the lightning floors in the **Hallways** and the **Bridges**. |
 | ![](/images/jobs/PhantomTimeMage.webp) Time Mage | **x1** per Alliance (**ABC** / **123**) | ^[Slow] **Occult Slowga** - **Slows** enemies. <br> **Occult Dispel** - **Removes** most enemies' **buffs**. |
 | ![](/images/jobs/PhantomBard.webp) Bard | **x1** per Alliance (**ABC** / **123**) | ^[Arcane Stop] **Romeo's Ballad** - Interrupts **Tower Idols**' **Aero III** cast. |
-| ![](/images/jobs/PhantomChemist.webp) Chemist | **x1** per Alliance (**ABC** / **123**) | ^[Raise] **Revive** - Only means of **resurrecting** players besides **Healer LB3** in the raid. |
+| ![](/images/jobs/PhantomChemist.webp) Chemist | **x2** per Alliance (**ABC** / **123**) | ^[Raise] **Revive** - Only means of **resurrecting** players besides **Healer LB3** in the raid. |
 | ![](/images/jobs/PhantomBerserker.webp) Berserker | **x1** per Raid (**ABC123**) |  ^[Rage] **Rage** - Negates the  ^[Hysteria] **Hysteria debuff** from the **Universal Empowerment Conduit**. |
 | ![](/images/jobs/PhantomOracle.webp) Oracle | **x1** per Raid (**ABC123**) | ^[Phantom Doom] **Phantom Doom** - Applies ^[Doom] **Doom**; **instakill** option for **Guardian Berserker**. |
-| ![](/images/jobs/PhantomCannoneer.webp) Cannoneer | **x1** per Raid (**ABC123**) | **Phantom Fire** - **Instakill** option for **Guardian Berserker**. <br> ^[Silver Sickness] **Silver Cannon** - **Debuffs** enemies to do less and take more damage. |
+| ![](/images/jobs/PhantomCannoneer.webp) Cannoneer **OR** <br> ![](/images/jobs/PhantomDancer.webp) Dancer | **x1** per Raid (**ABC123**) | **Phantom Fire** - **Instakill** option for **Guardian Berserker**. <br> ^[Silver Sickness] **Silver Cannon** - **Debuffs** enemies to do less and take more damage. Will overwrite ^[Mesmerized] **Mesmerize**. <br> ^[Mesmerized] **Mesmerize** - **Debuffs** enemies to do less and take more damage. Greatly increased ^[Enamored] damage reduction for the **first 4 seconds**. Will overwrite ^[Silver Sickness] **Silver Sickness**. |
+| ![](/images/jobs/PhantomMysticKnight.webp) Mystic Knight | **x1** per Raid (**ABC123**) | ^[Blazing Bane] **Blazing Spellblade** - **Debuffs** enemies to take more damage. 
 | ![](/images/jobs/PhantomSamurai.webp) Samurai | As many as possible | **Iainuki** - **Instakill** option for **Guardian Berserker**. <br> **Zeninage** - **Accuracy** option for **Guardian Bats**. |
 | ![](/images/jobs/PhantomRanger.webp) Ranger | Optional | **Occult Falcon** - **Trigger** traps from a distance. <br> ^[Phantom Aim] **Phantom Aim** - **Accuracy** option for **Guardian Bats**. |
 
@@ -313,17 +330,21 @@ Finally, below are in-depth guides for certain **Phantom Jobs** within **The For
 
 <ActionGroup
 :actions=" [
-{ title: 'Geomancer', color: 'yellow', href: 'https://docs.google.com/spreadsheets/d/1k2eIlDWksPi_fTXIRRlCzeAm2m9GewHqFpnShlOgg1Q/edit?usp=sharing' },
-{ title: 'Thief', color: 'purple', href: 'https://docs.google.com/document/d/1Z5vZlxHuv6v2zSyXLXJnkA7lLL1YIUv6r5Xt6qXh9ic/edit?tab=t.0#heading=h.xlr7hivfpp9x' },
-{ title: 'Oracle', color: 'green', href: 'https://docs.google.com/spreadsheets/d/1SJXdA36aZoYDlP3EED2ytmF33rvhABdUPLS377wRHRE/edit?gid=0#gid=0' },
 { title: 'Berserker', color: 'blue', href: 'https://docs.google.com/spreadsheets/d/12D2FQVvwUTMKe821BlvZPtfpGUeMgVr8Fb3Xak2KtLo/edit?gid=1978955055#gid=1978955055' },
+{ title: 'Gladiator', color: 'blue', href: 'https://docs.google.com/document/d/1GD4x7JLn8xIN419E-E7MC4F7rWdTo4iH1heGWwQkoYk/edit?tab=t.0' },
+{ title: 'Chemist', color: 'green', href: 'https://docs.google.com/document/d/14iyCwndPZ9NPsM-5ElGEla6WNLZuZUNPXX_AotvzMTY/edit?tab=t.0' },
+{ title: 'Oracle', color: 'green', href: 'https://docs.google.com/spreadsheets/d/1SJXdA36aZoYDlP3EED2ytmF33rvhABdUPLS377wRHRE/edit?gid=0#gid=0' },
 { title: 'Monk', color: 'red', href: 'https://docs.google.com/document/d/14ISoQu7l6ppmMnFiA_gplOa7B5VjqnM-zktn0bPKZe0/edit?tab=t.0#heading=h.w8c8exu848bi' },
+{ title: 'Geomancer', color: 'red', href: 'https://docs.google.com/spreadsheets/d/1k2eIlDWksPi_fTXIRRlCzeAm2m9GewHqFpnShlOgg1Q/edit?usp=sharing' },
+{ title: 'Thief', color: 'yellow', href: 'https://docs.google.com/document/d/1Z5vZlxHuv6v2zSyXLXJnkA7lLL1YIUv6r5Xt6qXh9ic/edit?tab=t.0#heading=h.xlr7hivfpp9x' },
+{ title: 'Ranger', color: 'yellow', href: 'https://docs.google.com/document/d/1Z5vZlxHuv6v2zSyXLXJnkA7lLL1YIUv6r5Xt6qXh9ic/edit?tab=t.0#heading=h.lfgvwrmqoyhq' },
 ]"
 />
 
 ### Encounters
 
 #### Boss 1 - Demon Tablet
+<Action title='Boss 1 - Demon Tablet' color='red'  href='https://raidplan.io/plan/jar7czxup3wu8chh'/>
 
 **Demon Tablet** is the first boss of **The Forked Tower: Blood**. It features several simple mechanics, but with **harsh punishments** and a **hard enrage** at **6:40**. **Demon Tablet** itself is a **wide enemy**, splitting the room into **two square platforms** and **preventing** players from walking through the boss, **unless** it is raised into the air while casting an attack. Finally, **Demon Tablet's** auto attacks will target the top **three** enmity players.
 
@@ -415,14 +436,15 @@ There are no new mechanics from this point onwards. **Demon Tablet** will use th
 6. **Demonic Dark II**
 
 #### Hallways
+<Action title='Hallways' color='green'  href='https://docs.google.com/presentation/d/1MQx7FPoZmPbp0X8Wy8743gfMptDjZSLHQyUAIyin3CU/edit?usp=sharing'/>
 
 The **Hallways** are the first set of trash encounters in **The Forked Tower: Blood**. It features **optional loot**, only obtainable with a ^[Phantom Thief] **Phantom Thief** and multiple **hidden traps** sprinkled throughout.
 
 There are **two** types of **hidden traps**, both of which are can only be uncovered with ^[Phantom Thief] **Phantom Thief's Trap Detection**, and both of which are **walked around**, unless a ^[Aetheric Mimicry: Tank] **Tank** ^[Phantom Ranger] or **Phantom Ranger** has **communicated** about popping them.
 
-| <span style="font-size: 18px;">**Normal Trap**</span> | <span style="font-size: 18px;">**Mega Trap**</span> |
+| <span style="font-size: 18px;">**Exploding Trap**</span> | <span style="font-size: 18px;">**Mega Exploding Trap**</span> |
 | :-: | :-: |
-| ![](/images/fieldops/ft-normaltrap.webp) | ![](/images/fieldops/ft-megatrap.webp) |
+| ![](/images/fieldops/drs-explode.webp) | ![](/images/fieldops/ft-megaexplode.webp) |
 | **Explodes** in a **small area** around itself when detonated, killing any nearby players. | **Explodes** in a **massive area** around itself when detonated, killing any surrounding players. |
 
 There is also a **roaming trap** that looks like a **green orb**, floating along the walls of the **Hallways**. Players that step inside are afflicted with ^[Silence] **Silence** for **one minute**.
@@ -449,6 +471,7 @@ Below is a table noting some mobs and their **dangerous casts**, a table detaili
 ![](/images/fieldops/ft-hallwaysmap.webp)
 
 #### Boss 2 - Dead Stars
+<Action title='Boss 2 - Dead Stars' color='green'  href='https://raidplan.io/plan/A64reKpIcFtpv01o'/>
 
 **The Dead Stars** can be considered the first wall of the raid, with mechanics that can easily wipe the party from **1** player's mistakes. It has a **hard enrage** at **7:00**.
 
@@ -549,6 +572,7 @@ Each **slice** of the arena is assigned to a party, as shown in the image below.
 ![](/images/fieldops/ft-boss2enrage.webp)
 
 #### Bridges
+<Action title='Bridges' color='blue'  href='https://docs.google.com/presentation/d/1XnKwFsmdUYQ_MQZwqfWxdGl3XumE6lL5wDhwp9QTaBE/edit?usp=sharing'/>
 
 The **Bridges** are the second set of trash encounters in **The Forked Tower: Blood**. Similar to the **Hallways**, the **Bridges** feature hidden traps, lightning floors, and **dangerous adds** that must be handled in certain ways.
 
@@ -574,6 +598,7 @@ While dealing with these enemies, each side of the bridge will glow with **four 
 ![](/images/fieldops/ft-bridgesmap.webp)
 
 #### Boss 3 - Marble Dragon
+<Action title='Marble Dragon' color='blue'  href='https://raidplan.io/plan/_3HykkEJjbEZu6JV'/>
 
 **Marble Dragon** focuses primarily on dodging, but can still very easily punish players that are slow on movement. It has a **hard enrage** at **6:30**.
 
@@ -655,6 +680,7 @@ The cycle of **Draconiform Motion** -> **Detonate** -> **Tower** -> **Detonate**
 **Marble Dragon** will finally cast **Imitation Star** and **Dread Deluge**, before entering it's **hard enrage** cast at **6:30**.
 
 #### Lockwards
+<Action title='Lockwards' color='purple'  href='https://raidplan.io/plan/rxxv7v27ksejc5xt'/>
 
 Like the **Hallways** and the **Bridges**, **Lockwards** combines hidden traps and somewhat deadly trash with a small puzzle segment players can choose to solve correctly or skip. ^[Phantom Time Mage] **Phantom Time Mages** should remember to slow any enemies here.
 
@@ -684,6 +710,7 @@ Defeating the **Sangune Recluse** will provide all players that participated in 
 ![](/images/fieldops/ft-lockwardsmap.webp)
 
 #### Boss 4 - Magitaur
+<Action title='Magitaur' color='purple'  href='https://raidplan.io/plan/nGscIqvbyUU7bfEx'/>
 
 **Magitaur** is the final boss of **The Forked Tower: Blood**. It features several mechanics that can quickly wipe the raid, and a hard enrage at **8:00**.
 
@@ -699,7 +726,6 @@ The boss will then use ^[Unsealed] **Unseal**, creating a **glow** around one of
 ^[Aetheric Mimicry: Tank] **Tanks** should move **close** or **far** accordingly to bait the auto attacks. Everyone else should remain on the boss's hitbox.
 
 ##### Assassin's Dagger
-
 <Action title= "Assassin's Dagger - Pocket Guide" color='black'  href='https://youtu.be/iZgTBbww1qo'/>
 
 **Magitaur** will begin casting **Assassin's Dagger**, sending out **three telegraphed line AoEs** that hit the same location twice before rotating. While this mechanic has no "correct" resolve besides dodging the attacks, most raid groups will use **BAP Waymarks**, waymarks specially designed to **minimise the movement** required for this mechanic. Players can simply stand on an appropriate waymark "next to the AoE" while the daggers rotate, until the **following attack** requires them to move:
@@ -728,7 +754,6 @@ If all relevant **Conduits** are destroyed, **Aura Burst/Holy** will only deal h
 ![](/images/fieldops/ft-boss4sagestaff.webp)
 
 ##### Rune Axe
-
 <Action title= "Rune Axe - Pocket Guide" color='black'  href='https://youtu.be/T2hXow9pvWI'/>
 
 **Magitaur** will begin this set of mechanics by first casting **Unseal**. This ^[Unsealed] **Unseal** is guaranteed to augment the **Axe**, so ^[Aetheric Mimicry: Tank] **Tanks** should prepare by standing **close** to the boss in their sqaure. **Magitaur** will then auto attack **three times** before casting **Rune Axe**. Players should **stay in their home square** until the cast finishes.
@@ -757,7 +782,6 @@ After all debuffs have resolved, **all players** should return to their square. 
 **Magitaur** will then use the [**Assassin's Dagger**](#assassin-s-dagger) sequence again, with no changes to how the mechanic is solved.
 
 ##### Holy Lance
-
 <Action title= "Holy Lance - Pocket Guide" color='black'  href='https://youtu.be/TQuON4f6OBA'/>
 
 **Magitaur** will begin this set of mechanics by first casting **Unseal**. This ^[Unsealed] **Unseal** is guaranteed to augment the **Lance**, so ^[Aetheric Mimicry: Tank] **Tanks** should prepare by standing **far** from the boss in their sqaure. **Magitaur** will then auto attack **three times** before casting **Holy Lance**. Players should **stay in their home square** until the cast finishes.
