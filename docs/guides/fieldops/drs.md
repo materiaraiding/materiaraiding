@@ -5,7 +5,7 @@ banner: /images/banners/DRS.webp
 title: Delubrum Reginae (Savage)
 description: Materia Raiding strategy guide for Delubrum Reginae (Savage) raid in Save the Queen. Includes boss strategies and entry requirements.
 expansion: Shadowbringers
-image: drs-gunnhildr.webp
+image: drs-cerberus.webp
 authors: [Pod, Lia Alir, Helios Dhanu, O'palt Jhaid, CA, MoG]
 difficulty: Field Ops
 ---
@@ -22,23 +22,23 @@ Read on for more information about **Save the Queen**, or click below to jump to
 
 ## Save the Queen Overview
 
-**Save the Queen** allows players to progress their character's power in **many different ways**, each serving to help the player in all **Save the Queen**-related Field Operations.
+**Save the Queen** allows players to progress their character's power in **many different ways**, each serving to help the player in all **Save the Queen** zones.
 
-These upgrades are not strictly required to clear the raid, but are generally recommended if you have lots of Gil and/or plan to spend a lot of time in **Save the Queen**-related Field Operations.
+These upgrades are not strictly required to clear the raid, but are **generally recommended** for players that plan to spend a lot of time in this series of **Field Operations**.
 
 ### Lost Actions and Essences
 
 Lost Actions, introduced in **The Bozjan Southern Front**, allow the use of **2 specialised actions** at any time that have various, powerful effects.
 
-To obtain and equip them, players must first aquire the necessary **Forgotten Fragments**. These can be dropped by mobs, FATEs and Critical Engagements, found in coffers and also purchased from both the **Resistance Quartermasters** within each Field Operation and the Marketboard. Afterwards, you can speak with a **Resistance Appraiser** to appraise them.
+To obtain and equip them, players must first aquire the necessary **Forgotten Fragments**. These can be dropped by mobs, FATEs and Critical Engagements, found in lockboxes and also purchased from **Resistance Quartermasters** within each zone and the Marketboard. Afterwards, players can speak with a **Resistance Appraiser** to appraise them.
 
-Essences, also introduced in **The Bozjan Southern Front** are a subset of Lost Actions that passively boost certain stats and augment certain Lost Actions, lasting until the player leaves the instance or changes jobs.
+Essences, also introduced in **The Bozjan Southern Front** are a subset of Lost Actions that passively **boost** certain stats and **augment** certain Lost Actions, lasting until the player leaves the instance or changes jobs.
 
-There are three categories of Essences:
+There are **3 categories** of Essences:
 
 1. **Essences**
 2. **Deep Essences** - Stronger variations of **Essences**, giving higher stat boosts.
-3. **Pure Essences** - Unique Essences only available for use within **Delubrum Reginae** and its **Savage** variant.
+3. **Pure Essences** - Unique Essences only available for use within **Delubrum Reginae** and its **Savage** version.
 
 To see a complete table of Lost Actions, along with their effects and Forgotten Fragment acquisitions, please see the website below:
 
@@ -48,23 +48,23 @@ To see a complete table of Lost Actions, along with their effects and Forgotten 
 
 Garlean Synthetic Fabric is a unique quest material used to increase the maximum capacity of a player's Lost Actions holster by **10** slots.
 
-To start, players must first accept the quest: **Let Me Holster That for You**, from **Kriv** within **Gangos**, available right before unlocking the next Field Operation, **Zadnor**.
+To start, players must first accept the quest: **Let Me Holster That for You**, from **Kriv** within **Gangos**, available right before unlocking the next zone, **Zadnor**.
 
-Players must then turn in **3** Garlean Synthetic Fabrics to complete the quest. They are available as rare drops from certain FATEs and Critical Engagements within The **Bozjan Southern Front**, and can also bought off the Marketboard.
+Players must then turn in **3 Garlean Synthetic Fabrics** to complete the quest. They are available as rare drops from certain FATEs and Critical Engagements within The **Bozjan Southern Front**, and can also bought off the Marketboard.
 
 ### Resistance Honors
 
-Resistance Honors, introduced in **Zadnor**, allow players to exchange any additional mettle earned after achieving **Resistance Rank 25** for permament, passive buffs.
+Resistance Honors, introduced in **Zadnor**, allow players to exchange any additional mettle earned after achieving **Resistance Rank 25** for permanent, passive buffs.
 
-To obtain these, players must speak to the **Resistance Councilor** within **Zadnor**. From here, players can exchange **20 million** mettle for **3 Proofs of Mettle**, which can then be exchanged for three available Resistance Honors:
+To obtain these, players must speak to the **Resistance Councilor** within **Zadnor**. From here, players can exchange **20 million** mettle for **3 Proofs of Mettle**, which can then be exchanged for **3** different types of **Resistance Honors**, up to a maximum of **10** per type:
 
-- **Ray of Fortitude** - Increases max HP (**5%** per stack).
-- **Ray of Valor** - Increases damage dealt (**3%** per stack).
-- **Ray of Succor** - Increases healing potency (**10%** per stack).
+- **Ray of Fortitude** - Increases max HP (**additive 5%** per stack).
+- **Ray of Valor** - Increases damage dealt (**additive 3%** per stack).
+- **Ray of Succor** - Increases healing potency (**additive 10%** per stack).
 
 ### Augmented Bozjan and Law's Order Sets
 
-Augmented Bozjan and Law's Order sets are obtainable gear that increase the player's **Haste** stat while in **Save the Queen**-related Field Operations, with each point reducing the GCD's cooldown by an **additive 1%**.
+Augmented Bozjan and Law's Order sets are obtainable gear that increase the player's **Haste** stat while in **Save the Queen** zones, with each point reducing the GCD's cooldown by an **additive 1%**.
 
 Augmented Bozjan Sets are obtainable from the **Resistance Supplier** within **The Bozjan Southern Front**, first by exchanging **Bozjan Coins** for the unaugmented gear, then augmenting it with **Bozjan Runner's Secrets**, obtainable from the Critical Engagement: **The Battle for Castrum Lacus Litore** or purchased with **Bozjan Coins**.
 
@@ -72,21 +72,19 @@ Augmented Law's Order sets are obtainable from the **Resistance Supplier** withi
 
 ### Bozjan Earring
 
-The Bozjan Earring is another piece of gear that increases the player's **Haste** stat while in **Save the Queen**-related Field Operations.
+The Bozjan Earring is another piece of gear that increases the player's **Haste** stat while in **Save the Queen** zones.
 
-It is rewarded to players for achieving **Lost and Found IV**, by appraising **1,000 Forgotten Fragments**.
+It is rewarded to players for obtaining the achievement **Lost and Found IV**, by appraising **1,000 Forgotten Fragments**.
 
 ## Raid: Delubrum Reginae (Savage)
 
 ::: warning WARNING
 This guide will entail set ups and strategies for an **ANYPROG** run, meaning that any player at any prog-point in the raid can join.
 
-Depending on **what** type of run it is and **who** is running it, your assigned roles and Lost Actions in the raid can **change considerably**. Please confirm your role and actions with the raid leader's linked resources, and be sure to ask questions if you are unsure of anything.
+Depending on **what** type of run it is and **who** is running it, the assigned roles and **Lost Actions** in the raid can **change considerably**. Please confirm the roles and **Lost Actions** with the raid leader's linked resources and be sure to ask questions if any player is unsure.
 :::
 
 ### Cheatsheets
-
-
 
 <ActionGroup
 :actions=" [
@@ -107,7 +105,6 @@ Depending on **what** type of run it is and **who** is running it, your assigned
 ]"
 />
 
-
 ### Video Guides and Waymarks
 
 By Hobi
@@ -115,7 +112,7 @@ By Hobi
 
 <br>
 
-Waymarks can be imported to the game using *Waymark Preset Plugin*, or you can ask a friend to import them for you and save a copy for yourself.
+Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can ask a friend to import them for you and save a copy for yourself.
 
 ::: details Preparation
 ``` waymarks
@@ -123,53 +120,53 @@ Waymarks can be imported to the game using *Waymark Preset Plugin*, or you can a
 ```
 :::
 
-::: details Trash
+::: details Slimes & Golems & Boss 1 - Trinity Seeker
 
 **Slimes & Golems**
-
 ``` waymarks
 {"Name":"Slimes/Golems","MapID":761,"A":{"X":-275.0,"Y":-31.0,"Z":423.493,"ID":0,"Active":true},"B":{"X":-275.055,"Y":-31.0,"Z":437.146,"ID":1,"Active":true},"C":{"X":315.032,"Y":48.999,"Z":403.795,"ID":2,"Active":true},"D":{"X":315.021,"Y":48.999,"Z":414.553,"ID":3,"Active":true},"One":{"X":-279.496,"Y":-31.0,"Z":428.012,"ID":4,"Active":true},"Two":{"X":-270.519,"Y":-31.0,"Z":428.007,"ID":5,"Active":true},"Three":{"X":-279.514,"Y":-31.0,"Z":432.586,"ID":6,"Active":true},"Four":{"X":-270.417,"Y":-31.0,"Z":432.659,"ID":7,"Active":true}}
 ```
 
-**Dahu**
-
-``` waymarks
-{"Name":"Dahu","MapID":761,"A":{"X":-4.48,"Y":38.0,"Z":465.472,"ID":0,"Active":true},"B":{"X":-4.5,"Y":37.999,"Z":474.482,"ID":1,"Active":true},"C":{"X":7.334,"Y":37.999,"Z":465.295,"ID":2,"Active":true},"D":{"X":7.516,"Y":37.999,"Z":473.644,"ID":3,"Active":true},"One":{"X":-7.932,"Y":37.999,"Z":467.847,"ID":4,"Active":true},"Two":{"X":-1.248,"Y":38.0,"Z":468.054,"ID":5,"Active":true},"Three":{"X":-7.782,"Y":37.999,"Z":472.373,"ID":6,"Active":true},"Four":{"X":-1.148,"Y":38.0,"Z":472.462,"ID":7,"Active":true}}
-```
-
-**Bozjan Phantom**
-
-``` waymarks
-{"Name":"Phantom","MapID":761,"A":{"X":183.947,"Y":-96.999,"Z":-389.727,"ID":0,"Active":true},"B":{"X":195.884,"Y":-96.999,"Z":-390.592,"ID":1,"Active":true},"C":{"X":208.037,"Y":-96.999,"Z":-390.119,"ID":2,"Active":true},"D":{"X":219.958,"Y":-96.999,"Z":-391.045,"ID":3,"Active":true},"One":{"X":184.007,"Y":-96.999,"Z":-351.083,"ID":4,"Active":true},"Two":{"X":195.88,"Y":-96.999,"Z":-351.114,"ID":5,"Active":true},"Three":{"X":208.095,"Y":-96.999,"Z":-351.242,"ID":6,"Active":true},"Four":{"X":220.076,"Y":-96.999,"Z":-351.263,"ID":7,"Active":true}}
-```
-
-**Stygimoloch Lord**
-
-``` waymarks
-{"Name":"Mino Lord","MapID":761,"A":{"X":-426.153,"Y":-191.0,"Z":-194.456,"ID":0,"Active":true},"B":{"X":-405.747,"Y":-191.0,"Z":-194.293,"ID":1,"Active":true},"C":{"X":-405.816,"Y":-191.0,"Z":-173.724,"ID":2,"Active":true},"D":{"X":-426.258,"Y":-191.0,"Z":-173.785,"ID":3,"Active":true},"One":{"X":-415.859,"Y":-191.0,"Z":-211.895,"ID":4,"Active":true},"Two":{"X":-387.99,"Y":-191.0,"Z":-184.483,"ID":5,"Active":true},"Three":{"X":-416.005,"Y":-191.0,"Z":-156.455,"ID":6,"Active":true},"Four":{"X":-443.841,"Y":-191.0,"Z":-184.173,"ID":7,"Active":true}}
-```
-:::
-
-::: details Boss 1 - Trinity Seeker
+**Boss 1 - Trinity Seeker**
 ``` waymarks
 {"Name":"Seeker","MapID":761,"A":{"X":-7.188,"Y":8.0,"Z":258.233,"ID":0,"Active":true},"B":{"X":18.563,"Y":8.0,"Z":271.795,"ID":1,"Active":true},"C":{"X":6.768,"Y":7.999,"Z":297.671,"ID":2,"Active":true},"D":{"X":-18.302,"Y":7.999,"Z":284.493,"ID":3,"Active":true},"One":{"X":-7.302,"Y":8.0,"Z":270.484,"ID":4,"Active":true},"Two":{"X":7.301,"Y":7.999,"Z":270.975,"ID":5,"Active":true},"Three":{"X":7.219,"Y":7.999,"Z":285.182,"ID":6,"Active":true},"Four":{"X":-7.144,"Y":7.999,"Z":285.096,"ID":7,"Active":true}}
 ```
 :::
 
-::: details Boss 2 - Queen's Guard
+::: details Dahu & Boss 2 - Queen's Guard
+
+**Dahu**
+``` waymarks
+{"Name":"Dahu","MapID":761,"A":{"X":-4.48,"Y":38.0,"Z":465.472,"ID":0,"Active":true},"B":{"X":-4.5,"Y":37.999,"Z":474.482,"ID":1,"Active":true},"C":{"X":7.334,"Y":37.999,"Z":465.295,"ID":2,"Active":true},"D":{"X":7.516,"Y":37.999,"Z":473.644,"ID":3,"Active":true},"One":{"X":-7.932,"Y":37.999,"Z":467.847,"ID":4,"Active":true},"Two":{"X":-1.248,"Y":38.0,"Z":468.054,"ID":5,"Active":true},"Three":{"X":-7.782,"Y":37.999,"Z":472.373,"ID":6,"Active":true},"Four":{"X":-1.148,"Y":38.0,"Z":472.462,"ID":7,"Active":true}}
+```
+
+**Boss 2 - Queen's Guard**
 ``` waymarks
 {"Name":"QG new","MapID":761,"A":{"X":244.095,"Y":-86.0,"Z":-173.0,"ID":0,"Active":true},"B":{"X":255.255,"Y":-86.0,"Z":-162.309,"ID":1,"Active":true},"C":{"X":244.095,"Y":-86.0,"Z":-152.47,"ID":2,"Active":true},"D":{"X":233.485,"Y":-86.0,"Z":-162.309,"ID":3,"Active":true},"One":{"X":232.621,"Y":-86.0,"Z":-173.218,"ID":4,"Active":true},"Two":{"X":255.425,"Y":-86.0,"Z":-173.218,"ID":5,"Active":true},"Three":{"X":255.425,"Y":-86.0,"Z":-150.455,"ID":6,"Active":true},"Four":{"X":232.621,"Y":-86.0,"Z":-150.455,"ID":7,"Active":true}}
 ```
 :::
 
-::: details Boss 3 - Trinity Seeker
+::: details Bozjan Phantom & Boss 3 - Trinity Avowed
+
+**Bozjan Phantom**
+``` waymarks
+{"Name":"Phantom","MapID":761,"A":{"X":183.947,"Y":-96.999,"Z":-389.727,"ID":0,"Active":true},"B":{"X":195.884,"Y":-96.999,"Z":-390.592,"ID":1,"Active":true},"C":{"X":208.037,"Y":-96.999,"Z":-390.119,"ID":2,"Active":true},"D":{"X":219.958,"Y":-96.999,"Z":-391.045,"ID":3,"Active":true},"One":{"X":184.007,"Y":-96.999,"Z":-351.083,"ID":4,"Active":true},"Two":{"X":195.88,"Y":-96.999,"Z":-351.114,"ID":5,"Active":true},"Three":{"X":208.095,"Y":-96.999,"Z":-351.242,"ID":6,"Active":true},"Four":{"X":220.076,"Y":-96.999,"Z":-351.263,"ID":7,"Active":true}}
+```
+
+**Boss 3 - Trinity Avowed**
 ``` waymarks
 {"Name":"TA","MapID":761,"A":{"X":-271.969,"Y":-182.0,"Z":-102.04,"ID":0,"Active":true},"B":{"X":-252.021,"Y":-182.0,"Z":-82.126,"ID":1,"Active":true},"C":{"X":-272.012,"Y":-182.0,"Z":-61.993,"ID":2,"Active":true},"D":{"X":-291.9,"Y":-182.0,"Z":-82.012,"ID":3,"Active":true},"One":{"X":-282.003,"Y":-182.0,"Z":-92.017,"ID":4,"Active":true},"Two":{"X":-272.067,"Y":-182.0,"Z":-92.053,"ID":5,"Active":true},"Three":{"X":-272.063,"Y":-182.0,"Z":-82.054,"ID":6,"Active":true},"Four":{"X":-281.973,"Y":-182.0,"Z":-81.996,"ID":7,"Active":true}}
 ```
 :::
 
-::: details Boss 4 - The Queen
+::: details Stygimoloch Lord & Boss 4 - The Queen
 
+**Stygimoloch Lord**
+``` waymarks
+{"Name":"Mino Lord","MapID":761,"A":{"X":-426.153,"Y":-191.0,"Z":-194.456,"ID":0,"Active":true},"B":{"X":-405.747,"Y":-191.0,"Z":-194.293,"ID":1,"Active":true},"C":{"X":-405.816,"Y":-191.0,"Z":-173.724,"ID":2,"Active":true},"D":{"X":-426.258,"Y":-191.0,"Z":-173.785,"ID":3,"Active":true},"One":{"X":-415.859,"Y":-191.0,"Z":-211.895,"ID":4,"Active":true},"Two":{"X":-387.99,"Y":-191.0,"Z":-184.483,"ID":5,"Active":true},"Three":{"X":-416.005,"Y":-191.0,"Z":-156.455,"ID":6,"Active":true},"Four":{"X":-443.841,"Y":-191.0,"Z":-184.173,"ID":7,"Active":true}}
+```
+
+**Boss 4 - The Queen**
 ``` waymarks
 {"Name":"Cross Markers","MapID":761,"A":{"X":-292.0,"Y":-175.0,"Z":-415.0,"ID":0,"Active":true},"B":{"X":-282.0,"Y":-175.0,"Z":-415.0,"ID":1,"Active":true},"C":{"X":-262.0,"Y":-175.0,"Z":-415.0,"ID":2,"Active":true},"D":{"X":-252.0,"Y":-175.0,"Z":-415.0,"ID":3,"Active":true},"One":{"X":-272.0,"Y":-175.0,"Z":-435.0,"ID":4,"Active":true},"Two":{"X":-272.0,"Y":-175.0,"Z":-425.0,"ID":5,"Active":true},"Three":{"X":-272.0,"Y":-175.0,"Z":-405.0,"ID":6,"Active":true},"Four":{"X":-272.0,"Y":-175.0,"Z":-395.0,"ID":7,"Active":true}}
 ```
@@ -177,14 +174,14 @@ Waymarks can be imported to the game using *Waymark Preset Plugin*, or you can a
 
 ### Entry Requirements
 
-**Delubrum Reginae (Savage)** is unlocked and entered by completing the quest: **A Seaside Story** from the **Troubled Gentleman** in **Gangos**. To unlock the quest, players must fulfil the following requirements:
+**Delubrum Reginae (Savage)** is unlocked and entered by completing the quest "**A Seaside Story**" from the **Troubled Gentleman** in **Gangos**. To unlock the quest, players must fulfil the following conditions:
 
-- They have completed the quest: **Fit for a Queen**.
+- They have completed the quest "**Fit for a Queen**".
 - They are **Resistance Rank 15**.
-- They currenlty have **700,000** mettle.
+- They currently have **700,000** mettle.
 
 ::: tip Finding a Group
-Two major communities support Field Operations in OCE, the **Content Achievers** Discord covers a wide variety of content including Field Operations, while the **Murder of Geese (MOG)** Discord focuses specifically on Field Operations Raids and coordinating groups.
+Two major communities support Field Operations in OCE, the **Content Achievers** Discord covers a wide variety of content beyond Field Operations, while the **Murder of Geese (MOG)** Discord focuses specifically on coordinating groups for raids in Field Operations.
 
 <Action title='Content Achievers Discord' color='black' href='https://discord.gg/FJFxr2U' />
 
@@ -201,9 +198,9 @@ The nature of **Lost Actions** allows players to take on other roles to cover an
 
 Each party should aim for:
 
-- **x2** ^[Aetheric Mimicry: Tank] Tanks
-- **x2** ^[Aetheric Mimicry: Healer] Healer
-- **x3** ^[Aetheric Mimicry: DPS] DPS (1 of each type)
+- ^[Aetheric Mimicry: Tank] **x2** Tanks
+- ^[Aetheric Mimicry: Healer] **x2** Healer
+- ^[Aetheric Mimicry: DPS] **x3** DPS (**1** of each type)
 
 Each party will also have a **Letter**/**Number designation**, used for mechanic positions. These are:
 - **Letter** Alliance
@@ -216,9 +213,9 @@ Each party will also have a **Letter**/**Number designation**, used for mechanic
 	> - Party **2** / **E**
 	> - Party **3** / **F**
 
-Additionally, everyone should have a **Reraise** buff active at **AT ALL TIMES**, available from either a **Resistance Reraiser** or the Lost Action: **Lost Reraise**. It offers you a **70% chance** to be automatically revived if you die, a very useful tool to circumvent the restriction on standard raises. **If it gets consumed**, find a safe moment to refresh your buff, even during battle.
+Additionally, everyone should have a ^[Reraise] **Reraise** buff active at **AT ALL TIMES**, available from either a **Resistance Reraiser** or the Lost Action **Lost Reraise**. It offers players **70% chance** to be automatically revived if they **die**, a very useful tool to circumvent the ^[Resurrection Restricted] restriction on standard raises. **If it gets consumed**, find a safe moment to refresh the ^[Reraise] buff, even during battle.
 
-Depending on your role, it's essential to have certain **Pure Essences** active and **Lost Actions** in your holster to provide stat boosts, support for your team and to augment certain Lost Actions. Also listed are holsters for each role that you should prepare in advance of each run:
+Depending on the role, it's essential to have certain **Pure Essences** active and **Lost Actions** in the holster to provide stat boosts, support for the team and to augment certain Lost Actions. Also listed are holsters for each role that players should prepare in advance of each run:
 
 | <span style="font-size: 18px;">**Role**</span> | <span style="font-size: 18px;">**Pure Essence**</span> | <span style="font-size: 18px;">**Lost Actions**</span>
 | :-: | :-: | :-: |
@@ -234,7 +231,7 @@ Depending on your role, it's essential to have certain **Pure Essences** active 
 
 Slimes and Golems are the first trash encounter of **Delubrum Reginae (Savage)**. Despite being trash mobs, each alliance will need to **coordinate as a team** to successfully resolve their mechanics and open the way towards the first boss.
 
-When the entire raid is ready to begin the run, the **Letter** alliance will take the left teleporter towards the **Slimes** and the **Number** alliance will take the right teleporter towards the **Golems**. **The pull begins when the doors are opened.**
+When the entire raid is ready to begin the run, the **Letter** alliance will take the **West** teleporter towards the **Slimes** and the **Number** alliance will take the **East** teleporter towards the **Golems**. **The pull begins when the doors are opened.**
 
 There are **3 traps** in each area, **1** in the hallway and **1** in **2** separate rooms. Players with **Lost Perception** can hug the outside walls of the **2** southern rooms, and detect any traps in those areas ahead of time.
 ![](/images/fieldops/drs-slimegolemtraps.webp)
@@ -248,7 +245,7 @@ There are **3** types of traps within **Delubrum Reginae (Savage)**.
 
 **Most** traps are walked around with an exception for the **Mini Trap**, which is purposefully **popped** after **Trinity Avowed** to access the **Stygimoloch Lord**.
 
-##### Slimes
+::: details Slimes
 <Action title='Slimes' color='purple' href='https://i.imgur.com/Z8KN7VL.png' />
 
 There are **3** different enemy types that players will have to deal with. The goal is to have **1 Viscuous Clot** explode and die on a button in each room.
@@ -271,8 +268,9 @@ There are **3** different enemy types that players will have to deal with. The g
    - **2 players** will pull **1** each and hold them where they spawned.
 
 After the call to merge the final slime, each **Viscuous Clot**, each now at **5** stacks, will begin hardcasting their **explosion**. **ALL PLAYERS** must immediately take the **North** exit in the **hallway** and run towards their teleporter, getting as far away as possible to avoid the explosions.
+:::
 
-##### Golems
+::: details Golems
 <Action title='Golems' color='purple' href='https://i.imgur.com/gbC5FFX.png' />
 
 There are **2** different enemy types that players will have to deal with. The goal is to have each **Bicolor Golem** die on a button with the same colour as itself.
@@ -303,11 +301,12 @@ There are **2** different enemy types that players will have to deal with. The g
    - Tether to the **1st** player that deals damage to them.
    - Casts a small raidwide inflicting ^[Thrice-come Ruin] **Thrice-come Ruin** if not killed in time.
    - **2 players** will pull **1** each and hold them where they spawned.
+:::
 
 #### Boss 1 - Trinity Seeker
 <Action title='Boss 1 - Trinity Seeker' color='purple' href='https://i.imgur.com/30IA9YC.png' />
 
-**Trinity Seeker** is the very first boss of **Delubrum Reginae (Savage)**. While not much changes from its **Normal** variant, there is still a **hard enrage** at **9:50** if none of its attacks are skipped.
+**Trinity Seeker** is the very first boss of **Delubrum Reginae (Savage)**. While not much changes from its **Normal** version, there is still a **hard enrage** at **9:50** if none of its attacks are skipped.
 
 **Trinity Seeker** opens with the following sequence of attacks:
 
@@ -337,7 +336,7 @@ Upon using **Merciful Arc** or falling below **80%**, it will transition into it
 7. **Baleful Blade** - **Room-wide** AoE dealing **lethal** damage. Hide **behind** a barrier. **OR**
    - **(Phantom Edge)** - **Knockback**. Get **in front** of a barrier.
       ::: warning
-      Remember to check if the boss has used **Phantom Edge**. You can do this by seeing if the boss's greatswords **glow** during this attack.
+      Remember to check if the boss has used **Phantom Edge**. Players can do this by checking if the boss's greatswords are **glowing** during this attack.
       :::
 8. **Manifest Avatar**
 9. **Phantom Edge (Random chance)**
@@ -345,7 +344,7 @@ Upon using **Merciful Arc** or falling below **80%**, it will transition into it
 11. **Baleful Blade**
     - **Baleful Blade (Phantom Edge)**
       ::: warning
-      Remember to check if the boss has used **Phantom Edge**. You can do this by seeing if the boss's greatswords **glow** during this attack.
+      Remember to check if the boss has used **Phantom Edge**. Players can do this by seeing if the boss's greatswords are **glowing** during this attack.
       :::
 12. **Verdant Tempest**
 :::
@@ -368,7 +367,7 @@ Upon using **Verdant Tempest** during its **Greatswords** phase or falling below
 
 Upon using **Verdant Tempest** during its **Unarmed** phase or falling below **43%**, it will transition into its next sequence of attacks.
 
-By this point, you would have seen every attack **Trinity Seeker** can perform. The rest of the fight **remixes** these attacks, **notes** are only provided for these remixes.
+By this point, players would have seen every attack **Trinity Seeker** can perform. The rest of the fight **remixes** these attacks, **notes** are only provided for these remixes.
 
 ::: details Katanas 2
 1. **Verdant Path -> Act of Mercy** - Summons **4** katanas and performed a '+'-shaped AoE. Dodge at its intercardinals.
@@ -399,9 +398,9 @@ Upon using **Seasons of Mercy** during its **Katanas** phase, it will transition
 3. **Phantom Edge (Random chance)**
 4. **First -> Fourth Mercy (Clone)** + **Baleful Blade** - The clone performing **First -> Fourth Mercy** will be standing at a **cardinal**. **Baleful Blade** will resolve at **Third Mercy (Clone)**.
       ::: warning
-      Remember to check if the boss has used **Phantom Edge**. You can do this by seeing if the boss's greatswords **glow** during this attack.
+      Remember to check if the boss has used **Phantom Edge**. Players can do this by seeing if the boss's greatswords are **glowing** during this attack.
       :::
-5. **Fourfold Mercy (Clone)** - These will resolve at the clone's **cardinal**.
+5. **Fourfold Mercy (Clone)** - These will resolve at the clone's position, at a **cardinal**.
 ![](/images/fieldops/drs-clonefourfold.webp)
 6. **Burning Chains**
 7. **Verdant Tempest**
@@ -409,19 +408,19 @@ Upon using **Seasons of Mercy** during its **Katanas** phase, it will transition
 9. **Phantom Edge (Random chance)**
 10. **Iron Splitter (Clone)** + **Baleful Blade** -  **Baleful Blade** will resolve right after **Iron Splitter (Clone)**
       ::: warning
-      Remember to check if the boss has used **Phantom Edge**. You can do this by seeing if the boss's greatswords **glow** during this attack.
+      Remember to check if the boss has used **Phantom Edge**. Players can do this by seeing if the boss's greatswords are **glowing** during this attack.
       :::
 11. **Manifest Avatar**
 12. **First -> Fourth Mercy (Clone)** + **Burning Chains** - The clone performing **First -> Fourth Mercy** will be standing at a **cardinal**. **Burning Chains** will resolve during **Second Mercy (Clone)**.
 13. **Phantom Edge (Random chance)**
 14. **Fourfold Mercy (Clone)** + **Baleful Blade** - **Baleful Blade** will resolve right after the last cleave in **Fourfold Mercy (Clone)**.
       ::: warning
-      Remember to check if the boss has used **Phantom Edge**. You can do this by seeing if the boss's greatswords **glow** during this attack.
+      Remember to check if the boss has used **Phantom Edge**. Players can do this by seeing if the boss's greatswords are **glowing** during this attack.
       :::
 15. **Phantom Edge (Random chance)**
 16. **Baleful Onslaught**
       ::: warning
-      Remember to check if the boss has used **Phantom Edge**. You can do this by seeing if the boss's greatswords **glow** during this attack.
+      Remember to check if the boss has used **Phantom Edge**. Players can do this by seeing if the boss's greatswords are **glowing** during this attack.
       :::
 :::
 
@@ -472,7 +471,7 @@ From here, **Dahu's** rotation will **loop** until it is killed.
 
 #### Duel - Stygimoloch Warrior
 
-The **Stygimoloch Warrior** is a special **duel** that only **1 player** out of the entire raid group may undertake. Defeating it rewards the player with ^[Pride of the Lioness] **Pride of the Lioness**, a buff that doubles your **damage** and increases your **Maximum HP**, **Physical** and **Magical Defence**.
+The **Stygimoloch Warrior** is a special **duel** that only **1 player** out of the entire raid group may undertake. Defeating it rewards the player with ^[Pride of the Lioness] **Pride of the Lioness**, a buff that doubles the player's **damage dealt** and increases their **Maximum HP**, **Physical** and **Magical Defence**.
 
 ::: warning
    The lost actions **Lost Perception** and **Lost Dispel** are required.
@@ -526,7 +525,7 @@ Afterwards, the **Stygimoloch Warrior** will use another **Inescapable Entrapmen
    **Leaping Spark** will also detonate any remaining traps. Make sure to stand **away** from all traps until they've detonated.
 :::
 
-The boss's **final** new attack is **Coerce**, inflicting the duelist with a ^[Forced March] **Forced March** debuff that will resolve later. For now, there is another **Surge of Vigor** to dispel, followed by **Focused Tremor** and **Focused Slash**. This is the same mechanic from before but the duelist must now position so that their ^[Forced March] **Forced March** leads them into the safe area, behind the **Stygimoloch Warrior**. This debuff resolves at the same time as the **2nd** square's resolve. The safest way to resolve your ^[Forced March] **Forced March** is to stand on the **4th** square and get forced marched into the **1st** square.
+The boss's **final** new attack is **Coerce**, inflicting the duelist with a ^[Forced March] **Forced March** debuff that will resolve later. For now, there is another **Surge of Vigor** to dispel, followed by **Focused Tremor** and **Focused Slash**. This is the same mechanic from before but the duelist must now position so that their ^[Forced March] **Forced March** leads them into the safe area, behind the **Stygimoloch Warrior**. This debuff resolves at the same time as the **2nd** square's resolve. The safest way to resolve the ^[Forced March] **Forced March** is to stand on the **4th** square and get forced marched into the **1st** square.
 
 From here, the boss will repeat **Surge of Vigor**, **Unrelenting Charge** and a **Vicious Swipe -> Crazed Rampage** combo before using **Sun's Ire**, a **hard enrage** at **5:30**.
 
@@ -785,7 +784,7 @@ The **Temperature goal** of this **mini-phase** is to determine the **safe squar
 
 ##### Brands
 
-After the **first 3 mini-phases** are complete, **Trinity Avowed** will introduce ^[Cold Brand: -2] ^[Cold Brand: -1] ^[Hot Brand: +1] ^[Hot Brand: +2] **Brands**. These are additional **debuffs** that will apply the temperature shown at the end of each of the following **mini-phases**. The goal then, is to reach a temperature **opposite of the Brand**, to allow the debuff to ^[Normal] **Neutralise** your temperature. For example, players with a ^[Cold Brand: -2] **-2 Brand** will want to be ^[Running Hot: +2] **+2 Temperature** at the end of the **mini-phase** so the effects cancel out (^[Running Hot: +2]**2** +^[Cold Brand: -2]**-2** =^[Normal]**0**)
+After the **first 3 mini-phases** are complete, **Trinity Avowed** will introduce ^[Cold Brand: -2] ^[Cold Brand: -1] ^[Hot Brand: +1] ^[Hot Brand: +2] **Brands**. These are additional **debuffs** that will apply the temperature shown at the end of each of the following **mini-phases**. The goal then, is to reach a temperature **opposite of the Brand**, to allow the debuff to ^[Normal] **Neutralise** the temperature. For example, players with a ^[Cold Brand: -2] **-2 Brand** will want to be ^[Running Hot: +2] **+2 Temperature** at the end of the **mini-phase** so the effects cancel out (^[Running Hot: +2]**2** +^[Cold Brand: -2]**-2** =^[Normal]**0**)
 
 ![](/images/fieldops/drs-brands.webp)
 

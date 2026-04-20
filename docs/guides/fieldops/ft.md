@@ -24,7 +24,7 @@ Read on for more information about **Occult Crescent** or click below to jump to
 
 **Occult Crescent** allows players to progress their character's power in **several different ways**, each serving to help the player in all **Occult Crescent** zones.
 
-These upgrades are not strictly required to clear the raid, but are **generally recommended** if players plan to spend a lot of time in this series of **Field Operations**.
+These upgrades are not strictly required to clear the raid, but are **generally recommended** for players that plan to spend a lot of time in this series of **Field Operations**.
 
 ### Phantom Jobs
 
@@ -42,7 +42,7 @@ The **Phantom Job** system allows players to temporarily take on the unique abil
 
 **Phantom Jobs** can level up by earning **Phantom EXP**, earned through **FATEs**, **CEs** and **Chain Bonuses**.
 
-Reaching the maximum level on a **Phantom Job** will earn you a stack of ^[Phantom Mastery] **Phantom Mastery**, a permanent buff increasing your damage dealt and healing potency by **2%** for each stack, as well as adding **1 level** to your **Phantom Freelancer**.
+Reaching the maximum level on a **Phantom Job** will add a stack of ^[Phantom Mastery] **Phantom Mastery**, a permanent buff increasing damage dealt and healing potency by **2%** for each stack, as well as adding **1 level** to **Phantom Freelancer**.
 
 <!-- Removed until the Relics actually give a bonus in OC
 
@@ -284,15 +284,15 @@ To enter the raid, a minimum of **24** players must have this quest completed to
 To successfully complete the entry process, at least **24** players must offer a **Sanguine Cipher**, to the torches found at **Solitary Pavilion**, located at X: 22.7, Y: 21.5. **Sanguine Ciphers** can be purchased from the **Expedition Antiquarian**, located within South Horn's base camp, for **600 Enlightenment Silver Pieces** or **960 Enlightenment Gold Pieces**.
 
 ::: warning
-Each player aiming to enter **The Forked Tower: Blood** must offer at least **1 Sanguine Cipher**, even should you exceed the minimum **24** offerings required to begin the raid.
+Each player aiming to enter **The Forked Tower: Blood** must offer at least **1 Sanguine Cipher**, even should the group exceed the minimum **24** offerings required to begin the raid.
 :::
 
-Should the **entry process fail**, your offerings of **Sanguine Ciphers** will be returned to you. They will only be consumed *if* the entry process succeeds, regardless of if you are selected for the raid or not.
+Should the **entry process fail**, all offerings of **Sanguine Ciphers** will be returned to the group. They will only be consumed *if* the entry process succeeds, regardless of if players are selected for the raid or not.
 
 If there are more than **48 players** standing on the platform when the entry process **succeeds**, entry priority will be given to those that offered **more ciphers**.
 
 ::: tip Finding a Group
-Two major communities support Field Operations in OCE, the **Content Achievers** Discord covers a wide variety of content beyond Field Operations, while the **Murder of Geese (MOG)** Discord focuses specifically on Field Operations Raids and coordinating groups.
+Two major communities support Field Operations in OCE, the **Content Achievers** Discord covers a wide variety of content beyond Field Operations, while the **Murder of Geese (MOG)** Discord focuses specifically on coordinating groups for raids in Field Operations.
 
 <Action title='Content Achievers Discord' color='black' href='https://discord.gg/FJFxr2U' />
 
@@ -307,13 +307,13 @@ The nature of **Phantom Jobs** may allow players to take on other roles to cover
 <Action title='Detailed Phantom Job Info' color='black' href='https://lynn.pet/occult/phantomjob' />
 :::
 
-When players first spawn in, the elevated glowing platform they are standing on will allow them to change both **Job** and **Phantom Job**. Ensure you and your party are on your intended jobs before dropping off the platform.
+When players first spawn in, the elevated glowing platform they are standing on will allow them to change both **Job** and **Phantom Job**. Ensure that everyone is on their intended jobs before dropping off the platform.
 
 At a baseline, each party should aim for:
 
-- **x1** ^[Aetheric Mimicry: Tank] Tank
-- **x1** ^[Aetheric Mimicry: Healer] Healer
-- **x2** ^[Aetheric Mimicry: DPS] DPS
+- ^[Aetheric Mimicry: Tank] **x1** Tank
+- ^[Aetheric Mimicry: Healer] **x1** Healer
+- ^[Aetheric Mimicry: DPS] **x2** DPS
 
 Each party will also have a **Letter** / **Number designation**, used for mechanic positions. These are:
 - **Letter** Alliance
@@ -402,7 +402,7 @@ To resolve this, the raid will split into their individual parties, using their 
 ![](/images/fieldops/ft-boss1towers.webp)
 
 ::: warning Dangers Near/Expulsion Afar
-Make sure to resolve the **Dangers Near/Expulsion Afar** portion of the attack **BEFORE** positioning to soak your tower.
+Make sure to resolve the **Dangers Near/Expulsion Afar** portion of the attack **BEFORE** positioning to soak the towers.
 :::
 
 After the towers resolve, the **Demon Tablet** will cast **Rotate Left/Right**, rotating its body by **90°** and **knocking away** any players caught within its axis of rotation. Looking towards the boss, players should move in the **opposite direction** of the castbar.
@@ -528,7 +528,7 @@ Sometimes players may be **tethered** to entirely different bosses from those th
 Ensure that the upcoming **conal tankbusters** are resolved before changing targets.
 :::
 
-Shortly after, each boss will cast **Slice 'N' Dice** a **conal tankbuster** on the top emnity player.
+Shortly after, each boss will cast **Slice 'N' Dice** a **conal tankbuster** on the highest enmity player.
 
 Each boss will then **jump** towards each other, casting **Three Body Problem**. Each time this happens, one of the **Dead Stars** will interrupt the cast, jump into the middle, and transform the other two bosses, beginning a **mini-phase**.
 
@@ -671,7 +671,7 @@ In the **1st** pattern, **Flat** and **Spiked** puddles will spawn in a **horizo
 
 ![](/images/fieldops/ft-boss3puddles.webp)
 
-Afterwards, the boss will target the **six highest emnity targets** for **Dread Deluge**, a heavy tankbuster that also inflicts ^[Dropsy] **Dropsy**, a heavy **bleed**.
+Afterwards, the boss will target the **six highest enmity targets** for **Dread Deluge**, a heavy tankbuster that also inflicts ^[Dropsy] **Dropsy**, a heavy **bleed**.
 
 ::: tip ^[Dropsy] Dropsy
 
