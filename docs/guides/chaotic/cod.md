@@ -5,6 +5,7 @@ title: The Cloud of Darkness (Chaotic)
 description: A guide for The Cloud of Darkness (Chaotic) in Dawntrail.
 banner: /images/banners/COD.webp
 expansion: Dawntrail
+image: chaotic-cod.webp
 difficulty: Chaotic
 authors: [ Kobe, Pipiro, Pod ]
 discussionLink: https://discord.com/channels/895516967543390249/1321109667644182653
@@ -35,7 +36,7 @@ Getting hit by the cleave only results in Sustained Damage; be mindful of your h
 Phase 1 is primarily about staying on your feet and keeping track of both your **Grim Embrace** debuff and any stored **Aero IV**/**Death IV** casts before they catch you unaware.
 
 ::: tank
-For the entirety of this phase, her auto attacks will target the 3 highest emnity players and apply a **stacking vulnerability**.
+For the entirety of this phase, her auto attacks will target the 3 highest enmity players and apply a **stacking vulnerability**.
 
 It's recommended to use some of your personal mitigation for extended periods of auto attacks and swap threat with your co-tank every 4-6 stacks.
 :::
