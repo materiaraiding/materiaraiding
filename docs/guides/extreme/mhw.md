@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 8
 fightID: MHW
 title: The Windward Wilds
 description: A guide for the MHW Special extreme trial in Final Fantasy XIV.
