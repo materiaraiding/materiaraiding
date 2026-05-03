@@ -56,6 +56,7 @@ FFXIV players like to reuse the names of mechanics seen in older fights to refer
 | **Deep Freeze / Motion** | A debuff (generally ice-themed) or castbar that indicates the player must be moving at the end of the timer to avoid damage / death. |
 | **Trio** | A "Trio" is a mechanic where the boss becomes untargetable and alongside some other untargetable adds, dishes out a series of mechanics.<br>Originates from the names of P3 mechanics in UCoB. |
 | **Shiva** | AoE telegraphs that circle around the perimeters of the arena, plus one in the middle.<br>Originates from "Icicle Impact" from the ARR Shiva trial. | 
+| **Wild Charge** | A line stack where the frontmost or 2 frontmost players take more damage. The extra frontal damage usually must be handled by a tank.<br>Originates from T10. |
 
 ::: info NOTE
 For encounter specific mechanics refer to that encounters written guide.
