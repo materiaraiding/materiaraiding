@@ -485,7 +485,7 @@ The **Stygimoloch Warrior** is a special **duel** that only **1 player** out of 
    <span style="font-size: 24px;"> **The following Lost Actions are required**: </span>
 
    | <span style="font-size: 18px;"> Lost Action </span> | <span style="font-size: 18px;"> Usage </span> |
-   | -: | :-: |
+   | :- | :-: |
    | ![](/images/fieldops/drs-perception.webp) **Lost Perception** | There are **hidden traps** near the entrance and exit of the teleporters, and the **Stygimoloch Warrior** uses **hidden traps** as part of its mechanics. |
    | ![](/images/fieldops/drs-dispel.webp) **Lost Dispel** | The **Stygimoloch Warrior** occasionally grants itself a ^[Damage Up] **Damage Up buff** throughout the fight. |
 :::
@@ -957,14 +957,6 @@ Upon being defeated, players can proceed to the final boss knowing she is now **
 **The Queen** is the final boss of **Delubrum Reginae (Savage)**. The **Queen's Guard** return to assist her in some mechanics, and she has a **hard enrage** at **9:30**.
 
 ::: warning
-   The following Lost Actions and items **Lost Aethershield**, **Lost Shell II**, **Light Curtains** and **Lost Dispel** are required.
-
-   Raidwides from **The Queen** deal **significant damage**, each party's designated ^[Aetheric Mimicry: Tank] **Aethershield Tank** should mitigate every raidwide with ^[Lost Aethershield] **Lost Aethershield**. Additionally, all players should have ^[Lost Shell II] **Lost Shell** applied before combat for **extra survivability**.
-
-   Additionally, **The Queen** will grant herself **dispellable buffs** upon her **Sovreignity Gauge** reaching **100**, and there are certain **adds** that must be destroyed by ^[Lost Reflect] **reflecting** an AoE.
-:::
-
-::: warning
    <span style="font-size: 24px;"> **The following Lost Actions are required**: </span>
 
    | <span style="font-size: 18px;"> Lost Action </span> | <span style="font-size: 18px;"> Usage </span> |
@@ -973,7 +965,6 @@ Upon being defeated, players can proceed to the final boss knowing she is now **
    | ![](/images/fieldops/drs-shell.webp) **Lost Shell II** | Raidwides from **The Queen** deal **significant damage**, all players should have ^[Lost Shell II] **Lost Shell II** applied before combat for **extra survivability**. |
    | ![](/images/fieldops/drs-reflect.webp) **Lost Reflect** ![](/images/fieldops/drs-lightcurtain.webp) **Light Curtain** | There are **Ball  Lightning** adds that must die to their own magic via **reflecting** their damage back to them. |
    | ![](/images/fieldops/drs-dispel.webp) **Lost Dispel** | **The Queen** will grant herself multiple ^[Physical Damage Up] ^[Magic Damage Up] ^[Critical Strikes] ^[Enthunder] **damage buffs** that must be dispelled. |
-
 :::
 
 **The Queen** will begin with the following sequence of attacks:
