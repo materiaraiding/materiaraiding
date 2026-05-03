@@ -149,7 +149,7 @@ Video guides by Kobe.
 
 The macros are designed to be used with **/yell**. For party use, remove the "**/y**" and "**<wait.2>**".
 
-Waymarks can be imported to the game using the *Waymark Studio* plugin.
+Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can ask a friend to import them for you and save a copy for yourself.
 
 ::: details Boss 1 - Demon Tablet
 <span style="font-size: 18px;">**Video Guide**</span>
@@ -170,8 +170,8 @@ Waymarks can be imported to the game using the *Waymark Studio* plugin.
 ```
 
 <span style="font-size: 18px;">**Waymarks**</span>
-```waymarks
-https://sourpuh.github.io/waymarkstudio?preset=wms1.AeQEd8C5Vc_bOvChLpBOj8sBAM-GA49Oj8sBj06QywEA0IYDkE6QywEPTVIgRGVtb24gVGFibGV0.bbblRQ
+``` waymarks
+{"Name":"Demon Tablet","MapID":1018,"A":{"X":705.0,"Y":-481.0,"Z":366.0,"ID":0,"Active":true},"B":{"X":700.0,"Y":-481.0,"Z":354.0,"ID":1,"Active":true},"C":{"X":695.0,"Y":-481.0,"Z":366.0,"ID":2,"Active":true},"D":{"X":0.0,"Y":0.0,"Z":0.0,"ID":3,"Active":false},"One":{"X":695.0,"Y":-481.0,"Z":392.0,"ID":4,"Active":true},"Two":{"X":700.0,"Y":-481.0,"Z":404.0,"ID":5,"Active":true},"Three":{"X":705.0,"Y":-481.0,"Z":392.0,"ID":6,"Active":true},"Four":{"X":0.0,"Y":0.0,"Z":0.0,"ID":7,"Active":false}}
 ```
 :::
 
@@ -195,8 +195,8 @@ https://sourpuh.github.io/waymarkstudio?preset=wms1.AeQEd8C5Vc_bOvChLpBOj8sBAM-G
 ```
 
 <span style="font-size: 18px;">**Waymarks**</span>
-```waymarks
-https://sourpuh.github.io/waymarkstudio?preset=wms1.AeQEd__TYb_3aoD5K8-OAp-cAQC_uALQjgKfnAHQjgKgnAEAwLgCz44CoJwBDU1SIERlYWQgU3RhcnM.Bnuvyw
+``` waymarks
+{"Name":"Dead Stars","MapID":1018,"A":{"X":-817.0,"Y":-876.0,"Z":350.0,"ID":0,"Active":true},"B":{"X":-800.0,"Y":-876.0,"Z":340.0,"ID":1,"Active":true},"C":{"X":-783.0,"Y":-876.0,"Z":350.0,"ID":2,"Active":true},"D":{"X":0.0,"Y":0.0,"Z":0.0,"ID":3,"Active":false},"One":{"X":-783.0,"Y":-876.0,"Z":370.0,"ID":4,"Active":true},"Two":{"X":-800.0,"Y":-876.0,"Z":380.0,"ID":5,"Active":true},"Three":{"X":-817.0,"Y":-876.0,"Z":370.0,"ID":6,"Active":true},"Four":{"X":0.0,"Y":0.0,"Z":0.0,"ID":7,"Active":false}}
 ```
 :::
 
@@ -217,8 +217,8 @@ https://sourpuh.github.io/waymarkstudio?preset=wms1.AeQEd__TYb_3aoD5K8-OAp-cAQC_
 ```
 
 <span style="font-size: 18px;">**Waymarks**</span>
-```waymarks
-https://sourpuh.github.io/waymarkstudio?preset=wms1.AeQE_8-RKf_EZpCVE9OaAeGaAQDf2gGemgG5mgHAtQMA1JoB1JoBAODaAdmaAdSaAb-1AwAQTVIgTWFyYmxlIERyYWdvbg.0Gs7Cg
+``` waymarks
+{"Name":"Marble Dragon","MapID":1018,"A":{"X":-346.898,"Y":-840.0,"Z":147.0,"ID":0,"Active":true},"B":{"X":-337.0,"Y":-840.0,"Z":143.0,"ID":1,"Active":true},"C":{"X":-327.0,"Y":-840.0,"Z":147.0,"ID":2,"Active":true},"D":{"X":-309.0,"Y":-840.0,"Z":157.0,"ID":3,"Active":true},"One":{"X":-327.0,"Y":-840.0,"Z":167.0,"ID":4,"Active":true},"Two":{"X":-337.0,"Y":-840.0,"Z":171.0,"ID":5,"Active":true},"Three":{"X":-347.0,"Y":-840.0,"Z":166.0,"ID":6,"Active":true},"Four":{"X":-365.0,"Y":-840.0,"Z":157.0,"ID":7,"Active":true}}
 ```
 :::
 
@@ -261,17 +261,17 @@ https://sourpuh.github.io/waymarkstudio?preset=wms1.AeQE_8-RKf_EZpCVE9OaAeGaAQDf
 
 <span style="font-size: 14px;">BAP Group **A**/**1**</span>
 ``` waymarks
-https://sourpuh.github.io/waymarkstudio?preset=wms1.AeQEf8a1Vb-NOr-hUrFS9X-dPsaIAf6cAc8N_ZwBoyuLjQGWEcpckHKGPMWIARJCQVAgKEEvMSkgTWFnaXRhdXI.kEwdfw
+{"Name":"Magitaur (A/1)","MapID":1018,"A":{"X":694.0,"Y":-476.0,"Z":-682.0,"ID":0,"Active":true},"B":{"X":696.0,"Y":-476.0,"Z":-665.0,"ID":1,"Active":true},"C":{"X":710.0,"Y":-476.0,"Z":-675.0,"ID":2,"Active":true},"D":{"X":690.0,"Y":-476.0,"Z":-677.0,"ID":3,"Active":true},"One":{"X":691.0,"Y":-476.0,"Z":-673.0,"ID":4,"Active":true},"Two":{"X":706.0,"Y":-476.0,"Z":-667.0,"ID":5,"Active":true},"Three":{"X":704.0,"Y":-476.0,"Z":-683.0,"ID":6,"Active":true},"Four":{"X":0.0,"Y":0.0,"Z":0.0,"ID":7,"Active":false}}
 ```
 
 <span style="font-size: 14px;">BAP Group **B**/**2**</span>
 ``` waymarks
-https://sourpuh.github.io/waymarkstudio?preset=wms1.AeQEf8C9Vb-NOr-WUqta9YoBl0bGfYSVAc8YtCjIkwGFlQGWBtBUkGeMNMWTARJCQVAgKEIvMikgTWFnaXRhdXI.yvkheQ
+{"Name":"Magitaur (B/2)","MapID":1018,"A":{"X":694.0,"Y":-476.0,"Z":-682.0,"ID":0,"Active":true},"B":{"X":696.0,"Y":-476.0,"Z":-665.0,"ID":1,"Active":true},"C":{"X":710.0,"Y":-476.0,"Z":-675.0,"ID":2,"Active":true},"D":{"X":703.0,"Y":-476.0,"Z":-664.0,"ID":3,"Active":true},"One":{"X":691.0,"Y":-476.0,"Z":-673.0,"ID":4,"Active":true},"Two":{"X":706.0,"Y":-476.0,"Z":-667.0,"ID":5,"Active":true},"Three":{"X":704.0,"Y":-476.0,"Z":-683.0,"ID":6,"Active":true},"Four":{"X":0.0,"Y":0.0,"Z":0.0,"ID":7,"Active":false}}
 ```
 
 <span style="font-size: 14px;">BAP Group **C**/**3**</span>
 ``` waymarks
-https://sourpuh.github.io/waymarkstudio?preset=wms1.AeQEf8C9Vb-NOr-hUqta9X-XRsaIAYSVAc8N0nCHeIWVAZYR0FSQcow0xYgBEkJBUCAoQy8zKSBNYWdpdGF1cg.DIwdvA
+{"Name":"Magitaur (C/3)","MapID":1018,"A":{"X":694.0,"Y":-476.0,"Z":-682.0,"ID":0,"Active":true},"B":{"X":696.0,"Y":-476.0,"Z":-665.0,"ID":1,"Active":true},"C":{"X":710.0,"Y":-476.0,"Z":-675.0,"ID":2,"Active":true},"D":{"X":707.0,"Y":-476.0,"Z":-682.0,"ID":3,"Active":true},"One":{"X":691.0,"Y":-476.0,"Z":-673.0,"ID":4,"Active":true},"Two":{"X":706.0,"Y":-476.0,"Z":-667.0,"ID":5,"Active":true},"Three":{"X":704.0,"Y":-476.0,"Z":-683.0,"ID":6,"Active":true},"Four":{"X":0.0,"Y":0.0,"Z":0.0,"ID":7,"Active":false}}
 ```
 :::
 
@@ -359,8 +359,7 @@ Finally, below are in-depth guides for certain **Phantom Jobs** within **The For
 { title: 'Geomancer', color: 'green', href: 'https://docs.google.com/spreadsheets/d/1k2eIlDWksPi_fTXIRRlCzeAm2m9GewHqFpnShlOgg1Q/edit?usp=sharing' },
 { title: 'Monk', color: 'red', href: 'https://docs.google.com/document/d/14ISoQu7l6ppmMnFiA_gplOa7B5VjqnM-zktn0bPKZe0/edit?usp=sharing' },
 { title: 'Oracle', color: 'red', href: 'https://docs.google.com/spreadsheets/d/1SJXdA36aZoYDlP3EED2ytmF33rvhABdUPLS377wRHRE/edit?usp=sharing' },
-{ title: 'Thief', color: 'yellow', href: 'https://docs.google.com/document/d/1Z5vZlxHuv6v2zSyXLXJnkA7lLL1YIUv6r5Xt6qXh9ic/edit?tab=t.0#heading=h.xlr7hivfpp9x' },
-{ title: 'Ranger', color: 'yellow', href: 'https://docs.google.com/document/d/1Z5vZlxHuv6v2zSyXLXJnkA7lLL1YIUv6r5Xt6qXh9ic/edit?usp=sharing' },
+{ title: 'Ranger & Thief', color: 'yellow', href: 'https://docs.google.com/document/d/1Z5vZlxHuv6v2zSyXLXJnkA7lLL1YIUv6r5Xt6qXh9ic/edit?usp=sharing' },
 ]"
 />
 
@@ -370,6 +369,14 @@ Finally, below are in-depth guides for certain **Phantom Jobs** within **The For
 <Action title='Boss 1 - Demon Tablet' color='red'  href='https://raidplan.io/plan/jar7czxup3wu8chh'/>
 
 **Demon Tablet** is the first boss of **The Forked Tower: Blood**. It features several simple mechanics, but with **harsh punishments** and a **hard enrage** at **6:40**.
+
+::: warning
+   <span style="font-size: 24px;"> **The following Occult Actions are required**: </span>
+
+   | <span style="font-size: 18px;"> Phantom Job </span> | <span style="font-size: 18px;"> Occult Action </span> | <span style="font-size: 24px;"> Usage </span>
+   | :- | :-: | :-: |
+   | ![](/images/jobs/PhantomTimeMage.webp) **Time Mage** | ![](/images/fieldops/ft-dispel.webp) **Occult Dispel** | The **Summoned Arch Demon** adds have a ^[Dark Defenses] **defensive buff** requiring players to remove it in order to destroy them. |
+:::
 
 The **Demon Tablet** itself is a **wide enemy**, splitting the room into **two square platforms** at the **North** and **South** and **preventing** players from walking through itself, **unless** it is raised into the air while casting an attack.
 
@@ -630,6 +637,16 @@ Each **slice** of the arena is assigned to a party, as shown in the image below.
 
 The **Bridges** are the second set of trash encounters in **The Forked Tower: Blood**. Similar to the **Hallways**, the **Bridges** feature **hidden traps**, **lightning floors** and **dangerous adds** that must be handled in certain ways.
 
+::: warning
+   <span style="font-size: 24px;"> **The following Occult Actions are required**: </span>
+
+   | <span style="font-size: 18px;"> Phantom Job </span> | <span style="font-size: 18px;"> Occult Action </span> | <span style="font-size: 24px;"> Usage </span>
+   | :- | :-: | :-: |
+   | ![](/images/jobs/PhantomTimeMage.webp) **Time Mage** | ![](/images/fieldops/ft-dispel.webp) **Occult Dispel** | The **Tower Abyss** enemies grant themselves the ^[Magic Damage Up] **Magic Damage Up buff** requiring players to remove it to survive the following **raidwide**. |
+   | ![](/images/jobs/PhantomBard.webp) **Bard** <br> <br> ![](/images/jobs/PhantomOracle.webp) **Oracle** | ![](/images/fieldops/ft-ballad.webp) **Romeo's Ballad** ![](/images/fieldops/ft-cleansing.webp) **Cleansing** | The **Tower Idol** enemies can only have their **enrage cast** interrupted through the use of the ^[Arcane Stop] **Stop debuff** inflicted by **Romeo's Ballad** and **Cleansing**. |
+   | ![](/images/jobs/PhantomGeomancer.webp) **Geomancer** | ![](/images/fieldops/ft-suspend.webp) **Suspend** | There are **lightning floors** on both sides that must be navigated through to open the way forward. |
+:::
+
 The **Bridges** are divided into **5 waves**, each with a collection of enemies with the potential to wipe the raid should they be given the chance.
 
 | **Wave** | **Attack** |
@@ -655,6 +672,14 @@ While dealing with these enemies, each side of the bridge will glow with **4 lin
 <Action title='Marble Dragon' color='blue'  href='https://raidplan.io/plan/_3HykkEJjbEZu6JV'/>
 
 The **Marble Dragon** focuses primarily on dodging and heavy damage, punishing players for slow movement or poor mitigation. It has a **hard enrage** at **6:30**.
+
+::: warning
+   <span style="font-size: 24px;"> **The following Occult Actions are required**: </span>
+
+   | <span style="font-size: 18px;"> Phantom Job </span> | <span style="font-size: 18px;"> Occult Action </span> | <span style="font-size: 24px;"> Usage </span>
+   | :- | :-: | :-: |
+   | ![](/images/jobs/PhantomBard.webp) **Bard** <br> <br> ![](/images/jobs/PhantomOracle.webp) **Oracle** | ![](/images/fieldops/ft-ballad.webp) **Romeo's Ballad** ![](/images/fieldops/ft-cleansing.webp) **Cleansing** | The **Ice Sprite** adds can only have their **movement** towards the boss interrupted through the use of the ^[Arcane Stop] **Stop debuff** inflicted by **Romeo's Ballad** and **Cleansing**. |
+:::
 
 The boss begins with **Imitation Star**, a heavy raidwide that inflicts a ^[Bleeding] **Bleed**.
 
@@ -743,6 +768,16 @@ The **Marble Dragon** will finally cast another **Imitation Star** and **Dread D
 
 Like the **Hallways** and the **Bridges**, **Lockwards** combines **hidden traps** and deadly trash with a small puzzle segment players can choose to solve correctly or skip. ^[Phantom Time Mage] **Phantom Time Mages** should remember to slow any enemies here.
 
+::: warning
+   <span style="font-size: 24px;"> **The following Occult Actions are required**: </span>
+
+   | <span style="font-size: 18px;"> Phantom Job </span> | <span style="font-size: 18px;"> Occult Action </span> | <span style="font-size: 24px;"> Usage </span>
+   | :- | :-: | :-: |
+   | ![](/images/jobs/PhantomTimeMage.webp) **Time Mage** | ![](/images/fieldops/ft-dispel.webp) **Occult Dispel** | The **Guardian Knight** enemy starts the fight with an ^[Invulnerability] **Invulnerability buff** requiring players to remove it to damage it. This buff is refreshed occasionally. |
+   | ![](/images/jobs/PhantomSamurai.webp) **Samurai** <br> <br> ![](/images/jobs/PhantomCannoneer.webp) **Cannoneer** <br> <br> ![](/images/jobs/PhantomOracle.webp) **Oracle** <br> <br> ![](/images/jobs/PhantomGladiator.webp) **Gladiator** | ![](/images/fieldops/ft-iainuki.webp) **Iainuki** ![](/images/fieldops/ft-fire.webp) **Phantom Fire** ![](/images/fieldops/ft-doom.webp) **Phantom Doom** ![](/images/fieldops/ft-finisher.webp) **Finisher** | The **Guardian Berserker** enemy takes ^[Vulnerability Down] **heavily reduced damage**, and can only be killed by instant death effects. |
+   | ![](/images/jobs/PhantomThief.webp) **Thief** | ![](/images/fieldops/ft-pilfer.webp) | The **Guardian Weapon** enemy has a ^[Armed to the Teeth] **damage buff** that can only be removed by stealing its weapon. |
+:::
+
 | **Enemy** | **Attack** |
 | :-: | :- |
 | **Guardian Wraith** | **Scream** - Huge **untelegraphed PB-AoE**, inflicts anyone hit with ^[Terror] **Terror**. |
@@ -786,6 +821,14 @@ Defeating the **Sangune Recluse** will provide all players that participated in 
 <Action title='Magitaur' color='purple'  href='https://raidplan.io/plan/nGscIqvbyUU7bfEx'/>
 
 **Magitaur** is the final boss of **The Forked Tower: Blood**. It features several mechanics that can quickly wipe the raid, and a hard enrage at **8:00**.
+
+::: warning
+   <span style="font-size: 24px;"> **The following Occult Actions are required**: </span>
+
+   | <span style="font-size: 18px;"> Phantom Job </span> | <span style="font-size: 18px;"> Occult Action </span> | <span style="font-size: 24px;"> Usage </span>
+   | :- | :-: | :-: |
+   | ![](/images/jobs/PhantomBerserker.webp) **Berserker** | ![](/images/fieldops/ft-rage.webp) **Rage** | The **Universal Empowerment Conduit** will inflict anyone hit with ^[Hysteria] **Hysteria** upon death, being ^[Rage] **enraged** nullifies this.  |
+:::
 
 **Magitaur** will begin the fight with **Unsealed Aura**, a raidwide. While casting this, players should move to their designated **square** where they will be resolving most mechanics, shown below.
 
