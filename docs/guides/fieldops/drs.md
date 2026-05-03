@@ -26,24 +26,6 @@ Read on for more information about **Save the Queen**, or click below to jump to
 
 These upgrades are not strictly required to clear the raid, but are **generally recommended** for players that plan to spend a lot of time in this series of **Field Operations**.
 
-### Lost Actions and Essences
-
-Lost Actions, introduced in **The Bozjan Southern Front**, allow the use of **2 specialised actions** at any time that have various, powerful effects.
-
-To obtain and equip them, players must first aquire the necessary **Forgotten Fragments**. These can be dropped by mobs, FATEs and Critical Engagements, found in lockboxes and also purchased from **Resistance Quartermasters** within each zone and the Marketboard. Afterwards, players can speak with a **Resistance Appraiser** to appraise them.
-
-Essences, also introduced in **The Bozjan Southern Front** are a subset of Lost Actions that passively **boost** certain stats and **augment** certain Lost Actions, lasting until the player leaves the instance or changes jobs.
-
-There are **3 categories** of Essences:
-
-1. **Essences**
-2. **Deep Essences** - Stronger variations of **Essences**, giving higher stat boosts.
-3. **Pure Essences** - Unique Essences only available for use within **Delubrum Reginae** and its **Savage** version.
-
-To see a complete table of Lost Actions, along with their effects and Forgotten Fragment acquisitions, please see the website below:
-
-<Action title='Lost Actions List' color='purple' href='https://ffxiv.kmiwl.de/bozja/' />
-
 ### Garlean Synthetic Fabric
 
 Garlean Synthetic Fabric is a unique quest material used to increase the maximum capacity of a player's Lost Actions holster by **10** slots.
@@ -81,15 +63,19 @@ It is rewarded to players for obtaining the achievement **Lost and Found IV**, b
 ::: warning WARNING
 This guide will entail set ups and strategies for an **ANYPROG** run, meaning that any player at any prog-point in the raid can join.
 
-Depending on **what** type of run it is and **who** is running it, the assigned roles and **Lost Actions** in the raid can **change considerably**. Please confirm the roles and **Lost Actions** with the raid leader's linked resources and be sure to ask questions if any player is unsure.
+Depending on **what** type of run it is and **who** is running it, the assigned roles and **Lost Actions** in the raid can **change considerably**. Please confirm the roles and **Lost Actions** with the raid leader's linked resources and be sure to ask questions if any player is unsure. <br> <br>
+
+<span style="font-size: 24px;"> New players are recommended to understand their [**required Lost Actions**](drs#set-up) and the mechanics of [**Boss 3 - Trinity Avowed**](drs#boss-3-trinity-avowed). </span>
 :::
 
-### Cheatsheets
+### Pocket Guides
+
+These pocket guides are helpful for players only after the **essentials** of each fight. Players that would like **more information** about each encounter can read the **written guide** further below.
 
 <ActionGroup
 :actions=" [
-{ title: 'Slimes', color: 'purple', href: 'https://i.imgur.com/Z8KN7VL.png' },
-{ title: 'Golems', color: 'purple', href: 'https://i.imgur.com/gbC5FFX.png' },
+{ title: 'Trash 1 - Slimes', color: 'purple', href: 'https://i.imgur.com/Z8KN7VL.png' },
+{ title: 'Trash 1 - Golems', color: 'purple', href: 'https://i.imgur.com/gbC5FFX.png' },
 { title: 'Boss 1 - Trinity Seeker', color: 'purple', href:'https://i.imgur.com/30IA9YC.png' },
 ]"
 />
@@ -100,17 +86,39 @@ Depending on **what** type of run it is and **who** is running it, the assigned 
 
 <ActionGroup
 :actions=" [
-{ title: 'Stygimoloch Lord', color: 'blue', href: 'https://i.imgur.com/TMhRqLS.png' },
+{ title: 'Trash 4 - Stygimoloch Lord', color: 'blue', href: 'https://i.imgur.com/TMhRqLS.png' },
 { title: 'Boss 4 - The Queen', color: 'blue', href: 'https://i.imgur.com/w8vPF9q.png' },
 ]"
 />
+
+### Lost Actions and Essences
+
+Lost Actions, introduced in **The Bozjan Southern Front**, allow the use of **various and specialised actions** at any time that have powerful effects.
+
+**They are essential to clearing Delubrum Reginae (Savage) and a successful run will require a number of certain actions**.
+
+To obtain and equip them, players must first acquire the necessary **Forgotten Fragments**. These can be dropped by mobs, FATEs and Critical Engagements, found in lockboxes and also purchased from **Resistance Quartermasters** within each zone and the Marketboard. Afterwards, players can speak with a **Resistance Appraiser** to appraise them.
+
+Essences, also introduced in **The Bozjan Southern Front** are a subset of Lost Actions that passively **boost** certain stats and **augment** certain Lost Actions, lasting until the player leaves the instance or changes jobs.
+
+There are **3 categories** of Essences:
+
+1. **Essences**
+2. **Deep Essences** - Stronger variations of **Essences**, giving higher stat boosts.
+3. **Pure Essences** - Unique Essences only available for use within **Delubrum Reginae** and its **Savage** version.
+
+To see an example list of **required Lost Actions** for an anyprog run of **Delubrum Reginae (Savage)**, please see the spreadsheet below:
+
+<Action title='Anyprog Holsters' color='green' href='https://docs.google.com/spreadsheets/d/1FSUu_NM2-OV_nR7CU1GlgrqYwdR46foryK7OXXXngfY/edit?gid=539765449#gid=539765449' />
+>
+To see a complete table of Lost Actions, along with their effects and Forgotten Fragment acquisitions, please see the website below:
+
+<Action title='Lost Actions List' color='purple' href='https://ffxiv.kmiwl.de/bozja/' />
 
 ### Video Guides and Waymarks
 
 By Hobi
 @[](https://youtu.be/7froOoJiPDU)
-
-<br>
 
 Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can ask a friend to import them for you and save a copy for yourself.
 
@@ -120,9 +128,9 @@ Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can
 ```
 :::
 
-::: details Slimes & Golems & Boss 1 - Trinity Seeker
+::: details Trash 1 - Slimes & Golems & Boss 1 - Trinity Seeker
 
-**Slimes & Golems**
+**Trash 1 - Slimes & Golems**
 ``` waymarks
 {"Name":"Slimes/Golems","MapID":761,"A":{"X":-275.0,"Y":-31.0,"Z":423.493,"ID":0,"Active":true},"B":{"X":-275.055,"Y":-31.0,"Z":437.146,"ID":1,"Active":true},"C":{"X":315.032,"Y":48.999,"Z":403.795,"ID":2,"Active":true},"D":{"X":315.021,"Y":48.999,"Z":414.553,"ID":3,"Active":true},"One":{"X":-279.496,"Y":-31.0,"Z":428.012,"ID":4,"Active":true},"Two":{"X":-270.519,"Y":-31.0,"Z":428.007,"ID":5,"Active":true},"Three":{"X":-279.514,"Y":-31.0,"Z":432.586,"ID":6,"Active":true},"Four":{"X":-270.417,"Y":-31.0,"Z":432.659,"ID":7,"Active":true}}
 ```
@@ -133,9 +141,9 @@ Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can
 ```
 :::
 
-::: details Dahu & Boss 2 - Queen's Guard
+::: details Trash 2 - Dahu & Boss 2 - Queen's Guard
 
-**Dahu**
+**Trash 2 - Dahu**
 ``` waymarks
 {"Name":"Dahu","MapID":761,"A":{"X":-4.48,"Y":38.0,"Z":465.472,"ID":0,"Active":true},"B":{"X":-4.5,"Y":37.999,"Z":474.482,"ID":1,"Active":true},"C":{"X":7.334,"Y":37.999,"Z":465.295,"ID":2,"Active":true},"D":{"X":7.516,"Y":37.999,"Z":473.644,"ID":3,"Active":true},"One":{"X":-7.932,"Y":37.999,"Z":467.847,"ID":4,"Active":true},"Two":{"X":-1.248,"Y":38.0,"Z":468.054,"ID":5,"Active":true},"Three":{"X":-7.782,"Y":37.999,"Z":472.373,"ID":6,"Active":true},"Four":{"X":-1.148,"Y":38.0,"Z":472.462,"ID":7,"Active":true}}
 ```
@@ -146,9 +154,9 @@ Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can
 ```
 :::
 
-::: details Bozjan Phantom & Boss 3 - Trinity Avowed
+::: details Trash 3 - Bozjan Phantom & Boss 3 - Trinity Avowed
 
-**Bozjan Phantom**
+**Trash 3 - Bozjan Phantom**
 ``` waymarks
 {"Name":"Phantom","MapID":761,"A":{"X":183.947,"Y":-96.999,"Z":-389.727,"ID":0,"Active":true},"B":{"X":195.884,"Y":-96.999,"Z":-390.592,"ID":1,"Active":true},"C":{"X":208.037,"Y":-96.999,"Z":-390.119,"ID":2,"Active":true},"D":{"X":219.958,"Y":-96.999,"Z":-391.045,"ID":3,"Active":true},"One":{"X":184.007,"Y":-96.999,"Z":-351.083,"ID":4,"Active":true},"Two":{"X":195.88,"Y":-96.999,"Z":-351.114,"ID":5,"Active":true},"Three":{"X":208.095,"Y":-96.999,"Z":-351.242,"ID":6,"Active":true},"Four":{"X":220.076,"Y":-96.999,"Z":-351.263,"ID":7,"Active":true}}
 ```
@@ -159,9 +167,9 @@ Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can
 ```
 :::
 
-::: details Stygimoloch Lord & Boss 4 - The Queen
+::: details Trash 4 - Stygimoloch Lord & Boss 4 - The Queen
 
-**Stygimoloch Lord**
+**Trash 4 - Stygimoloch Lord**
 ``` waymarks
 {"Name":"Mino Lord","MapID":761,"A":{"X":-426.153,"Y":-191.0,"Z":-194.456,"ID":0,"Active":true},"B":{"X":-405.747,"Y":-191.0,"Z":-194.293,"ID":1,"Active":true},"C":{"X":-405.816,"Y":-191.0,"Z":-173.724,"ID":2,"Active":true},"D":{"X":-426.258,"Y":-191.0,"Z":-173.785,"ID":3,"Active":true},"One":{"X":-415.859,"Y":-191.0,"Z":-211.895,"ID":4,"Active":true},"Two":{"X":-387.99,"Y":-191.0,"Z":-184.483,"ID":5,"Active":true},"Three":{"X":-416.005,"Y":-191.0,"Z":-156.455,"ID":6,"Active":true},"Four":{"X":-443.841,"Y":-191.0,"Z":-184.173,"ID":7,"Active":true}}
 ```
@@ -213,7 +221,7 @@ Each party will also have a **Letter**/**Number designation**, used for mechanic
 	> - Party **2** / **E**
 	> - Party **3** / **F**
 
-Additionally, everyone should have a ^[Reraise] **Reraise** buff active at **AT ALL TIMES**, available from either a **Resistance Reraiser** or the Lost Action **Lost Reraise**. It offers players **70% chance** to be automatically revived if they **die**, a very useful tool to circumvent the ^[Resurrection Restricted] restriction on standard raises. **If it gets consumed**, find a safe moment to refresh the ^[Reraise] buff, even during battle.
+Additionally, everyone should have a ^[Reraise] **Reraise** buff active at **AT ALL TIMES**, available from either a **Resistance Reraiser** or the Lost Action **Lost Reraise**. It offers players a **70% chance** (**80%** with **Lost Reraise**) to be automatically revived if they **die**, a very useful tool to circumvent the ^[Resurrection Restricted] restriction on standard raises. **If it gets consumed**, find a safe moment to refresh the ^[Reraise] buff, even during battle.
 
 Depending on the role, it's essential to have certain **Pure Essences** active and **Lost Actions** in the holster to provide stat boosts, support for the team and to augment certain Lost Actions. Also listed are holsters for each role that players should prepare in advance of each run:
 
@@ -227,7 +235,7 @@ Depending on the role, it's essential to have certain **Pure Essences** active a
 
 ### Encounters
 
-#### Slimes and Golems
+#### Trash 1 - Slimes and Golems
 
 Slimes and Golems are the first trash encounter of **Delubrum Reginae (Savage)**. Despite being trash mobs, each alliance will need to **coordinate as a team** to successfully resolve their mechanics and open the way towards the first boss.
 
@@ -246,7 +254,7 @@ There are **3** types of traps within **Delubrum Reginae (Savage)**.
 **Most** traps are walked around with an exception for the **Mini Trap**, which is purposefully **popped** after **Trinity Avowed** to access the **Stygimoloch Lord**.
 
 ::: details Slimes
-<Action title='Slimes' color='purple' href='https://i.imgur.com/Z8KN7VL.png' />
+<Action title='Pocket Guide' color='purple' href='https://i.imgur.com/Z8KN7VL.png' />
 
 There are **3** different enemy types that players will have to deal with. The goal is to have **1 Viscuous Clot** explode and die on a button in each room.
 
@@ -271,7 +279,7 @@ After the call to merge the final slime, each **Viscuous Clot**, each now at **5
 :::
 
 ::: details Golems
-<Action title='Golems' color='purple' href='https://i.imgur.com/gbC5FFX.png' />
+<Action title='Pocket Guide' color='purple' href='https://i.imgur.com/gbC5FFX.png' />
 
 There are **2** different enemy types that players will have to deal with. The goal is to have each **Bicolor Golem** die on a button with the same colour as itself.
 
@@ -279,13 +287,13 @@ There are **2** different enemy types that players will have to deal with. The g
    - Uses **Metamorphosis**, an **interruptible** attack to change colours.
      - The order of colour changing is Blue > White > Green > Red > Blue...
    - ^[Torrential Ruin] **Blue**
-     - Purple AoE tankbuster, inflicts a deadly **Esuna-able DoT**.
+     - AoE tankbuster, inflicts a deadly **Esuna-able ^[Bleeding] DoT**.
      - ^[Aetheric Mimicry: Tank] **1 Tank** will pull this golem to the **SW** room and interrupt every **Metamorphosis** cast.
      - ^[Aetheric Mimicry: Healer] **1 Healer** will watch the tank, cleansing their DoT and keeping them alive.
      - Killed **1st**
    - ^[Subtle Ruin] **White**
      - Begins casting a full heal on itself upon reaching **30% HP**.
-     - ^[Aetheric Mimicry: Tank] **1 Tank** will pull a **Blue Golem** to the **SE** room, allow it to cast **Metamorphosis ONCE** and then interrupt every subsequent cast.
+     - ^[Aetheric Mimicry: Tank] **1 Tank** will pull a **Blue Golem** to the **SE** room, allow it to cast **Metamorphosis ONCE** and then interrupt every subsequent cast. Be aware that because it's morphing from a ^[Torrential Ruin] **Blue Golem**, players will need to deal with its **tankbuster** beforehand.
      - All damage cooldowns should be **held** until the **30%** threshold is passed.
      - Killed **2nd**
    - ^[Avaricious Ruin] **Green**
@@ -304,7 +312,7 @@ There are **2** different enemy types that players will have to deal with. The g
 :::
 
 #### Boss 1 - Trinity Seeker
-<Action title='Boss 1 - Trinity Seeker' color='purple' href='https://i.imgur.com/30IA9YC.png' />
+<Action title='Pocket Guide' color='purple' href='https://i.imgur.com/30IA9YC.png' />
 
 **Trinity Seeker** is the very first boss of **Delubrum Reginae (Savage)**. While not much changes from its **Normal** version, there is still a **hard enrage** at **9:50** if none of its attacks are skipped.
 
@@ -426,7 +434,7 @@ Upon using **Seasons of Mercy** during its **Katanas** phase, it will transition
 
 If **Trinity Seeker** is not killed before this point, it will cast a **hard enrage**, wiping the raid.
 
-#### Dahu
+#### Trash 2 - Dahu
 
 **Dahu** is the **2nd** trash encounter of **Delubrum Reginae (Savage)**. It has no enrage and will repeat mechanics until it is dead.
 
@@ -474,9 +482,12 @@ From here, **Dahu's** rotation will **loop** until it is killed.
 The **Stygimoloch Warrior** is a special **duel** that only **1 player** out of the entire raid group may undertake. Defeating it rewards the player with ^[Pride of the Lioness] **Pride of the Lioness**, a buff that doubles the player's **damage dealt** and increases their **Maximum HP**, **Physical** and **Magical Defence**.
 
 ::: warning
-   The lost actions **Lost Perception** and **Lost Dispel** are required.
-   
-   There are **hidden traps** near the entrance and exit of the teleporters, and the **Stygimoloch Warrior** uses **hidden traps** and **buffs itself** as part of its mechanics.
+   <span style="font-size: 24px;"> **The following Lost Actions are required**: </span>
+
+   | <span style="font-size: 18px;"> Lost Action </span> | <span style="font-size: 18px;"> Usage </span> |
+   | -: | :-: |
+   | ![](/images/fieldops/drs-perception.webp) **Lost Perception** | There are **hidden traps** near the entrance and exit of the teleporters, and the **Stygimoloch Warrior** uses **hidden traps** as part of its mechanics. |
+   | ![](/images/fieldops/drs-dispel.webp) **Lost Dispel** | The **Stygimoloch Warrior** occasionally grants itself a ^[Damage Up] **Damage Up buff** throughout the fight. |
 :::
 
 To start, **Stygimoloch Warrior** will cast **Surge of Vigor**, granting itself a ^[Damage Up] **Damage Up buff**. The duelist will need to use **Lost Dispel** to remove the buff. 
@@ -537,9 +548,13 @@ If the duelist is successful in slaying the **Stygimoloch Warrior**, they can cl
 The **Queen's Guard** are the **2nd major boss** in **Delubrum Reginae (Savage)**. There are **3** major phases, each with **hard enrages** should they not be defeated in time.
 
 ::: warning
-   The lost actions and objects **Lost Spellforge**, **Lost Steelsting**, **Lost Dispel** and **Light Curtains** are required.
+   <span style="font-size: 24px;"> **The following Lost Actions are required**: </span>
 
-   The **Queen's Guard** buff themselves both **defensively** and **offensively**, and there are adds that must die to their own attacks with ^[Lost Reflect] **Reflect**.
+   | <span style="font-size: 18px;"> Lost Action </span> | <span style="font-size: 18px;"> Usage </span> |
+   | :- | :-: |
+   | ![](/images/fieldops/drs-forgesting.webp) **Lost Spellforge** <br> + **Lost Steelsting** | The **Queen's Guard** buff themselves defencively to nullify **all physical** or **magical** damage, requiring players to deal damage of the opposite type. |
+   | ![](/images/fieldops/drs-dispel.webp) **Lost Dispel** | The **Warrior** will grant itself a ^[Boosted] **damage buff** that must be dispelled. |
+   | ![](/images/fieldops/drs-reflect.webp) **Lost Reflect** ![](/images/fieldops/drs-lightcurtain.webp) **Light Curtain** | There are **Spiritual Sphere** adds that must die to their own magic via **reflecting** their damage back to them. |
 :::
 
 Before the fight begins, **1 healer** in each group should **provide** their party members with the ^[Lost Spellforge] **Lost Spellforge** / ^[Lost Steelsting] **Steelsting** buffs **opposite** to the type of damage they deal. These buffs last for **5 minutes**, and fall off upon death.
@@ -568,7 +583,7 @@ To start, a **coloured tether** will chain the **Knight** and the **Warrior** to
 
 ::: tip
    This macro is useful for removing any ^[Lost Spellforge] **Lost Spellforge** / ^[Lost Steelsting] **Steelsting** buff.
-   ```
+   ``` macro
       /statusoff "Lost Steelsting"
       /statusoff "Lost Spellforge"
       /macroerror off
@@ -679,14 +694,17 @@ Additionally there are **2 waves** of **Spheres** that appear in the arena, with
 
 ![](/images/fieldops/drs-spheres.webp)
 
-#### Bozjan Phantom
+#### Trash 3 - Bozjan Phantom
 
 The **Bozjan Phantom** is the **3rd** trash encounter of **Delubrum Reginae (Savage)**. It has no **enrage** and will repeat mechanics until it is dead.
 
 ::: warning
-   The lost actions **Lost Banish III** and **Lost Dispel** are required.
+   <span style="font-size: 24px;"> **The following Lost Actions are required**: </span>
 
-   The **Bozjan Phantom** will use a ^[Ice Spikes] **defensive buff** that can be removed. As an **undead** enemy, it will take **increased** damage from the ^[Lost Banish] **debuff** applied by **Lost Banish III**.
+   | <span style="font-size: 18px;"> Lost Action </span> | <span style="font-size: 18px;"> Usage </span> |
+   | :- | :-: |
+   | ![](/images/fieldops/drs-banish.webp) **Lost Banish III** | As an **undead** enemy, the **Bozjan Phantom** will take **increased** damage from the applied ^[Lost Banish] **debuff**. |
+   | ![](/images/fieldops/drs-dispel.webp) **Lost Dispel** | The **Bozjan Phantom** will use a ^[Ice Spikes] **defensive buff** that can be removed. |
 :::
 
 The **Bozjan Phantom** will begin with **Malediction of Agony**, a raidwide. It will then use **Weave Miasma**, spawning **3** different types of symbols along the **North** edge of the arena. These spawn in a row of **4** and there are **2** rows for a total of **8** symbols. Each AoE will travel down the arena, and players can determine the type of AoE from the symbols shown below.
@@ -716,14 +734,17 @@ Players should be aware of the **hidden traps** in the forthcoming hallways, and
 ![](/images/fieldops/drs-trinitymap.webp)
 
 #### Boss 3 - Trinity Avowed
-<Action title='Boss 3 - Trinity Avowed' color='red' href='https://i.imgur.com/mhrFsoA.png' />
+<Action title='Pocket Guide' color='red' href='https://i.imgur.com/mhrFsoA.png' />
 
 **Trinity Avowed** is the **3rd major boss** in **Delubrum Reginae (Savage)**. There are **2 major phases** with **3 mini-phases** each. It has a **hard enrage** at **9:00**.
 
 ::: warning
-   The lost actions **Lost Aethershield** and **Lost Shell II** are required.
+   <span style="font-size: 24px;"> **The following Lost Actions are required**: </span>
 
-   Raidwides from **Trinity Avowed** deal **significant damage**, each party's designated ^[Aetheric Mimicry: Tank] **Aethershield Tank** should mitigate every raidwide with ^[Lost Aethershield] **Lost Aethershield**. Additionally, all players should have ^[Lost Shell II] **Lost Shell** applied before combat for **extra survivability**.
+   | <span style="font-size: 18px;"> Lost Action </span> | <span style="font-size: 18px;"> Usage </span> |
+   | :- | :-: |
+   | ![](/images/fieldops/drs-aethershield.webp) **Lost Aethershield** | Raidwides from **Trinity Avowed** deal **significant damage**, each party's designated ^[Aetheric Mimicry: Tank] **Aethershield Tank** should mitigate every raidwide with ^[Lost Aethershield] **Lost Aethershield**. |
+   | ![](/images/fieldops/drs-shell.webp) **Lost Shell II** | Raidwides from **Trinity Avowed** deal **significant damage**, all players should have ^[Lost Shell II] **Lost Shell II** applied before combat for **extra survivability**. |
 :::
 
 To start, **Trinity Avowed** will open with the following sequence of attacks:
@@ -747,10 +768,13 @@ To start, **Trinity Avowed** will open with the following sequence of attacks:
 3. **Quick March** - Inflicts all players with a ^[Forward March] ^[About Face] ^[Left Face] ^[Right Face] **Forced March** in a **random direction**. The distance walked during the resolve is equivalent to **2 tiles** on the arena.
 4. **Freedom of Bozja** - **4 Proximity** AoEs spawn in each corner of the arena, all players must move to the middle to reduce the damage taken. Each AoE will spawn a **meteor** with different **temperatures**.
 5. **Elemental Blast** - Each **meteor** will explode in a circle AoE around itself, inflicting hit players with its temperature.
+   > ::: warning
+   > Players should avoid being raised until these AoEs have resolved, as there are no safe spots to avoid the temperatures inflicted by them.
+   > :::
 
 The **Temperature goal** of this **mini-phase** is to use the ^[Forced March] **Forced March** debuff to walk into the meteor that will ^[Normal] **neutralise** the player's temperature.
 
-6. **Glory of Bozja** - ^[Lost Aethershield] **Use Lost Aethershield**.
+1. **Glory of Bozja** - ^[Lost Aethershield] **Use Lost Aethershield**.
 :::
 
 ::: details Bow 1
@@ -795,10 +819,13 @@ After the **first 3 mini-phases** are complete, **Trinity Avowed** will introduc
 4. **Freedom of Bozja**
 5. **Unseen Eye** - Summons **6 clones** along the sides of the arena. Each **clone** will perform a **line** AoE infront of itself, leaving only a **few squares** safe.
 6. **Elemental Blast**
+   > ::: warning
+   > Players should avoid being raised until these AoEs have resolved, as there are no safe spots to avoid the temperatures inflicted by them.
+   > :::
 
 The **Temperature goal** of this **mini-phase** is to find the meteor that will help players reach a ^[Running Cold: -2] ^[Running Cold: -1] ^[Running Hot: +1] ^[Running Hot: +2] **Temperature** opposite of their ^[Cold Brand: -2] ^[Cold Brand: -1] ^[Hot Brand: +1] ^[Hot Brand: +2] **Brand**. Additionaly, players will need to watch the **clones** to determine a **safe square** to stand in within their **meteor's** AoE.
 
-7. **Glory of Bozja** - ^[Lost Aethershield] **Use Lost Aethershield**.
+1. **Glory of Bozja** - ^[Lost Aethershield] **Use Lost Aethershield**.
 :::
 
 ::: details Bow 2
@@ -809,6 +836,7 @@ The **Temperature goal** of this **mini-phase** is to find the meteor that will 
 5. **Elemental Brand** - Inflicts all players with a random ^[Cold Brand: -2] ^[Cold Brand: -1] ^[Hot Brand: +1] ^[Hot Brand: +2] **Brand** debuff.
 6. **Quick March**
 7. **Shimmering Shot**
+8. **Wrath of Bozja**
 
 The **Temperature goal** of this **mini-phase** is to find the arrow that will help players reach a ^[Running Cold: -2] ^[Running Cold: -1] ^[Running Hot: +1] ^[Running Hot: +2] **Temperature** opposite of their ^[Cold Brand: -2] ^[Cold Brand: -1] ^[Hot Brand: +1] ^[Hot Brand: +2] **Brand**, playing the "**ladder game**" again. Once players have found their square, they must aim their ^[Forced March] **Forced March** to walk into that square. The distance of the ^[Forced March] **Forced March** remains at **2 tiles**.
 
@@ -828,10 +856,10 @@ The **Temperature goal** of this **mini-phase** is to determine the **safe squar
 7. **Glory of Bozja** - ^[Lost Aethershield] **Use Lost Aethershield**.
 :::
 
-After **all 6 mini-phases** have concluded, **Trinity Avowed** will close out with **Wrath of Bozja**, its tankbuster, before using its **hard enrage** at **9:00**.
+After **all 6 mini-phases** have concluded, **Trinity Avowed** will close out with its **hard enrage** at **9:00**.
 
-#### Stygimoloch Lord
-<Action title='Stygimoloch Lord' color='blue' href='https://i.imgur.com/TMhRqLS.png' />
+#### Trash 4 - Stygimoloch Lord
+<Action title='Pocket Guide' color='blue' href='https://i.imgur.com/TMhRqLS.png' />
 
 The **Stygimoloch Lord** is the final trash encounter of **Delubrum Reginae (Savage)**. While alive, it applies ^[Royal Favor] **Royal Favor** to **The Queen**, preventing her from dropping below **1HP** and making all damage she deals **highly lethal**.
 
@@ -840,9 +868,12 @@ To reach the **Stygimoloch Lord**, at least **1 player** must slip through the *
 ![](/images/fieldops/drs-styglordmap.webp)
 
 ::: warning
-The lost actions and items **Lost Reflect**, **Light Curtains** and **Lost Dispel** are required.
+   <span style="font-size: 24px;"> **The following Lost Actions are required**: </span>
 
-The fight against the **Stygimoloch Lord** features a lengthy adds phase in which players are required to use these actions to help destroy orbs spawned in the inner lane of the arena.
+   | <span style="font-size: 18px;"> Lost Action </span> | <span style="font-size: 18px;"> Usage </span> |
+   | :- | :-: |
+   | ![](/images/fieldops/drs-reflect.webp) **Lost Reflect** ![](/images/fieldops/drs-lightcurtain.webp) **Light Curtain** | There are **Ball of Fire** adds that must die to their own magic via **reflecting** their damage back to them. |
+   | ![](/images/fieldops/drs-dispel.webp) **Lost Dispel** | There are **Ball of Earth** adds that grant ^[Stoneskin] Stoneskin to itself, requiring players to remove it. |
 :::
 
 The **Stygimoloch Lord** begins with the following **looping** sequence of attacks until its HP reaches below **70%**:
@@ -921,7 +952,7 @@ After this adds phase, the **Stygimoloch Lord** will loop the following attacks 
 Upon being defeated, players can proceed to the final boss knowing she is now **vulnerable**.
 
 #### Boss 4 - The Queen
-<Action title='Boss 4 - The Queen' color='blue' href='https://i.imgur.com/w8vPF9q.png' />
+<Action title='Pocket Guide' color='blue' href='https://i.imgur.com/w8vPF9q.png' />
 
 **The Queen** is the final boss of **Delubrum Reginae (Savage)**. The **Queen's Guard** return to assist her in some mechanics, and she has a **hard enrage** at **9:30**.
 
@@ -931,6 +962,18 @@ Upon being defeated, players can proceed to the final boss knowing she is now **
    Raidwides from **The Queen** deal **significant damage**, each party's designated ^[Aetheric Mimicry: Tank] **Aethershield Tank** should mitigate every raidwide with ^[Lost Aethershield] **Lost Aethershield**. Additionally, all players should have ^[Lost Shell II] **Lost Shell** applied before combat for **extra survivability**.
 
    Additionally, **The Queen** will grant herself **dispellable buffs** upon her **Sovreignity Gauge** reaching **100**, and there are certain **adds** that must be destroyed by ^[Lost Reflect] **reflecting** an AoE.
+:::
+
+::: warning
+   <span style="font-size: 24px;"> **The following Lost Actions are required**: </span>
+
+   | <span style="font-size: 18px;"> Lost Action </span> | <span style="font-size: 18px;"> Usage </span> |
+   | :- | :-: |
+   | ![](/images/fieldops/drs-aethershield.webp) **Lost Aethershield** | Raidwides from **The Queen** deal **significant damage**, each party's designated ^[Aetheric Mimicry: Tank] **Aethershield Tank** should mitigate every raidwide with ^[Lost Aethershield] **Lost Aethershield**. |
+   | ![](/images/fieldops/drs-shell.webp) **Lost Shell II** | Raidwides from **The Queen** deal **significant damage**, all players should have ^[Lost Shell II] **Lost Shell II** applied before combat for **extra survivability**. |
+   | ![](/images/fieldops/drs-reflect.webp) **Lost Reflect** ![](/images/fieldops/drs-lightcurtain.webp) **Light Curtain** | There are **Ball  Lightning** adds that must die to their own magic via **reflecting** their damage back to them. |
+   | ![](/images/fieldops/drs-dispel.webp) **Lost Dispel** | **The Queen** will grant herself multiple ^[Physical Damage Up] ^[Magic Damage Up] ^[Critical Strikes] ^[Enthunder] **damage buffs** that must be dispelled. |
+
 :::
 
 **The Queen** will begin with the following sequence of attacks:
