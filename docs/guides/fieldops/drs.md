@@ -44,7 +44,7 @@ To obtain these, players must speak to the **Resistance Councilor** within **Zad
 - **Ray of Valor** - Increases damage dealt (**additive 3%** per stack).
 - **Ray of Succor** - Increases healing potency (**additive 10%** per stack).
 
-### Augmented Bozjan and Law's Order Sets
+### Augmented Bozjan & Law's Order Sets
 
 Augmented Bozjan and Law's Order sets are obtainable gear that increase the player's **Haste** stat while in **Save the Queen** zones, with each point reducing the GCD's cooldown by an **additive 1%**.
 
@@ -65,7 +65,7 @@ This guide will entail set ups and strategies for an **ANYPROG** run, meaning th
 
 Depending on **what** type of run it is and **who** is running it, the assigned roles and **Lost Actions** in the raid can **change considerably**. Please confirm the roles and **Lost Actions** with the raid leader's linked resources and be sure to ask questions if any player is unsure. <br> <br>
 
-<span style="font-size: 24px;"> New players are recommended to understand their [**required Lost Actions**](drs#set-up) and the mechanics of [**Boss 3 - Trinity Avowed**](drs#boss-3-trinity-avowed). </span>
+<span style="font-size: 24px;"> New players are recommended to understand their [**required Lost Actions**](https://docs.google.com/spreadsheets/d/1FSUu_NM2-OV_nR7CU1GlgrqYwdR46foryK7OXXXngfY/edit?gid=539765449#gid=539765449) and the mechanics of [**Boss 3 - Trinity Avowed**](drs#boss-3-trinity-avowed). </span>
 :::
 
 ### Pocket Guides
@@ -91,7 +91,7 @@ These pocket guides are helpful for players only after the **essentials** of eac
 ]"
 />
 
-### Lost Actions and Essences
+### Lost Actions & Essences
 
 Lost Actions, introduced in **The Bozjan Southern Front**, allow the use of **various and specialised actions** at any time that have powerful effects.
 
@@ -115,10 +115,40 @@ To see a complete table of Lost Actions, along with their effects and Forgotten 
 
 <Action title='Lost Actions List' color='purple' href='https://ffxiv.kmiwl.de/bozja/' />
 
-### Video Guides and Waymarks
+### Video Guides, POVs & Waymarks
 
 By Hobi
 @[](https://youtu.be/7froOoJiPDU)
+
+<ActionGroup
+:actions=" [
+{ title: 'Trash 1 - Slimes', color: 'purple', href: 'https://youtu.be/cdWfUxGf0l0' },
+{ title: 'Trash 1 - Golems', color: 'purple', href: 'https://youtu.be/0_w8aowgIJg' },
+{ title: 'Boss 1 - Trinity Seeker', color: 'purple', href: 'https://youtu.be/pBqXUQtC2xY' },
+]"
+/>
+
+<ActionGroup
+:actions=" [
+{ title: 'Trash 2 - Dahu', color: 'yellow', href: 'https://youtu.be/a9Z7NCzZWJM' },
+{ title: 'Duel - Stygimoloch Warrior', color: 'yellow', href: 'https://youtu.be/5Q0m1F0MKQQ' },
+{ title: 'Boss 2 - Queen\'s Guard', color: 'yellow', href: 'https://youtu.be/bgO7bYRin7Y' },
+]"
+/>
+
+<ActionGroup
+:actions=" [
+{ title: 'Trash 3 - Bozjan Phantom', color: 'red', href: 'https://youtu.be/dsi-JD-QH5k' },
+{ title: 'Boss 3 - Trinity Avowed', color: 'red', href: 'https://youtu.be/_brUf2XVlLY' },
+]"
+/>
+
+<ActionGroup
+:actions=" [
+{ title: 'Trash 4 - Stygimoloch Lord', color: 'blue', href: 'https://youtu.be/QNQaC0Z-HHs' },
+{ title: 'Boss 4 - The Queen', color: 'blue', href: 'https://youtu.be/U539StF6J5c' },
+]"
+/>
 
 Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can ask a friend to import them for you and save a copy for yourself.
 
@@ -130,12 +160,12 @@ Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can
 
 ::: details Trash 1 - Slimes & Golems & Boss 1 - Trinity Seeker
 
-**Trash 1 - Slimes & Golems**
+<span style="font-size: 18px;"> **Trash 1 - Slimes & Golems** </span>
 ``` waymarks
 {"Name":"Slimes/Golems","MapID":761,"A":{"X":-275.0,"Y":-31.0,"Z":423.493,"ID":0,"Active":true},"B":{"X":-275.055,"Y":-31.0,"Z":437.146,"ID":1,"Active":true},"C":{"X":315.032,"Y":48.999,"Z":403.795,"ID":2,"Active":true},"D":{"X":315.021,"Y":48.999,"Z":414.553,"ID":3,"Active":true},"One":{"X":-279.496,"Y":-31.0,"Z":428.012,"ID":4,"Active":true},"Two":{"X":-270.519,"Y":-31.0,"Z":428.007,"ID":5,"Active":true},"Three":{"X":-279.514,"Y":-31.0,"Z":432.586,"ID":6,"Active":true},"Four":{"X":-270.417,"Y":-31.0,"Z":432.659,"ID":7,"Active":true}}
 ```
 
-**Boss 1 - Trinity Seeker**
+<span style="font-size: 18px;"> **Boss 1 - Trinity Seeker** </span>
 ``` waymarks
 {"Name":"Seeker","MapID":761,"A":{"X":-7.188,"Y":8.0,"Z":258.233,"ID":0,"Active":true},"B":{"X":18.563,"Y":8.0,"Z":271.795,"ID":1,"Active":true},"C":{"X":6.768,"Y":7.999,"Z":297.671,"ID":2,"Active":true},"D":{"X":-18.302,"Y":7.999,"Z":284.493,"ID":3,"Active":true},"One":{"X":-7.302,"Y":8.0,"Z":270.484,"ID":4,"Active":true},"Two":{"X":7.301,"Y":7.999,"Z":270.975,"ID":5,"Active":true},"Three":{"X":7.219,"Y":7.999,"Z":285.182,"ID":6,"Active":true},"Four":{"X":-7.144,"Y":7.999,"Z":285.096,"ID":7,"Active":true}}
 ```
@@ -143,12 +173,12 @@ Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can
 
 ::: details Trash 2 - Dahu & Boss 2 - Queen's Guard
 
-**Trash 2 - Dahu**
+<span style="font-size: 18px;"> **Trash 2 - Dahu** </span>
 ``` waymarks
 {"Name":"Dahu","MapID":761,"A":{"X":-4.48,"Y":38.0,"Z":465.472,"ID":0,"Active":true},"B":{"X":-4.5,"Y":37.999,"Z":474.482,"ID":1,"Active":true},"C":{"X":7.334,"Y":37.999,"Z":465.295,"ID":2,"Active":true},"D":{"X":7.516,"Y":37.999,"Z":473.644,"ID":3,"Active":true},"One":{"X":-7.932,"Y":37.999,"Z":467.847,"ID":4,"Active":true},"Two":{"X":-1.248,"Y":38.0,"Z":468.054,"ID":5,"Active":true},"Three":{"X":-7.782,"Y":37.999,"Z":472.373,"ID":6,"Active":true},"Four":{"X":-1.148,"Y":38.0,"Z":472.462,"ID":7,"Active":true}}
 ```
 
-**Boss 2 - Queen's Guard**
+<span style="font-size: 18px;"> **Boss 2 - Queen's Guard** </span>
 ``` waymarks
 {"Name":"QG new","MapID":761,"A":{"X":244.095,"Y":-86.0,"Z":-173.0,"ID":0,"Active":true},"B":{"X":255.255,"Y":-86.0,"Z":-162.309,"ID":1,"Active":true},"C":{"X":244.095,"Y":-86.0,"Z":-152.47,"ID":2,"Active":true},"D":{"X":233.485,"Y":-86.0,"Z":-162.309,"ID":3,"Active":true},"One":{"X":232.621,"Y":-86.0,"Z":-173.218,"ID":4,"Active":true},"Two":{"X":255.425,"Y":-86.0,"Z":-173.218,"ID":5,"Active":true},"Three":{"X":255.425,"Y":-86.0,"Z":-150.455,"ID":6,"Active":true},"Four":{"X":232.621,"Y":-86.0,"Z":-150.455,"ID":7,"Active":true}}
 ```
@@ -156,12 +186,12 @@ Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can
 
 ::: details Trash 3 - Bozjan Phantom & Boss 3 - Trinity Avowed
 
-**Trash 3 - Bozjan Phantom**
+<span style="font-size: 18px;"> **Trash 3 - Bozjan Phantom** </span>
 ``` waymarks
 {"Name":"Phantom","MapID":761,"A":{"X":183.947,"Y":-96.999,"Z":-389.727,"ID":0,"Active":true},"B":{"X":195.884,"Y":-96.999,"Z":-390.592,"ID":1,"Active":true},"C":{"X":208.037,"Y":-96.999,"Z":-390.119,"ID":2,"Active":true},"D":{"X":219.958,"Y":-96.999,"Z":-391.045,"ID":3,"Active":true},"One":{"X":184.007,"Y":-96.999,"Z":-351.083,"ID":4,"Active":true},"Two":{"X":195.88,"Y":-96.999,"Z":-351.114,"ID":5,"Active":true},"Three":{"X":208.095,"Y":-96.999,"Z":-351.242,"ID":6,"Active":true},"Four":{"X":220.076,"Y":-96.999,"Z":-351.263,"ID":7,"Active":true}}
 ```
 
-**Boss 3 - Trinity Avowed**
+<span style="font-size: 18px;"> **Boss 3 - Trinity Avowed** </span>
 ``` waymarks
 {"Name":"TA","MapID":761,"A":{"X":-271.969,"Y":-182.0,"Z":-102.04,"ID":0,"Active":true},"B":{"X":-252.021,"Y":-182.0,"Z":-82.126,"ID":1,"Active":true},"C":{"X":-272.012,"Y":-182.0,"Z":-61.993,"ID":2,"Active":true},"D":{"X":-291.9,"Y":-182.0,"Z":-82.012,"ID":3,"Active":true},"One":{"X":-282.003,"Y":-182.0,"Z":-92.017,"ID":4,"Active":true},"Two":{"X":-272.067,"Y":-182.0,"Z":-92.053,"ID":5,"Active":true},"Three":{"X":-272.063,"Y":-182.0,"Z":-82.054,"ID":6,"Active":true},"Four":{"X":-281.973,"Y":-182.0,"Z":-81.996,"ID":7,"Active":true}}
 ```
@@ -169,14 +199,32 @@ Waymarks can be imported to the game using **Waymark Preset Plugin**, or you can
 
 ::: details Trash 4 - Stygimoloch Lord & Boss 4 - The Queen
 
-**Trash 4 - Stygimoloch Lord**
+<span style="font-size: 18px;"> **Trash 4 - Stygimoloch Lord** </span>
 ``` waymarks
 {"Name":"Mino Lord","MapID":761,"A":{"X":-426.153,"Y":-191.0,"Z":-194.456,"ID":0,"Active":true},"B":{"X":-405.747,"Y":-191.0,"Z":-194.293,"ID":1,"Active":true},"C":{"X":-405.816,"Y":-191.0,"Z":-173.724,"ID":2,"Active":true},"D":{"X":-426.258,"Y":-191.0,"Z":-173.785,"ID":3,"Active":true},"One":{"X":-415.859,"Y":-191.0,"Z":-211.895,"ID":4,"Active":true},"Two":{"X":-387.99,"Y":-191.0,"Z":-184.483,"ID":5,"Active":true},"Three":{"X":-416.005,"Y":-191.0,"Z":-156.455,"ID":6,"Active":true},"Four":{"X":-443.841,"Y":-191.0,"Z":-184.173,"ID":7,"Active":true}}
 ```
 
-**Boss 4 - The Queen**
+<span style="font-size: 18px;"> **Boss 4 - The Queen** </span>
+
+The markers used are up to the preference of the host, used for the purposes of calling the starting spots in **Super Chess**.
+
+**Diamond**
 ``` waymarks
-{"Name":"Cross Markers","MapID":761,"A":{"X":-292.0,"Y":-175.0,"Z":-415.0,"ID":0,"Active":true},"B":{"X":-282.0,"Y":-175.0,"Z":-415.0,"ID":1,"Active":true},"C":{"X":-262.0,"Y":-175.0,"Z":-415.0,"ID":2,"Active":true},"D":{"X":-252.0,"Y":-175.0,"Z":-415.0,"ID":3,"Active":true},"One":{"X":-272.0,"Y":-175.0,"Z":-435.0,"ID":4,"Active":true},"Two":{"X":-272.0,"Y":-175.0,"Z":-425.0,"ID":5,"Active":true},"Three":{"X":-272.0,"Y":-175.0,"Z":-405.0,"ID":6,"Active":true},"Four":{"X":-272.0,"Y":-175.0,"Z":-395.0,"ID":7,"Active":true}}
+{"Name":"Queen Diamond","MapID":761,"A":{"X":-271.985,"Y":-175.0,"Z":-434.975,"ID":0,"Active":true},"B":{"X":-252.069,"Y":-175.0,"Z":-414.976,"ID":1,"Active":true},"C":{"X":-272.015,"Y":-175.0,"Z":-395.076,"ID":2,"Active":true},"D":{"X":-292.007,"Y":-175.0,"Z":-415.049,"ID":3,"Active":true},"One":{"X":-282.039,"Y":-175.0,"Z":-425.148,"ID":4,"Active":true},"Two":{"X":-261.867,"Y":-175.0,"Z":-424.945,"ID":5,"Active":true},"Three":{"X":-262.048,"Y":-175.0,"Z":-404.942,"ID":6,"Active":true},"Four":{"X":-281.988,"Y":-175.0,"Z":-405.153,"ID":7,"Active":true}}
+```
+
+**Diagonal Left**
+``` waymarks
+{"Name":"Queen Diagonal LEFT","MapID":761,"A":{"X":-272.126,"Y":-175.0,"Z":-425.098,"ID":0,"Active":true},"B":{"X":-261.187,"Y":-175.0,"Z":-415.356,"ID":1,"Active":true},"C":{"X":-271.731,"Y":-175.0,"Z":-405.196,"ID":2,"Active":true},"D":{"X":-282.082,"Y":-175.0,"Z":-414.13,"ID":3,"Active":true},"One":{"X":-261.823,"Y":-175.0,"Z":-434.669,"ID":4,"Active":true},"Two":{"X":-252.664,"Y":-175.0,"Z":-425.568,"ID":5,"Active":true},"Three":{"X":-282.206,"Y":-175.0,"Z":-394.871,"ID":6,"Active":true},"Four":{"X":-291.952,"Y":-175.0,"Z":-405.53,"ID":7,"Active":true}}
+```
+
+**Cross**
+``` waymarks
+{"Name":"Queen Cross","MapID":761,"A":{"X":-292.0,"Y":-175.0,"Z":-415.0,"ID":0,"Active":true},"B":{"X":-282.0,"Y":-175.0,"Z":-415.0,"ID":1,"Active":true},"C":{"X":-262.0,"Y":-175.0,"Z":-415.0,"ID":2,"Active":true},"D":{"X":-252.0,"Y":-175.0,"Z":-415.0,"ID":3,"Active":true},"One":{"X":-272.0,"Y":-175.0,"Z":-435.0,"ID":4,"Active":true},"Two":{"X":-272.0,"Y":-175.0,"Z":-425.0,"ID":5,"Active":true},"Three":{"X":-272.0,"Y":-175.0,"Z":-405.0,"ID":6,"Active":true},"Four":{"X":-272.0,"Y":-175.0,"Z":-395.0,"ID":7,"Active":true}}```
+
+**Battleship**
+``` waymarks
+{"Name":"Queen Battleship","MapID":761,"A":{"X":-282.022,"Y":-175.0,"Z":-439.992,"ID":0,"Active":true},"B":{"X":-271.999,"Y":-175.0,"Z":-440.0,"ID":1,"Active":true},"C":{"X":-261.999,"Y":-175.0,"Z":-440.026,"ID":2,"Active":true},"D":{"X":-251.978,"Y":-175.0,"Z":-440.012,"ID":3,"Active":true},"One":{"X":-297.008,"Y":-175.0,"Z":-424.997,"ID":4,"Active":true},"Two":{"X":-296.92,"Y":-175.0,"Z":-414.966,"ID":5,"Active":true},"Three":{"X":-296.794,"Y":-175.0,"Z":-404.975,"ID":6,"Active":true},"Four":{"X":-296.613,"Y":-175.0,"Z":-394.994,"ID":7,"Active":true}}
 ```
 :::
 
@@ -235,7 +283,7 @@ Depending on the role, it's essential to have certain **Pure Essences** active a
 
 ### Encounters
 
-#### Trash 1 - Slimes and Golems
+#### Trash 1 - Slimes & Golems
 
 Slimes and Golems are the first trash encounter of **Delubrum Reginae (Savage)**. Despite being trash mobs, each alliance will need to **coordinate as a team** to successfully resolve their mechanics and open the way towards the first boss.
 
@@ -254,23 +302,28 @@ There are **3** types of traps within **Delubrum Reginae (Savage)**.
 **Most** traps are walked around with an exception for the **Mini Trap**, which is purposefully **popped** after **Trinity Avowed** to access the **Stygimoloch Lord**.
 
 ::: details Slimes
-<Action title='Pocket Guide' color='purple' href='https://i.imgur.com/Z8KN7VL.png' />
+<ActionGroup
+:actions=" [
+{ title: 'Pocket Guide', color: 'black', href: 'https://i.imgur.com/Z8KN7VL.png' },
+{ title: 'POV', color: 'black', href: 'https://youtu.be/cdWfUxGf0l0' },
+]"
+/>
 
 There are **3** different enemy types that players will have to deal with. The goal is to have **1 Viscuous Clot** explode and die on a button in each room.
 
-1. **Viscuous Clots**
+1. <span style="font-size: 18px;"> **Viscuous Clots** </span>
    - **Green** in colour.
    - Will **fuse** with other **Viscuous Clots** in close proximity, gaining a **stacking** increase in damage and health. Will explode at **5 stacks**.
    - Exploding (and dying) on green buttons will resolve their mechanic.
    - ^[Aetheric Mimicry: Tank] **4 Tanks** will take turns pulling slimes onto each **button** in their rooms, pulling **3 first**, **then 2** when it's their turn to pull slimes again.
    - ^[Aetheric Mimicry: Healer] **4 Healers** will pull **1 final slime** into each room after all tanks have finished pulling. They must **wait for the call** to merge this final slime into the ^[Aetheric Mimicry: Tank] **tanks'** slimes.
 
-2. **Sanguine Clots**
+2. <span style="font-size: 18px;"> **Sanguine Clots** </span>
    - **Red** in colour.
    - Will **fuse** with **Viscuous Clots** if left alone, causing a wipe.
    - ^[Aetheric Mimicry: DPS] **DPS** will pull and kill these immediately.
 
-3. **Bozjan Soldiers**
+3. <span style="font-size: 18px;"> **Bozjan Soldiers** </span>
    - Spawn in the North & South of the hallway.
    - Will occasionally do PB AoEs around itself.
    - **2 players** will pull **1** each and hold them where they spawned.
@@ -279,32 +332,40 @@ After the call to merge the final slime, each **Viscuous Clot**, each now at **5
 :::
 
 ::: details Golems
-<Action title='Pocket Guide' color='purple' href='https://i.imgur.com/gbC5FFX.png' />
+<ActionGroup
+:actions=" [
+{ title: 'Pocket Guide', color: 'black', href: 'https://i.imgur.com/gbC5FFX.png' },
+{ title: 'POV', color: 'black', href: 'https://youtu.be/0_w8aowgIJg' },
+]"
+/>
 
 There are **2** different enemy types that players will have to deal with. The goal is to have each **Bicolor Golem** die on a button with the same colour as itself.
 
-1. **Bicolor Golems**
+1. <span style="font-size: 18px;"> **Bicolor Golems** </span>
    - Uses **Metamorphosis**, an **interruptible** attack to change colours.
      - The order of colour changing is Blue > White > Green > Red > Blue...
-   - ^[Torrential Ruin] **Blue**
+   - <span style="font-size: 18px;"> ^[Torrential Ruin] **Blue** </span>
      - AoE tankbuster, inflicts a deadly **Esuna-able ^[Bleeding] DoT**.
      - ^[Aetheric Mimicry: Tank] **1 Tank** will pull this golem to the **SW** room and interrupt every **Metamorphosis** cast.
-     - ^[Aetheric Mimicry: Healer] **1 Healer** will watch the tank, cleansing their DoT and keeping them alive.
+     - ^[Aetheric Mimicry: Healer] **1 Healer** will watch the tank, keeping them alive and using **Esuna** to cleanse the **DoT**.
      - Killed **1st**
-   - ^[Subtle Ruin] **White**
+   - <span style="font-size: 18px;"> ^[Subtle Ruin] **White** </span>
      - Begins casting a full heal on itself upon reaching **30% HP**.
-     - ^[Aetheric Mimicry: Tank] **1 Tank** will pull a **Blue Golem** to the **SE** room, allow it to cast **Metamorphosis ONCE** and then interrupt every subsequent cast. Be aware that because it's morphing from a ^[Torrential Ruin] **Blue Golem**, players will need to deal with its **tankbuster** beforehand.
+     - ^[Aetheric Mimicry: Tank] **1 Tank** will pull a **Blue Golem** to the **SE** room, allow it to cast **Metamorphosis ONCE** and then interrupt every subsequent cast.
+      > ::: tank
+      > Because it's morphing from a ^[Torrential Ruin] **Blue Golem**, the ^[Aetheric Mimicry: Tank] **Tank** will also need to deal with its **tankbuster** beforehand. <br> <br> ^[Aetheric Mimicry: Healer] **Healers** should remember to use **Esuna** to remove the ^[Bleeding] **DoT**.
+      > :::
      - All damage cooldowns should be **held** until the **30%** threshold is passed.
      - Killed **2nd**
-   - ^[Avaricious Ruin] **Green**
+   - <span style="font-size: 18px;"> ^[Avaricious Ruin] **Green** </span>
      - Absorbs nearby **Ruin Golems**.
      - ^[Aetheric Mimicry: Tank] **1 Tank** will pull this golem to the **NE** room and interrupt every **Metamorphosis** cast.
      - Killed **3rd**.
-   - ^[Bloody Ruin] **Red**
+   - <span style="font-size: 18px;"> ^[Bloody Ruin] **Red** </span>
      - Tethers to the **1st** player that **deals damage** to them and **chases** them, doing heavy autos in melee range.
      - ^[Aetheric Mimicry: Tank] **1 Tank** will pull a **Green Golem** to the **NW** room, allow it to cast **Metamorphosis ONCE** and then hit it with an attack and **kite** it around the room. When the **Slimes** players make the call, this tank will pull the **Red Golem** onto the button and use their **invulnerability** while everyone else burns it down.
      - ^[Aetheric Mimicry: DPS] **1 Phys. Ranged DPS** will let the **Green Golem** cast **Metamorphosis ONCE** and then interrupt every subsequent cast.
-2. **Ruin Golems**
+2. <span style="font-size: 18px;"> **Ruin Golems** </span>
    - Spawn in the North & South of the hallway.
    - Tether to the **1st** player that deals damage to them.
    - Casts a small raidwide inflicting ^[Thrice-come Ruin] **Thrice-come Ruin** if not killed in time.
@@ -312,7 +373,12 @@ There are **2** different enemy types that players will have to deal with. The g
 :::
 
 #### Boss 1 - Trinity Seeker
-<Action title='Pocket Guide' color='purple' href='https://i.imgur.com/30IA9YC.png' />
+<ActionGroup
+:actions=" [
+{ title: 'Pocket Guide', color: 'purple', href: 'https://i.imgur.com/gbC5FFX.png' },
+{ title: 'POV', color: 'purple', href: 'https://youtu.be/pBqXUQtC2xY' },
+]"
+/>
 
 **Trinity Seeker** is the very first boss of **Delubrum Reginae (Savage)**. While not much changes from its **Normal** version, there is still a **hard enrage** at **9:50** if none of its attacks are skipped.
 
@@ -324,12 +390,12 @@ There are **2** different enemy types that players will have to deal with. The g
 3. **First -> Fourth Mercy** - **1** of its **4 swords** will glow on each cast, indicating a **180°** cleave in that direction.
 4. **Fourfold Mercy** - Each sword will perform its **180°** cleave in the order indicated by **First -> Fourth Mercy**.
 ![](/images/fieldops/drs-fourfold.webp)
-5. **Seasons of Mercy (Clone)** - **2** grid line AoEs will spawn back to back requiring players to dodge.
+1. **Seasons of Mercy (Clone)** - **2** grid line AoEs will spawn back to back requiring players to dodge.
    - A gray orb spawns on an intercardinal and performs a **gaze**. Players must **look away** from it.
    - A pink circle AoE spawns on another intercardinal and massively **grows** in size right before resolving. Players must **run away** from where it spawns.
 ![](/images/fieldops/drs-seasons.webp)
-6. **Verdant Tempest**
-7. **Merciful Arc** - Solo tankbuster targeted on Main Tank.
+1. **Verdant Tempest**
+2. **Merciful Arc** - Solo tankbuster targeted on Main Tank.
 :::
 
 Upon using **Merciful Arc** or falling below **80%**, it will transition into its next sequence of attacks.
@@ -435,6 +501,7 @@ Upon using **Seasons of Mercy** during its **Katanas** phase, it will transition
 If **Trinity Seeker** is not killed before this point, it will cast a **hard enrage**, wiping the raid.
 
 #### Trash 2 - Dahu
+<Action title='POV' color='yellow' href='https://youtu.be/a9Z7NCzZWJM' />
 
 **Dahu** is the **2nd** trash encounter of **Delubrum Reginae (Savage)**. It has no enrage and will repeat mechanics until it is dead.
 
@@ -478,6 +545,7 @@ After **Firebreathe x5**, **Crowned Marchosias** adds will spawn in **3** waves 
 From here, **Dahu's** rotation will **loop** until it is killed.
 
 #### Duel - Stygimoloch Warrior
+<Action title='POV' color='yellow' href='https://youtu.be/5Q0m1F0MKQQ' />
 
 The **Stygimoloch Warrior** is a special **duel** that only **1 player** out of the entire raid group may undertake. Defeating it rewards the player with ^[Pride of the Lioness] **Pride of the Lioness**, a buff that doubles the player's **damage dealt** and increases their **Maximum HP**, **Physical** and **Magical Defence**.
 
@@ -485,7 +553,7 @@ The **Stygimoloch Warrior** is a special **duel** that only **1 player** out of 
    <span style="font-size: 24px;"> **The following Lost Actions are required**: </span>
 
    | <span style="font-size: 18px;"> Lost Action </span> | <span style="font-size: 18px;"> Usage </span> |
-   | -: | :-: |
+   | :- | :-: |
    | ![](/images/fieldops/drs-perception.webp) **Lost Perception** | There are **hidden traps** near the entrance and exit of the teleporters, and the **Stygimoloch Warrior** uses **hidden traps** as part of its mechanics. |
    | ![](/images/fieldops/drs-dispel.webp) **Lost Dispel** | The **Stygimoloch Warrior** occasionally grants itself a ^[Damage Up] **Damage Up buff** throughout the fight. |
 :::
@@ -543,7 +611,12 @@ From here, the boss will repeat **Surge of Vigor**, **Unrelenting Charge** and a
 If the duelist is successful in slaying the **Stygimoloch Warrior**, they can claim their ^[Pride of the Lioness] buff from the **glowing lioness statue** beyond the arena. Near the exit teleporter, there is one final trap. Be sure to use **Lost Perception** to avoid being caught by surprise.
 
 #### Boss 2 - Queen's Guard
-<Action title='Boss 2 - Queen&#39;s Guard' color='yellow' href='https://i.imgur.com/qMbqXYf.png' />
+<ActionGroup
+:actions=" [
+{ title: 'Pocket Guide', color: 'yellow', href: 'https://i.imgur.com/qMbqXYf.png' },
+{ title: 'POV', color: 'yellow', href: 'https://youtu.be/bgO7bYRin7Y' },
+]"
+/>
 
 The **Queen's Guard** are the **2nd major boss** in **Delubrum Reginae (Savage)**. There are **3** major phases, each with **hard enrages** should they not be defeated in time.
 
@@ -552,7 +625,7 @@ The **Queen's Guard** are the **2nd major boss** in **Delubrum Reginae (Savage)*
 
    | <span style="font-size: 18px;"> Lost Action </span> | <span style="font-size: 18px;"> Usage </span> |
    | :- | :-: |
-   | ![](/images/fieldops/drs-forgesting.webp) **Lost Spellforge** <br> + **Lost Steelsting** | The **Queen's Guard** buff themselves defencively to nullify **all physical** or **magical** damage, requiring players to deal damage of the opposite type. |
+   | ![](/images/fieldops/drs-forgesting.webp) **Lost Spellforge** <br> + **Lost Steelsting** | The **Queen's Guard** buff themselves defensively to nullify **all physical** or **magical** damage, requiring players to deal damage of the opposite type. |
    | ![](/images/fieldops/drs-dispel.webp) **Lost Dispel** | The **Warrior** will grant itself a ^[Boosted] **damage buff** that must be dispelled. |
    | ![](/images/fieldops/drs-reflect.webp) **Lost Reflect** ![](/images/fieldops/drs-lightcurtain.webp) **Light Curtain** | There are **Spiritual Sphere** adds that must die to their own magic via **reflecting** their damage back to them. |
 :::
@@ -695,6 +768,7 @@ Additionally there are **2 waves** of **Spheres** that appear in the arena, with
 ![](/images/fieldops/drs-spheres.webp)
 
 #### Trash 3 - Bozjan Phantom
+<Action title='POV' color='red' href='https://youtu.be/dsi-JD-QH5k' />
 
 The **Bozjan Phantom** is the **3rd** trash encounter of **Delubrum Reginae (Savage)**. It has no **enrage** and will repeat mechanics until it is dead.
 
@@ -734,7 +808,12 @@ Players should be aware of the **hidden traps** in the forthcoming hallways, and
 ![](/images/fieldops/drs-trinitymap.webp)
 
 #### Boss 3 - Trinity Avowed
-<Action title='Pocket Guide' color='red' href='https://i.imgur.com/mhrFsoA.png' />
+<ActionGroup
+:actions=" [
+{ title: 'Pocket Guide', color: 'red', href: 'https://i.imgur.com/mhrFsoA.png' },
+{ title: 'POV', color: 'red', href: 'https://youtu.be/_brUf2XVlLY' },
+]"
+/>
 
 **Trinity Avowed** is the **3rd major boss** in **Delubrum Reginae (Savage)**. There are **2 major phases** with **3 mini-phases** each. It has a **hard enrage** at **9:00**.
 
@@ -840,7 +919,8 @@ The **Temperature goal** of this **mini-phase** is to find the meteor that will 
 
 The **Temperature goal** of this **mini-phase** is to find the arrow that will help players reach a ^[Running Cold: -2] ^[Running Cold: -1] ^[Running Hot: +1] ^[Running Hot: +2] **Temperature** opposite of their ^[Cold Brand: -2] ^[Cold Brand: -1] ^[Hot Brand: +1] ^[Hot Brand: +2] **Brand**, playing the "**ladder game**" again. Once players have found their square, they must aim their ^[Forced March] **Forced March** to walk into that square. The distance of the ^[Forced March] **Forced March** remains at **2 tiles**.
 
-8. **Glory of Bozja** - ^[Lost Aethershield] **Use Lost Aethershield**.
+9. **Glory of Bozja** - ^[Lost Aethershield] **Use Lost Aethershield**.
+10. **Wrath of Bozja**
 :::
 
 ::: details Sword 2
@@ -859,7 +939,12 @@ The **Temperature goal** of this **mini-phase** is to determine the **safe squar
 After **all 6 mini-phases** have concluded, **Trinity Avowed** will close out with its **hard enrage** at **9:00**.
 
 #### Trash 4 - Stygimoloch Lord
-<Action title='Pocket Guide' color='blue' href='https://i.imgur.com/TMhRqLS.png' />
+<ActionGroup
+:actions=" [
+{ title: 'Pocket Guide', color: 'blue', href: 'https://i.imgur.com/TMhRqLS.png' },
+{ title: 'POV', color: 'blue', href: 'https://youtu.be/QNQaC0Z-HHs' },
+]"
+/>
 
 The **Stygimoloch Lord** is the final trash encounter of **Delubrum Reginae (Savage)**. While alive, it applies ^[Royal Favor] **Royal Favor** to **The Queen**, preventing her from dropping below **1HP** and making all damage she deals **highly lethal**.
 
@@ -952,17 +1037,14 @@ After this adds phase, the **Stygimoloch Lord** will loop the following attacks 
 Upon being defeated, players can proceed to the final boss knowing she is now **vulnerable**.
 
 #### Boss 4 - The Queen
-<Action title='Pocket Guide' color='blue' href='https://i.imgur.com/w8vPF9q.png' />
+<ActionGroup
+:actions=" [
+{ title: 'Pocket Guide', color: 'blue', href: 'https://i.imgur.com/w8vPF9q.png' },
+{ title: 'POV', color: 'blue', href: 'https://youtu.be/U539StF6J5c' },
+]"
+/>
 
 **The Queen** is the final boss of **Delubrum Reginae (Savage)**. The **Queen's Guard** return to assist her in some mechanics, and she has a **hard enrage** at **9:30**.
-
-::: warning
-   The following Lost Actions and items **Lost Aethershield**, **Lost Shell II**, **Light Curtains** and **Lost Dispel** are required.
-
-   Raidwides from **The Queen** deal **significant damage**, each party's designated ^[Aetheric Mimicry: Tank] **Aethershield Tank** should mitigate every raidwide with ^[Lost Aethershield] **Lost Aethershield**. Additionally, all players should have ^[Lost Shell II] **Lost Shell** applied before combat for **extra survivability**.
-
-   Additionally, **The Queen** will grant herself **dispellable buffs** upon her **Sovreignity Gauge** reaching **100**, and there are certain **adds** that must be destroyed by ^[Lost Reflect] **reflecting** an AoE.
-:::
 
 ::: warning
    <span style="font-size: 24px;"> **The following Lost Actions are required**: </span>
@@ -973,7 +1055,6 @@ Upon being defeated, players can proceed to the final boss knowing she is now **
    | ![](/images/fieldops/drs-shell.webp) **Lost Shell II** | Raidwides from **The Queen** deal **significant damage**, all players should have ^[Lost Shell II] **Lost Shell II** applied before combat for **extra survivability**. |
    | ![](/images/fieldops/drs-reflect.webp) **Lost Reflect** ![](/images/fieldops/drs-lightcurtain.webp) **Light Curtain** | There are **Ball  Lightning** adds that must die to their own magic via **reflecting** their damage back to them. |
    | ![](/images/fieldops/drs-dispel.webp) **Lost Dispel** | **The Queen** will grant herself multiple ^[Physical Damage Up] ^[Magic Damage Up] ^[Critical Strikes] ^[Enthunder] **damage buffs** that must be dispelled. |
-
 :::
 
 **The Queen** will begin with the following sequence of attacks:
