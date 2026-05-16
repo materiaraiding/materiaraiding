@@ -28,6 +28,9 @@ discussionLink: https://discord.com/channels/895516967543390249/1011883681222234
 　　MT D1 D2 ST　　　　 　　F B B F 
 　　D3 H1 H2 D4　　　※F = Front | B = Back
 ```
+## Video Guide
+By Kobe
+@[](https://youtu.be/wgnXFCx_7Eo)
 
 ## Strategies
 
