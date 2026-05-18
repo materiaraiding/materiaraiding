@@ -23,6 +23,10 @@ Projection of Turmoil - Bagel (braindead) Strat
     N <-D1 D2 H1 H2 D3 D4-> S 
 ```
 
+## Video Guide
+By Kobe
+@[](https://youtu.be/biEr7lUduZo)
+
 ## Strategies
 
 ### Drum of Vollok
