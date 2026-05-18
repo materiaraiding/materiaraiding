@@ -29,8 +29,12 @@ discussionLink: https://discord.com/channels/895516967543390249/1011883681222234
 　　West：G1　　East：G2
 ■ Skyruin：Ice (Fire+Ice)
 　　NW → MT　　NE → ST
-　　Stacks：West→H1 D1 D3　East→H2 D2 D4 
+　　Stacks：West→H1 D1 D3　East→H2 D2 D4
 ```
+
+## Video Guide
+By Kobe
+@[](https://youtu.be/ho9L-3ZnkFw)
 
 ## Waymarks
 
