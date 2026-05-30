@@ -19,3 +19,9 @@ To save you time, we have compiled a set of premade Raidplan Templates you can u
 - [E11S Arena](https://raidplan.io/plan/V1Vq6mL-hSIi2mt7)
 - [E12S Arena](https://raidplan.io/plan/L2KosYv5oRE_mJuA)
 - [E12S2 Arena](https://raidplan.io/plan/caKkTOZerHzUhNdR)
+
+### DMU
+
+- [O8S Arena](https://raidplan.io/plan/eqcfxkbcxr2hyhyw)
+- [O8S2A Arena](https://raidplan.io/plan/dhzr92a3se5updbk)
+- [O8S2B Arena](https://raidplan.io/plan/y6uegfqqap9aujdq)
