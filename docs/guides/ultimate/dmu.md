@@ -21,7 +21,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 
 <ActionGroup
     :actions=" [
-        { title: 'Phase 1: Kefka (incomplete)', color: 'pink', href: 'https://raidplan.io/plan/WTwMeXxyjEv_UugX' }
+        { title: 'Phase 1: Kefka (to be fully tested)', color: 'pink', href: 'https://raidplan.io/plan/BCd8L1CiFV-80hru' }
     ]"
 />
 
@@ -82,8 +82,6 @@ All players will line up a conga-line as shown in the image below (see toolbox f
 
 During the laser castbar, Kefka will cast **Double-Trouble Trap**. This will target a player from each role group and acts as a 4 person **enumeration(?) stack** that will knockback all non-debuff players away from the debuff player. Once the debuff goes off it will transfer to another random non-debuff player that was hit. This will propagate 3 times, the debuff lasting for 3s, 80s, and 50s.
 
-~~As of right now it's unclear what this mechanic is for, as it simply disappears after the third "pass". We could potentially have to somehow carry this debuff into later phases but its unclear.~~
-
 The debuff player will stand at max melee and the players of the same role will stand in front of them to be knocked through Kefka and across the arena.
 
 Just before this knockback resolves, Kefka will begin to cast another **Mystery Magic**. He will telegraph the same ice quadrant cleaves from earlier, as well as two parallel **lightning** AOEs.
@@ -109,7 +107,7 @@ Immediately following this Kefka will cast another Revolting Ruin III. The tank 
 
 The statue will then indicate and resolve either a East/West cleave before tethering everyone again. These tethers are solved by placing the bubble directly in front of the first bubble. The spreads are resolved the same.
 
-As the last spread resolves the Statue will indicate another East/West cleave. Because the 2nd **Double-Trouble Trap** is coming up, all DPS players will stack North of Kefka, and Supports South. The debuff player should stand closer to Kefka to launch each light party into the bubbles to soak them.
+As the last spread resolves the Statue will indicate another East/West cleave. Because the 2nd **Double-Trouble Trap** is coming up, all DPS players will stack inside Kefka's hitbox to the North, and Supports South. The debuff player should stand closer to Kefka to launch each light party into the bubbles to soak them.
 
 ::: info NOTE
 The soak window for the bubbles is quite small. They cannot be soaked outside of the window just after the KB goes off.
