@@ -11,17 +11,14 @@ authors: [Juno, Pipiro, MUR]
 discussionLink:
 ---
 
-## Foreword
-
-This is a template for the upcoming ultimate raid. It will be added to as more information is learned throughout prog.
-
 ## Toolbox/Raidplan
 
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
 <ActionGroup
     :actions=" [
-        { title: 'Phase 1: Kefka (incomplete)', color: 'pink', href: 'https://raidplan.io/plan/WTwMeXxyjEv_UugX' }
+        { title: 'Phase 1: Kefka (to be fully tested)', color: 'pink', href: 'https://raidplan.io/plan/BCd8L1CiFV-80hru' },
+        { title: 'Phase 2: God Kefka (W.I.P)', color: 'blue', href: 'https://raidplan.io/plan/YLTg5zd8jWGDxI9s'}
     ]"
 />
 
@@ -31,7 +28,13 @@ Videos covering clears by different roles.
 
 ## Mitigation Plan
 
-Mitigation Plan Spreadsheet
+By Ikuya Kirishima
+
+::: warning IMPORTANT
+The mit sheets is **NOT** intended to be taken as gospel, but rather a general guideline to how you can set up your CDs through the fight. **Talk with your party** and work out what CD timings you are using together.
+
+[**I understand, take me to the mit sheet**](https://docs.google.com/spreadsheets/d/10C3ytfH3irHqkb45rchIq5oqdAs-v_OKTj57M-Twi3k/edit?usp=sharing)
+:::
 
 ## Macros
 
@@ -82,8 +85,6 @@ All players will line up a conga-line as shown in the image below (see toolbox f
 
 During the laser castbar, Kefka will cast **Double-Trouble Trap**. This will target a player from each role group and acts as a 4 person **enumeration(?) stack** that will knockback all non-debuff players away from the debuff player. Once the debuff goes off it will transfer to another random non-debuff player that was hit. This will propagate 3 times, the debuff lasting for 3s, 80s, and 50s.
 
-~~As of right now it's unclear what this mechanic is for, as it simply disappears after the third "pass". We could potentially have to somehow carry this debuff into later phases but its unclear.~~
-
 The debuff player will stand at max melee and the players of the same role will stand in front of them to be knocked through Kefka and across the arena.
 
 Just before this knockback resolves, Kefka will begin to cast another **Mystery Magic**. He will telegraph the same ice quadrant cleaves from earlier, as well as two parallel **lightning** AOEs.
@@ -103,13 +104,13 @@ At the same time as these tethers Kefka will yet again telegraph another fake/re
 
 To resolve this mechanic we have light party 1 (MT/H1/D1/D3) stack all their tethers North and light party 2 (ST/H2/D2/D4) South, noting which role has the spread tether.
 
-Each light party will take their stack at the very edge of the arena. The ranged spread players will then rotate CCW and the melee players will rotate CW to take their spread, whilst all non-spread players will stack behind Kefka.
+Each light party will take their stack at the very edge of the arena. The ranged players will rotate CCW regardless if they have spread or not, and the melees will spread around Kefka.
 
 Immediately following this Kefka will cast another Revolting Ruin III. The tank will take this north and the party will stay stacked South.
 
-The statue will then indicate and resolve either a East/West cleave before tethering everyone again. These tethers are solved by placing the bubble directly in front of the first bubble. The spreads are resolved the same.
+The statue will then indicate and resolve either a East/West cleave before tethering everyone again. These tethers are solved by placing the bubble directly in front of the first bubble. The spreads are resolved the same as the first time, however the melee players should make sure that the tethers are **East/West** of Kefka to avoid clipping a bubble..
 
-As the last spread resolves the Statue will indicate another East/West cleave. Because the 2nd **Double-Trouble Trap** is coming up, all DPS players will stack North of Kefka, and Supports South. The debuff player should stand closer to Kefka to launch each light party into the bubbles to soak them.
+As the last spread resolves the Statue will indicate another East/West cleave. Because the 2nd **Double-Trouble Trap** is coming up, all Support players will stack inside Kefka's hitbox to the North, and DPS South. The debuff player should stand closer to Kefka to launch each light party into the bubbles to soak them.
 
 ::: info NOTE
 The soak window for the bubbles is quite small. They cannot be soaked outside of the window just after the KB goes off.
@@ -131,14 +132,20 @@ All mixed debuff players will have to place their arrows in such a way to form a
 
 ![](\images\ultimate\dmu-arrows.webp)
 
+Once again we will resolve the **Double-Trouble Trap** by having the Support players take their knockback from the South-East, and the DPS South-East.
+
 The Statue will then tether each role seperately once more. **Left (yellow)** will inflict each player with a **confused** debuff and right (purple) will inflict each player with a small AOE and a **sleep** debuff.
 
 To resolve this, we have MT/D1 North, H2/D4 East, ST/D2 South, and H1/D3 West. The yellow tether/confused players will stand just in front of the teleporter pad corresponding with their cardinal (such that they will be forced to walk along all 4)The purple tether/sleep players will stand on the bosses hitbox **behind the teleporter pad** on their cardinal. This will result in the confused player being unable to reach and auto-attack the sleep player because they will be teleported along each pad.
 
 Kefka will then cast one more **Mystery Magic**, telegraphing the same lightning AOEs as before and spread/stack markers on each role group. In addition, the Statue will also cast a real/fake gaze.
 
-DPS players will stack/spread North of Kefka, and the support players will stack/spread South of Kefka.
+Support players will stack/spread North of Kefka, and the DPS players will stack/spread South of Kefka.
 
 If Kefka is below 15% HP at this point he will then transition to Phase 2.
 
 If above 15%, Kefka will then become untargetable and cast a final **Light of Judgement** that wipes the raid.
+
+## Phase 2
+
+W.I.P

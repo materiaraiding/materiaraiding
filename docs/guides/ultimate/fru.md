@@ -7,12 +7,13 @@ banner: /images/banners/FRU.webp
 difficulty: Ultimate
 expansion: Dawntrail
 image: fru-gaia.webp
-authors: [ Juno, Em, Pipiro, Kobe, Pham, Ikuya, Ellie, Tomosys ]
+authors: [Juno, Em, Pipiro, Kobe, Pham, Ikuya, Ellie, Tomosys]
 discussionLink: https://discord.com/channels/944115415385247784/1303228301015384106
 glossary: FRU
 ---
 
 ## Toolbox/Raidplan
+
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
 <ActionGroup
@@ -38,7 +39,6 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-
 <ActionGroup
 :actions="[
 { title: 'P3 - Ultimate Relativity', color: 'purple', href: 'https://raidplan.io/plan/oYnDQe4ZbVaoxA5r' },
@@ -46,14 +46,12 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 ]"
 />
 
-
 <ActionGroup
 :actions="[
 { title: 'P4 - Darklit Dragonsong', color: 'green', href: 'https://raidplan.io/plan/pcrbL0iqrAYMKFV3' },
 { title: 'P4 - Crystallize Time', color: 'green', href: 'https://raidplan.io/plan/GIXItxnLI2MJma73' },
 ]"
 />
-
 
 <ActionGroup
 :actions="[
@@ -115,6 +113,7 @@ P5: Polarizing Swap Order: TMRH
 :::
 
 ## PoV Videos
+
 PoV Videos provided by Materia Ultimate Raiding
 
 <ActionGroup
@@ -151,8 +150,10 @@ These can be imported using an XIV Launcher Plugin.
 ![](/images/ultimate/fru-waymarks.webp)
 
 ## Buff Timings
+
 :::: timing-window
 ::: burst
+
 - P1 Opener
 - P1 After Tether 2
 - P2 Mirror Mirror
@@ -162,15 +163,16 @@ These can be imported using an XIV Launcher Plugin.
 - P5 Start
 - P5 Second Exas
 - P5 End
-:::
+  :::
 
 ::: pot
+
 - P1 Opener (or P2 if excess damage)
 - Intermission (or P3 if excess damage)
 - P4 Darklit when Gaia Spawns
 - P5 Second Exas
-:::
-::::
+  :::
+  ::::
 
 ## Written Guide
 
@@ -227,13 +229,13 @@ If the person opposite you walks in, **you must walk in as well, even if your cl
 
 ![](/images/ultimate/fru-utopiansky2.webp)
 
-This will result in 2 people remaining on the wall and subsequently form a small triangular safe spot. 
+This will result in 2 people remaining on the wall and subsequently form a small triangular safe spot.
 
 Light party 1 will take any safe spot from SW - N
 
 Light party 2 will take any safe spot from NE - S
 
-After arriving at the safespot, the party will either stack or spread. The spread can be seen in the image below. 
+After arriving at the safespot, the party will either stack or spread. The spread can be seen in the image below.
 The DPS can move 3.5 notches from the star on the arena edge to determine a safe distance from the healer.
 
 ![](/images/ultimate/fru-utopiansky3.webp)
@@ -243,13 +245,13 @@ The DPS can move 3.5 notches from the star on the arena edge to determine a safe
 
 After the spreads or stacks resolve, Fatebreaker will drop into the middle of the room **untargetable** and begin to cast another aspected Cyclonic Break. Another Lightning Aspected Fatebreaker clone will spawn on the West of the arena casting Burnt Strike. As the proteans resolve, another clone will spawn in the middle of the arena that is either Fire or Lightning Aspected. What is **NOT** aspected here will be the safespot in the upcoming mechanic.
 
-Immediately following the Cyclonic Break, players will either move North or South to avoid the Burnt Strike. 
+Immediately following the Cyclonic Break, players will either move North or South to avoid the Burnt Strike.
 
 So far, I've seen light party 1 move north, and light party 2 move south to make the adjust for tethers easier (this may change due to movement for D1/D4 but also downtime lmao)
 
 Once the partner stack/spread is resolved it is possible to make your way North/South **while** dodging proteans.
 
-To the north, a Fire Aspected clone will begin to cast Burnt Strike. At the same time, two random players will be targeted for light party stacks via a **Bound of Faith** cast. 
+To the north, a Fire Aspected clone will begin to cast Burnt Strike. At the same time, two random players will be targeted for light party stacks via a **Bound of Faith** cast.
 
 Light party 1 will move slightly to the north, and Light party 2 will move slightly to the south. If a swap is required, the priority for the tether that is swapping light party is **TMRH**. The opposite melee TANK will always flex across to match this movement.
 
@@ -275,11 +277,11 @@ All the tethers here are randomized. It is entirely possible to get all one colo
 
 These tethers are slightly different to the previous Bound of Faith mechanics in that **Fire** tethers will launch a large conal light party stack at the nearest player, whilst **Lightning** tethers will launch 3 large conal AOEs on the nearest players.
 
-To resolve this, the party will line up south of Fatebreaker. As the tethers are placed, the 1st and 3rd tether will go to the West of Fatebreaker, and 2nd and 4th tether will go to the East of Fatebreaker. 
+To resolve this, the party will line up south of Fatebreaker. As the tethers are placed, the 1st and 3rd tether will go to the West of Fatebreaker, and 2nd and 4th tether will go to the East of Fatebreaker.
 
 The 1st and 2nd tethers will start by placing themselves on the hitbox of the boss, with the 3rd and 4th tethers slightly outside the hitbox in front of them.
 
-The remaining 4 non-tether players will split evenly so West/East both have 4 players. 
+The remaining 4 non-tether players will split evenly so West/East both have 4 players.
 
 The two most west players will move to the west group and the two most east players will move to the east group.
 
@@ -327,7 +329,7 @@ Phase 2 begins with a tankbuster **Quadruple Slap**, before starting the first m
 #### Diamond Dust
 
 ::: tip
-There are two common strats used here in OCE, *Colour Partners* and *Relative North*, make sure you confirm which strat your party plans to use first.
+There are two common strats used here in OCE, _Colour Partners_ and _Relative North_, make sure you confirm which strat your party plans to use first.
 :::
 
 ::: details Relative North Strat
@@ -336,7 +338,7 @@ There are two common strats used here in OCE, *Colour Partners* and *Relative No
 
 @[](https://youtu.be/DFcK39CELEw)
 
-After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena. 
+After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena.
 (clarification on clone here)
 
 These will be followed by another 6 AOEs that fill the edge of the arena but only the first 2 are important and the rest can be ignored.
@@ -359,10 +361,9 @@ Because the AOEs are role based we split into ranged/melee partners for the foll
 
 ::: details Colour Partners Strat
 
-
 <Action title='P2 - Diamond Dust - Colour Partners' color='blue' href='https://raidplan.io/plan/PPYgcTqAr4DXZE50' />
 
-After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena. 
+After spawning a clone of herself, and flashbanging your monitor, Shiva will rise into the air and spawn 2 large AOEs opposite each other on the edge of the arena.
 
 (clarification on clone here needed)
 
@@ -396,7 +397,7 @@ Sometimes as a protean player, your colour waymark may be inside one of the firs
 
 ### Scythe Kick
 
-For Scythe Kick, Shiva will begin by shouting **"Reap"**. Players will find their waymark and immediately move into the positions as shown in the image below. 
+For Scythe Kick, Shiva will begin by shouting **"Reap"**. Players will find their waymark and immediately move into the positions as shown in the image below.
 
 (image)
 
@@ -412,7 +413,7 @@ Moving slightly closer to the wall after your KB can help alleviate some poor AO
 
 <Action title='P2 - Silence/Stillness' color='blue' href='https://raidplan.io/plan/sbGvvKgbVlTjJLqe' />
 
-Just after the AOEs are dropped, players should identify **where** the clone of Shiva is (she'll be wearing a white outfit instead of Shiva's blueish armour), as this is where **real** Shiva will be later. 
+Just after the AOEs are dropped, players should identify **where** the clone of Shiva is (she'll be wearing a white outfit instead of Shiva's blueish armour), as this is where **real** Shiva will be later.
 
 Each light party will be taking stacks that leave a bleed puddle. We want both light parties to leave these puddles in desirable positions, and set up each party for favourable movement in the upcoming mechanic.
 
@@ -422,7 +423,7 @@ Lightparties will rotate clockwise along the edge of the arena whilst dropping t
 
 Light parties will always rotate CW along the wall UNLESS the Shiva clone is directly 45 Degrees CW of your starting position, in which case your light party will rotate CCW.
 
-After dropping 4 puddles, the Shiva clone (outside the arena) will cast **Redress**, requiring each player to look away less they be stunned. 
+After dropping 4 puddles, the Shiva clone (outside the arena) will cast **Redress**, requiring each player to look away less they be stunned.
 
 ::: tip
 There is a short period where you finish dropping your puddles and can move before the gaze goes off, allowing you to either get behind or directly across from the Shiva clone.
@@ -440,7 +441,7 @@ OR
 
 **Twin Silence** and say, **"Sink into Silence"**, which is a small cleave that covers the wedge of arena behind her.
 
-Immediately after she will cast the opposite, requiring players to slide across the arena into the opposite safe spot. 
+Immediately after she will cast the opposite, requiring players to slide across the arena into the opposite safe spot.
 
 ::: warning
 This snapshot for the second cleave is INCREDIBLY unforgiving. I recommend watching your enmity list and sliding the second you see the first cast finish.
@@ -530,9 +531,9 @@ All players will spread as seen in the image below and close to the centre of th
 
 ![](/images/ultimate/fru-intermission.webp)
 
-Ryne will become frozen in an **Ice Veil** in the centre of the arena, and 8 Crystals will spawn around the arena. 
+Ryne will become frozen in an **Ice Veil** in the centre of the arena, and 8 Crystals will spawn around the arena.
 
-There will be 4 **Crystals of Light** on Cardinals and 4 **Crystals of Dark** on Intercardinals. 
+There will be 4 **Crystals of Light** on Cardinals and 4 **Crystals of Dark** on Intercardinals.
 
 Melee players will begin to attack the Light Crystal on their spread position, and Range players will attack the Light Crystals adjacent to them (attacking the **clockwise** one first).
 
@@ -540,7 +541,7 @@ Melee players will begin to attack the Light Crystal on their spread position, a
 
 As the party begins attacking these Crystals, **Light Crystals** will target the nearest player with a circle AOE and **Dark Crystals** will target the nearest player with a protean AOE. These AOEs will be baited by the player who is on the same spread position as the Crystal (Circle AOE/Melee & Protean AOE/Ranged).
 
-**Ranged** players must bait these proteans out of the arena. If a **Light Crystal** is hit by a protean it will gain a **vulnerability down** buff and become difficult to kill. 
+**Ranged** players must bait these proteans out of the arena. If a **Light Crystal** is hit by a protean it will gain a **vulnerability down** buff and become difficult to kill.
 
 **Light Crystals** also spawn a tether after a short period. This tether will drop large puddle AOEs. Melee players will take this and bait these AOEs around their crystal.
 
@@ -552,7 +553,7 @@ Once all the Light Crystals are destroyed, Players must DPS ice veil below 50% t
 
 Gaia will start out the phase with **Hell's Judgement**, a raidwide that will set every players HP to 1.
 
-This is immediately followed by: 
+This is immediately followed by:
 
 #### Ultimate Relativity
 
@@ -562,15 +563,15 @@ This mechanic is quite dense. I recommend looking through toolboxes in addition 
 
 After a heavy hitting raidwide, several "Spell in waiting" debuffs will be assigned to each player:
 
-| Debuff                                                                      | Explanation                                      |
-|-----------------------------------------------------------------------------|--------------------------------------------------|
-| Dark Fire^[Spell-in-Waiting: Dark Fire III]             | Large circle AOE                                 |
-| Dark Blizzard^[Spell-in-Waiting: Dark Blizzard III]      | Large donut AOE                                  |
-| Dark Eruption^[Spell-in-Waiting: Dark Eruption]          | Medium circle AOE                                |
-| Shadoweye^[Spell-in-Waiting: Shadoweye]                  | Gaze centered on the player                      |
-| Unholy Darkness^[Spell-in-Waiting: Unholy Darkness]       | Party Stack that must be resolved with 5 players |
-| Dark Water^[Spell-in-Waiting: Dark Water III]            | A stack that must be resolved with 4 players     |
-| Return^[Spell-in-Waiting: Return]                        | A player's position will be recorded for later   |
+| Debuff                                              | Explanation                                      |
+| --------------------------------------------------- | ------------------------------------------------ |
+| Dark Fire^[Spell-in-Waiting: Dark Fire III]         | Large circle AOE                                 |
+| Dark Blizzard^[Spell-in-Waiting: Dark Blizzard III] | Large donut AOE                                  |
+| Dark Eruption^[Spell-in-Waiting: Dark Eruption]     | Medium circle AOE                                |
+| Shadoweye^[Spell-in-Waiting: Shadoweye]             | Gaze centered on the player                      |
+| Unholy Darkness^[Spell-in-Waiting: Unholy Darkness] | Party Stack that must be resolved with 5 players |
+| Dark Water^[Spell-in-Waiting: Dark Water III]       | A stack that must be resolved with 4 players     |
+| Return^[Spell-in-Waiting: Return]                   | A player's position will be recorded for later   |
 
 These buffs will be distributed amongst each role group to look like the following:
 
@@ -606,11 +607,11 @@ All of these sounds incredibly intimidating and complicated, but it can be simpl
 
 Once the cast bar goes off players will find Relative North. For this example I will be using the **2 yellow traffic lights** as North (AKA: **Balls North!**)
 
-DPS will look at their party list to determine which spread they are taking, in the priority D3-D1-D2-D4 looking at relative North. Supports will do the same with the priority H1 MT ST H2. 
+DPS will look at their party list to determine which spread they are taking, in the priority D3-D1-D2-D4 looking at relative North. Supports will do the same with the priority H1 MT ST H2.
 
 ![](/images/ultimate/fru-ur-layout.webp)
 
-Any DPS with a **10s Dark Fire^[Spell-in-Waiting: Dark Fire III]** will use their priority take the SW and SE traffic lights. 
+Any DPS with a **10s Dark Fire^[Spell-in-Waiting: Dark Fire III]** will use their priority take the SW and SE traffic lights.
 
 Any Support with a **30s Dark Fire^[Spell-in-Waiting: Dark Fire III]** will use their priority and take the NW and NE traffic lights.
 
@@ -636,13 +637,13 @@ Here is a timeline of events:
 
 After sorting the starting positions, **10s Dark Fire^[Spell-in-Waiting: Dark Fire III]** players will step out to take their AOE between their respective Traffic Light and the wall. If you are a **Dark Blizzard^[Spell-in-Waiting: Dark Blizzard III]** stay stacked in middle.
 
-At the same time as fire debuffs are being solved, an **Unholy Darkness^[Spell-in-Waiting: Unholy Darkness]** party stack will occur in middle, so players who are not resolving a mechanic should AFK in the center of the arena. 
+At the same time as fire debuffs are being solved, an **Unholy Darkness^[Spell-in-Waiting: Unholy Darkness]** party stack will occur in middle, so players who are not resolving a mechanic should AFK in the center of the arena.
 
-Shortly after, the first set of Traffic Lights will go off. Players can essentially just stare at their Traffic Light until the spinning arrow appears around its base for an indication of when they should step out to bait. At the same time, the 1st set of Rewinds will go off. Players with **Dark Water^[Spell-in-Waiting: Dark Water III]/Shadoweye^[Spell-in-Waiting: Shadoweye]** should come close to the center whilst being in line with their Traffic Light, with **Dark Water^[Spell-in-Waiting: Dark Water III] standing slightly closer to the center**. 
+Shortly after, the first set of Traffic Lights will go off. Players can essentially just stare at their Traffic Light until the spinning arrow appears around its base for an indication of when they should step out to bait. At the same time, the 1st set of Rewinds will go off. Players with **Dark Water^[Spell-in-Waiting: Dark Water III]/Shadoweye^[Spell-in-Waiting: Shadoweye]** should come close to the center whilst being in line with their Traffic Light, with **Dark Water^[Spell-in-Waiting: Dark Water III] standing slightly closer to the center**.
 
 It is important **Shadoweye^[Spell-in-Waiting: Shadoweye]** players don't stack right on top of eachother as the may accidentally gaze one another later. Players with **Dark Eruption^[Spell-in-Waiting: Dark Eruption]** should stand just in front of their Traffic light.
 
-Afterward **20s Dark Fire^[Spell-in-Waiting: Dark Fire III]** players will step out to take their AOE. 
+Afterward **20s Dark Fire^[Spell-in-Waiting: Dark Fire III]** players will step out to take their AOE.
 
 The second set of baits and rewinds will then go off. Use the same prio as before: **Dark Water^[Spell-in-Waiting: Dark Water III]/Shadoweye^[Spell-in-Waiting: Shadoweye]** mid, **Dark Eruption^[Spell-in-Waiting: Dark Eruption]** on Traffic Lights. If you have nothing to do just AFK.
 
@@ -652,13 +653,13 @@ The final set of Traffic Light baits will then go off and everyone will stack mi
 
 Rewind will pull everyone back to their recorded position and the **Dark Water^[Spell-in-Waiting: Dark Water III]**, **Shadoweye^[Spell-in-Waiting: Shadoweye]** and **Dark Eruption^[Spell-in-Waiting: Dark Eruption]** will all go off at once.
 
-The following cheatsheets can help summarize the process of events through this mech, these can be useful to help with learning positions: 
+The following cheatsheets can help summarize the process of events through this mech, these can be useful to help with learning positions:
 
 ![](/images/ultimate/fru-ur-dps.webp)
 ![](/images/ultimate/fru-ur-supp.webp)
 
 ::: details Flipped Version
-Images flipped upside down if you prefer looking at it this way. The strat is exactly the same and compatible with the images above. 
+Images flipped upside down if you prefer looking at it this way. The strat is exactly the same and compatible with the images above.
 
 ![](/images/ultimate/fru-ur-dps-flip.webp)
 ![](/images/ultimate/fru-ur-supp-flip.webp)
@@ -690,7 +691,7 @@ As 2 or 4 players will be flexing, each player will simply fill the hole in the 
 
 After the **1st Stack** goes off, Gaia will cast **Apocalypse**, and glowing lights along the lines in the floor will begin to move out and rotate around the arena, indicating a safespot for the upcoming AOEs.
 
-These lights will always be 180 degrees from eachother and will both rotate clockwise or counterclockwise. The safe spot will be **1 waymark back** from the direction they rotated. 
+These lights will always be 180 degrees from eachother and will both rotate clockwise or counterclockwise. The safe spot will be **1 waymark back** from the direction they rotated.
 For example: if the lights went to N/S and rotated counterclockwise, the safespot would be NE/SW.
 
 Each Light Party will then spread for a **Spirit Taker** AOE on a random player, and then each Party will go to their corresponding light as they cast from Gaia (using the same positions as Utopian Sky from phase 1).
@@ -790,7 +791,7 @@ Once the bowtie is formed, the tether players will stand in their towers, and th
 
 ![396285330-dfeae866-9934-4def-a4ed-2eb951b55c0f.webp](/images/ultimate/fru-darklit-swap.webp)
 
-After the towers and AOEs resolve, Gaia will cast **Sprit Taker**, targeting a random player again. All players will roughly spread to resolve this. Immediately after Ryne will cast **Hallowed Wings**, cleaving one half of the arena. The party will shift over into the safespot and take the Dark Water stacks. 
+After the towers and AOEs resolve, Gaia will cast **Sprit Taker**, targeting a random player again. All players will roughly spread to resolve this. Immediately after Ryne will cast **Hallowed Wings**, cleaving one half of the arena. The party will shift over into the safespot and take the Dark Water stacks.
 
 ::: info
 The North stack here should be careful not to clip the crystal. Shifting slightly south or further into the safe side can make it more comfortable.
@@ -815,7 +816,7 @@ Shortly after the Crystallize Time cast the crystal will pulse for additional da
 
 This mechanic is extremely dense and has many minute details that must be taken into consideration. I **highly** recommend watching as many POVs as possible, as well as studying the toolbox in addition to this guide.
 
-As Crystallize Time is cast, 4 players will be assigned a **Wyrmclaw (Red)** debuff, and 4 players with a **Wyrmfang (Blue)** debuff. 
+As Crystallize Time is cast, 4 players will be assigned a **Wyrmclaw (Red)** debuff, and 4 players with a **Wyrmfang (Blue)** debuff.
 Within the **Red** debuffs, there will be 2 Dark Aero players and 2 Ice players. Using a lineup/prio system below, these players will sort themselves so that one Dark Aero and one ice are on East and West of the arena.
 
 A **Spell-in-Waiting: Quietus** debuff will also be applied to 3 random players.
@@ -823,8 +824,8 @@ A **Spell-in-Waiting: Quietus** debuff will also be applied to 3 random players.
 From left to right:
 `West - H1 D3 D1 MT ST D2 D4 H2 - East`
 
-| Debuff                                                         | Explanation                                                           |
-|----------------------------------------------------------------|-----------------------------------------------------------------------|
+| Debuff                                      | Explanation                                                           |
+| ------------------------------------------- | --------------------------------------------------------------------- |
 | Wyrmclaw^[Wyrmclaw]                         | A debuff that creates a large AOE and puddle when you touch a dragon  |
 | Wyrmfang^[Wyrmfang]                         | A debuff that must be cleansed by picking up the puddle from Wyrmclaw |
 | Dark Aero^[Spell-in-Waiting: Dark Aero III] | A very large AOE with Knockback when expires                          |
@@ -890,12 +891,13 @@ After placing rewinds, players will immediately spread **away** from the crystal
 
 The Rewinds will then go off, pulling the party back to the "safe" waymark for the two wild-charges.
 
-After this resolves, **Ryne** and **Gaia** will appear and become targetable, immediately starting another dual stack **Akh Morn** which will be resolved the same as the Dark Lit variant. 
+After this resolves, **Ryne** and **Gaia** will appear and become targetable, immediately starting another dual stack **Akh Morn** which will be resolved the same as the Dark Lit variant.
 This is followed by another **Morn Afah hand of pain check**
 
 Ryne and Gaia will then cast their respective enrages:
 
 #### Absolute Zero & Memory's End
+
 ---
 
 ### Phase 5: Pandora
