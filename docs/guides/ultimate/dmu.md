@@ -80,14 +80,14 @@ Immediately afterwards the Statue will shoot lasers at 2 DPS and 2 Support playe
 
 All players will line up a conga-line as shown in the image below (see toolbox for now). After the lasers go off the non-laser players will soak the towers.
 
-During the laser castbar, Kefka will cast **Double-Trouble Trap**. This will target a player from each role group and acts as a 4 person **enumeration(?) stack** that will knockback all non-debuff players away from the debuff player. Once the debuff goes off it will transfer to another random non-debuff player that was hit.
+During the laser castbar, Kefka will cast **Double-Trouble Trap**. This will target a player from each role group and acts as a 4 person **enumeration(?) stack** that will knockback all non-debuff players away from the debuff player. Once the debuff goes off it will transfer to another random non-debuff player that was hit. This will propagate 3 times, the debuff lasting for 3s, 80s, and 50s.
 
-**As of right now it's unclear what this mechanic is for, as it simply disappears after the third "pass". We could potentially have to somehow carry this debuff into later phases but its unclear.**
+~~As of right now it's unclear what this mechanic is for, as it simply disappears after the third "pass". We could potentially have to somehow carry this debuff into later phases but its unclear.~~
 
-For now, the debuff players should stand away from the party to let the debuff fall off.
+The debuff player will stand at max melee and the players of the same role will stand in front of them to be knocked through Kefka and across the arena.
 
-Kefka will then cast another **Mystery Magic**. He will telegraph the same ice quadrant cleaves from earlier, as well as two parallel **lightning** AOEs.
-Simply determine which ones are fake and stand in the corresponding safespot.
+Just before this knockback resolves, Kefka will begin to cast another **Mystery Magic**. He will telegraph the same ice quadrant cleaves from earlier, as well as two parallel **lightning** AOEs.
+Simply determine which ones are fake and stand in the corresponding safespot after the knockback (there is plenty of time to adjust).
 
 Kefka will then raise the platform and the statue will change, before casting a **Light of Judgement** raid-wide and a **Hyperdrive** tankbuster that hits 3 times.
 
@@ -101,22 +101,18 @@ Spread players **cannot** place their spreads close to the bubbles as it will ca
 
 At the same time as these tethers Kefka will yet again telegraph another fake/real ice quadrant cleave.
 
-To resolve this mechanic we have each cardinal assigned to pairs of DPS/Support players:
-North: D3/MT
-East: D2/H2
-South: D4/ST
-West: D1/H1
+To resolve this mechanic we have light party 1 (MT/H1/D1/D3) stack all their tethers North and light party 2 (ST/H2/D2/D4) South, noting which role has the spread tether.
 
-Each pair will take their stack at the very edge of the arena. All ranged players will then rotate CCW into the safe spot between two bubbles, and melee players will move close to the boss.
+Each light party will take their stack at the very edge of the arena. The ranged spread players will then rotate CCW and the melee players will rotate CW to take their spread, whilst all non-spread players will stack behind Kefka.
 
-This solve means that you do not have to pay attention to if you are spread or not **but you still need to be clear of any bubbles**.
+Immediately following this Kefka will cast another Revolting Ruin III. The tank will take this north and the party will stay stacked South.
 
-Immediately following this Kefka will cast another Revolting Ruin III. The tank will take this north and the party will stack south.
+The statue will then indicate and resolve either a East/West cleave before tethering everyone again. These tethers are solved by placing the bubble directly in front of the first bubble. The spreads are resolved the same.
 
-The statue will then indicate and resolve either a East/West cleave before tethering everyone again. These tethers are solved by placing the bubble CCW as close as possible to the pairs first bubble, then resolving the spread the same as the first time (ranged CCW melee close)
+As the last spread resolves the Statue will indicate another East/West cleave. Because the 2nd **Double-Trouble Trap** is coming up, all DPS players will stack North of Kefka, and Supports South. The debuff player should stand closer to Kefka to launch each light party into the bubbles to soak them.
 
 ::: info NOTE
-Players should be wary not to stand too close to bubbles in case they accidentally drop a spread onto them.
+The soak window for the bubbles is quite small. They cannot be soaked outside of the window just after the KB goes off.
 :::
 
 Kefka will raise the platform once more, followed by another **Light of Judgement** / **Hyperdrive** combo.
@@ -125,15 +121,19 @@ Kefka will raise the platform once more, followed by another **Light of Judgemen
 
 Kefka will assign each player with 2 arrow debuffs, one short (7s) and one long (10s). These debuffs will place a teleport pad on the floor that is **based on true north**. This means that no matter which direction the player is facing if they have an East arrow the arrow will always point East when placed. If 2 arrows of opposite directions are placed on eachother they will cancel out.
 
-One role will get mixed debuffs (e.g. up/down arrow), whilst the other role gets 2 identical arrow debuffs.
+One role will get mixed debuffs (e.g. up/left arrow), whilst the other role gets 2 identical arrow debuffs.
 
-All mixed debuffs will stack in the middle under Kefka, and each double arrow debuff will stand 2-3 rings out from Kefka along the cardinal that corresponds with their arrow (East Arrow stands East etc). The first debuff will resolve, placing 4 arrows on each cardinal and **cancelling out** all the mixed players debuffs.
+The goal here is to utilize all the arrows. If all arrows are not utilized Kefka's voice lines will not change and P2 will not be clearable (? TBD).
 
-The identical arrow players will then stack middle to cancel out the 2nd set of arrows.
+All identical arrow players should move to the cardinal that results in their arrows making a "counter-clockwise" pattern with the other arrows, as seen below.
+
+All mixed debuff players will have to place their arrows in such a way to form an "L" shape that will cause a player to move into the identical arrow player's teleport pads.
+
+![](\images\ultimate\dmu-arrows.webp)
 
 The Statue will then tether each role seperately once more. **Left (yellow)** will inflict each player with a **confused** debuff and right (purple) will inflict each player with a small AOE and a **sleep** debuff.
 
-To resolve this, we use the same pairs as Graven Image II and place the yellow tether/confused players on the edge of the arena along their respective cardinal. The purple tether/sleep players will stand on the bosses hitbox **behind the teleporter pad**. This will result in the confused player being unable to reach and auto-attack the sleep player because they will be teleported back.
+To resolve this, we have MT/D1 North, H2/D4 East, ST/D2 South, and H1/D3 West. The yellow tether/confused players will stand just in front of the teleporter pad corresponding with their cardinal (such that they will be forced to walk along all 4)The purple tether/sleep players will stand on the bosses hitbox **behind the teleporter pad** on their cardinal. This will result in the confused player being unable to reach and auto-attack the sleep player because they will be teleported along each pad.
 
 Kefka will then cast one more **Mystery Magic**, telegraphing the same lightning AOEs as before and spread/stack markers on each role group. In addition, the Statue will also cast a real/fake gaze.
 
