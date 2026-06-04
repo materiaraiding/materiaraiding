@@ -12,6 +12,7 @@ discussionLink: https://discord.com/channels/944115415385247784/9549645606060155
 ---
 
 ## Toolbox/Raidplan
+
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 <ActionGroup
     :actions=" [
@@ -26,6 +27,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 />
 
 ## PoV Videos
+
 Videos covering clears by different roles.
 **DPS**
 @[DPS](https://youtu.be/FMr8XWq-mXs)
@@ -33,6 +35,7 @@ Videos covering clears by different roles.
 @[TANK](https://youtu.be/Yex5-s3ITPg)
 
 ## Mitigation Plan
+
 Mitigation Plan Spreadsheet
 
 <Action title='Mit Plan' color='green' href='https://docs.google.com/spreadsheets/d/1FGF76e57PCD4358zFK7_v3IRze7C_bn6xd3hiM9yfiE/edit#gid=0' />
@@ -41,14 +44,16 @@ Mitigation Plan Spreadsheet
 
 ::: details View All Macros
 **Playstation Chains**
+
 ```markdown
 ――【Playstation chains】――――――――――――――――――
-　　D△  T× T□
+　　D△ T× T□
 　　D〇　 　D〇　west: D1>2>3>4: east
-　　D□  H×  H△
+　　D□ H× H△
 ```
 
 **Haurchefant**
+
 ```markdown
 ――【Haurchefant】――――――――――――――――――
 　　　cleave　cleave　　　※ cleaves towards
@@ -57,17 +62,19 @@ Mitigation Plan Spreadsheet
 　East cleaves: H1 > D1 > D3 > MT
 　West cleaves: H2 > D2 > D4 > ST
 ```
+
 :::
 
 ## Mitigations
 
 ::: details View Mitigations
+
 ```markdown
-――【Mitigations】―――――――― 
+――【Mitigations】――――――――
 3-3-2 Mit Plans
- 
+
 Transition, every Akh Morn, and every Gigaflare require Kerachole/Sacred Soil. The correct timing for an Akh Morn kera/SS is immediately after the second trinity in exaflares; this will ensure it catches all of akh morn and will be up for the subsequent giggleflare.
- 
+
 ==========================
 SCH/AST:
 /p transition: HoL, missionary, samba, improv, collective, spreadlo
@@ -76,9 +83,8 @@ SCH/AST:
 /p akh morn 2: HoL, missionary, samba
 /p gigaflare 2: feint 1, addle, collective, spreadlo
 /p akh morn 3: expedient, seraph, neutral, feint 2, barrier, fey illum
-========================== 
- 
- 
+==========================
+
 ==========================
 SCH/WHM:
 /p transition: HoL, missionary, samba, improv, spreadlo
@@ -87,9 +93,8 @@ SCH/WHM:
 /p akh morn 2: HoL, missionary, samba, bell
 /p gigaflare 2: spreadlo, feint 1, addle
 /p akh morn 3: temp, expedient, seraph, feint 2, barrier, fey illum
-========================== 
- 
- 
+==========================
+
 ==========================
 SGE/AST:
 /p transition: HoL, missionary, samba, improv, barrier, collective (USE PERSONALS, IF NO RDM USE HOLOS)
@@ -98,19 +103,19 @@ SGE/AST:
 /p akh morn 2: HoL, missionary, samba, barrier, physis
 /p gigaflare 2: feint 1, collective, addle, pneuma
 /p akh morn 3: panhaima, neutral, feint 2, holos, physis
-========================== 
- 
- 
+==========================
+
 ==========================
 SGE/WHM:
 /p transition: HoL, missionary, samba, improv, barrier (USE PERSONALS, IF NO RDM USE HOLOS)
 /p akh morn 1: panhaima, temp, feint 1, physis, addle
 /p gigaflare 1: holos, feint 2, pneuma
-/p akh morn 2: HoL, missionary, samba,  barrier, bell, physis
+/p akh morn 2: HoL, missionary, samba, barrier, bell, physis
 /p gigaflare 2: feint 1, addle
 /p akh morn 3: panhaima, temp, holos, feint 2, physis, pneuma
 ==========================
 ```
+
 :::
 
 ## Cheatsheet
@@ -118,8 +123,10 @@ SGE/WHM:
 ![](/images/ultimate/dsr-dsrcheatsheet.webp)
 
 ## Buff Timings
-:::: timing-window 
+
+:::: timing-window
 ::: burst
+
 - Thordan opener.
 - Post Sanctity of the Ward.
 - Save slightly for just after tank tether busters go off.
@@ -128,25 +135,51 @@ SGE/WHM:
 - Save for post-touchdown (or WB2 with good DPS).
 - Save for tail-end of gigaflare 1.
 - Akh Morn 3.
-:::
-::: pot
+  :::
+  ::: pot
 - Thordan opener.
 - Nidhogg 2-minute window.
 - Double Dragons opener.
-- Either of the 2-minute windows in DKT. 
-::: 
-::::
+- Either of the 2-minute windows in DKT.
+  :::
+  ::::
 
 ## Waymarks
+
 These can be imported using an XIV Launcher Plugin.
 
 Phase 1
+
 ```json
-{"Name":"P1","MapID":788,"A":{"X":93.331,"Y":0.0,"Z":103.162,"ID":0,"Active":true},"B":{"X":96.814,"Y":0.0,"Z":106.708,"ID":1,"Active":true},"C":{"X":103.22,"Y":0.0,"Z":106.666,"ID":2,"Active":true},"D":{"X":106.597,"Y":0.0,"Z":103.18,"ID":3,"Active":true},"One":{"X":93.138,"Y":0.0,"Z":96.403,"ID":4,"Active":true},"Two":{"X":96.841,"Y":0.0,"Z":93.277,"ID":5,"Active":true},"Three":{"X":103.2,"Y":0.0,"Z":93.412,"ID":6,"Active":true},"Four":{"X":106.664,"Y":0.0,"Z":96.402,"ID":7,"Active":true}}
+{
+	"Name": "P1",
+	"MapID": 788,
+	"A": {"X": 93.331, "Y": 0.0, "Z": 103.162, "ID": 0, "Active": true},
+	"B": {"X": 96.814, "Y": 0.0, "Z": 106.708, "ID": 1, "Active": true},
+	"C": {"X": 103.22, "Y": 0.0, "Z": 106.666, "ID": 2, "Active": true},
+	"D": {"X": 106.597, "Y": 0.0, "Z": 103.18, "ID": 3, "Active": true},
+	"One": {"X": 93.138, "Y": 0.0, "Z": 96.403, "ID": 4, "Active": true},
+	"Two": {"X": 96.841, "Y": 0.0, "Z": 93.277, "ID": 5, "Active": true},
+	"Three": {"X": 103.2, "Y": 0.0, "Z": 93.412, "ID": 6, "Active": true},
+	"Four": {"X": 106.664, "Y": 0.0, "Z": 96.402, "ID": 7, "Active": true}
+}
 ```
+
 Phase 2 onwards
+
 ```json
-{"Name":"DSR","MapID":788,"A":{"X":99.663,"Y":0.0,"Z":80.695,"ID":0,"Active":true},"B":{"X":114.335,"Y":0.0,"Z":85.543,"ID":1,"Active":true},"C":{"X":120.013,"Y":0.0,"Z":99.957,"ID":2,"Active":true},"D":{"X":113.466,"Y":0.0,"Z":113.585,"ID":3,"Active":true},"One":{"X":99.991,"Y":0.0,"Z":120.12,"ID":4,"Active":true},"Two":{"X":85.942,"Y":0.0,"Z":113.995,"ID":5,"Active":true},"Three":{"X":79.691,"Y":0.0,"Z":100.098,"ID":6,"Active":true},"Four":{"X":85.919,"Y":0.0,"Z":86.197,"ID":7,"Active":true}}
+{
+	"Name": "DSR",
+	"MapID": 788,
+	"A": {"X": 99.663, "Y": 0.0, "Z": 80.695, "ID": 0, "Active": true},
+	"B": {"X": 114.335, "Y": 0.0, "Z": 85.543, "ID": 1, "Active": true},
+	"C": {"X": 120.013, "Y": 0.0, "Z": 99.957, "ID": 2, "Active": true},
+	"D": {"X": 113.466, "Y": 0.0, "Z": 113.585, "ID": 3, "Active": true},
+	"One": {"X": 99.991, "Y": 0.0, "Z": 120.12, "ID": 4, "Active": true},
+	"Two": {"X": 85.942, "Y": 0.0, "Z": 113.995, "ID": 5, "Active": true},
+	"Three": {"X": 79.691, "Y": 0.0, "Z": 100.098, "ID": 6, "Active": true},
+	"Four": {"X": 85.919, "Y": 0.0, "Z": 86.197, "ID": 7, "Active": true}
+}
 ```
 
 ## Fight Writeup (W.I.P)
@@ -182,18 +215,17 @@ _Image taken from Tessan Twintails DSR video guide_
 
 This process repeats twice, where the 2nd set of prey markers will instead spread south and the initial prey players will stack north.
 
-
 Adelphel will then drop down onto a random cardinal and cast another **Holiest of Holy** and Grinnaux will cast **Faith Unmoving** which will knock players away from Grinnaux (who is still in the center of the arena). Players will use anti-knockback and position themselves so Grinnaux is between them and Adelphel, as Adelphel will then begin to dash across the arena in an hourglass shape.
 
 Adelphel will start this dodge by either moving left or right, and the party will move the same direction and stand on the tip of an arrow shaped pattern in the arena . **(I'll try get a video for this - Juno)**
 
-After completing his dashes, Adelphel will drop onto the player who had the highest emnity on him before he dissappeared, delivering a heavy hitting AoE tank buster that the OT will invuln. To avoid hitting the party with this, the OT will follow the party to the safe spot and then **continue moving past the party**. 
+After completing his dashes, Adelphel will drop onto the player who had the highest emnity on him before he dissappeared, delivering a heavy hitting AoE tank buster that the OT will invuln. To avoid hitting the party with this, the OT will follow the party to the safe spot and then **continue moving past the party**.
 
 Adelphel will then immediately begin casting 1 of 3 instances of **Holiest Hallowing**, an interruptible heal targeted on Grinnaux. The OT will interrupt this and both tanks will position their bosses in the center of the arena for:
 
 #### Playstation Chains
 
-Each player will be marked with either a cross, square, circle, or triangle, so that there is two of each symbol. 
+Each player will be marked with either a cross, square, circle, or triangle, so that there is two of each symbol.
 
 ::: info NOTE
 **Healers** can only ever get Cross or Triangle, **Tanks** can only get Cross or Square, and **DPS** can only get Square, Circle or Triangle
@@ -217,7 +249,7 @@ A new boss **Charibert** will then appear at the southern side of the circle and
 
 #### Pure of Heart
 
-**Haurchefant** will run to the side of the circle and block an arrow. This arrow pulses intermittently, dealing damage to the party. 
+**Haurchefant** will run to the side of the circle and block an arrow. This arrow pulses intermittently, dealing damage to the party.
 
 Charibert will then cleave the two players closest to him, applying a 5s debuff **Skyblind**. Once this debuff wears off, an invisible AoE will drop under the players feet that will explode after a few seconds. To resolve this, we have players bait in the order **H → M → R → T**, where the ranged players will drop their AoEs on the east and the melee players will drop them on the west.
 
@@ -226,7 +258,7 @@ Once Charibert is reduced to approximately ~25-30% health, the DPS check is reac
 ### Phase 2: Thordan
 
 Phase 2 will begin with the MT facing Thordan north for 2 auto-attacks before he will begin casting **Ascalon's Mercy**, a baited protean on every member of the party.
-The party will stack up behind Thordan before dodging to the side to avoid the cleave. 
+The party will stack up behind Thordan before dodging to the side to avoid the cleave.
 
 ::: info NOTE
 The tell to move for this attack can either be the end of the castbar, or when Thordan raises his sword slightly.
@@ -242,11 +274,11 @@ After moving to the center, Thordan will cast the first trio of the fight:
 
 #### Strength of the Ward
 
-Thordan will become untargetable and jump from the arena, and both Light parties will split East/West. 
+Thordan will become untargetable and jump from the arena, and both Light parties will split East/West.
 
-3 Knights will then cleave 3 random cardinals/intercardinals, leaving only 1 safespot either side of the arena. 
+3 Knights will then cleave 3 random cardinals/intercardinals, leaving only 1 safespot either side of the arena.
 
-The way that the waymarkers are set up means that **Light Party 1** will always be on a **number** waymark, and **Light Party 2** will always be on a **letter** waymark. Two waymarks on opposite sides of the arena will also be the same colour, allowing us to simply call out a single colour to determine both safe spots. 
+The way that the waymarkers are set up means that **Light Party 1** will always be on a **number** waymark, and **Light Party 2** will always be on a **letter** waymark. Two waymarks on opposite sides of the arena will also be the same colour, allowing us to simply call out a single colour to determine both safe spots.
 
 ![](/images/ultimate/dsr-strength.webp)
 
@@ -254,11 +286,11 @@ The way that the waymarkers are set up means that **Light Party 1** will always 
 
 Within both of those safespots, each light party will have to spread to avoid overlapping lightning AoEs that are about to drop on each player. These lightning AoEs will go off at the same time as the dashes go off.
 
-While the parties are getting into position **Grinnaux** and **Thordan** appear again, with Grinnaux being placed somewhere near the center of the arena and Thordan in the direct center. After everything resolves Grinnaux will begin to cast a quake that will expand out towards each light party. Avoiding this is simple, just waiting until it is safe to walk forward and doing so. 
+While the parties are getting into position **Grinnaux** and **Thordan** appear again, with Grinnaux being placed somewhere near the center of the arena and Thordan in the direct center. After everything resolves Grinnaux will begin to cast a quake that will expand out towards each light party. Avoiding this is simple, just waiting until it is safe to walk forward and doing so.
 
 While the party is dodging this, Thordan will cast another **Ascalon's Mercy**. Each light party must quickly make their way toward Thordan and stack up tightly on either side of him to bait the proteans.
 
-Thordan will then jump again and land on a random cardinal or intercardinal, as well as 2 other knights dropping onto the arena. For this section of the Trio we will treat **Thordan as our new north**. 
+Thordan will then jump again and land on a random cardinal or intercardinal, as well as 2 other knights dropping onto the arena. For this section of the Trio we will treat **Thordan as our new north**.
 
 ::: info NOTE
 Thordan can be tricky to find here if you're spinning your camera around. What you should do instead is look at the 2 knights, who will always be further away from and facing Thordan.
@@ -266,7 +298,7 @@ Thordan can be tricky to find here if you're spinning your camera around. What y
 
 3 players will then get marked with a large blue defamation marker (named Skyward Leap), and large red puddles will begin to grow on the ground. Each of the 2 knights will also tether two random non-tank players (who do not have Skyward Leap) with **Holy Shieldbash/Bladedance**.
 
-Everyone who was not marked with Skyward Leap should quickly find Thordan and make their way to him. The Tanks will take their respective tether (MT left knight facing Thordan, ST right knight facing Thordan) and criss-cross them into the safe spot under Thordan to stretch them further for reduced damage. 
+Everyone who was not marked with Skyward Leap should quickly find Thordan and make their way to him. The Tanks will take their respective tether (MT left knight facing Thordan, ST right knight facing Thordan) and criss-cross them into the safe spot under Thordan to stretch them further for reduced damage.
 
 ![305584973-9ff95bb1-a663-4834-991b-bef741b5e0cf.webp](/images/ultimate/dsr-strength2.webp)
 
@@ -274,7 +306,7 @@ Everyone who was not marked with Skyward Leap should quickly find Thordan and ma
 The relative West and East Skyward Leap players should stand on the **edge of the waymark** as seen in the image. If you stand in the middle of your waymark you are likely to kill one of the Tanks next to Thordan.
 :::
 
-Just before everything goes off, 6 towers will appear in the middle of the Arena that must be soaked by every player other than the tanks. 
+Just before everything goes off, 6 towers will appear in the middle of the Arena that must be soaked by every player other than the tanks.
 
 The 3 non Skyward Leap players should line up against the wall below Thordan to indicate which tower they are taking before standing together for a stack that will be shared with both tanks.
 
@@ -312,7 +344,7 @@ Each pair should stand roughly halfway between the centre of the arena and the e
 
 While everyone is moving to their positions, 8 towers will spawn. Some of these towers will be on the outer edges and some in the middle of the arena. If only one tower is available on the outer edge of the arena in a pair's quadrant, the **priority role** (i.e. the one with meteors) should take that tower, and the other player should move into the middle of the arena to soak the tower **clockwise** from where they baited their puddle. If 2 towers are available on the outer edge of the arena the **priority role** will take the left most tower, and the **non-priority role** will take the right most. However this rule is a bit flimsy and most often people will just move to the left/right beforehand to indicate which tower they will take.
 
-The meteor players can be a little different with which towers they want to take. The meteor debuff they both have will cause 8 meteors to drop down on them one at a time. If any of these meteors are close to eachother they will explode and wipe the raid. As such, we want the meteor players to be the furthest distance possible from eachother. 
+The meteor players can be a little different with which towers they want to take. The meteor debuff they both have will cause 8 meteors to drop down on them one at a time. If any of these meteors are close to eachother they will explode and wipe the raid. As such, we want the meteor players to be the furthest distance possible from eachother.
 
 In an ideal world this means that each meteor player will take a tower that results in them being 180 degrees from eachother. However it doesn't always pan out this way as the tower positions are semi-random, resulting in 2 other patterns where one meteor player will be closer to the other, about 150 or 120 degrees. The 120 degree pattern is colloquially known as **"cursed"**.
 
@@ -339,18 +371,20 @@ This mechanic is one of the first "walls" of this fight, and can be difficult to
 :::
 
 As the cast begins, a bunch of numbers will apply to the party:
-* "1" x3 (put the symbol here)
-* "2" x2 "
-* "3" x3 "
+
+- "1" x3 (put the symbol here)
+- "2" x2 "
+- "3" x3 "
 
 Players will preposition in the following locations to indicate their starting position depending on their number.
 
 ![314374579-babf8707-75cb-4b42-8c58-70d07df7da93.webp](/images/ultimate/dsr-dfg.webp)
 
 After the cast is finished (~5 seconds later), a second set of debuffs get applied to each player:
-* Dark High Jump (Circle)
-* Dark Elusive Jump (Down Arrow)
-* Dark Spineshatter Dive (Up Arrow)
+
+- Dark High Jump (Circle)
+- Dark Elusive Jump (Down Arrow)
+- Dark Spineshatter Dive (Up Arrow)
 
 The numbers players are assigned are the order that each player will be "dived/jumped" on by Nidhogg: 1->2->3
 Whilst the second debuff will be what **kind** of dive/jump Nidhogg is performing.
@@ -368,9 +402,10 @@ As seen above we place the **Up Arrow** West, and the **Down Arrow** East. If bo
 The order that the numbers will soak the towers is as follows:
 
 (using their previously indicated positions, or their arrow positions)
-* 3rd dive players will soak the towers dropped by 1st dive players 
-* East and West 1st dive players will soak the towers dropped by 2nd dive players
-* 2nd dive players and the South 1st dive player will soak the towers dropped by 3rd dive players
+
+- 3rd dive players will soak the towers dropped by 1st dive players
+- East and West 1st dive players will soak the towers dropped by 2nd dive players
+- 2nd dive players and the South 1st dive player will soak the towers dropped by 3rd dive players
 
 Upon soaking a tower, a Nidhogg clone will drop down and aim a line AoE at that closest player. Simply bait this out of the arena, and **when Nidhogg glows**, step through Nidhogg to avoid being hit.
 
@@ -388,7 +423,7 @@ While it is possible to live getting hit by Lash/Gnash, it will knock the player
 
 Immediately after this mechanic, the tank will take a few more auto-attacks before casting Drachenlance on a random player, which is a short conal AoE that will deal lethal damage to anyone hit.
 
-4 towers will then spawn on each intercardinal around Nidhogg. As seen in the cheatsheet, all players will stack with their partner to begin with. In all but 1 pattern, each Tower will need a different number of people in them, the amount of which can be determined by the number of pillars in the tower. As all the ranged players anchor in their spot, if the melee player sees that only 1 person is required in the tower they start on, they will flex to another tower using the priority **clockwise, then counter-clockwise, and lastly across the arena.** 
+4 towers will then spawn on each intercardinal around Nidhogg. As seen in the cheatsheet, all players will stack with their partner to begin with. In all but 1 pattern, each Tower will need a different number of people in them, the amount of which can be determined by the number of pillars in the tower. As all the ranged players anchor in their spot, if the melee player sees that only 1 person is required in the tower they start on, they will flex to another tower using the priority **clockwise, then counter-clockwise, and lastly across the arena.**
 
 These towers will drop clones similar to the ones in dive from grace, however one of the clones will have a tank buster tether. The main Nidhogg in the middle will _also_ have a tether and both tanks will take a tether each and invuln the buster in the center of the arena.
 
@@ -412,7 +447,7 @@ Estinien will cast a heavy raidwide and bleed: **Resentment**
 
 #### Hatebound
 
-Tethers will randomly get applied to the party in such a way that there is **4 blue** and **4 red** tethers, attached to their respective eye. Taking damage while having a blue tether will **heal the blue eye**, and taking damage with a red tether will **damage the red eye**. 
+Tethers will randomly get applied to the party in such a way that there is **4 blue** and **4 red** tethers, attached to their respective eye. Taking damage while having a blue tether will **heal the blue eye**, and taking damage with a red tether will **damage the red eye**.
 
 At the same time a large yellow orb will appear in front of either eye, and 2 smaller blue orbs will spawn to the sides of each eye.
 
@@ -458,7 +493,7 @@ After 2 AoE autoattacks, Thordan will begin to cast:
 
 Thordan will become untargetable, and 2 knights and a dragon will drop down on a random cardinal/intercardinal. **This will become our new north.**
 
-A player will then be marked with a blue **defamation** marker and 2 players will be marked with 2 line-AoEs, indicated by orange tethers coming from the knights. 
+A player will then be marked with a blue **defamation** marker and 2 players will be marked with 2 line-AoEs, indicated by orange tethers coming from the knights.
 
 The tether players will pull these tethers across the arena from their knight, and the defamation will stand near the western knight.
 
@@ -504,19 +539,21 @@ This mechanic has a lot of moving parts, I highly recommend looking at POVs and 
 Thordan will go untargetable and jump to the arena's edge, summoning his eye. Several dragons and a knight also drop onto the arena's edge. Another knight wielding an axe will drop into the arena, slightly offset from the centre towards a cardinal/intercardinal. **This knight is our new north.**
 
 The party will immediately line up as follows:
+
 ```
         _Knight_
 H1 MT D3 D1 D2 D4 ST H2
 ```
-Four random players will be selected with a visible red **Doom** debuff that lasts for 26 seconds, killing the player if it is not cleansed. Any player who has not got a Doom will shortly drop a Doom cleaning puddle. Because of mechanics coming up, we want to spread these at west/east and the northern intercardinals. 
 
-Looking at our line up, each player must determine what number they are counting from left to right. As OCE does **Dooms south**, each Doom player will position themselves 1-4 along the relative south wall. The non-Doom players will do the opposite, lining up 1-4 along the relative north wall. 
+Four random players will be selected with a visible red **Doom** debuff that lasts for 26 seconds, killing the player if it is not cleansed. Any player who has not got a Doom will shortly drop a Doom cleaning puddle. Because of mechanics coming up, we want to spread these at west/east and the northern intercardinals.
+
+Looking at our line up, each player must determine what number they are counting from left to right. As OCE does **Dooms south**, each Doom player will position themselves 1-4 along the relative south wall. The non-Doom players will do the opposite, lining up 1-4 along the relative north wall.
 
 Because there will shortly be several dives going through the arena from the dragons and a spread mechanic from the other knight, the actual positions for the intercardinal players can be a little finnicky. Thankfully, the waymarks we use make it incredibly easy:
 
 (image)
 
-Once in position, all the dives from the dragons and the lightning spread from the knight will go off. As one of the dragons was the same one from **Wrath**, there will also be twisters. 
+Once in position, all the dives from the dragons and the lightning spread from the knight will go off. As one of the dragons was the same one from **Wrath**, there will also be twisters.
 
 ::: info NOTE
 The timing for this twister is as soon as the lightning AoE goes off.
@@ -529,9 +566,9 @@ The rest of the players will begin to walk along the arenas edge, dodging in to 
 
 As these go off, several knights will replace the axe knight in the middle, including our favourite **Grinnaux.**
 
-Once players reach the middle, everyone will be assigned **Playstation Tethers**. These work slightly different from Phase 1 in that only Doom players can receive circle (which are baited by the furthest away players), and only non-Doom players can receive cross. There can also only be one square and one triangle per group. 
+Once players reach the middle, everyone will be assigned **Playstation Tethers**. These work slightly different from Phase 1 in that only Doom players can receive circle (which are baited by the furthest away players), and only non-Doom players can receive cross. There can also only be one square and one triangle per group.
 
-The 1st and 4th Doom will stand outside of the inner circle to bait the circle tethers, and the other Doom players will stand on the relative NW/NE of the middle circle, surrounding Grinnaux. 
+The 1st and 4th Doom will stand outside of the inner circle to bait the circle tethers, and the other Doom players will stand on the relative NW/NE of the middle circle, surrounding Grinnaux.
 The non-Doom players should roughly spread to SW/SE and N/S, using eyes to adjust to be opposite your Doom player.
 
 At this point (if not before), players should be identifying where Thordan and the giant Red eye are as there will shortly be a gaze attack from each of them.
@@ -539,6 +576,7 @@ At this point (if not before), players should be identifying where Thordan and t
 Players will then all look away from the gazes and ride a **Faith Unmoving** knockback from grinnaux. Doom players should immediately move into the cleanse puddles if they aren't knocked back perfectly (I find wiggling in the puddle sometimes helps the game to register you standing in it).
 
 #### Meteors
+
 Without a break, 8 meteors will spawn on each cardinal and intercardinal. The 3 meteors at N/NW/NE will be killed using a targeted magic LB2 on the meteor at north, whilst the rest of the party bursts down the reamining meteors.
 
 Killing the meteors results in Thordan jumping back to the arena and performing another **Ancient Quaga**, followed by yet another 2 AoE auto-attacks into **Heavenly Heel** and an **Ascalon's Might** tank buster.
@@ -638,9 +676,10 @@ This mechanic involves heavy-hitting party stacks while moving, so generally mos
 Nidhogg will prepare Akh Morn (a 4-hit party stack that leaves a lethal puddle behind) and Hraesvelgr will fly away and prepare to cleave the entire west or east side of the arena. Three sets of fire orbs will also spawn that will do large plus + shaped AoEs when they resolve. The goal is to dodge all of these together as a party as you soak the repeated Akh Morn stacks.
 
 The starting safe spot will be close to a corner of the arena. To determine where to start:
+
 - Move to the side where Hraesvelgr isn't cleaving (need to check the north or south wall to see where he is coming from).
 - Watch where the 2nd set of orbs spawn and move to the corner opposite it (from north/south perspective).
-So, for example, if Hraesvaelgr is cleaving the west side of the arena, and the 2nd orb spawns north east, the party will start south east.
+  So, for example, if Hraesvaelgr is cleaving the west side of the arena, and the 2nd orb spawns north east, the party will start south east.
 
 The party will then do a fixed "J" shaped movement, gradually moving to the middle of the arena.
 
@@ -699,13 +738,14 @@ Healers and DPS on the other hand need to move to the side with the dragon oppos
 At the end of the debuff timers their effect will take place. Ice players will freeze and fire players will receive pyretic debuff, causing significant damage if they perform any actions.
 
 ::: warning
+
 - It is paramount if a healer(s) is fire to quickly top up before the their pyretic debuff activates.
 - Fire DPS, ESPECIALLY PHYS RANGED, should untarget the boss so autoattacks do not trigger the pyretic damage.
-:::
+  :::
 
 One extra warning: as the dragons cleave just over half the arena, do not be close to the centre line and make sure you are well into the side you want to be cleaved in.
 
-Once the dragons fly across, everyone will move to the A waymark at north. Healers must quickly top everyone up again. 
+Once the dragons fly across, everyone will move to the A waymark at north. Healers must quickly top everyone up again.
 
 ::: healer
 If one of your tanks is a DRK make sure you individually top them up as well as they have nothing to hit to proc Living Dead.
@@ -734,6 +774,7 @@ If the Mortal Vow fails to pass here, Nidhogg will still 'enrage,' giving him a 
 #### Transition
 
 Once both dragons die,
+
 - If Thordan died in Phase 5, you will wipe here as the Eyes of Nidhogg appear (like in Phase 4), but you will not receive the friendship buff.
 - If Thordan survived in Phase 5, continue on and prepare for the heavy raidwide transition:
 
@@ -771,12 +812,14 @@ Tank and DPS mitigations, plus H2 30 second mitigation (Sacred Soil / Kerachole)
 #### Flames / Ice of Ascalon
 
 During each major cast, Dragon King Thordan will imbue his swords with fire or ice. At the end of the cast:
+
 - Fire: be outside his hitbox.
 - Ice: be inside his hitbox (the outermost ring of his hitbox is the border of the donut).
 
 #### Trinity (autoattacks)
 
 In between each mechanic, Dragon King Thordan will do 2× sets, of 3 AoE autoattacks.
+
 - The highest enmity player is hit and receives a stacking Dark Resistance Down debuff.
 - The 2nd enmity player is hit and receives a stacking Light Resistance Down debuff.
 - The closest player is hit and receives a Physical Vulnerability Up and both a Dark and Light Resistance Down debuff.
@@ -786,6 +829,7 @@ After every 2 autoattacks, you will need to switch aggro. As you will swap aggro
 :::
 
 Each non-tank player will take turns running to the middle under the boss to bait these autoattacks. The assumed order is:
+
 - After Exaflares: D1 -> D2
 - After Akh Morns: D3 -> D4
 - After Gigaflares: H1 -> H2

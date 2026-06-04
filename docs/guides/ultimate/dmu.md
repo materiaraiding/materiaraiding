@@ -7,7 +7,7 @@ banner: /images/banners/DMU.webp
 difficulty: Ultimate
 expansion: Dawntrail
 image: dmu-kefka.webp
-authors: [Juno, Pipiro, MUR]
+authors: [Juno, Pipiro, Eely, Ikuya, MUR]
 discussionLink:
 ---
 
@@ -66,6 +66,14 @@ These can be imported using an XIV Launcher Plugin.
 ### Phase 1
 
 ### These will be prog strats!!! These more than likely will be changed as we prog and learn more about the ultimate.
+
+Throughout Phase 1, the Statue behind Kefka will have 3 candles that need to be lit to successfully clear Phase 2 later. To light these candles the party must sucessfully:
+
+- Utilize all **Double-Trouble Trap** debuffs without letting them fall off.
+- Succesfully soak all the gravity bubbles in **Graven Image II**
+- Place and utilize all 16 arrow debuffs in **Tele-Trouncing**
+
+Solving these will be included in the guide.
 
 Kefka will begin the fight with **Revolting Ruin III**, a hard hitting conal tank baster that cleaves twice. The 2nd hit will target the player with the **2nd highest** emnity.
 
@@ -132,11 +140,15 @@ All mixed debuff players will have to place their arrows in such a way to form a
 
 ![](\images\ultimate\dmu-arrows.webp)
 
+::: info NOTE
+Parties have had more success with placing these arrows on the intercardinals to allow for the knockbacks to be resolved N/S or E/W without worry that players will accidentally soak an arrow.
+:::
+
 Once again we will resolve the **Double-Trouble Trap** by having the Support players take their knockback from the South-East, and the DPS South-East.
 
 The Statue will then tether each role seperately once more. **Left (yellow)** will inflict each player with a **confused** debuff and right (purple) will inflict each player with a small AOE and a **sleep** debuff.
 
-To resolve this, we have MT/D1 North, H2/D4 East, ST/D2 South, and H1/D3 West. The yellow tether/confused players will stand just in front of the teleporter pad corresponding with their cardinal (such that they will be forced to walk along all 4)The purple tether/sleep players will stand on the bosses hitbox **behind the teleporter pad** on their cardinal. This will result in the confused player being unable to reach and auto-attack the sleep player because they will be teleported along each pad.
+To resolve this, we have MT/D3 North, H2/D2 East, ST/D4 South, and H1/D1 West. The yellow tether/confused players will stand just in front of the teleporter pad corresponding with their cardinal (such that they will be forced to walk along all 4)The purple tether/sleep players will stand on the bosses hitbox **behind the teleporter pad** on their cardinal. This will result in the confused player being unable to reach and auto-attack the sleep player because they will be teleported along each pad.
 
 Kefka will then cast one more **Mystery Magic**, telegraphing the same lightning AOEs as before and spread/stack markers on each role group. In addition, the Statue will also cast a real/fake gaze.
 
@@ -146,6 +158,34 @@ If Kefka is below 15% HP at this point he will then transition to Phase 2.
 
 If above 15%, Kefka will then become untargetable and cast a final **Light of Judgement** that wipes the raid.
 
-## Phase 2
+### Phase 2
 
-W.I.P
+God Kefka will lower down from the sky and begin the phase by casting **Ultimate Embrace** a shared tankbuster. This is followed by a hard-hitting raidwide:
+
+#### Forsaken
+
+Supports will pre-position themselves to the West, lining up North to South: H1 MT OT H2
+
+Dps will mirror this to the East and line up: D3 D1 D2 D4
+
+(lineups subject to change)
+
+Each role will then be assigned either **AOEs** or **Cones**. One player from each role will also be assigned a **3-Person Enumeration Stack**.
+
+It is important to note where you are in the line up as this will determine how you will resolve your mechanic.
+
+Each player will also be inflicted with 4 stacks of **Spells' Trouble**. The goal of this mechanic is to gradually remove every stack by resolving your assigned mechanic.
+
+Kefka will then place 2 meteor towers on the floor adjacent to eachother. These will be treated as **relative South**.
+
+These towers will **activate** any mechanics that are in them when they resolve.
+
+Every **odd** set of towers will give the 4 people that soaked them 2 cones, and 2 AOE debuffs to be activated later.
+
+Every **even** set of towers will give the 4 people that soaked them 2 stacks, 1 cone, and 1 AOE debuff to be activated later.
+
+##### First Towers
+
+The first set of towers will be resolved by **both** stack players, one **cone** and one **AOE** player.
+
+W.I.P while strats get hashed out
