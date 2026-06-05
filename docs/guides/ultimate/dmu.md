@@ -18,7 +18,8 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 <ActionGroup
     :actions=" [
         { title: 'Phase 1: Kefka', color: 'pink', href: 'https://raidplan.io/plan/BCd8L1CiFV-80hru' },
-        { title: 'Phase 2: Forsaken Toolbox', color: 'blue', href: 'https://raidplan.io/plan/s1X2i3eZB8K2nRFz'}
+        { title: 'Phase 2: Forsaken Toolbox', color: 'blue', href: 'https://raidplan.io/plan/s1X2i3eZB8K2nRFz'},
+        {title: 'Phase 2: Additional Forsaken Explainer Toolbox',color:'blue', href: 'https://raidplan.io/plan/afbvbg4f8k32k4e8#16'}
     ]"
 />
 
@@ -79,7 +80,7 @@ I'm not sure if this is accurate as 3 lit candles can be seen before tele-trounc
 
 Solving these will be included in the guide.
 
-Kefka will begin the fight with **Revolting Ruin III**, a hard hitting conal tank baster that cleaves twice. The 2nd hit will target the player with the **2nd highest** emnity.
+Kefka will begin the fight with **Revolting Ruin III**, a hard hitting conal tank buster that cleaves twice. The 2nd hit will target the player with the **2nd highest** emnity.
 
 #### Graven Image
 
@@ -142,7 +143,7 @@ All identical arrow players should move to the cardinal that results in their ar
 
 All mixed debuff players will have to place their arrows in such a way to form an "L" shape that will cause a player to move into the identical arrow player's teleport pads.
 
-![](\images\ultimate\dmu-arrows.webp)
+![](\images\ultimate\dmu-arrows1.webp)
 
 ::: info NOTE
 To simplify this for mixed debuff players, if I have a "North" and a "West" arrow I go North West.
@@ -183,6 +184,8 @@ Kefka will cycle through 8 sets of these towers, allowing 2 sets of 2 players to
 - Every **odd** (EXCEPT 7) set of towers will give the 4 people that soaked them 2 cones, and 2 AOE debuffs to be activated later.
 - Every **even** set of towers will give the 4 people that soaked them 2 stacks, 1 cone, and 1 AOE debuff to be activated later.
 
+After every **odd** set of towers Kefka will cast either **Future's End** (a front facing half room cleave) or **Past's End** (a rear facing half room cleave). This will cause clones of Kefka to land on the 4 closest players. Kefka will then cast **All Things Ending**, aiming all the clones at a random player.
+
 ##### Prio
 
 To resolve who takes specific towers, we use the assigned mechanics to form new groups.
@@ -212,6 +215,8 @@ As the Dragoon I can immediately see that myself and my partner are **AOE** play
 
 ##### First Towers
 
+**A**AA BBBB A
+
 The first set of towers will be resolved by all **Group 1/A** members: **both** stack players, one **cone** and one **AOE** player.
 
 For an example we will use what I stated prior: H1 & D4 have the stack.
@@ -231,8 +236,34 @@ Positioning correctly will resolve the first set of towers.
 
 ##### Second Towers
 
+A**A**A BBBB A
+
 The second set will also be resolved by **Group 1/A** as stated in the order above. Because this is an **even** tower it will be resolved with the **2 cones** and **2 AOEs** that were distributed to Group 1 from the first towers.
 
 Because the mechanics are distributed **randomly** you _must_ look at your respective partner to determine where you will position yourself.
+
+(I.e. if both D2/D4 get cone then D2 has to adjust to the **West** tower, and the MT will have to take their AOE to the **East** tower.)
+
+The AOE players will stand at the rear of their towers **away** from Kefka, whilst the cone players will stand at the front **inside Kefka's hitbox** to bait Kefka's clone.
+
+Group 2/B players will have both melee players at the North and inside Kefka's hitbox to bait the other 2 Kefka clones, whilst both ranged players will bait their respective cones.
+
+::: warning
+The cone players here must be precise with their positioning to ensure they aren't baiting a Kefka clone and are still able to bait the cone AOE.
+:::
+
+After the towers resolve the party will immediately stack either between the next set of towers (**Past's End**) or opposite of them (**Future's End**). Once Kefka begins to cast **All Things Ending** the party can move to resolve the **Third Towers** with the mechanics they received from the Second Towers.
+
+##### Fourth Towers and onwards
+
+AAA **B**BBB A
+
+After the Third Towers **Group 2/B** will take over tower duty. They will have had to of remember their mechanics that were assigned at the very beginning of the mechanic.
+
+Likewise, **Group 1/A** will have to remember the mechanics that the Third Towers assigned all the way until the Eighth Towers.
+
+After the final set of towers and one last **Past's/Future's End** Kefka will cast:
+
+#### Trines
 
 W.I.P while strats get hashed out
