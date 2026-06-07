@@ -64,7 +64,7 @@ These can be imported using an XIV Launcher Plugin.
 
 ## Fight Writeup (W.I.P)
 
-### Phase 1
+### Phase 1: Kefka
 
 ### These will be prog strats!!! These more than likely will be changed as we prog and learn more about the ultimate.
 
@@ -123,7 +123,7 @@ Immediately following this Kefka will cast another Revolting Ruin III. The tank 
 
 The statue will then indicate and resolve either a East/West cleave before tethering everyone again. These tethers are solved by placing the bubble directly in front of the first bubble. The spreads are resolved the same as the first time, however the melee players should make sure that the tethers are **East/West** of Kefka to avoid clipping a bubble..
 
-As the last spread resolves the Statue will indicate another East/West cleave. Because the 2nd **Double-Trouble Trap** is coming up, all Support players will stack inside Kefka's hitbox to the North, and DPS South. The debuff player should stand slightly closer to Kefka to launch each light party into the bubbles to soak them.
+As the last spread resolves the Statue will indicate another East/West cleave. Because the 2nd **Double-Trouble Trap** is coming up, all Support players will stack inside Kefka's hitbox to the North, and DPS South. The debuff player should stand behind their group to launch each light party into the bubbles to soak them. Each debuff player will have to manually join the stack closest to them.
 
 ::: info NOTE
 The soak window for the bubbles is quite small. They cannot be soaked outside of the window just after the KB goes off. The **debuff player** will also have to rush to quickly join their respective party.
@@ -149,7 +149,7 @@ All mixed debuff players will have to place their arrows in such a way to form a
 To simplify this for mixed debuff players, if I have a "North" and a "West" arrow I go North West.
 :::
 
-Once again we will resolve the **Double-Trouble Trap** by having the Support players take their knockback from the South-East, and the DPS South-East.
+Once again we will resolve the **Double-Trouble Trap** by having the Support players take their knockback from the North, and the DPS South.
 
 The Statue will then tether each role seperately once more. **Left (yellow)** will inflict each player with a **confused** debuff and right (purple) will inflict each player with a small AOE and a **sleep** debuff.
 
@@ -165,7 +165,7 @@ If above 15%, Kefka will then become untargetable and cast a final **Light of Ju
 
 If you have successfully lit all 3 of the Candles Kefka's voice line will change to "Intriguing. This clearly isn't your first time..."
 
-### Phase 2
+### Phase 2: God Kefka
 
 God Kefka will lower down from the sky and begin the phase by casting **Ultimate Embrace** a shared tankbuster. This is followed by a hard-hitting raidwide:
 
@@ -262,8 +262,28 @@ After the Third Towers **Group 2/B** will take over tower duty. They will have h
 
 Likewise, **Group 1/A** will have to remember the mechanics that the Third Towers assigned all the way until the Eighth Towers.
 
-After the final set of towers and one last **Past's/Future's End** Kefka will cast:
+After the final set of towers and one last **Past's/Future's End** Kefka will cast a **Light of Judgment** raidwide. The party will then stand in the center of the arena for Trine.
 
-#### Trines
+#### Trine
+
+Triangles will land on the arena in sets of 3. The 1st and 3rd set will have 3 triangles and the 2nd set will have 1. The 3rd set will **always** cover the center of the arena.
+
+These triangles will explode on the **points** in large circular AOEs.
+
+Whilst the 3rd set is landing Kefka will cast **Wings of Destruction** and one of his wings will glow, indicating a half-room cleave. Simply step to the non-glowing side to avoid this.
+
+To resolve this, we have the party look North and take the first safespot **clockwise** around the arena.
+
+The **Tanks** will instead look **North-West** and take the first safespot **counter-clockwise**. This is because as the 1st set of Trines resolve, Kefka will cast another **Wings of Destruction**. However this time it will be a tankbuster baited on the **closest** and **furthest** player from Kefka.
+
+::: tank
+Determine with your Tank partner if you are baiting the near or far tankbuster.
+:::
+
+The **far** tank will go to the edge of the arena, and the **near** tank will stand between 2 of the circular AOEs originating from the triangle's points.
+
+::: damage
+Melee players should be extremely careful and **NOT** greed uptime to allow the tankbuster to bait correctly onto the tank.
+:::
 
 W.I.P while strats get hashed out
