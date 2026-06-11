@@ -16,11 +16,12 @@ discussionLink:
 Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
 
 <ActionGroup
-    :actions=" [
-        { title: 'Phase 1: Kefka', color: 'pink', href: 'https://raidplan.io/plan/BCd8L1CiFV-80hru' },
-        { title: 'Phase 2: Forsaken Toolbox', color: 'blue', href: 'https://raidplan.io/plan/s1X2i3eZB8K2nRFz'},
-        {title: 'Phase 2: Additional Forsaken Explainer Toolbox',color:'blue', href: 'https://raidplan.io/plan/afbvbg4f8k32k4e8#16'}
-    ]"
+:actions=" [
+{ title: 'Phase 1: Kefka', color: 'pink', href: 'https://raidplan.io/plan/BCd8L1CiFV-80hru' },
+{ title: 'Phase 2: Forsaken Toolbox', color: 'blue', href: 'https://raidplan.io/plan/s1X2i3eZB8K2nRFz'},
+{title: 'Phase 2: Additional Forsaken Explainer Toolbox',color:'blue', href: 'https://raidplan.io/plan/afbvbg4f8k32k4e8#16'},
+{title: 'Phase 3: Chaos & Exdeath (with tank LB3)',color:'purple', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'}
+]"
 />
 
 ## PoV Videos
@@ -68,17 +69,13 @@ These can be imported using an XIV Launcher Plugin.
 
 ### These will be prog strats!!! These more than likely will be changed as we prog and learn more about the ultimate.
 
-Throughout Phase 1, the Statue behind Kefka will have 3 candles that need to be lit to successfully clear Phase 2 later. To light these candles the party must sucessfully:
+Throughout Phase 1, 3 conditions must be met to succesfully complete Phase 2 later in the fight:
 
 - Utilize all **Double-Trouble Trap** debuffs without letting them fall off.
 - Succesfully soak all the gravity bubbles in **Graven Image II**
 - Place and utilize all 16 arrow debuffs in **Tele-Trouncing**
 
-::: info NOTE
-I'm not sure if this is accurate as 3 lit candles can be seen before tele-trouncing resolves. If anyone can confirm if there is a visual confirmation (other than the voice lines) for fulfilling all p1 puzzles, please let me know :3
-:::
-
-Solving these will be included in the guide.
+Solving these will be included in the guide. As far as I know there is no _visual_ indication of completing these, however, Kefka will change voicelines throughout the Phase as conditions are met. Notably, upon completion of Phase 1 Kefka's voice line will change to "Intriguing. This clearly isn't your first time..." if all 3 conditions are met.
 
 Kefka will begin the fight with **Revolting Ruin III**, a hard hitting conal tank buster that cleaves twice. The 2nd hit will target the player with the **2nd highest** emnity.
 
@@ -162,8 +159,6 @@ Support players will stack/spread North of Kefka, and the DPS players will stack
 If Kefka is below 15% HP at this point he will then transition to Phase 2.
 
 If above 15%, Kefka will then become untargetable and cast a final **Light of Judgement** that wipes the raid.
-
-If you have successfully lit all 3 of the Candles Kefka's voice line will change to "Intriguing. This clearly isn't your first time..."
 
 ### Phase 2: God Kefka
 
@@ -285,5 +280,150 @@ The **far** tank will go to the edge of the arena, and the **near** tank will st
 ::: damage
 Melee players should be extremely careful and **NOT** greed uptime to allow the tankbuster to bait correctly onto the tank.
 :::
+
+After a final **Ultimate Embrace** shared tankbuster, if Kefka is not brought to 0% HP he will become untargetable and Enrage.
+
+### Phase 3: Chaos & Exdeath
+
+After the Cutscene, Kefka will appear untargetable and cast **Definition of Insaity**, summoning Chaos & Exdeath.
+
+They both will immediately cast **The Decisive Battle**. This will assign the 2 closest DPS/Supports **Packet Filter Alpha** or **Packet Filter Beta**.
+
+- **Alpha** players can only hit Chaos
+- **Beta** players can only hit Exdeath
+
+(I believe we put all Melees on Chaos and Ranged on Exdeath due to upcoming Thunder III)
+
+Chaos will then cast **Bowels of Agony**.
+
+#### Bowels of Agony
+
+This mechanic will apply 4 different debuffs to members of the party:
+
+- 1 DPS and 1 Support will receive **Entropy**. Upon expiring the player will have a small AOE go off on them.
+- 1 DPS and 1 Support will receive **Dynamic Fluid**. Upon expiring the player will have a donut AOE go off on them.
+- Every player will receive **Tailwind** or **Headwind**. These can be cleansed by getting hit by a KB.
+
+    The player can reduce the KB by either facing TOWARD (**Tailwind**) or AWAY (**Headwind**) from the KB depending on the debuff..
+
+**Entropy** and **Dynamic Fluid** will either be short (18s)/long (45s) debuffs or long/short debuffs
+
+Coloured crystals will then spawn, with a **Fire** and **Water** Crystal spawning on opposite edges of the arena, with a **Wind** crystal between them.
+
+The **Wind** crystal will be treated as relative North.
+
+These crystals will activate when different debuffs expire/are cleansed.
+
+The **Fire** crystal will activate **per** stack of **Entropy** that expires. This will launch a donut AOE at the closest players.
+
+The **Water** crystal will activate **per** stack of **Dynamic Fluid** that expires. This will launch a AOE at the closest players.
+
+::: info NOTE
+The fire and water crystal AOEs also knock players away, resolving their wind debuffs. However, because we use the LB3 strat we can safely ignore this.
+:::
+
+The **Wind** crystal will activate per **Tailwind/Headwind** debuff cleansed. This will launch a **pair stack** at each player with a debuff.
+
+After all debuffs are assigned, Exdeath should be pulled to relative South (opposite the **Wind** crystal) as he will soon cast **Thunder III**: a massive AOE.
+
+During this cast the **Packet Filter** debuffs will be removed.
+
+After the cast begins the tank should run back to the **Wind** crystal.
+
+All ranged players will use the static positions found in the toolbox (I may post an image here later as well) to resolve the crystal AOEs. These positions allow ranged players to effectively ignore the debuffs.
+
+Melee players however should use the spread positions if **Entropy** is resolving, and stack on the **Wind** crystal if **Dynamic Fluid** is resolving.
+
+After the first debuff resolves Exdeath will cast another **Thunder III**, this time being a proximity baited two-hit tankbuster. This can either be swapped or invulned.
+
+Both bosses can then be pulled relative North for cleave.
+
+The tank should keep Chaos pointed towards the **Wind** crystal as he casts either **Longitudinal/Latitudinal Implosion**:
+
+- Longitudinal = **Sides** safe first then **Front/Back**
+- Latitudinal = **Front/Back** safe first then **Sides**
+
+Immediately after the **second** cleave the 2nd set of debuffs will resolve. These can be resolved in the exact same manner as the first.
+
+Chaos will then cast **Umbra Smash**, a targeted jump on the furthest player that inflicts flare damage to the rest of the party..
+
+**D3** should then run to the relative South wall to bait this.
+
+At the same time **Kefka** will perform 8 dashes through the arena, either CW or CCW. Note which waymark he dashes to first, and which direction he is travelling.
+
+Exdeath will then cast **Vacuum Wave**, a KB centered on himself. All players will pair up around him. Do **NOT** anti-KB as this will result in the wind debuff not being cleansed.
+
+For this strat to work you **must** tank LB3 to avoid overkill to the wind crystal pair stacks. As each pair stack inflicts a **Wind Vulnerability Up** debuff.
+
+### Ultima Blaster
+
+Each player will then be marked 1-8 with Limit Cut markers.
+
+Noting the direction and waymark from Kefka before, everyone should place themselves **between** each waymark in the **opposite** direction of his rotation, counting up from 1-8.
+
+For example if he dashed to East (the **B** waymark) and then rotated **clockwise**, the **1** player would go between **2** & **B**, the **2** player between **A** & **2** and so forth.
+
+After this resolves Exdeath will cast another proximity baited **Thunder III** buster before both Chaos and Exdeath cast another **The Decisive Battle**.
+
+**Kefka** will then cast **Max**, creating a large version of himself. At the same time Chaos will cast **Earthquake**.
+
+### Earthquake
+
+Earthquake place an **Earth** crystal in the center of the arena, as well as reducing all players health to 1 and inflicting:
+
+- **Accretion** to all players. Cleansed by healing the player to full HP.
+- **Primordial Crust** to 2 random players. Cleansed by "dying" (taking lethal damage).
+- **1/2/3** debuffs indicating the shortest debuff & cleanse orders. (^[First in Line]x3, ^[Second in Line]x3, ^[Third in Line]x2)
+
+Letting debuffs expire will instantly kill the affected player.
+
+The **Earth** crystall will pulse and inflict **Earth Resistance Down II** any time an **earth debuff** is cleansed. This means that healers **must** heal up each **Accretion** player **one by one**.
+
+Big Kefka will then move to a random spot on the edge of the arena. He will then cast **Slap Happy**.
+
+Looking at Kefka, players will dodge to the opposite side that he raises his hand from.
+
+- If the players dodge **right** of Kefka, the party will take a stack from Chaos.
+- If the players dodge **left** of Kefka, the party will split into tank/healer/DPS role groups for 3 stacks.
+
+Exdeath will then cast **Blackhole**.
+
+### Blackhole
+
+This mechanic is quite dense and can be confusing. Players can (and should) use self-mark macros to assist with positioning and which blackhole they should take:
+
+::: details View All Macros
+**First in Line**
+
+```
+/mk attack <me>
+```
+
+**Second in Line**
+
+```
+/mk bind <me>
+```
+
+**Third in Line**
+
+```
+/mk ignore <me>
+```
+
+:::
+In the following explanation I will refer to the markers above.
+
+Blackholes will spawn around the arena and will continue to spawn throughout the mechanic. Stepping into these will cause damage and inflict the player with a **Damage Down**.
+
+Some blackholes will spawn a tether that can be grabbed/passed. These tethers will shoot the tethered player with a laser that should be pointed away from the party.
+
+Taking **3** of these tethers will deal lethal damage, and thus cleansing that player's **Primordial Crust** debuff.
+
+Because the blackhole tethers spawn in sets, the party will use the **1/2/3** debuffs assigned previously to determine which tether they are taking.
+
+The first set of blackholes will spawn 2 sets of tethers. Using the order below (It can be seen in the raidplan for now), the **1 Attack** marker player will take the singular tether.
+
+For the next set of tethers the **1 Attack** marker will take the **left** of the 2 tethers, and the **2 Attack** marker will take the **right**.
 
 W.I.P while strats get hashed out
