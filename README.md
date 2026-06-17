@@ -55,6 +55,31 @@ For easy development you can run the website locally on your computer.
 6. Run `pnpm run docs:dev` to start the local server
 7. Open your web browser and navigate to `http://localhost:5173` to view the website and see your changes live
 
+## Updating Status Icons
+
+Status effect icons and metadata are sourced from [XIVAPI v2](https://v2.xivapi.com/api/docs). A script is provided to fetch the latest data after each game patch.
+
+**Requirements:** Python 3.9+ (no extra packages needed)
+
+```bash
+python scripts/fetch-status-icons.py
+```
+
+This will:
+- Update `.vitepress/data/status.json` with all current status entries
+- Download any new or missing icons into `docs/public/images/statusicons/`
+- Skip icons that already exist locally (only downloads what's new)
+
+**Options:**
+
+| Flag | Description |
+|------|-------------|
+| `--force` | Re-download all icons even if they already exist |
+| `--skip-images` | Only update `status.json`, skip image downloads |
+| `--workers N` | Number of concurrent downloads (default: 10) |
+| `--icons-dir PATH` | Override the output directory for icons |
+| `--json-out PATH` | Override the output path for `status.json` |
+
 ## Pages
 Each page is a single Markdown File (.md) which can be located anywhere in the root folder. Each page begins with a header to specify the page name and details, this will not appear in the final page.
 
