@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue';
-import {difficultyTypes} from "./difficultyTypes";
+import { difficulties } from "./difficultyTypes";
 
 const props = defineProps({
 	page: {
@@ -14,8 +14,8 @@ const linkHref = computed(() => {
   return props.page.url.replace("/guides", "");
 });
 
-// Determine the difficulty type and its associated properties from the difficultyTypes array
-const difficulty = difficultyTypes.find((d) => d.type === props.page.frontmatter.difficulty) || {
+// Determine the difficulty type and its associated properties from the difficulty registry
+const difficulty = difficulties.find(props.page.frontmatter.difficulty) ?? {
 	type: "",
 	colorClass: "",
 	icon: "",

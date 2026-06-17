@@ -1,6 +1,6 @@
 <script setup>
 import GuideList from "./GuideList.vue";
-import { difficultyTypes } from "./difficultyTypes";
+import { difficulties } from "./difficultyTypes";
 import { data as archivePages } from "../loaders/archives.data";
 import { computed, ref, onMounted, onBeforeUnmount } from 'vue';
 import { homeList } from "./homeList";
@@ -27,7 +27,7 @@ const columnCount = ref(breakpoints.default);
 const columns = computed(() => {
 	const cols = Array.from({ length: columnCount.value }, () => []);
 	// Sort difficulties by their homeNavOrder property before distributing to columns
-	const sortedDifficulties = [...difficultyTypes].sort((a, b) => a.homeNavOrder - b.homeNavOrder);
+	const sortedDifficulties = difficulties.sortedByHomeNav;
 	sortedDifficulties
 		.filter(diff => showAll || homeList[diff.type]) // If the homeList doesn't include the difficulty, filter it out.
 		.forEach((item, i) => {

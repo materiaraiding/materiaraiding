@@ -2,7 +2,7 @@
 import GuideButton from "./GuideButton.vue";
 import { data as archive } from "../loaders/archives.data";
 import { data as guides } from "../loaders/guides.data";
-import { difficultyTypes } from "./difficultyTypes";
+import { difficulties } from "./difficultyTypes";
 
 const props = defineProps({
 	difficulty: {
@@ -42,7 +42,7 @@ const filterPages = (difficulty, expansion) => {
 };
 
 const filteredPages = filterPages(props.difficulty, props.expansion);
-const difficulty = difficultyTypes.find(d => d.type === props.difficulty);
+const difficulty = difficulties.find(props.difficulty);
 
 </script>
 
