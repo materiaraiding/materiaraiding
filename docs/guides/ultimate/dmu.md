@@ -21,7 +21,8 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 { title: 'Phase 1: Freaky Arrows', color: 'purple', href: 'https://raidplan.io/plan/qD9Y_g1caq3l5gD-#8' },
 { title: 'Phase 2: Forsaken', color: 'yellow', href: 'https://raidplan.io/plan/uq7zdjvuu7uuw8fj#4'},
 { title: 'Phase 2: Trines', color: 'yellow', href: 'https://raidplan.io/plan/apkh6ytq72w8pt3v'},
-{title: 'Phase 3: Chaos & Exdeath (tank LB3 BoA)',color:'red', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'}
+{title: 'Phase 3: Chaos & Exdeath (tank LB3 BoA)',color:'red', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'},
+{title: 'Phase 4: Kefka Says',color:'blue', href: 'https://raidplan.io/plan/HA1dPyKJKo8UYHlv'},
 ]"
 />
 
@@ -373,11 +374,11 @@ After the Third Towers **Group B** will take over tower duty. They will have had
 
 Likewise, **Group A** will have to remember the mechanics that the Third Towers assigned all the way until the Eighth Towers.
 
-After the final set of towers and one last **Past's/Future's End** Kefka will cast a **Light of Judgment** raidwide. The party will then stand in the center of the arena for Trine.
+After the final set of towers and one last **Past's/Future's End** Kefka will cast a **Light of Judgment** raidwide. This will deal lethal damage to any player who still has stacks of **Spells' Trouble**.
 
 #### Trine
 
-Triangles will land on the arena in sets of 3. The 1st and 3rd set will have 3 triangles and the 2nd set will have 1. The 3rd set will **always** cover the center of the arena.
+The party will move to stand under Kefka as triangles begin to float down from the sky in sets of 3. The 1st and 3rd set will have 3 triangles and the 2nd set will have 1. The 3rd set will **always** cover the center of the arena.
 
 These triangles will explode on the **points** in large circular AOEs.
 
@@ -403,10 +404,12 @@ After a final **Ultimate Embrace** shared tankbuster, if Kefka is not brought to
 
 After the Cutscene, Kefka will appear untargetable and cast **Definition of Insanity**, summoning Chaos & Exdeath.
 
-They both will immediately cast **The Decisive Battle**. This will assign the 2 closest DPS/Supports **Packet Filter Alpha** or **Packet Filter Beta**.
+They both will immediately cast **The Decisive Battle**. This will assign the 2 closest DPS/Supports **Epic Hero** ^[Epic Hero] or **Fated Hero** ^[Fated Hero].
 
-- **Alpha** players can only hit Chaos
-- **Beta** players can only hit Exdeath
+- **Epic Hero** ^[Epic Hero]
+    > Afflicted players can only hit Chaos
+- **Fated Hero** ^[Fated Hero]
+    > Afflicted players can only hit Exdeath
 
 In general:
 
@@ -419,13 +422,15 @@ Chaos will then cast **Bowels of Agony**.
 
 This mechanic will apply 4 different debuffs to members of the party:
 
-- 1 DPS and 1 Support will receive **Entropy**. Upon expiring the player will have a small AOE go off on them.
-- 1 DPS and 1 Support will receive **Dynamic Fluid**. Upon expiring the player will have a donut AOE go off on them.
-- Every player will receive **Tailwind** or **Headwind**. These can be cleansed by getting hit by a KB.
+- 1 DPS and 1 Support will receive **Entropy** ^[Entropy].
+    > Upon expiring the player will have a small AOE go off on them.
+- 1 DPS and 1 Support will receive **Dynamic Fluid** ^[Dynamic Fluid].
+    > Upon expiring the player will have a donut AOE go off on them.
+- Every player will receive **Tailwind** ^[Tailwind:1603] or **Headwind** ^[Headwind].
 
-    The player can reduce the KB by either facing TOWARD (**Tailwind**) or AWAY (**Headwind**) from the KB depending on the debuff..
+    > These can be cleansed by getting hit by a KB. The player can reduce the KB by either facing TOWARD (**Tailwind** ^[Tailwind:1603]) or AWAY (**Headwind** ^[Headwind]) from the KB depending on the debuff..
 
-**Entropy** and **Dynamic Fluid** will either be short (18s)/long (45s) debuffs or long/short debuffs
+**Entropy** ^[Entropy] and **Dynamic Fluid** ^[Dynamic Fluid] will either be short (**18s**)/ long (**45s**) debuffs or long/short debuffs
 
 Coloured crystals will then spawn, with a **Fire** and **Water** Crystal spawning on opposite edges of the arena, with a **Wind** crystal between them.
 
@@ -433,28 +438,28 @@ The **Wind** crystal will be treated as relative North.
 
 These crystals will activate when different debuffs expire/are cleansed.
 
-- The **Fire** crystal will activate **per** stack of **Entropy** that expires. This will launch a donut AOE at the closest players.
+- The **Fire** crystal will activate **per** stack of **Entropy** ^[Entropy] that expires. This will launch a donut AOE at the closest players.
 
-- The **Water** crystal will activate **per** stack of **Dynamic Fluid** that expires. This will launch a AOE at the closest players.
+- The **Water** crystal will activate **per** stack of **Dynamic Fluid** ^[Dynamic Fluid] that expires. This will launch a AOE at the closest players.
 
 ::: info NOTE
 The fire and water crystal AOEs also knock players away, resolving their wind debuffs. However, because we use the LB3 strat we can safely ignore this.
 :::
 
-- The **Wind** crystal will activate per **Tailwind/Headwind** debuff cleansed. This will launch a **pair stack** at each player with a debuff.
+- The **Wind** crystal will activate per **Tailwind ^[Tailwind:1603]/Headwind ^[Headwind]** debuff cleansed. This will launch a **pair stack** at each player with a debuff.
 
 After all debuffs are assigned, Exdeath should be pulled to relative South (opposite the **Wind** crystal) as he will soon cast **Thunder III**: a massive AOE.
 
-During this cast the **Packet Filter** debuffs will be removed.
+During this cast the **Epic Hero** ^[Epic Hero]/ **Fated Hero** ^[Fated Hero] debuffs will be removed.
 
 After the cast begins the tank should run back to the **Wind** crystal.
 
 All ranged players will use the static positions found in the toolbox (I may post an image here later as well) to resolve the crystal AOEs. These positions allow ranged players to effectively ignore the debuffs.
 
-Melee players however should use the spread positions if **Entropy** is resolving, and stack on the **Wind** crystal if **Dynamic Fluid** is resolving.
+Melee players however should use the spread positions if **Entropy** ^[Entropy] is resolving, and stack on the **Wind** crystal if **Dynamic Fluid** ^[Dynamic Fluid] is resolving.
 
 ::: warning
-Melee players should be very careful especially during **Entropy** expirations. If they are not quick to squeeze closer to Chaos they can easily be clipped by the **fire donut** and killed by the knockback.
+Melee players should be very careful especially during **Entropy** ^[Entropy] expirations. If they are not quick to squeeze closer to Chaos they can easily be clipped by the **fire donut** and killed by the knockback.
 :::
 
 After the first debuff resolves Exdeath will cast another **Thunder III**, this time being a proximity baited two-hit tankbuster. This can either be swapped or invulned.
@@ -477,10 +482,10 @@ At the same time **Kefka** will perform 8 dashes through the arena, either CW or
 Exdeath will then cast **Vacuum Wave**, a KB centered on himself. All players will pair up around him. Do **NOT** anti-KB as this will result in the wind debuff not being cleansed.
 
 ::: warning
-All players should swap to targeting Exdeath here. Because Chaos jumps **just before** the Vacuum Wave cast finishes it can cause the player to quickly turn around, resulting in their **Tail/Headwind** being unresolved.
+All players should swap to targeting Exdeath here. Because Chaos jumps **just before** the Vacuum Wave cast finishes it can cause the player to quickly turn around, resulting in their **Tailwind ^[Tailwind:1603]/Headwind ^[Headwind]** being unresolved.
 :::
 
-For this strat to work you **must** tank LB3 to avoid overkill to the wind crystal pair stacks. As each pair stack inflicts a **Wind Vulnerability Up** debuff.
+For this strat to work you **must** tank LB3 to avoid overkill to the wind crystal pair stacks. As each pair stack inflicts a **Wind Resistance Down II** ^[Wind Resistance Down II] debuff.
 
 ::: tank
 The timing for LB3 is to press it on the "W" of **Vacuum Wave**.
@@ -508,13 +513,19 @@ The following mechanics are **incredibly** tough on healers. I recommend looking
 
 Earthquake places an **Earth** crystal in the center of the arena, as well as reducing all players health to 1 and inflicting:
 
-- **Primordial Crust** to all players. Cleansed by "dying" (taking lethal damage).
-- **1/2/3** debuffs indicating the shortest debuff & cleanse orders. (^[First in Line]x3, ^[Second in Line]x3, ^[Third in Line]x2)
-- **Accretion** to a random healer and a random DPS. Cleansed by healing the player to full HP.
+**Primordial Crust** ^[Primordial Crust] to all players.
+
+> Cleansed by "dying" (taking lethal damage).
+
+**1/2/3** debuffs indicating the shortest debuff & cleanse orders. (^[First in Line]x3, ^[Second in Line]x3, ^[Third in Line]x2)
+
+**Accretion** ^[Accretion] to a random healer and a random DPS.
+
+> Cleansed by healing the player to full HP.
 
 Letting debuffs expire will instantly kill the affected player.
 
-The **Earth** crystall will pulse and inflict **Earth Resistance Down II** any time an **earth debuff** is cleansed. This means that healers **must** heal up each **Accretion** player **one by one**.
+The **Earth** crystal will pulse and inflict **Earth Resistance Down II** ^[Earth Resistance Down II] any time an **earth debuff** is cleansed. This means that healers **must** heal up each **Accretion** player **one by one**.
 
 Big Kefka will then move to a random spot on the edge of the arena and cast **Slap Happy**.
 
@@ -537,21 +548,25 @@ Blackholes will spawn around the arena and will continue to spawn throughout the
 
 Some blackholes will spawn a tether that can be grabbed/passed. These tethers will shoot the tethered player with a laser that should be pointed away from the party.
 
-The tether player can pull their tether **clockwise** to avoid cleaving the party and still keep uptime. The remaining members of the party should **stack in the middle**.
+These tethers will spawn in sets:
 
-Taking **3** of these tethers will deal lethal damage, and thus cleansing that player's **Primordial Crust** debuff.
+> 1 Tether -> 2 Tethers -> 3 Tethers **x 3** -> 3 Tethers **x 3** -> 2 Tethers -> 1 Tether
+
+Tether players can pull their tether **clockwise** to avoid cleaving the party and still keep uptime. The remaining members of the party should **stack in the middle**.
+
+Taking **3** of these tethers will deal lethal damage, and thus cleansing that player's **Primordial Crust** ^[Primordial Crust] debuff.
 
 Because the blackhole tethers spawn in sets, the party will use the **1/2/3** debuffs assigned previously to determine which tether they are taking.
 
-The first set of blackholes will spawn 2 sets of tethers. Using the order below (It can be seen in the raidplan for now), the **1 Attack** marker player will take the singular tether.
+For the first set, the **1 Attack** marker player will take the singular tether.
 
-For the next set of tethers the **1 Attack** marker will take the **first clockwise** tether, and the **2 Attack** marker will take the **first counter-clockwise** tether.
+When 2 tethers spawn, the **1 Attack** marker will take the **first clockwise** tether, and the **2 Attack** marker will take the **first counter-clockwise** tether.
 
 After another **Thunder III** tankbuster, **Big Kefka** will teleport to a random cardinal/intercardinal on the edge of the arena. Players should stand behind Chaos on a **southern intercardinal** relative to Kefka. This is to bait an upcoming **Damning Edict**: a half-room cleave from Chaos that is baited on a random player. At the same time as this Cleave Kefka will cast another **Slap Happy**.
 
 If **Damning Edict** was baited correctly this **Slap Happy** can be resolved the same as the first, with players avoiding the **Damning Edict** as necessary.
 
-The next set of **Blackhole Tethers** will spawn in multiples of 3.
+The next set of **Blackhole Tethers** will then spawn.
 
 After these tethers are resolved players will have to bait another **Damning Edict** relative to Kefka. Kefka will then cast **Look Upon Me & Despair** a **hot tail** style line cleave through the cardinal/intercardinal Kefka is on. This is immediately followed by another **Thunder III** tankbuster.
 
@@ -566,6 +581,8 @@ DPS players should use personals here to help allieviate some healer strain.
 The final set of **Blackhole Tethers** will be resolved similar to the first set: two tethers then one tether.
 
 At the same time Kefka will cast another **Look Upon Me & Despair**. Simply watch Kefka and move out of the way.
+
+By this point all players should all have cleansed their **Primordial Crust** ^[Primordial Crust] debuff.
 
 ### Stomp-a-Mole
 
@@ -589,6 +606,110 @@ Either when **Bowels of Agony** is cast, or when **Chaos dies**, Exdeath will ca
 
 Killing both Chaos and Exdeath will transition the party to:
 
-## Phase 4: Real or Cake
+## Phase 4: Kefka Says
+
+::: info NOTE
+This phase requires a lot of memorisation. Using echo macros is highly recommended.
+:::
+
+For the first half of this phase, Kefka will spawn Chaos (**North West**) and Neo-Exdeath (**North East**) at the edge of the arena.
+
+Kefka will then cast **Mystery Magic** 3 times in succession. Simply determine the safe spots and move into them.
+
+The catch here is that **during** these dodges Chaos and Exdeath will cast and apply debuffs to players. **These casts can be real or fake**.
+
+Reversed casts will have their debuffs **reversed**.
+
+#### Exdeath Debuffs
+
+| Debuff                                     | Real           | Fake           |
+| :----------------------------------------- | :------------- | :------------- |
+| **Compressed Water** ^[Compressed Water]   | 3 Player Stack | Spread         |
+| **Forked Lightning** ^[Forked Lightning]   | Spread         | 3 Player Stack |
+| **Acceleration Bomb** ^[Acceleration Bomb] | Stillness      | Motion         |
+| **Cursed Shriek** ^[Cursed Shriek]         | Gaze           | Inverted Gaze  |
+
+The above set of debuffs will be applied in sets of 2 with casts of **Grand Cross**.
+These sets will always be applied as such:
+
+- 1 Support 1 DPS with **short stack**
+- 1 Support 1 DPS with **long stack**
+- 1 Support 1 DPS with **short gaze**
+- 1 Support 1 DPS with **long gaze**
+- 2 Support 2 DPS with **short stillness**
+- 2 Support 2 DPS with **long stillness**
+    > All of these may be real or fake
+
+All players will also be assigned **White Wound** ^[White Wound] or **Black Wound** ^[Black Wound].
+
+In addition:
+
+- 4 players get assigned **Allagan Field** ^[Allagan Field]
+    > The player must solve mechanics.
+- 4 get assigned **Beyond Death** ^[Beyond Death]
+    > The player must fail mechanics.
+
+#### Chaos Debuffs
+
+| Debuff                             | Real                  | Fake                  |
+| :--------------------------------- | :-------------------- | :-------------------- |
+| **Entropy** ^[Entropy]             | Delayed AoE (twister) | Delayed Donut         |
+| **Dynamic Fluid** ^[Dynamic Fluid] | Delayed Donut         | Delayed AoE (twister) |
+
+### Flood of Naught
+
+**Exdeath** will jump to a random cardinal/intercardinal and cast **Flood of Naught**. **This cast can _also_ be fake**.
+
+This will telegraph half room cleaves of either **blue** (^[Black Wound])/ **purple** (^[White Wound]).
+
+::: warning
+These halfroom cleaves overlap. Do **not** stand in the middle.
+:::
+
+Normally, players would have to get hit by the opposite colour cleave as their **White Wound** ^[White Wound] / **Black Wound** ^[Black Wound] debuff.
+
+However, players will also have to resolve their **Allagan Field** ^[Allagan Field] / **Beyond Death** ^[Beyond Death] debuff at the same time.
+
+::: details Examples
+^[White Wound]/^[Beyond Death] = get hit by **purple**.
+
+^[Black Wound]/ **?**^[Beyond Death] = get hit by **purple**.
+
+**?**^[Black Wound]/ **?**^[Beyond Death] = get hit by **blue**.
+
+**?**^[White Wound]/ ^[Allagan Field] = get hit by **purple**.
+
+^[White Wound]/^[Allagan Field] = get hit by **blue**.
+:::
+
+Using the cardinal/intercardinal that **Exdeath** was on, the **1st** of **stack/spreads** will resolve.
+
+There will be a **Support** & **DPS stack**, and a **Support** & **DPS spread**.
+
+The Support stack will stand at **relative North** and the DPS stack at **relative South** The Support spread and DPS spread will stand **relative West/East** respectively.
+
+Additionally, 4 Players will have to resolve their **Stillness/Motion** at the same time as this.
+
+(check raidplan for image, will get one here eventually)
+
+Kefka will then cast **Thrumming Thunder III**. **Remember if this is real or fake**.
+
+At the same time the **1st** set of **Gazes** will resolve.
+
+- If the gaze is **real** have the gaze players stand **behind** the party **Support left, DPS right**.
+
+- If the gaze is **fake** have both players stand **under Kefka**, **Support left, DPS right**
+
+All players should then stack middle to resolve the **Entropy** ^[Entropy] / **Dynamic Fluid** ^[Dynamic Fluid] debuff. If **Entropy** ^[Entropy] is real or if **Dynamic Fluid** ^[Dynamic Fluid] is fake, the party should immediately move out to avoid the twister.
+
+The party will then move to solve the **2nd** set of **stack/spreads** in the same manner as the first, using **True North** this time.
+
+At the same time Kefka will cast **Blizzard III Blowout**. **Remember if this is real or fake**.
+
+The **2nd** set of **Gazes** will then resolve in the same manner as the first.
+
+The party will then stack under Kefka to resolve the last **Entropy** ^[Entropy] / **Dynamic Fluid** ^[Dynamic Fluid] debuff. At the same time, Kefka will cast **Mana Release**, telegraphing another **Ice/Lightning** combo.
+
+Players must apply the real/fake from the 2 earlier casts to this cast.
 
 W.I.P while strats get hashed out
