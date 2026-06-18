@@ -671,15 +671,15 @@ Normally, players would have to get hit by the opposite colour cleave as their *
 However, players will also have to resolve their **Allagan Field** ^[Allagan Field] / **Beyond Death** ^[Beyond Death] debuff at the same time.
 
 ::: details Examples
-^[White Wound]/^[Beyond Death] = get hit by **purple**.
+^[White Wound]/^[Beyond Death] **real** cast = get hit by **purple**.
 
-^[Black Wound]/ **?**^[Beyond Death] = get hit by **purple**.
+^[Black Wound]/ **?**^[Beyond Death] **fake** cast = get hit by **blue**.
 
-**?**^[Black Wound]/ **?**^[Beyond Death] = get hit by **blue**.
+**?**^[Black Wound]/ **?**^[Beyond Death] **real** cast = get hit by **blue**.
 
-**?**^[White Wound]/ ^[Allagan Field] = get hit by **purple**.
+**?**^[White Wound]/ ^[Allagan Field] **real** cast = get hit by **purple**.
 
-^[White Wound]/^[Allagan Field] = get hit by **blue**.
+^[White Wound]/^[Allagan Field] **fake** cast = get hit by **purple**.
 :::
 
 Using the cardinal/intercardinal that **Exdeath** was on, the **1st** of **stack/spreads** will resolve.
