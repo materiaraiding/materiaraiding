@@ -4,12 +4,12 @@ import DefaultTheme from "vitepress/theme";
 import { useData } from "vitepress";
 import { computed, onMounted } from "vue";
 import useScrollDirection from "../hooks/useScrollDirection";
-import { difficultyTypes } from "../components/lists/difficultyTypes";
+import { difficulties } from "../components/lists/difficultyTypes";
 
 const { Layout } = DefaultTheme;
 const { frontmatter } = useData();
 
-const icon = computed(() => difficultyTypes.find(t => t.type === frontmatter.value.difficulty).icon);
+const icon = computed(() => difficulties.find(frontmatter.value.difficulty)?.icon ?? '');
 
 onMounted(() => {
 	const root = document.documentElement;
