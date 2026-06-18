@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from "vue";
 import { usePartyFinder } from "../hooks/usePartyFinder";
 
 const {
@@ -18,6 +19,30 @@ const {
 	getDiscordThreadUrl,
 	formatDate,
 } = usePartyFinder();
+
+// 0 = commitment, 1 = content/difficulty, 2 = role/class
+const TAG_GROUP: Record<string, number> = {
+	// Commitment
+	casual: 0, midcore: 0, hardcore: 0,
+	// Content / difficulty
+	savage: 1, ultimate: 1, "field ops": 1,
+	dsr: 1, fru: 1, tea: 1, top: 1, ucob: 1, uwu: 1, criterion: 1, "other raids/content": 1, "other raids-content": 1,
+	// Role / class
+	tank: 2, "main-tank": 2, "off-tank": 2,
+	healer: 2, "pure healer": 2, "shield healer": 2,
+	caster: 2, melee: 2,
+	"phys range": 2, "phys ranged": 2, "phys-range": 2, "phys-ranged": 2, "physical ranged": 2,
+};
+
+const groupedCategoryTags = computed(() => {
+	const buckets: Array<typeof categoryTags.value> = [[], [], []];
+	for (const tag of categoryTags.value) {
+		const g = TAG_GROUP[tag.tag_name.toLowerCase()] ?? 1;
+		buckets[g].push(tag);
+	}
+	buckets.forEach(b => b.sort((a, b) => a.tag_name.localeCompare(b.tag_name)));
+	return buckets.filter(b => b.length > 0);
+});
 
 function parsedTags(applied: string | null): string[] {
 	if (!applied) return [];
@@ -62,21 +87,24 @@ function parsedTags(applied: string | null): string[] {
 		</div>
 
 		<!-- ── Filter chips ─────────────────────────────────────── -->
-		<div v-if="!loading && categoryTags.length > 0" class="pf-filters">
-			<button
-				v-for="tag in categoryTags"
-				:key="tag.id"
-				class="pf-chip"
-				:class="{ 'pf-chip--active': tag.filtered }"
-				@click="toggleTagFilter(tag.id)">
-				<img
-					v-if="getTagInfo(tag.id).icon"
-					:src="getTagInfo(tag.id).icon"
-					class="pf-chip-icon"
-					:alt="tag.tag_name"
-					@error="(e) => ((e.target as HTMLImageElement).style.display = 'none')" />
-				{{ tag.tag_name }}
-			</button>
+		<div v-if="!loading && groupedCategoryTags.length > 0" class="pf-filters">
+			<template v-for="(group, gi) in groupedCategoryTags" :key="gi">
+				<span v-if="gi > 0" class="pf-filter-sep" aria-hidden="true" />
+				<button
+					v-for="tag in group"
+					:key="tag.id"
+					class="pf-chip"
+					:class="{ 'pf-chip--active': tag.filtered }"
+					@click="toggleTagFilter(tag.id)">
+					<img
+						v-if="getTagInfo(tag.id).icon"
+						:src="getTagInfo(tag.id).icon"
+						class="pf-chip-icon"
+						:alt="tag.tag_name"
+						@error="(e) => ((e.target as HTMLImageElement).style.display = 'none')" />
+					{{ tag.tag_name }}
+				</button>
+			</template>
 			<button v-if="hasActiveFilters" class="pf-chip-clear" @click="clearFilters">
 				✕ Clear
 			</button>
@@ -272,6 +300,16 @@ function parsedTags(applied: string | null): string[] {
 	width: 16px;
 	height: 16px;
 	border-radius: 2px;
+}
+
+.pf-filter-sep {
+	display: inline-block;
+	width: 1px;
+	height: 1.4rem;
+	background: var(--vp-c-divider);
+	margin: 0 0.25rem;
+	align-self: center;
+	flex-shrink: 0;
 }
 
 .pf-chip-clear {
