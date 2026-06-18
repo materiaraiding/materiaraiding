@@ -12,10 +12,18 @@ export default {
 			type: String,
 			required: true,
 		},
+		id: {
+			type: String,
+			default: null,
+		},
 	},
 	computed: {
 		iconSrc() {
-			const status = statusData.find((status) => status.Name === this.name);
+			if (this.id) {
+				const status = statusData.find((s) => s.Name === this.name && s.ID === Number(this.id));
+				return status ? status.Icon : "";
+			}
+			const status = statusData.find((s) => s.Name === this.name);
 			return status ? status.Icon : "";
 		},
 	},
