@@ -13,7 +13,7 @@ discussionLink:
 
 ## Toolbox/Raidplan
 
-Toolboxes are an interactive guide that allows you to click through each phase indiviudally and review the mechanics in a easy to understand manner.
+Toolboxes are an interactive guide that allows you to click through each phase individually and review the mechanics in a easy to understand manner.
 
 <ActionGroup
 :actions=" [
@@ -63,21 +63,21 @@ The mit sheet is **NOT** intended to be taken as gospel, but rather a general gu
 
 First in line ^[First in Line]
 
-```
+```text
 /mk attack1 <me>
 
 ```
 
 Second in line ^[Second in Line]
 
-```
+```text
 /mk bind1 <me>
 
 ```
 
 Third in line ^[Third in Line]
 
-```
+```text
 /mk ignore1 <me>
 ```
 
@@ -147,7 +147,16 @@ Diamond Waymarks
 
 ```json
 {
-{"Name":"12y Waymarks","MapID":1094,"A":{"X":100.0,"Y":0.0,"Z":88.0,"ID":0,"Active":true},"B":{"X":112.0,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":112.0,"ID":2,"Active":true},"D":{"X":88.0,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":94.0,"Y":0.0,"Z":94.0,"ID":4,"Active":true},"Two":{"X":106.0,"Y":0.0,"Z":94.0,"ID":5,"Active":true},"Three":{"X":106.0,"Y":0.0,"Z":106.0,"ID":6,"Active":true},"Four":{"X":94.0,"Y":0.0,"Z":106.0,"ID":7,"Active":true}}
+	"Name": "12y Waymarks",
+	"MapID": 1094,
+	"A": {"X": 100.0, "Y": 0.0, "Z": 88.0, "ID": 0, "Active": true},
+	"B": {"X": 112.0, "Y": 0.0, "Z": 100.0, "ID": 1, "Active": true},
+	"C": {"X": 100.0, "Y": 0.0, "Z": 112.0, "ID": 2, "Active": true},
+	"D": {"X": 88.0, "Y": 0.0, "Z": 100.0, "ID": 3, "Active": true},
+	"One": {"X": 94.0, "Y": 0.0, "Z": 94.0, "ID": 4, "Active": true},
+	"Two": {"X": 106.0, "Y": 0.0, "Z": 94.0, "ID": 5, "Active": true},
+	"Three": {"X": 106.0, "Y": 0.0, "Z": 106.0, "ID": 6, "Active": true},
+	"Four": {"X": 94.0, "Y": 0.0, "Z": 106.0, "ID": 7, "Active": true}
 }
 ```
 
@@ -157,10 +166,10 @@ Diamond Waymarks
 These strats are still being changed. Do not expect any of this to remain relevant in upcoming weeks.
 :::
 
-Throughout Phase 1 **3** conditions must be met to succesfully complete Phase 2 later in the fight:
+Throughout Phase 1 **3** conditions must be met to successfully complete Phase 2 later in the fight:
 
 - Utilize all **Double-Trouble Trap** debuffs without letting them fall off.
-- Succesfully soak all the gravity bubbles in **Graven Image II**
+- Successfully soak all the gravity bubbles in **Graven Image II**
 - Place and utilize all 16 arrow debuffs in **Tele-Trouncing**
 
 Solving these will be included in the guide. Kefka will change voicelines throughout the Phase as conditions are met. Notably, upon completion of Phase 1 Kefka's voice line will change to **"Intriguing. This clearly isn't your first time..."** if all 3 conditions are met.
@@ -247,7 +256,7 @@ To simplify this for mixed debuff players, if I have a "North" and a "West" arro
 
 Once again we will resolve the **Double-Trouble Trap** by having the Support players take their knockback from the North, and the DPS South.
 
-The Statue will then tether each role seperately once more. **Left (yellow)** will inflict each player with a **confused**^[Confused] debuff and **right (purple)** will inflict each player with a small AOE and a **sleep** ^[Sleep] debuff.
+The Statue will then tether each role separately once more. **Left (yellow)** will inflict each player with a **confused**^[Confused] debuff and **right (purple)** will inflict each player with a small AOE and a **sleep** ^[Sleep] debuff.
 
 To resolve this we use **DPS/Support colour pairs** and have each **confused** ^[Confused] player stand in the middle of the 4 arrows, with each **sleep** ^[Sleep] player standing at the **intercardinal** on the bosses hitbox.
 
@@ -267,7 +276,7 @@ God Kefka will lower down from the sky and begin the phase by casting **Ultimate
 
 #### Forsaken
 
-:::info NOTE
+::: info NOTE
 This mechanic is quite dense when learning it for the first time. In addition the positioning (particularly for **cone baiters**) is incredibly tight. I recommend watching plenty of videos and debugging wipes to determine positioning errors.
 :::
 
@@ -337,7 +346,7 @@ The West stack player (a support for the first set of towers) will need to stand
 
 The remaining DPS in **Group B** will then fulfil the East Enumeration stack by standing to the relative North.
 
-:::warning
+::: warning
 
 DPS players should stand on the **North West** side of the tower, and the **relative East** stack player should stand on the boss hitbox to the **relative East**. This is to avoid players:
 
@@ -574,8 +583,8 @@ After another set of **Blackhole Tethers** the tank should point **Chaos** towar
 
 At the same time Exdeath will cast **White Hole**. **All players** need to be topped up to 100% HP. If they aren't by the time the cast finishes they will be killed.
 
-:::info Note
-DPS players should use personals here to help allieviate some healer strain.
+::: info Note
+DPS players should use personals here to help alleviate some healer strain.
 :::
 
 The final set of **Blackhole Tethers** will be resolved similar to the first set: two tethers then one tether.
@@ -673,9 +682,9 @@ However, players will also have to resolve their **Allagan Field** ^[Allagan Fie
 ::: details Examples
 ^[White Wound]/^[Beyond Death] **real** cast = get hit by **purple**.
 
-^[Black Wound]/ **?**^[Beyond Death] **fake** cast = get hit by **blue**.
+^[Black Wound]/ **?** ^[Beyond Death] **fake** cast = get hit by **blue**.
 
-**?**^[Black Wound]/ **?**^[Beyond Death] **real** cast = get hit by **blue**.
+**?**^[Black Wound]/ **?** ^[Beyond Death] **real** cast = get hit by **blue**.
 
 **?**^[White Wound]/ ^[Allagan Field] **real** cast = get hit by **purple**.
 
@@ -689,6 +698,8 @@ There will be a **Support** & **DPS stack**, and a **Support** & **DPS spread**.
 The Support stack will stand at **relative North** and the DPS stack at **relative South** The Support spread and DPS spread will stand **relative West/East** respectively.
 
 Additionally, 4 Players will have to resolve their **Stillness/Motion** at the same time as this.
+
+> Because the **Stillness/Motion**'s are split up among grand cross casts, players must determine whether they are Stillness/Motion
 
 (check raidplan for image, will get one here eventually)
 
