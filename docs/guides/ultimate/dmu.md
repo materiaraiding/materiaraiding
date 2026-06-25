@@ -13,7 +13,7 @@ discussionLink:
 
 ## Toolbox/Raidplan
 
-Toolboxes are an interactive guide that allows you to click through each phase individually and review the mechanics in a easy to understand manner.
+Toolboxes are an interactive guide that allows you to click through each phase individually and review the mechanics in an easy to understand manner.
 
 <ActionGroup
 :actions=" [
@@ -85,21 +85,19 @@ Third in line ^[Third in Line]
 
 First in line ^[First in Line]
 
-```
+```text
 /mk attack2 <me>
-
 ```
 
 Second in line ^[Second in Line]
 
-```
+```text
 /mk bind2 <me>
-
 ```
 
 Third in line ^[Third in Line]
 
-```
+```text
 /mk ignore2 <me>
 ```
 
@@ -107,16 +105,14 @@ Third in line ^[Third in Line]
 
 First in line ^[First in Line]
 
-```
+```text
 /mk attack3 <me>
-
 ```
 
 Second in line ^[Second in Line]
 
-```
+```text
 /mk bind3 <me>
-
 ```
 
 :::
@@ -166,11 +162,13 @@ Diamond Waymarks
 These strats are still being changed. Do not expect any of this to remain relevant in upcoming weeks.
 :::
 
-Throughout Phase 1 **3** conditions must be met to successfully complete Phase 2 later in the fight:
+::: info PHASE 1 REQUIREMENTS
+Throughout Phase 1, **3** conditions must be met to successfully complete Phase 2 later in the fight:
 
 - Utilize all **Double-Trouble Trap** debuffs without letting them fall off.
 - Successfully soak all the gravity bubbles in **Graven Image II**
 - Place and utilize all 16 arrow debuffs in **Tele-Trouncing**
+  :::
 
 Solving these will be included in the guide. Kefka will change voicelines throughout the Phase as conditions are met. Notably, upon completion of Phase 1 Kefka's voice line will change to **"Intriguing. This clearly isn't your first time..."** if all 3 conditions are met.
 
@@ -320,7 +318,7 @@ During the forsaken raid-wide the group will position themselves like so to quic
 
 As the Dragoon I can immediately see that myself and my partner are **AOE** players, therefore we are Group B.
 
-Because each tower reassigns mechanics to players we will quickly see a situation where each **both players** in a tower are assigned the same mechanic.
+Because each tower reassigns mechanics to players we will quickly see a situation where **both players** in a tower are assigned the same mechanic.
 
 To solve this we use a **south-adjust** system, where the rear player of each tower will **swap tower** if they have the **same debuff** as the player in front of them.
 
@@ -463,9 +461,11 @@ During this cast the **Epic Hero** ^[Epic Hero]/ **Fated Hero** ^[Fated Hero] de
 
 After the cast begins the tank should run back to the **Wind** crystal.
 
-All ranged players will use the static positions found in the toolbox (I may post an image here later as well) to resolve the crystal AOEs. These positions allow ranged players to effectively ignore the debuffs.
+::: info PLAYER POSITIONING
+All ranged players will use the static positions found in the toolbox to resolve the crystal AOEs efficiently. These positions allow ranged players to safely ignore most positioning requirements.
 
-Melee players however should use the spread positions if **Entropy** ^[Entropy] is resolving, and stack on the **Wind** crystal if **Dynamic Fluid** ^[Dynamic Fluid] is resolving.
+Melee players should use spread positions when **Entropy** ^[Entropy] is resolving, and stack on the **Wind** crystal when **Dynamic Fluid** ^[Dynamic Fluid] is resolving.
+:::
 
 ::: warning
 Melee players should be very careful especially during **Entropy** ^[Entropy] expirations. If they are not quick to squeeze closer to Chaos they can easily be clipped by the **fire donut** and killed by the knockback.
@@ -491,7 +491,7 @@ At the same time **Kefka** will perform 8 dashes through the arena, either CW or
 Exdeath will then cast **Vacuum Wave**, a KB centered on himself. All players will pair up around him. Do **NOT** anti-KB as this will result in the wind debuff not being cleansed.
 
 ::: warning
-All players should swap to targeting Exdeath here. Because Chaos jumps **just before** the Vacuum Wave cast finishes it can cause the player to quickly turn around, resulting in their **Tailwind ^[Tailwind:1603]/Headwind ^[Headwind]** being unresolved.
+All players should swap to targeting Exdeath here. Because Chaos jumps **just before** the Vacuum Wave cast finishes it can cause the player to quickly turn around, resulting in their **Tailwind ^[Tailwind:1603]** or **Headwind ^[Headwind]** being unresolved.
 :::
 
 For this strat to work you **must** tank LB3 to avoid overkill to the wind crystal pair stacks. As each pair stack inflicts a **Wind Resistance Down II** ^[Wind Resistance Down II] debuff.
@@ -512,7 +512,7 @@ After this resolves Exdeath will cast another proximity baited **Thunder III** b
 
 We will resolve this by using the same groups as the first **Decisive Battle**.
 
-**Kefka** will then cast **Max**, creating a large version of himself. At the same time Chaos will cast **Earthquake**.
+Exdeath will cast another **Thunder III** buster before **Kefka** casts **Max**, creating a large version of himself. At the same time Chaos will cast **Earthquake**.
 
 ### Earthquake
 
@@ -557,25 +557,37 @@ Blackholes will spawn around the arena and will continue to spawn throughout the
 
 Some blackholes will spawn a tether that can be grabbed/passed. These tethers will shoot the tethered player with a laser that should be pointed away from the party.
 
-These tethers will spawn in sets:
-
-> 1 Tether -> 2 Tethers -> 3 Tethers **x 3** -> 3 Tethers **x 3** -> 2 Tethers -> 1 Tether
-
 Tether players can pull their tether **clockwise** to avoid cleaving the party and still keep uptime. The remaining members of the party should **stack in the middle**.
 
 Taking **3** of these tethers will deal lethal damage, and thus cleansing that player's **Primordial Crust** ^[Primordial Crust] debuff.
 
 Because the blackhole tethers spawn in sets, the party will use the **1/2/3** debuffs assigned previously to determine which tether they are taking.
 
-For the first set, the **1 Attack** marker player will take the singular tether.
+::: info TETHER PATTERN
+The tethers spawn in this repeating order:
 
-When 2 tethers spawn, the **1 Attack** marker will take the **first clockwise** tether, and the **2 Attack** marker will take the **first counter-clockwise** tether.
+- **1 tether** → **2 tethers** → **3 tethers** (×3 sets) → **3 tethers** (×3 sets) → **2 tethers** → **1 tether**
 
-After another **Thunder III** tankbuster, **Big Kefka** will teleport to a random cardinal/intercardinal on the edge of the arena. Players should stand behind Chaos on a **southern intercardinal** relative to Kefka. This is to bait an upcoming **Damning Edict**: a half-room cleave from Chaos that is baited on a random player. At the same time as this Cleave Kefka will cast another **Slap Happy**.
+For **1 tether**: The **1 Attack** marker player takes it.
 
-If **Damning Edict** was baited correctly this **Slap Happy** can be resolved the same as the first, with players avoiding the **Damning Edict** as necessary.
+For **2 tethers**: The **1 Attack** marker will move **counter-clockwise** from their 1st tether to take the 2nd. The **2 Attack** marker will take the remaining tether (it will spawn opposite the 1st tether).
+:::
 
-The next set of **Blackhole Tethers** will then spawn.
+After another **Thunder III** tankbuster during the **2 tethers**, **Kefka** will teleport to a random cardinal/intercardinal on the edge of the arena. Players should stand behind Chaos on a **southern intercardinal** relative to Kefka. This is to bait an upcoming **Damning Edict**: a half-room cleave from Chaos that is baited on a random player. At the same time as this Cleave Kefka will cast another **Slap Happy**.
+
+:::warning
+
+In practice its hard to bait this Damning Edict. Even if it is entirely covering the safe side of **Slap Happy** it is still possible to dodge both, the timing will just be tighter.
+
+:::
+
+**Slap Happy** can then be resolved the same as the first, with players avoiding the **Damning Edict** as necessary.
+
+The next set of **Blackhole Tethers** will then spawn:
+
+All **Attack** marker players will move out for this set. Using **where Kefka just was** as our **north**, **1/2/3** will take each tether **clockwise**.
+
+After each laser, the **Bind** player can take over their respective tether: **1 Bind** taking **1 Attack's** tether after the first shot, **2 Bind** taking **2 Attack's** tether after the second shot, etc.
 
 After these tethers are resolved players will have to bait another **Damning Edict** relative to Kefka. Kefka will then cast **Look Upon Me & Despair** a **hot tail** style line cleave through the cardinal/intercardinal Kefka is on. This is immediately followed by another **Thunder III** tankbuster.
 
@@ -679,16 +691,16 @@ Normally, players would have to get hit by the opposite colour cleave as their *
 
 However, players will also have to resolve their **Allagan Field** ^[Allagan Field] / **Beyond Death** ^[Beyond Death] debuff at the same time.
 
-::: details Examples
-^[White Wound]/^[Beyond Death] **real** cast = get hit by **purple**.
+::: details Resolution Examples
 
-^[Black Wound]/ **?** ^[Beyond Death] **fake** cast = get hit by **blue**.
+| Wound                 | Field/Death            | **Flood of Naught** Cast | Action                |
+| :-------------------- | :--------------------- | :----------------------- | :-------------------- |
+| ^[White Wound]        | ^[Beyond Death]        | Real                     | Get hit by **purple** |
+| ^[Black Wound] (Fake) | ^[Beyond Death]        | Fake                     | Get hit by **blue**   |
+| ^[Black Wound] (Fake) | ^[Beyond Death] (Fake) | Real                     | Get hit by **blue**   |
+| ^[White Wound] (Fake) | ^[Allagan Field]       | Real                     | Get hit by **purple** |
+| ^[White Wound]        | ^[Allagan Field]       | Fake                     | Get hit by **purple** |
 
-**?**^[Black Wound]/ **?** ^[Beyond Death] **real** cast = get hit by **blue**.
-
-**?**^[White Wound]/ ^[Allagan Field] **real** cast = get hit by **purple**.
-
-^[White Wound]/^[Allagan Field] **fake** cast = get hit by **purple**.
 :::
 
 Using the cardinal/intercardinal that **Exdeath** was on, the **1st** of **stack/spreads** will resolve.
@@ -721,6 +733,10 @@ The **2nd** set of **Gazes** will then resolve in the same manner as the first.
 
 The party will then stack under Kefka to resolve the last **Entropy** ^[Entropy] / **Dynamic Fluid** ^[Dynamic Fluid] debuff. At the same time, Kefka will cast **Mana Release**, telegraphing another **Ice/Lightning** combo.
 
-Players must apply the real/fake from the 2 earlier casts to this cast.
+::: info MANA RELEASE RESOLUTION
+For **Mana Release**, determine if **Blizzard III Blowout** was real or fake, then apply that same real/fake status to **Mana Release**. Move to the corresponding safespot.
+:::
 
-W.I.P while strats get hashed out
+::: warning
+Guide is W.I.P; consult current raidplans and videos for the most up-to-date tactics.
+:::
