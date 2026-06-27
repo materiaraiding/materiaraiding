@@ -689,7 +689,7 @@ Killing both Chaos and Exdeath will transition the party to:
 This phase requires a lot of memorisation. Using echo macros is highly recommended.
 :::
 
-For the first half of this phase, Kefka will spawn Chaos (**North West**) and Neo-Exdeath (**North East**) at the edge of the arena.
+As the phase begins, Kefka will cast **Kefka Says**, spawning Chaos (**North West**) and Neo-Exdeath (**North East**) at the edge of the arena.
 
 Kefka will then cast **Mystery Magic** 3 times in succession. Simply determine the safe spots and move into them.
 
@@ -717,7 +717,7 @@ These sets will always be applied as such:
 - 2 Support 2 DPS with **long stillness**
     > All of these may be real or fake
 
-All players will also be assigned **White Wound** ^[White Wound] or **Black Wound** ^[Black Wound].
+On the third **Grand Cross** cast all players will be assigned **White Wound** ^[White Wound] or **Black Wound** ^[Black Wound].
 
 In addition:
 
@@ -749,13 +749,13 @@ However, players will also have to resolve their **Allagan Field** ^[Allagan Fie
 
 ::: details Resolution Examples
 
-| Wound                 | Field/Death            | **Flood of Naught** Cast | Action                |
-| :-------------------- | :--------------------- | :----------------------- | :-------------------- |
-| ^[White Wound]        | ^[Beyond Death]        | Real                     | Get hit by **purple** |
-| ^[Black Wound] (Fake) | ^[Beyond Death]        | Fake                     | Get hit by **blue**   |
-| ^[Black Wound] (Fake) | ^[Beyond Death] (Fake) | Real                     | Get hit by **blue**   |
-| ^[White Wound] (Fake) | ^[Allagan Field]       | Real                     | Get hit by **purple** |
-| ^[White Wound]        | ^[Allagan Field]       | Fake                     | Get hit by **purple** |
+| Wound                 | Field/Death             | **Flood of Naught** Cast | Action                |
+| :-------------------- | :---------------------- | :----------------------- | :-------------------- |
+| ^[White Wound]        | ^[Beyond Death]         | Real                     | Get hit by **purple** |
+| ^[Black Wound] (Fake) | ^[Beyond Death] (Fake)  | Fake                     | Get hit by **purple** |
+| ^[Black Wound] (Fake) | ^[Beyond Death] (Fake)  | Real                     | Get hit by **blue**   |
+| ^[White Wound] (Fake) | ^[Allagan Field] (Fake) | Real                     | Get hit by **blue**   |
+| ^[White Wound]        | ^[Allagan Field]        | Fake                     | Get hit by **purple** |
 
 :::
 
