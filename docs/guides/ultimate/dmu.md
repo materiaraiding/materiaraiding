@@ -323,9 +323,9 @@ If Kefka is below **15% HP** at this point he will then transition to Phase 2.
 
 If above 15%, Kefka will then become untargetable and cast a final **Light of Judgement** that wipes the raid.
 
-### Phase 2: God Kefka
+### Phase 2: Forsaken Kefka
 
-God Kefka will lower down from the sky and begin the phase by casting **Ultimate Embrace** a shared tankbuster. This is followed by a hard-hitting raidwide:
+Kefka will lower down from the sky and begin the phase by casting **Ultimate Embrace** a shared tankbuster. This is followed by a hard-hitting raidwide:
 
 #### Forsaken
 
@@ -590,6 +590,8 @@ Earthquake places an **Earth** crystal in the center of the arena, as well as re
 
 Letting debuffs expire will instantly kill the affected player.
 
+All players should mark themselves using the macros previded through the raidplan, and at the top of the page.
+
 The **Earth** crystal will pulse and inflict **Earth Resistance Down II** ^[Earth Resistance Down II] any time an **earth debuff** is cleansed. This means that healers **must** heal up each **Accretion** player **one by one**.
 
 Big Kefka will then move to a random spot on the edge of the arena and cast **Slap Happy**.
@@ -685,19 +687,19 @@ Killing both Chaos and Exdeath will transition the party to:
 
 ### Phase 4: Kefka Says
 
-::: info NOTE
+::: warning
 This phase requires a lot of memorisation. Using echo macros is highly recommended.
 :::
 
 As the phase begins, Kefka will cast **Kefka Says**, spawning Chaos (**North West**) and Neo-Exdeath (**North East**) at the edge of the arena.
 
-Kefka will then cast **Mystery Magic** 3 times in succession. Simply determine the safe spots and move into them.
+Kefka will then cast **Mystery Magic** 3 times in succession. This works identically to **phase 1**: simply determine the safe spots and move into them.
 
 The catch here is that **during** these dodges Chaos and Exdeath will cast and apply debuffs to players. **These casts can be real or fake**.
 
-Reversed casts will have their debuffs **reversed**.
+#### Grand Cross 1/2
 
-#### Exdeath Debuffs
+Exdeath will cast Grand Cross three times, the first two assigning the following debuffs:
 
 | Debuff                                     | Real           | Fake           |
 | :----------------------------------------- | :------------- | :------------- |
@@ -706,7 +708,11 @@ Reversed casts will have their debuffs **reversed**.
 | **Acceleration Bomb** ^[Acceleration Bomb] | Stillness      | Motion         |
 | **Cursed Shriek** ^[Cursed Shriek]         | Gaze           | Inverted Gaze  |
 
-The above set of debuffs will be applied in sets of 2 with casts of **Grand Cross**.
+##### Debuff Assignment
+
+The above will be assigned in 2 sets across both **Grand Cross** casts.
+**Compressed Water** and **Forked Lightning** can be either **short** or **long** during the first **Grand Cross** cast. The second **Grand Cross** will be the opposite.
+
 These sets will always be applied as such:
 
 - 1 Support 1 DPS with **short stack**
@@ -717,14 +723,26 @@ These sets will always be applied as such:
 - 2 Support 2 DPS with **long stillness**
     > All of these may be real or fake
 
-On the third **Grand Cross** cast all players will be assigned **White Wound** ^[White Wound] or **Black Wound** ^[Black Wound].
+**Acceleration Bomb** and **Cursed Shriek** will resolve **sequentially** (Whichever was applied first will go off first). Because these are split across both casts, players will need to remember the real/fake status of their specific **Acceleration Bomb** when it was applied.
 
-In addition:
+This can lead to the following sequence:
 
-- 4 players get assigned **Allagan Field** ^[Allagan Field]
-    > The player must solve mechanics.
-- 4 get assigned **Beyond Death** ^[Beyond Death]
-    > The player must fail mechanics.
+1. **Fake** Grand Cross 2, **Short** (Real Stillness)
+2. Real Gaze
+3. **Real** Grand Cross 1, **Long** (Fake Stillness)
+4. Fake Gaze
+
+#### Grand Cross 3
+
+The third **Grand Cross** cast assigns all players:
+
+- **White Wound** ^[White Wound] or **Black Wound** ^[Black Wound]
+- **Allagan Field** ^[Allagan Field] or **Beyond Death** ^[Beyond Death]
+
+| Debuff                             | Resolution                                                    |
+| :--------------------------------- | :------------------------------------------------------------ |
+| **Allagan Field** ^[Allagan Field] | Correctly resolve ^[White Wound] / ^[Black Wound]             |
+| **Beyond Death** ^[Beyond Death]   | Intentionally fail to resolve ^[White Wound] / ^[Black Wound] |
 
 #### Chaos Debuffs
 
@@ -733,7 +751,7 @@ In addition:
 | **Entropy** ^[Entropy]             | Delayed AoE (twister) | Delayed Donut         |
 | **Dynamic Fluid** ^[Dynamic Fluid] | Delayed Donut         | Delayed AoE (twister) |
 
-### Flood of Naught
+#### Flood of Naught
 
 **Exdeath** will jump to a random cardinal/intercardinal and cast **Flood of Naught**. **This cast can _also_ be fake**.
 
@@ -743,9 +761,13 @@ This will telegraph half room cleaves of either **blue** (^[Black Wound])/ **pur
 These halfroom cleaves overlap. Do **not** stand in the middle.
 :::
 
-Normally, players would have to get hit by the opposite colour cleave as their **White Wound** ^[White Wound] / **Black Wound** ^[Black Wound] debuff.
+Normally, players would have to get hit by the opposite colour cleave as their **White Wound** ^[White Wound] / **Black Wound** ^[Black Wound] debuff. However, players will also have to resolve their **Allagan Field** ^[Allagan Field] / **Beyond Death** ^[Beyond Death] debuff at the same time.
 
-However, players will also have to resolve their **Allagan Field** ^[Allagan Field] / **Beyond Death** ^[Beyond Death] debuff at the same time.
+::: tip
+Interestingly, even though **Grand Cross 3** can be fake we can always treat our debuffs as **real**. If I have ^[White Wound]^[Beyond Death] I must get hit by **purple**. However with a reverse cast I have ^[Black Wound]^[Allagan Field] -> I must get hit by **purple**.
+
+Therefore we only really have to check our debuffs and **swap sides** if the actual **Flood of Naught** cast is fake.
+:::
 
 ::: details Resolution Examples
 
@@ -759,39 +781,87 @@ However, players will also have to resolve their **Allagan Field** ^[Allagan Fie
 
 :::
 
-Using the cardinal/intercardinal that **Exdeath** was on, the **1st** of **stack/spreads** will resolve.
+#### Debuff Resolution
 
-There will be a **Support** & **DPS stack**, and a **Support** & **DPS spread**.
+Using **True North** the **1st** of **stack/spreads** will resolve.
 
-The Support stack will stand at **relative North** and the DPS stack at **relative South** The Support spread and DPS spread will stand **relative West/East** respectively.
+There will be a **Support** & **DPS stack**, and a **Support** & **DPS spread**:
 
-Additionally, 4 Players will have to resolve their **Stillness/Motion** at the same time as this.
+- Support Stack -> **North**
+- DPS Stack -> **South**
+- Support Spread -> **West**
+- DPS Spread -> **East**
 
-> Because the **Stillness/Motion**'s are split up among grand cross casts, players must determine whether they are Stillness/Motion
+Additionally, 4 players will resolve their Stillness/Motion debuff at the same time.
 
 (check raidplan for image, will get one here eventually)
 
-Kefka will then cast **Thrumming Thunder III**. **Remember if this is real or fake**.
+Kefka will then cast **Thrumming Thunder III**.
 
-At the same time the **1st** set of **Gazes** will resolve.
+::: info NOTE
 
-- If the gaze is **real** have the gaze players stand **behind** the party **Support left, DPS right**.
+Remember whether this cast is real or fake for **Mana Release.**
 
-- If the gaze is **fake** have both players stand **under Kefka**, **Support left, DPS right**
+:::
 
-All players should then stack middle to resolve the **Entropy** ^[Entropy] / **Dynamic Fluid** ^[Dynamic Fluid] debuff. If **Entropy** ^[Entropy] is real or if **Dynamic Fluid** ^[Dynamic Fluid] is fake, the party should immediately move out to avoid the twister.
+At the same time the **1st** set of **Gazes** will resolve. Both gaze players will stand under Kefka:
+
+- **Real** Gaze -> Entire party looks **away** from Kefka
+- **Fake** Gaze -> Entire party looks **at** Kefka
+
+All players should then stack middle to resolve the **Entropy** ^[Entropy] / **Dynamic Fluid** ^[Dynamic Fluid] debuff.
+
+- **Entropy** ^[Entropy] **real** or **Dynamic Fluid** ^[Dynamic Fluid] is **fake** -> Party immediately moves out to avoid the twister.
+- **Entropy** ^[Entropy] **fake** or **Dynamic Fluid** ^[Dynamic Fluid] is **real** → Stay middle until the donut goes off.
+
+Kefka will cast **Ultima Upsurge**, a heavy hitting raidwide.
+
+::: warning
+If the party is resolving **Dynamic Fluid** ^[Dynamic Fluid] (real), there is a bright flash from **Ultima Upsurge** BEFORE the donut resolves. Make sure to **wait** for the donut before moving out.
+:::
 
 The party will then move to solve the **2nd** set of **stack/spreads** in the same manner as the first, using **True North** this time.
 
-At the same time Kefka will cast **Blizzard III Blowout**. **Remember if this is real or fake**.
+At the same time Kefka will cast **Blizzard III Blowout**.
+
+::: info NOTE
+
+Remember whether this cast is real or fake for **Mana Release.**
+
+:::
 
 The **2nd** set of **Gazes** will then resolve in the same manner as the first.
 
 The party will then stack under Kefka to resolve the last **Entropy** ^[Entropy] / **Dynamic Fluid** ^[Dynamic Fluid] debuff. At the same time, Kefka will cast **Mana Release**, telegraphing another **Ice/Lightning** combo.
 
-For **Mana Release**, determine if **Blizzard III Blowout** was real or fake, then apply that same real/fake status to **Mana Release**. Move to the corresponding safespot.
+For **Mana Release**, determine if the corresponding cast previously was real or fake, then apply that same real/fake status to **Mana Release**:
 
-If the previous blizzard was a fake, and **Mana Release's** blizzard is also fake, they cancel eachother out and become **real**.
+- **Thrumming Thunder III** -> Overrides lightning
+- **Blizzard III Blowout** -> Overrides ice
+
+::: info How overriding works
+
+- Previous component **real** -> Use **Mana release's** corresponding component
+- Previous component **fake** -> **Flip** **Mana release's** corresponding component
+
+:::
+
+Simply find that safespot that avoids both resolved component simultaneously.
+
+::: details Examples
+
+| Thunder III | Blizzard III | **Mana Release** Lightning/Ice | Resolution       |
+| :---------- | :----------- | :----------------------------- | :--------------- |
+| **Real**    | **Fake**     | **Real** / **Real**            | Stand **in Ice** |
+| **Fake**    | **Real**     | **Fake** / **Real**            | **Dodge both**   |
+| **Fake**    | **Fake**     | **Fake** / **Fake**            | **Dodge Both**   |
+| **Real**    | **Real**     | **Real** / **Fake**            | Stand **in Ice** |
+
+:::
+
+The party will have to bring Kefka below **25% HP** before he casts his final **Ultima Upsurge** to sucessfully complete the phase.
+
+### Phase 5: Ultima Kefka
 
 ::: warning
 Guide is W.I.P; consult current raidplans and videos for the most up-to-date tactics.
