@@ -22,7 +22,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 { title: 'Phase 2: Forsaken', color: 'yellow', href: 'https://raidplan.io/plan/uq7zdjvuu7uuw8fj#4'},
 { title: 'Phase 2: Trines', color: 'yellow', href: 'https://raidplan.io/plan/apkh6ytq72w8pt3v'},
 {title: 'Phase 3: Chaos & Exdeath (tank LB3 BoA)',color:'red', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'},
-{title: 'Phase 4: Kefka Says',color:'blue', href: 'https://raidplan.io/plan/HA1dPyKJKo8UYHlv'},
+{title: 'Phase 4: Kefka Says',color:'blue', href: 'https://raidplan.io/plan/ChcTBFAcFMZKFVKo'},
 ]"
 />
 
@@ -723,13 +723,13 @@ These sets will always be applied as such:
 - 2 Support 2 DPS with **long stillness**
     > All of these may be real or fake
 
-**Acceleration Bomb** and **Cursed Shriek** will resolve **sequentially** (Whichever was applied first will go off first). Because these are split across both casts, players will need to remember the real/fake status of their specific **Acceleration Bomb** when it was applied.
+**Cursed Shriek** will resolve **sequentially** (Whichever was applied first will go off first). **Acceleration Bomb** will apply 2 short/2 long debuffs with each cast. Because these are split across both casts, players will need to remember the real/fake status of their **Acceleration Bomb** when it was applied.
 
 This can lead to the following sequence:
 
-1. **Fake** Grand Cross 2, **Short** (Real Stillness)
+1. **Fake** Grand Cross 2, **Short** (2 Real/2 Fake Stillness)
 2. Real Gaze
-3. **Real** Grand Cross 1, **Long** (Fake Stillness)
+3. **Real** Grand Cross 1, **Long** (2 Real/2 Fake Stillness)
 4. Fake Gaze
 
 #### Grand Cross 3
@@ -750,6 +750,8 @@ The third **Grand Cross** cast assigns all players:
 | :--------------------------------- | :-------------------- | :-------------------- |
 | **Entropy** ^[Entropy]             | Delayed AoE (twister) | Delayed Donut         |
 | **Dynamic Fluid** ^[Dynamic Fluid] | Delayed Donut         | Delayed AoE (twister) |
+
+**Inferno**/**Tsunami** can be cast in any order, but **Inferno** will always resolve first.
 
 #### Flood of Naught
 
@@ -809,18 +811,18 @@ At the same time the **1st** set of **Gazes** will resolve. Both gaze players wi
 - **Real** Gaze -> Entire party looks **away** from Kefka
 - **Fake** Gaze -> Entire party looks **at** Kefka
 
-All players should then stack middle to resolve the **Entropy** ^[Entropy] / **Dynamic Fluid** ^[Dynamic Fluid] debuff.
+All players should then stack middle to resolve the **Entropy** ^[Entropy] debuff.
 
-- **Entropy** ^[Entropy] **real** or **Dynamic Fluid** ^[Dynamic Fluid] is **fake** -> Party immediately moves out to avoid the twister.
-- **Entropy** ^[Entropy] **fake** or **Dynamic Fluid** ^[Dynamic Fluid] is **real** → Stay middle until the donut goes off.
+- **Entropy** ^[Entropy] is **real** -> Party immediately moves out to avoid the twister.
+- **Entropy** ^[Entropy] is **fake** -> Stay middle until the donut goes off.
 
 Kefka will cast **Ultima Upsurge**, a heavy hitting raidwide.
 
 ::: warning
-If the party is resolving **Dynamic Fluid** ^[Dynamic Fluid] (real), there is a bright flash from **Ultima Upsurge** BEFORE the donut resolves. Make sure to **wait** for the donut before moving out.
+If the party is resolving a **fake** **Entropy** ^[Entropy], there is a bright flash from **Ultima Upsurge** _before_ the donut resolves. Make sure to **wait** for the donut before moving out.
 :::
 
-The party will then move to solve the **2nd** set of **stack/spreads** in the same manner as the first, using **True North** this time.
+The party will then move to solve the **2nd** set of **stack/spreads** in the same manner as the first.
 
 At the same time Kefka will cast **Blizzard III Blowout**.
 
@@ -832,7 +834,12 @@ Remember whether this cast is real or fake for **Mana Release.**
 
 The **2nd** set of **Gazes** will then resolve in the same manner as the first.
 
-The party will then stack under Kefka to resolve the last **Entropy** ^[Entropy] / **Dynamic Fluid** ^[Dynamic Fluid] debuff. At the same time, Kefka will cast **Mana Release**, telegraphing another **Ice/Lightning** combo.
+The party will then stack under Kefka to resolve the **Dynamic Fluid** ^[Dynamic Fluid] debuff.
+
+- **Dynamic Fluid** ^[Dynamic Fluid] is **real** → Stay middle until the donut goes off.
+- **Dynamic Fluid** ^[Dynamic Fluid] is **fake** -> Party immediately moves out to avoid the twister
+
+At the same time, Kefka will cast **Mana Release**, telegraphing another **Ice/Lightning** combo.
 
 For **Mana Release**, determine if the corresponding cast previously was real or fake, then apply that same real/fake status to **Mana Release**:
 
