@@ -18,13 +18,12 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 <ActionGroup
 :actions=" [
 { title: 'Phase 1: Kefka (Filo Arrows)', color: 'purple', href: 'https://raidplan.io/plan/BCd8L1CiFV-80hru' },
-{ title: 'Phase 1: Freaky Arrows', color: 'purple', href: 'https://raidplan.io/plan/qD9Y_g1caq3l5gD-#8' },
 { title: 'Phase 2: Forsaken', color: 'yellow', href: 'https://raidplan.io/plan/uq7zdjvuu7uuw8fj#4'},
 { title: 'Phase 2: Trines', color: 'yellow', href: 'https://raidplan.io/plan/apkh6ytq72w8pt3v'},
-{title: 'Phase 3: Chaos & Exdeath (tank LB3 BoA)',color:'red', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'},
-{title: 'Phase 3: Blackhole',color:'red', href: 'https://raidplan.io/plan/V0_JNICNGEamQ2no'},
+{title: 'Phase 3: Chaos & Exdeath (tank LB3 BoA)',color:'green', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'},
+{title: 'Phase 3: Blackhole',color:'green', href: 'https://raidplan.io/plan/V0_JNICNGEamQ2no'},
 {title: 'Phase 4: Kefka Says',color:'blue', href: 'https://raidplan.io/plan/ChcTBFAcFMZKFVKo'},
-{title: 'Phase 5: Ultima Kefka',color:'purple', href: 'https://raidplan.io/plan/vJlKks67vquhSTb8'},
+{title: 'Phase 5: Ultima Kefka',color:'red', href: 'https://raidplan.io/plan/vJlKks67vquhSTb8'},
 ]"
 />
 
@@ -737,10 +736,10 @@ The third **Grand Cross** cast assigns all players:
 - **White Wound** ^[White Wound] or **Black Wound** ^[Black Wound]
 - **Allagan Field** ^[Allagan Field] or **Beyond Death** ^[Beyond Death]
 
-| Debuff                             | Resolution                                                    |
-| :--------------------------------- | :------------------------------------------------------------ |
-| **Allagan Field** ^[Allagan Field] | Correctly resolve ^[White Wound] / ^[Black Wound]             |
-| **Beyond Death** ^[Beyond Death]   | Intentionally fail to resolve ^[White Wound] / ^[Black Wound] |
+| Debuff                             | Resolution                                                           |
+| :--------------------------------- | :------------------------------------------------------------------- |
+| **Allagan Field** ^[Allagan Field] | Stand in the opposite colour to your ^[White Wound] / ^[Black Wound] |
+| **Beyond Death** ^[Beyond Death]   | Stand in the same colour as your ^[White Wound] / ^[Black Wound]     |
 
 #### Chaos Debuffs
 
@@ -761,7 +760,7 @@ This will telegraph half room cleaves of either **blue** (^[Black Wound])/ **pur
 These halfroom cleaves overlap. Do **not** stand in the middle.
 :::
 
-Normally, players would have to get hit by the opposite colour cleave as their **White Wound** ^[White Wound] / **Black Wound** ^[Black Wound] debuff. However, players will also have to resolve their **Allagan Field** ^[Allagan Field] / **Beyond Death** ^[Beyond Death] debuff at the same time.
+Normally, players would have to get hit by the opposite colour cleave as their **White Wound** ^[White Wound] / **Black Wound** ^[Black Wound] debuff. However, players will also have to resolve their **Allagan Field** ^[Allagan Field] / **Beyond Death** ^[Beyond Death] debuff at the same time (See table above).
 
 ::: tip
 Interestingly, even though **Grand Cross 3** can be fake we can always treat our debuffs as **real**. If I have ^[White Wound]^[Beyond Death] I must get hit by **purple**. However with a reverse cast I have ^[Black Wound]^[Allagan Field] -> I must get hit by **purple**.
@@ -867,6 +866,48 @@ Simply find that safespot that avoids both resolved component simultaneously.
 The party will have to bring Kefka below **25% HP** before he casts his final **Ultima Upsurge** to sucessfully complete the phase.
 
 ### Phase 5: Ultima Kefka
+
+After a short transition, Kefka will cast **Ultima Repeater**, a raid-wide that hits 4 times.
+
+The party should stack in **role-based** groups:
+
+- **Tanks** -> **North**
+- **Healers** -> **South-West**
+- **DPS** -> **South-East**
+
+Kefka will then target each role group with a **Fell Forces** auto-attack 3 times.
+
+Kefka will then cast **Flood**:
+
+#### Chaotic Flood
+
+Kefka will telegraph 2 line cleaves diagonally across the arena. These will then rotate either **clockwise** or **counter-clockwise**.
+
+To resolve this, players simply find the 2 **cardinal waymarks** that are free from the **first** telegraphed cleave and rotate **the same direction** as the telegraphed cleaves.
+
+As the party rotates they will take **4 party stacks**.
+
+This is immediately followed by **Maddening Orchestra**:
+
+#### Maddening Orchestra
+
+The party will spread to clockspots adjacent to their **role-stacks**, with Supports occupying **N/W** and DPS **S/E**:
+
+- **Tanks** -> **North**
+- **Healers** -> **West**
+- **Ranged** -> **East**
+- **Melee** -> **South**
+
+On these cardinals, light-party 1 players will spread **clockwise** and light-party 2 players **counter-clockwise**.
+
+Kefka will then randomly strike **3 non-tank players** with a **holy AOE**, inflicting **Light Resistance Down** ^[Light Resistance Down]. Tanks will also be randomly assigned one each of:
+
+- **Surprise Flare** ^[Surprise Flare]
+    > A defamation style tankbuster.
+- **Surprise Holy** ^[Surprise Holy]
+    > A single-target AOE tankbuster.
+
+Surprise
 
 ::: warning
 Guide is W.I.P; consult current raidplans and videos for the most up-to-date tactics.
