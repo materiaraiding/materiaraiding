@@ -22,7 +22,9 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 { title: 'Phase 2: Forsaken', color: 'yellow', href: 'https://raidplan.io/plan/uq7zdjvuu7uuw8fj#4'},
 { title: 'Phase 2: Trines', color: 'yellow', href: 'https://raidplan.io/plan/apkh6ytq72w8pt3v'},
 {title: 'Phase 3: Chaos & Exdeath (tank LB3 BoA)',color:'red', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'},
+{title: 'Phase 3: Blackhole',color:'red', href: 'https://raidplan.io/plan/V0_JNICNGEamQ2no'},
 {title: 'Phase 4: Kefka Says',color:'blue', href: 'https://raidplan.io/plan/ChcTBFAcFMZKFVKo'},
+{title: 'Phase 5: Ultima Kefka',color:'purple', href: 'https://raidplan.io/plan/vJlKks67vquhSTb8'},
 ]"
 />
 
@@ -119,7 +121,7 @@ Second in line ^[Second in Line]
 
 ## Cheatsheet
 
-TBA
+![](\images\ultimate\dmu-cheatsheet.webp)
 
 ## Buff Timings
 
@@ -129,6 +131,9 @@ TBA
 - 1st GCD Kefka Buffs.
 - Post Graven 2.
 - Forsaken 1st Towers.
+- Trines
+- BoA Lat/Long
+- Blackhole Slap Happy
   :::
   ::: pot
 
@@ -397,16 +402,7 @@ The West stack player (a support for the first set of towers) will need to stand
 
 **Group B** will have their Healer bait the cone south by standing next to the tower. The Tank will fulfil the West Enumeration stack by standing to the relative North.
 
-The remaining DPS in **Group B** will then fulfil the East Enumeration stack by standing to the relative North.
-
-::: warning
-
-DPS players should stand on the **North West** side of the tower, and the **relative East** stack player should stand on the boss hitbox to the **relative East**. This is to avoid players:
-
-- Getting clipped by the Future's/Past's end clones
-- Having the tank to the **relative West** take 2 **enumerations**.
-
-:::
+The remaining DPS in **Group B** will then fulfil the East Enumeration stack by standing to the South West of the **East** tower.
 
 Positioning correctly will resolve the first set of towers.
 
@@ -436,7 +432,9 @@ After the Third Towers **Group B** will take over tower duty. They will have had
 
 Likewise, **Group A** will have to remember the mechanics that the Third Towers assigned all the way until the Eighth Towers.
 
-After the final set of towers and one last **Past's/Future's End** Kefka will cast a **Light of Judgment** raidwide. This will deal lethal damage to any player who still has stacks of **Spells' Trouble**.
+After the final set of towers the party will stack on the **A Waymark** to bait one last **Past's/Future's End**.
+
+Kefka will then cast a **Light of Judgment** raidwide. This will deal lethal damage to any player who still has stacks of **Spells' Trouble**.
 
 #### Trine
 
@@ -513,7 +511,7 @@ Exdeath should be kept in the centre of the arena, as he will soon cast **Thunde
 
 During this cast the **Epic Hero** ^[Epic Hero]/ **Fated Hero** ^[Fated Hero] debuffs will be removed.
 
-After the cast begins the tank should run back to **relative North**.
+After the cast begins the **ExDeath Tank** should run to **relative North**.
 
 ::: info PLAYER POSITIONING
 All ranged players will use the static positions found in the toolbox to resolve the crystal AOEs efficiently. These positions allow ranged players to safely ignore most positioning requirements.
