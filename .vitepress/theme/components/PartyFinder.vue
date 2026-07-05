@@ -1,643 +1,453 @@
 <script setup lang="ts">
-import {ref, onMounted, computed} from "vue";
+import { computed } from "vue";
+import { usePartyFinder } from "../hooks/usePartyFinder";
 
-interface ThreadMetadata {
-	archived: boolean;
-	archive_timestamp: string;
-	auto_archive_duration: number;
-	locked: boolean;
-	create_timestamp: string;
-}
+const {
+	channelConfig,
+	activeCategory,
+	sortLatestFirst,
+	loading,
+	error,
+	hasActiveFilters,
+	categoryTags,
+	displayedThreads,
+	toggleTagFilter,
+	clearFilters,
+	switchCategory,
+	toggleSortOrder,
+	getTagInfo,
+	getDiscordThreadUrl,
+	formatDate,
+} = usePartyFinder();
 
-interface Thread {
-	thread_id: string;
-	thread_name: string;
-	topic: string | null;
-	owner_id: string;
-	owner_nickname: string | null;
-	parent_id: string;
-	member_count: number;
-	message_count: number;
-	available_tags: string | null;
-	applied_tags: string | null;
-	thread_metadata: string;
-	parsedMetadata?: ThreadMetadata;
-}
-
-interface ThreadResponse {
-	success: boolean;
-	data: Thread[];
-}
-
-interface Tag {
-	tag_name: string;
-	parent_id: string;
-	filtered: boolean;
-}
-
-const channelConfig = {
-	lfm: {
-		name: "Looking For Members",
-		parent_id: "1147471873463033978"
-	},
-	lfg: {
-		name: "Looking For Group",
-		parent_id: "1260078528125468743"
-	},
-	lfs: {
-		name: "Looking For Sub",
-		parent_id: "1324237133212291093"
-	},
+// 0 = commitment, 1 = content/difficulty, 2 = role/class
+const TAG_GROUP: Record<string, number> = {
+	// Commitment
+	casual: 0, midcore: 0, hardcore: 0,
+	// Content / difficulty
+	savage: 1, ultimate: 1, "field ops": 1,
+	dsr: 1, fru: 1, tea: 1, top: 1, ucob: 1, uwu: 1, criterion: 1, "other raids/content": 1, "other raids-content": 1,
+	// Role / class
+	tank: 2, "main-tank": 2, "off-tank": 2,
+	healer: 2, "pure healer": 2, "shield healer": 2,
+	caster: 2, melee: 2,
+	"phys range": 2, "phys ranged": 2, "phys-range": 2, "phys-ranged": 2, "physical ranged": 2,
 };
 
-// Thread names to ignore
-const ignoredThreadNames = [
-  'How to use this channel!',
-];
-
-// Store all threads in one array
-const allThreads = ref<Thread[]>([]);
-
-// Active category
-const activeCategory = ref('lfm'); // Default category
-
-// Sort order - true for latest first, false for oldest first
-const sortLatestFirst = ref(true);
-
-// Function to toggle a tag's filtered state
-const toggleTagFilter = (tagId: string) => {
-  if (tags.value[tagId]) {
-    tags.value[tagId].filtered = !tags.value[tagId].filtered;
-  }
-};
-
-// Check if any filters are currently active for the current category
-const hasActiveFilters = computed(() => {
-  const categoryParentId = channelConfig[activeCategory.value as keyof typeof channelConfig].parent_id;
-
-  // Only consider tags relevant to the current category
-  return Object.values(tags.value).some(tag =>
-    tag.parent_id === categoryParentId && tag.filtered
-  );
-});
-
-// Get all unique tags for the current category
-const categoryTags = computed(() => {
-  const parentId = channelConfig[activeCategory.value as keyof typeof channelConfig].parent_id;
-  const tagIds = new Set<string>();
-
-  // Collect all unique tag IDs from threads in current category
-  allThreads.value
-    .filter(thread => thread.parent_id === parentId)
-    .forEach(thread => {
-      if (thread.applied_tags) {
-        try {
-          const threadTags = JSON.parse(thread.applied_tags) as string[];
-          threadTags.forEach(tagId => {
-            // Only add tags that exist in our tag map
-            if (tags.value[tagId]) {
-              tagIds.add(tagId);
-            }
-          });
-        } catch (e) {
-          // Ignore parse errors
-        }
-      }
-    });
-
-  // Convert to array of tag objects with their filtered status
-  return Array.from(tagIds).map(tagId => ({
-    id: tagId,
-    ...tags.value[tagId]
-  })).sort((a, b) => a.tag_name.localeCompare(b.tag_name)); // Sort alphabetically by name
-});
-
-// Clear all active filters for the current category
-const clearFilters = () => {
-  const categoryParentId = channelConfig[activeCategory.value as keyof typeof channelConfig].parent_id;
-
-  Object.keys(tags.value).forEach(tagId => {
-    if (tags.value[tagId].parent_id === categoryParentId) {
-      tags.value[tagId].filtered = false;
-    }
-  });
-};
-
-// Reference to currently displayed threads based on active category and filters
-const displayedThreads = computed(() => {
-  const parentId = channelConfig[activeCategory.value as keyof typeof channelConfig].parent_id;
-
-  // First filter by parent_id and remove ignored thread names
-  const threadsInCategory = allThreads.value.filter(thread =>
-    thread.parent_id === parentId &&
-    !ignoredThreadNames.some(ignoreName =>
-      thread.thread_name.toLowerCase().includes(ignoreName.toLowerCase())
-    )
-  );
-
-  // Filter threads based on applied tags if filters are active
-  let filteredThreads = threadsInCategory;
-  if (hasActiveFilters.value) {
-    filteredThreads = threadsInCategory.filter(thread => {
-      if (!thread.applied_tags) return false;
-
-      try {
-        const threadTags = JSON.parse(thread.applied_tags) as string[];
-        // Only show threads that have at least one of the filtered tags
-        return threadTags.some(tagId => tags.value[tagId]?.filtered);
-      } catch (e) {
-        return false;
-      }
-    });
-  }
-
-  // Sort by creation timestamp
-  return filteredThreads.sort((a, b) => {
-    const dateA = a.parsedMetadata?.create_timestamp ? new Date(a.parsedMetadata.create_timestamp).getTime() : 0;
-    const dateB = b.parsedMetadata?.create_timestamp ? new Date(b.parsedMetadata.create_timestamp).getTime() : 0;
-
-    // Sort by latest (newest) first or oldest first based on the toggle
-    return sortLatestFirst.value ? dateB - dateA : dateA - dateB;
-  });
-});
-const loading = ref(true);
-const error = ref<string | null>(null);
-const baseApiUrl = "https://discord-thread-tracker-api.ingramscloud.workers.dev";
-const tags = ref<{[key: string]: Tag}>({});
-
-// Fetch tags from the /tags endpoint
-const fetchTags = async () => {
-	try {
-		const url = `${baseApiUrl}/tags`;
-		const response = await fetch(url);
-		if (!response.ok) {
-			throw new Error(`Failed to fetch tags: ${response.status}`);
-		}
-		const tagData = await response.json();
-
-		if (tagData.success && Array.isArray(tagData.data)) {
-			// Convert array to lookup object by tag_id
-			const tagMap: {[key: string]: Tag} = {};
-			tagData.data.forEach((tag: any) => {
-				tagMap[tag.tag_id] = {
-					tag_name: tag.tag_name,
-					parent_id: tag.parent_id,
-					filtered: false // Add filtered property, default to false
-				};
-			});
-			tags.value = tagMap;
-		}
-	} catch (err) {
-		console.error("Error fetching tags:", err);
+const groupedCategoryTags = computed(() => {
+	const buckets: Array<typeof categoryTags.value> = [[], [], []];
+	for (const tag of categoryTags.value) {
+		const g = TAG_GROUP[tag.tag_name.toLowerCase()] ?? 1;
+		buckets[g].push(tag);
 	}
-};
-
-// Parse the thread_metadata JSON string in each thread
-const parseThreadMetadata = (threads: Thread[]) => {
-	return threads.map((thread) => {
-		try {
-			const parsedMetadata = JSON.parse(thread.thread_metadata) as ThreadMetadata;
-			return {
-				...thread,
-				parsedMetadata,
-			};
-		} catch (e) {
-			return thread;
-		}
-	});
-};
-
-// Format date to a more readable format
-const formatDate = (dateString: string) => {
-	if (!dateString) return "";
-	const date = new Date(dateString);
-	return date.toLocaleDateString("en-US", {
-		year: "numeric",
-		month: "short",
-		day: "numeric",
-	});
-};
-
-// Fetch all threads from the /threads endpoint
-const fetchThreads = async () => {
-	loading.value = true;
-	error.value = null;
-
-	try {
-		const url = `${baseApiUrl}/threads`;
-		const response = await fetch(url);
-		if (!response.ok) {
-			throw new Error(`Failed to fetch data: ${response.status}`);
-		}
-		const data: ThreadResponse = await response.json();
-
-		if (data.success && Array.isArray(data.data)) {
-			allThreads.value = parseThreadMetadata(data.data);
-		} else {
-			throw new Error("Invalid data format received");
-		}
-	} catch (err) {
-		error.value = err instanceof Error ? err.message : "An unknown error occurred";
-		console.error("Error fetching threads:", err);
-	} finally {
-		loading.value = false;
-	}
-};
-
-// Switch between categories
-const switchCategory = (category: string) => {
-	activeCategory.value = category;
-};
-
-// Toggle sort order between latest and oldest first
-const toggleSortOrder = () => {
-	sortLatestFirst.value = !sortLatestFirst.value;
-};
-
-// Get tag information by ID
-const getTagInfo = (tagId: string) => {
-	const tag = tags.value[tagId];
-
-	if (tag) {
-		return {
-			name: tag.tag_name,
-			icon: `/images/tags/${tag.tag_name.toLowerCase().replace("/", "-")}.webp`,
-		};
-	}
-
-	return {icon: null, name: tagId};
-};
-
-// Generate Discord thread URL
-const getDiscordThreadUrl = (threadId: string) => {
-	return `https://discordapp.com/channels/895516967543390249/${threadId}`;
-};
-
-onMounted(async () => {
-	await fetchTags();
-	fetchThreads();
+	buckets.forEach(b => b.sort((a, b) => a.tag_name.localeCompare(b.tag_name)));
+	return buckets.filter(b => b.length > 0);
 });
+
+function parsedTags(applied: string | null): string[] {
+	if (!applied) return [];
+	try { return JSON.parse(applied) as string[]; } catch { return []; }
+}
 </script>
 
 <template>
-	<div class="party-finder">
-		<div class="tabs">
-			<button
-				v-for="(config, category) in channelConfig"
-				:key="category"
-				:class="{ active: activeCategory === category }"
-				@click="switchCategory(category)">
-				{{ config.name }}
-			</button>
-		</div>
+	<div class="pf">
 
-		<div class="filter-section" v-if="!loading && categoryTags.length > 0">
-			<div class="filter-header">
-				<h3 class="filter-title">Filter by tags:</h3>
-				<div class="filter-controls">
-					<button
-						class="sort-toggle"
-						:class="{ active: sortLatestFirst }"
-						@click="toggleSortOrder">
-						Sort: {{ sortLatestFirst ? 'Latest First' : 'Oldest First' }}
-					</button>
-					<a
-						v-bind:href="`https://discordapp.com/channels/895516967543390249/${channelConfig[activeCategory].parent_id}`"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="create-post-button">
-						Create New Post
-					</a>
-				</div>
-			</div>
-			<div class="filter-buttons">
+		<!-- ── Toolbar ──────────────────────────────────────────── -->
+		<div class="pf-toolbar">
+			<div class="pf-tabs" role="tablist">
 				<button
-					v-for="tag in categoryTags"
-					:key="tag.id"
-					:class="{ active: tag.filtered }"
-					@click="toggleTagFilter(tag.id)"
-					class="filter-tag">
-					<img
-						v-if="getTagInfo(tag.id).icon"
-						:src="getTagInfo(tag.id).icon"
-						class="tag-icon"
-						:alt="tag.tag_name" />
-					<span>{{ tag.tag_name }}</span>
-				</button>
-				<button
-					v-if="hasActiveFilters"
-					class="clear-filters"
-					@click="clearFilters">
-					Clear Filters
+					v-for="(config, category) in channelConfig"
+					:key="category"
+					role="tab"
+					:aria-selected="activeCategory === category"
+					class="pf-tab"
+					:class="{ 'pf-tab--active': activeCategory === category }"
+					@click="switchCategory(category)">
+					{{ config.name }}
 				</button>
 			</div>
-		</div>
 
-		<div class="content">
-			<div v-if="loading" class="loading">Loading threads...</div>
-
-			<div v-else-if="error" class="error">
-				{{ error }}
-			</div>
-
-			<div v-else-if="displayedThreads.length === 0" class="empty">No threads found.</div>
-
-			<div v-else class="thread-list">
+			<div class="pf-actions">
+				<button class="pf-sort-btn" @click="toggleSortOrder" :title="sortLatestFirst ? 'Switch to oldest first' : 'Switch to newest first'">
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+						<path d="M3 6h18M7 12h10M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+					</svg>
+					{{ sortLatestFirst ? 'Newest' : 'Oldest' }}
+				</button>
 				<a
-					v-for="thread in displayedThreads"
-					:key="thread.thread_id"
-					class="thread-item"
-					:href="getDiscordThreadUrl(thread.thread_id)"
+					v-if="!loading"
+					:href="`https://discordapp.com/channels/895516967543390249/${channelConfig[activeCategory].parent_id}`"
 					target="_blank"
-					rel="noopener noreferrer">
-					<div class="thread-header">
-						<h3 class="thread-title">{{ thread.thread_name }}</h3>
-					</div>
-
-					<div class="thread-info">
-						<div class="thread-owner">
-							<svg
-								width="16px"
-								height="16px"
-								viewBox="0 0 24 24"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg">
-								<path
-									fill-rule="evenodd"
-									clip-rule="evenodd"
-									d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7ZM14 7C14 8.10457 13.1046 9 12 9C10.8954 9 10 8.10457 10 7C10 5.89543 10.8954 5 12 5C13.1046 5 14 5.89543 14 7Z"
-									fill="currentColor" />
-								<path
-									d="M16 15C16 14.4477 15.5523 14 15 14H9C8.44772 14 8 14.4477 8 15V21H6V15C6 13.3431 7.34315 12 9 12H15C16.6569 12 18 13.3431 18 15V21H16V15Z"
-									fill="currentColor" />
-							</svg>
-							<div class="thread-owner-name">{{ thread.owner_nickname || "Unknown" }}</div>
-						</div>
-
-						<div v-if="thread.parsedMetadata" class="thread-date">
-							Posted: {{ formatDate(thread.parsedMetadata.create_timestamp) }}
-						</div>
-					</div>
-
-					<div v-if="thread.applied_tags" class="thread-tags">
-						<span class="tag" v-for="(tagId, index) in JSON.parse(thread.applied_tags)" :key="index">
-							<img
-								v-if="getTagInfo(tagId).icon"
-								:src="getTagInfo(tagId).icon"
-								class="tag-icon"
-								:alt="getTagInfo(tagId).name" />
-							<span class="tag-name">{{ getTagInfo(tagId).name }}</span>
-						</span>
-					</div>
+					rel="noopener noreferrer"
+					class="pf-create-btn">
+					New Post
 				</a>
 			</div>
 		</div>
+
+		<!-- ── Filter chips ─────────────────────────────────────── -->
+		<div v-if="!loading && groupedCategoryTags.length > 0" class="pf-filters">
+			<template v-for="(group, gi) in groupedCategoryTags" :key="gi">
+				<span v-if="gi > 0" class="pf-filter-sep" aria-hidden="true" />
+				<button
+					v-for="tag in group"
+					:key="tag.id"
+					class="pf-chip"
+					:class="{ 'pf-chip--active': tag.filtered }"
+					@click="toggleTagFilter(tag.id)">
+					<img
+						v-if="getTagInfo(tag.id).icon"
+						:src="getTagInfo(tag.id).icon"
+						class="pf-chip-icon"
+						:alt="tag.tag_name"
+						@error="(e) => ((e.target as HTMLImageElement).style.display = 'none')" />
+					{{ tag.tag_name }}
+				</button>
+			</template>
+			<button v-if="hasActiveFilters" class="pf-chip-clear" @click="clearFilters">
+				✕ Clear
+			</button>
+		</div>
+
+		<!-- ── States ───────────────────────────────────────────── -->
+		<div v-if="loading" class="pf-state">Loading threads…</div>
+		<div v-else-if="error" class="pf-state pf-state--error">{{ error }}</div>
+		<div v-else-if="displayedThreads.length === 0" class="pf-state">No threads found.</div>
+
+		<!-- ── Thread grid ───────────────────────────────────────── -->
+		<div v-else class="pf-grid">
+			<a
+				v-for="thread in displayedThreads"
+				:key="thread.thread_id"
+				class="pf-card"
+				:href="getDiscordThreadUrl(thread.thread_id)"
+				target="_blank"
+				rel="noopener noreferrer">
+
+				<p class="pf-card-title">{{ thread.thread_name }}</p>
+
+				<div class="pf-card-meta">
+					<span class="pf-meta-item">
+						<svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+							<circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/>
+							<path d="M6 20c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+						</svg>
+						{{ thread.owner_nickname || 'Unknown' }}
+					</span>
+					<span v-if="thread.parsedMetadata" class="pf-meta-item pf-meta-date">
+						{{ formatDate(thread.parsedMetadata.create_timestamp) }}
+					</span>
+				</div>
+
+				<div v-if="parsedTags(thread.applied_tags).length > 0" class="pf-card-tags">
+					<span
+						v-for="tagId in parsedTags(thread.applied_tags)"
+						:key="tagId"
+						class="pf-tag">
+						<img
+							v-if="getTagInfo(tagId).icon"
+							:src="getTagInfo(tagId).icon"
+							class="pf-tag-icon"
+							:alt="getTagInfo(tagId).name"
+							@error="(e) => ((e.target as HTMLImageElement).style.display = 'none')" />
+						{{ getTagInfo(tagId).name }}
+					</span>
+				</div>
+
+			</a>
+		</div>
+
 	</div>
 </template>
 
 <style scoped>
-.party-finder {
+/* ── Shell ───────────────────────────────────────────────────────── */
+.pf {
 	display: flex;
 	flex-direction: column;
-	margin: 0 auto;
+	gap: 0;
 	min-height: 100vh;
-	gap: 15px;
 }
 
-.tabs {
+/* ── Toolbar ─────────────────────────────────────────────────────── */
+.pf-toolbar {
 	display: flex;
-	border-bottom: 2px solid var(--vp-c-text-2);
+	align-items: stretch;
+	justify-content: space-between;
+	gap: 1rem;
+	border-bottom: 1px solid var(--vp-c-divider);
+	margin-bottom: 1.25rem;
 }
 
-.tabs button {
-	padding: 10px 20px;
+/* Tabs */
+.pf-tabs {
+	display: flex;
+	gap: 0;
+}
+
+.pf-tab {
+	padding: 0.65rem 1.1rem;
 	background: transparent;
 	border: none;
 	border-bottom: 2px solid transparent;
+	margin-bottom: -1px;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 0.9rem;
 	font-weight: 500;
 	color: var(--vp-c-text-2);
-	transition: color 0.2s ease;
+	transition: color 0.15s ease, border-color 0.15s ease;
+	white-space: nowrap;
 }
 
-.tabs button:hover {
-	color: var(--vp-c-text-3);
-}
-
-.tabs button.active {
-	color: var(--vp-c-brand);
-	border-bottom: 3px solid var(--vp-c-brand);
-}
-
-.loading,
-.error,
-.empty {
-	padding: 20px;
-	text-align: center;
-	color: var(--vp-c-text-2);
-}
-
-.error {
-	color: #e74c3c;
-}
-
-.thread-list {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 15px;
-}
-
-.thread-item {
-	padding: 15px;
-	border: 2px solid var(--vp-c-divider);
-	border-radius: 8px;
-	background-color: var(--vp-c-bg-alt);
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-	transition: transform 0.2s ease;
-	text-decoration: none;
-	display: block;
-	flex-grow: 1;
-}
-
-.thread-item:hover {
-	transform: translateY(-2px);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.thread-item:hover .thread-title {
-	color: var(--vp-c-brand);
-}
-
-.thread-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 6px;
-}
-
-.thread-title {
-	margin: 0;
-	font-size: 18px;
-	font-weight: 600;
+.pf-tab:hover {
 	color: var(--vp-c-text-1);
-	transition: color 0.2s ease;
 }
 
-.thread-owner {
+.pf-tab--active {
+	color: var(--vp-c-brand-1);
+	border-bottom-color: var(--vp-c-brand-1);
+}
+
+/* Actions */
+.pf-actions {
 	display: flex;
 	align-items: center;
-	font-size: 14px;
+	gap: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.pf-sort-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	padding: 0.35rem 0.75rem;
+	font-size: 0.8rem;
+	font-weight: 500;
 	color: var(--vp-c-text-2);
+	background: transparent;
+	border: 1px solid var(--vp-c-divider);
+	border-radius: 6px;
+	cursor: pointer;
+	transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
 }
 
-.thread-owner svg {
-	width: 20px;
-	height: 20px;
-	margin-right: 4px;
-	fill: var(--vp-c-text-2);
+.pf-sort-btn:hover {
+	color: var(--vp-c-text-1);
+	border-color: var(--vp-c-text-3);
+	background: var(--vp-c-bg-alt);
 }
 
-.thread-info {
-	display: flex;
-	gap: 10px;
-	margin-bottom: 10px;
-	font-size: 14px;
-	color: var(--vp-c-text-3);
+.pf-create-btn {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.35rem 0.85rem;
+	font-size: 0.8rem;
 	font-weight: 600;
+	color: #fff;
+	background: var(--vp-c-brand-1);
+	border-radius: 6px;
+	text-decoration: none;
+	transition: background 0.15s ease;
 }
 
-.thread-tags {
+.pf-create-btn:hover {
+	background: var(--vp-c-brand-2);
+	color: #fff;
+}
+
+/* ── Filter chips ────────────────────────────────────────────────── */
+.pf-filters {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 6px;
-	margin-top: 6px;
+	gap: 0.5rem;
+	margin-bottom: 1.25rem;
 }
 
-.tag {
-	padding: 4px 6px;
-	background-color: var(--vp-c-bg-elv);
-	border-radius: 4px;
-	font-size: 14px;
-	color: var(--vp-c-text-2);
-	display: flex;
+.pf-chip {
+	display: inline-flex;
 	align-items: center;
-	font-weight: 600;
+	gap: 0.35rem;
+	padding: 0.3rem 0.7rem;
+	font-size: 0.82rem;
+	font-weight: 500;
+	color: var(--vp-c-text-2);
+	background: var(--vp-c-bg-alt);
+	border: 1px solid var(--vp-c-divider);
+	border-radius: 999px;
+	cursor: pointer;
+	transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
 }
 
-.tag-icon {
-	width: 20px;
-	height: 20px;
-	margin-right: 6px;
+.pf-chip:hover {
+	color: var(--vp-c-text-1);
+	border-color: var(--vp-c-text-3);
 }
 
-.tag-name {
+.pf-chip--active {
+	color: #fff;
+	background: var(--vp-c-brand-1);
+	border-color: var(--vp-c-brand-1);
+}
+
+.pf-chip--active:hover {
+	color: #fff;
+	background: var(--vp-c-brand-2);
+	border-color: var(--vp-c-brand-2);
+}
+
+.pf-chip-icon {
+	width: 16px;
+	height: 16px;
+	border-radius: 2px;
+}
+
+.pf-filter-sep {
 	display: inline-block;
+	width: 1px;
+	height: 1.4rem;
+	background: var(--vp-c-divider);
+	margin: 0 0.25rem;
+	align-self: center;
+	flex-shrink: 0;
 }
 
-.filter-section {
-	padding: 10px;
-	background-color: var(--vp-c-bg-alt);
-	border-radius: 8px;
-	border: 2px solid var(--vp-c-divider);
-}
-
-.filter-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-	margin-bottom: 10px;
-}
-
-.filter-title {
-	font-size: 14px;
-	margin-top: 0;
-	margin-bottom: 5px;
-	color: var(--vp-c-text-2);
-}
-
-.sort-toggle {
-	padding: 6px 12px;
-	color: var(--vp-c-text-2);
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-	font-size: 14px;
-	transition: background-color 0.2s ease;
-	font-weight: 500;
-	background-color: transparent;
-}
-
-.sort-toggle:hover {
-	background-color: var(--vp-c-bg-soft);
-}
-
-.filter-controls {
-	display: flex;
-	gap: 10px;
+.pf-chip-clear {
+	display: inline-flex;
 	align-items: center;
-}
-
-.create-post-button {
-	padding: 6px 12px;
-	color: var(--vp-c-text-1);
-	background-color: var(--vp-c-brand);
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-	font-size: 14px;
-	transition: background-color 0.2s ease;
+	padding: 0.3rem 0.7rem;
+	font-size: 0.8rem;
 	font-weight: 500;
-	text-decoration: none;
+	color: var(--vp-c-text-3);
+	background: transparent;
+	border: 1px solid transparent;
+	border-radius: 999px;
+	cursor: pointer;
+	transition: color 0.15s ease, background 0.15s ease;
+}
+
+.pf-chip-clear:hover {
+	color: var(--vp-c-text-2);
+	background: var(--vp-c-bg-alt);
+}
+
+/* ── States ──────────────────────────────────────────────────────── */
+.pf-state {
+	padding: 3rem 1rem;
 	text-align: center;
+	color: var(--vp-c-text-3);
+	font-size: 0.9rem;
 }
 
-.create-post-button:hover {
-	color: var(--vp-c-text-1);
-	background-color: var(--vp-c-brand-3);
+.pf-state--error {
+	color: var(--vp-c-danger-1, #e53e3e);
 }
 
-.filter-buttons {
+/* ── Thread grid ─────────────────────────────────────────────────── */
+.pf-grid {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 8px;
+	gap: 0.875rem;
 }
 
-.filter-tag {
+/* ── Thread card ─────────────────────────────────────────────────── */
+.pf-card {
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
+	padding: 1rem 1.1rem;
+	background: var(--vp-c-bg-alt);
+	border: 1px solid var(--vp-c-divider);
+	border-radius: 8px;
+	text-decoration: none;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
+	flex-grow: 1;
+	min-width: 220px;
+}
+
+.pf-card:hover {
+	border-color: var(--vp-c-brand-1);
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.pf-card-title {
+	margin: 0;
+	font-size: 0.95rem;
+	font-weight: 600;
+	color: var(--vp-c-text-1);
+	line-height: 1.4;
+	transition: color 0.15s ease;
+}
+
+.pf-card:hover .pf-card-title {
+	color: var(--vp-c-brand-1);
+}
+
+/* Meta row */
+.pf-card-meta {
 	display: flex;
 	align-items: center;
-	padding: 5px 10px;
+	gap: 0.75rem;
+	flex-wrap: wrap;
+}
+
+.pf-meta-item {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+	font-size: 0.78rem;
+	color: var(--vp-c-text-3);
+}
+
+.pf-meta-item svg {
+	flex-shrink: 0;
+	opacity: 0.7;
+}
+
+.pf-meta-date {
+	margin-left: auto;
+}
+
+/* Tags */
+.pf-card-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35rem;
+	margin-top: auto;
+	padding-top: 0.25rem;
+}
+
+.pf-tag {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3rem;
+	padding: 0.2rem 0.5rem;
+	font-size: 0.75rem;
 	font-weight: 500;
-	background-color: var(--vp-c-bg-elv);
-	border-radius: 4px;
-	font-size: 15px;
 	color: var(--vp-c-text-2);
-	cursor: pointer;
-	transition: all 0.2s ease;
-}
-
-.filter-tag:hover {
-	background-color: var(--vp-c-bg-soft);
-}
-
-.filter-tag.active {
-	background-color: var(--vp-c-brand);
-	color: var(--vp-c-text-1);
-}
-
-.clear-filters {
-	padding: 0px 12px;
-	color: var(--vp-c-text-2);
-	border: none;
+	background: var(--vp-c-bg-elv);
 	border-radius: 4px;
-	cursor: pointer;
-	font-size: 14px;
-	transition: background-color 0.2s ease;
-	font-weight: 500;
 }
 
-.clear-filters:hover {
-	background-color: var(--vp-c-bg-soft);
+.pf-tag-icon {
+	width: 14px;
+	height: 14px;
+	border-radius: 2px;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────── */
+@media (max-width: 540px) {
+	.pf-tab {
+		padding: 0.65rem 0.75rem;
+		font-size: 0.82rem;
+	}
+
+	.pf-card {
+		min-width: 100%;
+	}
+
+	.pf-meta-date {
+		margin-left: 0;
+	}
 }
 </style>

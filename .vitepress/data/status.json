@@ -4172,8 +4172,8 @@
   {
     "ID": 701,
     "Name": "Battle Efficiency Down",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
+    "Icon": "/images/statusicons/215049.png",
+    "GamePath": "ui/icon/215000/215049.tex"
   },
   {
     "ID": 702,
@@ -8382,12 +8382,6 @@
     "GamePath": "ui/icon/215000/215814.tex"
   },
   {
-    "ID": 1428,
-    "Name": "削除予定",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
-  },
-  {
     "ID": 1429,
     "Name": "Breathless",
     "Icon": "/images/statusicons/218981.png",
@@ -8652,12 +8646,6 @@
     "GamePath": "ui/icon/215000/215843.tex"
   },
   {
-    "ID": 1473,
-    "Name": "Cemented",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
-  },
-  {
     "ID": 1474,
     "Name": "Filthy",
     "Icon": "/images/statusicons/215527.png",
@@ -8908,12 +8896,6 @@
     "Name": "Hover",
     "Icon": "/images/statusicons/215683.png",
     "GamePath": "ui/icon/215000/215683.tex"
-  },
-  {
-    "ID": 1516,
-    "Name": "Cemented",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
   },
   {
     "ID": 1517,
@@ -16392,12 +16374,6 @@
     "GamePath": "ui/icon/215000/215414.tex"
   },
   {
-    "ID": 2811,
-    "Name": "反転プログラム",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
-  },
-  {
     "ID": 2817,
     "Name": "Partygoer",
     "Icon": "/images/statusicons/216214.png",
@@ -18066,12 +18042,6 @@
     "GamePath": "ui/icon/214000/214908.tex"
   },
   {
-    "ID": 3114,
-    "Name": "●トキシコンII",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
-  },
-  {
     "ID": 3115,
     "Name": "Addersting",
     "Icon": "/images/statusicons/214909.png",
@@ -18522,12 +18492,6 @@
     "GamePath": "ui/icon/212000/212914.tex"
   },
   {
-    "ID": 3190,
-    "Name": "星遁天誅",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
-  },
-  {
     "ID": 3191,
     "Name": "Death Link",
     "Icon": "/images/statusicons/214944.png",
@@ -18862,12 +18826,6 @@
     "Name": "Black Shift",
     "Icon": "/images/statusicons/214978.png",
     "GamePath": "ui/icon/214000/214978.tex"
-  },
-  {
-    "ID": 3247,
-    "Name": "●ポーション",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
   },
   {
     "ID": 3248,
@@ -21456,22 +21414,10 @@
     "GamePath": "ui/icon/215000/215773.tex"
   },
   {
-    "ID": 3720,
-    "Name": "回転角2倍",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
-  },
-  {
     "ID": 3721,
     "Name": "Times Three",
     "Icon": "/images/statusicons/216748.png",
     "GamePath": "ui/icon/216000/216748.tex"
-  },
-  {
-    "ID": 3722,
-    "Name": "回転角4倍",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
   },
   {
     "ID": 3723,
@@ -21844,12 +21790,6 @@
     "Name": "Beckoning Dark",
     "Icon": "/images/statusicons/214119.png",
     "GamePath": "ui/icon/214000/214119.tex"
-  },
-  {
-    "ID": 3795,
-    "Name": "Sustained Damage",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
   },
   {
     "ID": 3796,
@@ -23592,12 +23532,6 @@
     "GamePath": "ui/icon/218000/218214.tex"
   },
   {
-    "ID": 4135,
-    "Name": "●攻撃回想",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
-  },
-  {
     "ID": 4136,
     "Name": "Aetherstock",
     "Icon": "/images/statusicons/214226.png",
@@ -24588,12 +24522,6 @@
     "GamePath": "ui/icon/214000/214736.tex"
   },
   {
-    "ID": 4318,
-    "Name": "クリムゾンサイクロン",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
-  },
-  {
     "ID": 4319,
     "Name": "Scorch",
     "Icon": "/images/statusicons/214743.png",
@@ -24964,12 +24892,6 @@
     "Name": "Life Drain",
     "Icon": "/images/statusicons/215778.png",
     "GamePath": "ui/icon/215000/215778.tex"
-  },
-  {
-    "ID": 4381,
-    "Name": "ドレッドセンチネル",
-    "Icon": "/images/statusicons/.png",
-    "GamePath": ""
   },
   {
     "ID": 4382,
@@ -26173,115 +26095,115 @@
   },
   {
     "ID": 4728,
-    "Name": "_rsv_4728_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "More than Satisfied",
     "Icon": "/images/statusicons/214322.png",
     "GamePath": "ui/icon/214000/214322.tex"
   },
   {
     "ID": 4729,
-    "Name": "_rsv_4729_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Curse of the Bombpyre",
     "Icon": "/images/statusicons/214323.png",
     "GamePath": "ui/icon/214000/214323.tex"
   },
   {
     "ID": 4730,
-    "Name": "_rsv_4730_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Hell Awaits",
     "Icon": "/images/statusicons/214324.png",
     "GamePath": "ui/icon/214000/214324.tex"
   },
   {
     "ID": 4731,
-    "Name": "_rsv_4731_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Hell in a Cell",
     "Icon": "/images/statusicons/214325.png",
     "GamePath": "ui/icon/214000/214325.tex"
   },
   {
     "ID": 4732,
-    "Name": "_rsv_4732_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Hell in a Cell",
     "Icon": "/images/statusicons/214325.png",
     "GamePath": "ui/icon/214000/214325.tex"
   },
   {
     "ID": 4733,
-    "Name": "_rsv_4733_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Hell in a Cell",
     "Icon": "/images/statusicons/214325.png",
     "GamePath": "ui/icon/214000/214325.tex"
   },
   {
     "ID": 4734,
-    "Name": "_rsv_4734_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Hell in a Cell",
     "Icon": "/images/statusicons/214325.png",
     "GamePath": "ui/icon/214000/214325.tex"
   },
   {
     "ID": 4735,
-    "Name": "_rsv_4735_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Hell in a Cell",
     "Icon": "/images/statusicons/214325.png",
     "GamePath": "ui/icon/214000/214325.tex"
   },
   {
     "ID": 4736,
-    "Name": "_rsv_4736_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Hell in a Cell",
     "Icon": "/images/statusicons/214325.png",
     "GamePath": "ui/icon/214000/214325.tex"
   },
   {
     "ID": 4737,
-    "Name": "_rsv_4737_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Hell in a Cell",
     "Icon": "/images/statusicons/214325.png",
     "GamePath": "ui/icon/214000/214325.tex"
   },
   {
     "ID": 4738,
-    "Name": "_rsv_4738_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Hell in a Cell",
     "Icon": "/images/statusicons/214325.png",
     "GamePath": "ui/icon/214000/214325.tex"
   },
   {
     "ID": 4739,
-    "Name": "_rsv_4739_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Heel of the Cell",
     "Icon": "/images/statusicons/214326.png",
     "GamePath": "ui/icon/214000/214326.tex"
   },
   {
     "ID": 4740,
-    "Name": "_rsv_4740_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Heel of the Cell",
     "Icon": "/images/statusicons/214326.png",
     "GamePath": "ui/icon/214000/214326.tex"
   },
   {
     "ID": 4741,
-    "Name": "_rsv_4741_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Heel of the Cell",
     "Icon": "/images/statusicons/214326.png",
     "GamePath": "ui/icon/214000/214326.tex"
   },
   {
     "ID": 4742,
-    "Name": "_rsv_4742_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Heel of the Cell",
     "Icon": "/images/statusicons/214326.png",
     "GamePath": "ui/icon/214000/214326.tex"
   },
   {
     "ID": 4743,
-    "Name": "_rsv_4743_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Heel of the Cell",
     "Icon": "/images/statusicons/214326.png",
     "GamePath": "ui/icon/214000/214326.tex"
   },
   {
     "ID": 4744,
-    "Name": "_rsv_4744_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Heel of the Cell",
     "Icon": "/images/statusicons/214326.png",
     "GamePath": "ui/icon/214000/214326.tex"
   },
   {
     "ID": 4745,
-    "Name": "_rsv_4745_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Heel of the Cell",
     "Icon": "/images/statusicons/214326.png",
     "GamePath": "ui/icon/214000/214326.tex"
   },
   {
     "ID": 4746,
-    "Name": "_rsv_4746_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Heel of the Cell",
     "Icon": "/images/statusicons/214326.png",
     "GamePath": "ui/icon/214000/214326.tex"
   },
@@ -26317,25 +26239,25 @@
   },
   {
     "ID": 4752,
-    "Name": "_rsv_4752_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Bonds of Flesh α",
     "Icon": "/images/statusicons/214339.png",
     "GamePath": "ui/icon/214000/214339.tex"
   },
   {
     "ID": 4753,
-    "Name": "_rsv_4753_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Unbreakable Flesh α",
     "Icon": "/images/statusicons/214340.png",
     "GamePath": "ui/icon/214000/214340.tex"
   },
   {
     "ID": 4754,
-    "Name": "_rsv_4754_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Bonds of Flesh β",
     "Icon": "/images/statusicons/214341.png",
     "GamePath": "ui/icon/214000/214341.tex"
   },
   {
     "ID": 4755,
-    "Name": "_rsv_4755_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Unbreakable Flesh β",
     "Icon": "/images/statusicons/214342.png",
     "GamePath": "ui/icon/214000/214342.tex"
   },
@@ -26395,43 +26317,43 @@
   },
   {
     "ID": 4765,
-    "Name": "_rsv_4765_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Lindwurm's Portent",
     "Icon": "/images/statusicons/214348.png",
     "GamePath": "ui/icon/214000/214348.tex"
   },
   {
     "ID": 4766,
-    "Name": "_rsv_4766_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Faraway Portent",
     "Icon": "/images/statusicons/214349.png",
     "GamePath": "ui/icon/214000/214349.tex"
   },
   {
     "ID": 4767,
-    "Name": "_rsv_4767_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Nearby Portent",
     "Icon": "/images/statusicons/214350.png",
     "GamePath": "ui/icon/214000/214350.tex"
   },
   {
     "ID": 4768,
-    "Name": "_rsv_4768_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Hot-blooded",
     "Icon": "/images/statusicons/214351.png",
     "GamePath": "ui/icon/214000/214351.tex"
   },
   {
     "ID": 4769,
-    "Name": "_rsv_4769_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Mutation α",
     "Icon": "/images/statusicons/214352.png",
     "GamePath": "ui/icon/214000/214352.tex"
   },
   {
     "ID": 4770,
-    "Name": "_rsv_4770_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Mutating Cells",
     "Icon": "/images/statusicons/214353.png",
     "GamePath": "ui/icon/214000/214353.tex"
   },
   {
     "ID": 4771,
-    "Name": "_rsv_4771_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Mutation β",
     "Icon": "/images/statusicons/214354.png",
     "GamePath": "ui/icon/214000/214354.tex"
   },
@@ -26665,31 +26587,31 @@
   },
   {
     "ID": 4825,
-    "Name": "_rsv_4825_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Synchronized Firesnaking",
     "Icon": "/images/statusicons/214374.png",
     "GamePath": "ui/icon/214000/214374.tex"
   },
   {
     "ID": 4826,
-    "Name": "_rsv_4826_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Synchronized Watersnaking",
     "Icon": "/images/statusicons/214375.png",
     "GamePath": "ui/icon/214000/214375.tex"
   },
   {
     "ID": 4827,
-    "Name": "_rsv_4827_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Xtreme Firesnaking",
     "Icon": "/images/statusicons/214376.png",
     "GamePath": "ui/icon/214000/214376.tex"
   },
   {
     "ID": 4828,
-    "Name": "_rsv_4828_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Xtreme Watersnaking",
     "Icon": "/images/statusicons/214377.png",
     "GamePath": "ui/icon/214000/214377.tex"
   },
   {
     "ID": 4829,
-    "Name": "_rsv_4829_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Name": "Watery Grave",
     "Icon": "/images/statusicons/214378.png",
     "GamePath": "ui/icon/214000/214378.tex"
   },
@@ -26772,10 +26694,82 @@
     "GamePath": "ui/icon/216000/216767.tex"
   },
   {
+    "ID": 4876,
+    "Name": "Tele-portent",
+    "Icon": "/images/statusicons/214401.png",
+    "GamePath": "ui/icon/214000/214401.tex"
+  },
+  {
+    "ID": 4877,
+    "Name": "Tele-portent",
+    "Icon": "/images/statusicons/214402.png",
+    "GamePath": "ui/icon/214000/214402.tex"
+  },
+  {
+    "ID": 4878,
+    "Name": "Tele-portent",
+    "Icon": "/images/statusicons/214403.png",
+    "GamePath": "ui/icon/214000/214403.tex"
+  },
+  {
+    "ID": 4879,
+    "Name": "Tele-portent",
+    "Icon": "/images/statusicons/214404.png",
+    "GamePath": "ui/icon/214000/214404.tex"
+  },
+  {
+    "ID": 4882,
+    "Name": "Unbecoming",
+    "Icon": "/images/statusicons/214386.png",
+    "GamePath": "ui/icon/214000/214386.tex"
+  },
+  {
+    "ID": 4883,
+    "Name": "Quantum Nullification",
+    "Icon": "/images/statusicons/214397.png",
+    "GamePath": "ui/icon/214000/214397.tex"
+  },
+  {
+    "ID": 4884,
+    "Name": "Quantum Entanglement",
+    "Icon": "/images/statusicons/214398.png",
+    "GamePath": "ui/icon/214000/214398.tex"
+  },
+  {
+    "ID": 4885,
+    "Name": "●ターゲット",
+    "Icon": "/images/statusicons/215026.png",
+    "GamePath": "ui/icon/215000/215026.tex"
+  },
+  {
+    "ID": 4886,
+    "Name": "●ターゲット対象外",
+    "Icon": "/images/statusicons/215027.png",
+    "GamePath": "ui/icon/215000/215027.tex"
+  },
+  {
+    "ID": 4887,
+    "Name": "_rsv_4887_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/215782.png",
+    "GamePath": "ui/icon/215000/215782.tex"
+  },
+  {
+    "ID": 4888,
+    "Name": "_rsv_4888_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/215783.png",
+    "GamePath": "ui/icon/215000/215783.tex"
+  },
+  {
     "ID": 4892,
     "Name": "Variant Eagle Eye Shot Set",
     "Icon": "/images/statusicons/216765.png",
     "GamePath": "ui/icon/216000/216765.tex"
+  },
+  {
+    "ID": 4894,
+    "Name": "Sleep",
+    "Icon": "/images/statusicons/215013.png",
+    "GamePath": "ui/icon/215000/215013.tex"
   },
   {
     "ID": 4955,
@@ -26886,6 +26880,48 @@
     "GamePath": "ui/icon/215000/215586.tex"
   },
   {
+    "ID": 5078,
+    "Name": "_rsv_5078_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/214406.png",
+    "GamePath": "ui/icon/214000/214406.tex"
+  },
+  {
+    "ID": 5079,
+    "Name": "Tele-portent",
+    "Icon": "/images/statusicons/214401.png",
+    "GamePath": "ui/icon/214000/214401.tex"
+  },
+  {
+    "ID": 5080,
+    "Name": "Tele-portent",
+    "Icon": "/images/statusicons/214402.png",
+    "GamePath": "ui/icon/214000/214402.tex"
+  },
+  {
+    "ID": 5081,
+    "Name": "Tele-portent",
+    "Icon": "/images/statusicons/214403.png",
+    "GamePath": "ui/icon/214000/214403.tex"
+  },
+  {
+    "ID": 5082,
+    "Name": "Tele-portent",
+    "Icon": "/images/statusicons/214404.png",
+    "GamePath": "ui/icon/214000/214404.tex"
+  },
+  {
+    "ID": 5083,
+    "Name": "_rsv_5083_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/218951.png",
+    "GamePath": "ui/icon/218000/218951.tex"
+  },
+  {
+    "ID": 5144,
+    "Name": "_rsv_5144_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/214407.png",
+    "GamePath": "ui/icon/214000/214407.tex"
+  },
+  {
     "ID": 5152,
     "Name": "Load-bearing",
     "Icon": "/images/statusicons/216246.png",
@@ -26914,5 +26950,311 @@
     "Name": "Doom",
     "Icon": "/images/statusicons/215503.png",
     "GamePath": "ui/icon/215000/215503.tex"
+  },
+  {
+    "ID": 5191,
+    "Name": "Motion Tracker",
+    "Icon": "/images/statusicons/214387.png",
+    "GamePath": "ui/icon/214000/214387.tex"
+  },
+  {
+    "ID": 5192,
+    "Name": "Forward March",
+    "Icon": "/images/statusicons/215774.png",
+    "GamePath": "ui/icon/215000/215774.tex"
+  },
+  {
+    "ID": 5193,
+    "Name": "About Face",
+    "Icon": "/images/statusicons/215775.png",
+    "GamePath": "ui/icon/215000/215775.tex"
+  },
+  {
+    "ID": 5194,
+    "Name": "Left Face",
+    "Icon": "/images/statusicons/215776.png",
+    "GamePath": "ui/icon/215000/215776.tex"
+  },
+  {
+    "ID": 5195,
+    "Name": "Right Face",
+    "Icon": "/images/statusicons/215777.png",
+    "GamePath": "ui/icon/215000/215777.tex"
+  },
+  {
+    "ID": 5343,
+    "Name": "Light Vision",
+    "Icon": "/images/statusicons/214414.png",
+    "GamePath": "ui/icon/214000/214414.tex"
+  },
+  {
+    "ID": 5350,
+    "Name": "_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/214408.png",
+    "GamePath": "ui/icon/214000/214408.tex"
+  },
+  {
+    "ID": 5351,
+    "Name": "_rsv_5351_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/214409.png",
+    "GamePath": "ui/icon/214000/214409.tex"
+  },
+  {
+    "ID": 5352,
+    "Name": "Cloak of Waning Light",
+    "Icon": "/images/statusicons/214392.png",
+    "GamePath": "ui/icon/214000/214392.tex"
+  },
+  {
+    "ID": 5353,
+    "Name": "Cloak of Waxing Dark",
+    "Icon": "/images/statusicons/214393.png",
+    "GamePath": "ui/icon/214000/214393.tex"
+  },
+  {
+    "ID": 5355,
+    "Name": "Healing Glyph",
+    "Icon": "/images/statusicons/215119.png",
+    "GamePath": "ui/icon/215000/215119.tex"
+  },
+  {
+    "ID": 5357,
+    "Name": "Gauntlet Taken",
+    "Icon": "/images/statusicons/214399.png",
+    "GamePath": "ui/icon/214000/214399.tex"
+  },
+  {
+    "ID": 5358,
+    "Name": "Gauntlet Taken",
+    "Icon": "/images/statusicons/214399.png",
+    "GamePath": "ui/icon/214000/214399.tex"
+  },
+  {
+    "ID": 5359,
+    "Name": "Gauntlet Taken",
+    "Icon": "/images/statusicons/214399.png",
+    "GamePath": "ui/icon/214000/214399.tex"
+  },
+  {
+    "ID": 5360,
+    "Name": "Gauntlet Taken",
+    "Icon": "/images/statusicons/214399.png",
+    "GamePath": "ui/icon/214000/214399.tex"
+  },
+  {
+    "ID": 5361,
+    "Name": "Gauntlet Taken",
+    "Icon": "/images/statusicons/214399.png",
+    "GamePath": "ui/icon/214000/214399.tex"
+  },
+  {
+    "ID": 5362,
+    "Name": "Gauntlet Taken",
+    "Icon": "/images/statusicons/214399.png",
+    "GamePath": "ui/icon/214000/214399.tex"
+  },
+  {
+    "ID": 5363,
+    "Name": "Gauntlet Taken",
+    "Icon": "/images/statusicons/214399.png",
+    "GamePath": "ui/icon/214000/214399.tex"
+  },
+  {
+    "ID": 5364,
+    "Name": "Gauntlet Taken",
+    "Icon": "/images/statusicons/214399.png",
+    "GamePath": "ui/icon/214000/214399.tex"
+  },
+  {
+    "ID": 5365,
+    "Name": "Gauntlet Thrown",
+    "Icon": "/images/statusicons/214400.png",
+    "GamePath": "ui/icon/214000/214400.tex"
+  },
+  {
+    "ID": 5366,
+    "Name": "Gauntlet Thrown",
+    "Icon": "/images/statusicons/214400.png",
+    "GamePath": "ui/icon/214000/214400.tex"
+  },
+  {
+    "ID": 5367,
+    "Name": "Gauntlet Thrown",
+    "Icon": "/images/statusicons/214400.png",
+    "GamePath": "ui/icon/214000/214400.tex"
+  },
+  {
+    "ID": 5368,
+    "Name": "Gauntlet Thrown",
+    "Icon": "/images/statusicons/214400.png",
+    "GamePath": "ui/icon/214000/214400.tex"
+  },
+  {
+    "ID": 5369,
+    "Name": "Gauntlet Thrown",
+    "Icon": "/images/statusicons/214400.png",
+    "GamePath": "ui/icon/214000/214400.tex"
+  },
+  {
+    "ID": 5370,
+    "Name": "Gauntlet Thrown",
+    "Icon": "/images/statusicons/214400.png",
+    "GamePath": "ui/icon/214000/214400.tex"
+  },
+  {
+    "ID": 5371,
+    "Name": "Gauntlet Thrown",
+    "Icon": "/images/statusicons/214400.png",
+    "GamePath": "ui/icon/214000/214400.tex"
+  },
+  {
+    "ID": 5372,
+    "Name": "Gauntlet Thrown",
+    "Icon": "/images/statusicons/214400.png",
+    "GamePath": "ui/icon/214000/214400.tex"
+  },
+  {
+    "ID": 5376,
+    "Name": "Perfect Defense",
+    "Icon": "/images/statusicons/214391.png",
+    "GamePath": "ui/icon/214000/214391.tex"
+  },
+  {
+    "ID": 5377,
+    "Name": "Perfect Defense",
+    "Icon": "/images/statusicons/214391.png",
+    "GamePath": "ui/icon/214000/214391.tex"
+  },
+  {
+    "ID": 5398,
+    "Name": "Easterly Winds",
+    "Icon": "/images/statusicons/214394.png",
+    "GamePath": "ui/icon/214000/214394.tex"
+  },
+  {
+    "ID": 5399,
+    "Name": "Westerly Winds",
+    "Icon": "/images/statusicons/214395.png",
+    "GamePath": "ui/icon/214000/214395.tex"
+  },
+  {
+    "ID": 5407,
+    "Name": "Strung Up",
+    "Icon": "/images/statusicons/214410.png",
+    "GamePath": "ui/icon/214000/214410.tex"
+  },
+  {
+    "ID": 5412,
+    "Name": "Supplementary Formula",
+    "Icon": "/images/statusicons/217690.png",
+    "GamePath": "ui/icon/217000/217690.tex"
+  },
+  {
+    "ID": 5413,
+    "Name": "Formula Case",
+    "Icon": "/images/statusicons/216256.png",
+    "GamePath": "ui/icon/216000/216256.tex"
+  },
+  {
+    "ID": 5440,
+    "Name": "ライトクローク",
+    "Icon": "/images/statusicons/214411.png",
+    "GamePath": "ui/icon/214000/214411.tex"
+  },
+  {
+    "ID": 5441,
+    "Name": "ダーククローク",
+    "Icon": "/images/statusicons/214412.png",
+    "GamePath": "ui/icon/214000/214412.tex"
+  },
+  {
+    "ID": 5452,
+    "Name": "_rsv_5452_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/217398.png",
+    "GamePath": "ui/icon/217000/217398.tex"
+  },
+  {
+    "ID": 5453,
+    "Name": "_rsv_5453_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/214413.png",
+    "GamePath": "ui/icon/214000/214413.tex"
+  },
+  {
+    "ID": 5454,
+    "Name": "_rsv_5454_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/215907.png",
+    "GamePath": "ui/icon/215000/215907.tex"
+  },
+  {
+    "ID": 5464,
+    "Name": "_rsv_5464_-1_1_0_0_S74CFC3B0_E74CFC3B0",
+    "Icon": "/images/statusicons/215780.png",
+    "GamePath": "ui/icon/215000/215780.tex"
+  },
+  {
+    "ID": 5467,
+    "Name": "Vulnerability Down",
+    "Icon": "/images/statusicons/215021.png",
+    "GamePath": "ui/icon/215000/215021.tex"
+  },
+  {
+    "ID": 5473,
+    "Name": "Doom",
+    "Icon": "/images/statusicons/215503.png",
+    "GamePath": "ui/icon/215000/215503.tex"
+  },
+  {
+    "ID": 5531,
+    "Name": "Mountain Buster",
+    "Icon": "/images/statusicons/212698.png",
+    "GamePath": "ui/icon/212000/212698.tex"
+  },
+  {
+    "ID": 5541,
+    "Name": "White Wound",
+    "Icon": "/images/statusicons/215782.png",
+    "GamePath": "ui/icon/215000/215782.tex"
+  },
+  {
+    "ID": 5542,
+    "Name": "Black Wound",
+    "Icon": "/images/statusicons/215783.png",
+    "GamePath": "ui/icon/215000/215783.tex"
+  },
+  {
+    "ID": 5543,
+    "Name": "Cursed Shriek",
+    "Icon": "/images/statusicons/215588.png",
+    "GamePath": "ui/icon/215000/215588.tex"
+  },
+  {
+    "ID": 5544,
+    "Name": "Forked Lightning",
+    "Icon": "/images/statusicons/215623.png",
+    "GamePath": "ui/icon/215000/215623.tex"
+  },
+  {
+    "ID": 5545,
+    "Name": "Compressed Water",
+    "Icon": "/images/statusicons/215696.png",
+    "GamePath": "ui/icon/215000/215696.tex"
+  },
+  {
+    "ID": 5546,
+    "Name": "Acceleration Bomb",
+    "Icon": "/images/statusicons/215727.png",
+    "GamePath": "ui/icon/215000/215727.tex"
+  },
+  {
+    "ID": 5547,
+    "Name": "Entropy",
+    "Icon": "/images/statusicons/215902.png",
+    "GamePath": "ui/icon/215000/215902.tex"
+  },
+  {
+    "ID": 5548,
+    "Name": "Dynamic Fluid",
+    "Icon": "/images/statusicons/215903.png",
+    "GamePath": "ui/icon/215000/215903.tex"
   }
 ]
