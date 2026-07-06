@@ -163,7 +163,7 @@ def main():
 
     # --- Write JSON ---
     json_out.parent.mkdir(parents=True, exist_ok=True)
-    json_out.write_text(json.dumps(statuses, indent=2, ensure_ascii=False) + "\n")
+    json_out.write_text(json.dumps(statuses, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"  Wrote {json_out}")
 
     if args.skip_images:

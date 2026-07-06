@@ -169,7 +169,7 @@ These strats are still being changed. Some sections may change as strategies dev
 ::: info PHASE 1 REQUIREMENTS
 Throughout Phase 1, **3** conditions must be met to successfully complete Phase 2 later in the fight:
 
-- Utilize all **Double-Trouble Trap** debuffs without letting them fall off.
+- Utilize all **Double-Trouble Trap** ^[_rsv_5078_-1_1_0_0_S74CFC3B0_E74CFC3B0] debuffs without letting them fall off.
 - Successfully soak all the gravity bubbles in **Graven Image II**
 - Place and utilize all 16 arrow debuffs in **Tele-Trouncing**
   :::
@@ -280,7 +280,7 @@ The statue will then indicate and resolve either a **East/West** cleave before t
 
 As the last spread resolves the Statue will indicate another East/West cleave.
 
-Because the 2nd **Double-Trouble Trap** is coming up, all Support players will stack inside Kefka's hitbox to the North, and DPS South. The debuff player should stand behind their group to launch each light party into the bubbles to soak them. Each debuff player will have to manually join the stack closest to them.
+Because the 2nd **Double-Trouble Trap** ^[_rsv_5078_-1_1_0_0_S74CFC3B0_E74CFC3B0] is coming up, all Support players will stack inside Kefka's hitbox to the North, and DPS South. The debuff player should stand behind their group to launch each light party into the bubbles to soak them. Each debuff player will have to manually join the stack closest to them.
 
 ::: info NOTE
 The soak window for the bubbles is quite small. They cannot be soaked outside of the window just after the KB goes off. **This is signified by the bubbles flashing gold**.
@@ -290,7 +290,7 @@ Kefka will raise the platform once more, followed by another **Light of Judgemen
 
 #### Tele-Trouncing/Graven Image III
 
-Kefka will assign each player with 2 **Tele-portent** debuffs:
+Kefka will assign each player with 2 **Tele-portent** ^[Tele-portent] debuffs:
 
 - One short timer (**7s**)
 - One long timer (**10s**).
@@ -299,7 +299,7 @@ These debuffs will place a teleport pad on the floor that is **based on True Nor
 
 If 2 arrows are placed on eachother they will cancel out.
 
-One role will get **mixed arrows** (e.g. up/left arrow), whilst the other role gets 2 **identical arrows**.
+One role will get **mixed arrows** ^[Tele-portent:5079]^[Tele-portent:5082], whilst the other role gets 2 **identical arrows** ^[Tele-portent:5079]^[Tele-portent:5079].
 
 All identical arrow players should move to the cardinal that results in their arrows making a "counter-clockwise" pattern with the other arrows, as seen below.
 
@@ -311,7 +311,7 @@ Players can use the waymarks to line up their arrows correctly.
 To simplify this for mixed debuff players, North (Up) + West (left) arrows -> Place arrows **North-West**
 :::
 
-Once again we will resolve the **Double-Trouble Trap** by having the Support players take their knockback from the North, and the DPS South.
+Once again we will resolve the **Double-Trouble Trap** ^[_rsv_5078_-1_1_0_0_S74CFC3B0_E74CFC3B0] by having the Support players take their knockback from the North, and the DPS South.
 
 The Statue will then tether each role separately once more. **Left (yellow)** will inflict each player with a **confused**^[Confused] debuff and **right (purple)** will inflict each player with a small AOE and a **sleep** ^[Sleep] debuff.
 
@@ -900,11 +900,11 @@ The party will spread to clockspots adjacent to their **role-stacks**, with Supp
 
 On these cardinals, light-party 1 players will spread **clockwise** and light-party 2 players **counter-clockwise**.
 
-Kefka will then randomly strike **3 non-tank players** with a **holy AOE**, inflicting **Light Resistance Down** ^[Light Resistance Down]. Tanks will also be randomly assigned one each of:
+Kefka will then randomly strike **3 non-tank players** with a **holy AOE**, inflicting **Magic Vulnerability Up** ^[Magic Vulnerability Up]. Both **Tanks** will be hit with a **Flare** tank-buster and then be randomly assigned one each of:
 
-- **Surprise Flare** ^[Surprise Flare]
+- **Surprise Flare** ^[_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0]
     > A defamation style tankbuster.
-- **Surprise Holy** ^[Surprise Holy]
+- **Surprise Holy** ^[_rsv_5351_-1_1_0_0_S74CFC3B0_E74CFC3B0]
     > A single-target AOE tankbuster.
 
 Surprise
