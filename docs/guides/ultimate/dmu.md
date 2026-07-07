@@ -18,13 +18,12 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 <ActionGroup
 :actions=" [
 { title: 'Phase 1: Kefka (Filo Arrows)', color: 'purple', href: 'https://raidplan.io/plan/BCd8L1CiFV-80hru' },
-{ title: 'Phase 1: Freaky Arrows', color: 'purple', href: 'https://raidplan.io/plan/qD9Y_g1caq3l5gD-#8' },
 { title: 'Phase 2: Forsaken', color: 'yellow', href: 'https://raidplan.io/plan/uq7zdjvuu7uuw8fj#4'},
 { title: 'Phase 2: Trines', color: 'yellow', href: 'https://raidplan.io/plan/apkh6ytq72w8pt3v'},
-{title: 'Phase 3: Chaos & Exdeath (tank LB3 BoA)',color:'red', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'},
-{title: 'Phase 3: Blackhole',color:'red', href: 'https://raidplan.io/plan/V0_JNICNGEamQ2no'},
+{title: 'Phase 3: Chaos & Exdeath (tank LB3 BoA)',color:'green', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'},
+{title: 'Phase 3: Blackhole',color:'green', href: 'https://raidplan.io/plan/V0_JNICNGEamQ2no'},
 {title: 'Phase 4: Kefka Says',color:'blue', href: 'https://raidplan.io/plan/ChcTBFAcFMZKFVKo'},
-{title: 'Phase 5: Ultima Kefka',color:'purple', href: 'https://raidplan.io/plan/vJlKks67vquhSTb8'},
+{title: 'Phase 5: Ultima Kefka',color:'red', href: 'https://raidplan.io/plan/vJlKks67vquhSTb8'},
 ]"
 />
 
@@ -170,7 +169,7 @@ These strats are still being changed. Some sections may change as strategies dev
 ::: info PHASE 1 REQUIREMENTS
 Throughout Phase 1, **3** conditions must be met to successfully complete Phase 2 later in the fight:
 
-- Utilize all **Double-Trouble Trap** debuffs without letting them fall off.
+- Utilize all **Double-Trouble Trap** ^[_rsv_5078_-1_1_0_0_S74CFC3B0_E74CFC3B0] debuffs without letting them fall off.
 - Successfully soak all the gravity bubbles in **Graven Image II**
 - Place and utilize all 16 arrow debuffs in **Tele-Trouncing**
   :::
@@ -281,7 +280,7 @@ The statue will then indicate and resolve either a **East/West** cleave before t
 
 As the last spread resolves the Statue will indicate another East/West cleave.
 
-Because the 2nd **Double-Trouble Trap** is coming up, all Support players will stack inside Kefka's hitbox to the North, and DPS South. The debuff player should stand behind their group to launch each light party into the bubbles to soak them. Each debuff player will have to manually join the stack closest to them.
+Because the 2nd **Double-Trouble Trap** ^[_rsv_5078_-1_1_0_0_S74CFC3B0_E74CFC3B0] is coming up, all Support players will stack inside Kefka's hitbox to the North, and DPS South. The debuff player should stand behind their group to launch each light party into the bubbles to soak them. Each debuff player will have to manually join the stack closest to them.
 
 ::: info NOTE
 The soak window for the bubbles is quite small. They cannot be soaked outside of the window just after the KB goes off. **This is signified by the bubbles flashing gold**.
@@ -291,7 +290,7 @@ Kefka will raise the platform once more, followed by another **Light of Judgemen
 
 #### Tele-Trouncing/Graven Image III
 
-Kefka will assign each player with 2 **Tele-portent** debuffs:
+Kefka will assign each player with 2 **Tele-portent** ^[Tele-portent] debuffs:
 
 - One short timer (**7s**)
 - One long timer (**10s**).
@@ -300,7 +299,7 @@ These debuffs will place a teleport pad on the floor that is **based on True Nor
 
 If 2 arrows are placed on eachother they will cancel out.
 
-One role will get **mixed arrows** (e.g. up/left arrow), whilst the other role gets 2 **identical arrows**.
+One role will get **mixed arrows** ^[Tele-portent:5079]^[Tele-portent:5082], whilst the other role gets 2 **identical arrows** ^[Tele-portent:5079]^[Tele-portent:5079].
 
 All identical arrow players should move to the cardinal that results in their arrows making a "counter-clockwise" pattern with the other arrows, as seen below.
 
@@ -312,7 +311,7 @@ Players can use the waymarks to line up their arrows correctly.
 To simplify this for mixed debuff players, North (Up) + West (left) arrows -> Place arrows **North-West**
 :::
 
-Once again we will resolve the **Double-Trouble Trap** by having the Support players take their knockback from the North, and the DPS South.
+Once again we will resolve the **Double-Trouble Trap** ^[_rsv_5078_-1_1_0_0_S74CFC3B0_E74CFC3B0] by having the Support players take their knockback from the North, and the DPS South.
 
 The Statue will then tether each role separately once more. **Left (yellow)** will inflict each player with a **confused**^[Confused] debuff and **right (purple)** will inflict each player with a small AOE and a **sleep** ^[Sleep] debuff.
 
@@ -737,10 +736,10 @@ The third **Grand Cross** cast assigns all players:
 - **White Wound** ^[White Wound] or **Black Wound** ^[Black Wound]
 - **Allagan Field** ^[Allagan Field] or **Beyond Death** ^[Beyond Death]
 
-| Debuff                             | Resolution                                                    |
-| :--------------------------------- | :------------------------------------------------------------ |
-| **Allagan Field** ^[Allagan Field] | Correctly resolve ^[White Wound] / ^[Black Wound]             |
-| **Beyond Death** ^[Beyond Death]   | Intentionally fail to resolve ^[White Wound] / ^[Black Wound] |
+| Debuff                             | Resolution                                                           |
+| :--------------------------------- | :------------------------------------------------------------------- |
+| **Allagan Field** ^[Allagan Field] | Stand in the opposite colour to your ^[White Wound] / ^[Black Wound] |
+| **Beyond Death** ^[Beyond Death]   | Stand in the same colour as your ^[White Wound] / ^[Black Wound]     |
 
 #### Chaos Debuffs
 
@@ -761,7 +760,7 @@ This will telegraph half room cleaves of either **blue** (^[Black Wound])/ **pur
 These halfroom cleaves overlap. Do **not** stand in the middle.
 :::
 
-Normally, players would have to get hit by the opposite colour cleave as their **White Wound** ^[White Wound] / **Black Wound** ^[Black Wound] debuff. However, players will also have to resolve their **Allagan Field** ^[Allagan Field] / **Beyond Death** ^[Beyond Death] debuff at the same time.
+Normally, players would have to get hit by the opposite colour cleave as their **White Wound** ^[White Wound] / **Black Wound** ^[Black Wound] debuff. However, players will also have to resolve their **Allagan Field** ^[Allagan Field] / **Beyond Death** ^[Beyond Death] debuff at the same time (See table above).
 
 ::: tip
 Interestingly, even though **Grand Cross 3** can be fake we can always treat our debuffs as **real**. If I have ^[White Wound]^[Beyond Death] I must get hit by **purple**. However with a reverse cast I have ^[Black Wound]^[Allagan Field] -> I must get hit by **purple**.
@@ -867,6 +866,50 @@ Simply find that safespot that avoids both resolved component simultaneously.
 The party will have to bring Kefka below **25% HP** before he casts his final **Ultima Upsurge** to sucessfully complete the phase.
 
 ### Phase 5: Ultima Kefka
+
+After a short transition, Kefka will cast **Ultima Repeater**, a raid-wide that hits 4 times.
+
+The party should stack in **role-based** groups:
+
+- **Tanks** -> **North**
+- **Healers** -> **South-West**
+- **DPS** -> **South-East**
+
+Kefka will then target each role group with a **Fell Forces** auto-attack 3 times.
+
+Kefka will then cast **Flood**:
+
+#### Chaotic Flood
+
+Kefka will telegraph 2 line cleaves diagonally across the arena. These will then rotate either **clockwise** or **counter-clockwise**.
+
+To resolve this, players simply find the 2 **cardinal waymarks** that are free from the **first** telegraphed cleave and rotate **the same direction** as the telegraphed cleaves.
+
+As the party rotates they will take **4 party stacks**.
+
+This is immediately followed by **Maddening Orchestra**:
+
+#### Maddening Orchestra
+
+The party will spread to clockspots adjacent to their **role-stacks**, with Supports occupying **N/W** and DPS **S/E**:
+
+- **Tanks** -> **North**
+- **Healers** -> **West**
+- **Ranged** -> **East**
+- **Melee** -> **South**
+
+On these cardinals, light-party 1 players will spread **clockwise** and light-party 2 players **counter-clockwise**.
+
+Kefka will then randomly strike **3 non-tank players** with a **holy AOE**, inflicting **Magic Vulnerability Up** ^[Magic Vulnerability Up]. Both **Tanks** will be hit with a **Flare** tank-buster and then be randomly assigned one each of:
+
+- **Surprise Flare** ^[_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0]
+    > A defamation style tankbuster.
+- **Surprise Holy** ^[_rsv_5351_-1_1_0_0_S74CFC3B0_E74CFC3B0]
+    > A single-target AOE tankbuster.
+
+After the initial first set, a second set of **holy AOEs** will be baited on the closest 3 players to Kefka. The **3 non-tank** players who **were not hit** simply stand in Kefka's hitbox on the **E/S/W** cardinals.
+
+At the same time, the **Tanks** will take a **shared tank-buster** at the **North**.
 
 ::: warning
 Guide is W.I.P; consult current raidplans and videos for the most up-to-date tactics.
