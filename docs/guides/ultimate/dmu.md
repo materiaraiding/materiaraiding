@@ -907,7 +907,9 @@ Kefka will then randomly strike **3 non-tank players** with a **holy AOE**, infl
 - **Surprise Holy** ^[_rsv_5351_-1_1_0_0_S74CFC3B0_E74CFC3B0]
     > A single-target AOE tankbuster.
 
-Surprise
+After the initial first set, a second set of **holy AOEs** will be baited on the closest 3 players to Kefka. The **3 non-tank** players who **were not hit** simply stand in Kefka's hitbox on the **E/S/W** cardinals.
+
+At the same time, the **Tanks** will take a **shared tank-buster** at the **North**.
 
 ::: warning
 Guide is W.I.P; consult current raidplans and videos for the most up-to-date tactics.
