@@ -174,7 +174,7 @@ Throughout Phase 1, **3** conditions must be met to successfully complete Phase 
 - Place and utilize all 16 arrow debuffs in **Tele-Trouncing**
   :::
 
-Solving these will be included in the guide. Kefka will change voicelines throughout the Phase as conditions are met. Notably, upon completion of Phase 1 Kefka's voice line will change to **"Intriguing. This clearly isn't your first time..."** if all 3 conditions are met.
+Solving these "puzzles" will be included in the guide. Kefka will change voicelines throughout the Phase as conditions are met. Notably, upon completion of Phase 1 Kefka's voice line will change to **"Intriguing. This clearly isn't your first time..."** if all 3 conditions are met.
 
 Failing to meet these conditions will cause Kefka to "die" at the end of Phase 2, resulting in a fake clear that forces the players to leave the instance.
 
@@ -182,7 +182,7 @@ In addition, a lot of the mechanics in this fight will cause **Damage Down** ^[D
 
 ### Phase 1: Kefka
 
-Kefka will begin the fight with **Revolting Ruin III**, a hard hitting conal tank buster that cleaves twice. The 2nd hit will target the player with the **2nd highest** emnity.
+Kefka will begin the fight with **Revolting Ruin III**, a hard-hitting conal tank buster that cleaves twice. The 2nd hit will target the player with the **2nd highest** enmity.
 
 #### Graven Image
 
@@ -260,7 +260,7 @@ Each role will either be tethered to the **right (yellow)** or the **left (purpl
 
 - Low-damage **stack** that leaves a bubble on the floor.
 
-Spread players **cannot** place their spreads close to the bubbles as it will cause them to explode and wipe the raid. Hitting another player will cause them to be knocked off the arena.
+Spread players **cannot** place their spreads close to the bubbles as it will cause them to explode and wipe the raid. Hitting another player with this spread will cause them to be knocked off the arena.
 
 Kefka will telegraph another fake/real ice quadrant cleave.
 
@@ -276,7 +276,7 @@ After the first spreads resolve, Kefka will cast another **Revolting Ruin III**:
 - Tank takes this North
 - Party stacks South
 
-The statue will then indicate and resolve either a **East/West** cleave before tethering everyone again. These tethers are solved by having the party stack **South** at max melee. The spreads are resolved the same as the first time.
+The statue will then indicate and resolve an **East/West** cleave before tethering everyone again. These tethers are solved by having the party stack **South** at max melee. The spreads are resolved the same as the first time.
 
 As the last spread resolves the Statue will indicate another East/West cleave.
 
@@ -297,7 +297,7 @@ Kefka will assign each player with 2 **Tele-portent** ^[Tele-portent] debuffs:
 
 These debuffs will place a teleport pad on the floor that is **based on True North**, meaning the arrow direction is always relative to the arena, not the player.
 
-If 2 arrows are placed on eachother they will cancel out.
+If 2 arrows are placed on each other they will cancel out.
 
 One role will get **mixed arrows** ^[Tele-portent:5079]^[Tele-portent:5082], whilst the other role gets 2 **identical arrows** ^[Tele-portent:5079]^[Tele-portent:5079].
 
@@ -313,13 +313,13 @@ To simplify this for mixed debuff players, North (Up) + West (left) arrows -> Pl
 
 Once again we will resolve the **Double-Trouble Trap** ^[_rsv_5078_-1_1_0_0_S74CFC3B0_E74CFC3B0] by having the Support players take their knockback from the North, and the DPS South.
 
-The Statue will then tether each role separately once more. **Left (yellow)** will inflict each player with a **confused**^[Confused] debuff and **right (purple)** will inflict each player with a small AOE and a **sleep** ^[Sleep] debuff.
+The Statue will then tether each role separately once more. **Left (yellow)** will inflict each player with a **confused** ^[Confused] debuff and **right (purple)** will inflict each player with a small AOE and a **sleep** ^[Sleep] debuff.
 
 To resolve this we use the **static positions** shown below. This allows us to ignore the tethers and preposition, resolving the mechanic correctly regardless of which role is picked for the **confused** ^[Confused] debuff.
 
 ![](\images\ultimate\dmu-arrows1.webp)
 
-After the arrows are resolved Kefka will cast one more **Mystery Magic**, telegraphing the same lightning AOEs as before and **spread/stack** markers on each role group. In addition, the Statue will also cast a real/fake **gaze**.
+After the arrows are resolved, Kefka will cast one more **Mystery Magic**, telegraphing the same lightning AOEs as before and **spread/stack** markers on each role group. In addition, the Statue will also cast a real/fake **gaze**.
 
 Support players will stack/spread North of Kefka, and the DPS players will stack/spread South of Kefka.
 
@@ -367,7 +367,7 @@ Within these groups players may have to adjust to one another as they have the s
 
 Because cones are baited on the West/East, we can assume that **cones are always baited by ranged players**.
 
-Each group will have to soak different sets of towers. Because the last 2 sets of towers do not give debuffs we have to split up **Group A's** soaks.
+Each group will have to soak different sets of towers. Because the last 2 sets of towers do not give debuffs, we have to split up **Group A's** soaks.
 
 - AAA BBBB A
 
@@ -377,7 +377,7 @@ During the forsaken raid-wide the group will position themselves like so to quic
 
 As the Dragoon I can immediately see that myself and my partner are **AOE** players, therefore we are Group B.
 
-Because each tower reassigns mechanics to players we will quickly see a situation where **both players** in a tower are assigned the same mechanic.
+Because each tower reassigns mechanics to players, we will quickly see a situation where **both players** in a tower are assigned the same mechanic.
 
 To solve this we use a **south-adjust** system, where the rear player of each tower will **swap tower** if they have the **same debuff** as the player in front of them.
 
@@ -389,7 +389,7 @@ For example, if I am an AOE player during the first **odd** tower and both mysel
 
 The first set of towers will be resolved by all **Group A** members: **both** stack players, one **cone** and one **AOE** player.
 
-For an example we will use what I stated prior: H1 & D4 have the stack.
+For an example we will use what I stated prior: H1 and D4 have the stack.
 
 Using our priority system, H1 will take the relative West soak, and D4 will take the relative East.
 
@@ -411,7 +411,7 @@ A**A**A BBBB A
 
 The second set will also be resolved by **Group A** as stated in the order above. Because this is an **even** tower it will be resolved with the **2 cones** and **2 AOEs** that were distributed to Group A from the first towers.
 
-Because the mechanics are distributed **randomly** the **south** player of each tower _must_ look at their tower partner to determine where they will position themselves.
+Because the mechanics are distributed **randomly**, the **south** player of each tower _must_ look at their tower partner to determine where they will position themselves.
 
 The AOE players will stand at the rear of their towers **away** from Kefka, whilst the cone players will stand at the front **inside Kefka's hitbox** to bait Kefka's clone.
 
@@ -421,19 +421,19 @@ The AOE players will stand at the rear of their towers **away** from Kefka, whil
 The cone players here must be precise with their positioning to ensure they aren't baiting a Kefka clone and are still able to bait the cone AOE.
 :::
 
-After the towers resolve the party will immediately stack either between the next set of towers (**Past's End**) or opposite of them (**Future's End**) on the corresponding waymark. Once Kefka begins to cast **All Things Ending** the party can move to resolve the **Third Towers** with the mechanics they received from the Second Towers.
+After the towers resolve, the party will immediately stack either between the next set of towers (**Past's End**) or opposite of them (**Future's End**) on the corresponding waymark. Once Kefka begins to cast **All Things Ending** the party can move to resolve the **Third Towers** with the mechanics they received from the Second Towers.
 
 ##### Fourth Towers and onwards
 
 AAA **B**BBB A
 
-After the Third Towers **Group B** will take over tower duty. They will have had to remember their mechanics that were assigned at the very beginning of the mechanic.
+After the Third Towers, **Group B** will take over tower duty. They will have had to remember their mechanics that were assigned at the very beginning of the mechanic.
 
 Likewise, **Group A** will have to remember the mechanics that the Third Towers assigned all the way until the Eighth Towers.
 
 After the final set of towers the party will stack on the **A Waymark** to bait one last **Past's/Future's End**.
 
-Kefka will then cast a **Light of Judgment** raidwide. This will deal lethal damage to any player who still has stacks of **Spells' Trouble**.
+Kefka will then cast a **Light of Judgement** raidwide. This will deal lethal damage to any player who still has stacks of **Spells' Trouble**.
 
 #### Trine
 
@@ -498,7 +498,7 @@ These crystals will activate when different debuffs expire/are cleansed.
 
 - The **Fire** crystal will activate **per** stack of **Entropy** ^[Entropy] that expires. This will launch a donut AOE at the closest players.
 
-- The **Water** crystal will activate **per** stack of **Dynamic Fluid** ^[Dynamic Fluid] that expires. This will launch a AOE at the closest players.
+- The **Water** crystal will activate **per** stack of **Dynamic Fluid** ^[Dynamic Fluid] that expires. This will launch an AOE at the closest players.
 
 ::: info NOTE
 The fire and water crystal AOEs also knock players away, resolving their wind debuffs. However, because we use the LB3 strat we can safely ignore this.
@@ -506,11 +506,11 @@ The fire and water crystal AOEs also knock players away, resolving their wind de
 
 - The **Wind** crystal will activate per **Tailwind ^[Tailwind:1603]/Headwind ^[Headwind]** debuff cleansed. This will launch a **pair stack** at each player with a debuff.
 
-Exdeath should be kept in the centre of the arena, as he will soon cast **Thunder III**: a massive AOE.
+Exdeath should be kept in the center of the arena, as he will soon cast **Thunder III**: a massive AOE.
 
 During this cast the **Epic Hero** ^[Epic Hero]/ **Fated Hero** ^[Fated Hero] debuffs will be removed.
 
-After the cast begins the **ExDeath Tank** should run to **relative North**.
+After the cast begins, the **ExDeath Tank** should run to **relative North**.
 
 ::: info PLAYER POSITIONING
 All ranged players will use the static positions found in the toolbox to resolve the crystal AOEs efficiently. These positions allow ranged players to safely ignore most positioning requirements.
@@ -522,7 +522,7 @@ Melee players should use spread positions when **Entropy** ^[Entropy] is resolvi
 Melee players should be very careful especially during **Entropy** ^[Entropy] expirations. If they are not quick to squeeze closer to Chaos they can easily be clipped by the **fire donut** and killed by the knockback.
 :::
 
-After the first debuff resolves Exdeath will cast another **Thunder III**, this time being a proximity baited two-hit tankbuster. This can either be swapped or invulned.
+After the first debuff resolves, Exdeath will cast another **Thunder III**, this time being a proximity baited two-hit tankbuster. This can either be swapped or invulned.
 
 Both bosses should then be stacked onto the **Wind** crystal at **relative North**.
 
@@ -539,12 +539,12 @@ Chaos will then cast **Umbra Smash**.
 
 **D3** will run to the relative South wall to bait this.
 
-At the same time **Kefka** will perform 8 dashes through the arena, either **clockwise** or **counter-clockwise**. Note which **waymark** he dashes to first, and which **direction** he is travelling.
+At the same time, **Kefka** will perform 8 dashes through the arena, either **clockwise** or **counter-clockwise**. Note which **waymark** he dashes to first, and which **direction** he is travelling.
 
 Exdeath will then cast **Vacuum Wave**, a KB centered on himself. All players stack in front of him. Do **NOT** anti-KB as this will result in the wind debuff not being cleansed.
 
 ::: warning
-All players should swap to targeting Exdeath here. Because Chaos jumps **just before** the Vacuum Wave cast finishes it can cause the player to quickly turn around, resulting in their **Tailwind ^[Tailwind:1603]** or **Headwind ^[Headwind]** being unresolved.
+All players should swap to targeting Exdeath here. Because Chaos jumps **just before** the Vacuum Wave cast finishes, it can cause the player to quickly turn around, resulting in their **Tailwind ^[Tailwind:1603]** or **Headwind ^[Headwind]** being unresolved.
 :::
 
 For this strat to work you **must** tank LB3 to avoid overkill to the wind crystal pair stacks. As each pair stack inflicts a **Wind Resistance Down II** ^[Wind Resistance Down II] debuff.
@@ -565,7 +565,7 @@ After this resolves Exdeath will cast another proximity baited **Thunder III** b
 
 We will resolve this by using the same groups as the first **Decisive Battle**.
 
-Exdeath will cast another **Thunder III** buster before **Kefka** casts **Max**, creating a large version of himself. At the same time Chaos will cast **Earthquake**.
+Exdeath will cast another **Thunder III** buster before **Kefka** casts **Max**, creating a large version of himself. At the same time, Chaos will cast **Earthquake**.
 
 #### Earthquake
 
@@ -573,13 +573,13 @@ Exdeath will cast another **Thunder III** buster before **Kefka** casts **Max**,
 The following mechanics are **incredibly** tough on healers. I recommend looking at mit sheets and watching videos to get an idea of how to heal the following.
 :::
 
-Earthquake places an **Earth** crystal in the center of the arena, as well as reducing all players health to 1 and inflicting:
+Earthquake places an **Earth** crystal in the center of the arena, as well as reducing all players' health to 1 and inflicting:
 
 **Primordial Crust** ^[Primordial Crust] to all players.
 
 > Cleansed by "dying" (taking lethal damage).
 
-**1/2/3** debuffs indicating the shortest debuff & cleanse orders. (^[First in Line]x3, ^[Second in Line]x3, ^[Third in Line]x2)
+**1/2/3** debuffs indicating the shortest debuff and cleanse orders. (^[First in Line]x3, ^[Second in Line]x3, ^[Third in Line]x2)
 
 **Accretion** ^[Accretion] to a random healer and a random DPS.
 
@@ -587,7 +587,7 @@ Earthquake places an **Earth** crystal in the center of the arena, as well as re
 
 Letting debuffs expire will instantly kill the affected player.
 
-All players should mark themselves using the macros previded through the raidplan, and at the top of the page.
+All players should mark themselves using the macros provided through the raidplan, and at the top of the page.
 
 The **Earth** crystal will pulse and inflict **Earth Resistance Down II** ^[Earth Resistance Down II] any time an **earth debuff** is cleansed. This means that healers **must** heal up each **Accretion** player **one by one**.
 
@@ -632,7 +632,7 @@ After another **Thunder III** tankbuster during the **2 tethers**, **Kefka** wil
 
 :::warning
 
-In practice its hard to bait this Damning Edict. Even if it is entirely covering the safe side of **Slap Happy** it is still possible to dodge both, the timing will just be tighter.
+In practice it's hard to bait this Damning Edict. Even if it is entirely covering the safe side of **Slap Happy** it is still possible to dodge both, the timing will just be tighter.
 
 :::
 
@@ -644,11 +644,11 @@ All **Attack** marker players will move out for this set. Using **where Kefka ju
 
 After each laser, the **Bind** player can take over their respective tether: **1 Bind** taking **1 Attack's** tether after the first shot, **2 Bind** taking **2 Attack's** tether after the second shot, etc.
 
-After these tethers are resolved players will have to bait another **Damning Edict** relative to Kefka. Kefka will then cast **Look Upon Me & Despair** a **hot tail** style line cleave through the cardinal/intercardinal Kefka is on. This is immediately followed by another **Thunder III** tankbuster.
+After these tethers are resolved, players will have to bait another **Damning Edict** relative to Kefka. Kefka will then cast **Look Upon Me & Despair** a **hot tail** style line cleave through the cardinal/intercardinal Kefka is on. This is immediately followed by another **Thunder III** tankbuster.
 
 After another set of **Blackhole Tethers** the tank should point **Chaos** toward an intercardinal **adjacent to Big Kefka** after he teleports. This is to bait another **Latitudinal/Longitudinal** Cleave so that there are safe spots for Kefka's upcoming **Slap Happy**
 
-At the same time Exdeath will cast **White Hole**. **All players** need to be topped up to 100% HP. If they aren't by the time the cast finishes they will be killed.
+At the same time, Exdeath will cast **White Hole**. **All players** need to be topped up to 100% HP. If they aren't by the time the cast finishes they will be killed.
 
 ::: info Note
 DPS players should use personals here to help alleviate some healer strain.
@@ -656,9 +656,9 @@ DPS players should use personals here to help alleviate some healer strain.
 
 The final set of **Blackhole Tethers** will be resolved similar to the first set: two tethers then one tether.
 
-At the same time Kefka will cast another **Look Upon Me & Despair**. Simply watch Kefka and move out of the way.
+At the same time, Kefka will cast another **Look Upon Me & Despair**. Simply watch Kefka and move out of the way.
 
-By this point all players should all have cleansed their **Primordial Crust** ^[Primordial Crust] debuff.
+By this point all players should have cleansed their **Primordial Crust** ^[Primordial Crust] debuff.
 
 #### Stomp-a-Mole
 
@@ -672,7 +672,7 @@ The **stack role** will stack center and the remaining players will stand **rela
 
 After the stack resolves the party will swap positions, using their light parties to determine which side they go to.
 
-**Chaos** will then cast **Big Bang**, making the area that the **stacks** were taken **unsafe**. **Exdeath** will also cast **Blizzard 3**, freezing any players who aren't moving.
+**Chaos** will then cast **Big Bang**, making the area that the **stacks** were taken **unsafe**. **Exdeath** will also cast **Blizzard III**, freezing any players who aren't moving.
 
 Finally, Exdeath and Chaos will begin to enrage.
 
@@ -688,7 +688,7 @@ Killing both Chaos and Exdeath will transition the party to:
 This phase requires a lot of memorisation. Using echo macros is highly recommended.
 :::
 
-As the phase begins, Kefka will cast **Kefka Says**, spawning Chaos (**North West**) and Neo-Exdeath (**North East**) at the edge of the arena.
+As the phase begins, Kefka will cast **Kefka Says**, spawning Chaos (**North-West**) and Neo-Exdeath (**North-East**) at the edge of the arena.
 
 Kefka will then cast **Mystery Magic** 3 times in succession. This works identically to **phase 1**: simply determine the safe spots and move into them.
 
@@ -784,7 +784,7 @@ Therefore we only really have to check our debuffs and **swap sides** if the act
 
 Using **True North** the **1st** of **stack/spreads** will resolve.
 
-There will be a **Support** & **DPS stack**, and a **Support** & **DPS spread**:
+There will be a **Support** and **DPS stack**, and a **Support** and **DPS spread**:
 
 - Support Stack -> **North**
 - DPS Stack -> **South**
@@ -803,7 +803,7 @@ Remember whether this cast is real or fake for **Mana Release.**
 
 :::
 
-At the same time the **1st** set of **Gazes** will resolve. Both gaze players will stand under Kefka:
+At the same time, the **1st** set of **Gazes** will resolve. Both gaze players will stand under Kefka:
 
 - **Real** Gaze -> Entire party looks **away** from Kefka
 - **Fake** Gaze -> Entire party looks **at** Kefka
@@ -813,7 +813,7 @@ All players should then stack middle to resolve the **Entropy** ^[Entropy] debuf
 - **Entropy** ^[Entropy] is **real** -> Party immediately moves out to avoid the twister.
 - **Entropy** ^[Entropy] is **fake** -> Stay middle until the donut goes off.
 
-Kefka will cast **Ultima Upsurge**, a heavy hitting raidwide.
+Kefka will cast **Ultima Upsurge**, a heavy-hitting raidwide.
 
 ::: warning
 If the party is resolving a **fake** **Entropy** ^[Entropy], there is a bright flash from **Ultima Upsurge** _before_ the donut resolves. Make sure to **wait** for the donut before moving out.
@@ -821,7 +821,7 @@ If the party is resolving a **fake** **Entropy** ^[Entropy], there is a bright f
 
 The party will then move to solve the **2nd** set of **stack/spreads** in the same manner as the first.
 
-At the same time Kefka will cast **Blizzard III Blowout**.
+At the same time, Kefka will cast **Blizzard III Blowout**.
 
 ::: info NOTE
 
@@ -863,7 +863,7 @@ Simply find that safespot that avoids both resolved component simultaneously.
 
 :::
 
-The party will have to bring Kefka below **25% HP** before he casts his final **Ultima Upsurge** to sucessfully complete the phase.
+The party will have to bring Kefka below **25% HP** before he casts his final **Ultima Upsurge** to successfully complete the phase.
 
 ### Phase 5: Ultima Kefka
 
@@ -903,14 +903,61 @@ On these cardinals, light-party 1 players will spread **clockwise** and light-pa
 Kefka will then randomly strike **3 non-tank players** with a **holy AOE**, inflicting **Magic Vulnerability Up** ^[Magic Vulnerability Up]. Both **Tanks** will be hit with a **Flare** tank-buster and then be randomly assigned one each of:
 
 - **Surprise Flare** ^[_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0]
-    > A defamation style tankbuster.
+    > A defamation style tankbuster that targets the player with the highest enmity.
 - **Surprise Holy** ^[_rsv_5351_-1_1_0_0_S74CFC3B0_E74CFC3B0]
-    > A single-target AOE tankbuster.
+    > A single-target AOE tankbuster that targets the player with the second highest enmity.
+
+::: tank
+As of the current mit sheet, the **Surprise Holy** ^[_rsv_5351_-1_1_0_0_S74CFC3B0_E74CFC3B0] tank will invuln their buster. This allows them to:
+
+- Stand in the **Surprise Flare** ^[_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0] tank's defamation
+- Take the following **Fell Forces** autos solo
+
+:::
 
 After the initial first set, a second set of **holy AOEs** will be baited on the closest 3 players to Kefka. The **3 non-tank** players who **were not hit** simply stand in Kefka's hitbox on the **E/S/W** cardinals.
 
 At the same time, the **Tanks** will take a **shared tank-buster** at the **North**.
 
-::: warning
-Guide is W.I.P; consult current raidplans and videos for the most up-to-date tactics.
+Immediately following the **2nd hit**, all **non-tank** players will move **South**, and the **Surprise Flare** ^[_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0] tank will move **North** to the edge of the arena.
+
+Following this, Kefka will do another 2 **Fell Forces** auto-attacks before casting **Celestriad**:
+
+#### Celestriad
+
+The following debuffs are each distributed to 2 players, leaving 2 players with **no debuff**:
+
+- **Lightning Resistance Down II** ^[Lightning Resistance Down II]
+- **Ice Resistance Down II** ^[Ice Resistance Down II]
+- **Fire Resistance Down II** ^[Fire Resistance Down II]
+
+Kefka will surround himself with **9** towers:
+
+- 3 **Lightning (yellow)** towers
+- 3 **Fire (red)** towers
+- 3 **Ice (blue)** towers
+
+With each set of **Celestriad**, **4** towers will light up. One element will have **2 towers**. Players soak the 1st **glowing** tower **clockwise** from their vuln:
+
+::: info EXAMPLE
+If I have **Fire Resistance Down II** ^[Fire Resistance Down II], then I will soak the first glowing tower in the **Ice towers**.
+
+(using slide 13 of the raidplan until I make an image)
 :::
+
+**Non-debuff players** will soak the **first tower counter-clockwise** from the **element with 2 glowing towers**.
+
+During these soaks, Kefka will imbue his staff with either of the following:
+
+- **Earth**
+
+    > Large AOE -> Players must be at max melee/on the far edge of their towers
+
+- **Wind**
+    > Large donut AOE -> Players must be on the inside edge of their towers
+
+This will continue for a total of **3 sets** before Kefka will cast another **Ultima Repeater**, followed by 3 more **Fell Forces** auto-attacks.
+
+> ::: warning
+> Guide is W.I.P; consult current raidplans and videos for the most up-to-date tactics.
+> :::
