@@ -121,6 +121,7 @@ Second in line ^[Second in Line]
 ## Cheatsheet
 
 ![](\images\ultimate\dmu-cheatsheet.webp)
+[imgur Cheatsheet Collection](https://imgur.com/a/ffxiv-dancing-mad-ultimate-cheatsheet-oce-v1-AfjaSvr)
 
 ## Buff Timings
 
@@ -194,7 +195,7 @@ Kefka will then cast **Mystery Magic**, telegraphing:
 - Stack or Spread markers
 - **Red** and **Blue** rings on Kefka
 
-The **red ring** corresponds to the players overhead markers.
+The **red ring** corresponds to the players' overhead markers.
 The **blue ring** corresponds to the floor cleaves.
 
 On these rings are 2 orbs. If these orbs have a **?** symbol inside them the players must resolve the **opposite** of what is indicated:
@@ -883,7 +884,9 @@ Kefka will then cast **Flood**:
 
 Kefka will telegraph 2 line cleaves diagonally across the arena. These will then rotate either **clockwise** or **counter-clockwise**.
 
-To resolve this, players simply find the 2 **cardinal waymarks** that are free from the **first** telegraphed cleave and rotate **the same direction** as the telegraphed cleaves.
+To resolve this, players simply find the 2 **cardinal waymarks** that are free from the **first** telegraphed cleave. As the telegraphs rotate, **1 of those 2** waymarks will remain free for the **second** cleave. This will be the party's **start position**.
+
+Once the first cleave hits, the party steps into the **line AOE** adjacent to them, then continues stepping into each new **adjacent AOE** as the cleaves rotate.
 
 As the party rotates they will take **4 party stacks**.
 
@@ -919,7 +922,7 @@ After the initial first set, a second set of **holy AOEs** will be baited on the
 
 At the same time, the **Tanks** will take a **shared tank-buster** at the **North**.
 
-Immediately following the **2nd hit**, all **non-tank** players will move **South**, and the **Surprise Flare** ^[_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0] tank will move **North** to the edge of the arena.
+Immediately following the **2nd hit**, all **non-tank** players will move **South**, and the **Surprise Flare** ^[_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0] tank will move **North** to the edge of the arena to resolve their defamation.
 
 Following this, Kefka will do another 2 **Fell Forces** auto-attacks before casting **Celestriad**:
 
@@ -945,9 +948,11 @@ If I have **Fire Resistance Down II** ^[Fire Resistance Down II], then I will so
 (using slide 13 of the raidplan until I make an image)
 :::
 
-**Non-debuff players** will soak the **first tower counter-clockwise** from the **element with 2 glowing towers**.
+**Non-debuff players** will soak the **2nd clockwise tower** of the **element with 2 glowing towers**.
 
-During these soaks, Kefka will imbue his staff with either of the following:
+This will continue for a total of **3 sets**.
+
+During the **1st** and **3rd** soaks, Kefka will imbue his staff with either of the following:
 
 - **Earth**
 
@@ -956,8 +961,51 @@ During these soaks, Kefka will imbue his staff with either of the following:
 - **Wind**
     > Large donut AOE -> Players must be on the inside edge of their towers
 
-This will continue for a total of **3 sets** before Kefka will cast another **Ultima Repeater**, followed by 3 more **Fell Forces** auto-attacks.
+After the final soak, Kefka will cast another **Ultima Repeater**, followed by 3 more **Fell Forces** auto-attacks.
 
-> ::: warning
-> Guide is W.I.P; consult current raidplans and videos for the most up-to-date tactics.
-> :::
+Kefka will then cast **Stray Apocalypse**:
+
+#### Stray Apocalypse (Exas)
+
+Kefka telegraphs 2 Exaflares on the North-East / North-West intercardinal, alternating between the two.
+
+This can be dodged by standing between the first set of Exaflares, then strafe to the gap in the next set as it appears.
+
+After **6 sets**, Kefka casts **Stray Entropy**, hitting every player with an AOE. Simply spread around the arena to avoid this.
+
+Kefka follows this with another **Maddening Orchestra** and 3 **Fell Forces** auto-attack.
+
+The entire party will then stack **South-East** as Kefka casts **Forsaken**:
+
+#### Forsaken
+
+:::warning IMPORTANT
+Players must be careful with any **movement** or **movement related abilities** during this mechanic. If you are hit by an **orange AOE telegraph** or step into a **blackhole** your character is **removed from the raid**. You **CANNOT** be resurrected from this.
+:::
+
+Kefka will spawn **blackholes** throughout the mechanic. They will spawn in the following order:
+
+- Mid + Intercardinal
+- 2 x Intercardinal
+- Intercardinal + Cardinal
+- 2 x Intercardinal
+
+Large orange **AOEs** will also bait on the closest **intercardinal/cardinal** to a **random player**.
+
+At the same time, Kefka will place a stack marker on the party. The party will always try to move **clockwise** unless they are unable to do so. Players must also **wait for the orange AOE to appear** before moving. Moving too early can result in baiting the AOE incorrectly and wiping the raid.
+
+There are only **2** possible patterns during this mechanic. Using the waymarks:
+
+Pattern 1:
+
+- **3** -> **C** -> **4** -> **D** -> **1**
+
+Pattern 2:
+
+- **3** -> **C** -> **4** -> **C** -> **D**
+
+Kefka will then finally cast his enrage: **Forsaken Null**
+
+::: warning
+Guide is W.I.P; consult current raidplans and videos for the most up-to-date tactics.
+:::
