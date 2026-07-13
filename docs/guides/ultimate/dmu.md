@@ -663,13 +663,13 @@ By this point all players should have cleansed their **Primordial Crust** ^[Prim
 
 #### Stomp-a-Mole
 
-Following Kefka's body slam he will stand up. We will use the direction his feet are pointing as **relative North**. Supports will stand **relative North** and DPS **relative South** to bait blizzard puddles.
+Following Kefka's body slam he will stand up. We will use the direction he fell **from** as **relative North**. Supports will stand **relative North** (Kefka's **Heels**) and DPS **relative South** (Kefka's **Toes**) to bait blizzard puddles.
 
 Chaos will then cast **Knock Down**, targeting a random player with a stack.
 
 Immediately after the puddles drop each stack will split into **light party pairs** with **LP1 going relative West** and **LP2 going relative East**
 
-The **stack role** will stack center and the remaining players will stand **relative West** and **East** to resolve **2-person enumeration towers**.
+After another set of puddles, the **stack role** will stack center and the remaining players will stand **relative West** and **East** to resolve **2-person enumeration towers**.
 
 After the stack resolves the party will swap positions, using their light parties to determine which side they go to.
 
@@ -708,20 +708,29 @@ Exdeath will cast Grand Cross three times, the first two assigning the following
 
 ##### Debuff Assignment
 
-The above will be assigned in 2 sets across both **Grand Cross** casts.
-**Compressed Water** and **Forked Lightning** can be either **short** or **long** during the first **Grand Cross** cast. The second **Grand Cross** will be the opposite.
+The above will be assigned in 2 sets across both **Grand Cross** casts:
 
-These sets will always be applied as such:
+**Compressed Water** ^[Compressed Water] and **Forked Lightning** ^[Forked Lightning] can be either **short** (**35s**/**50s**) or **long** (**1m+**) during the first **Grand Cross** cast. The second **Grand Cross** will be the opposite.
 
-- 1 Support 1 DPS with **short stack**
-- 1 Support 1 DPS with **long stack**
-- 1 Support 1 DPS with **short gaze**
-- 1 Support 1 DPS with **long gaze**
-- 2 Support 2 DPS with **short stillness**
-- 2 Support 2 DPS with **long stillness**
-    > All of these may be real or fake
+**Acceleration Bomb** ^[Acceleration Bomb] will apply **2 short** / **2 long** debuffs with each cast. Because these are split across both casts, players will need to remember the real/fake status of their **Acceleration Bomb** ^[Acceleration Bomb] when it was applied.
 
-**Cursed Shriek** will resolve **sequentially** (Whichever was applied first will go off first). **Acceleration Bomb** will apply 2 short/2 long debuffs with each cast. Because these are split across both casts, players will need to remember the real/fake status of their **Acceleration Bomb** when it was applied.
+**Cursed Shriek** ^[Cursed Shriek] will resolve **sequentially** (Whichever was applied first will go off first).
+
+The **first Grand Cross** will apply:
+
+- 1 Support 1 DPS with **short gaze** ^[Cursed Shriek]
+- 1 Support 1 DPS with **stack** ^[Compressed Water] (short/long)
+- 1 Support 1 DPS with **spread** ^[Forked Lightning] (short/long)
+- 2 Support 2 DPS with **short stillness** ^[Acceleration Bomb] (mixed short/long)
+
+The **second Grand Cross** will apply:
+
+- 1 Support 1 DPS with **long gaze** ^[Cursed Shriek]
+- 1 Support 1 DPS with **stack** ^[Compressed Water] (opposite of first cast)
+- 1 Support 1 DPS with **spread** ^[Forked Lightning] (opposite of first cast)
+- 2 Support 2 DPS with **long stillness** ^[Acceleration Bomb] (mixed short/long)
+
+> All of these may be real or fake
 
 This can lead to the following sequence:
 
@@ -992,20 +1001,32 @@ Kefka will spawn **blackholes** throughout the mechanic. They will spawn in the 
 
 Large orange **AOEs** will also bait on the closest **intercardinal/cardinal** to a **random player**.
 
-At the same time, Kefka will place a stack marker on the party. The party will always try to move **clockwise** unless they are unable to do so. Players must also **wait for the orange AOE to appear** before moving. Moving too early can result in baiting the AOE incorrectly and wiping the raid.
+At the same time, Kefka will place a stack marker on the party. Players must **wait for the orange AOE to appear** before moving. Moving too early can result in baiting the AOE incorrectly and wiping the raid.
 
 There are only **2** possible patterns during this mechanic. Using the waymarks:
 
 Pattern 1:
 
-- **3** -> **C** -> **4** -> **D** -> **1**
+- **3** -> **C** -> **4** -> **D** -> **4**
 
 Pattern 2:
 
-- **3** -> **C** -> **4** -> **C** -> **D**
+- **3** -> **C** -> **4** -> **C** -> **4**
+
+The total movements can be summarised as such:
+
+- Start **South East**. Rotate **LEFT** (2x)
+- On **3rd set**, rotate **LEFT** unless blocked then rotate **RIGHT**.
+- The last movement will always involve the party moving back to **South-West**.
+
+::: warning
+Players should aim to stay **just past** the waymark that they arrive at after dodging the AOE.
+
+This is to ensure that the next AOE cannot be placed in unpredictable positions, and allow the party to do the final **South-West** movement.
+:::
 
 Kefka will then finally cast his enrage: **Forsaken Null**
 
-::: warning
-Guide is W.I.P; consult current raidplans and videos for the most up-to-date tactics.
+::: info NOTE
+Guide is being finalised; consult current raidplans and videos for the most up-to-date strats.
 :::
