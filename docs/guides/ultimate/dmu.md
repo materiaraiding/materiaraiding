@@ -912,7 +912,7 @@ The party will spread to clockspots adjacent to their **role-stacks**, with Supp
 
 On these cardinals, light-party 1 players will spread **clockwise** and light-party 2 players **counter-clockwise**.
 
-Kefka will then randomly strike **3 non-tank players** with a **holy AOE**, inflicting **Magic Vulnerability Up** ^[Magic Vulnerability Up]. Both **Tanks** will be hit with a **Flare** tank-buster and then be randomly assigned one each of:
+Kefka will then randomly strike **3 non-tank players** with a **holy AOE**, inflicting **Magic Vulnerability Up** ^[Magic Vulnerability Up]. Both **Tanks** will be hit with a **Flare** tank-buster and then be assigned one each of:
 
 - **Surprise Flare** ^[_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0]
     > A defamation style tankbuster that targets the player with the highest enmity.
@@ -923,7 +923,7 @@ Kefka will then randomly strike **3 non-tank players** with a **holy AOE**, infl
 As of the current mit sheet, the **Surprise Holy** ^[_rsv_5351_-1_1_0_0_S74CFC3B0_E74CFC3B0] tank will invuln their buster. This allows them to:
 
 - Stand in the **Surprise Flare** ^[_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0] tank's defamation
-- Take the following **Fell Forces** autos solo
+- Take the following **two Fell Forces** autos solo
 
 :::
 
