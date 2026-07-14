@@ -229,7 +229,7 @@ During the lineup, Kefka casts **Double-Trouble Trap**.
 
 This will target one player from each role:
 
-- **Debuffed** player will stand at max melee.
+- **Debuffed** player will stand at max-melee.
 - Players of the same role stand on the boss hitbox.
 
 Upon expiring, the debuff will transfer to another random non-debuff player that was hit, propagating 3 times total:
@@ -265,7 +265,7 @@ Spread players **cannot** place their spreads close to the bubbles as it will ca
 
 Kefka will telegraph another fake/real ice quadrant cleave.
 
-The whole party will stack **North** of Kefka at max melee.
+The whole party will stack **North** of Kefka at max-melee.
 Once the cast finishes:
 
 - All players will step out in the direction of their light parties:
@@ -277,7 +277,7 @@ After the first spreads resolve, Kefka will cast another **Revolting Ruin III**:
 - Tank takes this North
 - Party stacks South
 
-The statue will then indicate and resolve an **East/West** cleave before tethering everyone again. These tethers are solved by having the party stack **South** at max melee. The spreads are resolved the same as the first time.
+The statue will then indicate and resolve an **East/West** cleave before tethering everyone again. These tethers are solved by having the party stack **South** at max-melee. The spreads are resolved the same as the first time.
 
 As the last spread resolves the Statue will indicate another East/West cleave.
 
@@ -965,7 +965,7 @@ During the **1st** and **3rd** soaks, Kefka will imbue his staff with either of 
 
 - **Earth**
 
-    > Large AOE -> Players must be at max melee/on the far edge of their towers
+    > Large AOE -> Players must be at max-melee/on the far edge of their towers
 
 - **Wind**
     > Large donut AOE -> Players must be on the inside edge of their towers
