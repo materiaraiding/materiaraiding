@@ -186,49 +186,54 @@ Phase 2 onwards
 
 Guide written by Juno (P1-5) and Noz (P6-7)
 
-As a starter, a lot of the mechanics in this fight will cause **Damage Down** if solved incorrectly. This debuff reduces your damage by about 50% and it is common practice to wall **IF IT IS SAFE TO DO SO**, as the damage loss from resurrection weakness is less than damage down.
+As a starter, a lot of the mechanics in this fight will cause **Damage Down** ^[Damage Down] if solved incorrectly. This debuff reduces your damage by about 50% and it is common practice to wall **IF IT IS SAFE TO DO SO**, as the damage loss from resurrection weakness is less than damage down.
 
 ### Phase 1: Knights
 
-This phase begins with two targetable bosses: Adelphel and Grinnaux.
-Once pulled, tanks will stack the bosses and the party will stay south.
+This phase begins with two targetable bosses: Adelphel and Grinnaux. Once pulled, tanks will stack the bosses and the party will stay south.
 
 ::: damage
 As Adelphel goes untargetable soon after the phase starts, players should spend their buffs and openers on him. Throughout the phase both bossess should be kept as similar health as possible.
 :::
 
-After a **Holiest of Holy** raid wide Grinnaux will cast **Empty Dimension**, forming a donut AoE centered on him. At the same time Adelphel will cast **Holy Shield Bash**, a tethered AoE tankbuster that is targeted on a random player. The MT must walk through this tether and bring it north of the bosses to take the tankbuster **with invulnerability**. At the same time the party will take a **Heavensblaze** stack at the south.
+After a **Holiest of Holy** raid wide, Grinnaux will cast **Empty Dimension**, forming a donut AoE centered on him. At the same time Adelphel will cast **Holy Shield Bash**, a tethered AoE tankbuster that is targeted on a random player. The MT must walk through this tether and bring it north of the bosses to take the tankbuster **with invulnerability**. At the same time, the party will take a **Heavensblaze** stack at the south.
 
-After this stack and tankbuster combo, Adelphel will become untargetable and Grinnaux will cast:
+After this stack and tankbuster combo, Adelphel will become untargetable and Grinnaux will cast: **Hyperdimensional Slash**
 
 #### Hyperdimensional Slash
 
-Grinnaux will then target 4 random players with a line AoE. This AoE will drop a purple portal on the edge of the arena wherever it was aimed, and if two portals are too close to one another they will tether to eachother and wipe the raid. Similarly, if a player stands too close to a portal they will become tethered and die.
+Grinnaux will target 4 random players with a line AOE. This AOE will drop a purple portal on the edge of the arena wherever it was aimed, and if two portals are too close to one another they will tether to eachother and wipe the raid. Similarly, if a player stands too close to a portal they will become tethered and die.
 
-These 4 players must spread to the north of Grinnaux at max melee, where they will take a line AoE. The positions each player will take are designated by waymarks.
+These 4 players must spread to the north of Grinnaux at max-melee, where they will take a line AOE. The positions each player will take are designated by waymarks.
 
-At the same time as the prey markers move north, the remaining party members will stack south of Grinnaux and take a large conal AoE stack that gets baited on a random non-prey player.
+At the same time as the prey markers move North, the remaining party members will stack south of Grinnaux and take a **large conal AOE stack** that gets baited on a random non-prey player.
 
 ![](/images/ultimate/dsr-hyperslash.webp)
 
 _Image taken from Tessan Twintails DSR video guide_
 
-This process repeats twice, where the 2nd set of prey markers will instead spread south and the initial prey players will stack north.
+This process repeats twice, where the 2nd set of prey markers will instead **spread south** and the initial prey players will **stack north**.
 
 Adelphel will then drop down onto a random cardinal and cast another **Holiest of Holy** and Grinnaux will cast **Faith Unmoving** which will knock players away from Grinnaux (who is still in the center of the arena). Players will use anti-knockback and position themselves so Grinnaux is between them and Adelphel, as Adelphel will then begin to dash across the arena in an hourglass shape.
 
-Adelphel will start this dodge by either moving left or right, and the party will move the same direction and stand on the tip of an arrow shaped pattern in the arena . **(I'll try get a video for this - Juno)**
+Adelphel will start this dodge by either moving left or right, and the party will move the same direction and stand on the tip of an arrow shaped pattern in the arena.
 
 After completing his dashes, Adelphel will drop onto the player who had the highest emnity on him before he dissappeared, delivering a heavy hitting AoE tank buster that the OT will invuln. To avoid hitting the party with this, the OT will follow the party to the safe spot and then **continue moving past the party**.
 
-Adelphel will then immediately begin casting 1 of 3 instances of **Holiest Hallowing**, an interruptible heal targeted on Grinnaux. The OT will interrupt this and both tanks will position their bosses in the center of the arena for:
+Adelphel will then immediately begin casting 1 of 3 instances of **Holiest Hallowing**, an interruptible heal targeted on Grinnaux. The **Off Tank** will interrupt this and both tanks will position their bosses in the center of the arena for:
 
 #### Playstation Chains
 
-Each player will be marked with either a cross, square, circle, or triangle, so that there is two of each symbol.
+Each player will be marked with either a **cross**, **square**, **circle**, or **triangle**, so that there is two of each symbol.
 
 ::: info NOTE
-**Healers** can only ever get Cross or Triangle, **Tanks** can only get Cross or Square, and **DPS** can only get Square, Circle or Triangle
+
+Symbol assignment is restricted by role:
+
+- **Healers** → Cross or Triangle only
+- **Tanks** → Cross or Square only
+- **DPS** → Square, Circle, or Triangle only
+
 :::
 
 The party will form around Grinnaux in the pattern seen below, and be knocked back by another **Faith Unmoving** to break their tethers. If unbroken, the resulting AoE will kill any players who have not resolved their tethers.
@@ -236,12 +241,17 @@ The party will form around Grinnaux in the pattern seen below, and be knocked ba
 ![](/images/ultimate/dsr-playstation.webp)
 
 ::: warning
-A warning to warrior players; Inner release is perfectly timed in this phase to be up as this mechanic is resolving. This means that you'll be immune to knockback and therefore unable to resolve your tether. You can either prepull inner release earlier in the fight, or simply click the **Inner Strength** buff off during this mechanic.
+Warrior players: Inner Release is perfectly timed in this phase to be up as this mechanic resolves. This means you'll be immune to knockback and unable to resolve your tether. Either prepull Inner Release earlier in the fight, or click off the **Inner Strength** buff during this mechanic.
 :::
 
-Immediately after this is resolved, the 2nd **Holiest Hallowing** cast will begin, and the ranged player (or main tank) will interrupt the cast. Both bosses should be stacked middle again for another **Holiest Holy** and either an **Empty** or **Full Dimension**. If it is **Empty** Grinnaux will do a donut AoE around him like before. If it is **Full**, move away from Grinnaux as he will cast a large circular AoE centered on him.
+Immediately after this is resolved, the 2nd **Holiest Hallowing** cast begins, and the **Ranged** player (or **Main Tank**) will interrupt it. Both bosses should be stacked middle again for another **Holiest of Holy** and either an **Empty** or **Full Dimension**:
 
-The final **Holiest Hallowing** will be interrupted by the OT again. At this point, if one of them dies before the other, they will begin to cast their enrage: either **Bull's Steel** or **Brightblade's Steel**. As such both bosses must be killed at roughly the same time.
+| Cast                | Resolution                                              |
+| :------------------ | :------------------------------------------------------ |
+| **Empty Dimension** | Donut AOE around Grinnaux — move **in**                 |
+| **Full Dimension**  | Large circular AOE centered on Grinnaux — move **away** |
+
+The final **Holiest Hallowing** will be interrupted by the **Off Tank** again. At this point, if one of them dies before the other, they will begin to cast their enrage: either **Bull's Steel** or **Brightblade's Steel**. As such both bosses must be killed at roughly the same time.
 
 After dropping their health to 0%, they will immediately become untargetable. Grinnaux will then **holmgang** the entire party to the western side of the arena, chaining them in a small circle. Attempting to leave this circle will kill the player immediately.
 
@@ -251,9 +261,11 @@ A new boss **Charibert** will then appear at the southern side of the circle and
 
 **Haurchefant** will run to the side of the circle and block an arrow. This arrow pulses intermittently, dealing damage to the party.
 
-Charibert will then cleave the two players closest to him, applying a 5s debuff **Skyblind**. Once this debuff wears off, an invisible AoE will drop under the players feet that will explode after a few seconds. To resolve this, we have players bait in the order **H → M → R → T**, where the ranged players will drop their AoEs on the east and the melee players will drop them on the west.
+Charibert will then cleave the two players closest to him, applying a 5s debuff **Skyblind** ^[Skyblind]. Once this debuff wears off, an invisible AOE will drop under the player's feet and explode after a few seconds. To resolve this, players bait in role order, with ranged dropping their AOEs east and melee dropping theirs west:
 
-Once Charibert is reduced to approximately ~25-30% health, the DPS check is reached and as long as one player survives the transition the party will receive a checkpoint.
+**H → M → R → T**
+
+Once Charibert is reduced to approximately 25-30% health, the DPS check is reached, and as long as one player survives the transition the party will receive a checkpoint.
 
 ### Phase 2: Thordan
 
@@ -267,10 +279,10 @@ The tell to move for this attack can either be the end of the castbar, or when T
 Thordan will then slash 3 times at the Main Tank with a tank buster **Ascalon's Might**.
 
 ::: tank
-Due to the mit plan that MUR PF uses, if the MT is a **WAR** they can use their invincibility here for free.
+Due to the mit plan that MUR PF uses, if the **Main Tank** is a **Warrior** they can use their invincibility here for free.
 :::
 
-After moving to the center, Thordan will cast the first trio of the fight:
+After moving to the center, Thordan will cast the first trio of the fight: **Strength of the Ward**.
 
 #### Strength of the Ward
 
@@ -278,81 +290,133 @@ Thordan will become untargetable and jump from the arena, and both Light parties
 
 3 Knights will then cleave 3 random cardinals/intercardinals, leaving only 1 safespot either side of the arena.
 
-The way that the waymarkers are set up means that **Light Party 1** will always be on a **number** waymark, and **Light Party 2** will always be on a **letter** waymark. Two waymarks on opposite sides of the arena will also be the same colour, allowing us to simply call out a single colour to determine both safe spots.
+::: info NOTE
+**Light Party 1** will always be on a **number** waymark, and **Light Party 2** will always be on a **letter** waymark. Two waymarks on opposite sides of the arena will also share a colour, so it's enough to call out a single colour to determine both safe spots.
+:::
 
 ![](/images/ultimate/dsr-strength.webp)
 
 > In the image above we can see the purple, yellow, and blue waymarks have knights on them. Thus we can simply call out "Red" and both parties will know where they have to go.
 
-Within both of those safespots, each light party will have to spread to avoid overlapping lightning AoEs that are about to drop on each player. These lightning AoEs will go off at the same time as the dashes go off.
+Within both safe spots, each light party will have to spread to avoid overlapping lightning AOEs about to drop on each player. These lightning AOEs go off at the same time as the dashes.
 
-While the parties are getting into position **Grinnaux** and **Thordan** appear again, with Grinnaux being placed somewhere near the center of the arena and Thordan in the direct center. After everything resolves Grinnaux will begin to cast a quake that will expand out towards each light party. Avoiding this is simple, just waiting until it is safe to walk forward and doing so.
+While the parties are getting into position, **Grinnaux** and **Thordan** appear again, with Grinnaux placed somewhere near the center of the arena and Thordan in the direct center. Grinnaux will then cast a quake that expands out towards each light party - simply wait until it is safe to walk forward.
 
 While the party is dodging this, Thordan will cast another **Ascalon's Mercy**. Each light party must quickly make their way toward Thordan and stack up tightly on either side of him to bait the proteans.
 
-Thordan will then jump again and land on a random cardinal or intercardinal, as well as 2 other knights dropping onto the arena. For this section of the Trio we will treat **Thordan as our new north**.
+Thordan will then jump again and land on a random cardinal or intercardinal, along with 2 other knights dropping onto the arena. For this section of the trio, **Thordan becomes our new north**.
 
-::: info NOTE
-Thordan can be tricky to find here if you're spinning your camera around. What you should do instead is look at the 2 knights, who will always be further away from and facing Thordan.
+::: tip
+Thordan can be tricky to find here if you're spinning your camera. Instead, look at the **2 knights**, who will always be further away from and facing Thordan.
 :::
 
-3 players will then get marked with a large blue defamation marker (named Skyward Leap), and large red puddles will begin to grow on the ground. Each of the 2 knights will also tether two random non-tank players (who do not have Skyward Leap) with **Holy Shieldbash/Bladedance**.
+3 players will then get marked with a **large blue defamation marker**, and large red puddles will begin to grow on the ground. Each of the 2 knights will also tether the player directly in front of them with **Holy Shieldbash/Bladedance**.
 
-Everyone who was not marked with Skyward Leap should quickly find Thordan and make their way to him. The Tanks will take their respective tether (MT left knight facing Thordan, ST right knight facing Thordan) and criss-cross them into the safe spot under Thordan to stretch them further for reduced damage.
+Everyone who does **not** have a marker should quickly find Thordan and make their way to him. The Tanks will take their respective tether:
+
+- **Main Tank** left knight facing Thordan
+
+- **Off Tank** right knight facing Thordan
+
+And then criss-cross them into the safe spot under Thordan to stretch them further for reduced damage:
 
 ![305584973-9ff95bb1-a663-4834-991b-bef741b5e0cf.webp](/images/ultimate/dsr-strength2.webp)
 
 ::: warning
-The relative West and East Skyward Leap players should stand on the **edge of the waymark** as seen in the image. If you stand in the middle of your waymark you are likely to kill one of the Tanks next to Thordan.
+The relative **West** and **East** **Defamation** players should stand on the **edge of the waymark** as seen in the image. If you stand in the middle of your waymark you are likely to kill one of the Tanks next to Thordan.
 :::
 
-Just before everything goes off, 6 towers will appear in the middle of the Arena that must be soaked by every player other than the tanks.
-
-The 3 non Skyward Leap players should line up against the wall below Thordan to indicate which tower they are taking before standing together for a stack that will be shared with both tanks.
+Just before everything goes off, 6 towers appear in the middle of the arena that must be soaked by every player other than the tanks. The 3 **non-marker** players should line up against the wall below Thordan to indicate which tower they're taking, before standing together for a stack shared with both tanks.
 
 ::: tank
-Each Tank can stand in front of their respective knight to ensure they are the one to grab the tether, before using sprint to comfortably make it to the safe spot.
+Each tank can stand in front of their respective knight to ensure they're the one to grab the tether, before using sprint to comfortably make it to the safe spot.
 :::
 
-Each player will then walk forward into their respective tower and soak the damage. If one tower is missed a high amount of damage will hit the party, likely wiping the group.
+Each player will then walk forward into their respective tower and soak the damage. Missing one tower deals a high amount of damage to the party, likely wiping the group.
 
-Thordan will then drop into the center of the arena and cast **Ancient Quaga** and heavy hitting raidwide, followed by **Heavenly Heel** into **Ascalon's Mercy**. **Heel** inflicts a **slashing resistance down** debuff, requiring a tank swap.
+Thordan will then drop into the center of the arena and cast **Ancient Quaga**, a heavy-hitting raidwide, followed by **Heavenly Heel** into **Ascalon's Mercy**. **Heel** inflicts a **Slashing Resistance Down** ^[Slashing Resistance Down] debuff, requiring a tank swap.
 
-He will then begin to the cast the next trio of the fight:
+He will then begin to cast the next trio of the fight: **Sanctity of the Ward**.
 
 #### Sanctity of the Ward
 
-Thordan will then leave the arena and 2 knights will drop down near the center, on opposite sides to each other. These knights can either be facing clockwise or counter-clockwise, which will determine the way they are about to dash across the arena. A third knight will also spawn on one of the waymarks near the outside of the arena.
+Thordan will leave the arena and **2 knights** will drop down near the center, on opposite sides of each other. These knights can face either **clockwise** or **counter-clockwise**, determining the direction they're about to dash across the arena. A third knight will also spawn on one of the waymarks near the outside of the arena.
 
-The knight at the edge of the arena will then target 2 people for distance-based stacks, indicated by either a single sword or 2 swords above the players head. The player with 2 swords should move _behind_ the third knight, and the single sword player should move to the opposite side of the arena on the same axis as the knight (i.e. if the knight spawns on a blue waymark, the single sword moves to the opposite blue waymark).
+The knight at the edge of the arena will then target **2 people** for distance-based stacks, indicated by either a **single sword** or **2 swords** above the player's head:
 
-Each stack will move 4 notches in the same direction as the knights (CW/CCW). This will leave the party in the 1st of 2 safespots as part of the dashes. After the cleaves go off around them the party will move to 4 notches _before_ the next waymark for the next safe spot.
+- **2 swords** → move _behind_ the third knight.
+- **1 sword** → move to the opposite side of the arena on the same axis as the knight.
+    > (e.g. if the knight spawns on a blue waymark, move to the opposite blue waymark)
+
+Each stack will move 4 notches in the same direction as the knights (**clockwise**/**counter-clockwise**). This will leave the party in the 1st of 2 safespots as part of the dashes. After the cleaves go off around them the party will move to 4 notches _before_ the next waymark for the next safe spot.
 
 Just before these stacks and cleaves go off, Thordan and a large red eye that appeared around the arena will perform a gaze attack that must be avoided.
 
-(Diagram for safespots :3)
+_(Diagram to be added.)_
 
-After the last AoEs resolve, various knights will appear around the arena alongside thordan, preparing to cast various new mechanics in tandem. This set of mechanics is referred to as:
+After the last AoEs resolve, various knights will appear around the arena alongside thordan, preparing to cast various new mechanics in tandem. This set of mechanics is referred to as: **Meteors**.
 
 #### Meteors
 
-Players should split off into pairs on each of the cardinals as per the cheatsheet (MT/D3 N, OTD4 S, H1D1 E, H2D2 W), standing between the AoEs that have spawned on the intercardinals. 2 players will be marked by "Meteors", a small red arrow above the players head. These 2 players will **ALWAYS** be part of the same role. The role that gets the meteors is deemed as the "priority" role.
+::: info NOTE
+This mechanic has a lot of moving parts. I recommend reviewing the toolbox above and watching a few PoVs before your first attempt.
+:::
 
-The meteor players will position themselves North and South, swapping with the same respective role player that is already positioned there. _Generally_ the meteor players should try and go to N/S cardinal that is **clockwise** of them, however this rule isn't always followed.
+##### Starting positions
 
-Each pair should stand roughly halfway between the centre of the arena and the edge of the arena to bait a set of partner stacks that will leave a puddle of ice that will inflict a short **"Ice Resistance Up"** buff for a moment, allowing you to quickly move out of the puddle before it applies a heavy frostbite DOT. The large orange AoEs on the intercardinals will also turn into fire puddles when the stacks go off, leaving the middle of the arena unable to access the outer ring and vice versa.
+Players split into pairs on each cardinal, per the cheatsheet, standing between the AOEs that have spawned on the intercardinals:
 
-While everyone is moving to their positions, 8 towers will spawn. Some of these towers will be on the outer edges and some in the middle of the arena. If only one tower is available on the outer edge of the arena in a pair's quadrant, the **priority role** (i.e. the one with meteors) should take that tower, and the other player should move into the middle of the arena to soak the tower **clockwise** from where they baited their puddle. If 2 towers are available on the outer edge of the arena the **priority role** will take the left most tower, and the **non-priority role** will take the right most. However this rule is a bit flimsy and most often people will just move to the left/right beforehand to indicate which tower they will take.
+| Cardinal  | Pair    |
+| :-------- | :------ |
+| **North** | MT / D3 |
+| **South** | OT / D4 |
+| **East**  | H1 / D1 |
+| **West**  | H2 / D2 |
 
-The meteor players can be a little different with which towers they want to take. The meteor debuff they both have will cause 8 meteors to drop down on them one at a time. If any of these meteors are close to eachother they will explode and wipe the raid. As such, we want the meteor players to be the furthest distance possible from eachother.
+2 players will be marked with **Meteor** ^[Prey], a small red arrow above the player's head. These 2 players will **always** share the same role — that role is the **priority role** for this mechanic.
 
-In an ideal world this means that each meteor player will take a tower that results in them being 180 degrees from eachother. However it doesn't always pan out this way as the tower positions are semi-random, resulting in 2 other patterns where one meteor player will be closer to the other, about 150 or 120 degrees. The 120 degree pattern is colloquially known as **"cursed"**.
+##### Meteor ^[Prey] movement
 
-To avoid these patterns as much as possible, each meteor player will look at the other and indicate to take a tower to give the largest gap between the two. Once you inevitably get one of these patterns, the player on the "short" side, will have to: Follow the curve of the inner AoEs to use up as much space as possible, and if the pattern is cursed employ stutter stepping to pace out the meteors correctly. This can be difficult at first as the meteors will drop very close to eachother. Fortunately this pattern is pretty unlikely.
+The **Meteor players** ^[Prey] reposition to North and South, swapping with whichever **priority role player** is already there. _Generally_ they should move to whichever N/S cardinal is **clockwise** of their starting position, though this isn't a hard rule.
 
-After the initial tower soak both meteor players will start moving clockwise around the arena. 8 more towers will spawn on each cardinal and intercardinal and after about 5/6 meteor drops **Faith Unmoving** will be cast. All outside players will use **Anti KB**, and all inside players will ride the knockback into their respective tower. The towers each player will take depends on the initial safespot they started from. **Priority** players will take the cardinal tower, and the **Non-priority players** will take the tower **1 clockwise** of the starting safespot. Both Meteor players will end up in the opposite North or South tower.
+Each pair stands roughly halfway between the center and edge of the arena to bait a partner stack. This leaves a puddle granting a brief **Ice Resistance Up** ^[Ice Resistance Up] buff — move out of it quickly before it applies a heavy frostbite DOT. The orange intercardinal AOEs also turn into fire puddles when the stacks resolve, cutting off the middle of the arena from the outer ring.
 
-After these towers are resolved, Thordan will drop down at true north and begin to cast a heavy hittind raidwide: **Ultimate End**. After this, Thordan gains a "discomposed" debuff, causing him to take 30% more damage. He will then cast **Broad Swing** twice in a row at a random player, where the party will stand behind him and move into the first cleave.
+##### First Towers
+
+8 towers spawn — some on the outer edge, some in the middle. The general tower priority is as follows:
+
+- **1 outer tower available in your quadrant** → priority role takes it; the other player moves to the middle and soaks the tower **clockwise** from where they baited their **ice puddle**.
+- **2 outer towers available in your quadrant** → priority role takes the leftmost, non-priority takes the rightmost.
+
+::: info NOTE
+This rule is a bit flimsy in practice - most of the time players will edge towards a direction to indicate the tower they wish to take.
+:::
+
+The **Meteor** ^[Prey] debuff causes 8 meteors to drop on each Meteor player, one at a time. If two meteors land too close together they explode and wipe the raid, so the two **Meteor** players want to begin the mechanic as far apart as possible after the first tower soak.
+
+::: info NOTE
+Ideally the two Meteor players begin **180°** apart. Because tower placement is semi-random, two other patterns can occur instead: roughly **150°** or **120°** apart. The **120°** pattern is colloquially known as **"cursed."**
+:::
+
+To minimize how often the tighter patterns occur, each Meteor player should look at the other and pick whichever available tower gives the largest gap between them. When you do end up with a tight pattern, the player on the **"short"** side should:
+
+- Follow the curve of the inner AOEs to use up as much space as possible.
+- If the pattern is **cursed** (120°), use stutter-stepping to pace the meteors correctly — the drops will be close together, so this takes practice. Fortunately this pattern is uncommon.
+
+##### Second Towers
+
+After the initial soak, both **Meteor** players begin moving clockwise around the arena. 8 more towers spawn on each cardinal and intercardinal. After roughly 5-6 meteor drops, Thordan casts **Faith Unmoving**:
+
+- **Outside players** → use anti-knockback.
+- **Inside players** → ride the knockback into their respective tower.
+
+Which tower each player takes depends on their initial safe spot:
+
+- **Priority players** → the cardinal tower.
+- **Non-priority players** → the tower **1 clockwise** of their starting safe spot.
+- **Both Meteor players** → end up in the opposite North or South tower.
+
+After these towers are resolved, Thordan will drop down at true north and begin to cast a heavy hittind raidwide: **Ultimate End**. After this, Thordan gains a **Discomposed** ^[Discomposed] debuff, causing him to take 30% more damage. He will then cast **Broad Swing** twice in a row at a random player, where the party will stand behind him and move into the first cleave.
 
 Thordan will then cast his enrage: **Atheric Burst**.
 
@@ -367,77 +431,91 @@ Nidhogg will drop down and begin auto-attacking the main tank, before casting:
 #### Dive from Grace
 
 ::: info NOTE
-This mechanic is one of the first "walls" of this fight, and can be difficult to wrap your head around/remember all the roles. I recommend to watch videos of solves and also to review the toolbox above.
+This is one of the first "walls" of the fight and can be difficult to wrap your head around on a first read. Reviewing PoVs and the toolbox above is strongly recommended.
 :::
 
-As the cast begins, a bunch of numbers will apply to the party:
+As the cast begins, a set of numbers is applied to the party:
 
-- "1" x3 (put the symbol here)
-- "2" x2 "
-- "3" x3 "
+| Number                  | Count |
+| :---------------------- | :---- |
+| **1** ^[First in Line]  | x3    |
+| **2** ^[Second in Line] | x2    |
+| **3** ^[Third in Line]  | x3    |
 
-Players will preposition in the following locations to indicate their starting position depending on their number.
+Players preposition according to their number, as shown below:
 
 ![314374579-babf8707-75cb-4b42-8c58-70d07df7da93.webp](/images/ultimate/dsr-dfg.webp)
 
-After the cast is finished (~5 seconds later), a second set of debuffs get applied to each player:
+~5 seconds later, a second debuff is applied to each player:
 
-- Dark High Jump (Circle)
-- Dark Elusive Jump (Down Arrow)
-- Dark Spineshatter Dive (Up Arrow)
+| Debuff                                                   |
+| :------------------------------------------------------- |
+| **High Jump Target** ^[High Jump Target]                 |
+| **Elusive Jump Target** ^[Elusive Jump Target]           |
+| **Spineshatter Dive Target** ^[Spineshatter Dive Target] |
 
-The numbers players are assigned are the order that each player will be "dived/jumped" on by Nidhogg: 1->2->3
-Whilst the second debuff will be what **kind** of dive/jump Nidhogg is performing.
+The **number** debuff is the order players will be dived/jumped on by Nidhogg (**1 ^[First in Line]** → **2 ^[Second in Line]** → **3 ^[Third in Line]**). The **arrow/circle** debuff is the _type_ of dive/jump Nidhogg performs on that player.
 
-After getting dived the player will leave behind a tower that needs to be soaked by someone else, as both the dive and the tower inflict a **"Fire Resistance Down II"** and a **"Physical Vulnerability Up"** debuff.
+Getting dived leaves behind a tower that must be soaked by someone else — both the dive and the tower inflict **Fire Resistance Down II** ^[Fire Resistance Down II] and **Physical Vulnerability Up** ^[Physical Vulnerability Up].
 
-The _type_ of dive that Nidhogg performs will indicate **where that tower is going to be placed.** I think of the arrows as if they _push_ the tower in one direction, i.e. If I were to have an Up Arrow, my tower would be pushed the distance of Nidhoggs hitbox away from me in the direction I'm facing. No matter whether players have arrows or no arrows, we always want to place the towers on the **East/West/South** of Nidhogg's hitbox due to another upcoming mechanic.
+##### Tower Placement
 
-OCE uses the **"Easthogg Strat"** I.e. we solve the arrows in such a way that all arrow players can simply face east (as long as they are in the correct position) and the mechanic will resolve.
+The dive _type_ determines where the resulting tower lands. Think of the arrows as "pushing" the tower a hitbox-width away from the dived player, in the direction they're facing. Regardless of arrow/no-arrow, we always want towers placed on the **East/West/South** of Nidhogg's hitbox for the upcoming mechanic.
 
-(Diagram for easthogg arrows)
+::: info NOTE
+OCE uses the **"Easthogg"** strat — arrows are solved so that every arrow player can simply face east and the mechanic resolves correctly.
+:::
+
+| Arrow                                    | Position | Facing |
+| :--------------------------------------- | :------- | :----- |
+| **Up Arrow** ^[Spineshatter Dive Target] | West     | East   |
+| **Down Arrow** ^[Elusive Jump Target]    | East     | East   |
+
+If a set of numbers has **no arrows**, they use the positions they indicated when the numbers first went out.
 
 As seen above we place the **Up Arrow** West, and the **Down Arrow** East. If both these players look east the towers will end up on the sides of Nidhogg's hitbox. If a set of numbers **does not** have arrows, they will use the positions they indicated when the numbers first went out.
 
-The order that the numbers will soak the towers is as follows:
+##### Tower Soak Order
 
-(using their previously indicated positions, or their arrow positions)
+Using each player's indicated or arrow position:
 
-- 3rd dive players will soak the towers dropped by 1st dive players
-- East and West 1st dive players will soak the towers dropped by 2nd dive players
-- 2nd dive players and the South 1st dive player will soak the towers dropped by 3rd dive players
+- **3rd ^[Third in Line] dive** players soak the towers dropped by **1st ^[First in Line] dive** players.
+- **East/West 1st ^[First in Line] dive** players soak the towers dropped by **2nd ^[Second in Line] dive** players.
+- **2nd ^[Second in Line] dive** players and the **South 1st ^[First in Line] dive** player soak the towers dropped by **3rd ^[Third in Line] dive** players.
 
-Upon soaking a tower, a Nidhogg clone will drop down and aim a line AoE at that closest player. Simply bait this out of the arena, and **when Nidhogg glows**, step through Nidhogg to avoid being hit.
+Upon soaking a tower, a Nidhogg clone will drop down and aim a line AOE at the closest player. Bait this out of the arena, and **when Nidhogg glows**, step through Nidhogg to avoid being hit.
 
-In addition to all these mechanics, while the first and third set of towers are preparing to be placed, Nidhogg will begin to cast either **Lash and Gnash** (in then out) or **Gnash and Lash** (out then in). On the cast finish, Nidhogg will cast a party stack on one of the players not currently placing or soaking a tower, as well as performing either Lash or Gnash (whichever was first on the castbar), followed by the opposite.
-
-The sets of towers will be dropped when the cast is finished, and the towers will resolve just before the 2nd Lash/Gnash.
+While the first and third sets of towers are being placed, Nidhogg will also cast either **Lash and Gnash** (**in** then **out**) or **Gnash and Lash** (**out** then **in**). On cast finish, Nidhogg casts a party stack on a player not currently placing/soaking a tower, then performs whichever of Lash/Gnash was first on the castbar, followed by the other.
 
 ::: info NOTE
-The snapshot timing for the first attack is on the cast finish, so you're safe to walk through the boss before the animation goes off.
+Snapshot timing for the first attack of **Lash/Gnash** is on cast finish, so it's safe to walk through the boss before the animation plays.
 :::
 
-While it is possible to live getting hit by Lash/Gnash, it will knock the player back away from Nidhogg and apply a **damage down** debuff. At the time of writing the P3 damage check isn't incredibly tight, but with only a few damage downs it may be impossible to beat the damage check.
+::: warning
+Though it's possible to live through a hit from **Lash/Gnash**, it will knock the player away from Nidhogg and apply a **Damage Down** ^[Damage Down] debuff. The P3 damage check isn't especially tight at present, but a few damage downs can make it impossible to beat.
+:::
 
 #### Enumeration Towers
 
-Immediately after this mechanic, the tank will take a few more auto-attacks before casting Drachenlance on a random player, which is a short conal AoE that will deal lethal damage to anyone hit.
+Immediately after **Dive from Grace**, the tank will take a few more auto-attacks before casting **Drachenlance on a random player** — a short conal AOE that deals lethal damage to anyone hit.
 
-4 towers will then spawn on each intercardinal around Nidhogg. As seen in the cheatsheet, all players will stack with their partner to begin with. In all but 1 pattern, each Tower will need a different number of people in them, the amount of which can be determined by the number of pillars in the tower. As all the ranged players anchor in their spot, if the melee player sees that only 1 person is required in the tower they start on, they will flex to another tower using the priority **clockwise, then counter-clockwise, and lastly across the arena.**
+4 towers spawn on each intercardinal around Nidhogg. All players stack with their partner to begin with. In all but 1 pattern, each tower needs a different number of players, indicated by the number of pillars in the tower.
 
-These towers will drop clones similar to the ones in dive from grace, however one of the clones will have a tank buster tether. The main Nidhogg in the middle will _also_ have a tether and both tanks will take a tether each and invuln the buster in the center of the arena.
+::: info NOTE
+Ranged players anchor in their starting spot. If a melee player sees their tower only needs 1 person, they flex to another using priority: **clockwise, then counter-clockwise, then across the arena.**
+:::
 
-The Main tank will then face Nidhogg south and continue to take auto-attacks. After one more **south-facing** drachenlance, Nidhogg will cast his enrage: **Revenge of the Horde**
+These towers drop clones similar to Dive from Grace, but one clone carries a tankbuster tether. The main Nidhogg in the middle also carries a tether, and both tanks take a tether each and invuln the buster in the center of the arena.
+
+The Main tank will then face Nidhogg south and continue to take auto-attacks. After one more **south-facing Drachenlance**, Nidhogg will cast his enrage: **Revenge of the Horde**
 
 ### Phase 4: Eyes
 
 ::: tank
-Tanks should communicate which eye they are taking before this phase, as each eye deals auto-attacks. Generally in OCE, MT takes the **Red** eye, and OT takes the **Blue** eye.
+Tanks should communicate which eye they are taking before this phase, as each eye deals auto-attacks. Generally in OCE, **Main Tank** takes the **Red** eye, and **Off Tank** takes the **Blue** eye.
 :::
 
-Everyone will begin this phase by grouping on top of Alphinaud as he walks into the arena.
-
-Alphinaud and a random party member will be given a buff that applies to everyone in a short range, hence why we stack up. These buffs: **Soul of Devotion** and **Soul of Friendship** allow players to damage the **Blue** and **Red** eyes respectively. The buffs are also lost upon death.
+Everyone begins this phase by grouping on top of Alphinaud as he walks into the arena. Alphinaud and a random party member are given a buff that applies to everyone in a short range (hence the stack): **Soul of Devotion** ^[Soul of Devotion] and **Soul of Friendship** ^[Soul of Friendship] allow players to damage the **Blue** and **Red** eyes respectively. These buffs are lost upon death.
 
 ::: damage
 Ranged should begin to focus on the **Red** eye, and melee should focus on the **Blue** eye
@@ -447,49 +525,58 @@ Estinien will cast a heavy raidwide and bleed: **Resentment**
 
 #### Hatebound
 
-Tethers will randomly get applied to the party in such a way that there is **4 blue** and **4 red** tethers, attached to their respective eye. Taking damage while having a blue tether will **heal the blue eye**, and taking damage with a red tether will **damage the red eye**.
+Tethers are randomly applied so there are **4 blue** and **4 red** tethers, each attached to their respective eye:
 
-At the same time a large yellow orb will appear in front of either eye, and 2 smaller blue orbs will spawn to the sides of each eye.
+| Tether   | Effect                                |
+| :------- | :------------------------------------ |
+| **Blue** | Taking damage **heals** the blue eye  |
+| **Red**  | Taking damage **damages** the red eye |
 
-Tethers are able to be swapped by standing on a player of the opposite colour, so be careful not to accidentally swap by walking on top of other players. In this strat, we want all melees (MT, ST, D1, D2) to begin with red tethers. If a melee does not start with this colour, they will walk to the middle of the arena and stack on Estinien. The ranged player that has the wrong colour will do the same, allowing both players to swap and receive the right coloured tether.
+At the same time, a large yellow orb appears in front (**East/West**) of each eye, with 2 smaller blue orbs to its sides (**North/South**).
+
+::: warning
+Tethers can be swapped by standing on a player of the opposite colour so be careful not to swap accidentally by walking on top of others.
+:::
+
+All melee (MT, ST, D1, D2) will want to begin the mechanic with **red** tethers. Any melee with the wrong colour walks to the middle and **stacks on Estinien**; the ranged player with the wrong colour does the same, so both can swap and receive the correct tether. Supports move to the **Red** eye, DPS to the **Blue** eye.
 
 Supports will move to the **Red** eye and DPS to the **Blue** eye as seen below:
 
-(Image)
+_(Diagram to be added.)_
 
-Once the yellow orb grows **twice**, all melee will walk into it together to take a pair stack. Afterwards, they will split and stand on top of their ranged partner, swapping tethers before moving to the middle. The ranged players will wait for their orb to grow twice, before walking into it. Everyone will then move to the **Blue** eye. All red tethers (now ranged players) will stand in a square-like formation around the eye, and all the melee will stack under the eye.
+Once the yellow orb grows **twice**, all melee walk into it together for a pair stack, then split and stand on top of their ranged partner, swapping tethers before moving to the middle. Ranged players wait for their own orb to grow twice before walking in. Everyone then moves to the **Blue** eye: red-tether (now ranged) players form a square around the eye, melee stack underneath it.
 
 #### Mirage Dives
 
-Nidhogg will dive 2 random red tether players 4 times in a row. Each hit player must be swapped with to ensure they won't be struck twice and instantly killed as the dive applies a vuln up.
+Nidhogg dives 2 random red-tether players, 4 times in a row. Each hit player must be swapped with to ensure they won't be struck twice and instantly killed as the dive applies a vuln up.
 
 ::: damage
 Around 38-40% HP on the **Red** eye, ranged should swap to the **Blue** eye.
 :::
 
-Finishing all these dives and having good damage will result in both eyes dying before they cast a final **Steep in Rage** cast. If both eyes are alive during this, the party will wipe. If the **Red** eye is alive during this, it will resurrect the **Blue** eye so it's important to keep an eye on it to mitigate possible wipes.
+Finishing all the dives with good damage results in both eyes dying before a final **Steep in Rage** cast. If **either** eye is still alive at that point the party wipes; if specifically the **Red** eye is alive, it will resurrect the Blue eye, so keep an eye on it to ensure it dies.
 
 ### Intermission
 
-Intermission is a run back of the **Pure of Heart** mechanic from Phase 1 with some key differences.
+Intermission reruns the **Pure of Heart** mechanic from Phase 1, with some key differences:
 
-Most importantly, Haurchefant will now be _targetable_. However he has a "HP Recovery Down" debuff. To remove this, a tank must use **Limit Break 3**, allowing Haurchefant to not only take significantly reduced damage, but also allowing him to be healed.
+Haurchefant is now _targetable_, but has an **HP Recovery Down** ^[HP Recovery Down] debuff. A tank must use **Limit Break 3** to remove it, letting him take significantly reduced damage, but also allowing him to be healed.
 
 ::: tank
-Either tank should LB3 as soon as Haurchefant appears. (This also works roughly after your 2nd GCD on Charibert).
+Either tank should LB3 as soon as Haurchefant appears — roughly after your 2nd GCD on Charibert.
 :::
 
 ::: healer
-Healers should keep an eye on Haurchefant throughout the entire mechanic. You want him to be almost, if not full health before the final **Pure of Heart** raidwide, as it will do significant damage. A WHM can save benediction for this, simplfying the healing greatly.
+Keep an eye on Haurchefant's HP throughout. He should be at or near full health before the final **Pure of Heart** raidwide, which hits hard. A WHM can save Benediction for this to simplify healing.
 :::
 
-Following the same H -> M -> R -> T order as phase 1, players will resolve the mechanic and then face an additional DPS check on the **Spear of the Fury** that Haurchefant is currently blocking. Successfully defeating the spear before it casts **Pierce** allows players to continue on to phase 5. If unsuccessful, the party will be sent back to phase 2.
+Following the same **H → M → R → T** bait order as Phase 1, players resolve the mechanic, then face an additional DPS check on the **Spear of the Fury** Haurchefant is blocking. Defeating the spear before it casts **Pierce** allows the party to continue to Phase 5; failure sends the party back to Phase 2.
 
 ### Phase 5 - Dark King Thordan
 
-After 2 AoE autoattacks, Thordan will begin to cast:
+After 2 AOE autoattacks, Thordan begins to cast: **Wrath of the Heavens**.
 
-#### Wrath of the Heavens (WOTH/Wrath)
+#### Wrath of the Heavens (WOTH / Wrath)
 
 Thordan will become untargetable, and 2 knights and a dragon will drop down on a random cardinal/intercardinal. **This will become our new north.**
 
@@ -882,7 +969,7 @@ If it is ice imbued, you must be as close to the edge of the boss's hitbox as po
 
 <img width="967" height="686" alt="image" src="https://github.com/user-attachments/assets/c193bdfe-2cc1-4a66-bcea-432f104db655" />
 
-Check where the second one spawns and after the first hit, you want to rotate opposite the 2nd one as a party at max melee distance around the boss's hitbox. As each hit goes off, the party must quickly be topped up as even even with mitigation they are hard-hitting.
+Check where the second one spawns and after the first hit, you want to rotate opposite the 2nd one as a party at max-melee distance around the boss's hitbox. As each hit goes off, the party must quickly be topped up as even even with mitigation they are hard-hitting.
 
 After all the Gigaflares have gone off, tanks should continue rotating until the main emnity tank reaches a red waymark to not only reface the boss north/south but to move away from the party for the autoattacks.
 

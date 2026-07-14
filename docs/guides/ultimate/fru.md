@@ -703,7 +703,7 @@ The safespot for all 4 will be the initial safe cardinal/intercardinal, and the 
 ![](/images/ultimate/fru-apocspread.webp)
 
 ::: tip
-The players at the front can keep full melee uptime but must be careful, as the inner exploding AOE is quite large. I recommend breaking max melee and tapping forward until you're just able to hit Gaia.
+The players at the front can keep full melee uptime but must be careful, as the inner exploding AOE is quite large. I recommend breaking max-melee and tapping forward until you're just able to hit Gaia.
 
 If you are up the front, I would also save **sprint** for the 2nd AOE hit and simply step forward into the center rather than running along the safe cardinal/intercardinal.
 
