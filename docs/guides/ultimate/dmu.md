@@ -120,7 +120,7 @@ Second in line ^[Second in Line]
 
 ## Cheatsheet
 
-![](\images\ultimate\dmu-cheatsheet.webp)
+![](\images\ultimate\dmu-cheatsheetv2.webp)
 [imgur Cheatsheet Collection](https://imgur.com/a/ffxiv-dancing-mad-ultimate-cheatsheet-oce-v1-AfjaSvr)
 
 ## Buff Timings
@@ -142,7 +142,7 @@ Second in line ^[Second in Line]
   ::: pot
 
 - P1 - Opener
-- P2 - Trines pot, if required.
+    > Players can pot in P2 - Trines for prog. This will misalign P3 and P4 pots.
 - P3 - Midway through the first
   Thunder III cast
 - P4 - As soon as it's up
