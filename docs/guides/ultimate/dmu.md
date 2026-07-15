@@ -134,11 +134,24 @@ Second in line ^[Second in Line]
 - Trines
 - BoA Lat/Long
 - Blackhole Slap Happy
+- End of P3 -> Start of P4
+- End of P4
+- After the final Tower of Celestriad
+- After the final Forsaken Stack
   :::
   ::: pot
 
+- P1 - Opener
+- P2 - Trines pot, if required.
+- P3 - Midway through the first
+  Thunder III cast
+- P4 - As soon as it's up
+- P5 - End of Forsaken
+
 :::
 ::::
+
+> Pot windows are for generic prog and may be changed based on team comp.
 
 ## Waymarks
 
@@ -576,13 +589,13 @@ The following mechanics are **incredibly** tough on healers. I recommend looking
 
 Earthquake places an **Earth** crystal in the center of the arena, as well as reducing all players' health to 1 and inflicting:
 
-**Primordial Crust** ^[Primordial Crust] to all players.
+- **Primordial Crust** ^[Primordial Crust] to all players.
 
 > Cleansed by "dying" (taking lethal damage).
 
-**1/2/3** debuffs indicating the shortest debuff and cleanse orders. (^[First in Line]x3, ^[Second in Line]x3, ^[Third in Line]x2)
+- **1/2/3** debuffs indicating the shortest debuff and cleanse orders. (^[First in Line]x3, ^[Second in Line]x3, ^[Third in Line]x2)
 
-**Accretion** ^[Accretion] to a random healer and a random DPS.
+- **Accretion** ^[Accretion] to a random healer and a random DPS.
 
 > Cleansed by healing the player to full HP.
 
