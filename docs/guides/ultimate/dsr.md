@@ -182,9 +182,11 @@ Phase 2 onwards
 }
 ```
 
-## Fight Writeup (W.I.P)
+## Fight Writeup
 
 Guide written by Juno (P1-5) and Noz (P6-7)
+
+> Tidied up by Juno like 2 years later : )
 
 As a starter, a lot of the mechanics in this fight will cause **Damage Down** ^[Damage Down] if solved incorrectly. This debuff reduces your damage by about 50% and it is common practice to wall **IF IT IS SAFE TO DO SO**, as the damage loss from resurrection weakness is less than damage down.
 
@@ -300,7 +302,7 @@ Thordan will become untargetable and jump from the arena, and both Light parties
 
 Within both safe spots, each light party will have to spread to avoid overlapping lightning AOEs about to drop on each player. These lightning AOEs go off at the same time as the dashes.
 
-While the parties are getting into position, **Grinnaux** and **Thordan** appear again, with Grinnaux placed somewhere near the center of the arena and Thordan in the direct center. Grinnaux will then cast a quake that expands out towards each light party - simply wait until it is safe to walk forward.
+While the parties are getting into position, **Grinnaux** and **Thordan** appear again, with Grinnaux placed somewhere near the center of the arena and Thordan in the direct center. Grinnaux will then cast a quake that expands out towards each light party — simply wait until it is safe to walk forward.
 
 While the party is dodging this, Thordan will cast another **Ascalon's Mercy**. Each light party must quickly make their way toward Thordan and stack up tightly on either side of him to bait the proteans.
 
@@ -352,7 +354,7 @@ Each stack will move 4 notches in the same direction as the knights (**clockwise
 
 Just before these stacks and cleaves go off, Thordan and a large red eye that appeared around the arena will perform a gaze attack that must be avoided.
 
-_(Diagram to be added.)_
+_(Diagram to be added; Check raidplan for now)_
 
 After the last AoEs resolve, various knights will appear around the arena alongside thordan, preparing to cast various new mechanics in tandem. This set of mechanics is referred to as: **Meteors**.
 
@@ -473,7 +475,7 @@ OCE uses the **"Easthogg"** strat — arrows are solved so that every arrow play
 
 If a set of numbers has **no arrows**, they use the positions they indicated when the numbers first went out.
 
-As seen above we place the **Up Arrow** West, and the **Down Arrow** East. If both these players look east the towers will end up on the sides of Nidhogg's hitbox. If a set of numbers **does not** have arrows, they will use the positions they indicated when the numbers first went out.
+As seen above we place the **Up Arrow** West, and the **Down Arrow** East. If both these players **look East** the towers will end up on the sides of Nidhogg's hitbox. If a set of numbers **does not** have arrows, they will use the positions they indicated when the numbers first went out.
 
 ##### Tower Soak Order
 
@@ -538,11 +540,9 @@ At the same time, a large yellow orb appears in front (**East/West**) of each ey
 Tethers can be swapped by standing on a player of the opposite colour so be careful not to swap accidentally by walking on top of others.
 :::
 
-All melee (MT, ST, D1, D2) will want to begin the mechanic with **red** tethers. Any melee with the wrong colour walks to the middle and **stacks on Estinien**; the ranged player with the wrong colour does the same, so both can swap and receive the correct tether. Supports move to the **Red** eye, DPS to the **Blue** eye.
+All melee (MT, ST, D1, D2) will want to begin the mechanic with **red** tethers. Any melee with the wrong colour walks to the middle and **stacks on Estinien**; the ranged player with the wrong colour does the same, so both can swap and receive the correct tether. Supports move to the **Red** eye, DPS to the **Blue** eye as seen below:
 
-Supports will move to the **Red** eye and DPS to the **Blue** eye as seen below:
-
-_(Diagram to be added.)_
+_(Diagram to be added; Check raidplan for now)_
 
 Once the yellow orb grows **twice**, all melee walk into it together for a pair stack, then split and stand on top of their ranged partner, swapping tethers before moving to the middle. Ranged players wait for their own orb to grow twice before walking in. Everyone then moves to the **Blue** eye: red-tether (now ranged) players form a square around the eye, melee stack underneath it.
 
@@ -563,7 +563,7 @@ Intermission reruns the **Pure of Heart** mechanic from Phase 1, with some key d
 Haurchefant is now _targetable_, but has an **HP Recovery Down** ^[HP Recovery Down] debuff. A tank must use **Limit Break 3** to remove it, letting him take significantly reduced damage, but also allowing him to be healed.
 
 ::: tank
-Either tank should LB3 as soon as Haurchefant appears — roughly after your 2nd GCD on Charibert.
+Either tank should LB3 as soon as Haurchefant appears: roughly after the 2nd GCD on Charibert.
 :::
 
 ::: healer
@@ -578,413 +578,492 @@ After 2 AOE autoattacks, Thordan begins to cast: **Wrath of the Heavens**.
 
 #### Wrath of the Heavens (WOTH / Wrath)
 
-Thordan will become untargetable, and 2 knights and a dragon will drop down on a random cardinal/intercardinal. **This will become our new north.**
+Thordan will become untargetable, and 2 knights and a dragon will drop down on a random cardinal/intercardinal. **This becomes our new North.**
 
-A player will then be marked with a blue **defamation** marker and 2 players will be marked with 2 line-AoEs, indicated by orange tethers coming from the knights.
-
-The tether players will pull these tethers across the arena from their knight, and the defamation will stand near the western knight.
+A player is marked with a blue **defamation** marker, and 2 players are marked with line-AOEs (orange tethers from the knights). Tether players pull their tethers across the arena from their knight; the defamation player stands near the western knight.
 
 ::: info NOTE
-Tether players can use the line markings in the arena to line up their tethers. The defamation can similarly count 2 lines from the waymark to the west of the knight to ensure they don't clip the tether player.
+Tether players can use the arena's line markings to line up their tethers. The defamation player can similarly count 2 lines from the waymark west of the knight to avoid clipping the tether player.
 :::
 
-The rest of the party should spread along the relative east wall. During this, the dragon will have been casting **Twisting Dive**, and all players should move towards the center of the arena to avoid any twisters that appear under them (or others).
+The rest of the party spreads along the relative east wall. During this, the dragon casts **Twisting Dive**; all players should move towards the center of the arena to avoid any twisters that appear under them (or others).
 
 ::: info NOTE
-For the timing of twisters you can either look at the dragon or the orange tethers stretching through the arena. As soon as the dragon moves (shortly after when the cast finishes), or the tethers disappear is when you should move to avoid twisters.
+For twister timing, watch either the dragon or the orange tethers. Move as soon as the dragon starts moving (shortly after cast finish) or the tethers disappear.
 :::
 
-As Twisting Dive is going off, two more knights and thordan will drop into the center of the arena. After avoiding the twisters, players should spread on their side of the arena for an upcoming protean. A non-tether/defamation player will then be marked with **dive bomb** and should run to the wall behind the **knight with a staff** to bait it.
+As Twisting Dive resolves, two more knights and Thordan drop into the center. After avoiding the twisters, players spread on their side of the arena for an upcoming protean. A non-tether/defamation player is marked with **Dive Bomb** (a green marker) and should run to the wall behind the **knight with a staff** to bait it.
 
-This effectively splits the party into 2 groups. 4 players who have done a mechanic, and 4 which haven't.
+This splits the party into 2 groups: 4 players who have resolved a mechanic, and 4 who haven't.
 
-After a protean slash from Thordan a random **non-mechanic** player will be targeted with 5 consecutive **Liquid Heaven** baits, and a random **mechanic** player will be targeted with 4 **Eruption** baits.
-2 random players (these can be the same players as above) will also be targeted with lightning AoEs.
-
-(video of baits)
+After a protean slash from Thordan, a random **non-mechanic** player is targeted with 5 consecutive **Liquid Heaven** baits, and a random **mechanic** player is targeted with 4 **Eruption** baits. 2 random players (which may be the same players) are also targeted with lightning AOEs.
 
 ::: warning
-It is very important that players stay on their side of the arena here. All **mechanic** players will have a **Magic Vuln** debuff which means that they will **instantly die** upon touching a Liquid Heaven.
+Stay on your own side of the arena here. All **mechanic** players carry a **Magic Vulnerability Up** ^[Magic Vulnerability Up] debuff and will **instantly die** if hit by a Liquid Heaven.
 :::
 
-Everyone will then make their way to the warrior as he will shortly cast a donut AoE. Everyone should stack near Thordan, whilst the two lightning AoEs should spread near the rear of the donut AoE to form a "Mickey Mouse" style shape.
+Everyone will then make their way to the **Warrior** as he will shortly cast a donut AOE. Stack near Thordan, with the two lightning AOEs spread near the rear of the donut to form a "Mickey Mouse" shape.
 
-Both bait players should _not_ overlap their baits on top of the warrior to make room for the rest of the party. It is possible to walk away from the safe spot and loop back around in time to the safe spot.
+::: info NOTE
+Both bait players should avoid overlapping their baits on top of the stack to leave room for the rest of the party. It's fine to walk away from the safe spot and loop back in time.
+:::
 
-After this is resolved, Thordan will cast an **Ancient Quaga** raidwide, followed by 2 more AoE auto attacks and another **Heavenly Heel** into **Ascalon's Might** tank buster.
+After this resolves, Thordan will cast an **Ancient Quaga** raidwide, followed by 2 more AOE auto attacks and another **Heavenly Heel** into **Ascalon's Might** tank buster.
 
 ::: tank
-Due to the mit plan that MUR PF uses, if the MT is a **WAR** they can use their invincibility here for free.
+Due to the mit plan that MUR PF uses, if the **Main Tank** is a **WAR** they can use their **invulnerability** here for free.
 :::
 
-Thordan will then cast:
+Thordan will then cast: **Death of the Heavens**.
 
 #### Death of the Heavens (DOTH/Death)
 
-This mechanic has a lot of moving parts, I highly recommend looking at POVs and toolboxes.
-
-Thordan will go untargetable and jump to the arena's edge, summoning his eye. Several dragons and a knight also drop onto the arena's edge. Another knight wielding an axe will drop into the arena, slightly offset from the centre towards a cardinal/intercardinal. **This knight is our new north.**
-
-The party will immediately line up as follows:
-
-```
-        _Knight_
-H1 MT D3 D1 D2 D4 ST H2
-```
-
-Four random players will be selected with a visible red **Doom** debuff that lasts for 26 seconds, killing the player if it is not cleansed. Any player who has not got a Doom will shortly drop a Doom cleaning puddle. Because of mechanics coming up, we want to spread these at west/east and the northern intercardinals.
-
-Looking at our line up, each player must determine what number they are counting from left to right. As OCE does **Dooms south**, each Doom player will position themselves 1-4 along the relative south wall. The non-Doom players will do the opposite, lining up 1-4 along the relative north wall.
-
-Because there will shortly be several dives going through the arena from the dragons and a spread mechanic from the other knight, the actual positions for the intercardinal players can be a little finnicky. Thankfully, the waymarks we use make it incredibly easy:
-
-(image)
-
-Once in position, all the dives from the dragons and the lightning spread from the knight will go off. As one of the dragons was the same one from **Wrath**, there will also be twisters.
-
 ::: info NOTE
-The timing for this twister is as soon as the lightning AoE goes off.
+This mechanic has a lot of moving parts — reviewing PoVs and toolboxes is highly recommended.
 :::
 
-In addition, the knight in the middle will also be doing a quake that will gradually spread outwards from his position.
+Thordan goes untargetable and jumps to the arena's edge, summoning his eye. Several dragons and a knight also drop onto the arena's edge. Another knight wielding an axe drops into the arena, slightly offset from center towards a cardinal/intercardinal. **This knight becomes our new North.**
 
-Dodging this is relatively simple. All the north, close west, and close east players will simply hold forward towards the knight as soon as their lightning AoE goes off.
-The rest of the players will begin to walk along the arenas edge, dodging in to the 2nd earthshaker AoE that goes off.
+The party immediately lines up as follows:
 
-As these go off, several knights will replace the axe knight in the middle, including our favourite **Grinnaux.**
+<div align="center">
 
-Once players reach the middle, everyone will be assigned **Playstation Tethers**. These work slightly different from Phase 1 in that only Doom players can receive circle (which are baited by the furthest away players), and only non-Doom players can receive cross. There can also only be one square and one triangle per group.
+Knight
 
-The 1st and 4th Doom will stand outside of the inner circle to bait the circle tethers, and the other Doom players will stand on the relative NW/NE of the middle circle, surrounding Grinnaux.
-The non-Doom players should roughly spread to SW/SE and N/S, using eyes to adjust to be opposite your Doom player.
+**H1 — MT — D3 — D1 — D2 — D4 — ST — H2**
 
-At this point (if not before), players should be identifying where Thordan and the giant Red eye are as there will shortly be a gaze attack from each of them.
+</div>
 
-Players will then all look away from the gazes and ride a **Faith Unmoving** knockback from grinnaux. Doom players should immediately move into the cleanse puddles if they aren't knocked back perfectly (I find wiggling in the puddle sometimes helps the game to register you standing in it).
+4 random players are given a visible red **Doom** ^[Doom] debuff (**26s**), killing the player if not cleansed. Any player without **Doom** ^[Doom] will shortly drop a Doom-cleansing puddle. Because of upcoming mechanics, we want these spread at **West**/**East** and the **Northern** intercardinals.
+
+As OCE runs **Dooms south**: using the line-up above, each **Doom** ^[Doom] player positions themselves 1-4 along the relative south wall, counting **clockwise**. Non-Doom players do the opposite, lining up 1-4 along the relative north wall.
+
+The exact intercardinal positions can be finnicky due to upcoming cleaves through the arena. In general intercardinal players should lean **toward the center** of the arena, using the waymark.
+
+_(Diagram to be added; Check raidplan for now)_
+
+Once in position, the dragon dives and the knight's lightning spread resolve. Because one of the dragons is the same one from **Wrath**, there will also be twisters.
+
+::: info NOTE
+This twister's timing is as soon as the lightning AOE goes off.
+:::
+
+The knight in the middle also casts a quake that gradually spreads outward from his position.
+
+- **North, close-West, and close-East** players hold forward towards the knight as soon as their lightning AOE resolves.
+- **Everyone else** walks along the arena's edge, dodging into the 2nd earthshaker AOE as it appears.
+
+As these resolve, several knights replace the axe knight in the middle — including our favourite, **Grinnaux**.
+
+Once players reach the middle, everyone is assigned **Playstation Tethers**. These differ slightly from Phase 1:
+
+- Only **Doom** ^[Doom] players can receive circle (baited by the furthest-away players).
+- Only **non-Doom** players can receive cross.
+- Only one square and one triangle per group.
+
+The 1st and 4th **Doom** ^[Doom] players stand outside the inner circle to bait the circle tethers; the other **Doom** ^[Doom] players stand relative **North-West** / **North-East** of the middle circle, surrounding Grinnaux. **Non-Doom** players spread to **South-West** / **South-East** and **North** / **South**, using eyes to stay opposite their Doom counterpart.
+
+::: info NOTE
+Players should start identifying where Thordan and the giant Red eye are as there will shortly be a gaze attack from each.
+:::
+
+Players look away from both gazes and ride a **Faith Unmoving** knockback from Grinnaux. **Doom** ^[Doom] players should immediately move into the cleanse puddles if not knocked back perfectly.
+
+::: tip
+Wiggling while standing in the puddle sometimes helps the game register you as standing in it.
+:::
 
 #### Meteors
 
-Without a break, 8 meteors will spawn on each cardinal and intercardinal. The 3 meteors at N/NW/NE will be killed using a targeted magic LB2 on the meteor at north, whilst the rest of the party bursts down the reamining meteors.
+Without a break, 8 meteors will spawn on each cardinal and intercardinal. The 3 meteors at **North** / **North-West** / **North-East** are killed using a targeted magic LB2 on the meteor at north, while the rest of the party bursts down the remaining meteors.
 
-Killing the meteors results in Thordan jumping back to the arena and performing another **Ancient Quaga**, followed by yet another 2 AoE auto-attacks into **Heavenly Heel** and an **Ascalon's Might** tank buster.
+Killing the meteors causes Thordan to jump back to the arena and perform another **Ancient Quaga**, followed by 2 more AOE auto-attacks into **Heavenly Heel** and an **Ascalon's Might** tankbuster.
 
 ::: warning
-Players **MUST** stop damaging Thordan below %2.8 health. If Thordan dies here it is **impossible** to beat the fight as he will wipe the party at the end of phase 6.
-Once this threshold is reached, Thordan will say "I yield..." and drop to one knee.
+Players **must** stop damaging Thordan below **2.8%** HP. If Thordan dies here, the fight becomes **impossible** to beat, as he will wipe the party at the end of Phase 6. Once this threshold is reached, Thordan will say **"I yield..."** and drop to one knee.
 :::
 
-Players will then immediately position south for the next phase:
+Players then immediately position south for the next phase:
 
 ### Phase 6: Double Dragons - Nidhogg & Hraesvelgr
 
-An important mechanic to note in this phase is the two possible failure conditions:
+::: warning IMPORTANT
+This phase has two possible failure conditions:
 
-**Nidhogg's Vow** - Letting the **Mortal Vow** debuff fall off will result in Nidhogg's Vow being broken (will be explained soon).
-**Hraesvelgr's Vow** - Dying to any instance of damage from Hraesvelgr (autos/stacks/AoE/spreads) will result in the Vow breaking.
+- **Mortal Vow** ^[Mortal Vow] — letting the **Mortal Vow** ^[Mortal Vow] debuff fall off enrages **Nidhogg**.
+- **Solemn Vow** ^[Solemn Vow] — dying to _any_ instance of Hraesvelgr damage (autos/stacks/AOE/spreads) breaks **Solemn Vow** ^[Solemn Vow] and enrages **Hraesvelgr**.
 
-Breaking a vow will result in that dragon receiving a **Damage Up** and **Damage Taken Down** buff, effectively one shotting your tanks with auto attacks.
-
-Although breaking one of these vows may not be the end of your run later in the phase (i.e. dying in cauterize), early vow breaks will almost certainly result in a wipe.
+Breaking a vow gives that dragon a **Damage Up** ^[Damage Up] and **Damage Taken Down** buff, effectively one-shotting tanks with auto-attacks. Breaking a vow mid-phase isn't always fatal (e.g. dying in **Cauterize**), but early vow breaks will almost certainly wipe the raid.
+:::
 
 ::: tank
-Phase 6 is very tank heavy compared to the previous phases. Knowing your mitigation is key as without the correct mits you may need healer help or you will die.
+This phase is very tank-heavy compared to earlier phases. Know your mitigations — without the correct mits you may need healer help, or you will die.
 :::
 
-::: everyone
-Throughout this phase there are 2 **hand of pain** style HP checks. Fortunately for us, they're even more strict than Living Liquid. The health differential must be no more than 2.8% between both Nidhogg and Hraesvelgr. Especially during the opening mechanic, DPS must be attacking their assigned dragon and tabbing between both dragons to ensure the health difference is not too far apart.
+::: damage
+There are 2 **hand of pain**-style HP checks in this phase: the health differential must be no more than **2.8%** between Nidhogg and Hraesvelgr. Especially during the opening mechanic, DPS must tab between both dragons to keep the gap from widening.
 :::
 
-MT will grab Nidhogg, and OT will grab Hraesvelgr. After a few auto attacks, both dragons will begin to cast:
+**Main Tank** will tank **Nidhogg**, **Off Tank** will tank **Hraesvelgr**. After a few auto-attacks, both dragons begin to cast: **Dread/Great Wyrmsbreath**.
 
 #### Wyrmsbreath 1 (WB1)
 
-The arena will be transformed into a donut via an AoE.
+The arena transforms into a donut via an AOE.
 
-Nidhogg will then target 3 random **Non Tank players** with fire tethers, and Hraesvelgr will target 3 random **Non Tank players** with ice tethers. These tethers will cause both Pyretic and a Frozen debuff respectively. To resolve this, each fire tether player must stack with an ice tether player to cancel out the debuff. Because we can't determine which players are going to be targeted, we set up 3 groups of 2 people where one person from each will plant while the other will be the designated "flex" player. The flex player will swap with another player if they have the same tether as their partner.
+- 3 random **non-tank** players are given a fire tether from Nidhogg, inflicting **Boiling** ^[Boiling].
+    > **Boiling** ^[Boiling] will resolve to **Pyretic** ^[Pyretic], dealing high damage upon movement.
+- 3 random **non-tank** players are given an ice tether from Hraesvelgr, inflicting **Freezing** ^[Freezing].
+    > **Freezing** ^[Freezing] will resolve to **Deep Freeze** ^[Deep Freeze], dealing high damage if not moving.
 
-(image WB1)
+Each **fire-tether** player must stack with an **ice-tether** player to cancel both debuffs out.
 
-Tanks however will not need to worry about tethers as instead they will be looking at the mouths of both dragons to determine if they are about to take a single tank buster or a 2 person tank buster.
-If **both** mouths are glowing, the tanks will stack and take a buster together in the centre of the arena.
-If **one** mouth is glowing, the tank that is tanking the **non-glowing** dragon will take a **large** defamation style tank buster, and the other dragon will do a large conal cleave horizontally through the middle of the arena.
+::: info NOTE
+Since we can't predict who gets targeted, the strategy has 3 groups of 2: one **"plant"** per group, and one **"flex"** player who swaps out if their partner ends up with the same tether type.
+:::
 
-(Image WB1 Tanks)
+Tanks don't need to worry about tethers — instead, watch both dragons' mouths to see whether a single or 2-person tankbuster is coming:
 
-Immediately afterwards, all players should spread away from DPS players as a random DPS will be assigned **Mortal Vow** in the form of a targeted AoE.
+| Mouths           | Resolution                                                                                                                                                                                                              |
+| :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Both glowing** | Tanks **stack** and share the buster in the center of the arena to resolve the **Sustained Dark Damage** ^[Sustained Dark Damage] and **Sustained Light Damage** ^[Sustained Light Damage] debuffs applied by the orbs. |
+| **One glowing**  | Tank on the **non-glowing** dragon takes a large **defamation-style** buster; the other dragon does a large conal cleave through the middle                                                                             |
 
-**Mortal Vow** is essentially a 'hot potato' mechanic - at the end of the debuff timer (or when the player dies), it releases a small AoE on the player. Someone else must be hit by this AoE to receive and renew the Mortal Vow debuff. As mentioned initially, letting this debuff fall off without renewal will enrage Nidhogg.
+Immediately after, all players spread away from DPS as a random DPS is assigned **Mortal Vow** ^[Mortal Vow] via a targeted AOE.
 
-It should be noted that extra people caught in the AoE when passing will receive a vulnerability that will kill them next instance they take damage. Debuff passes will mostly happen in the middle of the arena when it is time to do so. Therefore, unless it is your job to do the debuff pass, stay away from the middle of the arena. Should an extra person catch the vulnerability debuff, they should wall when safe to do so to avoid dying to (particularly Hraesvelgr) a dragon's damage.
+::: info NOTE
+**Mortal Vow** ^[Mortal Vow] is a "hot potato": at the end of its timer (or on the player's death), it releases a small AOE and inflicts the holder with **Mortal Atonement** ^[Mortal Atonement].
+
+> The inflicted player will take lethal damage from a **Mortal Vow** ^[Mortal Vow] AOE.
+
+Someone else must be hit by this AOE to receive and renew the debuff. Letting it fall off without renewal enrages Nidhogg.
+
+Extra players caught in the pass AOE are inflicted with **Suppuration** ^[Suppuration], decreasing their maximum HP by 50% and increasing their damage taken. Stay away from the middle unless it's your job to do the pass.
+
+Should an extra person catch the **Suppuration** ^[Suppuration] debuff, they should wall when safe to do so to avoid dying to (particularly Hraesvelgr) a dragon's damage.
+:::
 
 ::: healer
-Mortal Vow gives a mild DoT. It isn't anything you have to focus on heavily but just be aware in case an under-mitted raidwide leaves them on single digit HP.
+**Mortal Vow** ^[Mortal Vow] gives a mild DOT. It isn't anything you have to focus on heavily but just be aware in case an under-mitted raidwide leaves them on single digit HP.
 :::
 
 ::: info NOTE
-D1 and D2 must pay attention to who received the first Mortal Vow as this will affect who does a pass later on in the phase.
+Because previous **Mortal Vow** ^[Mortal Vow] holders are inflicted by **Mortal Atonement** ^[Mortal Atonement], D1 and D2 should note who received the first Mortal Vow, as it affects who does a pass later in the phase.
 :::
 
-After Mortal Vow is given to the first DPS player, the dragons cast:
+After the first Mortal Vow is assigned, both dragons cast: **Akh Afah**.
 
 #### Akh Afah 1
 
-These are 2 light party stacks with a "hand of pain" check - as mentioned previously, if by the end of the cast the 2 bosses are more than 2.8% apart, one will wipe a light party and the pull is essentially done. If the HP's are too far apart, there will be a tether between the 2 dragons which is your indicator to balance them out as soon as possible.
+2 light-party stacks with the hand-of-pain HP check. If the dragons' HP is too far apart by cast finish, the light party being targeted by the **higher health dragon** will be inflicted with lethal damage. A tether between the 2 dragons signals which dragon is higher health:
 
-Everyone will be near the middle of the arena for this, with LP1 leaning northwards and LP2 leaning southwards.
+- Purple Tether -> **Nidhogg HP too high**
+- White Tether -> **Hraesvelgr HP too high**
 
-Very shortly after, Nidhogg will fly away and Hraesvelgr will cast:
+Everyone stacks near the middle: LP1 leaning north, LP2 leaning south.
+
+Nidhogg then flies away, and Hraesvelgr casts: **Hallowed Wings**.
 
 #### Hallowed Wings 1 (HW1)
 
-This mechanic involves 2 separately baited tankbusters while only a quarter of the arena is safe. There are 3 components to reading this mechanic and you can read them in any order that works for you:
+Two separately baited tankbusters, with only a quarter of the arena safe. Read all 3 components in whatever order works for you:
 
-- Nidhogg will cleave across the entire west or east half the arena. You will have to check the north or south wall to see where he is coming from.
-- One of Hraesvelgr's wings will glow brightly, cleaving the entire north or south of the arena.
-- Hraesvelgr's head will either be low (tankbusters on the 2 closest players) or high up (tankbusters on the 2 furthest players).
+- Nidhogg cleaves the entire **West** or **East** half of the arena — check the **North** / **South** wall to see which side he's coming from.
+- One of Hraesvelgr's wings glows, cleaving the entire **North** or **South** of the arena.
+- Hraesvelgr's head is either **low** (busters on the **2 closest players**) or **high** (busters on the **2 furthest players**).
 
-Once you find the safe quadrant, the tanks will position to bait the tankbuster while the rest of the party groups up on the opposite side.
+Once the safe quadrant is found, **Tanks** position to bait the buster while the rest of the party groups on the opposite side.
 
-Both Nidhogg will return and both dragons will do a few autoattacks. We will now pass Mortal Vow - the DPS with Mortal Vow and the MT will go mid, passing the debuff to the MT. Everyone else must steer clear.
+Both dragons return and auto-attack a few times. **Mortal Vow** ^[Mortal Vow] now passes: the **current holder** and the **Main Tank** go mid, passing the debuff — everyone else stay clear of middle.
 
-::: info NOTE
-Even after Nidhogg returns, it is recommended to focus hitting Hraesvelgr as he will be untargettable for the next mechanic.
+::: damage
+Even after Nidhogg returns, **keep focusing Hraesvelgr**, as he'll be untargetable for the next mechanic.
 :::
 
-After the pass Nidhogg will cast:
+After the pass, Nidhogg casts: **Wroth Flames**.
 
 #### Wroth Flames
 
-::: warning
-This mechanic involves heavy-hitting party stacks while moving, so generally most major mitigations are sent here to ease stress on healers.
+::: healer
+This mechanic is a heavy-hitting party stack while moving, so most major mitigations are typically saved for here.
 :::
 
-4 players will be inflicted with a spread debuff <img width="24" height="32" alt="Spreading_flames_icon1" src="https://github.com/user-attachments/assets/164264cb-3da3-45b8-9982-0135aba84d13" /> , 2 players with a pair stack debuff <img width="24" height="32" alt="Entangled_flames_icon1" src="https://github.com/user-attachments/assets/d3f81a50-90c2-400c-962b-350cac1e6698" /> , and 2 players with nothing (who will assist with the pair stacks). These do not resolve until the very end of the mechanic.
+- 4 players are given a **Spreading Flames** ^[Spreading Flames] debuff.
+    > Resolves under **Nidhogg**, at the very end of the mechanic.
+- 2 players are given a **Entangled Flames** ^[Entangled Flames] debuff.
+    > Resolves under **Hraesvelgr**, at the very end of the mechanic.
+- 2 players are given **nothing**.
+    > Assist with the **Entangled Flames** ^[Entangled Flames] stacks.
 
-Nidhogg will prepare Akh Morn (a 4-hit party stack that leaves a lethal puddle behind) and Hraesvelgr will fly away and prepare to cleave the entire west or east side of the arena. Three sets of fire orbs will also spawn that will do large plus + shaped AoEs when they resolve. The goal is to dodge all of these together as a party as you soak the repeated Akh Morn stacks.
+Nidhogg prepares **Akh Morn** (a 4-hit party stack leaving a lethal puddle), while **Hraesvelgr** flies away to prepare a cleave of the entire **West** or **East** side of the arena. Three sets of fire orbs also spawn, forming large plus-shaped AOEs on resolution. The goal is to dodge all of these as a party while soaking the repeated **Akh Morn** stacks.
 
-The starting safe spot will be close to a corner of the arena. To determine where to start:
+##### Starting Position
 
-- Move to the side where Hraesvelgr isn't cleaving (need to check the north or south wall to see where he is coming from).
-- Watch where the 2nd set of orbs spawn and move to the corner opposite it (from north/south perspective).
-  So, for example, if Hraesvaelgr is cleaving the west side of the arena, and the 2nd orb spawns north east, the party will start south east.
-
-The party will then do a fixed "J" shaped movement, gradually moving to the middle of the arena.
-
-::: warning
-Stack tightly and do not run ahead - stop at the edge of each puddle before making the next step. Sprint is not essential for the movement and should only be used if you read the safe spot too late and need to make it to the party in time.
-:::
-
-!diagram to be added.
-
-After the dodges, Nidhogg will cast Hot Tail (sides of Nidhogg safe) or Hot Wing (centre line through Nidhogg's hitbox safe). At the end of this cast is where the stack/spread debuffs resolve. Note that if it is Hot Tail, the party will resolve debuffs on the side opposite of where they started.
-
-The spreads will spread under Nidhogg, while the stacks move under Hraesvelgr.
+- Move to the side Hraesvelgr **isn't** cleaving (check the **North** / **South** wall for his approach).
+- Watch where the 2nd set of orbs spawns and move to the opposite corner on the same wall.
 
 ::: info NOTE
-MUR PF uses AMs to determine spread and stack positions. If you wish to do it legitimately, the spreads are fairly yoloable and you can devise a simple prio system (or just communicate in chat) for the stacks. Whatever you do, give priority for tanks to be towards the centre of the arena as they need to move middle for Mortal Vow pass after this mechanic.
+Example: if Hraesvelgr cleaves **West** and the 2nd orb spawns **North-East**, the party starts **South-East**.
 :::
 
-After the spread and stacks resolve, there will be another Mortal Vow pass. Both tanks will move to the middle of the arena (friendly reminder for everyone else to not be middle), and it will pass from the MT to the OT.
+The party then performs a fixed "J"-shaped movement, gradually moving toward the middle.
 
-Use this time to quickly balance out the boss's HP, as after the pass, both dragons will cast:
+::: warning
+Stack tightly and don't run ahead — stop at the edge of each puddle before the next step. Sprint isn't essential here and should only be used if you read the safe spot late.
+:::
+
+After the dodges, Nidhogg casts **Hot Tail** (sides of his hitbox safe) or **Hot Wing** (center line through his hitbox safe) — the **Spreading** ^[Spreading Flames] / **Entangled flames** ^[Entangled Flames] debuffs resolve at the end of this cast.
+
+::: info NOTE
+On **Hot Tail**, the party resolves debuffs on the **North** / **South** cardinal **opposite** where they started.
+:::
+
+::: info NOTE
+Most parties will use **Auto Markers** to fix spread/stack positions. Doing it "legit," spreads are fairly yoloable and stacks just need a simple priority system or in-chat callouts (or first come first serve basis). Give tanks priority to be towards the center, as they need to move mid for the Mortal Vow pass right after.
+:::
+
+After the spreads/stacks resolve, there's another **Mortal Vow** ^[Mortal Vow] pass: **both tanks** move to the middle (everyone else, stay clear), passing from **Main Tank** to **Off Tank**. Use this window to balance the bosses' HP, as both dragons then cast: **Akh Afah**.
 
 #### Akh Afah 2
 
 This is the exact same as the first one, position in light parties just like before.
 
-Hraesvelgr will shortly after cast:
+Hraesvelgr then casts:
 
 #### Hallowed Wings 2 (HW2)
 
-This is the same tankbuster from HW1, but instead of Nidhogg cutting half the arena, he will cast Hot Wings or Hot Tail. Check which half Hraesvelgr is cleaving and his head position. The OT will always be towards the centre line of the arena, and MT, or the party will be under or on the complete opposite side Hraesvelgr, depending on whether it is a near or far bait. Be careful with the Hot Wings pattern in particular as the line of safe spot can be tight:
+The same tankbuster pattern as **Hallowed Wings 1**, but instead of Nidhogg cutting the arena in half, he casts **Hot Wings** or **Hot Tail**. Check which half Hraesvelgr is cleaving and his head position:
 
-!diagram to be added.
+- **Off Tank** is always towards the center line.
+- **Main Tank / party** are under or on the complete opposite side of Hraesvelgr, depending on a near or far bait.
 
-There will be another Mortal Vow pass after HW2. This will be with the OT passing to D1, unless D1 was the first vow - in that case, D2 will do the pass instead as D1 will have a vulnerability. This is a friendly reminder for everyone else, once again, to stay away from mid. After, both dragons will begin to cast:
+::: warning
+Hraesvelgr's cleave is **slightly bigger than 50% of the arena**. The **Hot Wings** pattern's safe line can be especially tight due to this.
+:::
+
+Another **Mortal Vow** ^[Mortal Vow] pass follows this: **Off Tank** passes to D1, unless D1 held the first vow (in which case D2 passes instead, since D1 will have ^[Mortal Atonement]). Everyone else, once again, stay away from mid.
+
+Both dragons then begin to cast:
 
 #### Wyrmsbreath 2 (WB2)
 
-WB2 as a mechanic conceptually functions the same way as WB1, however this time we don't want to cancel our debuffs out for the mechanic after. Healers and DPS have fixed positions that if done correctly, will always result in them only getting hit by 1 tether and keeping their ice or fire debuff.
+Conceptually the same as **Wyrmsbreath 1**, but this time we do **not** want to cancel out our tether debuffs. Healers and DPS use fixed positions that, if done correctly, ensure each player is hit by only 1 tether and keeps their ice or fire debuff for the mechanic after.
 
 ::: info NOTE
-Don't worry if your tether is not stretched, just stand in the exact spot as per diagram.
+Don't worry if your tether isn't visually stretched — just stand in the exact diagram spot.
 :::
 
-Tanks once again need to check the mouths of both dragons - if both are glowing (shared tankbuster), they resolve this in the middle of the arena. If only one is glowing, they can move to their fixed spread spot to take the tankbuster (be careful, as you may recall if only one is glowing, the centre is not safe due to the breath AoE).
+::: healer
+It can be useful to keep an eye on the HP of the **Mortal Vow** ^[Mortal Vow] DPS, especially if their tether isn't visually stretched.
+:::
 
-!diagram to be added. For melees, pay particular attention to the floor patterning to ensure you position correctly.
+Tanks again check both dragons' mouths:
+
+| Mouths           | Resolution                                                                              |
+| :--------------- | :-------------------------------------------------------------------------------------- |
+| **Both glowing** | Shared buster, resolved in the middle                                                   |
+| **One glowing**  | Move to the fixed spread spot for the buster (center is **not** safe due to breath AOE) |
+
+::: info NOTE
+Melee players should pay particular attention to floor patterning to position correctly here.
+:::
 
 #### Cauterize
 
-Once everything resolves, the dragons will fly away to north, preparing to cast Cauterize and cleave their half side of the arena with a wild charge (front player takes the most damage) dash. Healers need to quickly top everyone up, paying extra attention if any DPS had an unstretched tether.
+Once everything resolves, both dragons fly north, preparing **Cauterize**: a wild-charge dash cleaving their half of the arena (front player takes the most damage). Healers should top the party up quickly, especially anyone with an unstretched tether from WB2.
 
-The MT will be frontmost on the west side, while the OT will be frontmost on the east side. Both will use their invulnerability here.
+- **MT** — frontmost, west side.
+- **OT** — frontmost, east side.
+- Both tanks use invulnerability here.
 
-Healers and DPS on the other hand need to move to the side with the dragon opposite their debuff. If they were hit by ice in WB2, they will stand in Nidhogg's path. If they were hit by fire, they will stand in Hraesvelgr's path. This is how we will survive cauterize, as well as cancel out our debuffs.
+Healers and DPS move to the side with the dragon **opposite** their current debuff:
 
-At the end of the debuff timers their effect will take place. Ice players will freeze and fire players will receive pyretic debuff, causing significant damage if they perform any actions.
+| Debuff (from WB2)        | Stand in path of |
+| :----------------------- | :--------------- |
+| **Freezing** ^[Freezing] | Nidhogg          |
+| **Boiling** ^[Boiling]   | Hraesvelgr       |
+
+This both survives Cauterize and cancels the debuffs. At the end of the debuff timers, **Freezing** ^[Freezing] players freeze and **Boiling** ^[Boiling] players take a **Pyretic** ^[Pyretic] debuff, causing significant damage on any action taken.
 
 ::: warning
 
-- It is paramount if a healer(s) is fire to quickly top up before the their pyretic debuff activates.
-- Fire DPS, ESPECIALLY PHYS RANGED, should untarget the boss so autoattacks do not trigger the pyretic damage.
-  :::
+- **Boiling** ^[Boiling] healers must top up **before** their **Pyretic** ^[Pyretic] activates.
+- **Boiling** ^[Boiling] DPS — **especially Physical Ranged** — should untarget the boss so auto-attacks don't trigger Pyretic damage.
 
-One extra warning: as the dragons cleave just over half the arena, do not be close to the centre line and make sure you are well into the side you want to be cleaved in.
+:::
 
-Once the dragons fly across, everyone will move to the A waymark at north. Healers must quickly top everyone up again.
+::: warning
+As the dragons cleave just over half the arena, stay well clear of the center line and firmly inside the side you intend to be cleaved on.
+:::
+
+Once the dragons move, everyone will stack **North**. Healers top the party up again for the upcoming **Touchdown**.
 
 ::: healer
-If one of your tanks is a DRK make sure you individually top them up as well as they have nothing to hit to proc Living Dead.
+If one of your tanks is a DRK, top them up individually, as they have nothing to hit to proc Living Dead.
 :::
 
-The dragons jump down for:
+The dragons then jump down for: **Touchdown** & **Revenge of the Horde**
 
-#### Touchdown and Enrage
+#### Touchdown & Revenge of the Horde
 
 ::: info NOTE
-If one of the bosses had their vow broken due to Cauterize, Touchdown is liveable with a tank LB2.
+If one boss had their vow broken during Cauterize, Touchdown is liveable with a tank LB2.
 :::
 
-Nidhogg and Hraesvelgr will slam down on the centre and south of the arena, respectively, for proximity AoE damage. Everyone must run out to finish the bosses off, EXCEPT D3 and the melee who has Mortal Vow, to complete the final pass on the A waymark. They can move along once the pass has completed.
+Nidhogg and Hraesvelgr slam down on the center and south of the arena respectively, dealing **proximity** AOE damage. Everyone runs out to finish the bosses off, **except** D3 and the **Mortal Vow** ^[Mortal Vow] holder, who complete the final pass at **North** before moving.
 
 ::: info NOTE
-It is okay for D3 to pass here even if they were the first Mortal Vow player because their vulnerability would have fallen off by then.
+It's fine for **D3** to receive this pass even if they held the first Mortal Vow **Mortal Vow** ^[Mortal Vow] as their **Mortal Atonement** ^[Mortal Atonement] will have fallen off.
 :::
 
-Both dragons will then cast Revenge of the Horde, their enrage. Kill them.
+Both dragons then cast their enrage, **Revenge of the Horde**.
 
 ::: warning
-If the Mortal Vow fails to pass here, Nidhogg will still 'enrage,' giving him a defence up buff. Should this occur and depending on the current HP's of the bosses, you may need to send DPS LB to finish them off.
+If the **Mortal Vow** ^[Mortal Vow] pass fails here, Nidhogg still 'enrages', gaining a defence-up buff. Depending on current boss HP, DPS LB may be needed to finish them off.
 :::
 
 #### Transition
 
 Once both dragons die,
 
-- If Thordan died in Phase 5, you will wipe here as the Eyes of Nidhogg appear (like in Phase 4), but you will not receive the friendship buff.
-- If Thordan survived in Phase 5, continue on and prepare for the heavy raidwide transition:
+- **If Thordan died in Phase 5** — the party wipes here, as the Eyes of Nidhogg appear (as in Phase 4) but without the **Soul of Friendship** ^[Soul of Friendship] buff.
+- **If Thordan survived Phase 5** — continue, and prepare for the heavy raidwide transition.
 
-Use this downtime to mark your tanks with Ignore overhead markers, as they will take AoE attacks in the final phase. This will make it easier for the rest of the party to avoid them.
+Use this downtime to mark tanks with Ignore overhead markers, since they'll take AOE attacks in the final phase — this makes them easier for the rest of the party to avoid.
 
-Initially, the eyes will do a small raidwide with a bleed. This does not need mitigations - healers just need to GCD heal through it (do not spend major resources).
-
-Thordan will then return to absorb the eyes. He will do another small raidwide with a bleed to heal through again, same as before.
+The eyes first do a small raidwide with a bleed — no mitigation needed, just GCD-heal through it. Thordan then returns to absorb the eyes and does another small bleed raidwide, healed the same way.
 
 ::: info NOTE
-For Dancer players: if you are going to use Improvisation for the transition, as soon as Thordan does this raidwide, this is your cue to start channeling.
+Dancers using Improvisation for the transition should start channeling as soon as Thordan does this raidwide.
 :::
 
-Thordan will then begin channeling **Alternative End**, an extremely hard-hitting raidwide. Wait till the bleed falls off before applying shields and mitigations, then you will move onto the final phase:
+Thordan then begins channeling **Alternative End**, an extremely hard-hitting raidwide. **Wait for the bleed to fall off** before applying shields and mitigations, then move on to the final phase.
 
 ### Phase 7: Dragon King Thordan
 
 #### General Knowledge
 
 ::: tank
-If not already for whatever reason, make sure both of your stances are on.
+Make sure both of your stances are on if not already.
 
-The boss does not move for this phase but instead faces the highest enmity target. Mechanics occur based on his orientation so it is important you are always facing him north or south (A and 1, red waymarks for guidance) by the end of every mechanic to help your party.
+The boss doesn't move this phase — he faces the highest-enmity target instead. Mechanics resolve based on his orientation, so always end each mechanic facing him **North** or **South** (**A** and **1** / **Red** waymarks) to help the rest of the party.
 :::
 
 ::: healer
-Study your heal and mit plan religiously. This phase is very intense for you, but absolutely doable first-try if you are focused and prepared.
+Study your heal and mit plan closely. This phase is intense, but absolutely doable first-try if you're focused and prepared.
 :::
 
-This phase cycles through 3 major mechanics with 2 autoattacks in between. While they are not mechanically complex, they are a mostly a nerves check, hard-hitting
-and punishing (almost certain death) if executed incorrectly. There is a detailed mitigation plan available on the cheatsheet, and even more detailed plan based on healer combo in the Mitigations section at the top of this page (this includes mitigations for the transition).
+This phase cycles through **3 major mechanics** with **2 auto-attacks** in between. They're not mechanically complex, but they're a nerve check — hard-hitting and almost always lethal if executed incorrectly. See the cheatsheet for a mit plan overview, and the Mitigations section at the top of this page for a detailed plan by healer combo (including the transition).
 
-Tank and DPS mitigations, plus H2 30 second mitigation (Sacred Soil / Kerachole) timings are fairly non-negotiable, but there is some flexibility with long healer cooldowns based on the specific healer (e.g. AST may prefer to use Macrocosmos on Gigaflare 2, while WHM may prefer to use Bell on Akh Morn 2). If you're not 100% sure where to use major cooldowns, check a POV or log, or ask for help in #dsr-discussion in MUR.
+::: info NOTE
+Tank and DPS mitigations, plus H2's 30s cooldowns (Sacred Soil / Kerachole), are fairly non-negotiable — but there's flexibility with long healer cooldowns depending on the specific healer (e.g. AST may prefer Macrocosmos on Gigaflare 2, while WHM may prefer Bell on Akh Morn 2). If you're unsure where to use majors, check a PoV or log, or ask in #dsr-discussion in MUR.
+:::
 
 #### Flames / Ice of Ascalon
 
-During each major cast, Dragon King Thordan will imbue his swords with fire or ice. At the end of the cast:
+During each major cast, Dragon King Thordan imbues his swords with fire or ice. At the end of the cast:
 
-- Fire: be outside his hitbox.
-- Ice: be inside his hitbox (the outermost ring of his hitbox is the border of the donut).
+| Imbue    | Position                                                 |
+| :------- | :------------------------------------------------------- |
+| **Fire** | Be **outside** his hitbox                                |
+| **Ice**  | Be **inside** his hitbox (outermost ring = donut border) |
 
 #### Trinity (autoattacks)
 
-In between each mechanic, Dragon King Thordan will do 2× sets, of 3 AoE autoattacks.
+Between each mechanic, Dragon King Thordan performs 2 sets of 3 AOE auto-attacks:
 
-- The highest enmity player is hit and receives a stacking Dark Resistance Down debuff.
-- The 2nd enmity player is hit and receives a stacking Light Resistance Down debuff.
-- The closest player is hit and receives a Physical Vulnerability Up and both a Dark and Light Resistance Down debuff.
+| Target                 | Effect                                                                                                                                                         |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Highest enmity**     | Stacking **Dark Resistance Down** ^[Dark Resistance Down]                                                                                                      |
+| **2nd highest enmity** | Stacking **Light Resistance Down** ^[Light Resistance Down:3135]                                                                                               |
+| **Closest player**     | **Physical Vulnerability Up** ^[Physical Vulnerability Up] + both **Dark** ^[Dark Resistance Down] and **Light Resistance Down** ^[Light Resistance Down:3135] |
 
 ::: tank
-After every 2 autoattacks, you will need to switch aggro. As you will swap aggro regularly, shirk will not always be up - pay attention to the enmity gauge on your party list and depending the DPS disparity between you and your cotank, you may need to do some switching on/off with your stance.
+After every 2 auto-attacks, swap aggro. Shirk won't always be up, so watch the enmity gauge and adjust your stance based on the DPS gap with your co-tank.
 :::
 
 Each non-tank player will take turns running to the middle under the boss to bait these autoattacks. The assumed order is:
 
-- After Exaflares: D1 -> D2
-- After Akh Morns: D3 -> D4
-- After Gigaflares: H1 -> H2
+Non-tank players take turns running to the middle to bait these autos:
+
+| After      | Order   |
+| :--------- | :------ |
+| Exaflares  | D1 → D2 |
+| Akh Morns  | D3 → D4 |
+| Gigaflares | H1 → H2 |
 
 ::: info NOTE
-If anyone dies (e.g. D1 dies to Exaflare), someone else can take the auto and switch order with them.
+If a designated bait player dies (e.g. D1 to an Exaflare), someone else can take the auto and swap order with them.
 :::
 
 #### Exaflare's Edge
 
-The boss will spawn 3 sets of Exaflares, lethal AoEs that each cascade in 3 different directions as indicated by the arrows. There is one way to dodge them that is guaranteed to work every time, given the boss is facing north/south:
+3 sets of Exaflares spawn, lethal AOEs cascading in 3 directions per the indicating arrows. There's a dodge that reliably given the boss is facing north/south:
 
-First, move towards the boss's rear. Check whether his swords are ice or fire, and move in or out of his hitbox accordingly. Then, notice how on the Exaflare indicator, there is a beam of light in the center:
+1. Move towards the boss's rear, in or out of his hitbox depending on fire/ice.
+2. Note the beam of light in the center of the Exaflare indicator:
 
 <img width="1873" height="1017" alt="image" src="https://github.com/user-attachments/assets/92f31290-52dc-4e64-be27-c366312ffc25" />
 
-Exactly where this beam is, is where you will run to after the first hit. It can be tight on some patterns so hard focus on this spot and run to it immediately as the first hit goes off. After the next hit, you will want to run to the spot behind you, where the fancy lines on the ground intersect:
+3. Run to that spot as soon as the first hit lands — some patterns are tight, so commit immediately.
+4. After the next hit, run to the spot behind you, where the ground lines intersect:
 
 <img width="974" height="790" alt="image" src="https://github.com/user-attachments/assets/52828b27-66a1-49ac-8c76-af00d3c10223" />
 
-Everyone can just stay here until all the Exaflares have passed, except for the tanks and D1 who will move up opposite of the party for the Trinity autoattacks. These players still need to pay attention to the state of the Exaflares, as they need to position without getting caught by a stray AoE. The main emnity tank should run completely across to face the boss north/south, while the second emnity tank stands on either diagonal on the front side of the boss (i.e. just be away from the party, but not on top of your cotank)
+Stay here until all Exaflares pass, except for the tanks and D1, who move up opposite the party for the Trinity auto-attacks (while still watching Exaflare state to avoid stray AOEs). The main-enmity tank runs fully across to face the boss north/south; the second-enmity tank stands on either diagonal in front of the boss, away from the party but not overlapping their co-tank.
 
 ::: info NOTE
-Sprint isn't mandatory but extremely useful for Exaflares.
-
-If the boss wasn't facing north/south, you can still do the first dodge the same, just use the edge of the intial AoE marker closest to the wall as your indicator to where to run next. Yell at your tanks to do better next time.
+Sprint isn't mandatory but is extremely useful here. If the boss isn't facing **North** / **South**, do the first dodge the same way, and use the edge of the initial AOE marker closest to the wall as your reference point for the second — Yell at your tanks so they know to face the boss better next time.
 :::
 
 #### Akh Morn's Edge
 
-Dragon King Thordan will prepare 3 towers that deal hard-hitting multi-hit raidwide damage. If a tower is unsoaked, it will explode and wipe the party. Relative to his hitbox, 2 red ones spawns top left and top right and a blue one spawns at his rear. The first time the boss casts Akh Morn's Edge, he will do 5 sets of hits, but future Akh Morn's Edges will add 1 extra set.
+Dragon King Thordan prepares 3 towers dealing hard-hitting multi-hit raidwide damage. An unsoaked tower explodes and wipes the party. Relative to his hitbox: 2 red towers spawn **North-West** and **North-East**, and a blue one spawns at his **South**.
 
-H1-D1-D3 takes top left, H2-D2-D4 takes top right, and both tanks take the rear one.
+::: info NOTE
+The first Akh Morn's Edge is 5 sets of hits; each subsequent cast adds 1 extra set.
+:::
 
-Make sure you check whether the boss's swords are ice or fire. If ice, be in the hitbox while in the tower and stay still. If fire, be outside the hitbox while in the tower, but move into the hitbox after the first hit to be in range for heals.
+| Tower          | Group      |
+| :------------- | :--------- |
+| **North-West** | H1, D1, D3 |
+| **North-East** | H2, D2, D4 |
+| **Rear**       | Both tanks |
 
-Healers should play safe and spam GCD heals for the duration of the hits.
+Check whether the boss's swords are ice or fire:
+
+- **Ice** → stand inside the hitbox in the tower and stay still.
+- **Fire** → stand outside the hitbox in the tower, then move inside after the first hit to stay in heal range.
 
 ::: healer
-For White Mages, please note Cure 3 will **not** reach the party and you should spam Medica 1 instead (after precasting Medica 2 for the regen). You can use a Lily but do not overspend as you'd want them for Gigaflares (next mechanic).
+For White Mages: Cure III will **not** reach the party — spam Medica I instead (precast Medica II for the regen). A Lily can be used here but save most for Gigaflares.
 :::
 
 #### Gigaflare's Edge
 
-Dragon King Thordan will gradually spawn 3 proximity AoEs. Move opposite to where the first one spawned and check whether the sword is ice or fire.
+Dragon King Thordan will gradually spawn 3 proximity AoEs. Move opposite the first spawned AOE, and check the sword imbue.
 
 ::: warning
-If it is ice imbued, you must be as close to the edge of the boss's hitbox as possible. If you are too far in you will risk dying to the proximity damage.
+If it is **ice imbued**, you must be as close to the edge of the boss's hitbox as possible. If you are too far in you will risk dying to the proximity damage.
 :::
 
 <img width="967" height="686" alt="image" src="https://github.com/user-attachments/assets/c193bdfe-2cc1-4a66-bcea-432f104db655" />
 
 Check where the second one spawns and after the first hit, you want to rotate opposite the 2nd one as a party at max-melee distance around the boss's hitbox. As each hit goes off, the party must quickly be topped up as even even with mitigation they are hard-hitting.
 
-After all the Gigaflares have gone off, tanks should continue rotating until the main emnity tank reaches a red waymark to not only reface the boss north/south but to move away from the party for the autoattacks.
+After all Gigaflares resolve, tanks keep rotating until the main-enmity tank reaches a **North** / **South** waymark, both refacing the boss for **Exaflares** and clearing space from the party for the **Trinity** autos.
 
 #### Timeline
 
 With all the mechanics out of the way, here is the full cycle of mechanics:
 
 ::: tank
-As a reminder, remember to reface the boss either north or south (whichever is most convenient) during the autoattacks.
+As a reminder, remember to reface the boss either **North** or **South** (whichever is most convenient) during the autoattacks.
 
 **WATCH AGGRO CAREFULLY FOR THE AUTOATTACKS** because if any of you die, it is **very** difficult to recover.
 :::
 
 ::: healer
-Generally speaking, Akh Morn 2 will be the heaviest to heal as based on the mitigation plan, H2 will not have major cooldowns up for this.
+Generally speaking, **Akh Morn** 2 will be the heaviest to heal, as H2 typically won't have major cooldowns up for it per the mit plan.
 :::
 
 - Exaflare 1
@@ -1009,4 +1088,9 @@ Generally speaking, Akh Morn 2 will be the heaviest to heal as based on the miti
 
 Dragon King Thordan will cast Morn Afah's Edge (no ice or fire here), which will spawn 3 towers in the same formation as the Akh Morn towers. These will kill anyone inside, but if unsoaked will just blow up the whole party. Once soaked, they will continue to repeat in quick succession until the party is wiped.
 
-Relative to the boss hitbox, H1 will stand top left, H2 will stand top right and MT take the rear one. For the next set, D3 top left, D4 top right and OT rear. If the boss is still not dead by the third and final set, it is a wipe.
+| Set | North-West | North-East | South |
+| :-- | :--------- | :--------- | :---- |
+| 1st | H1         | H2         | MT    |
+| 2nd | D3         | D4         | OT    |
+
+If the boss is still not dead by the third and final set, it is a wipe.
