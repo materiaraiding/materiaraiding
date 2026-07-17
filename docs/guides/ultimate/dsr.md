@@ -372,8 +372,8 @@ Players split into pairs on each cardinal, per the cheatsheet, standing between 
 | :-------- | :------ |
 | **North** | MT / D3 |
 | **South** | OT / D4 |
-| **East**  | H1 / D1 |
-| **West**  | H2 / D2 |
+| **West**  | H1 / D1 |
+| **East**  | H2 / D2 |
 
 2 players will be marked with **Meteor** ^[Prey], a small red arrow above the player's head. These 2 players will **always** share the same role — that role is the **priority role** for this mechanic.
 
