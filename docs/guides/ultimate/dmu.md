@@ -18,7 +18,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 <ActionGroup
 :actions=" [
 { title: 'Phase 1: Kefka (Filo Arrows)', color: 'purple', href: 'https://raidplan.io/plan/BCd8L1CiFV-80hru' },
-{ title: 'Phase 2: Forsaken', color: 'yellow', href: 'https://raidplan.io/plan/uq7zdjvuu7uuw8fj#4'},
+{ title: 'Phase 2: Forsaken', color: 'yellow', href: 'https://raidplan.io/plan/ElAH80j71UVMuACp'},
 { title: 'Phase 2: Trines', color: 'yellow', href: 'https://raidplan.io/plan/apkh6ytq72w8pt3v'},
 {title: 'Phase 3: Chaos & Exdeath (tank LB3 BoA)',color:'green', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'},
 {title: 'Phase 3: Blackhole',color:'green', href: 'https://raidplan.io/plan/V0_JNICNGEamQ2no'},
@@ -120,7 +120,7 @@ Second in line ^[Second in Line]
 
 ## Cheatsheet
 
-![](\images\ultimate\dmu-cheatsheetv2.webp)
+![](\images\ultimate\dmu-cheatsheetv3.webp)
 [imgur Cheatsheet Collection](https://imgur.com/a/ffxiv-dancing-mad-ultimate-cheatsheet-oce-v1-AfjaSvr)
 
 ## Buff Timings
@@ -174,7 +174,7 @@ Diamond Waymarks
 }
 ```
 
-## Fight Writeup (W.I.P)
+## Fight Writeup
 
 ::: warning
 These strats are still being changed. Some sections may change as strategies develop.
@@ -391,11 +391,11 @@ During the forsaken raid-wide the group will position themselves like so to quic
 
 As the Dragoon I can immediately see that myself and my partner are **AOE** players, therefore we are Group B.
 
-Because each tower reassigns mechanics to players, we will quickly see a situation where **both players** in a tower are assigned the same mechanic.
+Because each tower reassigns mechanics to players, we will quickly see a situation where **two players of a pair** are assigned the same mechanic.
 
-To solve this we use a **south-adjust** system, where the rear player of each tower will **swap tower** if they have the **same debuff** as the player in front of them.
+To solve this we use the aforementioned **prio** system, where the **melee** player of each pair will **swap tower** if they have the **same debuff** as their partner.
 
-For example, if I am an AOE player during the first **odd** tower and both myself and the player in front of me are assigned **cone**, I will take the **relative West** cone position for the next set.
+For example, if both myself and my partner are assigned **cone** after the **first tower**, I will take the **relative East** cone position for the next set.
 
 ##### First Towers
 
@@ -425,7 +425,7 @@ A**A**A BBBB A
 
 The second set will also be resolved by **Group A** as stated in the order above. Because this is an **even** tower it will be resolved with the **2 cones** and **2 AOEs** that were distributed to Group A from the first towers.
 
-Because the mechanics are distributed **randomly**, the **south** player of each tower _must_ look at their tower partner to determine where they will position themselves.
+Because the mechanics are distributed **randomly**, **players** _must_ look at their partner to determine where they will position themselves.
 
 The AOE players will stand at the rear of their towers **away** from Kefka, whilst the cone players will stand at the front **inside Kefka's hitbox** to bait Kefka's clone.
 
@@ -1016,30 +1016,14 @@ Large orange **AOEs** will also bait on the closest **intercardinal/cardinal** t
 
 At the same time, Kefka will place a stack marker on the party. Players must **wait for the orange AOE to appear** before moving. Moving too early can result in baiting the AOE incorrectly and wiping the raid.
 
-There are only **2** possible patterns during this mechanic. Using the waymarks:
+The movement provided ensures that there will never be variation in dodges:
 
-Pattern 1:
-
-- **3** -> **C** -> **4** -> **D** -> **4**
-
-Pattern 2:
-
-- **3** -> **C** -> **4** -> **C** -> **4**
-
-The total movements can be summarised as such:
-
-- Start **South East**. Rotate **LEFT** (2x)
-- On **3rd set**, rotate **LEFT** unless blocked then rotate **RIGHT**.
-- The last movement will always involve the party moving back to **South-West**.
+- **C** -> **4** -> **1** -> **2** -> **3**
 
 ::: warning
 Players should aim to stay **just past** the waymark that they arrive at after dodging the AOE.
 
-This is to ensure that the next AOE cannot be placed in unpredictable positions, and allow the party to do the final **South-West** movement.
+This is to ensure that the next AOE cannot be placed in unpredictable positions, and allow the party to dodge the mechanic with no issues.
 :::
 
 Kefka will then finally cast his enrage: **Forsaken Null**
-
-::: info NOTE
-Guide is being finalised; consult current raidplans and videos for the most up-to-date strats.
-:::
