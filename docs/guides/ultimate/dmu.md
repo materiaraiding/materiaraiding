@@ -395,7 +395,7 @@ Because each tower reassigns mechanics to players, we will quickly see a situati
 
 To solve this we use the aforementioned **prio** system, where the **melee** player of each pair will **swap tower** if they have the **same debuff** as their partner.
 
-For example, if both myself and my partner are assigned **cone** after the **first tower**, I will take the **relative East** cone position for the next set.
+For example, if both myself and my partner are assigned **cone** after the **first tower**, I will take the **relative Wast** cone position for the next set.
 
 ##### First Towers
 
