@@ -17,7 +17,7 @@ Toolboxes are an interactive guide that allows you to click through each phase i
 
 <ActionGroup
 :actions=" [
-{ title: 'Phase 1: Kefka (Filo Arrows)', color: 'purple', href: 'https://raidplan.io/plan/BCd8L1CiFV-80hru' },
+{ title: 'Phase 1: Kefka (Filo Arrows)', color: 'purple', href: 'https://raidplan.io/plan/p4ac8kpds6cypyh7' },
 { title: 'Phase 2: Forsaken', color: 'yellow', href: 'https://raidplan.io/plan/ElAH80j71UVMuACp'},
 { title: 'Phase 2: Trines', color: 'yellow', href: 'https://raidplan.io/plan/apkh6ytq72w8pt3v'},
 {title: 'Phase 3: Chaos & Exdeath (tank LB3 BoA)',color:'green', href: 'https://raidplan.io/plan/bAcI24JsBuuVxhZ9'},
