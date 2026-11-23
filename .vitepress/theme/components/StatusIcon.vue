@@ -20,10 +20,10 @@ export default {
 	computed: {
 		iconSrc() {
 			if (this.id) {
-				const status = statusData.find((s) => s.Name === this.name && s.ID === Number(this.id));
+				const status = statusData.find((s) => s.Name.trim() === this.name.trim() && s.ID === Number(this.id));
 				return status ? status.Icon : "";
 			}
-			const status = statusData.find((s) => s.Name === this.name);
+			const status = statusData.find((s) => s.Name.trim() === this.name.trim());
 			return status ? status.Icon : "";
 		},
 	},
