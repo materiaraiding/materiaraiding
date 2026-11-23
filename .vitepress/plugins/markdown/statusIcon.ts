@@ -40,6 +40,6 @@ export const statusIconPlugin = (md: MarkdownIt) => {
 
 	md.renderer.rules.statusIcon_inline = (tokens, idx) => {
 		const {name, id} = tokens[idx].meta;
-		return `<StatusIcon name="${name}"${id ? ` id="${id}"` : ""}" />`;
+		return `<StatusIcon name="${name}"${id ? ` id="${id}"` : ""} />`;
 	};
 };
