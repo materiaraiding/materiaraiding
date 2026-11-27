@@ -24,7 +24,9 @@ export const statusIconPlugin = (md: MarkdownIt) => {
 			return false;
 		}
 
-		const [name, id] = value.split(":");
+		const m = value.match(/^(.*):(\d+)$/);
+		const name = (m ? m[1] : value).trim();
+		const id = m ? m[2] : null;
 
 		const token = state.push("statusIcon_inline", "", 0);
 		token.meta = {name, id: id ?? null};
@@ -38,6 +40,6 @@ export const statusIconPlugin = (md: MarkdownIt) => {
 
 	md.renderer.rules.statusIcon_inline = (tokens, idx) => {
 		const {name, id} = tokens[idx].meta;
-		return `<StatusIcon name="${name}"${id ? ` id="${id}"` : ""}" />`;
+		return `<StatusIcon name="${name}"${id ? ` id="${id}"` : ""} />`;
 	};
 };
